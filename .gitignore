@@ -1,0 +1,16 @@
+node_modules/
+__pycache__/
+edicoes/*/avatar/
+edicoes/*/capa/
+edicoes/*/prints/
+edicoes/*/build/
+edicoes/*/*.mp4
+edicoes/*/*.jpg
+edicoes/*/cena.js
+edicoes/*/.mapa.html
+edicoes/*/*.log
+edicoes/*/pesquisa/*.log
+edicoes/*/ficha-motor.json
+.render.lock
+auto/.rodando
+*.envio-v3.json

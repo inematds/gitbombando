@@ -1,0 +1,10 @@
+{
+  "name": "gitbombando",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bombando no GitHub: reel 9:16 diário com o Top 10 do GitHub Trending, gráficos e o avatar do Nei (motor do r7ex)",
+  "type": "module",
+  "dependencies": {
+    "playwright": "1.64.0"
+  }
+}

@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@500;700;900&family=JetBrains+Mono:wght@500;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/deck.gl@9.0.38/dist.min.js"></script>
+<script src="geo.js"></script>
+<script src="cena.js"></script>
+<style>
+:root{--red:#ff2a1f;--amb:#FACC15;--blu:#5ec8ff;--ink:#0b0f14}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#05080c;font-family:Inter,sans-serif;color:#fff}
+#mapa{position:absolute;inset:0}
+#vinheta{position:absolute;inset:0;pointer-events:none;
+ background:linear-gradient(180deg,rgba(5,8,12,.95) 0,rgba(5,8,12,.0) 330px,rgba(5,8,12,0) 1300px,rgba(5,8,12,.92) 1650px,rgba(5,8,12,1) 1920px)}
+#topo{position:absolute;left:56px;right:56px;top:70px;display:flex;justify-content:space-between;align-items:center}
+#marca{font:900 28px Inter;letter-spacing:6px;white-space:nowrap;flex-shrink:0}
+#selo{background:var(--red);border-radius:40px;padding:10px 22px;font:900 22px Inter;letter-spacing:1px;white-space:nowrap}
+/* telas: foto cheia por cima do mapa (capa do quadro 0, ilustração de granizo); topo, painel e legenda ficam por cima (13/10/2026) */
+#telas{position:absolute;inset:0;pointer-events:none}
+#telas .tl{position:absolute;inset:0;overflow:hidden;opacity:0}
+#telas .tl img{width:100%;height:100%;object-fit:cover;transform-origin:50% 40%}
+/* foto escurecida embaixo (legenda + painel + avatar em y 1150–1920) e mais calma; r7ex 19/10/2026 ("imagens saturadas") */
+#telas .tl.base::after,#telas .tl.foto::after{content:'';position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(5,8,12,.45) 0,rgba(5,8,12,0) 240px,rgba(5,8,12,0) 860px,rgba(5,8,12,.82) 1150px,rgba(5,8,12,.96) 1380px)}
+#telas .tl.foto img{filter:brightness(.92) saturate(.9)}
+#telas .tl .sl{z-index:2;position:absolute;right:40px;top:130px;background:rgba(11,15,20,.78);border-radius:8px;padding:6px 12px;font:800 20px Inter;letter-spacing:1px;color:#e6e9ee}
+#selo:before{content:"●  ";}
+.painel{position:absolute;left:56px;right:56px;top:170px;background:rgba(14,18,24,.86);border:2px solid rgba(255,255,255,.12);
+ border-radius:22px;padding:26px 34px;opacity:0;backdrop-filter:blur(6px)}
+.painel .k{font:900 22px Inter;letter-spacing:2px;color:#ff8a80;text-transform:uppercase;margin-bottom:6px}
+.painel .n{font:400 150px/1 'Archivo Black';letter-spacing:-3px;display:inline-block}
+.painel .u{font:900 40px Inter;margin-left:16px;display:inline-block;vertical-align:baseline}
+.painel .l{font:700 30px Inter;line-height:1.25;margin-top:10px;opacity:.95}
+.painel .itens div{font:900 52px Inter;line-height:1.25;opacity:.25}
+.painel .itens div.on{opacity:1}
+.painel .graf{margin-top:10px;width:100%;display:block}
+.painel .graf text{font-family:Inter,sans-serif;fill:#fff}
+.painel .rk{margin-top:10px}
+.painel .rk .r{display:flex;align-items:center;gap:10px;margin:7px 0;font:800 22px Inter}
+.painel .rk .r .nm{flex:0 0 46%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.painel .rk .r .bar{flex:1;height:26px;background:rgba(255,255,255,.08);border-radius:7px;overflow:hidden}
+.painel .rk .r .bar i{display:block;height:100%;border-radius:7px}
+.painel .rk .r .vl{flex:0 0 auto;min-width:84px;text-align:right;font:900 26px Inter}
+.painel .rk .r.top .nm{font-size:22px;color:#fff}.painel .rk .r.top .vl{font-size:38px}
+.painel .rk .r .bar{flex:1 1 0;min-width:40px}
+.painel .leg{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:6px;font:800 20px Inter}
+.painel .leg i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+#hero{position:absolute;left:0;right:0;top:130px;padding:50px 56px 60px;opacity:0;background:linear-gradient(180deg,rgba(5,8,12,.92) 70%,rgba(5,8,12,0))}
+#hero .dt{display:inline-block;background:#fff;color:#0b0f14;font:900 44px Inter;padding:8px 22px;border-radius:12px;margin-bottom:18px;letter-spacing:1px}
+#hero .t1{font:400 150px/0.95 'Archivo Black';letter-spacing:-2px}
+#hero .t2{font:400 150px/0.95 'Archivo Black';color:var(--red);letter-spacing:-2px}
+#hero .t3{font:400 118px/1 'Archivo Black';color:#5ec8ff;margin-top:16px;text-shadow:0 0 30px rgba(94,200,255,.5)}
+#hero .t4{font:700 42px/1.2 Inter;margin-top:10px;max-width:900px}
+#fonte{position:absolute;left:56px;right:56px;top:1430px;background:rgba(14,18,24,.88);border-radius:14px;padding:16px 22px;
+ font:500 22px/1.35 Inter;color:#d9dee5;opacity:0}
+#fonte b{color:#fff}
+#relogio{position:absolute;left:56px;top:1360px;background:rgba(14,18,24,.88);border-radius:30px;padding:10px 22px;font:900 26px Inter;opacity:0}
+#relogio:before{content:"● ";color:#7CFC00}
+#leg{position:absolute;left:40px;right:40px;top:1560px;text-align:center;font:900 70px/1.1 Inter;letter-spacing:2px;text-transform:uppercase;
+ text-shadow:0 4px 18px rgba(0,0,0,.9)}
+#leg span{margin:0 10px}
+.pino{position:absolute;transform:translate(-50%,-100%);opacity:0;white-space:nowrap}
+.pino .cx{background:rgba(14,18,24,.9);border-radius:10px;padding:8px 14px;font:900 30px Inter;border-left:6px solid var(--red)}
+.pino .cx small{display:block;font:700 20px Inter;color:#ffb3ad}
+.pino .haste{width:4px;height:var(--h,90px);background:linear-gradient(#fff,rgba(255,255,255,0));margin:0 auto}
+.pino .pt{width:22px;height:22px;border-radius:50%;background:#fff;border:6px solid var(--red);margin:-4px auto 0;box-shadow:0 0 22px var(--red)}
+#cta{position:absolute;left:56px;right:56px;top:170px;background:var(--red);border-radius:22px;padding:30px 36px;opacity:0}
+#cta .a{font:400 64px/1.05 'Archivo Black'}
+#cta .b{font:700 30px/1.3 Inter;margin-top:12px}
+#club{position:absolute;left:56px;right:56px;top:1250px;background:#fff;color:#0b0f14;border-radius:20px;padding:22px 30px;opacity:0;
+ display:flex;align-items:center;gap:22px}
+#club .ic{width:70px;height:70px;border-radius:14px;background:var(--red);display:grid;place-items:center;font:900 40px Inter;color:#fff}
+#club .tx{font:900 40px/1.1 Inter}
+#club .tx small{display:block;font:700 26px Inter;color:#556}
+/* fecho segurado (Nei, 28/10/2026): depois da última palavra o cartão fica ~9 s e o gesto de comentar é encenado:
+   campo de comentário → texto digitando → Publicar → comentário publicado. Sem legenda (a fala acabou). */
+#fecho{position:absolute;inset:0;background:#0c0c10;opacity:0;pointer-events:none}
+#comenta{position:absolute;left:56px;right:56px;top:470px;background:#16161c;border:2px solid rgba(255,255,255,.16);border-radius:28px;
+ padding:26px 30px 30px;opacity:0;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+#comenta .h{font:900 26px Inter;letter-spacing:3px;color:#FACC15;text-transform:uppercase;margin-bottom:18px}
+#comenta .lin{display:flex;align-items:center;gap:18px}
+#comenta .av{flex:0 0 72px;height:72px;border-radius:50%;background:#2a2a33;display:grid;place-items:center;font:900 34px Inter}
+#comenta .cx{flex:1;min-height:76px;border-bottom:3px solid #FACC15;font:800 44px/1.2 Inter;color:#fff;display:flex;align-items:center;overflow-wrap:anywhere}
+#comenta .cx .ph{color:rgba(255,255,255,.38);font-weight:700}
+#comenta .cur{display:inline-block;width:4px;height:48px;background:#FACC15;margin-left:4px;vertical-align:middle}
+#comenta .bt{display:flex;justify-content:flex-end;margin-top:22px;position:relative}
+#comenta .pub{background:#FACC15;color:#0c0c10;font:900 38px Inter;border-radius:999px;padding:14px 40px}
+#comenta .mao{position:absolute;font-size:72px;line-height:1}
+#comenta .pos{display:flex;gap:18px;align-items:flex-start;margin-top:24px;padding-top:22px;border-top:1px solid rgba(255,255,255,.12)}
+#comenta .pos b{display:block;font:800 26px Inter;color:#aab}
+#comenta .pos span{font:800 42px/1.2 Inter;color:#fff}
+#comenta .ok{font:900 26px Inter;color:#22c55e;margin-top:6px}
+/* modo avatar (formato 9:16 do explicavideos): avatar 1080x608 em y=1110, legenda abaixo */
+body.av #vinheta{background:linear-gradient(180deg,rgba(5,8,12,.95) 0,rgba(5,8,12,0) 330px,rgba(5,8,12,0) 900px,rgba(5,8,12,.9) 1100px)}
+body.av #fonte{top:988px;font-size:17px;line-height:1.3;padding:8px 14px}
+body.av #relogio{top:926px;font-size:22px;padding:7px 16px}
+body.av #club{top:860px}
+body.av #leg{top:1752px;font-size:64px}
+body.av #faixa{display:block}
+#faixa{display:none;position:absolute;left:0;right:0;top:1110px;height:608px;background:#000}
+#tagnei{display:none;position:absolute;left:28px;top:1062px;background:rgba(11,15,20,.85);border-left:6px solid var(--red);padding:8px 16px;font:900 24px Inter;letter-spacing:2px}
+
+/* modo canto: mapa cheio, painel embaixo à esquerda, avatar pequeno embaixo à direita (x 640–1040, y 1290–1743) */
+body.cn #vinheta{background:linear-gradient(180deg,rgba(5,8,12,.9) 0,rgba(5,8,12,0) 300px,rgba(5,8,12,0) 1050px,rgba(5,8,12,.75) 1300px,rgba(5,8,12,.95) 1920px)}
+body.cn .painel{top:1290px;left:40px;right:470px;padding:18px 22px;min-height:453px}
+body.cn .painel.g{top:1215px;min-height:0}
+body.cn .painel.g .n{font-size:84px}
+body.cn .painel .k{font-size:18px}
+body.cn .painel .n{font-size:112px;letter-spacing:-2px}
+body.cn .painel .u{font-size:30px;margin-left:10px}
+body.cn .painel .l{font-size:24px}
+body.cn .painel .itens div{font-size:34px;line-height:1.3}
+/* D14 (Nei, 20/10/2026): embaixo só UMA coisa (título, número ou logo); a lista sobe para cima da imagem */
+body.cn .painel{display:flex;flex-direction:column;justify-content:center}
+body.cn .painel .tt{font:400 112px/1.02 'Archivo Black';letter-spacing:-1px;color:#fff;overflow-wrap:anywhere}
+body.cn .painel .tt.m{font-size:80px}body.cn .painel .tt.p{font-size:60px}
+body.cn .painel .k{font-size:22px;margin-bottom:10px}
+body.cn .painel .n{font-size:170px}body.cn .painel .u{font-size:38px}
+body.cn .painel .lg{display:flex;align-items:center;justify-content:center;flex:1;min-height:260px}
+body.cn .painel .lg img{max-width:100%;max-height:300px;object-fit:contain}
+body.cn .painel .lg.pq{flex:0 0 auto;min-height:0;justify-content:flex-start;margin-bottom:14px}body.cn .painel .lg.pq img{max-height:150px}
+#lista{position:absolute;left:56px;right:56px;top:860px;background:rgba(12,12,16,.88);border:2px solid rgba(250,204,21,.45);border-left:10px solid #FACC15;
+ border-radius:22px;padding:18px 30px 22px;opacity:0;backdrop-filter:blur(6px)}
+#lista .k{font:900 22px Inter;letter-spacing:3px;color:#FACC15;text-transform:uppercase;margin-bottom:8px}
+#lista .it{font:900 46px/1.3 Inter;color:#fff}
+body.cn #cta{top:1290px;left:40px;right:470px;padding:22px 24px;min-height:300px}
+body.cn #cta .a{font-size:52px}
+body.cn #cta .b{font-size:26px}
+body.cn #club{top:1610px;left:40px;right:470px;padding:16px 20px}
+body.cn #club .tx{font-size:34px}
+body.cn #fonte{top:1800px;left:40px;right:40px;font-size:16px;line-height:1.3;padding:8px 14px;background:rgba(14,18,24,.7)}
+body.cn #relogio{top:1215px;font-size:22px;padding:7px 16px}
+/* legenda colada no topo do avatar/painel (borda em y 1286): ancorada pela base, cresce pra cima se quebrar (Nei, 18/10/2026) */
+body.cn #leg{top:auto;bottom:640px;font-size:66px}
+/* avatar em MEIA tela embaixo (1080x960 em y 960; parte 1 sempre, outras se a ficha pedir — Nei, 21/10/2026):
+   tudo sobe para a metade de cima; o painel de baixo some (o rosto ocupa o lugar dele) */
+body.cn.mt #leg{bottom:1010px}
+body.cn.mt #fonte{top:922px;bottom:auto;padding:5px 12px;font-size:15px}
+body.cn.mt .painel,body.cn.mt #relogio{visibility:hidden}
+body.cn.mt #lista{top:520px}
+body.cn.mt #cta{top:400px;right:40px;min-height:0}
+body.cn.mt #club{top:760px;right:40px}
+
+/* modo largo (16:9, explicação longa): mapa cheio 1920x1080, avatar na faixa da direita (x 1280–1920, no ffmpeg) */
+html.lg,html.lg body{width:1920px;height:1080px}
+body.lg #vinheta{background:linear-gradient(180deg,rgba(5,8,12,.85) 0,rgba(5,8,12,0) 220px,rgba(5,8,12,0) 760px,rgba(5,8,12,.92) 1080px)}
+body.lg #topo{left:48px;right:688px;top:36px}
+body.lg #marca{font-size:24px}
+body.lg #selo{font-size:18px;padding:8px 18px}
+body.lg .painel{top:110px;left:48px;right:auto;width:640px;padding:20px 26px}
+body.lg .painel .k{font-size:18px}
+/* gráfico/ranking no 16:9: painel largo até a coluna do avatar (15/10/2026, queimadas ano a ano) */
+body.lg .painel.g{width:1180px}
+body.lg .painel.g .k{font-size:24px}
+body.lg .painel .n{font-size:110px;letter-spacing:-2px}
+body.lg .painel .u{font-size:30px;margin-left:10px}
+body.lg .painel .l{font-size:24px}
+body.lg .painel .itens div{font-size:38px;line-height:1.25}
+body.lg #hero{top:90px;right:640px;padding:30px 48px 50px}
+body.lg #hero .t1,body.lg #hero .t2{font-size:120px}
+body.lg #hero .t3{font-size:96px}
+body.lg #hero .t4{font-size:34px;max-width:1100px}
+body.lg #fonte{top:1002px;left:48px;right:688px;font-size:17px;line-height:1.3;padding:8px 14px}
+body.lg #relogio{top:952px;left:48px;font-size:18px;padding:6px 14px}
+body.lg #leg{top:880px;left:40px;right:680px;font-size:56px}
+body.lg #cta{top:110px;left:48px;right:auto;width:760px;padding:24px 30px}
+body.lg #cta .a{font-size:54px}
+body.lg #cta .b{font-size:26px}
+body.lg #club{top:700px;left:48px;right:auto;width:640px;padding:16px 22px}
+/* largo SEM avatar (C.coluna): cards e manchete na coluna da direita, mapa livre à esquerda (12/10/2026) */
+body.lg.cd #vinheta{background:linear-gradient(90deg,rgba(5,8,12,0) 1200px,rgba(5,8,12,.9) 1290px),linear-gradient(180deg,rgba(5,8,12,.85) 0,rgba(5,8,12,0) 220px,rgba(5,8,12,0) 760px,rgba(5,8,12,.92) 1080px)}
+body.lg.cd .painel{top:110px;left:auto;right:36px;width:568px}
+body.lg.cd .painel .n{font-size:96px}
+body.lg.cd .painel .itens div{font-size:32px}
+body.lg.cd #hero{top:80px;left:auto;right:0;width:640px;padding:20px 36px 30px;background:none}
+body.lg.cd #hero>div:first-child[style*="Archivo"]{font-size:78px!important}
+body.lg.cd #hero .dt{font-size:30px}
+body.lg.cd #hero .t1,body.lg.cd #hero .t2{font-size:82px;line-height:1}
+body.lg.cd #hero .t4{font-size:28px;max-width:560px}
+body.lg.cd #cta{left:auto;right:36px;width:568px}
+body.lg.cd #cta .a{font-size:44px}
+body.lg.cd #club{top:760px;left:auto;right:36px;width:568px}
+body.lg #club .tx{font-size:34px}
+body.lg .pino .cx{font-size:26px}
+body.lg .pino .cx small{font-size:18px}
+/* clipe limpo para entrar em outro vídeo (explicavideo 9:16): sem faixa do topo (15/10/2026) */
+body.limpo #topo{display:none}
+body.limpo #vinheta{background:radial-gradient(120% 80% at 50% 45%,rgba(5,8,12,0) 55%,rgba(5,8,12,.55) 100%)}
+body.limpo .pino .cx{font-size:62px;padding:14px 26px;border-left-width:10px}
+body.limpo .pino .cx small{font-size:38px}
+body.limpo .pino .pt{width:30px;height:30px}
+/* diagrama animado (19/10/2026, Nei: "visual limpo, não só imagem: animações, diagramas"): fundo preto com grade leve,
+   nós que acendem na palavra falada; área y 150–1160 (acima da legenda/painel/avatar do modo canto) */
+#diag{position:absolute;inset:0;opacity:0;pointer-events:none;background:#0c0c10;
+  background-image:radial-gradient(ellipse at 50% 32%,rgba(250,204,21,.10),transparent 60%),linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:100% 100%,60px 60px,60px 60px}
+#diag .area{position:absolute;left:60px;right:60px;top:150px;height:1010px}
+#diag .dt{font:900 30px Inter;letter-spacing:4px;color:#FACC15;text-transform:uppercase;margin:0 0 26px 4px}
+#diag .no{position:relative;display:flex;align-items:center;gap:24px;background:rgba(20,24,32,.94);border:2px solid rgba(255,255,255,.14);border-radius:24px;padding:20px 28px;box-sizing:border-box}
+#diag .no.at{border-color:#FACC15;box-shadow:0 0 44px rgba(250,204,21,.28)}
+#diag .no.vd{border-color:#22c55e;box-shadow:0 0 44px rgba(34,197,94,.25)}
+#diag .no .ic{font-size:58px;line-height:1;flex:0 0 auto}
+#diag .no .tx{font:900 44px/1.1 Inter;color:#fff}
+#diag .no .tx small{display:block;font:700 26px/1.25 Inter;color:#a8b0bd;margin-top:6px}
+#diag .no .num{position:absolute;right:22px;top:16px;font:800 22px 'JetBrains Mono';color:rgba(250,204,21,.8)}
+#diag .seta{position:relative;height:58px;margin-left:70px}
+#diag .seta i{position:absolute;left:0;top:0;width:6px;border-radius:3px;background:#FACC15}
+#diag .seta b{position:absolute;left:-11px;width:0;height:0;border-left:14px solid transparent;border-right:14px solid transparent;border-top:18px solid #FACC15}
+#diag .hub{position:absolute;inset:60px 0 0 0}
+#diag .hub svg{position:absolute;inset:0;width:100%;height:100%}
+#diag .hub .no{position:absolute;width:290px;flex-direction:column;align-items:flex-start;gap:8px;padding:18px 22px}
+#diag .hub .no .ic{font-size:48px}#diag .hub .no .tx{font-size:34px}#diag .hub .no .tx small{font-size:23px}
+#diag .hub .cx{position:absolute;width:280px;height:280px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+  background:radial-gradient(circle,rgba(250,204,21,.22),rgba(20,24,32,.96) 70%);border:3px solid #FACC15;box-shadow:0 0 70px rgba(250,204,21,.3);box-sizing:border-box;padding:20px}
+#diag .hub .cx .ic{font-size:70px}#diag .hub .cx .tx{font:900 34px/1.1 Inter;color:#fff;margin-top:8px}
+#diag .term{background:#07090d;border:2px solid rgba(255,255,255,.16);border-radius:22px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+#diag .term .bar{height:54px;background:#151922;display:flex;align-items:center;gap:12px;padding:0 22px}
+#diag .term .bar i{width:18px;height:18px;border-radius:50%;background:#3a3f4b}#diag .term .bar i:first-child{background:#ff5f57}#diag .term .bar i:nth-child(2){background:#febc2e}#diag .term .bar i:nth-child(3){background:#28c840}
+#diag .term .bar span{margin-left:14px;font:800 22px 'JetBrains Mono';color:#8b93a1}
+#diag .term .ln{font:500 33px/1.45 'JetBrains Mono';color:#d6dbe3;padding:0 30px;white-space:pre-wrap;word-break:break-word}
+#diag .term .ln.cmd{color:#fff;font-weight:800}#diag .term .ln.cmd::before{content:'$ ';color:#FACC15}
+#diag .term .ln.ok{color:#4ade80;font-weight:800}#diag .term .ln.cm{color:#7d8696}
+#diag .term .corpo{padding:26px 0 34px}
+#diag .term .cur{display:inline-block;width:16px;height:32px;background:#FACC15;vertical-align:-5px;margin-left:4px}
+#diag .cp .no{padding:12px 24px}#diag .cp .no .ic{font-size:46px}#diag .cp .no .tx{font-size:38px}#diag .cp .no .tx small{font-size:22px;margin-top:3px}
+#diag .cp .seta{height:40px}
+
+/* gitbombando (28/10/2026): painel com contador + gráfico compacto, para não subir na legenda */
+body.cn .painel.g{top:1294px}body.cn .painel.g .n{font-size:92px}body.cn .painel.g .u{font-size:32px}body.cn .painel.g .leg{display:none}body.cn .painel.g .graf{margin-top:2px;max-height:196px}
+</style></head>
+<body>
+<div id="mapa"></div>
+<div id="vinheta"></div>
+<div id="telas"></div>
+<div id="diag"></div>
+<div id="pinos"></div>
+<div id="topo"><div id="marca">INEMA · ALERTA SUL</div><div id="selo"></div></div>
+<div id="hero"></div>
+<div id="lista"></div>
+<div id="painel" class="painel"></div>
+<div id="fecho"></div>
+<div id="comenta"></div>
+<div id="cta"></div>
+<div id="club"></div>
+<div id="relogio"></div>
+<div id="fonte"></div>
+<div id="faixa"></div>
+<div id="tagnei">NEI MALDANER · INEMA</div>
+<div id="leg"></div>
+<script>
+const C = window.CENA, G = window.GEO;
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const lerp=(a,b,k)=>a+(b-a)*k;
+// janela [ini,fim] com entrada/saida de dur s
+function vis(t,a,b,d=.35){ if(t<a||t>b) return 0; return Math.min(a<=0?1:clamp((t-a)/d),clamp((b-t)/d)); }
+function prog(t,a,dur){ return ease(clamp((t-a)/dur)); }
+// pseudo-aleatório estável
+function rnd(i){ const x=Math.sin(i*9301+49297)*233280; return x-Math.floor(x); }
+
+document.getElementById('selo').textContent=C.selo;
+if(C.marca) document.getElementById('marca').textContent=C.marca;
+if(C.limpo) document.body.classList.add('limpo');
+if(C.layout==='avatar') document.body.classList.add('av');
+if(C.layout==='canto') document.body.classList.add('cn');
+const LG=C.layout==='largo'; if(LG){document.documentElement.classList.add('lg'); document.body.classList.add('lg');}
+if(LG&&C.coluna) document.body.classList.add('cd');
+const W=LG?1920:1080, H=LG?1080:1920;
+const IMG={};
+function carregar(src){ if(IMG[src]) return IMG[src].p; const im=new Image(); im.src=src; IMG[src]={im,p:im.decode().then(()=>im)}; return IMG[src].p; }
+const preload=[]; if(C.sat){ if(C.sat.base) preload.push(carregar(C.sat.base)); if(C.sat.fundo) preload.push(carregar(C.sat.fundo.src)); (C.sat.ir?.frames||[]).forEach(f=>preload.push(carregar(f))); }
+(C.imagens||[]).forEach(m=>preload.push(carregar(m.src)));  // imagens extras, cada uma com bbox e janela de tempo
+(C.telas||[]).forEach(m=>preload.push(carregar(m.src)));
+(C.paineis||[]).forEach(m=>{ if(m.logo) preload.push(carregar(m.logo)); });
+(C.diagramas||[]).forEach(d=>(d.nos||[]).forEach(n=>{ const m=/src="([^"]+)"/.exec(n.ic||''); if(m) preload.push(carregar(m[1])); }));   // logo no nó (28/10/2026)    // fotos de tela cheia (sem isso o quadro 0 sai preto)
+// ---- partículas de vento (estado sequencial; reconstruído se o tempo voltar)
+let PART=null, tPart=-1;
+function campo(x,y,h){ const V=C.vento; const g=V.grade; const i=(x-g.x0)/g.dx, j=(y-g.y0)/g.dy;
+  const i0=Math.max(0,Math.min(g.nx-2,Math.floor(i))), j0=Math.max(0,Math.min(g.ny-2,Math.floor(j))); const fx=clamp(i-i0), fy=clamp(j-j0);
+  const at=(a,b)=>V.uv[h][b*g.nx+a];
+  const m=(k)=>lerp(lerp(at(i0,j0)[k],at(i0+1,j0)[k],fx),lerp(at(i0,j0+1)[k],at(i0+1,j0+1)[k],fx),fy);
+  return [m(0),m(1)]; }
+function passoVento(t){ const V=C.vento; const dt=1/30;
+  if(!PART||t<tPart){ PART=[]; for(let i=0;i<V.n;i++) PART.push({x:lerp(V.bbox[0],V.bbox[2],rnd(i)),y:lerp(V.bbox[1],V.bbox[3],rnd(i+7777)),vida:rnd(i+333)*V.vida,trilha:[]}); tPart=V.ini; }
+  while(tPart<t){ const h=Math.min(V.uv.length-1,Math.floor(lerp(V.hora0,V.hora1,clamp((tPart-V.ini)/(V.fim-V.ini)))));
+    PART.forEach((p,i)=>{ const [u,v]=campo(p.x,p.y,h); p.x+=u*V.k*dt; p.y+=v*V.k*dt; p.vida-=dt; p.trilha.push([p.x,p.y]); if(p.trilha.length>V.cauda) p.trilha.shift();
+      if(p.vida<=0||p.x<V.bbox[0]||p.x>V.bbox[2]||p.y<V.bbox[1]||p.y>V.bbox[3]){ p.x=lerp(V.bbox[0],V.bbox[2],Math.random()); p.y=lerp(V.bbox[1],V.bbox[3],Math.random()); p.vida=V.vida*(.5+Math.random()*.5); p.trilha=[]; } });
+    tPart+=dt; } }
+const munById={}; G.mun.features.forEach(f=>munById[f.properties.id]=f);
+
+// ---- câmera: interpola keyframes
+function camera(t){
+  const k=C.camera; let i=0; while(i<k.length-1 && t>=k[i+1].t) i++;
+  const a=k[i], b=k[Math.min(i+1,k.length-1)];
+  const p=b.t>a.t? ease(clamp((t-a.t)/(b.t-a.t))):0;
+  return {longitude:lerp(a.lon,b.lon,p),latitude:lerp(a.lat,b.lat,p),zoom:lerp(a.zoom,b.zoom,p),
+          pitch:lerp(a.pitch||0,b.pitch||0,p),bearing:lerp(a.bearing||0,b.bearing||0,p),
+          ...(C.layout==='avatar'||C.layout==='canto'?{padding:{top:0,bottom:C.padding_baixo||820,left:0,right:0}}:{}),
+          ...(LG?{padding:{top:0,bottom:0,left:0,right:C.padding_dir??640}}:{}),
+          ...(C.layout==='cheio'&&C.padding_topo?{padding:{top:C.padding_topo,bottom:0,left:0,right:0}}:{})};
+}
+const mapa = new deck.Deck({parent:document.getElementById('mapa'),width:W,height:H,controller:false,
+  initialViewState:camera(0),useDevicePixels:false,_animate:false,
+  parameters:{clearColor:C.ceu?[0,0,0,0]:[0.02,0.05,0.09,1]}});
+// céu opcional atrás do mapa (câmera muito inclinada mostra o horizonte): C.ceu = gradiente CSS (15/10/2026)
+if(C.ceu) document.getElementById('mapa').style.background=C.ceu;
+
+function camadas(t){
+  const L=[];
+  const S=C.sat; const comSat=S&&S.base&&IMG[S.base];
+  if(comSat){
+    // fundo opcional (ex.: Blue Marble do mundo) por baixo do satélite: sem ele a borda da imagem aparece com câmera inclinada (13/10/2026)
+    if(S.fundo&&IMG[S.fundo.src]) L.push(new deck.BitmapLayer({id:'satfundo',image:IMG[S.fundo.src].im,bounds:S.fundo.bbox,tintColor:S.fundo.tint||[200,200,200],opacity:1}));
+    L.push(new deck.BitmapLayer({id:'satbase',image:IMG[S.base].im,bounds:S.bbox,tintColor:S.tint||[200,200,200],opacity:1}));
+    if(S.ir){ const o=vis(t,S.ir.ini,S.ir.fim,.6);
+      if(o){ const fr=S.ir.frames; const x=clamp((t-S.ir.ini)/S.ir.dur)*(fr.length-1); const a=Math.floor(x), b=Math.min(fr.length-1,a+1), k=x-a;
+        L.push(new deck.BitmapLayer({id:'irA',image:IMG[fr[a]].im,bounds:S.bbox,opacity:o*(S.ir.alfa||.9)}));
+        if(b!==a) L.push(new deck.BitmapLayer({id:'irB',image:IMG[fr[b]].im,bounds:S.bbox,opacity:o*k*(S.ir.alfa||.9)}));
+        const R=document.getElementById('relogio'); R.textContent=S.ir.rotulo+' · '+S.ir.tempos[Math.round(x)]; R.style.opacity=o; }
+      else document.getElementById('relogio').style.opacity=0; }
+  }
+  (C.imagens||[]).forEach((m,i)=>{ const o=vis(t,m.ini,m.fim,m.fade??.8); if(!o) return;
+    L.push(new deck.BitmapLayer({id:'img-'+i,image:IMG[m.src].im,bounds:m.bbox,tintColor:m.tint||[255,255,255],opacity:o*(m.alfa??1)})); });
+  if(!comSat) L.push(new deck.GeoJsonLayer({id:'paises',data:G.paises,filled:true,stroked:true,getFillColor:[22,27,34],getLineColor:[70,80,95],lineWidthMinPixels:1.5}));
+  if(!comSat) L.push(new deck.GeoJsonLayer({id:'ufbase',data:G.uf,filled:true,stroked:false,getFillColor:[30,36,46]}));
+  else L.push(new deck.GeoJsonLayer({id:'paisesl',data:G.paises,filled:false,stroked:true,getLineColor:[255,255,255,90],lineWidthMinPixels:1.2}));
+  // camada de alerta por municipio
+  for(const a of C.alertas||[]){
+    const o=vis(t,a.ini,a.fim,.5); if(!o) continue;
+    const ordem=a.ordem||{};
+    if(!a._dados){const ids=new Set(a.ids); a._dados=G.mun.features.filter(f=>ids.has(f.properties.id));}
+    L.push(new deck.GeoJsonLayer({id:'al-'+a.id,data:a._dados,
+      filled:true,stroked:true,lineWidthMinPixels:.6,getLineColor:[255,255,255,Math.round(60*o)],
+      getFillColor:f=>{const d=ordem[f.properties.id]||0; const k=clamp((t-a.ini-d*a.varredura)/.4);
+        return [...a.cor, Math.round(a.alfa*255*k*o)];},
+      updateTriggers:{getFillColor:t,getLineColor:t}}));
+  }
+  // camada por estado (geo sem municípios): pinta as UFs listadas
+  for(const e of C.estados||[]){
+    const o=vis(t,e.ini,e.fim,.5); if(!o) continue;
+    if(!e._dados){const s=new Set(e.ufs); e._dados=G.uf.features.filter(f=>s.has(f.properties.uf));}
+    const k=clamp((t-e.ini)/.6);
+    L.push(new deck.GeoJsonLayer({id:'es-'+e.id,data:e._dados,filled:true,stroked:false,
+      getFillColor:[...e.cor,Math.round(e.alfa*255*k*o)],updateTriggers:{getFillColor:t}}));
+  }
+  L.push(new deck.GeoJsonLayer({id:'uf',data:G.uf,filled:false,stroked:true,getLineColor:C.uf_cor||[220,228,240,160],lineWidthMinPixels:C.uf_largura||2.5}));
+  // rios com desenho progressivo
+  for(const r of C.rios||[]){
+    const o=vis(t,r.ini,r.fim,.4); if(!o) continue;
+    const p=prog(t,r.ini,r.dur||2.5);
+    if(!r._paths){r._paths=[]; G.rios.features.filter(f=>f.properties.nome===r.nome).forEach(f=>{const cs=f.geometry.type==='LineString'?[f.geometry.coordinates]:f.geometry.coordinates; cs.forEach(c=>r._paths.push(c));});}
+    const q=Math.round(p*40)/40; if(r._q!==q){r._q=q; r._cort=r._paths.map(c=>c.slice(0,Math.max(2,Math.round(c.length*q))));}
+    const cortados=r._cort;
+    L.push(new deck.PathLayer({id:'rio-'+r.nome,data:cortados,getPath:d=>d,getColor:[94,200,255,Math.round(255*o)],
+      getWidth:r.largura||7,widthUnits:'pixels',capRounded:true,jointRounded:true,updateTriggers:{getColor:t}}));
+    L.push(new deck.PathLayer({id:'rioglow-'+r.nome,data:cortados,getPath:d=>d,getColor:[94,200,255,Math.round(70*o)],
+      getWidth:(r.largura||7)*4,widthUnits:'pixels',capRounded:true,updateTriggers:{getColor:t}}));
+  }
+  // colunas 3D
+  for(const c of C.colunas||[]){
+    const o=vis(t,c.ini,c.fim,.5); if(!o) continue;
+    const ordem=c.ordem||{};
+    // brilho opcional no chão de cada coluna (fogo): disco translúcido que cresce junto (15/10/2026)
+    if(c.brilho) L.push(new deck.ScatterplotLayer({id:'colb-'+c.id,data:c.dados,getPosition:d=>d.p,radiusUnits:'meters',
+      getRadius:d=>(c.raio||5500)*c.brilho*Math.sqrt(prog(t,c.ini+(ordem[d.id]||0)*c.varredura,1.2)),
+      getFillColor:d=>[...(d.cor||c.cor),Math.round(70*o)],updateTriggers:{getRadius:t,getFillColor:t}}));
+    L.push(new deck.ColumnLayer({id:'col-'+c.id,data:c.dados,diskResolution:12,radius:c.raio||5500,extruded:true,
+      elevationScale:1,getPosition:d=>d.p,
+      getElevation:d=>{const k=prog(t,c.ini+(ordem[d.id]||0)*c.varredura,1.2);return d.v*c.escala*k;},
+      getFillColor:d=>[...(d.cor||c.cor),Math.round(235*o)],material:{ambient:.55,diffuse:.6,shininess:40},
+      updateTriggers:{getElevation:t,getFillColor:t}}));
+  }
+  // pontos (raios, estações)
+  for(const s of C.pontos||[]){
+    const o=vis(t,s.ini,s.fim,.4); if(!o) continue;
+    const n=Math.round(s.dados.length*prog(t,s.ini,s.dur||3));
+    const vis_=s.dados.slice(0,n);
+    L.push(new deck.ScatterplotLayer({id:'pt-'+s.id,data:vis_,getPosition:d=>d.p,getRadius:d=>d.r||s.raio||3,radiusUnits:'pixels',
+      getFillColor:d=>{const idade=(t-(s.ini+(d.i/s.dados.length)*(s.dur||3)));const f=clamp(1-idade/.6);
+        return [...s.cor.map((c,j)=>Math.round(lerp(c,255,f))),Math.round(255*o)];},
+      stroked:!!s.borda,getLineColor:[255,255,255,Math.round(200*o)],lineWidthMinPixels:s.borda||0,
+      updateTriggers:{getFillColor:t}}));
+  }
+  if(C.vento){ const o=vis(t,C.vento.ini,C.vento.fim,.6);
+    if(o){ passoVento(t); L.push(new deck.PathLayer({id:'vento',data:PART.filter(p=>p.trilha.length>1),getPath:p=>p.trilha,
+      getColor:[255,255,255,Math.round(215*o)],getWidth:3.2,widthUnits:'pixels',capRounded:true,updateTriggers:{getPath:t,getColor:t}})); } }
+  return L;
+}
+
+// gráfico de previsão: barras empilhadas por série (ex.: regiões) por dia, sobe com prog; total em cima de cada coluna.
+// g = {rotulos:[..], series:[{nome,cor,v:[..]}], unid:'mm', ini, dur, previsto_a_partir: indice (colunas dali em diante hachuradas), linha:{nome,cor,v:[..],unid}}
+function grafico(g,t,p){
+  const W=620,H=270,L=58,R=10,T=26,B=46,n=g.rotulos.length,k=prog(t,g.ini??p.ini,g.dur||1.4);
+  const tot=g.rotulos.map((_,i)=>g.series.reduce((a,s)=>a+(s.v[i]||0),0)); const mx=Math.max(...tot,1)*1.12;
+  const bw=(W-L-R)/n, y=v=>H-B-(H-B-T)*v/mx; let o=`<svg class="graf" viewBox="0 0 ${W} ${H}">`;
+  for(let q=0;q<=3;q++){const v=mx*q/3; o+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="rgba(255,255,255,.14)"/><text x="${L-6}" y="${y(v)+5}" font-size="15" text-anchor="end" opacity=".7">${Math.round(v).toLocaleString('pt-BR')}</text>`;}
+  g.rotulos.forEach((r,i)=>{
+    const x=L+i*bw+bw*.14, w=bw*.72, prev=g.previsto_a_partir!=null&&i>=g.previsto_a_partir; let base=0;
+    g.series.forEach(s=>{const v=(s.v[i]||0)*k; if(v<=0) return; const y0=y(base+v), h=y(base)-y0;
+      o+=`<rect x="${x}" y="${y0}" width="${w}" height="${h}" fill="${s.cor}" opacity="${prev?.78:1}" ${prev?'stroke="#fff" stroke-opacity=".5" stroke-dasharray="5 4"':''}/>`; base+=v;});
+    // g.marcar = índices com rótulo (série longa: 24 barras não cabem rótulo em todas, 15/10/2026)
+    if(!g.marcar||g.marcar.includes(i)){
+    o+=`<text x="${x+w/2}" y="${y(base)-7}" font-size="19" font-weight="900" text-anchor="middle" opacity="${k}">${Math.round(tot[i]).toLocaleString('pt-BR')}</text>`;}
+    if(!(g.marcar_x||g.marcar)||(g.marcar_x||g.marcar).includes(i)){
+    o+=`<text x="${x+w/2}" y="${H-B+22}" font-size="18" font-weight="800" text-anchor="middle">${r}</text>`;}
+  });
+  if(g.linha){const L2=g.linha, mn=Math.min(...L2.v)-2, M2=Math.max(...L2.v)+2, yy=v=>H-B-(H-B-T)*(v-mn)/(M2-mn);
+    const pts=L2.v.map((v,i)=>[L+i*bw+bw/2,yy(v)]).slice(0,Math.max(1,Math.ceil(k*L2.v.length)));
+    o+=`<polyline points="${pts.map(q=>q.join(',')).join(' ')}" fill="none" stroke="${L2.cor}" stroke-width="4"/>`+pts.map((q,i)=>`<circle cx="${q[0]}" cy="${q[1]}" r="5" fill="${L2.cor}"/><text x="${q[0]}" y="${q[1]-10}" font-size="16" font-weight="800" text-anchor="middle" fill="${L2.cor}" style="fill:${L2.cor}">${Math.round(L2.v[i])}°</text>`).join('');}
+  o+='</svg>'; o+='<div class="leg">'+g.series.map(s=>`<span><i style="background:${s.cor}"></i>${s.nome}</span>`).join('')+(g.linha?`<span><i style="background:${g.linha.cor}"></i>${g.linha.nome}</span>`:'')+'</div>';
+  return o;
+}
+
+// ranking: onde o volume é MAIOR (Nei, 13/10/2026: destacar o maior volume, não média). r={itens:[{nome,v,sub?}], cor, unid, ini, dur}
+function ranking(r,t,p){
+  const k=prog(t,r.ini??p.ini,r.dur||1.2), mx=Math.max(...r.itens.map(i=>i.v),1);
+  return '<div class="rk">'+r.itens.map((i,n)=>`<div class="r ${n==0?'top':''}"><span class="nm">${n==0?'▲ ':''}${i.nome}</span>`+
+    `<span class="bar"><i style="width:${(100*i.v/mx*k).toFixed(1)}%;background:${n==0?(r.cor_top||r.cor):r.cor}"></i></span>`+
+    `<span class="vl" style="color:${n==0?(r.cor_top||r.cor):'#fff'}">${Math.round(i.v*k).toLocaleString('pt-BR')} ${r.unid||''}</span></div>`).join('')+'</div>';
+}
+
+// diagrama: d={ini,fim,forma:fluxo|hub|terminal,titulo,nos:[{t,ic,txt,sub,cor?,tipo?}],centro?}
+function diagrama(t){
+  const D=document.getElementById('diag'); const d=(C.diagramas||[]).find(x=>t>=x.ini&&t<=x.fim);
+  if(!d){D.style.opacity=0; return;}
+  D.style.opacity=vis(t,d.ini,d.fim,.3);
+  const ent=(x,dur=.4)=>prog(t,x,dur);
+  const ultimo=d.nos.reduce((m,n,i)=>t>=n.t?i:m,-1);
+  let h=`<div class="area${d.forma!=='terminal'&&d.forma!=='hub'&&d.nos.length>=5?' cp':''}">${d.titulo?`<div class="dt" style="opacity:${ent(d.ini+.1)}">${d.titulo}</div>`:''}`;
+  if(d.forma==='terminal'){
+    h+=`<div class="term" style="opacity:${ent(d.ini+.1)};transform:translateY(${(1-ent(d.ini+.1))*30}px)"><div class="bar"><i></i><i></i><i></i><span>${d.barra||'terminal'}</span></div><div class="corpo">`;
+    d.nos.forEach((n,i)=>{ const nt=i===0?Math.min(n.t,d.ini+.3):n.t; if(t<nt) return; const tp=n.tipo||'cmd'; const full=n.txt;
+      const k=tp==='cmd'?clamp((t-nt)/Math.max(.35,full.length/38)):1; const vis_=full.slice(0,Math.ceil(full.length*k));
+      const cur=(i===ultimo&&tp==='cmd'&&k<1)?'<span class="cur"></span>':'';
+      h+=`<div class="ln ${tp}" style="opacity:${tp==='cmd'?1:ent(nt,.3)}">${vis_}${cur}</div>`; });
+    h+='</div></div>';
+  } else if(d.forma==='hub'){
+    const W=960,H=950,cx=W/2,cy=H/2-20,N=d.nos.length,R=[345,385];
+    const pos=d.nos.map((n,i)=>{const a=-Math.PI/2+i*2*Math.PI/N; return [cx+R[0]*Math.cos(a)*(N>4?1:.9), cy+R[1]*Math.sin(a)];});
+    let sv=`<svg viewBox="0 0 ${W} ${H}">`;
+    d.nos.forEach((n,i)=>{ const k=ent(n.t,.45); if(!k) return; const [x,y]=pos[i];
+      sv+=`<line x1="${cx}" y1="${cy}" x2="${cx+(x-cx)*k}" y2="${cy+(y-cy)*k}" stroke="${i===ultimo?'#FACC15':'rgba(250,204,21,.45)'}" stroke-width="${i===ultimo?6:4}" stroke-linecap="round"/>`; });
+    sv+='</svg>';
+    h+=`<div class="hub">${sv}`;
+    if(d.centro){const k=ent(Math.min(d.centro.t,d.ini+.3),.5); h+=`<div class="cx" style="left:${cx-140}px;top:${cy-140}px;opacity:${k};transform:scale(${.8+.2*k})"><div class="ic">${d.centro.ic||''}</div><div class="tx">${d.centro.txt}</div></div>`;}
+    d.nos.forEach((n,i)=>{ const k=ent(n.t,.4); const [x,y]=pos[i];
+      h+=`<div class="no ${i===ultimo?(n.cor==='vd'?'vd':'at'):''}" style="left:${clamp(x-145,0,W-290)}px;top:${y-70}px;opacity:${.25+.75*k};transform:scale(${.9+.1*k})"><div class="ic">${n.ic||''}</div><div class="tx">${n.txt}${n.sub?`<small>${n.sub}</small>`:''}</div></div>`; });
+    h+='</div>';
+  } else {
+    d.nos.forEach((n,i)=>{ const k=ent(n.t,.4);
+      if(i>0){ const s=ent(n.t-.25,.35), L=d.nos.length>=5?20:36; h+=`<div class="seta"><i style="height:${L*s}px"></i><b style="top:${L*s}px;opacity:${s}"></b></div>`; }
+      h+=`<div class="no ${i===ultimo?(n.cor==='vd'?'vd':'at'):''}" style="opacity:${.22+.78*k};transform:translateX(${(1-k)*-40}px)"><div class="ic">${n.ic||''}</div><div class="tx">${n.txt}${n.sub?`<small>${n.sub}</small>`:''}</div><div class="num">${String(i+1).padStart(2,'0')}</div></div>`; });
+  }
+  D.innerHTML=h+'</div>';
+}
+
+// gesto de comentar no cartão segurado (28/10/2026): tempos relativos ao fim da fala (c.fala_fim), determinístico por t
+function comenta(t,c){
+  const CM=document.getElementById('comenta'), FE=document.getElementById('fecho');
+  if(!c||c.fala_fim==null||t<c.fala_fim+.25){CM.style.opacity=0;FE.style.opacity=0;return;}
+  const e=c.fala_fim, txt=[...c.comentario], t1=e+1.0, cps=12, t2=t1+txt.length/cps, tp=t2+.7, tk=tp+.35, tpub=tk+.25;
+  FE.style.opacity=.62*prog(t,e+.25,.5);
+  const k=prog(t,e+.3,.5); CM.style.opacity=k; CM.style.transform=`translateY(${(1-k)*40}px)`;
+  const n=Math.max(0,Math.min(txt.length,Math.floor((t-t1)*cps))), digitado=t>=tpub?'':txt.slice(0,n).join('');
+  const pisca=Math.floor(t*2.5)%2===0;
+  const campo=digitado?`${digitado}${t<t2+.6||pisca?'<i class="cur"></i>':''}`:(t<t1?`<span class="ph">Adicione um comentário…</span>${pisca?'<i class="cur"></i>':''}`:`<span class="ph">Adicione um comentário…</span>`);
+  // mão chega no Publicar depois de digitar, aperta (botão encolhe) e solta; o comentário aparece publicado
+  const km=prog(t,t2+.1,.55), aperta=t>=tk&&t<tpub;
+  const mao=t>=t2+.1&&t<tpub+.5?`<div class="mao" style="right:${lerp(-40,70,km)}px;top:${lerp(150,40,km)}px;opacity:${Math.min(km*2,1-prog(t,tpub+.1,.4))}">👆</div>`:'';
+  const pub=`<div class="pub" style="transform:scale(${aperta?.92:1});filter:brightness(${aperta?1.25:1})">Publicar</div>`;
+  const kp=prog(t,tpub,.4);
+  const pos=t>=tpub?`<div class="pos" style="opacity:${kp};transform:translateY(${(1-kp)*24}px)"><div class="av">🙋</div><div><b>você · agora</b><span>${txt.join('')}</span><div class="ok">✓ publicado</div></div></div>`:'';
+  CM.innerHTML=`<div class="h">💬 comenta aqui</div><div class="lin"><div class="av">🙋</div><div class="cx">${campo}</div></div><div class="bt">${pub}${mao}</div>${pos}`;
+}
+
+function html(t){
+  document.body.classList.toggle('mt',(C.meia||[]).some(([a,b])=>t>=a&&t<b));
+  diagrama(t);
+  const H=document.getElementById('hero'); const h=(C.hero||[]).find(x=>t>=x.ini&&t<=x.fim);
+  if(h){H.innerHTML=h.html;H.style.opacity=h.ini<=0?clamp((h.fim-t)/.3):vis(t,h.ini,h.fim,.3);} else H.style.opacity=0;
+  // painel com contador
+  const P=document.getElementById('painel'); const p=(C.paineis||[]).find(x=>t>=x.ini&&t<=x.fim);
+  if(p){
+    let corpo='';
+    if(p.contador){const c=p.contador; const k=prog(t,c.ini??p.ini,c.dur||2); const v=lerp(c.de,c.ate,k);
+      const s=v.toLocaleString('pt-BR',{minimumFractionDigits:c.dec||0,maximumFractionDigits:c.dec||0});
+      corpo=`<div class="n" style="color:${c.cor||'#fff'}">${s}</div><div class="u">${c.unid||''}</div>`;}
+    if(p.grafico) corpo+=grafico(p.grafico,t,p);
+    if(p.ranking) corpo+=ranking(p.ranking,t,p);
+    // só os itens já ditos, no máximo 3 na tela (os mais recentes); nada de próximos apagados (r7ex 19/10/2026)
+    if(p.logo) corpo+=`<div class="lg${p.titulo?' pq':''}"><img src="${p.logo}"></div>`;
+    // título cabe numa linha (até 12 letras) com a fonte ajustada à largura da caixa (~530 px); maior que isso, 2 linhas em 60 px
+    if(p.titulo){ const L=[...p.titulo].length; const fs=L<=12?Math.min(112,Math.floor(530/(L*.7))):60;
+      corpo+=`<div class="tt" style="color:${p.cor||'#fff'};font-size:${fs}px;${L<=12?'white-space:nowrap':''}">${p.titulo}</div>`; }
+    if(p.itens) corpo+='<div class="itens">'+p.itens.filter(i=>t>=i.t).slice(-3).map(i=>`<div class="on" style="opacity:${prog(t,i.t,.3)}">${i.txt}</div>`).join('')+'</div>';
+    P.innerHTML=`<div class="k">${p.k}</div>${corpo}${p.l?`<div class="l">${p.l}</div>`:''}`;
+    P.classList.toggle('g',!!(p.grafico||p.ranking)); P.style.opacity=vis(t,p.ini,p.fim,.3); P.style.borderColor=p.borda||'rgba(255,255,255,.12)';
+  } else P.style.opacity=0;
+  // lista no alto (D14): itens entram na palavra falada, no máximo 3 na tela
+  const LS=document.getElementById('lista'); const ls=(C.listas||[]).find(x=>t>=x.ini&&t<=x.fim);
+  if(ls){ const on=ls.itens.filter(i=>t>=i.t).slice(-3);
+    LS.innerHTML=(ls.k?`<div class="k">${ls.k}</div>`:'')+on.map(i=>{const k=prog(t,i.t,.3); return `<div class="it" style="opacity:${k};transform:translateX(${(1-k)*-30}px)">${i.txt}</div>`;}).join('');
+    LS.style.opacity=on.length?vis(t,ls.ini,ls.fim,.3):0; LS.style.borderColor=ls.borda||''; } else LS.style.opacity=0;
+  const CT=document.getElementById('cta'); const c=C.cta;
+  if(c){CT.innerHTML=`<div class="a">${c.a}</div><div class="b">${c.b}</div>`;CT.style.opacity=vis(t,c.ini,c.fim,.3);}
+  comenta(t,c);
+  const CL=document.getElementById('club'); const cl=C.club;
+  if(cl){CL.innerHTML=`<div class="ic">▶</div><div class="tx">${cl.a}<small>${cl.b}</small></div>`;CL.style.opacity=vis(t,cl.ini,cl.fim,.3);}
+  // telas: foto cheia com zoom lento; selo pequeno (ex.: "ilustração"). Os <img> são criados uma vez (sem piscar)
+  const TL=document.getElementById('telas');
+  if(!TL.childElementCount) (C.telas||[]).forEach(m=>{ const d=document.createElement('div'); d.className='tl'+(m.escurece?' '+m.escurece:''); const im=IMG[m.src].im; d.appendChild(im.parentNode?im.cloneNode():im);
+    if(m.selo){const s=document.createElement('div'); s.className='sl'; s.textContent=m.selo; d.appendChild(s);} TL.appendChild(d); });
+  (C.telas||[]).forEach((m,i)=>{ const d=TL.children[i], o=vis(t,m.ini,m.fim,m.fade??.3); d.style.opacity=o; if(!o) return;
+    d.firstChild.style.transform=`scale(${1+(m.zoom??.06)*clamp((t-m.ini)/Math.max(.1,m.fim-m.ini))})`; });
+  const F=document.getElementById('fonte'); const f=(C.fontes||[]).find(x=>t>=x.ini&&t<=x.fim);
+  if(f){F.innerHTML=f.html;F.style.opacity=vis(t,f.ini,f.fim,.3);} else F.style.opacity=0;
+  // legenda: bloco de palavras ativo
+  const B=(C.legenda||[]).find(b=>t>=b.ini&&t<b.fim); const Lg=document.getElementById('leg');
+  Lg.innerHTML=B? B.palavras.map(w=>`<span style="color:${t>=w.t?(w.cor||'#fff'):'rgba(255,255,255,.35)'}">${w.w}</span>`).join(''):'';
+}
+
+function pinos(t,vp){
+  const box=document.getElementById('pinos'); let s='';
+  for(const p of C.pinos||[]){
+    const o=vis(t,p.ini,p.fim,.3); if(!o) continue;
+    const [x,y]=vp.project([p.lon,p.lat]); const k=prog(t,p.ini,.5);
+    s+=`<div class="pino" style="left:${x}px;top:${y}px;opacity:${o};--h:${(p.h||90)*k}px"><div class="cx">${p.nome}<small>${p.sub||''}</small></div><div class="haste"></div><div class="pt"></div></div>`;
+  }
+  box.innerHTML=s;
+}
+
+let aguardando=null, tAtual=0;
+mapa.setProps({onAfterRender:()=>{ if(!aguardando) return; const r=aguardando; aguardando=null;
+  const vp=mapa.getViewports()[0]; if(vp) pinos(tAtual,vp); html(tAtual); requestAnimationFrame(()=>r(true)); }});
+window.render = t => new Promise(res=>{
+  tAtual=t; aguardando=res;
+  mapa.setProps({viewState:camera(t),layers:camadas(t)});
+  mapa.redraw(true);
+});
+window.pronto = new Promise(r=>{ const iv=setInterval(()=>{ if(mapa.isInitialized){clearInterval(iv); Promise.all([document.fonts.ready,...preload]).then(()=>r(true));} },50); });
+</script></body></html>

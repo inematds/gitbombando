@@ -1,0 +1,12 @@
+[Unit]
+Description=gitbombando — Bombando no GitHub: Top 10 do dia às 16:00 (+ semana no domingo, + mês no dia 1º) → lives4 + bot v3 + INEMA.TOOLS
+After=network-online.target stack99.service
+
+[Service]
+Type=oneshot
+Environment=PATH=%h/.local/bin:%h/.npm-global/bin:/usr/local/bin:/usr/bin:/bin
+Environment=DISPLAY=:99
+ExecStart=/bin/bash -c 'exec /bin/bash %h/projetos/gitbombando/auto/rodar.sh "$(date +%%F)"'
+TimeoutStartSec=14h
+MemoryMax=40G
+Nice=5

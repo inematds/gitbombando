@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bombando no GitHub — GitHub's Top 10 as a reel, every day</title>
+<meta name="description" content="gitbombando: an automatic vertical reel, every day at 4 pm, with the 10 projects that gained the most stars on GitHub, explained in plain language, with charts and Nei's avatar.">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/gitbombando/guia/">
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/gitbombando/guia/en/">
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/gitbombando/guia/es/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light pre .c{color:#8a8a98}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  code,pre{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .inema:hover{filter:brightness(1.15)}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:rgba(226,162,59,.12)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:760px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(226,162,59,.22),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.18rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:34ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;height:auto;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:62ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.92rem;margin:0}
+  .num{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:8px;background:rgba(226,162,59,.14);color:var(--amb);font-family:Sora;font-weight:800;font-size:.9rem;margin-bottom:.7em}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0}
+  pre .c{color:#6f6f7c} pre .k{color:var(--amb2)} pre .s{color:#9ece6a}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:26px}
+  .step>div,.card{min-width:0}
+  p code,li code,td code{overflow-wrap:anywhere}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .7em}
+  .ex{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:680px){.ex{grid-template-columns:1fr}}
+  .ex figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .ex figure img{width:100%;height:auto;display:block}
+  .ex figcaption{padding:12px 14px;font-size:.88rem;color:var(--mut);background:var(--card)}
+  .phase{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .phase:last-child{border:none}
+  .phase .tag{flex:0 0 92px;font-family:Sora;font-weight:800;color:var(--amb)}
+  .phase .d strong{display:block;margin-bottom:.2em}
+  .phase .d span{color:var(--mut);font-size:.92rem}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="emoji">🔥</span> Bombando no GitHub</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#oque">What it is</a>
+    <a class="sec" href="#fluxo">How it works</a>
+    <a class="sec" href="#guia">User guide</a>
+    <a class="sec" href="#exemplos">Examples</a>
+    <a class="sec" href="#roadmap">Roadmap</a>
+    <span class="lang"><a href="../">PT</a><a class="on" href="./">EN</a><a href="../es/">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+    <a class="btn" href="https://github.com/inematds/gitbombando" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div>
+      <span class="chip">daily reel · GitHub's Top 10</span>
+      <h1>What's <span class="amb">blowing up</span> on GitHub, in 2 minutes</h1>
+      <p class="lead">Every day at 4 pm, a reel goes out on its own with the 10 projects that gained the most stars, from #10 to #1, with a chart, a simple explanation and Nei's avatar. Sunday brings the week's edition; the 1st of each month, the month's.</p>
+      <div class="cta">
+        <a class="btn" href="#guia">Start the guide</a>
+        <a class="btn ghost" href="https://github.com/inematds/gitbombando" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+    <figure><img src="../assets/banner-en.jpg" alt="Bombando no GitHub banner: GitHub's Top 10 as a reel, every day at 4 pm"></figure>
+  </div>
+</header>
+
+<section id="resumo" class="resumo"><div class="wrap">
+  <span class="chip">In short</span>
+  <p>gitbombando is an automatic production line for short videos. Every day at 4 pm it checks GitHub's trending projects page, picks the 10 that gained the most stars and builds a vertical reel explaining each one in plain language, with a card, a counter and a chart. It's for anyone who wants to know what's hot in tech and AI without reading English or code. The video goes out on its own to YouTube (INEMA Tec), to Nei's bot and to a fixed topic in the INEMA.TOOLS Telegram group. To run it, you need the INEMA machine with Python, Node, Codex, Claude Code and a HeyGen subscription.</p>
+</div></section>
+
+<section id="oque"><div class="wrap">
+  <span class="chip">What it is</span>
+  <h2>A daily GitHub newscast, made by a machine</h2>
+  <p class="sub">It combines the r7ex newscast engine (which came from eventosextremospub) with its own GitHub Trending collector.</p>
+  <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="../assets/banner-grade-en.jpg" alt="The stages of Bombando no GitHub: collection, script, countdown, chart, avatar and publishing" loading="lazy" style="width:100%;display:block"></figure>
+  <div class="grid g3">
+    <div class="card"><h3>🔥 A hook that stops the scroll</h3><p>The opening leads with the day's strongest fact (the #1's number, a big tech company, a controversial project) in a headline drawn on the cover. A list ("the 10 projects…") is banned from the opening.</p></div>
+    <div class="card"><h3>📊 A chart for every project</h3><p>A card with the rank, the owner's photo, what it does in plain words and its stars; below it, the counter reaches the number as it's spoken, and the chart shows the star curve or the "before × now".</p></div>
+    <div class="card"><h3>⚙️ Nobody has to press a button</h3><p>A timer at 4 pm, script and review by Claude, avatar in the HeyGen studio, publishing on lives4, a notice on the v3 bot and a post in the same Telegram topic.</p></div>
+  </div>
+</div></section>
+
+<section id="fluxo"><div class="wrap">
+  <span class="chip">How it works</span>
+  <h2>From Trending to Telegram, on its own</h2>
+  <p class="sub">Each stage saves a file in the edition folder (<code>edicoes/AAAA-MM-DD-top10-dia/</code>); if one fails, Nei gets a "Failed" message on the bot with the reason.</p>
+  <div class="flow">
+    <span>Star snapshot (every hour)</span><span class="arr">→</span>
+    <span>Trending collection (4 pm)</span><span class="arr">→</span>
+    <span>Script (claude -p)</span><span class="arr">→</span>
+    <span>Gate</span><span class="arr">→</span>
+    <span>Avatar + cards + cover</span><span class="arr">→</span>
+    <span>Editing</span><span class="arr">→</span>
+    <span>Reviewer</span><span class="arr">→</span>
+    <span>lives4 · v3 · INEMA.TOOLS</span>
+  </div>
+  <div class="grid g3" style="margin-top:22px">
+    <div class="card"><h3>📅 Day, week and month</h3><p>The timer calls <code>auto/rodar.sh</code> at 4 pm: always the day's Top 10; on Sunday also the week's; on the 1st also the month's.</p></div>
+    <div class="card"><h3>⭐ Ranked by stars</h3><p>The Top 10 is sorted by stars gained in the period, among the projects on Trending (the page's own order mixes in other signals).</p></div>
+    <div class="card"><h3>🧾 A reviewer before publishing</h3><p>A <code>claude -p</code> looks at 18 frames of the video. A visible defect (wrong title, empty frame, swapped number) stops everything; suggestions go along to Nei.</p></div>
+  </div>
+</div></section>
+
+<section id="pre"><div class="wrap">
+  <span class="chip">Requirements</span>
+  <h2>What needs to be on the machine</h2>
+  <p class="sub">It's the same machine that already runs r7ex and eventosextremospub.</p>
+  <div class="grid g3">
+    <div class="card"><h3>GitHub CLI</h3><p>The collector uses the GitHub API through <code>gh</code>, already logged in.</p><pre><span class="c"># check</span>
+<span class="k">gh auth status</span></pre></div>
+    <div class="card"><h3>Claude Code + Codex</h3><p>Script and review by <code>claude -p</code>; cover by Codex <code>image_gen</code>. Both through the subscription.</p><pre><span class="c"># check</span>
+<span class="k">claude --version && codex --version</span></pre></div>
+    <div class="card"><h3>Node + Python + ffmpeg</h3><p>Rendering in Playwright's Chrome, editing in ffmpeg, inemavox's Whisper for word timing.</p><pre><span class="c"># install the engine</span>
+<span class="k">cd ~/projetos/gitbombando && npm install</span></pre></div>
+    <div class="card"><h3>HeyGen studio</h3><p>Logged-in profile at <code>~/.cache/inemaccbot/perfil-heygen</code>, display <code>:99</code> (stack99). Avatar through the studio, never through the API.</p><pre><span class="c"># display :99 must be up</span>
+<span class="k">systemctl --user status stack99</span></pre></div>
+    <div class="card"><h3>yt-pubx</h3><p>Publishes to the lives4 channel (INEMA Tec) with title, description and tags.</p><pre><span class="k">~/projetos/yt-pubx/yt-pubx canais | grep lives4</span></pre></div>
+    <div class="card"><h3>Telegram</h3><p>The <code>telegramtopicosindex</code> session (Nei's account) to post in the fixed INEMA.TOOLS topic.</p><pre><span class="k">ls ~/projetos/telegramtopicosindex/telegram_session.session</span></pre></div>
+  </div>
+</div></section>
+
+<section id="guia"><div class="wrap">
+  <span class="chip">User guide · step by step</span>
+  <h2>Turn it on, test it and keep an eye on it</h2>
+  <p class="sub">Once it's on, you don't have to do anything: the video goes out at 4 pm. The steps below are for installing, testing and fixing.</p>
+
+  <div class="step"><div class="b">1</div><div>
+    <h3>Turn on the two timers</h3>
+    <p>The hourly snapshot builds the star curve; the 4 pm one makes and publishes the reel.</p>
+<pre><span class="k">cp auto/systemd/gitbombando* ~/.config/systemd/user/</span>
+<span class="k">systemctl --user daemon-reload</span>
+<span class="k">systemctl --user enable --now gitbombando-retrato.timer gitbombando.timer</span>  <span class="c"># check with: systemctl --user list-timers | grep gitbomb</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">2</div><div>
+    <h3>See the Top 10 without recording anything</h3>
+    <p>Just the collection: it saves <code>pesquisa/top10.json</code> with each project's stars, description, README and growth.</p>
+<pre><span class="k">python3 coleta/trending.py edicoes/teste dia</span>   <span class="c"># or semana / mes</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">3</div><div>
+    <h3>Run a test edition (without publishing)</h3>
+    <p>It does everything, avatar included, but doesn't upload to YouTube, the bot, Telegram or git. The log goes to <code>rodada.log</code> and the frame sheet to <code>build/folha.jpg</code>.</p>
+<pre><span class="k">SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 auto/rodar.sh 2026-10-28 dia</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">4</div><div>
+    <h3>Publish a finished edition</h3>
+    <p>When the reviewer rejects it, the video doesn't go out and the bot lets you know. If you think it's fine, publish it by hand: lives4, the v3 bot and the INEMA.TOOLS topic.</p>
+<pre><span class="k">python3 gb.py publicar edicoes/2026-10-28-top10-dia</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">5</div><div>
+    <h3>Redo just one stage</h3>
+    <p><code>gb.py</code> has one command per stage; each one reads the folder's <code>ficha.yaml</code> and <code>top10.json</code>.</p>
+<pre><span class="k">python3 gb.py checar  edicoes/&lt;pasta&gt;</span>   <span class="c"># script gate</span>
+<span class="k">python3 gb.py imagens edicoes/&lt;pasta&gt;</span>   <span class="c"># cover, ranking, 10 cards</span>
+<span class="k">python3 gb.py cena    edicoes/&lt;pasta&gt;</span>   <span class="c"># timings + pacing + cena.js</span>
+<span class="k">python3 gb.py render  edicoes/&lt;pasta&gt;</span>   <span class="c"># video.mp4</span>
+<span class="k">python3 gb.py revisar edicoes/&lt;pasta&gt;</span>   <span class="c"># frame sheet + reviewer</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">6</div><div>
+    <h3>Skip a day</h3>
+    <p>A line with the date skips everything; with the date and the mode, it skips only that one.</p>
+<pre><span class="k">echo "2026-11-02" &gt;&gt; auto/pular.txt</span>          <span class="c"># skips the whole day</span>
+<span class="k">echo "2026-11-02 semana" &gt;&gt; auto/pular.txt</span>   <span class="c"># skips only the week's edition</span></pre>
+  </div></div>
+</div></section>
+
+<section id="exemplos"><div class="wrap">
+  <span class="chip">Examples</span>
+  <h2>The first edition: Top 10 of 10/28/2026</h2>
+  <p class="sub">DeepTutor, a personal AI tutor, came in 1st with 2,371 stars that day.</p>
+  <div class="ex">
+    <figure><img src="../assets/ex1.jpg" alt="Reel cover with the day's headline"><figcaption>Frame 0: the headline drawn on the cover, with the number in yellow.</figcaption></figure>
+    <figure><img src="../assets/ex2.jpg" alt="A project card with counter and chart"><figcaption>One project in the countdown: a card with the rank, the counter and the chart below, the avatar in the corner.</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="roadmap"><div class="wrap">
+  <span class="chip">Roadmap</span>
+  <h2>What's done and what's next</h2>
+  <p class="sub">Version 1.0.0, 10/28/2026.</p>
+  <div class="phase"><div class="tag">Phase 1 ✓</div><div class="d"><strong>Automatic daily reel</strong><span>Collection, script, avatar, charts, reviewer, YouTube, bot and Telegram, plus weekly and monthly editions.</span></div></div>
+  <div class="phase"><div class="tag">Phase 2</div><div class="d"><strong>A real star curve</strong><span>After a few days of hourly snapshots, each project's chart becomes the curve by hour (day) or by day (week and month).</span></div></div>
+  <div class="phase"><div class="tag">Phase 3</div><div class="d"><strong>"Never leaves the Top 10"</strong><span>Use the history to highlight who shows up several days in a row and who's new.</span></div></div>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="pill">Python + Node (Playwright)</div><div class="pill">Claude Code + Codex</div><div class="pill">HeyGen studio + yt-pubx</div>
+    <p style="margin-top:18px">Bombando no GitHub · open and free guide, version 1.0.0, 10/28/2026 ·
+      <a href="https://github.com/inematds/gitbombando">inematds/gitbombando</a> ·
+      <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var KEY='gitbombando-theme'; // troque gitbombando pelo nome do projeto
+    var b=document.body, t=document.getElementById('themeToggle');
+    if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; }
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      localStorage.setItem(KEY, light?'light':'dark');
+    });
+  })();
+</script>
+</body>
+</html>
