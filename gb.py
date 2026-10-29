@@ -162,12 +162,12 @@ def ficha_motor(p, f, d):
         if x["etapa"] == "panorama":
             q["tela"] = "prints/ranking.png"; q["selo_tela"] = "github.com/trending"
             q["painel"] = {"k": f"10 PROJETOS · {PERIODO[modo]}", "borda": "am",
-                           "contador": {"ate": d["soma_periodo"], "unid": "ESTRELAS", **({"em": x["numero"]} if x.get("numero") else {})}}
+                           "contador": {"ate": d["soma_periodo"], "unid": "ESTRELAS", "desde_inicio": True, **({"em": x["numero"]} if x.get("numero") else {})}}
         elif x["etapa"] == "repo":
             it = rp[x["repo"]]
             q["tela"] = f"prints/r{it['pos']}.png"
             pn = {"k": f"#{it['pos']} · {it['nome']}"[:46], "borda": "am" if it["pos"] > 3 else "red",
-                  "contador": {"ate": it["estrelas_periodo"], "unid": UNID[modo], "cor": "#FACC15",
+                  "contador": {"ate": it["estrelas_periodo"], "unid": UNID[modo], "cor": "#FACC15", "desde_inicio": True,
                                **({"em": x["numero"]} if x.get("numero") else {})}}
             cv, cr = it.get("curva"), it.get("crescimento") or {}
             if cv and len(cv["v"]) >= 3 and cv.get("tipo") != "total":

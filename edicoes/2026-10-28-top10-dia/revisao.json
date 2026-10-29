@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Não há defeito visível: a manchete do quadro 0 está igual à do gancho.manchete, as posições e as estrelas ganhas dos 10 cartões batem com o top10.json, o avatar aparece em meia tela no gancho e depois no canto, e o fecho tem a caixa vermelha de pergunta e a pílula inema.club.",
+ "sugestoes": [
+  "23.28 s: o cartão #9 (openbot) entra enquanto a legenda ainda diz 'GANHOU 728 ESTRELAS' do #10. Dá para segurar o cartão do cindy até a frase terminar.",
+  "Quadros 13.64, 81.12 e 90.76 s: o contador do gráfico está em 0 ou 20, com as barras vazias logo que o cartão entra. Se o contador subir mais rápido, o número final aparece enquanto a fala ainda cita o projeto.",
+  "Gráficos de todos os cartões: os rótulos dos eixos e das barras ficam minúsculos no celular. Vale deixar só o '+X hoje' bem grande e tirar a escala.",
+  "52.2 s: o cartão do superpowers fala em 307 mil estrelas e 'criado em 10/2025', e isso merecia destaque visual ('o gigante do top'), porque é o dado mais chocante do vídeo.",
+  "IMPACTO 7: a capa com o capelo pegando fogo e o '+2.371' prende. O miolo do #9 ao #4 é parecido demais de cartão para cartão. Um corte ou um zoom no #5 polêmico, com mais vermelho, quebraria a monotonia."
+ ]
+}

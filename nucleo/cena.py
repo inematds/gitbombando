@@ -152,7 +152,7 @@ def montar(pasta, ficha, falas):
         if pn.get("logo"):
             d["logo"] = f"capa/logo-{pn['logo']}.png"
         if pn.get("grafico"):                            # gitbombando: barras do motor (sobem com prog a partir de 'ini')
-            g = dict(pn["grafico"]); g["ini"] = (em(fid, g.pop("em")) - .3) if g.get("em") else a + .6
+            g = dict(pn["grafico"]); g["ini"] = (em(fid, g.pop("em")) - .3) if g.get("em") else a + .3
             d["grafico"] = g
         if pn.get("ranking"):
             r = dict(pn["ranking"]); r["ini"] = (em(fid, r.pop("em")) - .3) if r.get("em") else a + .4
@@ -160,8 +160,12 @@ def montar(pasta, ficha, falas):
         if pn.get("contador"):
             c = pn["contador"]
             ci = em(fid, c["em"]) - 1.0 if c.get("em") else a + .3
+            cd = c.get("dur", 1.2)
+            if c.get("desde_inicio"):   # gitbombando: conta desde o começo da parte e CHEGA ao número quando ele é dito
+                fim_c = em(fid, c["em"]) if c.get("em") else a + 1.5
+                cd = max(1.0, fim_c - (a + .4)); ci = fim_c - cd
             d["contador"] = {"de": c.get("de", 0), "ate": c["ate"], "dec": c.get("dec", 0), "ini": ci,
-                             "dur": c.get("dur", 1.2), "cor": c.get("cor", "#FACC15"), "unid": c.get("unid", "")}
+                             "dur": cd, "cor": c.get("cor", "#FACC15"), "unid": c.get("unid", "")}
         if pn.get("l"):
             d["l"] = pn["l"]
         paineis.append(d)

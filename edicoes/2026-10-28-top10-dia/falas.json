@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Hoje o GitHub escolheu um professor. E ele não é gente. Ganhou mais de duas mil estrelas em um único dia.",
+  "legenda": "Hoje o GitHub escolheu um professor. E ele não é gente. Ganhou mais de duas mil estrelas em um único dia."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez projetos que mais cresceram hoje somaram quinze mil cento e trinta estrelas. Vou do décimo ao primeiro.",
+  "legenda": "Os dez projetos que mais cresceram hoje somaram 15.130 estrelas. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, Cindy. Uma assistente de IA aberta e gratuita que conecta o computador do trabalho, o de casa e o celular num ajudante só. Ganhou setecentas e vinte e oito estrelas.",
+  "legenda": "Em décimo, Cindy. Uma assistente de IA aberta e gratuita que conecta o computador do trabalho, o de casa e o celular num ajudante só. Ganhou 728 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Número nove, OpenBot. É um escritório dentro do seu computador onde várias IAs trabalham lado a lado, como colegas de equipe. Cresceu quase metade num dia: mil e cinquenta e quatro estrelas.",
+  "legenda": "Número nove, OpenBot. É um escritório dentro do seu computador onde várias IAs trabalham lado a lado, como colegas de equipe. Cresceu quase metade num dia: 1.054 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, uma big tech. A JetBrains lançou o ThinkRail, um programa pra criar software conversando com a IA, que aprende o seu jeito de trabalhar. Mil e sessenta e oito estrelas.",
+  "legenda": "Em oitavo, uma big tech. A JetBrains lançou o ThinkRail, um programa pra criar software conversando com a IA, que aprende o seu jeito de trabalhar. 1.068 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo lugar, superpowers. Um kit que dá método pra IA que programa: ela planeja, testa e revisa antes de entregar. Já passa de trezentas mil estrelas e ganhou mais mil e noventa e cinco hoje.",
+  "legenda": "Sétimo lugar, superpowers. Um kit que dá método pra IA que programa: ela planeja, testa e revisa antes de entregar. Já passa de 300 mil estrelas e ganhou mais 1.095 hoje."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, Impeccable. Ele ensina a IA a caprichar no visual e a dedurar aquele design genérico, com cara de robô, antes de ir pro ar. Mil quatrocentas e setenta e duas estrelas.",
+  "legenda": "Em sexto, Impeccable. Ele ensina a IA a caprichar no visual e a dedurar aquele design genérico, com cara de robô, antes de ir pro ar. 1.472 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Número cinco, e aqui é polêmico. Jailbreaks é uma coleção de textos feitos pra burlar as travas de segurança das IAs. Mil quatrocentas e setenta e sete estrelas. Cuidado: isso pode violar regras e te dar dor de cabeça.",
+  "legenda": "Número cinco, e aqui é polêmico. Jailbreaks é uma coleção de textos feitos pra burlar as travas de segurança das IAs. 1.477 estrelas. Cuidado: isso pode violar regras e te dar dor de cabeça."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, LinkSwift. Uma extensão de navegador que pega o link direto pra baixar arquivos de nove serviços chineses de nuvem, sem a enrolação do site. Mil seiscentas e dezesseis estrelas.",
+  "legenda": "Em quarto, LinkSwift. Uma extensão de navegador que pega o link direto pra baixar arquivos de nove serviços chineses de nuvem, sem a enrolação do site. 1.616 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Bronze pro Hallmark, da Together AI. Ele obriga a IA a criar sites que não parecem feitos por IA, com cinquenta estilos prontos. Duas mil cento e dez estrelas.",
+  "legenda": "E agora o pódio. Bronze pro Hallmark, da Together AI. Ele obriga a IA a criar sites que não parecem feitos por IA, com cinquenta estilos prontos. 2.110 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Prata pro AI Design Skills. Receitas de design pra sua IA montar páginas com cara de profissional. Cresceu quase um quarto num dia só: duas mil cento e trinta e nove estrelas.",
+  "legenda": "Prata pro AI Design Skills. Receitas de design pra sua IA montar páginas com cara de profissional. Cresceu quase um quarto num dia só: 2.139 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o primeiro lugar é o DeepTutor. Um professor particular de IA, aberto e gratuito, que monta aulas sob medida pra você e acompanha seu aprendizado. Duas mil trezentas e setenta e uma estrelas. Num dia.",
+  "legenda": "E o primeiro lugar é o DeepTutor. Um professor particular de IA, aberto e gratuito, que monta aulas sob medida pra você e acompanha seu aprendizado. 2.371 estrelas. Num dia."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema ponto club, e amanhã tem mais.",
+  "legenda": "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema.club, e amanhã tem mais."
+ }
+]

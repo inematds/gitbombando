@@ -61,7 +61,7 @@ fi
 # 3. avatar autorizado em pé (Nei, 28/10/2026: "rodar e publicar todo dia"), imagens, cena, render e revisor
 [ -f "$ED/avatar/APROVADO_HEYGEN" ] || echo "Rodada diária autorizada pelo Nei em 28/10/2026 (gitbombando: rodar e publicar todo dia às 16h)." > "$ED/avatar/APROVADO_HEYGEN"
 if [ -n "${AVATAR_DE:-}" ] && [ ! -s "$ED/avatar/avatar.mp4" ]; then cp "$AVATAR_DE" "$ED/avatar/avatar.mp4"; fi
-python3 "$RAIZ/gb.py" fazer "$ED" > "$ED/fazer.log" 2>&1 || avisar "montagem falhou: $(grep -h 'REPROVOU\|Error' "$ED/fazer.log" | tail -2 | cut -c1-400)"
+python3 "$RAIZ/gb.py" fazer "$ED" > "$ED/fazer.log" 2>&1 || avisar "montagem falhou: $(tail -2 "$ED/fazer.log" | cut -c1-400)"
 V=$(python3 -c "import json;print(json.load(open('$ED/revisao.json'))['veredito'])" 2>/dev/null)
 if [ "$V" = erro ]; then python3 "$RAIZ/gb.py" revisar "$ED" >> "$ED/fazer.log" 2>&1; V=$(python3 -c "import json;print(json.load(open('$ED/revisao.json'))['veredito'])"); fi
 if [ "$V" != aprovado ]; then

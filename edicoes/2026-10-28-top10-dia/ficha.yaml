@@ -1,0 +1,104 @@
+modo: dia
+gancho:
+  tipo: contrario
+  manchete: "+2.371 ESTRELAS PRA UM PROFESSOR ROBÔ"
+  destaque: "+2.371"
+  objeto: "um capelo de formatura dourado pegando fogo em cima de um notebook, com faíscas amarelas voando"
+  fontes:
+    - {nome: "github.com/trending", trecho: "HKUDS/DeepTutor · 2,371 stars today"}
+abertura:
+  cena: "sala de aula vazia à noite, carteiras no escuro, só a luz amarela de uma tela no centro"
+partes:
+  - etapa: gancho
+    fala: "Hoje o GitHub escolheu um professor. E ele não é gente. Ganhou mais de duas mil estrelas em um único dia."
+  - etapa: panorama
+    fala: "Os dez projetos que mais cresceram hoje somaram quinze mil cento e trinta estrelas. Vou do décimo ao primeiro."
+    numero: "15.130"
+  - etapa: repo
+    repo: "makecindy/cindy"
+    desc: "Assistente de IA gratuita que liga seus computadores e o celular num ajudante só."
+    destaque: "num ajudante só"
+    numero: "728"
+    fala: "Em décimo, Cindy. Uma assistente de IA aberta e gratuita que conecta o computador do trabalho, o de casa e o celular num ajudante só. Ganhou setecentas e vinte e oito estrelas."
+  - etapa: repo
+    repo: "nightly-labs/openbot"
+    desc: "Um escritório no seu computador onde várias IAs trabalham juntas como colegas."
+    destaque: "como colegas"
+    numero: "1.054"
+    fala: "Número nove, OpenBot. É um escritório dentro do seu computador onde várias IAs trabalham lado a lado, como colegas de equipe. Cresceu quase metade num dia: mil e cinquenta e quatro estrelas."
+  - etapa: repo
+    repo: "JetBrains/thinkrail"
+    desc: "Programa da JetBrains para criar software conversando com a IA, que aprende seu jeito."
+    destaque: "aprende seu jeito"
+    numero: "1.068"
+    fala: "Em oitavo, uma big tech. A JetBrains lançou o ThinkRail, um programa pra criar software conversando com a IA, que aprende o seu jeito de trabalhar. Mil e sessenta e oito estrelas."
+  - etapa: repo
+    repo: "obra/superpowers"
+    desc: "Kit que ensina a IA a trabalhar com método: planejar, testar e revisar antes de entregar."
+    destaque: "com método"
+    numero: "1.095"
+    fala: "Sétimo lugar, superpowers. Um kit que dá método pra IA que programa: ela planeja, testa e revisa antes de entregar. Já passa de trezentas mil estrelas e ganhou mais mil e noventa e cinco hoje."
+  - etapa: repo
+    repo: "pbakaus/impeccable"
+    desc: "Ensina a IA a caprichar no visual e a pegar aquele design com cara de robô."
+    destaque: "cara de robô"
+    numero: "1.472"
+    fala: "Em sexto, Impeccable. Ele ensina a IA a caprichar no visual e a dedurar aquele design genérico, com cara de robô, antes de ir pro ar. Mil quatrocentas e setenta e duas estrelas."
+  - etapa: repo
+    repo: "togg53192-cmd/jailbreaks"
+    desc: "Coleção de textos feitos para burlar as travas de segurança de várias IAs. Polêmico."
+    destaque: "burlar as travas"
+    numero: "1.477"
+    fala: "Número cinco, e aqui é polêmico. Jailbreaks é uma coleção de textos feitos pra burlar as travas de segurança das IAs. Mil quatrocentas e setenta e sete estrelas. Cuidado: isso pode violar regras e te dar dor de cabeça."
+  - etapa: repo
+    repo: "hmjz100/LinkSwift"
+    desc: "Extensão que pega o link direto de arquivos em nove serviços chineses de nuvem."
+    destaque: "link direto"
+    numero: "1.616"
+    fala: "Em quarto, LinkSwift. Uma extensão de navegador que pega o link direto pra baixar arquivos de nove serviços chineses de nuvem, sem a enrolação do site. Mil seiscentas e dezesseis estrelas."
+  - etapa: repo
+    repo: "Nutlope/hallmark"
+    desc: "Kit da Together AI que faz a IA criar sites bonitos que não parecem feitos por IA."
+    destaque: "não parecem feitos por IA"
+    numero: "2.110"
+    fala: "E agora o pódio. Bronze pro Hallmark, da Together AI. Ele obriga a IA a criar sites que não parecem feitos por IA, com cinquenta estilos prontos. Duas mil cento e dez estrelas."
+  - etapa: repo
+    repo: "elayadesign/ai-design-skills"
+    desc: "Coleção de receitas de design para a IA montar páginas e telas com cara profissional."
+    destaque: "cara profissional"
+    numero: "2.139"
+    fala: "Prata pro AI Design Skills. Receitas de design pra sua IA montar páginas com cara de profissional. Cresceu quase um quarto num dia só: duas mil cento e trinta e nove estrelas."
+  - etapa: repo
+    repo: "HKUDS/DeepTutor"
+    desc: "Professor particular de IA que monta aulas sob medida e acompanha você a vida toda."
+    destaque: "sob medida"
+    numero: "2.371"
+    fala: "E o primeiro lugar é o DeepTutor. Um professor particular de IA, aberto e gratuito, que monta aulas sob medida pra você e acompanha seu aprendizado. Duas mil trezentas e setenta e uma estrelas. Num dia."
+  - etapa: comentario
+    fala: "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "quinze mil cento e trinta": "15.130"
+  "setecentas e vinte e oito": "728"
+  "mil e cinquenta e quatro": "1.054"
+  "mil e sessenta e oito": "1.068"
+  "mil e noventa e cinco": "1.095"
+  "trezentas mil": "300 mil"
+  "mil quatrocentas e setenta e duas": "1.472"
+  "mil quatrocentas e setenta e sete": "1.477"
+  "mil seiscentas e dezesseis": "1.616"
+  "duas mil cento e dez": "2.110"
+  "duas mil cento e trinta e nove": "2.139"
+  "duas mil trezentas e setenta e uma": "2.371"
+  "Mil e sessenta e oito": "1.068"
+  "Mil quatrocentas e setenta e duas": "1.472"
+  "Mil quatrocentas e setenta e sete": "1.477"
+  "Mil seiscentas e dezesseis": "1.616"
+  "Duas mil cento e dez": "2.110"
+  "Duas mil trezentas e setenta e uma": "2.371"
+cores: {bombando: "#FACC15", polemico: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Um professor de IA grátis ganhou 2.371 estrelas em 1 dia: o Top 10 do GitHub hoje"
+  contexto: "O Top 10 do GitHub de 28/10/2026, do décimo ao primeiro, explicado sem jargão. O DeepTutor, um professor particular de IA gratuito, liderou com 2.371 estrelas, e três dos seis primeiros ensinam a IA a fazer design que não parece de robô."
+  telegram: "O que bombou hoje no GitHub: o DeepTutor, um professor particular de IA aberto e gratuito, ganhou 2.371 estrelas em um dia. Logo atrás, três kits que ensinam a IA a fazer design com cara de profissional. E um alerta: uma coleção para burlar as travas das IAs também subiu forte."
