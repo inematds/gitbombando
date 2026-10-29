@@ -117,7 +117,7 @@
     <a class="sec" href="#guia">Guia de uso</a>
     <a class="sec" href="#exemplos">Exemplos</a>
     <a class="sec" href="#roadmap">Roadmap</a>
-    <span class="lang"><a class="on" href="./">PT</a><a href="en/">EN</a><a href="es/">ES</a></span> <!-- en/: <a href="../">PT</a><a class="on" href="./">EN</a><a href="../es/">ES</a> -->
+    <span class="lang"><a class="on" href="./">PT</a><a href="en/">EN</a><a href="es/">ES</a></span>
     <button class="tgl" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
     <a class="btn" href="https://github.com/inematds/gitbombando" target="_blank" rel="noopener">GitHub</a>
   </div>
@@ -129,7 +129,7 @@
     <div>
       <span class="chip">reel diário · Top 10 do GitHub</span>
       <h1>O que está <span class="amb">bombando</span> no GitHub, em 2 minutos</h1>
-      <p class="lead">Todo dia às 16h sai sozinho um reel com os 10 projetos que mais ganharam estrelas, do #10 ao #1, com gráfico, explicação simples e o avatar do Nei. Domingo tem o da semana; dia 1º, o do mês.</p>
+      <p class="lead">Todo dia às 16h sai sozinho um reel com os 10 projetos que mais ganharam estrelas, do #10 ao #1, com gráfico, explicação simples e o avatar do apresentador Nei Maldaner (INEMA). Domingo tem o da semana; dia 1º, o do mês.</p>
       <div class="cta">
         <a class="btn" href="#guia">Começar o guia</a>
         <a class="btn ghost" href="https://github.com/inematds/gitbombando" target="_blank" rel="noopener">Ver no GitHub</a>
@@ -141,7 +141,7 @@
 
 <section id="resumo" class="resumo"><div class="wrap">
   <span class="chip">Em resumo</span>
-  <p>O gitbombando é uma linha de produção automática de vídeos curtos. Todo dia às 16h ele olha a página de projetos em alta do GitHub, pega os 10 que mais ganharam estrelas e monta um reel vertical explicando cada um em português simples, com cartão, contador e gráfico. Serve para quem quer saber o que está bombando em tecnologia e IA sem ler inglês nem código. O vídeo vai sozinho para o YouTube (INEMA Tec), para o bot do Nei e para um tópico fixo no grupo INEMA.TOOLS do Telegram. Para rodar, precisa da máquina do INEMA com Python, Node, Codex, Claude Code e a assinatura do HeyGen.</p>
+  <p>O gitbombando é uma linha de produção automática de vídeos curtos. Todo dia às 16h ele olha a página de projetos em alta do GitHub, pega os 10 que mais ganharam estrelas e monta um reel vertical explicando cada um em português simples, com cartão, contador e gráfico. Serve para quem quer saber o que está bombando em tecnologia e IA sem ler inglês nem código. O vídeo vai sozinho para o YouTube (canal INEMA Tec, chamado de lives4 no sistema), para o bot de Telegram do Nei Maldaner (o "bot v3", que avisa quando terminou ou falhou) e para um tópico fixo no grupo INEMA.TOOLS do Telegram. Para rodar, precisa da máquina do INEMA com Python, Node, Codex, Claude Code e a assinatura do HeyGen.</p>
 </div></section>
 
 <section id="oque"><div class="wrap">
@@ -173,6 +173,7 @@
   <div class="grid g3" style="margin-top:22px">
     <div class="card"><h3>📅 Dia, semana e mês</h3><p>O timer chama <code>auto/rodar.sh</code> às 16h: sempre o Top 10 do dia; no domingo também o da semana; no dia 1º também o do mês.</p></div>
     <div class="card"><h3>⭐ Ordem pelas estrelas</h3><p>O Top 10 é ordenado pelas estrelas ganhas no período, entre os projetos que estão no Trending (a ordem da página mistura outros sinais).</p></div>
+    <div class="card"><h3>📖 Termos</h3><p><b>Trending</b>: página do GitHub com os projetos em alta. <b>Retrato</b>: anotação, de hora em hora, das estrelas de cada projeto. <b>Portão</b>: checagem automática que barra roteiro fora do padrão. <b>claude -p</b>: o Claude rodando sozinho, sem conversa. <b>tela :99</b>: tela virtual onde o navegador do HeyGen abre sem aparecer.</p></div>
     <div class="card"><h3>🧾 Revisor antes de publicar</h3><p>Um <code>claude -p</code> lê 18 quadros do vídeo. Defeito visível (título errado, quadro vazio, número trocado) para tudo; sugestão segue junto para o Nei.</p></div>
   </div>
 </div></section>
@@ -180,17 +181,21 @@
 <section id="pre"><div class="wrap">
   <span class="chip">Pré-requisitos</span>
   <h2>O que precisa estar na máquina</h2>
-  <p class="sub">É a mesma máquina que já roda o r7ex e o eventosextremospub.</p>
+  <p class="sub">É a máquina do INEMA, a mesma que já roda os outros sistemas de vídeo (r7ex e eventosextremospub). Em outra máquina, todos os itens abaixo precisam existir.</p>
   <div class="grid g3">
+    <div class="card"><h3>O projeto no lugar certo</h3><p>Os timers procuram o projeto em <code>~/projetos/gitbombando</code>.</p><pre><span class="k">git clone https://github.com/inematds/gitbombando ~/projetos/gitbombando</span></pre></div>
+    <div class="card"><h3>Bibliotecas Python</h3><p>Leitura do roteiro, cartões e cortes de imagem.</p><pre><span class="k">pip install pyyaml pillow numpy</span></pre></div>
     <div class="card"><h3>GitHub CLI</h3><p>A coleta usa a API do GitHub pelo <code>gh</code>, já logado.</p><pre><span class="c"># conferir</span>
 <span class="k">gh auth status</span></pre></div>
     <div class="card"><h3>Claude Code + Codex</h3><p>Roteiro e revisão pelo <code>claude -p</code>; capa pelo Codex <code>image_gen</code>. Os dois pela assinatura.</p><pre><span class="c"># conferir</span>
 <span class="k">claude --version && codex --version</span></pre></div>
-    <div class="card"><h3>Node + Python + ffmpeg</h3><p>Render no Chrome do Playwright, montagem no ffmpeg, Whisper do inemavox para o tempo das palavras.</p><pre><span class="c"># instalar o motor</span>
-<span class="k">cd ~/projetos/gitbombando && npm install</span></pre></div>
-    <div class="card"><h3>Estúdio do HeyGen</h3><p>Perfil logado em <code>~/.cache/inemaccbot/perfil-heygen</code>, tela <code>:99</code> (stack99). Avatar pelo estúdio, nunca pela API.</p><pre><span class="c"># a tela :99 precisa estar no ar</span>
+    <div class="card"><h3>Node + Python + ffmpeg</h3><p>Render no Chrome do Playwright, montagem no ffmpeg, Whisper do inemavox para o tempo das palavras.</p><pre><span class="c"># instalar o motor e o navegador</span>
+<span class="k">cd ~/projetos/gitbombando && npm install</span>
+<span class="k">npx playwright install chromium</span></pre></div>
+    <div class="card"><h3>Estúdio do HeyGen</h3><p>Perfil logado em <code>~/.cache/inemaccbot/perfil-heygen</code>, tela <code>:99</code> (stack99). O avatar é gerado pelo estúdio (assinatura); só a conferência de status e o download leem a API, com a <code>HEYGEN_API_KEY</code> de <code>~/projetos/openpcbotv2/.env</code>.</p><pre><span class="c"># a tela :99 precisa estar no ar</span>
 <span class="k">systemctl --user status stack99</span></pre></div>
     <div class="card"><h3>yt-pubx</h3><p>Publica no canal lives4 (INEMA Tec) com título, descrição e tags.</p><pre><span class="k">~/projetos/yt-pubx/yt-pubx canais | grep lives4</span></pre></div>
+    <div class="card"><h3>Projetos vizinhos</h3><p><code>~/projetos/inemavox</code> (Whisper, tempo de cada palavra) e <code>~/projetos/openpcbotv3</code> (envio ao bot v3).</p><pre><span class="k">ls ~/projetos/inemavox ~/projetos/openpcbotv3/dist</span></pre></div>
     <div class="card"><h3>Telegram</h3><p>Sessão do <code>telegramtopicosindex</code> (conta do Nei) para postar no tópico fixo do INEMA.TOOLS.</p><pre><span class="k">ls ~/projetos/telegramtopicosindex/telegram_session.session</span></pre></div>
   </div>
 </div></section>
@@ -203,40 +208,50 @@
   <div class="step"><div class="b">1</div><div>
     <h3>Ligar os dois timers</h3>
     <p>O retrato de hora em hora monta a curva de estrelas; o das 16h faz e publica o reel.</p>
-<pre><span class="k">cp auto/systemd/gitbombando* ~/.config/systemd/user/</span>
+<pre><span class="k">mkdir -p ~/.config/systemd/user</span>
+<span class="k">cp auto/systemd/gitbombando* ~/.config/systemd/user/</span>
 <span class="k">systemctl --user daemon-reload</span>
 <span class="k">systemctl --user enable --now gitbombando-retrato.timer gitbombando.timer</span>  <span class="c"># confira com: systemctl --user list-timers | grep gitbomb</span></pre>
   </div></div>
 
   <div class="step"><div class="b">2</div><div>
-    <h3>Ver o Top 10 sem gravar nada</h3>
-    <p>Só a coleta: grava <code>pesquisa/top10.json</code> com estrelas, descrição, README e crescimento de cada projeto.</p>
-<pre><span class="k">python3 coleta/trending.py edicoes/teste dia</span>   <span class="c"># ou semana / mes</span></pre>
+    <h3>Ver o Top 10 sem gravar vídeo</h3>
+    <p>Só a coleta: grava <code>edicoes/teste/pesquisa/top10.json</code> com estrelas, descrição, README e crescimento de cada projeto. <code>GB_SEM_HISTORICO=1</code> evita mexer no histórico real.</p>
+<pre><span class="k">GB_SEM_HISTORICO=1 python3 coleta/trending.py edicoes/teste dia</span>   <span class="c"># ou semana / mes</span></pre>
   </div></div>
 
   <div class="step"><div class="b">3</div><div>
     <h3>Rodar uma edição de teste (sem publicar)</h3>
-    <p>Faz tudo, inclusive o avatar, mas não sobe no YouTube, no bot, no Telegram nem no git. O log fica em <code>rodada.log</code> e a folha de quadros em <code>build/folha.jpg</code>.</p>
-<pre><span class="k">SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 auto/rodar.sh 2026-10-28 dia</span></pre>
+    <p>Faz tudo numa pasta de teste, sem subir no YouTube, no bot, no Telegram nem no git. Use sempre <code>ED=</code> com uma pasta nova: sem ela, o teste usa a pasta da edição do dia. Com <code>AVATAR_DE=</code> ele reaproveita um avatar já gravado e não gasta geração no HeyGen (sem isso, grava um avatar novo). O log fica em <code>rodada.log</code> e a folha de quadros em <code>build/folha.jpg</code>.</p>
+<pre><span class="k">ED=edicoes/teste-1 AVATAR_DE=&lt;avatar.mp4&gt; \
+  SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh 2026-10-28 dia</span></pre>
   </div></div>
 
   <div class="step"><div class="b">4</div><div>
     <h3>Publicar uma edição pronta</h3>
     <p>Quando o revisor reprova, o vídeo não sai e o bot avisa. Se você achar que está bom, publique na mão: lives4, bot v3 e o tópico do INEMA.TOOLS.</p>
-<pre><span class="k">python3 gb.py publicar edicoes/2026-10-28-top10-dia</span></pre>
+<pre><span class="k">python3 gb.py publicar edicoes/&lt;pasta&gt;</span></pre>
   </div></div>
 
   <div class="step"><div class="b">5</div><div>
     <h3>Refazer só uma etapa</h3>
     <p>O <code>gb.py</code> tem um comando por etapa; cada um lê a <code>ficha.yaml</code> e o <code>top10.json</code> da pasta.</p>
-<pre><span class="k">python3 gb.py checar  edicoes/&lt;pasta&gt;</span>   <span class="c"># portão do roteiro</span>
+<pre><span class="k">python3 gb.py fazer   edicoes/&lt;pasta&gt;</span>   <span class="c"># todas as etapas abaixo, de uma vez</span>
+<span class="k">python3 gb.py checar  edicoes/&lt;pasta&gt;</span>   <span class="c"># portão do roteiro</span>
 <span class="k">python3 gb.py imagens edicoes/&lt;pasta&gt;</span>   <span class="c"># capa, ranking, 10 cartões</span>
+<span class="k">python3 gb.py avatar  edicoes/&lt;pasta&gt;</span>   <span class="c"># fala ao estúdio do HeyGen e espera</span>
 <span class="k">python3 gb.py cena    edicoes/&lt;pasta&gt;</span>   <span class="c"># tempos + ritmo + cena.js</span>
 <span class="k">python3 gb.py render  edicoes/&lt;pasta&gt;</span>   <span class="c"># video.mp4</span>
 <span class="k">python3 gb.py revisar edicoes/&lt;pasta&gt;</span>   <span class="c"># folha + revisor</span></pre>
   </div></div>
 
   <div class="step"><div class="b">6</div><div>
+    <h3>Onde ver se deu certo</h3>
+    <p>Cada edição fica em <code>edicoes/AAAA-MM-DD-top10-dia/</code>: <code>rodada.log</code> (o caminho todo), <code>revisao.json</code> (o parecer do revisor) e <code>build/folha.jpg</code> (18 quadros). Se algo falha, o bot v3 recebe "Falhou:" com o motivo; se o revisor reprova, a mensagem traz o comando para publicar assim mesmo.</p>
+<pre><span class="k">tail -20 edicoes/$(date +%F)-top10-dia/rodada.log</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">7</div><div>
     <h3>Pular um dia</h3>
     <p>Uma linha com a data pula tudo; com a data e o modo, pula só aquele.</p>
 <pre><span class="k">echo "2026-11-02" &gt;&gt; auto/pular.txt</span>          <span class="c"># pula o dia inteiro</span>

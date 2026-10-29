@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bombando no GitHub — GitHub's Top 10 as a reel, every day</title>
-<meta name="description" content="gitbombando: an automatic vertical reel, every day at 4 pm, with the 10 projects that gained the most stars on GitHub, explained in plain language, with charts and Nei's avatar.">
+<meta name="description" content="gitbombando: an automatic vertical reel, every day at 4 PM, with the 10 projects that gained the most stars on GitHub, explained in plain language, with charts and Nei's avatar.">
 <link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/gitbombando/guia/">
 <link rel="alternate" hreflang="en" href="https://inematds.github.io/gitbombando/guia/en/">
 <link rel="alternate" hreflang="es" href="https://inematds.github.io/gitbombando/guia/es/">
@@ -127,21 +127,21 @@
   <div class="glow"></div>
   <div class="wrap">
     <div>
-      <span class="chip">daily reel · GitHub's Top 10</span>
-      <h1>What's <span class="amb">blowing up</span> on GitHub, in 2 minutes</h1>
-      <p class="lead">Every day at 4 pm, a reel goes out on its own with the 10 projects that gained the most stars, from #10 to #1, with a chart, a simple explanation and Nei's avatar. Sunday brings the week's edition; the 1st of each month, the month's.</p>
+      <span class="chip">daily reel · GitHub Top 10</span>
+      <h1>What's <span class="amb">trending</span> on GitHub, in 2 minutes</h1>
+      <p class="lead">Every day at 4 PM a reel goes out on its own with the 10 projects that gained the most stars, from #10 to #1, with a chart, a simple explanation and the avatar of host Nei Maldaner (INEMA). On Sundays there's the weekly one; on the 1st, the monthly one.</p>
       <div class="cta">
         <a class="btn" href="#guia">Start the guide</a>
         <a class="btn ghost" href="https://github.com/inematds/gitbombando" target="_blank" rel="noopener">View on GitHub</a>
       </div>
     </div>
-    <figure><img src="../assets/banner-en.jpg" alt="Bombando no GitHub banner: GitHub's Top 10 as a reel, every day at 4 pm"></figure>
+    <figure><img src="../assets/banner-en.jpg" alt="Bombando no GitHub banner: GitHub's Top 10 as a reel, every day at 4 PM"></figure>
   </div>
 </header>
 
 <section id="resumo" class="resumo"><div class="wrap">
   <span class="chip">In short</span>
-  <p>gitbombando is an automatic production line for short videos. Every day at 4 pm it checks GitHub's trending projects page, picks the 10 that gained the most stars and builds a vertical reel explaining each one in plain language, with a card, a counter and a chart. It's for anyone who wants to know what's hot in tech and AI without reading English or code. The video goes out on its own to YouTube (INEMA Tec), to Nei's bot and to a fixed topic in the INEMA.TOOLS Telegram group. To run it, you need the INEMA machine with Python, Node, Codex, Claude Code and a HeyGen subscription.</p>
+  <p>gitbombando is an automatic production line for short videos. Every day at 4 PM it checks GitHub's trending projects page, picks the 10 that gained the most stars and builds a vertical reel explaining each one in plain Portuguese, with a card, a counter and a chart. It's for anyone who wants to know what's hot in tech and AI without reading English or code. The video goes out on its own to YouTube (the INEMA Tec channel, called lives4 in the system), to Nei Maldaner's Telegram bot (the "v3 bot", which reports when a run finished or failed) and to a fixed topic in the INEMA.TOOLS Telegram group. To run it, you need the INEMA machine with Python, Node, Codex, Claude Code and the HeyGen subscription.</p>
 </div></section>
 
 <section id="oque"><div class="wrap">
@@ -150,19 +150,19 @@
   <p class="sub">It combines the r7ex newscast engine (which came from eventosextremospub) with its own GitHub Trending collector.</p>
   <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="../assets/banner-grade-en.jpg" alt="The stages of Bombando no GitHub: collection, script, countdown, chart, avatar and publishing" loading="lazy" style="width:100%;display:block"></figure>
   <div class="grid g3">
-    <div class="card"><h3>🔥 A hook that stops the scroll</h3><p>The opening leads with the day's strongest fact (the #1's number, a big tech company, a controversial project) in a headline drawn on the cover. A list ("the 10 projects…") is banned from the opening.</p></div>
+    <div class="card"><h3>🔥 A hook that stops the scroll</h3><p>The opening leads with the day's strongest fact (the #1's number, a big tech company, a controversial project) as a headline drawn on the cover. Opening with a list ("the 10 projects…") is not allowed.</p></div>
     <div class="card"><h3>📊 A chart for every project</h3><p>A card with the rank, the owner's photo, what it does in plain words and its stars; below it, the counter reaches the number as it's spoken, and the chart shows the star curve or the "before × now".</p></div>
-    <div class="card"><h3>⚙️ Nobody has to press a button</h3><p>A timer at 4 pm, script and review by Claude, avatar in the HeyGen studio, publishing on lives4, a notice on the v3 bot and a post in the same Telegram topic.</p></div>
+    <div class="card"><h3>⚙️ Nobody has to press a button</h3><p>A timer at 4 PM, script and review by Claude, avatar in the HeyGen studio, publishing on lives4, a notice on the v3 bot and a post in the same Telegram topic.</p></div>
   </div>
 </div></section>
 
 <section id="fluxo"><div class="wrap">
   <span class="chip">How it works</span>
   <h2>From Trending to Telegram, on its own</h2>
-  <p class="sub">Each stage saves a file in the edition folder (<code>edicoes/AAAA-MM-DD-top10-dia/</code>); if one fails, Nei gets a "Failed" message on the bot with the reason.</p>
+  <p class="sub">Each stage saves a file in the edition's folder (<code>edicoes/AAAA-MM-DD-top10-dia/</code>); if one fails, Nei gets a "Failed" message on the bot with the reason.</p>
   <div class="flow">
     <span>Star snapshot (every hour)</span><span class="arr">→</span>
-    <span>Trending collection (4 pm)</span><span class="arr">→</span>
+    <span>Trending collection (4 PM)</span><span class="arr">→</span>
     <span>Script (claude -p)</span><span class="arr">→</span>
     <span>Gate</span><span class="arr">→</span>
     <span>Avatar + cards + cover</span><span class="arr">→</span>
@@ -171,26 +171,31 @@
     <span>lives4 · v3 · INEMA.TOOLS</span>
   </div>
   <div class="grid g3" style="margin-top:22px">
-    <div class="card"><h3>📅 Day, week and month</h3><p>The timer calls <code>auto/rodar.sh</code> at 4 pm: always the day's Top 10; on Sunday also the week's; on the 1st also the month's.</p></div>
-    <div class="card"><h3>⭐ Ranked by stars</h3><p>The Top 10 is sorted by stars gained in the period, among the projects on Trending (the page's own order mixes in other signals).</p></div>
-    <div class="card"><h3>🧾 A reviewer before publishing</h3><p>A <code>claude -p</code> looks at 18 frames of the video. A visible defect (wrong title, empty frame, swapped number) stops everything; suggestions go along to Nei.</p></div>
+    <div class="card"><h3>📅 Day, week and month</h3><p>The timer calls <code>auto/rodar.sh</code> at 4 PM: always the Top 10 of the day; on Sundays also the weekly one; on the 1st also the monthly one.</p></div>
+    <div class="card"><h3>⭐ Ranked by stars</h3><p>The Top 10 is ranked by stars gained in the period, among the projects on Trending (the page's own order mixes in other signals).</p></div>
+    <div class="card"><h3>📖 Terms</h3><p><b>Trending</b>: GitHub's page with the hottest projects. <b>Snapshot</b>: an hourly record of each project's stars. <b>Gate</b>: an automatic check that blocks a script that doesn't follow the standard. <b>claude -p</b>: Claude running on its own, with no chat. <b>display :99</b>: a virtual screen where HeyGen's browser opens without showing up.</p></div>
+    <div class="card"><h3>🧾 Reviewer before publishing</h3><p>A <code>claude -p</code> reads 18 frames of the video. A visible defect (wrong title, empty frame, swapped number) stops everything; suggestions are passed along to Nei.</p></div>
   </div>
 </div></section>
 
 <section id="pre"><div class="wrap">
-  <span class="chip">Requirements</span>
+  <span class="chip">Prerequisites</span>
   <h2>What needs to be on the machine</h2>
-  <p class="sub">It's the same machine that already runs r7ex and eventosextremospub.</p>
+  <p class="sub">It's the INEMA machine, the same one that already runs the other video systems (r7ex and eventosextremospub). On another machine, every item below has to exist.</p>
   <div class="grid g3">
+    <div class="card"><h3>The project in the right place</h3><p>The timers look for the project in <code>~/projetos/gitbombando</code>.</p><pre><span class="k">git clone https://github.com/inematds/gitbombando ~/projetos/gitbombando</span></pre></div>
+    <div class="card"><h3>Python libraries</h3><p>Reading the script, cards and image cropping.</p><pre><span class="k">pip install pyyaml pillow numpy</span></pre></div>
     <div class="card"><h3>GitHub CLI</h3><p>The collector uses the GitHub API through <code>gh</code>, already logged in.</p><pre><span class="c"># check</span>
 <span class="k">gh auth status</span></pre></div>
     <div class="card"><h3>Claude Code + Codex</h3><p>Script and review by <code>claude -p</code>; cover by Codex <code>image_gen</code>. Both through the subscription.</p><pre><span class="c"># check</span>
 <span class="k">claude --version && codex --version</span></pre></div>
-    <div class="card"><h3>Node + Python + ffmpeg</h3><p>Rendering in Playwright's Chrome, editing in ffmpeg, inemavox's Whisper for word timing.</p><pre><span class="c"># install the engine</span>
-<span class="k">cd ~/projetos/gitbombando && npm install</span></pre></div>
-    <div class="card"><h3>HeyGen studio</h3><p>Logged-in profile at <code>~/.cache/inemaccbot/perfil-heygen</code>, display <code>:99</code> (stack99). Avatar through the studio, never through the API.</p><pre><span class="c"># display :99 must be up</span>
+    <div class="card"><h3>Node + Python + ffmpeg</h3><p>Rendering in Playwright's Chrome, editing in ffmpeg, inemavox's Whisper for word timing.</p><pre><span class="c"># install the engine and the browser</span>
+<span class="k">cd ~/projetos/gitbombando && npm install</span>
+<span class="k">npx playwright install chromium</span></pre></div>
+    <div class="card"><h3>HeyGen studio</h3><p>Logged-in profile in <code>~/.cache/inemaccbot/perfil-heygen</code>, display <code>:99</code> (stack99). The avatar is generated by the studio (subscription); only the status check and the download read the API, with the <code>HEYGEN_API_KEY</code> from <code>~/projetos/openpcbotv2/.env</code>.</p><pre><span class="c"># display :99 must be running</span>
 <span class="k">systemctl --user status stack99</span></pre></div>
     <div class="card"><h3>yt-pubx</h3><p>Publishes to the lives4 channel (INEMA Tec) with title, description and tags.</p><pre><span class="k">~/projetos/yt-pubx/yt-pubx canais | grep lives4</span></pre></div>
+    <div class="card"><h3>Neighbor projects</h3><p><code>~/projetos/inemavox</code> (Whisper, timing of each word) and <code>~/projetos/openpcbotv3</code> (sending to the v3 bot).</p><pre><span class="k">ls ~/projetos/inemavox ~/projetos/openpcbotv3/dist</span></pre></div>
     <div class="card"><h3>Telegram</h3><p>The <code>telegramtopicosindex</code> session (Nei's account) to post in the fixed INEMA.TOOLS topic.</p><pre><span class="k">ls ~/projetos/telegramtopicosindex/telegram_session.session</span></pre></div>
   </div>
 </div></section>
@@ -198,49 +203,59 @@
 <section id="guia"><div class="wrap">
   <span class="chip">User guide · step by step</span>
   <h2>Turn it on, test it and keep an eye on it</h2>
-  <p class="sub">Once it's on, you don't have to do anything: the video goes out at 4 pm. The steps below are for installing, testing and fixing.</p>
+  <p class="sub">Once it's on, you don't need to do anything: the video goes out at 4 PM. The steps below are for installing, testing and fixing.</p>
 
   <div class="step"><div class="b">1</div><div>
     <h3>Turn on the two timers</h3>
-    <p>The hourly snapshot builds the star curve; the 4 pm one makes and publishes the reel.</p>
-<pre><span class="k">cp auto/systemd/gitbombando* ~/.config/systemd/user/</span>
+    <p>The hourly snapshot builds the star curve; the 4 PM one makes and publishes the reel.</p>
+<pre><span class="k">mkdir -p ~/.config/systemd/user</span>
+<span class="k">cp auto/systemd/gitbombando* ~/.config/systemd/user/</span>
 <span class="k">systemctl --user daemon-reload</span>
 <span class="k">systemctl --user enable --now gitbombando-retrato.timer gitbombando.timer</span>  <span class="c"># check with: systemctl --user list-timers | grep gitbomb</span></pre>
   </div></div>
 
   <div class="step"><div class="b">2</div><div>
-    <h3>See the Top 10 without recording anything</h3>
-    <p>Just the collection: it saves <code>pesquisa/top10.json</code> with each project's stars, description, README and growth.</p>
-<pre><span class="k">python3 coleta/trending.py edicoes/teste dia</span>   <span class="c"># or semana / mes</span></pre>
+    <h3>See the Top 10 without making a video</h3>
+    <p>Collection only: it saves <code>edicoes/teste/pesquisa/top10.json</code> with each project's stars, description, README and growth. <code>GB_SEM_HISTORICO=1</code> keeps the real history untouched.</p>
+<pre><span class="k">GB_SEM_HISTORICO=1 python3 coleta/trending.py edicoes/teste dia</span>   <span class="c"># or semana / mes</span></pre>
   </div></div>
 
   <div class="step"><div class="b">3</div><div>
     <h3>Run a test edition (without publishing)</h3>
-    <p>It does everything, avatar included, but doesn't upload to YouTube, the bot, Telegram or git. The log goes to <code>rodada.log</code> and the frame sheet to <code>build/folha.jpg</code>.</p>
-<pre><span class="k">SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 auto/rodar.sh 2026-10-28 dia</span></pre>
+    <p>It does everything in a test folder, without uploading to YouTube, the bot, Telegram or git. Always use <code>ED=</code> with a new folder: without it, the test uses the day's edition folder. With <code>AVATAR_DE=</code> it reuses an already-recorded avatar and doesn't spend a HeyGen generation (without it, it records a new avatar). The log is in <code>rodada.log</code> and the frame sheet in <code>build/folha.jpg</code>.</p>
+<pre><span class="k">ED=edicoes/teste-1 AVATAR_DE=&lt;avatar.mp4&gt; \
+  SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh 2026-10-28 dia</span></pre>
   </div></div>
 
   <div class="step"><div class="b">4</div><div>
     <h3>Publish a finished edition</h3>
     <p>When the reviewer rejects it, the video doesn't go out and the bot lets you know. If you think it's fine, publish it by hand: lives4, the v3 bot and the INEMA.TOOLS topic.</p>
-<pre><span class="k">python3 gb.py publicar edicoes/2026-10-28-top10-dia</span></pre>
+<pre><span class="k">python3 gb.py publicar edicoes/&lt;pasta&gt;</span></pre>
   </div></div>
 
   <div class="step"><div class="b">5</div><div>
     <h3>Redo just one stage</h3>
     <p><code>gb.py</code> has one command per stage; each one reads the folder's <code>ficha.yaml</code> and <code>top10.json</code>.</p>
-<pre><span class="k">python3 gb.py checar  edicoes/&lt;pasta&gt;</span>   <span class="c"># script gate</span>
+<pre><span class="k">python3 gb.py fazer   edicoes/&lt;pasta&gt;</span>   <span class="c"># all the stages below, at once</span>
+<span class="k">python3 gb.py checar  edicoes/&lt;pasta&gt;</span>   <span class="c"># script gate</span>
 <span class="k">python3 gb.py imagens edicoes/&lt;pasta&gt;</span>   <span class="c"># cover, ranking, 10 cards</span>
+<span class="k">python3 gb.py avatar  edicoes/&lt;pasta&gt;</span>   <span class="c"># sends the speech to the HeyGen studio and waits</span>
 <span class="k">python3 gb.py cena    edicoes/&lt;pasta&gt;</span>   <span class="c"># timings + pacing + cena.js</span>
 <span class="k">python3 gb.py render  edicoes/&lt;pasta&gt;</span>   <span class="c"># video.mp4</span>
 <span class="k">python3 gb.py revisar edicoes/&lt;pasta&gt;</span>   <span class="c"># frame sheet + reviewer</span></pre>
   </div></div>
 
   <div class="step"><div class="b">6</div><div>
+    <h3>Where to check that it worked</h3>
+    <p>Each edition lives in <code>edicoes/AAAA-MM-DD-top10-dia/</code>: <code>rodada.log</code> (the whole run), <code>revisao.json</code> (the reviewer's verdict) and <code>build/folha.jpg</code> (18 frames). If something fails, the v3 bot gets "Failed:" with the reason; if the reviewer rejects it, the message includes the command to publish it anyway.</p>
+<pre><span class="k">tail -20 edicoes/$(date +%F)-top10-dia/rodada.log</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">7</div><div>
     <h3>Skip a day</h3>
     <p>A line with the date skips everything; with the date and the mode, it skips only that one.</p>
 <pre><span class="k">echo "2026-11-02" &gt;&gt; auto/pular.txt</span>          <span class="c"># skips the whole day</span>
-<span class="k">echo "2026-11-02 semana" &gt;&gt; auto/pular.txt</span>   <span class="c"># skips only the week's edition</span></pre>
+<span class="k">echo "2026-11-02 semana" &gt;&gt; auto/pular.txt</span>   <span class="c"># skips only the weekly one</span></pre>
   </div></div>
 </div></section>
 
@@ -250,17 +265,17 @@
   <p class="sub">DeepTutor, a personal AI tutor, came in 1st with 2,371 stars that day.</p>
   <div class="ex">
     <figure><img src="../assets/ex1.jpg" alt="Reel cover with the day's headline"><figcaption>Frame 0: the headline drawn on the cover, with the number in yellow.</figcaption></figure>
-    <figure><img src="../assets/ex2.jpg" alt="A project card with counter and chart"><figcaption>One project in the countdown: a card with the rank, the counter and the chart below, the avatar in the corner.</figcaption></figure>
+    <figure><img src="../assets/ex2.jpg" alt="A project card with counter and chart"><figcaption>A project in the countdown: a card with the rank, the counter and the chart below, the avatar in the corner.</figcaption></figure>
   </div>
 </div></section>
 
 <section id="roadmap"><div class="wrap">
   <span class="chip">Roadmap</span>
-  <h2>What's done and what's next</h2>
+  <h2>What's here and what's coming</h2>
   <p class="sub">Version 1.0.0, 10/28/2026.</p>
   <div class="phase"><div class="tag">Phase 1 ✓</div><div class="d"><strong>Automatic daily reel</strong><span>Collection, script, avatar, charts, reviewer, YouTube, bot and Telegram, plus weekly and monthly editions.</span></div></div>
-  <div class="phase"><div class="tag">Phase 2</div><div class="d"><strong>A real star curve</strong><span>After a few days of hourly snapshots, each project's chart becomes the curve by hour (day) or by day (week and month).</span></div></div>
-  <div class="phase"><div class="tag">Phase 3</div><div class="d"><strong>"Never leaves the Top 10"</strong><span>Use the history to highlight who shows up several days in a row and who's new.</span></div></div>
+  <div class="phase"><div class="tag">Phase 2</div><div class="d"><strong>A real star curve</strong><span>After a few days of hourly snapshots, each project's chart becomes the curve per hour (day) or per day (week and month).</span></div></div>
+  <div class="phase"><div class="tag">Phase 3</div><div class="d"><strong>"Won't leave the Top 10"</strong><span>Use the history to highlight who shows up several days in a row and who just debuted.</span></div></div>
 </div></section>
 
 <footer>
@@ -274,7 +289,7 @@
 
 <script>
   (function(){
-    var KEY='gitbombando-theme'; // troque gitbombando pelo nome do projeto
+    var KEY='gitbombando-theme'; // replace gitbombando with the project name
     var b=document.body, t=document.getElementById('themeToggle');
     if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; }
     t.addEventListener('click',function(){

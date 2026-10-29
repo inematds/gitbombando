@@ -13,7 +13,7 @@ Fontes (só GitHub; API do GitHub liberada pelo Nei em 05/10/2026):
   stargazers da API responde 404 desde 2026; e sempre o "antes × agora" do período (total − ganho → total).
 - historico/<modo>.jsonl: um retrato do Top 10 por rodada (quantas vezes o projeto já apareceu).
 """
-import base64, datetime as dt, html, json, re, subprocess, sys, time, urllib.request
+import base64, datetime as dt, html, json, os, re, subprocess, sys, time, urllib.request
 from pathlib import Path
 
 R = Path(__file__).resolve().parent.parent
@@ -184,7 +184,8 @@ def main(a):
         log(f"#{it['pos']} {it['nome']} +{it['estrelas_periodo']} ({it.get('estrelas_total')} no total)"
             + (f" · curva {it['curva']['pontos']} retratos" if it.get("curva") else ""))
     dia = (agora - dt.timedelta(hours=3)).date().isoformat()
-    historico(top, modo, dia)
+    if os.environ.get("GB_SEM_HISTORICO") != "1":   # teste avulso não suja o histórico real
+        historico(top, modo, dia)
     out = {"modo": modo, "periodo": PERIODO[modo], "coletado_em": agora.isoformat(), "dia": dia,
            "fonte": f"https://github.com/trending?since={SINCE[modo]}", "top10": top,
            "soma_periodo": sum(x["estrelas_periodo"] for x in top)}

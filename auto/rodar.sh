@@ -5,7 +5,7 @@
 #   → revisor (claude -p) → YouTube lives4 + bot v3 + Telegram → git push.
 # uso: auto/rodar.sh [AAAA-MM-DD, padrão hoje] [dia|semana|mes]
 #   O timer das 16:00 chama auto/rodar.sh sem modo = "auto": sempre o dia; no domingo também a semana; no dia 1º também o mês.
-# Teste: SEM_AVATAR=1 (não grava avatar: usa AVATAR_DE=<mp4> se houver) SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1; ED=<pasta>.
+# Teste: ED=<pasta de teste> AVATAR_DE=<mp4 já gravado> (não gasta avatar) SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 GB_SEM_HISTORICO=1.
 # Pular: linha "AAAA-MM-DD" (tudo) ou "AAAA-MM-DD semana" em auto/pular.txt.
 set -uo pipefail
 RAIZ="$(cd "$(dirname "$0")/.." && pwd)"
@@ -60,7 +60,10 @@ fi
 
 # 3. avatar autorizado em pé (Nei, 28/10/2026: "rodar e publicar todo dia"), imagens, cena, render e revisor
 [ -f "$ED/avatar/APROVADO_HEYGEN" ] || echo "Rodada diária autorizada pelo Nei em 28/10/2026 (gitbombando: rodar e publicar todo dia às 16h)." > "$ED/avatar/APROVADO_HEYGEN"
-if [ -n "${AVATAR_DE:-}" ] && [ ! -s "$ED/avatar/avatar.mp4" ]; then cp "$AVATAR_DE" "$ED/avatar/avatar.mp4"; fi
+if [ -n "${AVATAR_DE:-}" ] && [ ! -s "$ED/avatar/avatar.mp4" ]; then
+  [ -s "$AVATAR_DE" ] || { echo "AVATAR_DE não existe: $AVATAR_DE (nada foi gravado no HeyGen)" | tee /dev/stderr; exit 2; }
+  cp "$AVATAR_DE" "$ED/avatar/avatar.mp4"
+fi
 python3 "$RAIZ/gb.py" fazer "$ED" > "$ED/fazer.log" 2>&1 || avisar "montagem falhou: $(tail -2 "$ED/fazer.log" | cut -c1-400)"
 V=$(python3 -c "import json;print(json.load(open('$ED/revisao.json'))['veredito'])" 2>/dev/null)
 if [ "$V" = erro ]; then python3 "$RAIZ/gb.py" revisar "$ED" >> "$ED/fazer.log" 2>&1; V=$(python3 -c "import json;print(json.load(open('$ED/revisao.json'))['veredito'])"); fi
