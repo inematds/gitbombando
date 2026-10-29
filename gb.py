@@ -420,6 +420,13 @@ def telegram(p, f, d, url):
     else:
         cmd += ["--titulo", "BOMBANDO NO GITHUB - Top 10 diário", "--capa", str(p / "capa/abertura-desce.png"),
                 "--fonte", "📟 Gerado todo dia às 16h pelo gitbombando (github.com/trending)"]
+    if (p / "telegram.log").exists() and "mensagens publicadas" in (p / "telegram.log").read_text():
+        log("Telegram: esta edição já foi postada (telegram.log)"); return
+    import time
+    for _ in range(60):   # a sessão é compartilhada (sync diário e outras publicações): espera ficar livre, até 10 min
+        if subprocess.run(["lsof", str(tg / "telegram_session.session")], capture_output=True).returncode:
+            break
+        time.sleep(10)
     with open(p / "telegram.log", "w") as lg:
         r = subprocess.run(cmd, cwd=tg, stdout=lg, stderr=subprocess.STDOUT, timeout=900)
     if r.returncode:

@@ -30,6 +30,8 @@ echo "=== $(date '+%F %T') Bombando no GitHub $MODO $DIA (v$(grep -o 'VERSAO = "
 grep -qx "$DIA" "$RAIZ/auto/pular.txt" 2>/dev/null && { echo "pulado (auto/pular.txt)"; exit 0; }
 grep -qx "$DIA $MODO" "$RAIZ/auto/pular.txt" 2>/dev/null && { echo "pulado (auto/pular.txt)"; exit 0; }
 [ -s "$ED/youtube-lives4.txt" ] && [ -z "${FORCAR:-}" ] && { echo "já publicado hoje ($(cat "$ED/youtube-lives4.txt")); FORCAR=1 refaz"; exit 0; }
+# vídeo já feito e revisado nesta pasta: retoma sem refazer roteiro nem avatar
+[ -s "$ED/video.mp4" ] && [ -s "$ED/revisao.json" ] && REUSAR=1
 BOT="$RAIZ/bin/enviar_bot_v3.mjs"
 DATA_BR=$(date -d "$DIA" +%d/%m/%Y)
 avisar() {  # aviso "Falhou" no bot v3 e sai
