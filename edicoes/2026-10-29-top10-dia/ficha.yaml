@@ -1,0 +1,100 @@
+modo: dia
+gancho:
+  tipo: contrario
+  manchete: "+2.881 ESTRELAS CONTRA DESIGN DE ROBÔ"
+  destaque: "+2.881"
+  objeto: "um robô de metal com o rosto rachando ao meio, faíscas amarelas saindo das rachaduras, em cima de uma tela de notebook"
+  fontes:
+    - {nome: "github.com/trending", trecho: "pbakaus/impeccable · 2,881 stars today"}
+abertura:
+  cena: "estúdio de design escuro à noite, pranchetas no breu, só a luz amarela de uma tela no centro"
+partes:
+  - etapa: gancho
+    fala: "Ontem ele era o sexto. Hoje derrubou o professor de IA e virou o número um do GitHub. Quase três mil estrelas pra caçar design com cara de robô."
+  - etapa: panorama
+    fala: "Os dez projetos que mais cresceram hoje somaram doze mil seiscentas e quarenta estrelas. Vou do décimo ao primeiro."
+    numero: "12.640"
+  - etapa: repo
+    repo: "thedotmack/claude-mem"
+    desc: "Memória para a IA lembrar o que você fez nas conversas anteriores, sem repetir tudo."
+    destaque: "lembrar"
+    numero: "459"
+    fala: "Em décimo, Claude Mem. Ele dá memória pra sua IA: ela lembra o que vocês fizeram ontem e você não precisa explicar tudo de novo. Passa de cem mil estrelas e ganhou quatrocentas e cinquenta e nove hoje."
+  - etapa: repo
+    repo: "Donchitos/Claude-Code-Game-Studios"
+    desc: "Transforma a IA num estúdio inteiro de games, com dezenas de agentes em equipe."
+    destaque: "estúdio inteiro de games"
+    numero: "538"
+    fala: "Número nove, Claude Code Game Studios. Sabe aquele jogo que você sempre quis fazer? Aqui a IA vira um estúdio inteiro, com quarenta e nove agentes dividindo o trabalho. Quinhentas e trinta e oito estrelas."
+  - etapa: repo
+    repo: "nightly-labs/openbot"
+    desc: "Um escritório no seu computador onde várias IAs trabalham juntas como colegas."
+    destaque: "como colegas"
+    numero: "705"
+    fala: "Em oitavo, o OpenBot de novo. Um escritório dentro do seu computador onde várias IAs trabalham como colegas, cada uma com a sua mesa. Cresceu quase um quarto num dia: setecentas e cinco estrelas."
+  - etapa: repo
+    repo: "obra/superpowers"
+    desc: "Kit que ensina a IA a trabalhar com método: planejar, testar e revisar antes de entregar."
+    destaque: "com método"
+    numero: "1.037"
+    fala: "Sétimo lugar, superpowers, que já tem mais de trezentas mil estrelas. Ele obriga a IA que programa a planejar, testar e revisar antes de entregar. Hoje levou mais mil e trinta e sete estrelas."
+  - etapa: repo
+    repo: "JetBrains/thinkrail"
+    desc: "Programa da JetBrains para criar software conversando com a IA, que aprende seu jeito."
+    destaque: "aprende seu jeito"
+    numero: "1.116"
+    fala: "Em sexto, uma big tech. O ThinkRail, da JetBrains, é um programa pra criar software conversando com a IA, e ele aprende o seu jeito de trabalhar. Mil cento e dezesseis estrelas."
+  - etapa: repo
+    repo: "elayadesign/ai-design-skills"
+    desc: "Receitas de design para a IA montar páginas e telas com cara profissional."
+    destaque: "cara profissional"
+    numero: "1.178"
+    fala: "Quinto lugar, AI Design Skills. Ontem foi prata, hoje caiu, mas segue forte: receitas pra sua IA montar páginas com cara de profissional. Mil cento e setenta e oito estrelas."
+  - etapa: repo
+    repo: "milind-soni/OpenMausBot"
+    desc: "Monte seu próprio time de robôs de IA num app de chat, aberto e no seu computador."
+    destaque: "time de robôs"
+    numero: "1.190"
+    fala: "Em quarto, a estreia do dia. OpenMausBot é um app de chat onde você monta o seu próprio time de robôs de IA, com um computador virtual pra eles usarem. Mil cento e noventa estrelas."
+  - etapa: repo
+    repo: "togg53192-cmd/jailbreaks"
+    desc: "Coleção de textos feitos para burlar as travas de segurança de várias IAs. Polêmico."
+    destaque: "burlar as travas"
+    numero: "1.610"
+    fala: "E agora o pódio. O bronze é polêmico: Jailbreaks, uma coleção de textos pra burlar as travas de segurança das IAs. Mil seiscentas e dez estrelas. Cuidado, isso pode violar regras e te dar dor de cabeça."
+  - etapa: repo
+    repo: "HKUDS/DeepTutor"
+    desc: "Professor particular de IA que monta aulas sob medida e acompanha você a vida toda."
+    destaque: "sob medida"
+    numero: "1.926"
+    fala: "Prata pro DeepTutor, o campeão de ontem. Um professor particular de IA, gratuito, que monta aulas sob medida pra você. Mil novecentas e vinte e seis estrelas."
+  - etapa: repo
+    repo: "pbakaus/impeccable"
+    desc: "Ensina a IA a caprichar no visual e a pegar aquele design com cara de robô."
+    destaque: "cara de robô"
+    numero: "2.881"
+    fala: "E o primeiro lugar é o Impeccable. Ele ensina a sua IA a caprichar no visual e dedura aquele design genérico, com cara de robô. Duas mil oitocentas e oitenta e uma estrelas. Num dia."
+  - etapa: comentario
+    fala: "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "doze mil seiscentas e quarenta": "12.640"
+  "cem mil": "100 mil"
+  "quatrocentas e cinquenta e nove": "459"
+  "quarenta e nove": "49"
+  "Quinhentas e trinta e oito": "538"
+  "setecentas e cinco": "705"
+  "trezentas mil": "300 mil"
+  "mil e trinta e sete": "1.037"
+  "Mil cento e dezesseis": "1.116"
+  "Mil cento e setenta e oito": "1.178"
+  "Mil cento e noventa": "1.190"
+  "Mil seiscentas e dez": "1.610"
+  "Mil novecentas e vinte e seis": "1.926"
+  "Duas mil oitocentas e oitenta e uma": "2.881"
+cores: {bombando: "#FACC15", polemico: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Caçador de design de robô ganhou 2.881 estrelas em 1 dia: o Top 10 do GitHub hoje"
+  contexto: "O Top 10 do GitHub de 29/10/2026, do décimo ao primeiro, explicado sem jargão. O Impeccable, que ensina a IA a caprichar no visual e a pegar design com cara de robô, saltou do sexto lugar de ontem para o primeiro, com 2.881 estrelas."
+  telegram: "O que bombou hoje no GitHub: o Impeccable, que ensina a IA a caprichar no visual e dedura design com cara de robô, saiu do sexto lugar de ontem para o primeiro, com 2.881 estrelas em um dia. O professor de IA DeepTutor ficou com a prata. E um alerta: a coleção para burlar as travas das IAs subiu para o bronze."

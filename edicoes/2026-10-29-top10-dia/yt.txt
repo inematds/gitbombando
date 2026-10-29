@@ -1,0 +1,12 @@
+Caçador de design de robô ganhou 2.881 estrelas em 1 dia: o Top 10 do GitHub hoje
+
+#1 pbakaus/impeccable — https://github.com/pbakaus/impeccable
+#2 HKUDS/DeepTutor — https://github.com/HKUDS/DeepTutor
+#3 togg53192-cmd/jailbreaks — https://github.com/togg53192-cmd/jailbreaks
+#4 milind-soni/OpenMausBot — https://github.com/milind-soni/OpenMausBot
+#5 elayadesign/ai-design-skills — https://github.com/elayadesign/ai-design-skills
+#6 JetBrains/thinkrail — https://github.com/JetBrains/thinkrail
+#7 obra/superpowers — https://github.com/obra/superpowers
+#8 nightly-labs/openbot — https://github.com/nightly-labs/openbot
+#9 Donchitos/Claude-Code-Game-Studios — https://github.com/Donchitos/Claude-Code-Game-Studios
+#10 thedotmack/claude-mem — https://github.com/thedotmack/claude-mem

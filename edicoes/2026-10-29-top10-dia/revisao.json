@@ -1,0 +1,13 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Não achei defeito visível: a manchete do quadro 0 bate com gancho.manchete, as posições e as estrelas de hoje dos cartões #10 a #1 e o total de 12.640 batem com o top10.json, o avatar está em meia tela no gancho e depois no canto, e o fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "63,24 s (#6 thinkrail): o gráfico aparece quase vazio, com barras rentes ao eixo e o contador em 1; vale achatar menos a escala ou começar a contagem já perto do valor final, para o cartão não parecer sem dados.",
+  "73,12 s: na troca do #6 para o #5 os dois cartões se sobrepõem (texto do thinkrail por baixo do ai-design-skills) e o gráfico do #5 aparece apagado em 0; um corte seco ou um fade mais curto evita essa leitura confusa.",
+  "Contadores dos gráficos (23,75 s com 441, 112,61 s com 1.763, 122,49 s com 2.359): no quadro congelado o número ainda não chegou ao valor do cartão (459, 1.926, 2.881); conviria a contagem terminar antes, para quem pausar não ver dois números diferentes.",
+  "0–4 s: a capa é forte, mas falta um elemento de ranking na primeira tela (por exemplo '#1 DO GITHUB HOJE'); o '+2.881' sozinho não diz a quem rola o feed que é uma contagem do Top 10.",
+  "102,74 s (#3 jailbreaks): o alerta de 'polêmico' só aparece no fim da descrição, em letra pequena; um selo vermelho de alerta no cartão (a cor 'polemico' da ficha) deixaria claro que é um aviso e não uma recomendação.",
+  "IMPACTO 7: o gancho do 'ontem era o sexto' segura a atenção, mas do #9 ao #5 os cartões e as falas ficam parecidos; um número de comparação na tela (por exemplo 'subiu 5 posições' ou '+24% num dia' no openbot) daria mais ritmo ao meio."
+ ]
+}
