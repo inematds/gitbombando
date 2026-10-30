@@ -1,0 +1,100 @@
+modo: dia
+gancho:
+  tipo: estatistica
+  manchete: "SÓ 17 ESTRELAS DECIDIRAM O TOPO"
+  destaque: "17"
+  objeto: "duas estrelas douradas gigantes colidindo no ar, uma rachando ao meio, faíscas amarelas explodindo entre elas"
+  fontes:
+    - {nome: "github.com/trending", trecho: "pbakaus/impeccable · 2,299 stars today · HKUDS/DeepTutor · 2,282 stars today"}
+abertura:
+  cena: "arena escura à noite, pódio vazio no breu, só um facho de luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "Dezessete estrelas. Foi só isso que separou o primeiro do segundo lugar no GitHub hoje. E no terceiro, uma coleção pra burlar as travas das IAs."
+  - etapa: panorama
+    fala: "Os dez projetos que mais cresceram hoje somaram treze mil quinhentas e noventa e oito estrelas. Vou do décimo ao primeiro."
+    numero: "13.598"
+  - etapa: repo
+    repo: "JetBrains/thinkrail"
+    desc: "Programa da JetBrains para criar software conversando com a IA, que aprende seu jeito."
+    destaque: "aprende seu jeito"
+    numero: "717"
+    fala: "Em décimo, uma big tech. O ThinkRail, da JetBrains, é um programa pra criar software conversando com a IA, e não sai do Top dez. Hoje foram setecentas e dezessete estrelas."
+  - etapa: repo
+    repo: "mattpocock/skills"
+    desc: "As receitas que um programador famoso usa todo dia para a IA trabalhar direito."
+    destaque: "todo dia"
+    numero: "882"
+    fala: "Número nove, as skills do Matt Pocock. São as receitas que um programador famoso usa todo dia pra IA trabalhar direito, sem improviso. Oitocentas e oitenta e duas estrelas."
+  - etapa: repo
+    repo: "milind-soni/OpenMausBot"
+    desc: "Monte seu próprio time de robôs de IA num app de chat, com um computador só para eles."
+    destaque: "time de robôs"
+    numero: "899"
+    fala: "Em oitavo, o OpenMausBot. Um app de chat onde você monta o seu próprio time de robôs de IA, com um computador virtual só pra eles. Oitocentas e noventa e nove estrelas."
+  - etapa: repo
+    repo: "pingdotgg/t3code"
+    desc: "Comande as IAs que rodam no seu computador direto do celular, de onde estiver."
+    destaque: "do celular"
+    numero: "920"
+    fala: "Sétimo lugar, Tê Três Code. Com ele você comanda as IAs do seu computador pelo celular, de qualquer lugar, como se estivesse na frente da tela. Novecentas e vinte estrelas."
+  - etapa: repo
+    repo: "thedotmack/claude-mem"
+    desc: "Memória para a IA lembrar o que você fez nas conversas anteriores, sem repetir tudo."
+    destaque: "lembrar"
+    numero: "1.145"
+    fala: "Em sexto, Claude Mem, que já passa de cem mil estrelas. Ele dá memória pra sua IA: ela lembra o que vocês fizeram ontem. Hoje levou mil cento e quarenta e cinco estrelas."
+  - etapa: repo
+    repo: "Renhuai123/ziwei-doushu"
+    desc: "Programa aberto de astrologia chinesa que monta o seu mapa do destino."
+    destaque: "astrologia chinesa"
+    numero: "1.146"
+    fala: "Quinto lugar, o mais inesperado do dia. Ziwei Doushu é um programa aberto de astrologia chinesa que monta o seu mapa do destino. Mil cento e quarenta e seis estrelas."
+  - etapa: repo
+    repo: "obra/superpowers"
+    desc: "Kit que ensina a IA a trabalhar com método: planejar, testar e revisar antes de entregar."
+    destaque: "com método"
+    numero: "1.255"
+    fala: "Em quarto, superpowers, com mais de trezentas mil estrelas. Ele obriga a IA a planejar, testar e revisar antes de entregar, e não sai do Top dez. Mil duzentas e cinquenta e cinco estrelas hoje."
+  - etapa: repo
+    repo: "togg53192-cmd/jailbreaks"
+    desc: "Coleção de textos feitos para burlar as travas de segurança de várias IAs. Polêmico."
+    destaque: "burlar as travas"
+    numero: "2.053"
+    fala: "E agora o pódio. O bronze é polêmico: Jailbreaks, textos pra burlar as travas de segurança das IAs. Cresceu quase um quarto num dia, duas mil e cinquenta e três estrelas. Cuidado, isso pode te dar dor de cabeça."
+  - etapa: repo
+    repo: "HKUDS/DeepTutor"
+    desc: "Professor particular de IA que monta aulas sob medida e acompanha você a vida toda."
+    destaque: "sob medida"
+    numero: "2.282"
+    fala: "Prata pro DeepTutor, um professor particular de IA, gratuito, que monta aulas sob medida pra você. Duas mil duzentas e oitenta e duas estrelas. Ficou a um fio do topo."
+  - etapa: repo
+    repo: "pbakaus/impeccable"
+    desc: "Ensina a IA a caprichar no visual e a pegar aquele design com cara de robô."
+    destaque: "cara de robô"
+    numero: "2.299"
+    fala: "E o primeiro lugar, de novo, é o Impeccable. Ele ensina a sua IA a caprichar no visual e caça o design com cara de robô. Duas mil duzentas e noventa e nove estrelas. Por um triz."
+  - etapa: comentario
+    fala: "E aí, qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "Dezessete": "17"
+  "treze mil quinhentas e noventa e oito": "13.598"
+  "setecentas e dezessete": "717"
+  "Oitocentas e oitenta e duas": "882"
+  "Oitocentas e noventa e nove": "899"
+  "Novecentas e vinte": "920"
+  "cem mil": "100 mil"
+  "mil cento e quarenta e cinco": "1.145"
+  "Mil cento e quarenta e seis": "1.146"
+  "trezentas mil": "300 mil"
+  "Mil duzentas e cinquenta e cinco": "1.255"
+  "duas mil e cinquenta e três": "2.053"
+  "Duas mil duzentas e oitenta e duas": "2.282"
+  "Duas mil duzentas e noventa e nove": "2.299"
+cores: {bombando: "#FACC15", polemico: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Só 17 estrelas separaram o 1º do 2º: Impeccable leva 2.299 no Top 10 do GitHub hoje"
+  contexto: "O Top 10 do GitHub de 30/10/2026, do décimo ao primeiro, explicado sem jargão. O Impeccable, que ensina a IA a caprichar no visual, segurou o topo com 2.299 estrelas, só 17 à frente do professor de IA DeepTutor."
+  telegram: "Disputa apertada no GitHub hoje: o Impeccable ficou em primeiro com 2.299 estrelas, só 17 à frente do DeepTutor. No bronze, uma coleção polêmica para burlar as travas das IAs, e de surpresa um programa de astrologia chinesa no quinto lugar."

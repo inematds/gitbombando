@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Conferi a manchete da capa, as posições, as estrelas ganhas e os totais de cada cartão contra o top10.json, e tudo bate. O avatar fica em meia tela no começo e depois no canto, e o fecho tem a caixa vermelha e a pílula inema.club; não vi nenhum defeito visível.",
+ "sugestoes": [
+  "4,0 s: a legenda karaokê cai sobre a estrela dourada brilhante e fica com pouco contraste ('FOI SÓ ISSO', 'HOJE'); uma faixa escura atrás da legenda da capa ajudaria.",
+  "Cartões #9 a #1 (32–119 s): quem pausa no meio do contador lê no painel do gráfico um número diferente do cartão (ex.: 730 × +882, 52 × +1.255, 2.050 × +2.299); vale fazer o contador chegar ao valor final mais rápido.",
+  "119,43 s: a descrição do impeccable diz 'a pegar aquele design com cara de robô', que soa estranho; 'a caçar', como na fala, fica melhor.",
+  "90,57 s: a transição do #4 para o #3 mistura os dois cartões ('jailbreaks'/'superpowers' sobrepostos) por um instante; um corte mais seco deixaria mais limpo.",
+  "IMPACTO 7: a disputa de 17 estrelas é um bom gancho, mas o jailbreak polêmico do 3º lugar podia aparecer na capa ou nos primeiros 3 s para segurar quem está rolando o feed."
+ ]
+}
