@@ -1,0 +1,100 @@
+modo: dia
+gancho:
+  tipo: perda
+  manchete: "+1.723 ESTRELAS PRA IA NÃO ESQUECER"
+  destaque: "+1.723"
+  objeto: "um cérebro dourado de vidro rachando, com memórias em forma de faíscas amarelas escapando pelas rachaduras"
+  fontes:
+    - {nome: "github.com/trending", trecho: "thedotmack/claude-mem · 1,723 stars today"}
+abertura:
+  cena: "sala escura de servidores à noite, só a luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "A sua IA esquece tudo o que você contou pra ela ontem. O projeto que mais cresceu hoje no GitHub promete acabar com isso."
+  - etapa: panorama
+    fala: "Os dez projetos que mais cresceram hoje somaram onze mil novecentas e dezoito estrelas. Vou do décimo ao primeiro."
+    numero: "11.918"
+  - etapa: repo
+    repo: "mattpocock/skills"
+    desc: "As receitas que um programador famoso usa todo dia para a IA trabalhar direito."
+    destaque: "todo dia"
+    numero: "882"
+    fala: "Em décimo, as skills do Matt Pocock, com mais de trezentas mil estrelas. São as receitas que ele usa todo dia pra IA programar de verdade, sem improviso. Hoje foram oitocentas e oitenta e duas estrelas."
+  - etapa: repo
+    repo: "lightpanda-io/browser"
+    desc: "Navegador feito do zero para robôs de IA navegarem na internet, bem mais leve e rápido."
+    destaque: "feito do zero"
+    numero: "929"
+    fala: "Número nove, o Lightpanda. Um navegador feito do zero, não pra você, mas pros robôs de IA andarem pela internet, muito mais leve e rápido que o Chrome. Novecentas e vinte e nove estrelas."
+  - etapa: repo
+    repo: "HKUDS/DeepTutor"
+    desc: "Professor particular de IA que monta aulas sob medida e acompanha você a vida toda."
+    destaque: "sob medida"
+    numero: "1.035"
+    fala: "Em oitavo, o DeepTutor, um professor particular de IA que monta aulas sob medida pra você. Ontem ele quase levou o topo, e não sai do Top dez. Mil e trinta e cinco estrelas."
+  - etapa: repo
+    repo: "Renhuai123/ziwei-doushu"
+    desc: "Programa aberto de astrologia chinesa que monta o seu mapa do destino."
+    destaque: "astrologia chinesa"
+    numero: "1.093"
+    fala: "Sétimo lugar, de novo a surpresa. Ziwei Doushu é um programa aberto de astrologia chinesa que monta o seu mapa do destino. Mil e noventa e três estrelas."
+  - etapa: repo
+    repo: "Orkas-AI/Orkas"
+    desc: "Time de agentes de IA no seu computador: um chefe divide o trabalho e cobra a entrega."
+    destaque: "um chefe"
+    numero: "1.118"
+    fala: "Em sexto, a estreia mais explosiva: Orkas. Você diz o objetivo e um chefe de IA divide o trabalho entre dezesseis especialistas. Cresceu quase um quarto num dia só, mil cento e dezoito estrelas."
+  - etapa: repo
+    repo: "pingdotgg/t3code"
+    desc: "Comande as IAs que rodam no seu computador direto do celular, de onde estiver."
+    destaque: "do celular"
+    numero: "1.148"
+    fala: "Quinto, Tê Três Code. Com ele você controla as IAs do seu computador pelo celular, do sofá, da fila do banco, de onde estiver. Mil cento e quarenta e oito estrelas."
+  - etapa: repo
+    repo: "milind-soni/OpenMausBot"
+    desc: "Monte seu próprio time de robôs de IA num app de chat, com um computador só para eles."
+    destaque: "time de robôs"
+    numero: "1.304"
+    fala: "Em quarto, o OpenMausBot, que não sai do Top dez. Um app de chat onde você monta o seu time de robôs de IA, de graça, com um computador virtual só pra eles. Mil trezentas e quatro estrelas."
+  - etapa: repo
+    repo: "pbakaus/impeccable"
+    desc: "Ensina a IA a caprichar no visual e a pegar aquele design com cara de robô."
+    destaque: "cara de robô"
+    numero: "1.339"
+    fala: "E agora o pódio. O bronze é do Impeccable, que era o campeão de ontem. Ele ensina a IA a caprichar no visual e caça o design com cara de robô. Mil trezentas e trinta e nove estrelas."
+  - etapa: repo
+    repo: "Donchitos/Claude-Code-Game-Studios"
+    desc: "Um estúdio de videogame inteiro feito de IAs: 49 agentes que planejam, criam e testam o jogo."
+    destaque: "estúdio de videogame"
+    numero: "1.347"
+    fala: "A prata é de dar medo em muito estúdio: Claude Code Game Studios. São quarenta e nove agentes de IA trabalhando como uma equipe pra criar o seu videogame. Mil trezentas e quarenta e sete estrelas."
+  - etapa: repo
+    repo: "thedotmack/claude-mem"
+    desc: "Memória para a IA lembrar o que você fez nas conversas anteriores, sem repetir tudo."
+    destaque: "lembrar"
+    numero: "1.723"
+    fala: "E o primeiro lugar é o Claude Mem, que não sai do Top dez. Ele dá memória pra sua IA: ela lembra tudo o que vocês fizeram antes. Mil setecentas e vinte e três estrelas. Disparado."
+  - etapa: comentario
+    fala: "E aí, qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "onze mil novecentas e dezoito": "11.918"
+  "trezentas mil": "300 mil"
+  "oitocentas e oitenta e duas": "882"
+  "Novecentas e vinte e nove": "929"
+  "Mil e trinta e cinco": "1.035"
+  "Mil e noventa e três": "1.093"
+  "dezesseis": "16"
+  "mil cento e dezoito": "1.118"
+  "Mil cento e quarenta e oito": "1.148"
+  "Mil trezentas e quatro": "1.304"
+  "Mil trezentas e trinta e nove": "1.339"
+  "quarenta e nove": "49"
+  "Mil trezentas e quarenta e sete": "1.347"
+  "Mil setecentas e vinte e três": "1.723"
+cores: {bombando: "#FACC15", polemico: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "A IA que não esquece mais nada: Claude Mem leva 1.723 estrelas e lidera o GitHub hoje"
+  contexto: "O Top 10 do GitHub de 31/10/2026, do décimo ao primeiro, explicado sem jargão. O Claude Mem, que dá memória para a IA, disparou no topo com 1.723 estrelas, à frente de um estúdio de videogame feito só de agentes de IA."
+  telegram: "O Claude Mem, que dá memória para a sua IA, liderou o GitHub hoje com 1.723 estrelas. Na prata, um estúdio de videogame inteiro feito de 49 agentes de IA, e a estreia mais explosiva foi o Orkas, que cresceu quase um quarto num dia."

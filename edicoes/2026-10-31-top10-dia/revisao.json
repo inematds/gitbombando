@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "A manchete da capa bate com gancho.manchete, as 10 posições e os ganhos do ranking (0,05 s) e dos cartões batem com o top10.json (soma 11.918), o avatar está em meia tela e depois no canto, e o fecho tem a caixa vermelha de pergunta e a pílula inema.club; não há defeito visível.",
+ "sugestoes": [
+  "93,7 s / 33,9–123,6 s: os quadros pegam o contador do gráfico ainda subindo (#3 aparece com 0, t3code com 33 e Orkas com 262 'HOJE', abaixo do +1.148/+1.118 do cartão); para quem pausa, parece número errado, então vale terminar o contador em ~1 s ou trocar o rótulo por 'subindo…' até chegar ao valor final",
+  "93,7 s e 103,7 s: o cartão do #3 aparece duas vezes seguidas (~20 s no mesmo projeto) e a fala do pódio fica arrastada; dá para encurtar",
+  "93,7 s: a frase 'pegar aquele design com cara de robô' ficou ambígua; melhor 'caçar o design com cara de robô', como diz a fala",
+  "133,6 s: o print do portal inema.club tem texto miúdo e um 'NOVEMBRO É' cortado no rodapé; um cartão limpo com a URL grande seria mais forte",
+  "IMPACTO 7: a capa do cérebro dourado e a dor 'sua IA esquece tudo' prendem bem; faltou um choque visual no meio (do #7 ao #4 os cartões são iguais e o ritmo cai) e uma virada no #1, por exemplo uma tela 'DISPARADO +376 à frente do #2'"
+ ]
+}
