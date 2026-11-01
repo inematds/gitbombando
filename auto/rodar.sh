@@ -2,10 +2,10 @@
 # Rodada automática do "Bombando no GitHub" (reel 9:16 com o Top 10 do GitHub; lives4 + bot v3 + tópico no INEMA.TOOLS).
 # Pedido do Nei em 28/10/2026: "crie uma agenda para 4 da tarde rodar e publicar todo dia" (avatar incluso, sem aprovação).
 # coleta (GitHub) → roteiro (claude -p, assinatura) → avatar (estúdio HeyGen) + cartões + capa (Codex) → render
-#   → revisor (claude -p) → YouTube lives4 + bot v3 + Telegram → git push.
+#   → revisor (claude -p) → YouTube lives4 + bot v3 + Telegram → metritds (Instagram/TikTok inema.tds) → git push.
 # uso: auto/rodar.sh [AAAA-MM-DD, padrão hoje] [dia|semana|mes]
 #   O timer das 16:00 chama auto/rodar.sh sem modo = "auto": sempre o dia; no domingo também a semana; no dia 1º também o mês.
-# Teste: ED=<pasta de teste> AVATAR_DE=<mp4 já gravado> (não gasta avatar) SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 GB_SEM_HISTORICO=1.
+# Teste: ED=<pasta de teste> AVATAR_DE=<mp4 já gravado> (não gasta avatar) SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 GB_SEM_HISTORICO=1.
 # Pular: linha "AAAA-MM-DD" (tudo) ou "AAAA-MM-DD semana" em auto/pular.txt.
 set -uo pipefail
 RAIZ="$(cd "$(dirname "$0")/.." && pwd)"
@@ -80,6 +80,9 @@ fi
 # 4. publicar: YouTube lives4, bot v3, tópico no INEMA.TOOLS
 python3 "$RAIZ/gb.py" publicar "$ED" > "$ED/publicar-gb.log" 2>&1 || echo "publicar saiu com erro (ver publicar-gb.log)"
 tail -3 "$ED/publicar-gb.log"
+
+# 4b. metritds: Instagram + TikTok inema.tds pelo Metricool da conta inematds (Nei, 01/11/2026)
+[ "${SEM_METRI:-}" = 1 ] || bash "$RAIZ/auto/metritds.sh" "$ED" > /dev/null 2>&1 || echo "metritds falhou (ver $ED/metritds.log)"
 
 # 5. git (autor inematds); mídia fica fora pelo .gitignore
 if [ "${SEM_GIT:-}" != 1 ]; then

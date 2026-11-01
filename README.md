@@ -20,7 +20,7 @@ Guia completo (landing + passo a passo): **https://inematds.github.io/gitbomband
 
 ---
 
-## O processo, do início ao fim (10 passos)
+## O processo, do início ao fim (11 passos)
 
 🧠 = sessão com o Nei (gasta tokens) · ⚙️ = script/timer (zero token) · 🤖 = `claude -p` curto (sessão nova)
 
@@ -35,9 +35,10 @@ Guia completo (landing + passo a passo): **https://inematds.github.io/gitbomband
 | 6 | Montagem | tempo de cada palavra (Whisper), ritmo (~182 palavras/min, pausa antes do #1), cena com contador e gráfico em cada projeto, render no motor de telejornal | ⚙️ |
 | 7 | Revisão | `claude -p` com `auto/revisor.md` lê a folha de 18 quadros: aprovado segue; reprovado para e avisa no v3 | 🤖 |
 | 8 | Publicar | `gb.py publicar`: YouTube **lives4** (yt-pubx, título com #Shorts, links dos 10 na descrição) → bot **v3** → tópico fixo **BOMBANDO NO GITHUB** no INEMA.TOOLS | ⚙️ |
+| 8b | Metritds | `auto/metritds.sh <pasta>`: sobe o vídeo na release `social` do repo e agenda (agora + 10 min) no **Instagram + TikTok inema.tds** pelo Metricool da conta inematds (conector `metricool-inematds`, via `claude -p`); aviso azul no v3 | 🤖 |
 | 9 | Guardar | git commit + push (roteiro, dados e histórico; mídia fica fora) | ⚙️ |
 
-Teste sem publicar: `SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 auto/rodar.sh 2026-10-28 dia`.
+Teste sem publicar: `SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 auto/rodar.sh 2026-10-28 dia`.
 Pular um dia: linha `AAAA-MM-DD` (ou `AAAA-MM-DD semana`) em `auto/pular.txt`.
 
 ## Instalação dos timers (uma vez)
