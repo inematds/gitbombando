@@ -23,7 +23,7 @@ do #10 ao #1, cartão de cada projeto, gráficos e o avatar do Nei. Explicação
   Pular: `AAAA-MM-DD` ou `AAAA-MM-DD semana` em `auto/pular.txt`. Edição já publicada não roda de novo (`FORCAR=1` refaz).
 - **Metritds (01/11/2026):** além do lives4, cada reel aprovado vai ao Instagram + TikTok `inema.tds` pelo Metricool da
   conta inematds (conector MCP `metricool-inematds`, apelido "metritds") com `auto/metritds.sh` (agora + 10 min, UTC).
-  `SEM_METRI=1` pula. Marca feito em `<edição>/metritds.txt`; teste com `RASCUNHO=1 SEM_BOT=1`.
+  Info da conta: `~/projetos/metricool-inematds`. `SEM_METRI=1` pula. Marca feito em `<edição>/metritds.txt`; teste com `RASCUNHO=1 SEM_BOT=1`.
 - Revisor `claude -p` (`auto/revisor.md`) lê `build/folha.jpg` (18 quadros): reprovado = não publica e avisa no v3 com o
   comando para publicar assim mesmo (`python3 gb.py publicar <pasta>`).
 - Telegram: tópico fixo no INEMA.TOOLS, id em `auto/telegram-topico.txt` (criado na 1ª rodada); cada rodada posta dentro
