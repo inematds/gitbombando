@@ -44,7 +44,7 @@ systemctl --user enable --now gitbombando-retrato.timer gitbombando.timer
 
 ## What appears in the video
 
-- **Cover (frame 0):** headline of up to 6 words designed by Codex, with the day's biggest number in yellow.
+- **Cover (frame 0):** big "TOP 10 DO GITHUB" call on top, plus a headline of up to 6 words designed by Codex, with the day's biggest number in yellow.
 - **Overview:** the 10 projects in bars (stars gained) and their sum on a counter.
 - **Each project:** card with `#position`, owner's photo, name, what it does in plain English, language, total stars, and creation date. Below it, the gained-stars counter climbs to the number at the moment it's spoken, and the chart shows the hourly curve (day) or daily curve (week/month) when snapshots are available, or "before × now" with growth as a %.
 - **Closing:** question in a red box, the comment gesture being typed, and the inema.club pill.

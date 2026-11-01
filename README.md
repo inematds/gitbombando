@@ -50,7 +50,7 @@ systemctl --user enable --now gitbombando-retrato.timer gitbombando.timer
 
 ## O que aparece no vídeo
 
-- **Capa (quadro 0):** manchete de até 6 palavras desenhada pelo Codex, com o número mais forte do dia em amarelo.
+- **Capa (quadro 0):** chamada grande "TOP 10 DO GITHUB" no alto + manchete de até 6 palavras desenhada pelo Codex, com o número mais forte do dia em amarelo.
 - **Panorama:** os 10 em barras (estrelas ganhas) e a soma num contador.
 - **Cada projeto:** cartão com `#posição`, foto do dono, nome, o que faz em português, linguagem, total de estrelas e data de
   criação. Embaixo, o contador das estrelas ganhas chegando ao número no instante em que é dito e o gráfico: a curva por hora

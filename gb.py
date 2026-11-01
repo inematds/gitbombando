@@ -216,11 +216,14 @@ def cmd_imagens(pasta):
                   f"formato RETRATO 9:16 (o maior tamanho vertical disponível). {ESTILO}\n\n"
                   f"abertura.png — capa de impacto (é a capa do vídeo: tem de funcionar parada, num relance): {a['cena']}. "
                   f"No centro da cena, grande e nítido, o objeto-metáfora: {g['objeto']}. "
-                  f"Manchete ESCRITA DENTRO da arte, em CAIXA ALTA, português, fonte bold sem serifa bem grossa, enorme, em 1 a 3 linhas: "
-                  f"\"{g['manchete']}\" — tudo em branco, MENOS a palavra \"{g['destaque']}\", em amarelo #FACC15. "
-                  "A manchete fica na METADE DE CIMA, entre 8% e 46% da altura, com margem de 7% nas laterais (nada encosta na borda); "
+                  f"Texto ESCRITO DENTRO da arte, em CAIXA ALTA, português, fonte bold sem serifa bem grossa, em dois blocos colados, um sobre o outro. "
+                  "BLOCO 1 (a chamada principal, a MAIOR coisa do quadro, ocupa quase toda a largura): \"TOP 10 DO GITHUB\" em 2 linhas "
+                  "(\"TOP 10\" gigante em amarelo #FACC15; \"DO GITHUB\" logo abaixo, grande, em branco). "
+                  f"BLOCO 2 (a manchete, bem menor que o bloco 1, mas ainda grande e legível): \"{g['manchete']}\" — em branco, MENOS a palavra "
+                  f"\"{g['destaque']}\", em amarelo #FACC15, em 1 a 2 linhas. "
+                  "Os dois blocos ficam na METADE DE CIMA, entre 6% e 50% da altura, com margem de 7% nas laterais (nada encosta na borda); "
                   "a metade de baixo sem texto (ali entra o rosto). Contraste alto: letra legível em tamanho de miniatura. "
-                  "Confira a grafia exata, com acentos; nenhuma outra palavra na imagem.\n\nNão mexa em nenhum outro arquivo. "
+                  "Confira a grafia exata, com acentos; nenhuma outra palavra na imagem além desses dois blocos.\n\nNão mexa em nenhum outro arquivo. "
                   "Ao final, liste o arquivo salvo.\n")
         (capa / "pedido.txt").write_text(pedido)
         log("Codex: capa…")

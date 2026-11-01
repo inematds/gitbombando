@@ -10,7 +10,7 @@ Leia, nesta ordem:
 3. Se um quadro estiver pequeno demais, abra `build/q00.jpg` … `build/q17.jpg`.
 
 REPROVE (defeito) só se:
-- Manchete da capa (quadro 0) com erro de grafia, palavra cortada, diferente de `gancho.manchete` ou ilegível.
+- Capa (quadro 0): tem de trazer "TOP 10 DO GITHUB" GRANDE no alto (a maior coisa do quadro) e, abaixo, a manchete; reprove se faltar a chamada Top 10. Manchete da capa com erro de grafia, palavra cortada, diferente de `gancho.manchete` ou ilegível.
 - Quadro vazio, todo preto, ou cartão sem conteúdo (foto do dono quebrada não é motivo; cartão inteiro vazio é).
 - Número na tela que contradiz o top10.json (ex.: posição errada, estrelas trocadas entre projetos).
 - Texto cobrindo texto a ponto de não dar para ler, legenda saindo da tela.
