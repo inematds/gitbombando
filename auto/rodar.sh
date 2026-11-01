@@ -78,6 +78,7 @@ Para publicar assim mesmo: cd $RAIZ && python3 gb.py publicar $ED"
 fi
 
 # 4. publicar: YouTube lives4, bot v3, tópico no INEMA.TOOLS
+[ "${SEM_METRI:-}" = 1 ] && export GB_V3_VIDEO=1   # sem metritds, o v3 recebe o vídeo como antes
 python3 "$RAIZ/gb.py" publicar "$ED" > "$ED/publicar-gb.log" 2>&1 || echo "publicar saiu com erro (ver publicar-gb.log)"
 tail -3 "$ED/publicar-gb.log"
 

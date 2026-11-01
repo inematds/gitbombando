@@ -69,20 +69,22 @@ FAIXA="🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦"
 if [ -n "$OK" ]; then
   [ -z "${RASCUNHO:-}" ] && printf '%s\n%s\n' "$QUANDO_BR" "$REDES" > "$ED/metritds.txt"
   MSG="$FAIXA
-🔵 METRITDS: INSTAGRAM/TIKTOK inema.tds $([ -n "${RASCUNHO:-}" ] && echo '(RASCUNHO DE TESTE)')
+🔵 PUBLICADO DIRETO · YouTube lives4 + metritds (Instagram/TikTok inema.tds) $([ -n "${RASCUNHO:-}" ] && echo '(RASCUNHO DE TESTE)')
 $FAIXA
 Bombando no GitHub · $TIT
 Quando: $QUANDO_BR · Redes: ${REDES:-?}$([ -n "$FALTAM" ] && printf '\nAinda não conectadas: %s' "$FALTAM")
 Instagram: https://www.instagram.com/inema.tds/
 TikTok: https://www.tiktok.com/@inema.tds
-Metricool: ${PLAN:-https://app.metricool.com/planner}"
+Metricool: ${PLAN:-https://app.metricool.com/planner}
+$(cat "$ED/v3-resumo.txt" 2>/dev/null)"
 else
   MSG="$FAIXA
 ⚠ METRITDS: NÃO AGENDOU (Instagram/TikTok inema.tds)
 $FAIXA
 Bombando no GitHub · $TIT
 Erro: ${ERRO:-$(printf '%s' "$OUT" | tail -c 300)}
-Log: $LOG"
+Log: $LOG
+$(cat "$ED/v3-resumo.txt" 2>/dev/null)"
 fi
 echo "$MSG"
 if [ -z "${SEM_BOT:-}" ]; then

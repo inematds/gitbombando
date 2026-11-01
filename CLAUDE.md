@@ -37,4 +37,5 @@ When I correct you, or you catch yourself making a mistake: before continuing, a
 ## Lessons, so it never happens again.
 
 ## Lessons
+- Publicação direta: no v3 vai só a mensagem azul (metritds, com YouTube + sugestão do revisor), sem o vídeo; o vídeo só vai ao v3 quando o revisor reprova ou com SEM_METRI=1. (Nei, 01/11/2026)
 

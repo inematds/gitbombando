@@ -391,7 +391,8 @@ def cmd_publicar(pasta):
     sug = rev.get("sugestoes") or []
     leg = (f"Bombando no GitHub · {NOME[modo]} · {data_br} · {duracao(v):.0f}s\n{st}\n" +
            (("🟥 SUGESTÃO: " + " | ".join(sug)[:500] + "\n") if sug else "") + pub["titulo"])
-    if not os.environ.get("SEM_BOT"):
+    (p / "v3-resumo.txt").write_text(leg + "\n")   # vai dentro da mensagem azul do metritds (Nei, 01/11/2026: publicação direta = só a azul no v3)
+    if not os.environ.get("SEM_BOT") and os.environ.get("GB_V3_VIDEO"):
         Path(str(v) + ".envio-v3.json").unlink(missing_ok=True)
         subprocess.run(["node", R / "bin/enviar_bot_v3.mjs", v, leg], timeout=900)
     if not os.environ.get("SEM_TG"):
