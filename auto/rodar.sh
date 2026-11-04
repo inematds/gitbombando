@@ -68,7 +68,9 @@ if [ -n "${AVATAR_DE:-}" ] && [ ! -s "$ED/avatar/avatar.mp4" ]; then
   [ -s "$AVATAR_DE" ] || { echo "AVATAR_DE não existe: $AVATAR_DE (nada foi gravado no HeyGen)" | tee /dev/stderr; exit 2; }
   cp "$AVATAR_DE" "$ED/avatar/avatar.mp4"
 fi
-python3 "$RAIZ/gb.py" fazer "$ED" > "$ED/fazer.log" 2>&1 || avisar "montagem falhou: $(tail -2 "$ED/fazer.log" | cut -c1-400)"
+V=$(python3 -c "import json;print(json.load(open('$ED/revisao.json'))['veredito'])" 2>/dev/null)
+if [ "${REUSAR:-}" = 1 ] && [ "$V" = aprovado ] && [ "$ED/revisao.json" -nt "$ED/video.mp4" ]; then echo "reusando o vídeo aprovado"   # 04/11/2026
+else python3 "$RAIZ/gb.py" fazer "$ED" > "$ED/fazer.log" 2>&1 || avisar "montagem falhou: $(tail -2 "$ED/fazer.log" | cut -c1-400)"; fi
 V=$(python3 -c "import json;print(json.load(open('$ED/revisao.json'))['veredito'])" 2>/dev/null)
 if [ "$V" = erro ]; then python3 "$RAIZ/gb.py" revisar "$ED" >> "$ED/fazer.log" 2>&1; V=$(python3 -c "import json;print(json.load(open('$ED/revisao.json'))['veredito'])"); fi
 if [ "$V" != aprovado ]; then

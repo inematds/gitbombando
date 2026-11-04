@@ -51,7 +51,7 @@ CSS_REPO = """
 
 CSS_RANK = """
 .rot{position:absolute;left:56px;right:56px;top:150px;font:900 28px Inter;letter-spacing:5px;color:#FACC15}
-.tit{position:absolute;left:56px;right:56px;top:192px;font:400 92px/1 'Archivo Black';color:#fff;letter-spacing:-2px}
+.tit{position:absolute;left:56px;right:56px;top:192px;font:400 92px/1 'Archivo Black';color:#fff;letter-spacing:-2px;white-space:nowrap}
 .tit b{color:#FACC15;font-weight:400}
 .lista{position:absolute;left:56px;right:56px;top:318px}
 .r{display:flex;align-items:center;gap:16px;height:76px}
@@ -115,6 +115,10 @@ def cartao_repo(it, modo, desc_pt, saida, destaque=None):
     return fotografar(BASE.replace("%CSS%", css).replace("%CORPO%", corpo), saida)
 
 
+# título numa linha só (04/11/2026: "BOMBANDO NA SEMANA" em 92 px quebrava e cobria o #1 da lista)
+TAM_TIT = {"dia": 92, "semana": 74, "mes": 84}
+
+
 def cartao_ranking(top, modo, data_br, saida):
     mx = max(x["estrelas_periodo"] for x in top) or 1
     linhas = []
@@ -124,6 +128,6 @@ def cartao_ranking(top, modo, data_br, saida):
                       f'<span class="nm">{html.escape(x["repo"])}</span><span class="bar"><i style="width:{100 * x["estrelas_periodo"] / mx:.1f}%"></i></span>'
                       f'<span class="v">+{br(x["estrelas_periodo"])}</span></div>')
     tit = {"dia": "BOMBANDO <b>HOJE</b>", "semana": "BOMBANDO <b>NA SEMANA</b>", "mes": "BOMBANDO <b>NO MÊS</b>"}[modo]
-    corpo = (f'<div class="rot">TOP 10 GITHUB · {data_br}</div><div class="tit">{tit}</div>'
+    corpo = (f'<div class="rot">TOP 10 GITHUB · {data_br}</div><div class="tit" style="font-size:{TAM_TIT[modo]}px">{tit}</div>'
              f'<div class="lista">{"".join(linhas)}</div><div class="fonte">⭐ estrelas ganhas {PERIODO[modo].lower()} · fonte: github.com/trending</div>')
     return fotografar(BASE.replace("%CSS%", CSS_RANK).replace("%CORPO%", corpo), saida)

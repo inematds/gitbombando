@@ -483,7 +483,9 @@ function html(t){
     let corpo='';
     if(p.contador){const c=p.contador; const k=prog(t,c.ini??p.ini,c.dur||2); const v=lerp(c.de,c.ate,k);
       const s=v.toLocaleString('pt-BR',{minimumFractionDigits:c.dec||0,maximumFractionDigits:c.dec||0});
-      corpo=`<div class="n" style="color:${c.cor||'#fff'}">${s}</div><div class="u">${c.unid||''}</div>`;}
+      // número longo (67.733, 426.427) vazava da caixa em 170 px: reduz pela quantidade de caracteres (gitbombando 04/11/2026)
+      const sF=c.ate.toLocaleString('pt-BR',{minimumFractionDigits:c.dec||0,maximumFractionDigits:c.dec||0}); const fsN=(!p.grafico&&sF.length>4)?`font-size:${Math.min(170,Math.floor(520/(sF.length*.66)))}px;`:'';
+      corpo=`<div class="n" style="${fsN}color:${c.cor||'#fff'}">${s}</div><div class="u">${c.unid||''}</div>`;}
     if(p.grafico) corpo+=grafico(p.grafico,t,p);
     if(p.ranking) corpo+=ranking(p.ranking,t,p);
     // só os itens já ditos, no máximo 3 na tela (os mais recentes); nada de próximos apagados (r7ex 19/10/2026)
