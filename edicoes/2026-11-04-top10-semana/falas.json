@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "A IA programa rápido. Mas desenha feio. E nesta semana o GitHub inteiro correu atrás do conserto: três dos dez maiores projetos existem só pra isso.",
+  "legenda": "A IA programa rápido. Mas desenha feio. E nesta semana o GitHub inteiro correu atrás do conserto: três dos dez maiores projetos existem só pra isso."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez projetos que mais cresceram na semana somaram sessenta e sete mil setecentas e trinta e três estrelas. Vou do décimo ao primeiro.",
+  "legenda": "Os dez projetos que mais cresceram na semana somaram 67.733 estrelas. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, OpenMontage. Ele transforma a IA do seu computador num estúdio de vídeo inteiro: roteiro, imagem, voz e edição. Aberto e gratuito, com três mil quatrocentas e noventa estrelas.",
+  "legenda": "Em décimo, OpenMontage. Ele transforma a IA do seu computador num estúdio de vídeo inteiro: roteiro, imagem, voz e edição. Aberto e gratuito, com 3.490 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Número nove, Claude SEO. Você dá o endereço do seu site e em quinze minutos ele diz o que fazer pra aparecer no Google e nas respostas das IAs. Coisa que agência cobra caro. Foram três mil setecentas e cinquenta e uma estrelas.",
+  "legenda": "Número nove, Claude SEO. Você dá o endereço do seu site e em 15 min ele diz o que fazer pra aparecer no Google e nas respostas das IAs. Coisa que agência cobra caro. Foram 3.751 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, uma big tech. O ThinkRail, da JetBrains, é um programa pra criar software conversando com a IA, e ele aprende o seu jeito. Mais que dobrou em sete dias: três mil oitocentas e noventa e oito estrelas.",
+  "legenda": "Em oitavo, uma big tech. O ThinkRail, da JetBrains, é um programa pra criar software conversando com a IA, e ele aprende o seu jeito. Mais que dobrou em 7 dias: 3.898 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo lugar, um arquivo só. São as regras tiradas das observações do Andrej Karpathy, um dos nomes mais famosos da IA, pra ela errar menos quando programa. Ganhou três mil novecentas e vinte e uma estrelas.",
+  "legenda": "Sétimo lugar, um arquivo só. São as regras tiradas das observações do Andrej Karpathy, um dos nomes mais famosos da IA, pra ela errar menos quando programa. Ganhou 3.921 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, o primeiro do time anti feiura. Taste Skill dá bom gosto pra IA: direção de arte, referências e uma conferida no navegador, em vez daquela página genérica. Ganhou cinco mil novecentas e setenta e duas estrelas.",
+  "legenda": "Em sexto, o primeiro do time anti feiura. Taste Skill dá bom gosto pra IA: direção de arte, referências e uma conferida no navegador, em vez daquela página genérica. Ganhou 5.972 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Número cinco, superpowers. É um kit que dá método pra IA que programa: ela planeja, testa e revisa antes de entregar. Já passa de trezentas mil estrelas e ganhou mais cinco mil novecentas e noventa e quatro estrelas.",
+  "legenda": "Número cinco, superpowers. É um kit que dá método pra IA que programa: ela planeja, testa e revisa antes de entregar. Já passa de 300 mil estrelas e ganhou mais 5.994 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, claude-mem. Sabe quando a IA esquece tudo e você tem de explicar de novo? Ele guarda o que ela fez e devolve na próxima conversa. São sete mil novecentas e noventa e cinco estrelas.",
+  "legenda": "Em quarto, claude-mem. Sabe quando a IA esquece tudo e você tem de explicar de novo? Ele guarda o que ela fez e devolve na próxima conversa. São 7.995 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Em terceiro, Hallmark: um kit de design que se recusa a deixar o seu site com cara de feito por robô. São cinquenta estilos prontos, e oito mil setecentas e sessenta e cinco estrelas.",
+  "legenda": "E agora o pódio. Em terceiro, Hallmark: um kit de design que se recusa a deixar o seu site com cara de feito por robô. São 50 estilos prontos, e 8.765 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, Impeccable. Ele ensina a IA a caprichar no visual e dedura o design genérico antes de ir pro ar. Passou de cem mil estrelas e ganhou onze mil quatrocentas e cinco estrelas na semana.",
+  "legenda": "Em segundo, Impeccable. Ele ensina a IA a caprichar no visual e dedura o design genérico antes de ir pro ar. Passou de 100 mil estrelas e ganhou 11.405 estrelas na semana."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um. Tê Três Code. Um painel só pra mandar em todas as IAs que programam no seu computador, até pelo celular, usando as assinaturas que você já tem. Foram doze mil quinhentas e quarenta e duas estrelas. Em sete dias.",
+  "legenda": "E o número um. Tê Três Code. Um painel só pra mandar em todas as IAs que programam no seu computador, até pelo celular, usando as assinaturas que você já tem. Foram 12.542 estrelas. Em 7 dias."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema ponto club, e semana que vem tem mais.",
+  "legenda": "Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema.club, e semana que vem tem mais."
+ }
+]

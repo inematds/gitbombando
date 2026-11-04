@@ -1,0 +1,104 @@
+modo: semana
+gancho:
+  tipo: contrario
+  manchete: "IA FEIA VALE +26.142 ESTRELAS"
+  destaque: "+26.142"
+  objeto: "um robô pintor dourado com o pincel quebrado, uma tela de site rasgada no meio e faíscas amarelas saindo do rasgo"
+  fontes:
+    - {nome: "github.com/trending?since=weekly", trecho: "pbakaus/impeccable · 11,405 stars this week"}
+    - {nome: "github.com/trending?since=weekly", trecho: "Nutlope/hallmark · 8,765 stars this week"}
+    - {nome: "github.com/trending?since=weekly", trecho: "Leonxlnx/taste-skill · 5,972 stars this week"}
+abertura:
+  cena: "estúdio de design escuro à noite, pranchetas vazias, só a luz amarela de um monitor no centro"
+partes:
+  - etapa: gancho
+    fala: "A IA programa rápido. Mas desenha feio. E nesta semana o GitHub inteiro correu atrás do conserto: três dos dez maiores projetos existem só pra isso."
+  - etapa: panorama
+    fala: "Os dez projetos que mais cresceram na semana somaram sessenta e sete mil setecentas e trinta e três estrelas. Vou do décimo ao primeiro."
+    numero: "67.733"
+  - etapa: repo
+    repo: "calesthio/OpenMontage"
+    desc: "Transforma a IA do seu computador num estúdio completo de produção de vídeo, de graça."
+    destaque: "estúdio completo"
+    numero: "3.490"
+    fala: "Em décimo, OpenMontage. Ele transforma a IA do seu computador num estúdio de vídeo inteiro: roteiro, imagem, voz e edição. Aberto e gratuito, com três mil quatrocentas e noventa estrelas."
+  - etapa: repo
+    repo: "AgriciDaniel/claude-seo"
+    desc: "Kit gratuito que faz uma auditoria completa do seu site para aparecer no Google e nas IAs."
+    destaque: "aparecer no Google"
+    numero: "3.751"
+    fala: "Número nove, Claude SEO. Você dá o endereço do seu site e em quinze minutos ele diz o que fazer pra aparecer no Google e nas respostas das IAs. Coisa que agência cobra caro. Foram três mil setecentas e cinquenta e uma estrelas."
+  - etapa: repo
+    repo: "JetBrains/thinkrail"
+    desc: "Programa da JetBrains para criar software conversando com a IA, que aprende seu jeito."
+    destaque: "aprende seu jeito"
+    numero: "3.898"
+    fala: "Em oitavo, uma big tech. O ThinkRail, da JetBrains, é um programa pra criar software conversando com a IA, e ele aprende o seu jeito. Mais que dobrou em sete dias: três mil oitocentas e noventa e oito estrelas."
+  - etapa: repo
+    repo: "multica-ai/andrej-karpathy-skills"
+    desc: "Um único arquivo de regras que faz a IA errar menos quando escreve código."
+    destaque: "errar menos"
+    numero: "3.921"
+    fala: "Sétimo lugar, um arquivo só. São as regras tiradas das observações do Andrej Karpathy, um dos nomes mais famosos da IA, pra ela errar menos quando programa. Ganhou três mil novecentas e vinte e uma estrelas."
+  - etapa: repo
+    repo: "Leonxlnx/taste-skill"
+    desc: "Dá bom gosto à IA: direção de arte e referências em vez de páginas genéricas."
+    destaque: "bom gosto"
+    numero: "5.972"
+    fala: "Em sexto, o primeiro do time anti feiura. Taste Skill dá bom gosto pra IA: direção de arte, referências e uma conferida no navegador, em vez daquela página genérica. Ganhou cinco mil novecentas e setenta e duas estrelas."
+  - etapa: repo
+    repo: "obra/superpowers"
+    desc: "Kit que ensina a IA a trabalhar com método: planejar, testar e revisar antes de entregar."
+    destaque: "com método"
+    numero: "5.994"
+    fala: "Número cinco, superpowers. É um kit que dá método pra IA que programa: ela planeja, testa e revisa antes de entregar. Já passa de trezentas mil estrelas e ganhou mais cinco mil novecentas e noventa e quatro estrelas."
+  - etapa: repo
+    repo: "thedotmack/claude-mem"
+    desc: "Dá memória à IA: ela lembra o que fez nas conversas anteriores e não começa do zero."
+    destaque: "memória"
+    numero: "7.995"
+    fala: "Em quarto, claude-mem. Sabe quando a IA esquece tudo e você tem de explicar de novo? Ele guarda o que ela fez e devolve na próxima conversa. São sete mil novecentas e noventa e cinco estrelas."
+  - etapa: repo
+    repo: "Nutlope/hallmark"
+    desc: "Kit de design para a IA que se recusa a deixar seu site com cara de feito por robô."
+    destaque: "cara de feito por robô"
+    numero: "8.765"
+    fala: "E agora o pódio. Em terceiro, Hallmark: um kit de design que se recusa a deixar o seu site com cara de feito por robô. São cinquenta estilos prontos, e oito mil setecentas e sessenta e cinco estrelas."
+  - etapa: repo
+    repo: "pbakaus/impeccable"
+    desc: "Ensina a IA a caprichar no visual e a pegar aquele design com cara de robô."
+    destaque: "cara de robô"
+    numero: "11.405"
+    fala: "Em segundo, Impeccable. Ele ensina a IA a caprichar no visual e dedura o design genérico antes de ir pro ar. Passou de cem mil estrelas e ganhou onze mil quatrocentas e cinco estrelas na semana."
+  - etapa: repo
+    repo: "pingdotgg/t3code"
+    desc: "Controla todas as IAs que programam no seu computador pelo celular, num painel só."
+    destaque: "pelo celular"
+    numero: "12.542"
+    fala: "E o número um. Tê Três Code. Um painel só pra mandar em todas as IAs que programam no seu computador, até pelo celular, usando as assinaturas que você já tem. Foram doze mil quinhentas e quarenta e duas estrelas. Em sete dias."
+  - etapa: comentario
+    fala: "Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema ponto club, e semana que vem tem mais."
+trocas:
+  "sessenta e sete mil setecentas e trinta e três": "67.733"
+  "três mil quatrocentas e noventa": "3.490"
+  "três mil setecentas e cinquenta e uma": "3.751"
+  "três mil oitocentas e noventa e oito": "3.898"
+  "três mil novecentas e vinte e uma": "3.921"
+  "cinco mil novecentas e setenta e duas": "5.972"
+  "cinco mil novecentas e noventa e quatro": "5.994"
+  "sete mil novecentas e noventa e cinco": "7.995"
+  "oito mil setecentas e sessenta e cinco": "8.765"
+  "onze mil quatrocentas e cinco": "11.405"
+  "doze mil quinhentas e quarenta e duas": "12.542"
+  "trezentas mil": "300 mil"
+  "cem mil": "100 mil"
+  "quinze minutos": "15 min"
+  "cinquenta estilos": "50 estilos"
+  "sete dias": "7 dias"
+cores: {bombando: "#FACC15", polemico: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "IA desenha feio? O GitHub gastou 26 mil estrelas pra consertar (#1 com 12.542)"
+  contexto: "Top 10 da semana no GitHub, do décimo ao primeiro, com o que cada projeto faz em português simples. Destaque: três kits para a IA parar de fazer site com cara de robô e o T3 Code no topo com 12.542 estrelas em sete dias."
+  telegram: "O Top 10 da semana no GitHub somou 67.733 estrelas. Três dos dez são kits pra IA parar de fazer site com cara de robô: Impeccable, Hallmark e Taste Skill. No topo, o T3 Code, que controla todas as IAs que programam no seu computador até pelo celular."
