@@ -29,7 +29,7 @@ Guía completa (landing + paso a paso): **https://inematds.github.io/gitbombando
 | # | Paso | Comando / qué sucede | Quién |
 |---|---|---|---|
 | 0 | Retrato de las estrellas | timer `gitbombando-retrato` cada hora: `coleta/retrato.py` guarda las estrellas de los proyectos en tendencia en `historico/estrelas.jsonl` (se convierte en la curva de los gráficos) | ⚙️ |
-| 1 | Agenda | timer `gitbombando.timer` a las **06:30** → `auto/rodar.sh <dia>` (genera cuando el estudio de HeyGen está libre; publica a las **11:00**, `GB_PUBLICAR_AS`): el del día; el domingo también el de la semana; el día 1, también el del mes | ⚙️ |
+| 1 | Agenda | timer `gitbombando.timer` a las **06:30** → `auto/rodar.sh <dia>` (genera cuando el estudio de HeyGen está libre): el del día, siempre publicado a las **11 h** (`GB_PUBLICAR_AS`); los domingos, después de ese, el de la semana, y el día 1, el del mes, que se publican en cuanto están listos (a primera hora de la tarde) | ⚙️ |
 | 2 | Recopilación | `coleta/trending.py <pasta> dia\|semana\|mes`: página de GitHub Trending + API de GitHub (descripción, README, lenguaje, estrellas, foto del dueño); Top 10 ordenado por las estrellas ganadas → `pesquisa/top10.json` | ⚙️ |
 | 3 | Guion | `claude -p` con `auto/roteiro.md` escribe `ficha.yaml`: gancho sensacionalista con el dato más contundente, panorama, #10 → #1, pregunta final | 🤖 |
 | 4 | Filtro del guion | `python3 gb.py checar <pasta>`: 13 partes en orden, proyectos correctos, 1.300–2.500 caracteres, titular ≤ 6 palabras, sin cifras en lo que se dice, "você", CTA solo inema.club | ⚙️ |
@@ -43,10 +43,10 @@ Guía completa (landing + paso a paso): **https://inematds.github.io/gitbombando
 | 11 | Carrusel del área | timer `gitbombando-carrossel-area` a las 16:45 → `auto/carrossel.sh <dia> area` (publica a las **18:00**): `carrossel/area.py` busca en GitHub los repositorios del área del día creados en los últimos 120 días, ordenados por estrellas por día, sin repetir las últimas 8 semanas y sin contenido para adultos; después sigue el mismo proceso del paso 10 con 8 proyectos | ⚙️🤖 |
 | 12 | Publicar el carrusel | `carrossel/carrossel.py publicar`: álbum en el tema fijo **BOMBANDO NO GITHUB - Carrosséis diários** de **INEMA.DEV** (Telegram) → carrusel en Instagram + fotos en TikTok inema.tds (Metricool, ahora + 10 min) → aviso azul en v3 → git. Rechazado = no se publica y avisa en v3 | ⚙️🤖 |
 
-Prueba sin publicar: `SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 auto/rodar.sh 2026-10-28 dia`.
+Prueba sin publicar: `ED=/tmp/teste-video AVATAR_DE=<avatar.mp4> SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh 2026-10-28 dia`.
 Carrusel sin publicar: `ED=/tmp/teste SEM_TG=1 SEM_METRI=1 SEM_BOT=1 SEM_GIT=1 auto/carrossel.sh 2026-11-04 area`
 (`RASCUNHO=1` en lugar de `SEM_METRI=1` programa en Metricool como borrador).
-Saltar un día: línea `AAAA-MM-DD` (o `AAAA-MM-DD semana`, `AAAA-MM-DD carrossel`, `AAAA-MM-DD carrossel-area`) en `auto/pular.txt`.
+Saltar un día: línea `AAAA-MM-DD` (o `AAAA-MM-DD semana`, `AAAA-MM-DD carrossel`, `AAAA-MM-DD carrossel-top10`, `AAAA-MM-DD carrossel-area`) en `auto/pular.txt`.
 
 ## Instalación de los timers (una vez)
 

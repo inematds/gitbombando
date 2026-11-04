@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bombando no GitHub — o Top 10 do GitHub em reel, todo dia</title>
-<meta name="description" content="gitbombando: reel vertical automático, todo dia às 16h, com os 10 projetos que mais ganharam estrelas no GitHub, explicados em português, com gráficos e o avatar do Nei.">
+<meta name="description" content="gitbombando: reel vertical automático todo dia às 11h e dois carrosséis às 14h e às 18h, com os projetos que mais ganharam estrelas no GitHub, explicados em português, com gráficos e o avatar do Nei.">
 <link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/gitbombando/guia/">
 <link rel="alternate" hreflang="en" href="https://inematds.github.io/gitbombando/guia/en/">
 <link rel="alternate" hreflang="es" href="https://inematds.github.io/gitbombando/guia/es/">
@@ -114,6 +114,7 @@
   <div class="links">
     <a class="sec" href="#oque">O que é</a>
     <a class="sec" href="#fluxo">Como funciona</a>
+    <a class="sec" href="#carrosseis">Carrosséis</a>
     <a class="sec" href="#guia">Guia de uso</a>
     <a class="sec" href="#exemplos">Exemplos</a>
     <a class="sec" href="#roadmap">Roadmap</a>
@@ -129,19 +130,19 @@
     <div>
       <span class="chip">reel diário · Top 10 do GitHub</span>
       <h1>O que está <span class="amb">bombando</span> no GitHub, em 2 minutos</h1>
-      <p class="lead">Todo dia às 16h sai sozinho um reel com os 10 projetos que mais ganharam estrelas, do #10 ao #1, com gráfico, explicação simples e o avatar do apresentador Nei Maldaner (INEMA). Domingo tem o da semana; dia 1º, o do mês.</p>
+      <p class="lead">Todo dia às 11h sai sozinho um reel com os 10 projetos que mais ganharam estrelas, do #10 ao #1, com gráfico, explicação simples e o avatar do apresentador Nei Maldaner (INEMA). Domingo tem o da semana; dia 1º, o do mês. Às 14h e às 18h saem dois carrosséis no Instagram e no TikTok.</p>
       <div class="cta">
         <a class="btn" href="#guia">Começar o guia</a>
         <a class="btn ghost" href="https://github.com/inematds/gitbombando" target="_blank" rel="noopener">Ver no GitHub</a>
       </div>
     </div>
-    <figure><img src="assets/banner.jpg" alt="Banner Bombando no GitHub: o Top 10 do GitHub em reel, todo dia às 16h"></figure>
+    <figure><img src="assets/banner.jpg" alt="Banner Bombando no GitHub: o Top 10 do GitHub em reel, todo dia"></figure>
   </div>
 </header>
 
 <section id="resumo" class="resumo"><div class="wrap">
   <span class="chip">Em resumo</span>
-  <p>O gitbombando é uma linha de produção automática de vídeos curtos. Todo dia às 16h ele olha a página de projetos em alta do GitHub, pega os 10 que mais ganharam estrelas e monta um reel vertical explicando cada um em português simples, com cartão, contador e gráfico. Serve para quem quer saber o que está bombando em tecnologia e IA sem ler inglês nem código. O vídeo vai sozinho para o YouTube (canal INEMA Tec, chamado de lives4 no sistema), para o bot de Telegram do Nei Maldaner (o "bot v3", que avisa quando terminou ou falhou) e para um tópico fixo no grupo INEMA.TOOLS do Telegram. Para rodar, precisa da máquina do INEMA com Python, Node, Codex, Claude Code e a assinatura do HeyGen.</p>
+  <p>O gitbombando é uma linha de produção automática de vídeos curtos. Todo dia de manhã ele olha a página de projetos em alta do GitHub, pega os 10 que mais ganharam estrelas e monta um reel vertical explicando cada um em português simples, com cartão, contador e gráfico; o vídeo é gerado às 06:30 e publicado às 11h. Às 14h e às 18h saem dois carrosséis de imagens (o Top 10 do GitHub e o Top de uma área). Serve para quem quer saber o que está bombando em tecnologia e IA sem ler inglês nem código. O vídeo vai sozinho para o YouTube (canal INEMA Tec, chamado de lives4 no sistema), para o Instagram e o TikTok @inema.tds, para o bot de Telegram do Nei Maldaner (o "bot v3", que avisa quando terminou ou falhou) e para um tópico fixo no grupo INEMA.TOOLS do Telegram; os carrosséis vão para o Instagram e o TikTok @inema.tds e para um tópico fixo do grupo INEMA.DEV. Para rodar, precisa da máquina do INEMA com Python, Node, Codex, Claude Code e a assinatura do HeyGen.</p>
 </div></section>
 
 <section id="oque"><div class="wrap">
@@ -152,7 +153,7 @@
   <div class="grid g3">
     <div class="card"><h3>🔥 Chamada que para o dedo</h3><p>O gancho abre com o fato mais forte do dia (o número do #1, uma big tech, um projeto polêmico) numa manchete desenhada na capa. Lista ("os 10 projetos…") é proibida na abertura.</p></div>
     <div class="card"><h3>📊 Gráfico em cada projeto</h3><p>Cartão com posição, foto do dono, o que faz em português e estrelas; embaixo, o contador chega ao número quando ele é dito, e o gráfico mostra a curva de estrelas ou o "antes × agora".</p></div>
-    <div class="card"><h3>⚙️ Sem ninguém apertar botão</h3><p>Timer às 16h, roteiro e revisão pelo Claude, avatar no estúdio do HeyGen, publicação no lives4, aviso no bot v3 e post no mesmo tópico do Telegram.</p></div>
+    <div class="card"><h3>⚙️ Sem ninguém apertar botão</h3><p>Gera às 06:30 e publica às 11h. Roteiro e revisão pelo Claude, avatar no estúdio do HeyGen, publicação no lives4, aviso no bot v3 e post no mesmo tópico do Telegram.</p></div>
   </div>
 </div></section>
 
@@ -162,19 +163,35 @@
   <p class="sub">Cada etapa grava um arquivo na pasta da edição (<code>edicoes/AAAA-MM-DD-top10-dia/</code>); se uma falha, o Nei recebe "Falhou" no bot com o motivo.</p>
   <div class="flow">
     <span>Retrato das estrelas (de hora em hora)</span><span class="arr">→</span>
-    <span>Coleta do Trending (16h)</span><span class="arr">→</span>
+    <span>Coleta do Trending (06:30)</span><span class="arr">→</span>
     <span>Roteiro (claude -p)</span><span class="arr">→</span>
     <span>Portão</span><span class="arr">→</span>
     <span>Avatar + cartões + capa</span><span class="arr">→</span>
     <span>Montagem</span><span class="arr">→</span>
     <span>Revisor</span><span class="arr">→</span>
-    <span>lives4 · v3 · INEMA.TOOLS</span>
+    <span>lives4 · Instagram/TikTok · v3 · INEMA.TOOLS (11h)</span>
   </div>
   <div class="grid g3" style="margin-top:22px">
-    <div class="card"><h3>📅 Dia, semana e mês</h3><p>O timer chama <code>auto/rodar.sh</code> às 16h: sempre o Top 10 do dia; no domingo também o da semana; no dia 1º também o do mês.</p></div>
+    <div class="card"><h3>📅 Dia, semana e mês</h3><p>O timer chama <code>auto/rodar.sh</code> às 06:30, com o estúdio do HeyGen livre, e o Top 10 do dia sai às 11h. No domingo, depois dele, faz o da semana; no dia 1º, o do mês. Esses saem assim que ficam prontos, em geral no começo da tarde.</p></div>
     <div class="card"><h3>⭐ Ordem pelas estrelas</h3><p>O Top 10 é ordenado pelas estrelas ganhas no período, entre os projetos que estão no Trending (a ordem da página mistura outros sinais).</p></div>
-    <div class="card"><h3>📖 Termos</h3><p><b>Trending</b>: página do GitHub com os projetos em alta. <b>Retrato</b>: anotação, de hora em hora, das estrelas de cada projeto. <b>Portão</b>: checagem automática que barra roteiro fora do padrão. <b>claude -p</b>: o Claude rodando sozinho, sem conversa. <b>tela :99</b>: tela virtual onde o navegador do HeyGen abre sem aparecer.</p></div>
+    <div class="card"><h3>📖 Termos</h3><p><b>Trending</b>: página do GitHub com os projetos em alta. <b>Retrato</b>: anotação, de hora em hora, das estrelas de cada projeto. <b>Portão</b>: checagem automática que barra roteiro fora do padrão. <b>claude -p</b>: o Claude rodando sozinho, sem conversa. <b>tela :99</b>: tela virtual onde o navegador do HeyGen abre sem aparecer. <b>Metricool</b>: agendador de posts que publica no Instagram e no TikTok.</p></div>
     <div class="card"><h3>🧾 Revisor antes de publicar</h3><p>Um <code>claude -p</code> lê 18 quadros do vídeo. Defeito visível (título errado, quadro vazio, número trocado) para tudo; sugestão segue junto para o Nei.</p></div>
+  </div>
+</div></section>
+
+<section id="carrosseis"><div class="wrap">
+  <span class="chip">Carrosséis · desde a versão 1.2.0</span>
+  <h2>Dois carrosséis por dia, além do vídeo</h2>
+  <p class="sub">Um carrossel é um post de várias imagens que você passa para o lado. O gitbombando faz dois por dia e publica no Instagram e no TikTok @inema.tds pelo Metricool e, como álbum, num tópico fixo do grupo INEMA.DEV no Telegram.</p>
+  <div class="grid g3">
+    <div class="card"><h3>🏆 Top 10 do GitHub · 14h</h3><p>Os mesmos 10 projetos do vídeo do dia, um slide para cada, do #1 em diante. Começa às 12:45 e publica às 14h.</p></div>
+    <div class="card"><h3>🗂️ Top da área · 18h</h3><p>Os 8 projetos novos que mais crescem numa área: segunda agentes de IA, terça Claude Code e MCP, quarta IA para vídeo e imagem, quinta segurança, sexta automação, sábado dev web e apps, domingo IA no seu PC. Não repete projeto que já saiu naquela área nas últimas 8 semanas.</p></div>
+    <div class="card"><h3>🧾 Revisor antes de sair</h3><p>Um <code>claude -p</code> confere texto e desenho de cada slide. Se algo estiver errado (um texto trocado, conteúdo adulto), o carrossel não é publicado e o Nei recebe o aviso no bot v3.</p></div>
+  </div>
+  <p class="sub" style="margin:26px 0 14px">Cada slide traz a posição, o nome, um gancho de 2 linhas, o print do README com as estrelas ganhas, "o que é", 2 benefícios, "como usa" em 3 passos e o link do repositório. A capa abre com um mosaico dos prints e a soma das estrelas.</p>
+  <div class="ex">
+    <figure><img src="assets/carrossel-capa.jpg" alt="Capa do carrossel Top 10 do GitHub de 04/11/2026: mosaico de prints, manchete A IA já usa seu computador e +13.886 estrelas ganhas pelos 10 em 24 horas" loading="lazy" width="1080" height="1350"><figcaption>A capa da primeira edição, 04/11/2026.</figcaption></figure>
+    <figure><img src="assets/carrossel-slide.jpg" alt="Slide 1 do carrossel: agent-desktop, gancho A IA usa seus programas sozinha, print do README com +2.463 estrelas hoje, o que é, 2 benefícios, como usa em 3 passos e o link do repositório" loading="lazy" width="1080" height="1350"><figcaption>O slide do #1: gancho, print, o que é, benefícios, como usa e link.</figcaption></figure>
   </div>
 </div></section>
 
@@ -196,22 +213,25 @@
 <span class="k">systemctl --user status stack99</span></pre></div>
     <div class="card"><h3>yt-pubx</h3><p>Publica no canal lives4 (INEMA Tec) com título, descrição e tags.</p><pre><span class="k">~/projetos/yt-pubx/yt-pubx canais | grep lives4</span></pre></div>
     <div class="card"><h3>Projetos vizinhos</h3><p><code>~/projetos/inemavox</code> (Whisper, tempo de cada palavra) e <code>~/projetos/openpcbotv3</code> (envio ao bot v3).</p><pre><span class="k">ls ~/projetos/inemavox ~/projetos/openpcbotv3/dist</span></pre></div>
-    <div class="card"><h3>Telegram</h3><p>Sessão do <code>telegramtopicosindex</code> (conta do Nei) para postar no tópico fixo do INEMA.TOOLS.</p><pre><span class="k">ls ~/projetos/telegramtopicosindex/telegram_session.session</span></pre></div>
+    <div class="card"><h3>Telegram</h3><p>Sessão do <code>telegramtopicosindex</code> (conta do Nei) para postar no tópico fixo do INEMA.TOOLS (vídeo) e do INEMA.DEV (carrosséis).</p><pre><span class="k">ls ~/projetos/telegramtopicosindex/telegram_session.session</span></pre></div>
+    <div class="card"><h3>Metricool (Instagram + TikTok)</h3><p>O conector MCP <code>metricool-inematds</code> logado no Claude Code: o <code>claude -p</code> usa ele para agendar o vídeo e os carrosséis no @inema.tds.</p><pre><span class="c"># deve aparecer como conectado</span>
+<span class="k">claude mcp list | grep metricool-inematds</span></pre></div>
   </div>
 </div></section>
 
 <section id="guia"><div class="wrap">
   <span class="chip">Guia de uso · passo a passo</span>
   <h2>Ligar, testar e acompanhar</h2>
-  <p class="sub">Depois de ligado, não precisa fazer nada: o vídeo sai às 16h. Os passos abaixo servem para instalar, testar e consertar.</p>
+  <p class="sub">Depois de ligado, não precisa fazer nada: o vídeo sai às 11h e os carrosséis às 14h e às 18h. Os passos abaixo servem para instalar, testar e consertar.</p>
 
   <div class="step"><div class="b">1</div><div>
-    <h3>Ligar os dois timers</h3>
-    <p>O retrato de hora em hora monta a curva de estrelas; o das 16h faz e publica o reel.</p>
+    <h3>Ligar os quatro timers</h3>
+    <p>O retrato de hora em hora monta a curva de estrelas; o das 06:30 faz o reel e publica às 11h; os dois do carrossel começam às 12:45 e às 16:45 e publicam às 14h e às 18h.</p>
 <pre><span class="k">mkdir -p ~/.config/systemd/user</span>
 <span class="k">cp auto/systemd/gitbombando* ~/.config/systemd/user/</span>
 <span class="k">systemctl --user daemon-reload</span>
-<span class="k">systemctl --user enable --now gitbombando-retrato.timer gitbombando.timer</span>  <span class="c"># confira com: systemctl --user list-timers | grep gitbomb</span></pre>
+<span class="k">systemctl --user enable --now gitbombando-retrato.timer gitbombando.timer \
+  gitbombando-carrossel-top10.timer gitbombando-carrossel-area.timer</span>  <span class="c"># confira com: systemctl --user list-timers | grep gitbomb</span></pre>
   </div></div>
 
   <div class="step"><div class="b">2</div><div>
@@ -222,9 +242,9 @@
 
   <div class="step"><div class="b">3</div><div>
     <h3>Rodar uma edição de teste (sem publicar)</h3>
-    <p>Faz tudo numa pasta de teste, sem subir no YouTube, no bot, no Telegram nem no git. Use sempre <code>ED=</code> com uma pasta nova: sem ela, o teste usa a pasta da edição do dia. Com <code>AVATAR_DE=</code> ele reaproveita um avatar já gravado e não gasta geração no HeyGen (sem isso, grava um avatar novo). O log fica em <code>rodada.log</code> e a folha de quadros em <code>build/folha.jpg</code>.</p>
-<pre><span class="k">ED=edicoes/teste-1 AVATAR_DE=&lt;avatar.mp4&gt; \
-  SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh 2026-10-28 dia</span></pre>
+    <p>Rode de dentro de <code>~/projetos/gitbombando</code>. Faz tudo numa pasta de teste, sem subir no YouTube, no Instagram, no TikTok, no bot, no Telegram nem no git. Use sempre <code>ED=</code> com uma pasta nova fora de <code>edicoes/</code>: sem ela, o teste usa a pasta da edição do dia. Com <code>AVATAR_DE=</code> ele reaproveita um avatar já gravado e não gasta geração no HeyGen (sem isso, grava um avatar novo). O log fica em <code>rodada.log</code> e a folha de quadros em <code>build/folha.jpg</code>.</p>
+<pre><span class="k">ED=/tmp/teste-video AVATAR_DE=&lt;avatar.mp4&gt; \
+  SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh 2026-10-28 dia</span></pre>
   </div></div>
 
   <div class="step"><div class="b">4</div><div>
@@ -255,7 +275,14 @@
     <h3>Pular um dia</h3>
     <p>Uma linha com a data pula tudo; com a data e o modo, pula só aquele.</p>
 <pre><span class="k">echo "2026-11-02" &gt;&gt; auto/pular.txt</span>          <span class="c"># pula o dia inteiro</span>
-<span class="k">echo "2026-11-02 semana" &gt;&gt; auto/pular.txt</span>   <span class="c"># pula só o da semana</span></pre>
+<span class="k">echo "2026-11-02 semana" &gt;&gt; auto/pular.txt</span>   <span class="c"># pula só o da semana</span>
+<span class="k">echo "2026-11-02 carrossel" &gt;&gt; auto/pular.txt</span> <span class="c"># pula os dois carrosséis</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">8</div><div>
+    <h3>Testar um carrossel sem publicar</h3>
+    <p>Monta os slides numa pasta de teste, sem mandar para o Telegram, o Metricool, o bot nem o git. Troque <code>area</code> por <code>top10</code> para testar o Top 10 do GitHub. Os slides ficam em <code>/tmp/teste/slides/</code>.</p>
+<pre><span class="k">ED=/tmp/teste SEM_TG=1 SEM_METRI=1 SEM_BOT=1 SEM_GIT=1 auto/carrossel.sh 2026-11-04 area</span></pre>
   </div></div>
 </div></section>
 
@@ -272,8 +299,9 @@
 <section id="roadmap"><div class="wrap">
   <span class="chip">Roadmap</span>
   <h2>O que já tem e o que vem</h2>
-  <p class="sub">Versão 1.0.0, 28/10/2026.</p>
+  <p class="sub">Versão 1.2.0, 04/11/2026.</p>
   <div class="phase"><div class="tag">Fase 1 ✓</div><div class="d"><strong>Reel diário automático</strong><span>Coleta, roteiro, avatar, gráficos, revisor, YouTube, bot e Telegram, com semana e mês.</span></div></div>
+  <div class="phase"><div class="tag">Fase 1b ✓</div><div class="d"><strong>Dois carrosséis por dia</strong><span>Top 10 do GitHub às 14h e Top da área às 18h, com revisor, no Instagram e no TikTok @inema.tds e no INEMA.DEV (04/11/2026).</span></div></div>
   <div class="phase"><div class="tag">Fase 2</div><div class="d"><strong>Curva de estrelas de verdade</strong><span>Com alguns dias de retratos de hora em hora, o gráfico de cada projeto passa a ser a curva por hora (dia) ou por dia (semana e mês).</span></div></div>
   <div class="phase"><div class="tag">Fase 3</div><div class="d"><strong>"Não sai do Top 10"</strong><span>Usar o histórico para destacar quem aparece vários dias seguidos e quem estreou.</span></div></div>
 </div></section>
@@ -281,7 +309,7 @@
 <footer>
   <div class="wrap">
     <div class="pill">Python + Node (Playwright)</div><div class="pill">Claude Code + Codex</div><div class="pill">HeyGen estúdio + yt-pubx</div>
-    <p style="margin-top:18px">Bombando no GitHub · guia aberto e gratuito, versão 1.0.0, 28/10/2026 ·
+    <p style="margin-top:18px">Bombando no GitHub · guia aberto e gratuito, versão 1.2.0, 04/11/2026 ·
       <a href="https://github.com/inematds/gitbombando">inematds/gitbombando</a> ·
       <a href="https://inema.club">INEMA.CLUB</a></p>
   </div>

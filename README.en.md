@@ -21,7 +21,7 @@ Complete guide (landing page + step-by-step instructions): **https://inematds.gi
 | # | Step | Command / what happens | Who |
 |---|---|---|---|
 | 0 | Star snapshots | Hourly `gitbombando-retrato` timer: `coleta/retrato.py` saves stars for trending projects in `historico/estrelas.jsonl` (used to plot the charts) | ⚙️ |
-| 1 | Schedule | `gitbombando.timer` at **06:30** → `auto/rodar.sh <dia>` (generates while the HeyGen studio is free; publishes at **11:00**, `GB_PUBLICAR_AS`): every day; also the week on Sunday; also the month on the 1st | ⚙️ |
+| 1 | Schedule | `gitbombando.timer` at **06:30** → `auto/rodar.sh <dia>` (generates while the HeyGen studio is free): the daily one, always published at **11 AM** (`GB_PUBLICAR_AS`); on Sundays, after that, the weekly one, and on the 1st, the monthly one, which come out as soon as they're ready (early afternoon) | ⚙️ |
 | 2 | Collection | `coleta/trending.py <pasta> dia\|semana\|mes`: GitHub Trending page + GitHub API (description, README, language, stars, owner's photo); Top 10 ranked by stars gained → `pesquisa/top10.json` | ⚙️ |
 | 3 | Script | `claude -p` with `auto/roteiro.md` writes `ficha.yaml`: sensational hook with the strongest fact, overview, #10 → #1, final question | 🤖 |
 | 4 | Script gate | `python3 gb.py checar <pasta>`: 13 parts in order, correct projects, 1,300–2,500 characters, headline ≤ 6 words, no numerals in spoken lines, "you", CTA only inema.club | ⚙️ |
@@ -35,10 +35,10 @@ Complete guide (landing page + step-by-step instructions): **https://inematds.gi
 | 11 | Area carousel | `gitbombando-carrossel-area` timer at 16:45 → `auto/carrossel.sh <dia> area` (publishes at **18:00**): `carrossel/area.py` searches GitHub for repositories in the day's area created in the last 120 days, ranked by stars per day, without repeating those from the last 8 weeks and excluding adult content; then follows the same process as step 10 with 8 projects | ⚙️🤖 |
 | 12 | Publish the carousel | `carrossel/carrossel.py publicar`: album in the pinned topic **BOMBANDO NO GITHUB - Carrosséis diários** in **INEMA.DEV** (Telegram) → carousel on Instagram + photos on TikTok inema.tds (Metricool, now + 10 min) → blue notification in v3 → git. Rejected = not published, with a notification in v3 | ⚙️🤖 |
 
-Test without publishing: `SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 auto/rodar.sh 2026-10-28 dia`.
+Test without publishing: `ED=/tmp/teste-video AVATAR_DE=<avatar.mp4> SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh 2026-10-28 dia`.
 Carousel without publishing: `ED=/tmp/teste SEM_TG=1 SEM_METRI=1 SEM_BOT=1 SEM_GIT=1 auto/carrossel.sh 2026-11-04 area`
 (`RASCUNHO=1` instead of `SEM_METRI=1` schedules it on Metricool as a draft).
-Skip a day: line `AAAA-MM-DD` (or `AAAA-MM-DD semana`, `AAAA-MM-DD carrossel`, `AAAA-MM-DD carrossel-area`) in `auto/pular.txt`.
+Skip a day: line `AAAA-MM-DD` (or `AAAA-MM-DD semana`, `AAAA-MM-DD carrossel`, `AAAA-MM-DD carrossel-top10`, `AAAA-MM-DD carrossel-area`) in `auto/pular.txt`.
 
 ## Timer installation (once)
 
