@@ -1,0 +1,97 @@
+modo: dia
+gancho:
+  tipo: noticia
+  manchete: "VERCEL E NVIDIA DOMINAM O GITHUB"
+  destaque: "NVIDIA"
+  objeto: "um mouse de computador dourado se mexendo sozinho, rachando de tanta luz, com raios amarelos saindo pelas frestas"
+  fontes:
+    - {nome: "github.com/trending", trecho: "vercel-labs/agent-desktop · 2,463 stars today"}
+    - {nome: "github.com/trending", trecho: "NVIDIA/auto-ontology · 2,053 stars today"}
+abertura:
+  cena: "escritório escuro à noite, monitores apagados, só a luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "Duas gigantes tomaram o topo do GitHub hoje. E o primeiro lugar é uma IA que mexe no seu computador sozinha, clicando e digitando por você."
+  - etapa: panorama
+    fala: "Os dez projetos que mais cresceram hoje somaram treze mil oitocentas e oitenta e seis estrelas. Vou do décimo ao primeiro."
+    numero: "13.886"
+  - etapa: repo
+    repo: "max-sixty/worktrunk"
+    desc: "Organiza vários robôs de IA trabalhando ao mesmo tempo no mesmo projeto, sem um atrapalhar o outro."
+    destaque: "ao mesmo tempo"
+    numero: "524"
+    fala: "Em décimo, o Worktrunk. Ele deixa vários robôs de IA trabalharem ao mesmo tempo no mesmo projeto, sem um atropelar o outro. Quinhentas e vinte e quatro estrelas hoje."
+  - etapa: repo
+    repo: "harry0703/MoneyPrinterTurbo"
+    desc: "Você dá um tema e a IA faz o vídeo curto inteiro: roteiro, imagens, legenda e música."
+    destaque: "vídeo curto inteiro"
+    numero: "615"
+    fala: "Número nove, o nome já provoca: Money Printer, a impressora de dinheiro. Você dá um tema e a IA monta o vídeo curto inteiro, com roteiro, legenda e música. Seiscentas e quinze estrelas."
+  - etapa: repo
+    repo: "github/spec-kit"
+    desc: "Kit do próprio GitHub para a IA planejar antes de programar, com roteiro e passo a passo."
+    destaque: "planejar antes"
+    fala: "Em oitavo, o Spec Kit, feito pelo próprio GitHub, da Microsoft. Ele ensina a IA a planejar antes de sair programando, como um engenheiro de verdade."
+  - etapa: repo
+    repo: "floci-io/floci"
+    desc: "Imita a nuvem da Amazon no seu computador, de graça e sem precisar de conta."
+    destaque: "de graça"
+    numero: "1.082"
+    fala: "Sétimo, o Floci. Ele imita a nuvem da Amazon dentro do seu computador, de graça, sem conta e sem cartão. Mil e oitenta e duas estrelas."
+  - etapa: repo
+    repo: "thedotmack/claude-mem"
+    desc: "Memória para a IA lembrar o que você fez nas conversas anteriores, sem repetir tudo."
+    destaque: "lembrar"
+    numero: "1.165"
+    fala: "Em sexto, ele de novo: o Claude Mem, que não sai do Top dez. Ele dá memória pra sua IA lembrar tudo o que vocês já fizeram. Mil cento e sessenta e cinco estrelas."
+  - etapa: repo
+    repo: "mattpocock/skills"
+    desc: "As habilidades que um programador experiente usa todo dia para a IA trabalhar direito."
+    destaque: "todo dia"
+    numero: "1.376"
+    fala: "Quinto lugar, outro que não sai do Top dez. O Skills reúne as receitas que um programador experiente usa todo dia pra IA trabalhar direito. Mil trezentas e setenta e seis estrelas."
+  - etapa: repo
+    repo: "JiaFeiMiao-K-Cat/DiscImageStudio"
+    desc: "Grava desenhos que você vê a olho nu na superfície de CDs e DVDs, com um gravador comum."
+    destaque: "a olho nu"
+    numero: "1.792"
+    fala: "Em quarto, a surpresa do dia. O Disc Image Studio grava uma imagem que você vê a olho nu na superfície de um CD ou DVD, com gravador comum. Mil setecentas e noventa e duas estrelas."
+  - etapa: repo
+    repo: "D4Vinci/Scrapling"
+    desc: "Robô que copia dados de qualquer site, até dos que tentam bloquear. Cuidado com as regras."
+    destaque: "qualquer site"
+    numero: "2.006"
+    fala: "E agora o pódio. O bronze é o Scrapling, um robô que copia dados de qualquer site, até dos que tentam barrar. É polêmico, cuidado com as regras de cada site. Duas mil e seis estrelas."
+  - etapa: repo
+    repo: "NVIDIA/auto-ontology"
+    desc: "Da NVIDIA: um mapa dos dados da empresa para a IA parar de errar os números."
+    destaque: "parar de errar"
+    numero: "2.053"
+    fala: "A prata é da NVIDIA. O Auto Ontology dá pra IA um mapa dos dados da empresa, pra ela parar de errar os números. Cresceu oitenta e dois por cento num dia. Duas mil e cinquenta e três estrelas."
+  - etapa: repo
+    repo: "vercel-labs/agent-desktop"
+    desc: "Da Vercel: a IA enxerga e usa os programas do seu computador, no Mac, Windows e Linux."
+    destaque: "usa os programas"
+    numero: "2.463"
+    fala: "E o primeiro lugar é da Vercel. O Agent Desktop deixa a IA usar os programas do seu computador sozinha, clicando e digitando. Duas mil quatrocentas e sessenta e três estrelas."
+  - etapa: comentario
+    fala: "E aí, você deixaria uma IA mexer no seu computador? Comenta aqui embaixo. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "treze mil oitocentas e oitenta e seis": "13.886"
+  "Quinhentas e vinte e quatro": "524"
+  "Seiscentas e quinze": "615"
+  "Mil e oitenta e duas": "1.082"
+  "Mil cento e sessenta e cinco": "1.165"
+  "Mil trezentas e setenta e seis": "1.376"
+  "Mil setecentas e noventa e duas": "1.792"
+  "Duas mil e seis": "2.006"
+  "oitenta e dois por cento": "82%"
+  "Duas mil e cinquenta e três": "2.053"
+  "Duas mil quatrocentas e sessenta e três": "2.463"
+cores: {bombando: "#FACC15", polemico: "#ff2a1f"}
+cta: {a: "VOCÊ DEIXARIA? 👇", b: "comenta aqui embaixo", comentario: "deixaria sim 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "IA que mexe no seu PC sozinha: Agent Desktop da Vercel leva 2.463 estrelas no GitHub"
+  contexto: "O Top 10 do GitHub de 04/11/2026, do décimo ao primeiro, explicado sem jargão. Vercel e NVIDIA dominam o pódio: o Agent Desktop, IA que usa os programas do seu computador, levou 2.463 estrelas, e o Auto Ontology da NVIDIA cresceu 82% num dia."
+  telegram: "Vercel e NVIDIA tomaram o topo do GitHub hoje. O Agent Desktop, da Vercel, faz a IA usar os programas do seu computador sozinha e levou 2.463 estrelas. A NVIDIA veio logo atrás, com uma ferramenta pra IA parar de errar os números da empresa."

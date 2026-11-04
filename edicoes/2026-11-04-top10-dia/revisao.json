@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Nenhum número contradiz o top10.json: posições 1–10, as pílulas 🔥 (+2.463 … +524), a soma 13.886 e os totais batem. Capa com TOP 10 DO GITHUB grande e a manchete certa, avatar presente em todos os quadros, fecho com a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "4,0 s: a legenda 'LUGAR É UMA' fica por cima do globo dourado, com pouco contraste; uma faixa escura atrás ajudaria a ler",
+  "80,55 s (#4 DiscImageStudio): o logo é um quadrado rosa genérico; uma imagem de um CD com o desenho gravado venderia muito melhor a 'surpresa do dia'",
+  "99,69 s e 109,26 s: o #2 auto-ontology fica dois quadros no mesmo cartão; o '+82% num dia' dito na fala poderia aparecer na tela, em destaque",
+  "13,57 s: o ranking é legível, mas os nomes estão pequenos para o celular; dá para aumentar a fonte dos nomes",
+  "IMPACTO 7: a capa e a pergunta final ('você deixaria uma IA mexer no seu computador?') são fortes. Os cartões do meio (#9 a #5) se parecem demais, o que deixa um trecho morno de uns 40 s; um corte visual ou um número de choque ali seguraria quem está rolando o feed"
+ ]
+}
