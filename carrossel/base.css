@@ -1,0 +1,112 @@
+/* Carrossel do Bombando no GitHub — preto #0c0c10 + amarelo #FACC15, Sora nos títulos, Inter no corpo (inema-design) */
+@font-face { font-family: Sora; font-weight: 100 800; src: url("{{FONTS}}/Sora.ttf"); }
+@font-face { font-family: Inter; font-weight: 400; src: url("{{FONTS}}/Inter-400.ttf"); }
+@font-face { font-family: Inter; font-weight: 500; src: url("{{FONTS}}/Inter-500.ttf"); }
+@font-face { font-family: Inter; font-weight: 700; src: url("{{FONTS}}/Inter-700.ttf"); }
+
+:root {
+  --bg: #0c0c10; --bg2: #14141b; --card: #16161e; --line: #272730;
+  --txt: #e9e9ee; --mut: #9a9aa6; --amb: #FACC15; --amb-ink: #1a1206;
+  --amb-line: rgba(250, 204, 21, .45); --amb-glow: rgba(250, 204, 21, .16);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); }
+svg { display: block; }
+.page { position: relative; overflow: hidden; width: 1080px; height: 1350px; color: var(--txt); font-family: Inter, sans-serif;
+  background: radial-gradient(110% 70% at 50% 0%, #1b1910 0%, var(--bg) 58%); display: flex; flex-direction: column; padding: 46px 56px 44px; }
+.ico { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* topo */
+.top { display: flex; justify-content: space-between; align-items: center; font: 700 24px/1 Sora, sans-serif; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--mut); }
+.top .serie { color: var(--amb); }
+
+/* cabeçalho do repositório */
+.cab { display: flex; align-items: center; gap: 22px; margin-top: 30px; }
+.pos { flex: none; height: 92px; min-width: 112px; padding: 0 18px; border-radius: 14px; background: var(--amb); color: var(--amb-ink);
+  font: 800 60px/92px Sora, sans-serif; text-align: center; box-shadow: 0 0 40px var(--amb-glow); }
+.pilula { flex: 1; min-width: 0; height: 92px; display: flex; align-items: center; gap: 16px; padding: 0 26px; border: 2px solid var(--line);
+  border-radius: 999px; background: var(--card); font: 800 38px/1 Sora, sans-serif; }
+.pilula .gh { width: 44px; height: 44px; flex: none; fill: var(--txt); }
+.pilula .n { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* gancho */
+.gancho { margin-top: 30px; text-align: center; font: 800 78px/1.04 Sora, sans-serif; text-transform: uppercase; letter-spacing: -.01em; }
+.gancho .l2 { color: var(--amb); display: block; }
+
+/* print */
+.print { position: relative; margin-top: 28px; flex: 1 1 380px; min-height: 300px; border-radius: 16px; overflow: hidden;
+  border: 2px solid var(--amb-line); box-shadow: 0 0 46px var(--amb-glow); background: #000; }
+.print .fundo { position: absolute; inset: -30px; width: calc(100% + 60px); height: calc(100% + 60px); object-fit: cover; filter: blur(26px) brightness(.45); }
+.print .img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.selo { position: absolute; right: 16px; top: 16px; display: flex; align-items: center; gap: 10px; padding: 12px 18px; border-radius: 12px;
+  background: rgba(12, 12, 16, .88); border: 1px solid var(--amb-line); font: 800 34px/1 Sora, sans-serif; color: var(--amb); }
+.selo .ico { width: 30px; height: 30px; fill: var(--amb); stroke: none; }
+.selo small { font: 500 20px/1 Inter, sans-serif; color: var(--txt); margin-left: 2px; }
+
+/* o que é */
+.oque { margin-top: 22px; display: flex; gap: 20px; align-items: center; padding: 20px 24px; border-radius: 14px;
+  border: 2px solid var(--amb-line); background: linear-gradient(90deg, rgba(250, 204, 21, .10), rgba(250, 204, 21, .02)); }
+.oque .ic { flex: none; width: 70px; height: 70px; border-radius: 12px; background: var(--amb); color: var(--amb-ink); display: grid; place-items: center; }
+.oque .ic .ico { width: 40px; height: 40px; }
+.oque h3 { font: 800 28px/1.1 Sora, sans-serif; color: var(--amb); text-transform: uppercase; }
+.oque p { font: 400 27px/1.32 Inter, sans-serif; margin-top: 6px; }
+
+/* benefícios */
+.bens { margin-top: 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.bem { display: flex; gap: 16px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+.bem .ic { flex: none; width: 56px; height: 56px; border-radius: 10px; border: 2px solid var(--amb-line); color: var(--amb); display: grid; place-items: center; }
+.bem .ic .ico { width: 30px; height: 30px; }
+.bem h4 { font: 800 25px/1.15 Sora, sans-serif; }
+.bem p { font: 400 22px/1.3 Inter, sans-serif; color: #c9c9d3; margin-top: 6px; }
+
+/* fluxo */
+.fluxo { margin-top: 16px; display: flex; align-items: center; gap: 14px; padding: 16px 22px; border: 1px solid var(--line);
+  border-radius: 14px; background: var(--card); }
+.fluxo .rot { font: 800 18px/1.1 Sora, sans-serif; letter-spacing: .14em; color: var(--amb); writing-mode: horizontal-tb; flex: none; width: 92px; }
+.fluxo .p { flex: 1; text-align: center; font: 800 24px/1.1 Sora, sans-serif; text-transform: uppercase; }
+.fluxo .seta { flex: none; width: 30px; height: 30px; color: var(--amb); }
+
+/* rodapé com o link */
+.repo { margin-top: 16px; display: flex; align-items: center; gap: 18px; padding: 16px 22px; border-radius: 14px; border: 2px solid var(--amb-line);
+  background: var(--bg2); }
+.repo .gh { width: 50px; height: 50px; flex: none; fill: var(--txt); }
+.repo .t { flex: 1; min-width: 0; }
+.repo .t small { display: block; font: 800 17px/1 Sora, sans-serif; letter-spacing: .16em; color: var(--amb); }
+.repo .t b { display: block; margin-top: 8px; font: 700 29px/1.1 Inter, sans-serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.repo .info { flex: none; text-align: right; font: 500 21px/1.35 Inter, sans-serif; color: var(--mut); }
+.repo .info b { color: var(--txt); font-weight: 700; }
+
+/* capa */
+.capa { padding: 0; }
+.mosaico { position: absolute; left: -90px; right: -90px; top: -60px; display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: 250px; gap: 14px; transform: rotate(-6deg); opacity: .7; }
+.mosaico img { width: 100%; height: 100%; object-fit: cover; border-radius: 12px; }
+.veu { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(12, 12, 16, .25) 0%, rgba(12, 12, 16, .55) 28%, rgba(12, 12, 16, .93) 48%, #0c0c10 64%); }
+.capa .dentro { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; align-items: center; padding: 70px 60px 90px; text-align: center; }
+.kicker { font: 800 26px/1 Sora, sans-serif; letter-spacing: .2em; color: var(--amb); border: 2px solid var(--amb-line); padding: 14px 24px;
+  border-radius: 999px; background: rgba(12, 12, 16, .7); }
+.capa .grande { margin-top: auto; font: 800 250px/.9 Sora, sans-serif; color: var(--amb); letter-spacing: -.03em; text-shadow: 0 0 60px var(--amb-glow); }
+.capa .media { font: 800 92px/1 Sora, sans-serif; text-transform: uppercase; margin-top: 14px; }
+.capa .manchete { margin-top: 40px; font: 800 52px/1.12 Sora, sans-serif; text-transform: uppercase; max-width: 920px; }
+.capa .manchete .hl { color: var(--amb); }
+.numero { margin-top: 40px; display: flex; align-items: center; gap: 20px; padding: 20px 30px; border-radius: 16px; background: var(--card);
+  border: 2px solid var(--amb-line); }
+.numero .ico { width: 54px; height: 54px; fill: var(--amb); stroke: none; }
+.numero b { font: 800 66px/1 Sora, sans-serif; color: var(--amb); }
+.numero span { font: 500 28px/1.2 Inter, sans-serif; text-align: left; }
+.arrasta { margin-top: 64px; display: flex; align-items: center; gap: 14px; background: var(--amb); color: var(--amb-ink); font: 800 30px/1 Sora, sans-serif;
+  letter-spacing: .1em; padding: 20px 34px; border-radius: 999px; }
+.arrasta .ico { width: 32px; height: 32px; stroke-width: 3; }
+
+/* fecho */
+.fecho .dentro { flex: 1; display: flex; flex-direction: column; }
+.fecho h2 { margin-top: 56px; font: 800 82px/1.05 Sora, sans-serif; }
+.fecho h2 .hl { color: var(--amb); }
+.fecho .sub { margin-top: 24px; font: 400 34px/1.4 Inter, sans-serif; color: #d6d6de; }
+.lista { margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 22px; }
+.lista div { display: flex; gap: 14px; align-items: center; padding: 14px 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
+  font: 700 24px/1.1 Inter, sans-serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lista b { flex: none; color: var(--amb-ink); background: var(--amb); border-radius: 8px; padding: 6px 10px; font: 800 22px/1 Sora, sans-serif; }
+.agenda { margin-top: auto; padding: 22px 26px; border-radius: 14px; border: 2px solid var(--amb-line); font: 500 27px/1.4 Inter, sans-serif; }
+.agenda b { color: var(--amb); font-family: Sora, sans-serif; }
+.club { margin-top: 22px; align-self: flex-start; background: var(--amb); color: var(--amb-ink); font: 800 34px/1 Sora, sans-serif; padding: 22px 34px; border-radius: 999px; }

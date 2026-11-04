@@ -1,0 +1,12 @@
+[Unit]
+Description=gitbombando — carrossel Top da área do dia (gera às 16:45, publica às 18:00) → INEMA.DEV + Instagram/TikTok inema.tds + bot v3
+After=network-online.target
+
+[Service]
+Type=oneshot
+Environment=PATH=%h/.local/bin:%h/.npm-global/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PUBLICAR_AS=18:00
+ExecStart=/bin/bash -c 'exec /bin/bash %h/projetos/gitbombando/auto/carrossel.sh "$(date +%%F)" area'
+TimeoutStartSec=5h
+MemoryMax=6G
+Nice=5

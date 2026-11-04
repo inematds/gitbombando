@@ -27,6 +27,11 @@ do #10 ao #1, cartão de cada projeto, gráficos e o avatar do Nei. Explicação
   Info da conta: `~/projetos/metricool-inematds`. `SEM_METRI=1` pula. Marca feito em `<edição>/metritds.txt`; teste com `RASCUNHO=1 SEM_BOT=1`.
 - Revisor `claude -p` (`auto/revisor.md`) lê `build/folha.jpg` (18 quadros): reprovado = não publica e avisa no v3 com o
   comando para publicar assim mesmo (`python3 gb.py publicar <pasta>`).
+- **Carrosséis (04/11/2026, pedido do Nei: "2 carrosséis e 1 vídeo diário", "publicar … inema.dev do telegram"):** vídeo gera
+  06:30 e publica 11:00; `auto/carrossel.sh <dia> top10` (timer 12:45, publica 14:00) e `… area` (16:45 → 18:00). Código em
+  `carrossel/` (ver docstring de `carrossel.py`). Publica direto: álbum no tópico fixo do INEMA.DEV (`auto/telegram-topico-carrossel.txt`),
+  Instagram carrossel + TikTok fotos via metritds, aviso azul no v3. Revisor reprovado = não publica. Áreas que já saíram:
+  `historico/carrossel-area.jsonl` (8 semanas sem repetir). Conteúdo adulto fica fora na coleta (`IMPROPRIO`).
 - Telegram: tópico fixo no INEMA.TOOLS, id em `auto/telegram-topico.txt` (criado na 1ª rodada); cada rodada posta dentro
   dele com `postar_topico.py --topico`. **Nunca apagar mensagem/tópico sem aprovação individual do Nei.**
 - Reel nunca chega a 3 min (portão em 178 s); fala 1.300–2.500 caracteres; tom "você", CTA só inema.club, nunca "morte".

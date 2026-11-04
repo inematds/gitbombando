@@ -1,0 +1,9 @@
+[Unit]
+Description=gitbombando — carrossel Top da área do dia, todo dia (Nei, 04/11/2026: "2 carrosséis e 1 vídeo diário")
+
+[Timer]
+OnCalendar=*-*-* 16:45:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,17 @@
+Top 10 do GitHub · 04/11/2026
+
+A IA já enxerga e usa os programas do seu computador, e esse foi o projeto que mais cresceu hoje no GitHub. Arrasta o carrossel para ver os 10 projetos do dia e o que cada um faz. Para aprender a usar ferramentas assim, os cursos são grátis no inema.club.
+
+1. vercel-labs/agent-desktop — https://github.com/vercel-labs/agent-desktop
+2. NVIDIA/auto-ontology — https://github.com/NVIDIA/auto-ontology
+3. D4Vinci/Scrapling — https://github.com/D4Vinci/Scrapling
+4. JiaFeiMiao-K-Cat/DiscImageStudio — https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio
+5. mattpocock/skills — https://github.com/mattpocock/skills
+6. thedotmack/claude-mem — https://github.com/thedotmack/claude-mem
+7. floci-io/floci — https://github.com/floci-io/floci
+8. github/spec-kit — https://github.com/github/spec-kit
+9. harry0703/MoneyPrinterTurbo — https://github.com/harry0703/MoneyPrinterTurbo
+10. max-sixty/worktrunk — https://github.com/max-sixty/worktrunk
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

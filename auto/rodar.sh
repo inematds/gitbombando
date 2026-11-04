@@ -82,6 +82,11 @@ Para publicar assim mesmo: cd $RAIZ && python3 gb.py publicar $ED"
 fi
 
 # 4. publicar: YouTube lives4, bot v3, tópico no INEMA.TOOLS
+# gera cedo (06:30, estúdio HeyGen livre) e publica na hora marcada (Nei, 04/11/2026: "11 da manhã o vídeo")
+if [ -n "${GB_PUBLICAR_AS:-}" ] && [ "$MODO" = dia ]; then
+  ALVO=$(date -d "$DIA $GB_PUBLICAR_AS" +%s); AGORA=$(date +%s)
+  [ "$AGORA" -lt "$ALVO" ] && { echo "pronto e aprovado; esperando até $GB_PUBLICAR_AS para publicar"; sleep $((ALVO - AGORA)); }
+fi
 [ "${SEM_METRI:-}" = 1 ] && export GB_V3_VIDEO=1   # sem metritds, o v3 recebe o vídeo como antes
 python3 "$RAIZ/gb.py" publicar "$ED" > "$ED/publicar-gb.log" 2>&1 || echo "publicar saiu com erro (ver publicar-gb.log)"
 tail -3 "$ED/publicar-gb.log"

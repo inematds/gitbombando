@@ -1,0 +1,304 @@
+{
+ "tipo": "area",
+ "serie": "TOP 8 · IA PARA VÍDEO E IMAGEM",
+ "conta": "@inema.tds",
+ "data_br": "04/11/2026",
+ "capa": {
+  "linha1": "TOP 8",
+  "linha2": "IA PARA VÍDEO E IMAGEM",
+  "numero": "+1.918",
+  "numero_rotulo": "estrelas por dia, somando os 8 (criados nos últimos meses)",
+  "manchete": "A IA JÁ EDITA SEUS VÍDEOS",
+  "destaque": "EDITA",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/8.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "storytold/filmcraft",
+   "repo": "filmcraft",
+   "url": "https://github.com/storytold/filmcraft",
+   "gancho": [
+    "EDITOR DE VÍDEO",
+    "FEITO DO ZERO"
+   ],
+   "o_que_e": "Um editor de vídeo profissional de código aberto, com cor e som, que roda no Mac, no Windows, no Linux e no navegador.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Cor, som e títulos",
+     "texto": "Edição, correção de cor, efeitos, áudio e títulos num programa só."
+    },
+    {
+     "icone": "bot",
+     "titulo": "IA no comando",
+     "texto": "Cada ação do editor pode ser feita por um assistente de IA, com precisão."
+    }
+   ],
+   "fluxo": [
+    "ABRE O EDITOR",
+    "MONTA OS CORTES",
+    "EXPORTA O VÍDEO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "existente",
+   "stat": "+502",
+   "stat_rotulo": "por dia",
+   "total": "17.520",
+   "info2": "Rust · criado há 35 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "lemomo-ai/lemo-opuscar",
+   "repo": "lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "gancho": [
+    "66 ESTILOS DE FILME",
+    "FEITOS EM CÓDIGO"
+   ],
+   "o_que_e": "Uma caixa de estilos de filme para o Claude Code: você escolhe um estilo, conta a sua história e a IA monta o filme em código.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Sem modelo de vídeo",
+     "texto": "Cada estilo vem com um filme de exemplo feito só em código."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Crie o seu estilo",
+     "texto": "Mude um estilo pronto ou comece do zero e guarde para usar de novo."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE ESTILO",
+    "DÁ A HISTÓRIA",
+    "A IA DIRIGE"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "existente",
+   "stat": "+313",
+   "stat_rotulo": "por dia",
+   "total": "12.232",
+   "info2": "JavaScript · criado há 39 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "hypit-ai/hypit",
+   "repo": "hypit",
+   "url": "https://github.com/hypit-ai/hypit",
+   "gancho": [
+    "VIU UM VÍDEO VIRAL?",
+    "A IA CLONA."
+   ],
+   "o_que_e": "Uma ferramenta que ensina assistentes de IA, como Claude Code e Codex, a recriar um vídeo viral inteiro: imagens, legendas e efeitos.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Cem versões de uma vez",
+     "texto": "Troque rosto, falas e imagens de apoio e gere 100 variações num comando."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Grátis para usar",
+     "texto": "O Hypit é grátis; você paga só o seu assistente e os modelos que usar."
+    }
+   ],
+   "fluxo": [
+    "SOLTA O VÍDEO",
+    "A IA CLONA",
+    "SAEM VARIAÇÕES"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "existente",
+   "stat": "+286",
+   "stat_rotulo": "por dia",
+   "total": "27.976",
+   "info2": "TypeScript · criado há 98 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "jub0t/Concat",
+   "repo": "Concat",
+   "url": "https://github.com/jub0t/Concat",
+   "gancho": [
+    "TROCA O CAPCUT",
+    "POR UM GRÁTIS"
+   ],
+   "o_que_e": "Um editor de vídeo grátis e de código aberto, alternativa ao CapCut, que roda no seu próprio computador e no Android.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Legenda e voz sozinhas",
+     "texto": "Legendas automáticas, voz gerada a partir de texto, remoção de fundo e efeitos."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Mac, Windows, Linux",
+     "texto": "Roda em macOS, Windows, Linux e Android, com exportação em 4K."
+    }
+   ],
+   "fluxo": [
+    "IMPORTA O VÍDEO",
+    "CORTA E LEGENDA",
+    "EXPORTA EM 4K"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "existente",
+   "stat": "+200",
+   "stat_rotulo": "por dia",
+   "total": "14.164",
+   "info2": "Rust · criado há 71 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "D3voz/openjutsu",
+   "repo": "openjutsu",
+   "url": "https://github.com/D3voz/openjutsu",
+   "gancho": [
+    "TROQUE A PESSOA",
+    "DO SEU VÍDEO"
+   ],
+   "o_que_e": "Um app que troca a pessoa de um vídeo pelo personagem de uma foto, mantendo a câmera, os cortes, o movimento e o som originais.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda na sua placa",
+     "texto": "Tudo funciona com modelos abertos na placa de vídeo do seu computador."
+    },
+    {
+     "icone": "image",
+     "titulo": "Roupa, cabelo e cenário",
+     "texto": "Também muda cabelo ou roupa, remove objetos e leva a pessoa a outro lugar."
+    }
+   ],
+   "fluxo": [
+    "SOLTA O VÍDEO",
+    "ENVIA A FOTO",
+    "APERTA GERAR"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "existente",
+   "stat": "+180",
+   "stat_rotulo": "por dia",
+   "total": "1.608",
+   "info2": "TypeScript · criado há 9 dias"
+  },
+  {
+   "pos": 6,
+   "nome": "Vincentwei1021/video-shotcraft",
+   "repo": "video-shotcraft",
+   "url": "https://github.com/Vincentwei1021/video-shotcraft",
+   "gancho": [
+    "VÍDEO PROMO",
+    "DO SEU PRODUTO"
+   ],
+   "o_que_e": "Uma habilidade para Claude Code e Codex que cria vídeos de divulgação do seu produto, desenhados em código a partir das suas telas.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Biblioteca de cenas",
+     "texto": "124 receitas de cena e 150 prévias de movimento prontas para usar."
+    },
+    {
+     "icone": "video",
+     "titulo": "Continua editável",
+     "texto": "Entrega um MP4 que você segue editando num editor estilo CapCut no navegador."
+    }
+   ],
+   "fluxo": [
+    "PEDE O PROMO",
+    "A IA MONTA",
+    "MP4 PRONTO"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "existente",
+   "stat": "+157",
+   "stat_rotulo": "por dia",
+   "total": "16.956",
+   "info2": "TypeScript · criado há 108 dias"
+  },
+  {
+   "pos": 7,
+   "nome": "JuneYaooo/rea-video",
+   "repo": "rea-video",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "gancho": [
+    "COMO FIZERAM",
+    "ESSE VÍDEO?"
+   ],
+   "o_que_e": "Uma ferramenta que desmonta qualquer vídeo cena a cena e mostra como foram feitos imagem, textos, cortes e som, com um plano para refazer.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Real, IA ou código",
+     "texto": "Diz se cada cena foi filmada, gerada por IA, feita em 3D ou animada em código."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Relatório completo",
+     "texto": "Gera um relatório com imagem de cada cena, legendas em SRT e como refazer."
+    }
+   ],
+   "fluxo": [
+    "MANDA O VÍDEO",
+    "A IA DESMONTA",
+    "RECEITA PRONTA"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "existente",
+   "stat": "+146",
+   "stat_rotulo": "por dia",
+   "total": "849",
+   "info2": "Python · criado há 6 dias"
+  },
+  {
+   "pos": 8,
+   "nome": "OpenMOSS/MOSS-Image",
+   "repo": "MOSS-Image",
+   "url": "https://github.com/OpenMOSS/MOSS-Image",
+   "gancho": [
+    "IMAGEM COM TEXTO",
+    "ESCRITO CERTO"
+   ],
+   "o_que_e": "Um modelo de IA aberto que cria imagens a partir de texto, com letras bem escritas na imagem e controle da organização da peça.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Texto legível na arte",
+     "texto": "Gera imagens com textos bem desenhados e organiza a posição de cada elemento."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Treino com 6 GB",
+     "texto": "Dá para treinar o modelo no seu estilo usando uma placa de vídeo de 6 GB."
+    }
+   ],
+   "fluxo": [
+    "DESCREVE A ARTE",
+    "O MODELO GERA",
+    "IMAGEM PRONTA"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "existente",
+   "stat": "+134",
+   "stat_rotulo": "por dia",
+   "total": "2.596",
+   "info2": "Python · criado há 19 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 8 links estão",
+  "titulo_b": "na legenda.",
+  "texto": "Salve para testar depois. Amanhã tem outra área, sempre às 18h.",
+  "agenda": "Todo dia no <b>@inema.tds</b>: <b>11h</b> vídeo · <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

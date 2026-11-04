@@ -1,0 +1,32 @@
+{
+ "vercel-labs/agent-desktop": {
+  "fonte": "existente"
+ },
+ "NVIDIA/auto-ontology": {
+  "fonte": "existente"
+ },
+ "D4Vinci/Scrapling": {
+  "fonte": "existente"
+ },
+ "JiaFeiMiao-K-Cat/DiscImageStudio": {
+  "fonte": "existente"
+ },
+ "mattpocock/skills": {
+  "fonte": "existente"
+ },
+ "thedotmack/claude-mem": {
+  "fonte": "existente"
+ },
+ "floci-io/floci": {
+  "fonte": "existente"
+ },
+ "github/spec-kit": {
+  "fonte": "existente"
+ },
+ "harry0703/MoneyPrinterTurbo": {
+  "fonte": "existente"
+ },
+ "max-sixty/worktrunk": {
+  "fonte": "existente"
+ }
+}

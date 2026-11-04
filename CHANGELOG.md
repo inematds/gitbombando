@@ -1,5 +1,12 @@
 # CHANGELOG — gitbombando
 
+## 1.2.0 — 04/11/2026
+- Dois carrosséis diários (`carrossel/`, `auto/carrossel.sh`): Top 10 do GitHub às 14h e Top da área às 18h (uma área por dia da
+  semana, busca por tópico na API do GitHub). Slide no estilo "repositório da semana": gancho, print do README, o que é, 2
+  benefícios, como usa e link. Portão de texto e de desenho + revisor `claude -p`. Publica no tópico fixo do INEMA.DEV
+  (álbum), no Instagram (carrossel) e no TikTok (fotos) inema.tds pelo Metricool e avisa no v3.
+- Vídeo: gera às 06:30 (estúdio HeyGen livre) e publica às 11:00 (`GB_PUBLICAR_AS`), no lugar das 16:00.
+
 ## 1.1.0 — 04/11/2026
 - Gráfico de semana/mês: a curva "total por dia" dos retratos só entra quando cobre todos os dias do período (7/30);
   senão o painel mostra "antes × agora" (total − ganho → total), que bate com o "+N" do cartão.

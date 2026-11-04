@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "A IA JÁ EDITA SEUS VÍDEOS",
+  "destaque": "EDITA"
+ },
+ "repos": {
+  "storytold/filmcraft": {
+   "gancho": [
+    "EDITOR DE VÍDEO",
+    "FEITO DO ZERO"
+   ],
+   "o_que_e": "Um editor de vídeo profissional de código aberto, com cor e som, que roda no Mac, no Windows, no Linux e no navegador.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Cor, som e títulos",
+     "texto": "Edição, correção de cor, efeitos, áudio e títulos num programa só."
+    },
+    {
+     "icone": "bot",
+     "titulo": "IA no comando",
+     "texto": "Cada ação do editor pode ser feita por um assistente de IA, com precisão."
+    }
+   ],
+   "fluxo": [
+    "ABRE O EDITOR",
+    "MONTA OS CORTES",
+    "EXPORTA O VÍDEO"
+   ]
+  },
+  "lemomo-ai/lemo-opuscar": {
+   "gancho": [
+    "66 ESTILOS DE FILME",
+    "FEITOS EM CÓDIGO"
+   ],
+   "o_que_e": "Uma caixa de estilos de filme para o Claude Code: você escolhe um estilo, conta a sua história e a IA monta o filme em código.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Sem modelo de vídeo",
+     "texto": "Cada estilo vem com um filme de exemplo feito só em código."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Crie o seu estilo",
+     "texto": "Mude um estilo pronto ou comece do zero e guarde para usar de novo."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE ESTILO",
+    "DÁ A HISTÓRIA",
+    "A IA DIRIGE"
+   ]
+  },
+  "hypit-ai/hypit": {
+   "gancho": [
+    "VIU UM VÍDEO VIRAL?",
+    "A IA CLONA."
+   ],
+   "o_que_e": "Uma ferramenta que ensina assistentes de IA, como Claude Code e Codex, a recriar um vídeo viral inteiro: imagens, legendas e efeitos.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Cem versões de uma vez",
+     "texto": "Troque rosto, falas e imagens de apoio e gere 100 variações num comando."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Grátis para usar",
+     "texto": "O Hypit é grátis; você paga só o seu assistente e os modelos que usar."
+    }
+   ],
+   "fluxo": [
+    "SOLTA O VÍDEO",
+    "A IA CLONA",
+    "SAEM VARIAÇÕES"
+   ]
+  },
+  "jub0t/Concat": {
+   "gancho": [
+    "TROCA O CAPCUT",
+    "POR UM GRÁTIS"
+   ],
+   "o_que_e": "Um editor de vídeo grátis e de código aberto, alternativa ao CapCut, que roda no seu próprio computador e no Android.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Legenda e voz sozinhas",
+     "texto": "Legendas automáticas, voz gerada a partir de texto, remoção de fundo e efeitos."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Mac, Windows, Linux",
+     "texto": "Roda em macOS, Windows, Linux e Android, com exportação em 4K."
+    }
+   ],
+   "fluxo": [
+    "IMPORTA O VÍDEO",
+    "CORTA E LEGENDA",
+    "EXPORTA EM 4K"
+   ]
+  },
+  "D3voz/openjutsu": {
+   "gancho": [
+    "TROQUE A PESSOA",
+    "DO SEU VÍDEO"
+   ],
+   "o_que_e": "Um app que troca a pessoa de um vídeo pelo personagem de uma foto, mantendo a câmera, os cortes, o movimento e o som originais.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda na sua placa",
+     "texto": "Tudo funciona com modelos abertos na placa de vídeo do seu computador."
+    },
+    {
+     "icone": "image",
+     "titulo": "Roupa, cabelo e cenário",
+     "texto": "Também muda cabelo ou roupa, remove objetos e leva a pessoa a outro lugar."
+    }
+   ],
+   "fluxo": [
+    "SOLTA O VÍDEO",
+    "ENVIA A FOTO",
+    "APERTA GERAR"
+   ]
+  },
+  "Vincentwei1021/video-shotcraft": {
+   "gancho": [
+    "VÍDEO PROMO",
+    "DO SEU PRODUTO"
+   ],
+   "o_que_e": "Uma habilidade para Claude Code e Codex que cria vídeos de divulgação do seu produto, desenhados em código a partir das suas telas.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Biblioteca de cenas",
+     "texto": "124 receitas de cena e 150 prévias de movimento prontas para usar."
+    },
+    {
+     "icone": "video",
+     "titulo": "Continua editável",
+     "texto": "Entrega um MP4 que você segue editando num editor estilo CapCut no navegador."
+    }
+   ],
+   "fluxo": [
+    "PEDE O PROMO",
+    "A IA MONTA",
+    "MP4 PRONTO"
+   ]
+  },
+  "JuneYaooo/rea-video": {
+   "gancho": [
+    "COMO FIZERAM",
+    "ESSE VÍDEO?"
+   ],
+   "o_que_e": "Uma ferramenta que desmonta qualquer vídeo cena a cena e mostra como foram feitos imagem, textos, cortes e som, com um plano para refazer.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Real, IA ou código",
+     "texto": "Diz se cada cena foi filmada, gerada por IA, feita em 3D ou animada em código."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Relatório completo",
+     "texto": "Gera um relatório com imagem de cada cena, legendas em SRT e como refazer."
+    }
+   ],
+   "fluxo": [
+    "MANDA O VÍDEO",
+    "A IA DESMONTA",
+    "RECEITA PRONTA"
+   ]
+  },
+  "OpenMOSS/MOSS-Image": {
+   "gancho": [
+    "IMAGEM COM TEXTO",
+    "ESCRITO CERTO"
+   ],
+   "o_que_e": "Um modelo de IA aberto que cria imagens a partir de texto, com letras bem escritas na imagem e controle da organização da peça.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Texto legível na arte",
+     "texto": "Gera imagens com textos bem desenhados e organiza a posição de cada elemento."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Treino com 6 GB",
+     "texto": "Dá para treinar o modelo no seu estilo usando uma placa de vídeo de 6 GB."
+    }
+   ],
+   "fluxo": [
+    "DESCREVE A ARTE",
+    "O MODELO GERA",
+    "IMAGEM PRONTA"
+   ]
+  }
+ },
+ "legenda_abertura": "Os 8 projetos de vídeo, imagem e áudio com IA que mais crescem no GitHub estão no carrossel. Tem editor grátis no lugar do CapCut, troca de pessoa no vídeo e IA que desmonta vídeo viral cena a cena. Passa para o lado e aprenda a usar ferramentas assim nos cursos grátis do inema.club.",
+ "telegram": "Saiu o carrossel com os 8 repositórios de vídeo, imagem e áudio com IA que mais crescem no GitHub. Tem editor de vídeo aberto, clonagem de vídeo viral e modelo de imagem que escreve texto certo. Veja o carrossel e os cursos grátis no inema.club."
+}
