@@ -32,6 +32,8 @@ grep -qx "$DIA $MODO" "$RAIZ/auto/pular.txt" 2>/dev/null && { echo "pulado (auto
 [ -s "$ED/youtube-lives4.txt" ] && [ -z "${FORCAR:-}" ] && { echo "já publicado hoje ($(cat "$ED/youtube-lives4.txt")); FORCAR=1 refaz"; exit 0; }
 # vídeo já feito e revisado nesta pasta: retoma sem refazer roteiro nem avatar
 [ -s "$ED/video.mp4" ] && [ -s "$ED/revisao.json" ] && REUSAR=1
+# avatar já enviado ao estúdio (máquina caiu no meio): mantém coleta e roteiro, senão a fala não bate com a ficha (04/11/2026)
+[ -s "$ED/ficha.yaml" ] && [ -s "$ED/avatar/video_id.txt" ] && REUSAR=1
 BOT="$RAIZ/bin/enviar_bot_v3.mjs"
 DATA_BR=$(date -d "$DIA" +%d/%m/%Y)
 avisar() {  # aviso "Falhou" no bot v3 e sai

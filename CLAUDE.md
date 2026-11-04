@@ -19,7 +19,8 @@ do #10 ao #1, cartão de cada projeto, gráficos e o avatar do Nei. Explicação
 - **Top 10 = ordenado pelas estrelas ganhas no período** entre os projetos da página do Trending (a ordem da página mistura
   outros sinais e o gráfico ficava sem sentido). `pos_trending` guarda a ordem original.
 - Rodada: timer `gitbombando.timer` 16:00 → `auto/rodar.sh <dia>` (= `dia`; no domingo também `semana`; no dia 1º também `mes`).
-  Uma por vez (trava `auto/.rodando`). Teste isolado: `SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 auto/rodar.sh <dia> dia`.
+  Uma por vez (trava `auto/.rodando`). Teste isolado: `ED=<pasta fora de edicoes/> AVATAR_DE=<mp4> SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh <dia> <modo>`
+  (`GB_PESADO=<script>` põe o render atrás de uma trava externa). Avatar já enviado (`avatar/video_id.txt`) = retoma sem refazer roteiro.
   Pular: `AAAA-MM-DD` ou `AAAA-MM-DD semana` em `auto/pular.txt`. Edição já publicada não roda de novo (`FORCAR=1` refaz).
 - **Metritds (01/11/2026):** além do lives4, cada reel aprovado vai ao Instagram + TikTok `inema.tds` pelo Metricool da
   conta inematds (conector MCP `metricool-inematds`, apelido "metritds") com `auto/metritds.sh` (agora + 10 min, UTC).
@@ -38,4 +39,4 @@ When I correct you, or you catch yourself making a mistake: before continuing, a
 
 ## Lessons
 - Publicação direta: no v3 vai só a mensagem azul (metritds, com YouTube + sugestão do revisor), sem o vídeo; o vídeo só vai ao v3 quando o revisor reprova ou com SEM_METRI=1. (Nei, 01/11/2026)
-
+- Gráfico de semana/mês com retratos parciais contradiz o "+N" do cartão: curva "total por dia" só com o período inteiro coberto; senão "antes × agora". (semana 04/11/2026)

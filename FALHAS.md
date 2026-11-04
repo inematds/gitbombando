@@ -4,6 +4,7 @@ Uma linha por falha, mais recente no topo.
 
 | data | o que quebrou | menor correção | prompt \| infra |
 |---|---|---|---|
+| 2026-11-04 | Semana 04/11 reprovada: gráfico "NA SEMANA" com total por dia de retratos parciais (6 de 7 dias) + contador animado pego no meio = "contradiz o top10.json"; manchete da capa atrás do avatar | gráfico semana/mês só com retratos cobrindo o período todo, senão "antes × agora" (`DIAS_CURVA`); `revisor.md` explica o contador; `pecas.abertura` sobe a arte se a manchete passar de 800 px | prompt + infra |
 | 2026-11-04 | Edição 01/11: "fala f11 não achada" — o Whisper pulou 29 s com fala (pódio) | `_tapa_buracos` no retempo: buraco > 8 s retranscreve do buraco ao fim (591e0ff). Mesma cópia existe no rtex, r7ex e eventosextremospub | infra |
 | 28/10/2026 | Telegram "database is locked": outra sessão postava com a mesma conta | `telegram()` espera o `lsof` da sessão ficar livre (até 10 min) e não reposta edição já postada | infra |
 | 28/10/2026 | 1ª edição parou na cena: caixa do comentário procurava a palavra "pede" (padrão do r7ex) que o roteiro não usa | `cta.de` padrão = 1ª palavra da fala final (`ficha_motor`) + aviso mostra as 2 últimas linhas do fazer.log | infra |

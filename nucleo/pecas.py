@@ -22,13 +22,27 @@ def vertical(p):
     return Path(p)
 
 
+MANCHETE_FUNDO = 800   # gitbombando 04/11/2026: a manchete termina acima daqui (a legenda do gancho fica ~860 px; o avatar, ~960 px)
+
+
 def abertura(p, dy=110):
-    """desce a abertura 110 px com degradê no alto: o título não bate na faixa do topo → abertura-desce.png"""
+    """desce a abertura 110 px com degradê no alto: o título não bate na faixa do topo → abertura-desce.png
+    04/11/2026: se a manchete escrita na arte terminar baixo demais, desce menos (ou sobe, até 200 px): a manchete
+    descia para trás do avatar e a legenda do gancho cobria "DO GITHUB" (revisor, semana 04/11)."""
     im = Image.open(vertical(p)).convert("RGB")
-    out = Image.new("RGB", (W, H), FUNDO); out.paste(im.crop((0, 0, W, H - dy)), (0, dy))
-    g = Image.new("L", (W, dy + 60), 0); d = ImageDraw.Draw(g)
-    for y in range(dy + 60):
-        d.line((0, y, W, y), fill=int(255 * max(0, 1 - y / (dy + 60))))
+    _, cx = manchete(im)
+    if cx:
+        # o topo do texto nunca sobe para a faixa da marca (< 120 px): arte dourada brilhante (cofre, 04/11) engana o detector
+        dy = max(-200, 120 - cx[1], min(dy, MANCHETE_FUNDO - cx[3]))
+    out = Image.new("RGB", (W, H), FUNDO)
+    if dy >= 0:
+        out.paste(im.crop((0, 0, W, H - dy)), (0, dy))
+    else:
+        out.paste(im.crop((0, -dy, W, H)), (0, 0))
+    gd = max(dy, 0) + 60
+    g = Image.new("L", (W, gd), 0); d = ImageDraw.Draw(g)
+    for y in range(gd):
+        d.line((0, y, W, y), fill=int(255 * max(0, 1 - y / gd)))
     out.paste(FUNDO, (0, 0), g)
     dst = Path(p).with_name("abertura-desce.png"); out.save(dst); return dst
 
@@ -46,6 +60,8 @@ def manchete(im):
     if not len(linhas):
         return None, None
     y0, y1 = linhas.min(), linhas.max()
+    if y1 - y0 > 600:   # manchete real não tem 600+ px de altura: pegou arte dourada (cofre, mês 04/11/2026)
+        return None, None
     cols = np.where(txt[y0:y1 + 1].sum(0) >= 6)[0]
     m = np.zeros(txt.shape, bool); m[y0:y1 + 1] = txt[y0:y1 + 1]
     return Image.fromarray((m * 255).astype("uint8")), (int(cols.min()), int(y0), int(cols.max()), int(y1))

@@ -23,7 +23,7 @@ R = Path(__file__).resolve().parent
 sys.path.insert(0, str(R))
 from nucleo import cartao, cena as CENA, pecas, retempo as RT, ritmo as RITMO  # noqa: E402
 
-VERSAO = "1.0.0"
+VERSAO = "1.1.0"
 CANAL = os.environ.get("GB_CANAL", "lives4")
 PERFIL = Path(os.environ.get("R7X_HEYGEN_PERFIL", Path.home() / ".cache/inemaccbot/perfil-heygen"))
 TEMPLATE_HEYGEN = os.environ.get("R7X_HEYGEN_TEMPLATE", "TEMPLATE-AVATAR16")
@@ -33,6 +33,7 @@ TROCAS_PADRAO = {"inema ponto club": "inema.club", "dois mil e vinte e seis": "2
 PERIODO = {"dia": "HOJE", "semana": "NA SEMANA", "mes": "NO MÊS"}
 UNID = {"dia": "⭐ HOJE", "semana": "⭐ NA SEMANA", "mes": "⭐ NO MÊS"}
 ANTES = {"dia": "ONTEM", "semana": "HÁ 7 DIAS", "mes": "HÁ 30 DIAS"}
+DIAS_CURVA = {"semana": 7, "mes": 30}   # curva "total por dia" precisa de um ponto por dia do período inteiro
 NOME = {"dia": "Top 10 do dia", "semana": "Top 10 da semana", "mes": "Top 10 do mês"}
 PROIBIDO = re.compile(r"\b(tu|teu|tua|teus|tuas|contigo|segue o canal|se inscreve|inscreva-se|mort[eoa]s?|morreu|óbitos?)\b", re.I)
 ESTILO = ("Estilo foto cinematográfica realista de impacto, como pôster de filme: UM único objeto ou assunto principal, grande, "
@@ -173,7 +174,9 @@ def ficha_motor(p, f, d):
             if cv and len(cv["v"]) >= 3 and cv.get("tipo") != "total":
                 pn["grafico"] = {"rotulos": cv["rotulos"], "series": [{"nome": f"estrelas por {cv['unidade']}", "cor": "#FACC15", "v": cv["v"]}],
                                  "dur": 1.6, "marcar": list(range(0, len(cv["v"]), max(1, len(cv["v"]) // 6)))}
-            elif cv and len(cv["v"]) >= 3:
+            elif cv and len(cv["v"]) >= DIAS_CURVA.get(modo, 3):
+                # total por dia só quando os retratos cobrem TODOS os dias do período; senão o gráfico (28/10–04/11, com
+                # buraco) contradizia o "+N na semana" do cartão (revisor, semana 04/11/2026) → cai no "antes × agora"
                 pn["grafico"] = {"rotulos": cv["rotulos"], "series": [{"nome": "estrelas no total", "cor": "#FACC15", "v": cv["v"]}], "dur": 1.6}
             elif cr.get("antes"):
                 pn["grafico"] = {"rotulos": [ANTES[modo], "AGORA"], "dur": 1.4,
@@ -307,7 +310,9 @@ def cmd_render(pasta):
     p, f, d = ler(pasta)
     env = dict(os.environ, DISPLAY=TELA, GEO="geo-br.js", LAYOUT="canto", MUSICA=str(R / "assets/trilha.mp3"), R7X_RENDER_TIMEOUT="3000")
     with open(p / "build-render.log", "w") as lg:
-        r = subprocess.run(["bash", R / "motor/compor_avatar.sh", p, p / "video.mp4"], cwd=R, env=env, stdout=lg, stderr=subprocess.STDOUT,
+        # GB_PESADO=<script de trava> (ex.: retomada 04/11/2026: um só render pesado por vez na máquina)
+        pre = ["bash", os.environ["GB_PESADO"]] if os.environ.get("GB_PESADO") else []
+        r = subprocess.run([*pre, "bash", R / "motor/compor_avatar.sh", p, p / "video.mp4"], cwd=R, env=env, stdout=lg, stderr=subprocess.STDOUT,
                            timeout=4000)
     if r.returncode:
         txt = (p / "build-render.log").read_text()

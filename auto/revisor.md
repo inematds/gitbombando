@@ -27,6 +27,7 @@ NÃO reprove por:
 - Os últimos ~9 s parados no cartão do comentário (fecho segurado com o campo de comentário sendo digitado).
 - Um silêncio curto antes do #1 (pausa de suspense).
 - Legenda mostrando só parte da frase (karaokê).
+- Número grande do painel de baixo menor que o do top10.json, ou 0, com as barras ainda baixas: é o contador animado, que sobe desde o começo da parte e chega ao valor quando o Nei fala. Confira o número na pílula 🔥 do cartão (é o fixo) e só reprove se ELE contradisser o top10.json.
 - A ordem ser por estrelas ganhas e não a da página do Trending (é a regra do projeto).
 
 Não edite nenhum arquivo. Só leia.
