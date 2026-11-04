@@ -1,0 +1,101 @@
+modo: dia
+gancho:
+  tipo: estatistica
+  manchete: "+3.100 ESTRELAS, O DOBRO DO SEGUNDO"
+  destaque: "+3.100"
+  objeto: "um celular dourado rachando de tanta luz, com raios amarelos saindo da tela e ligando a um notebook em chamas"
+  fontes:
+    - {nome: "github.com/trending", trecho: "pingdotgg/t3code · 3,100 stars today"}
+abertura:
+  cena: "sala escura de servidores à noite, só a luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "Três mil e cem estrelas num dia só. O projeto que explodiu hoje no GitHub deixa você mandar nas IAs do seu computador pelo celular."
+  - etapa: panorama
+    fala: "Os dez projetos que mais cresceram hoje somaram onze mil quinhentas e trinta e nove estrelas. Vou do décimo ao primeiro."
+    numero: "11.539"
+  - etapa: repo
+    repo: "patchy631/ai-engineering-hub"
+    desc: "Mais de noventa projetos prontos, com aulas passo a passo para aprender a construir com IA."
+    destaque: "passo a passo"
+    numero: "573"
+    fala: "Em décimo, o AI Engineering Hub. São mais de noventa projetos prontos, com aulas passo a passo pra você aprender a construir coisas com IA. Quinhentas e setenta e três estrelas hoje."
+  - etapa: repo
+    repo: "shiyu-coder/Kronos"
+    desc: "IA aberta treinada com dados de dezenas de bolsas para ler os gráficos do mercado financeiro."
+    destaque: "mercado financeiro"
+    numero: "611"
+    fala: "Número nove, o Kronos. Uma IA aberta, treinada com dados de mais de quarenta e cinco bolsas do mundo, pra ler os gráficos do mercado financeiro. Seiscentas e onze estrelas."
+  - etapa: repo
+    repo: "togg53192-cmd/jailbreaks"
+    desc: "Coleção de comandos para tirar as travas de segurança das IAs. Polêmico: cuidado."
+    destaque: "travas de segurança"
+    numero: "730"
+    fala: "Em oitavo, o polêmico. Jailbreaks é uma coleção de comandos pra tirar as travas de segurança das IAs, e não sai do Top dez. Isso é polêmico, cuidado. Setecentas e trinta estrelas."
+  - etapa: repo
+    repo: "lightpanda-io/browser"
+    desc: "Navegador feito do zero para robôs de IA navegarem na internet, bem mais leve e rápido."
+    destaque: "feito do zero"
+    numero: "827"
+    fala: "Sétimo, o Lightpanda de volta. Um navegador feito do zero, não pra você, mas pros robôs de IA andarem pela internet, muito mais leve que o Chrome. Oitocentas e vinte e sete estrelas."
+  - etapa: repo
+    repo: "milind-soni/OpenMausBot"
+    desc: "Monte seu próprio time de robôs de IA num app de chat, com um computador só para eles."
+    destaque: "time de robôs"
+    numero: "919"
+    fala: "Em sexto, o OpenMausBot, que não sai do Top dez. Você monta o seu time de robôs de IA num app de chat, de graça, com um computador virtual só pra eles. Novecentas e dezenove estrelas."
+  - etapa: repo
+    repo: "Renhuai123/ziwei-doushu"
+    desc: "Programa aberto de astrologia chinesa que monta o seu mapa do destino."
+    destaque: "astrologia chinesa"
+    numero: "953"
+    fala: "Quinto lugar, a astrologia continua bombando. O Ziwei Doushu monta o seu mapa do destino pela astrologia chinesa, e não sai do Top dez. Novecentas e cinquenta e três estrelas."
+  - etapa: repo
+    repo: "Donchitos/Claude-Code-Game-Studios"
+    desc: "Um estúdio de videogame inteiro feito de IAs: 49 agentes que planejam, criam e testam o jogo."
+    destaque: "estúdio de videogame"
+    numero: "970"
+    fala: "Em quarto, o Claude Code Game Studios. São quarenta e nove agentes de IA trabalhando como um estúdio de verdade pra criar o seu videogame. Novecentas e setenta estrelas."
+  - etapa: repo
+    repo: "anomalyco/hex"
+    desc: "Segure uma tecla, fale, e ele digita para você, sem mandar nada para a internet."
+    destaque: "sem mandar nada"
+    numero: "1.329"
+    fala: "E agora o pódio. O bronze é a estreia do dia: Hex. Você segura uma tecla, fala, e ele digita pra você, sem mandar nada pra internet. Cresceu quase oitenta por cento num dia. Mil trezentas e vinte e nove estrelas."
+  - etapa: repo
+    repo: "thedotmack/claude-mem"
+    desc: "Memória para a IA lembrar o que você fez nas conversas anteriores, sem repetir tudo."
+    destaque: "lembrar"
+    numero: "1.527"
+    fala: "A prata é do Claude Mem, o campeão de ontem, que não sai do Top dez. Ele dá memória pra sua IA lembrar tudo o que vocês já fizeram. Mil quinhentas e vinte e sete estrelas."
+  - etapa: repo
+    repo: "pingdotgg/t3code"
+    desc: "Comande as IAs que rodam no seu computador direto do celular, de onde estiver."
+    destaque: "do celular"
+    numero: "3.100"
+    fala: "E o primeiro lugar, disparado, é o Tê Três Code. Do celular, você comanda as IAs do seu computador, de onde estiver. Três mil e cem estrelas. O dobro do segundo."
+  - etapa: comentario
+    fala: "E aí, qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "Três mil e cem": "3.100"
+  "onze mil quinhentas e trinta e nove": "11.539"
+  "noventa": "90"
+  "Quinhentas e setenta e três": "573"
+  "quarenta e cinco": "45"
+  "Seiscentas e onze": "611"
+  "Setecentas e trinta": "730"
+  "Oitocentas e vinte e sete": "827"
+  "Novecentas e dezenove": "919"
+  "Novecentas e cinquenta e três": "953"
+  "quarenta e nove": "49"
+  "Novecentas e setenta": "970"
+  "oitenta por cento": "80%"
+  "Mil trezentas e vinte e nove": "1.329"
+  "Mil quinhentas e vinte e sete": "1.527"
+cores: {bombando: "#FACC15", polemico: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Comande suas IAs pelo celular: T3 Code leva 3.100 estrelas e explode no GitHub hoje"
+  contexto: "O Top 10 do GitHub de 01/11/2026, do décimo ao primeiro, explicado sem jargão. O T3 Code, que deixa você comandar as IAs do computador pelo celular, levou 3.100 estrelas, o dobro do Claude Mem, e a estreia Hex cresceu quase 80% num dia."
+  telegram: "O T3 Code, que deixa você comandar as IAs do seu computador pelo celular, liderou o GitHub hoje com 3.100 estrelas, o dobro do segundo. No bronze, a estreia Hex: você fala e ele digita, sem mandar nada pra internet."

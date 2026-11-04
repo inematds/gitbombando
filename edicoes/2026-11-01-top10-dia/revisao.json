@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com \"TOP 10 DO GITHUB\" grande e a manchete idêntica a gancho.manchete; os 10 cartões batem com o top10.json (posições, total de estrelas e +hoje); avatar em meia tela no começo e no canto depois; fecho com a caixa vermelha e a pílula inema.club; nenhum defeito visível.",
+ "sugestoes": [
+  "4.0–23.38 s e 81.5 s: em vários quadros o contador do gráfico ainda está subindo (0, 88, 447, 607, 1.253, 2.006), enquanto o cartão logo acima já mostra o número final. Fazer o contador terminar antes, ou começar no valor final, evita que pareça número errado.",
+  "13.69 s (#10) e 71.82 s (#5): o gráfico aparece com o contador em 0 e as barras vazias. Mostrar as barras já preenchidas no primeiro instante deixa o quadro mais legível.",
+  "120.26 s (#1): a vitória do t3code com o dobro do segundo podia ganhar um destaque visual próprio (selo \"2× O SEGUNDO\" ou barra comparando com o claude-mem), porque hoje o cartão do #1 é igual aos outros.",
+  "0.05–4.0 s: a legenda karaokê fica por cima da arte do celular dourado e perde contraste. Uma faixa escura atrás da legenda na capa ajudaria.",
+  "IMPACTO 7: o gancho de número forte funciona e o pódio tem ritmo, mas do #10 ao #4 os cartões são parecidos. Um corte visual (cor, zoom, alerta vermelho no jailbreaks #8) quebraria a monotonia no meio do vídeo."
+ ]
+}
