@@ -1,0 +1,12 @@
+Uma IA que desmonta qualquer programa ganhou 426.427 estrelas: o Top 10 do GitHub no mês
+
+#1 morluto/rea — https://github.com/morluto/rea
+#2 debpalash/VoiceStudio — https://github.com/debpalash/VoiceStudio
+#3 boykopovar/AnyPS5 — https://github.com/boykopovar/AnyPS5
+#4 cloudflare/security-audit-skill — https://github.com/cloudflare/security-audit-skill
+#5 pbakaus/impeccable — https://github.com/pbakaus/impeccable
+#6 heygen-com/hyperframes — https://github.com/heygen-com/hyperframes
+#7 pingdotgg/t3code — https://github.com/pingdotgg/t3code
+#8 NationalSecurityAgency/ghidra — https://github.com/NationalSecurityAgency/ghidra
+#9 Nutlope/hallmark — https://github.com/Nutlope/hallmark
+#10 thedotmack/claude-mem — https://github.com/thedotmack/claude-mem

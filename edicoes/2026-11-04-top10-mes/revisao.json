@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Sem defeito visível: a capa traz TOP 10 DO GITHUB grande e a manchete igual à da ficha; o ranking e as pílulas 🔥 batem com o top10.json do #10 ao #1; o avatar está correto; o fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "0–4 s: a legenda karaokê ('UMA IA QUE', 'PROGRAMA POR DENTRO') fica em cima da arte do cofre e compete com a manchete; uma faixa escura atrás dela ajudaria a ler.",
+  "13,3 s: no ranking, as barras do #2 ao #10 ficam minúsculas perto da do rea; uma escala que não começasse no zero, ou um destaque como '9× o segundo lugar', deixaria o gráfico mais expressivo.",
+  "87,8 s: o painel de baixo do #4 aparece esmaecido, em transição, com o cartão repetido por ~9 s; dá para encurtar ou entrar logo no pódio.",
+  "115,7 s: '+12173,2% em 30 dias' no gráfico do rea é o número mais chocante do vídeo e aparece miúdo; vale subir para a chamada.",
+  "IMPACTO 7: o gancho 'mais que os outros nove juntos' é forte, mas o meio (#9 a #5) tem cartões parecidos; um corte mais rápido ou um número-choque por projeto seguraria melhor quem rola o feed."
+ ]
+}

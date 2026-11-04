@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Uma IA que desmonta qualquer programa por dentro ganhou mais estrelas em um mês do que os outros nove do Top Dez juntos.",
+  "legenda": "Uma IA que desmonta qualquer programa por dentro ganhou mais estrelas em um mês do que os outros nove do Top 10 juntos."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez projetos que mais cresceram este mês somaram seiscentas e setenta e seis mil quatrocentas e sessenta e cinco estrelas. Vou do décimo ao primeiro.",
+  "legenda": "Os dez projetos que mais cresceram este mês somaram 676.465 estrelas. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, claude-mem. Ele dá memória pra sua IA: guarda o que vocês fizeram e lembra na próxima conversa. Ganhou dezesseis mil setecentas e quarenta estrelas.",
+  "legenda": "Em décimo, claude-mem. Ele dá memória pra sua IA: guarda o que vocês fizeram e lembra na próxima conversa. Ganhou 16.740 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Número nove, Hallmark, da Together AI. Faz a IA criar sites bonitos, sem aquela cara de robô. Somou dezessete mil trezentas e catorze estrelas.",
+  "legenda": "Número nove, Hallmark, da Together AI. Faz a IA criar sites bonitos, sem aquela cara de robô. Somou 17.314 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, um projeto da agência de segurança dos Estados Unidos. O Ghidra abre programas por dentro pra ver como funcionam. Levou dezessete mil trezentas e vinte e cinco estrelas.",
+  "legenda": "Em oitavo, um projeto da agência de segurança dos Estados Unidos. O Ghidra abre programas por dentro pra ver como funcionam. Levou 17.325 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo lugar, T Três Code. Um controle remoto pras IAs que trabalham no seu computador: você comanda tudo pelo celular. Foram dezoito mil novecentas e sete estrelas.",
+  "legenda": "Sétimo lugar, T3 Code. Um controle remoto pras IAs que trabalham no seu computador: você comanda tudo pelo celular. Foram 18.907 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, HyperFrames, da HeyGen. Você escreve uma página e ela vira vídeo pronto, num kit feito pra IA editar sozinha. Ganhou vinte e duas mil trezentas e oitenta e sete estrelas.",
+  "legenda": "Em sexto, HyperFrames, da HeyGen. Você escreve uma página e ela vira vídeo pronto, num kit feito pra IA editar sozinha. Ganhou 22.387 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Número cinco, Impeccable. Ensina a IA a caprichar no design e a dedurar aquele visual genérico, com cara de robô. Subiu vinte e seis mil novecentas e oitenta estrelas.",
+  "legenda": "Número cinco, Impeccable. Ensina a IA a caprichar no design e a dedurar aquele visual genérico, com cara de robô. Subiu 26.980 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, uma gigante da internet. A Cloudflare liberou a receita que transforma sua IA num auditor que caça brechas no código. Foram trinta e quatro mil duzentas e quarenta e oito estrelas.",
+  "legenda": "Em quarto, uma gigante da internet. A Cloudflare liberou a receita que transforma sua IA num auditor que caça brechas no código. Foram 34.248 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Bronze pro Any PS cinco. Ele converte jogos de PlayStation cinco pra rodar no computador. Isso é polêmico, cuidado com pirataria. Ganhou quarenta e sete mil novecentas e sessenta e nove estrelas.",
+  "legenda": "E agora o pódio. Bronze pro AnyPS5. Ele converte jogos de PlayStation 5 pra rodar no computador. Isso é polêmico, cuidado com pirataria. Ganhou 47.969 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Prata pro VoiceStudio. Clona voz, dubla vídeo e narra livro de graça, no seu computador. Faz o que a ElevenLabs cobra. Levou quarenta e oito mil cento e sessenta e oito estrelas.",
+  "legenda": "Prata pro VoiceStudio. Clona voz, dubla vídeo e narra livro de graça, no seu computador. Faz o que a ElevenLabs cobra. Levou 48.168 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o primeiro lugar é o rea. Uma IA que desmonta qualquer programa pra descobrir como ele funciona. Use só no que é seu. Ganhou quatrocentas e vinte e seis mil quatrocentas e vinte e sete estrelas. Em um mês.",
+  "legenda": "E o primeiro lugar é o rea. Uma IA que desmonta qualquer programa pra descobrir como ele funciona. Use só no que é seu. Ganhou 426.427 estrelas. Em um mês."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Comenta o número aqui embaixo. Tá tudo no inema ponto club, e mês que vem tem mais.",
+  "legenda": "Qual desses você vai testar primeiro? Comenta o número aqui embaixo. Tá tudo no inema.club, e mês que vem tem mais."
+ }
+]

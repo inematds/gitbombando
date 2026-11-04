@@ -1,0 +1,101 @@
+modo: mes
+gancho:
+  tipo: estatistica
+  manchete: "+426.427 ESTRELAS PRA DESMONTAR TUDO"
+  destaque: "+426.427"
+  objeto: "um cofre de aço dourado sendo aberto à força, com engrenagens e peças explodindo para fora e raios de luz amarela escapando"
+  fontes:
+    - {nome: "github.com/trending?since=monthly", trecho: "morluto/rea · 426,427 stars this month"}
+abertura:
+  cena: "oficina escura à noite, bancada cheia de peças desmontadas, só a luz amarela de uma tela no centro"
+partes:
+  - etapa: gancho
+    fala: "Uma IA que desmonta qualquer programa por dentro ganhou mais estrelas em um mês do que os outros nove do Top Dez juntos."
+  - etapa: panorama
+    fala: "Os dez projetos que mais cresceram este mês somaram seiscentas e setenta e seis mil quatrocentas e sessenta e cinco estrelas. Vou do décimo ao primeiro."
+    numero: "676.465"
+  - etapa: repo
+    repo: "thedotmack/claude-mem"
+    desc: "Dá memória à sua IA: ela lembra do que vocês fizeram nas conversas anteriores."
+    destaque: "memória"
+    numero: "16.740"
+    fala: "Em décimo, claude-mem. Ele dá memória pra sua IA: guarda o que vocês fizeram e lembra na próxima conversa. Ganhou dezesseis mil setecentas e quarenta estrelas."
+  - etapa: repo
+    repo: "Nutlope/hallmark"
+    desc: "Kit da Together AI que faz a IA criar sites que não parecem feitos por IA."
+    destaque: "não parecem feitos por IA"
+    numero: "17.314"
+    fala: "Número nove, Hallmark, da Together AI. Faz a IA criar sites bonitos, sem aquela cara de robô. Somou dezessete mil trezentas e catorze estrelas."
+  - etapa: repo
+    repo: "NationalSecurityAgency/ghidra"
+    desc: "Ferramenta da agência de segurança dos EUA que abre programas por dentro."
+    destaque: "abre programas por dentro"
+    numero: "17.325"
+    fala: "Em oitavo, um projeto da agência de segurança dos Estados Unidos. O Ghidra abre programas por dentro pra ver como funcionam. Levou dezessete mil trezentas e vinte e cinco estrelas."
+  - etapa: repo
+    repo: "pingdotgg/t3code"
+    desc: "Controle remoto pelo celular para as IAs que trabalham no seu computador."
+    destaque: "pelo celular"
+    numero: "18.907"
+    fala: "Sétimo lugar, T Três Code. Um controle remoto pras IAs que trabalham no seu computador: você comanda tudo pelo celular. Foram dezoito mil novecentas e sete estrelas."
+  - etapa: repo
+    repo: "heygen-com/hyperframes"
+    desc: "Kit da HeyGen que transforma uma página da internet em vídeo, feito pra IA usar."
+    destaque: "em vídeo"
+    numero: "22.387"
+    fala: "Em sexto, HyperFrames, da HeyGen. Você escreve uma página e ela vira vídeo pronto, num kit feito pra IA editar sozinha. Ganhou vinte e duas mil trezentas e oitenta e sete estrelas."
+  - etapa: repo
+    repo: "pbakaus/impeccable"
+    desc: "Ensina a IA a caprichar no visual e a pegar o design com cara de robô."
+    destaque: "cara de robô"
+    numero: "26.980"
+    fala: "Número cinco, Impeccable. Ensina a IA a caprichar no design e a dedurar aquele visual genérico, com cara de robô. Subiu vinte e seis mil novecentas e oitenta estrelas."
+  - etapa: repo
+    repo: "cloudflare/security-audit-skill"
+    desc: "Receita da Cloudflare que transforma a IA num auditor que caça brechas no código."
+    destaque: "caça brechas"
+    numero: "34.248"
+    fala: "Em quarto, uma gigante da internet. A Cloudflare liberou a receita que transforma sua IA num auditor que caça brechas no código. Foram trinta e quatro mil duzentas e quarenta e oito estrelas."
+  - etapa: repo
+    repo: "boykopovar/AnyPS5"
+    desc: "Programa que converte jogos de PlayStation 5 para rodar no Windows e no Linux."
+    destaque: "PlayStation 5"
+    numero: "47.969"
+    fala: "E agora o pódio. Bronze pro Any PS cinco. Ele converte jogos de PlayStation cinco pra rodar no computador. Isso é polêmico, cuidado com pirataria. Ganhou quarenta e sete mil novecentas e sessenta e nove estrelas."
+  - etapa: repo
+    repo: "debpalash/VoiceStudio"
+    desc: "Estúdio de voz grátis no seu computador: clona voz, dubla vídeo e narra livros."
+    destaque: "grátis"
+    numero: "48.168"
+    fala: "Prata pro VoiceStudio. Clona voz, dubla vídeo e narra livro de graça, no seu computador. Faz o que a ElevenLabs cobra. Levou quarenta e oito mil cento e sessenta e oito estrelas."
+  - etapa: repo
+    repo: "morluto/rea"
+    desc: "IA que desmonta qualquer programa, do aplicativo ao código de máquina."
+    destaque: "desmonta qualquer programa"
+    numero: "426.427"
+    fala: "E o primeiro lugar é o rea. Uma IA que desmonta qualquer programa pra descobrir como ele funciona. Use só no que é seu. Ganhou quatrocentas e vinte e seis mil quatrocentas e vinte e sete estrelas. Em um mês."
+  - etapa: comentario
+    fala: "Qual desses você vai testar primeiro? Comenta o número aqui embaixo. Tá tudo no inema ponto club, e mês que vem tem mais."
+trocas:
+  "seiscentas e setenta e seis mil quatrocentas e sessenta e cinco": "676.465"
+  "dezesseis mil setecentas e quarenta": "16.740"
+  "dezessete mil trezentas e catorze": "17.314"
+  "dezessete mil trezentas e vinte e cinco": "17.325"
+  "dezoito mil novecentas e sete": "18.907"
+  "vinte e duas mil trezentas e oitenta e sete": "22.387"
+  "vinte e seis mil novecentas e oitenta": "26.980"
+  "trinta e quatro mil duzentas e quarenta e oito": "34.248"
+  "quarenta e sete mil novecentas e sessenta e nove": "47.969"
+  "quarenta e oito mil cento e sessenta e oito": "48.168"
+  "quatrocentas e vinte e seis mil quatrocentas e vinte e sete": "426.427"
+  "PlayStation cinco": "PlayStation 5"
+  "Top Dez": "Top 10"
+  "T Três Code": "T3 Code"
+  "Any PS cinco": "AnyPS5"
+cores: {bombando: "#FACC15", polemico: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Uma IA que desmonta qualquer programa ganhou 426.427 estrelas: o Top 10 do GitHub no mês"
+  contexto: "O Top 10 do GitHub do mês (04/11/2026), do décimo ao primeiro, explicado sem jargão. O rea, uma IA que desmonta programas por dentro, liderou com 426.427 estrelas, mais que os outros nove juntos."
+  telegram: "O que bombou no GitHub este mês: o rea, uma IA que desmonta qualquer programa para entender como funciona, ganhou 426.427 estrelas, mais que os outros nove juntos. Logo atrás, um estúdio de voz grátis que faz o que a ElevenLabs cobra. E um alerta: um conversor de jogos de PS5 para PC também subiu forte."
