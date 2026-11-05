@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "A IA JÁ USA SEU COMPUTADOR",
+  "destaque": "COMPUTADOR"
+ },
+ "repos": {
+  "vercel-labs/agent-desktop": {
+   "gancho": [
+    "A IA CLICA",
+    "NO SEU COMPUTADOR"
+   ],
+   "o_que_e": "Um programa de terminal da Vercel que deixa a IA abrir, clicar e digitar nos programas do seu computador, sem tirar print da tela.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Mac, Windows e Linux",
+     "texto": "Funciona nos três sistemas, em processadores x64 e ARM64."
+    },
+    {
+     "icone": "search",
+     "titulo": "Lê a tela sem imagem",
+     "texto": "Lê a lista de botões e campos do programa, sem comparar pixels."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "DÁ A PERMISSÃO",
+    "A IA OPERA"
+   ]
+  },
+  "NVIDIA/auto-ontology": {
+   "gancho": [
+    "NÚMERO CERTO",
+    "NA RESPOSTA DA IA"
+   ],
+   "o_que_e": "Uma biblioteca da NVIDIA que monta um mapa dos dados da empresa, com o que cada número significa, para a IA responder com base certa.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Mapa dos dados",
+     "texto": "Diz à IA onde cada dado fica, o que significa e de onde ele veio."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Confere a consulta",
+     "texto": "Checa a pergunta da IA contra definições aprovadas e mostra a origem."
+    }
+   ],
+   "fluxo": [
+    "LÊ OS DADOS",
+    "MONTA O MAPA",
+    "A IA CONSULTA"
+   ]
+  },
+  "D4Vinci/Scrapling": {
+   "gancho": [
+    "PUXE DADOS",
+    "DE QUALQUER SITE"
+   ],
+   "o_que_e": "Uma ferramenta em Python que entra em sites e copia as informações que você quer, de uma página só até um site inteiro.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Passa por bloqueios",
+     "texto": "Usa navegadores discretos e lida com a verificação do Cloudflare."
+    },
+    {
+     "icone": "download",
+     "titulo": "Site vira texto limpo",
+     "texto": "Recolhe um site inteiro como texto organizado, com pausa e retomada."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O SITE",
+    "ELE COLETA",
+    "DADOS PRONTOS"
+   ]
+  },
+  "JiaFeiMiao-K-Cat/DiscImageStudio": {
+   "gancho": [
+    "UMA IMAGEM",
+    "GRAVADA NO CD?"
+   ],
+   "o_que_e": "Um programa que transforma uma foto em dados que, gravados num CD, DVD ou Blu-ray, deixam a imagem visível na face do disco.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Desenho em camadas",
+     "texto": "Importa a imagem, ajusta brilho e tons e confere a prévia do disco."
+    },
+    {
+     "icone": "download",
+     "titulo": "Pronto no Windows",
+     "texto": "No Windows é baixar e abrir; Linux e Mac têm versão de teste."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O DISCO",
+    "MONTA A IMAGEM",
+    "GRAVA"
+   ]
+  },
+  "mattpocock/skills": {
+   "gancho": [
+    "IA QUE PROGRAMA",
+    "COM MÉTODO"
+   ],
+   "o_que_e": "Um pacote de habilidades que um programador veterano usa todo dia para a IA programar com método, e não no chute.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Qualquer modelo de IA",
+     "texto": "Peças pequenas que funcionam com qualquer modelo e que você adapta."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala em segundos",
+     "texto": "Um comando instala no Claude Code ou no Codex e se atualiza sozinho."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE A TAREFA",
+    "A IA SEGUE"
+   ]
+  },
+  "thedotmack/claude-mem": {
+   "gancho": [
+    "SUA IA LEMBRA",
+    "DE ONTEM?"
+   ],
+   "o_que_e": "Um complemento que guarda o que a sua IA fez em cada sessão, resume tudo e devolve esse contexto na próxima conversa.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "Memória entre sessões",
+     "texto": "Grava o que foi feito e resume com IA para não começar do zero."
+    },
+    {
+     "icone": "link",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Claude Code, Codex, Gemini, Copilot, OpenCode e outros."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "VOCÊ TRABALHA",
+    "ELA LEMBRA"
+   ]
+  },
+  "floci-io/floci": {
+   "gancho": [
+    "A NUVEM DA AMAZON",
+    "NO SEU PC"
+   ],
+   "o_que_e": "Uma cópia gratuita dos serviços de nuvem da Amazon que roda no seu computador, para testar sem conta e sem pagar.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Sem conta nem cadastro",
+     "texto": "Não pede chave de acesso nem plano pago para liberar recursos."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Liga com um comando",
+     "texto": "Sobe com o Docker num comando e substitui o LocalStack sem refazer."
+    }
+   ],
+   "fluxo": [
+    "SOBE NO DOCKER",
+    "LIGA O PROJETO",
+    "TESTA DE GRAÇA"
+   ]
+  },
+  "github/spec-kit": {
+   "gancho": [
+    "PRIMEIRO O PLANO,",
+    "DEPOIS O CÓDIGO"
+   ],
+   "o_que_e": "Um kit do GitHub que faz a IA de programação escrever a especificação e o plano antes de mexer no código.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Processos prontos",
+     "texto": "Traz roteiros para criar recurso, corrigir erro ou avaliar uma ideia."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Tudo documentado",
+     "texto": "Cada etapa deixa registro: plano, causa do erro e verificação feita."
+    }
+   ],
+   "fluxo": [
+    "ESCREVE A IDEIA",
+    "A IA PLANEJA",
+    "DEPOIS CODIFICA"
+   ]
+  },
+  "harry0703/MoneyPrinterTurbo": {
+   "gancho": [
+    "UM TEMA.",
+    "UM VÍDEO PRONTO."
+   ],
+   "o_que_e": "Uma ferramenta que cria um vídeo curto a partir de um tema: escreve o roteiro, escolhe as imagens e põe legenda e música.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Vídeo completo",
+     "texto": "Roteiro, imagens, legenda e música de fundo num vídeo em alta definição."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Tela no navegador",
+     "texto": "Tem uma página no navegador para você pedir o vídeo sem programar."
+    }
+   ],
+   "fluxo": [
+    "DIGITA O TEMA",
+    "A IA MONTA",
+    "VÍDEO PRONTO"
+   ]
+  },
+  "max-sixty/worktrunk": {
+   "gancho": [
+    "VÁRIAS IAS",
+    "SEM SE ATROPELAR"
+   ],
+   "o_que_e": "Um programa de terminal que dá a cada robô de IA uma cópia separada do mesmo projeto, para vários trabalharem ao mesmo tempo.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Três comandos",
+     "texto": "Três comandos básicos cuidam das cópias de trabalho do projeto."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Automatiza a rotina",
+     "texto": "Roda tarefas automáticas e reaproveita a compilação para ganhar tempo."
+    }
+   ],
+   "fluxo": [
+    "CRIA A CÓPIA",
+    "A IA TRABALHA",
+    "JUNTA TUDO"
+   ]
+  }
+ },
+ "legenda_abertura": "A IA agora abre e clica nos programas do seu computador, e esse é só um dos projetos que mais cresceram hoje no GitHub. Passe o carrossel para ver o Top 10 do dia explicado sem complicação. Cursos grátis de IA no inema.club.",
+ "telegram": "Saiu o Top 10 do dia no GitHub: IA que mexe no seu computador, memória para o Claude Code e a nuvem da Amazon rodando em casa. Veja o carrossel com cada projeto explicado. Cursos grátis de IA no inema.club."
+}
