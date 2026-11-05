@@ -1,0 +1,99 @@
+modo: dia
+gancho:
+  tipo: estatistica
+  manchete: "+2.470 ESTRELAS PRA IA INTROMETIDA"
+  destaque: "+2.470"
+  objeto: "um cursor de mouse dourado gigante rachando de tanta luz, com raios amarelos escapando pelas rachaduras sobre um teclado em chamas"
+  fontes:
+    - {nome: "github.com/trending", trecho: "vercel-labs/agent-desktop · 2,470 stars today"}
+    - {nome: "github.com/trending", trecho: "NVIDIA/auto-ontology · 2,050 stars today"}
+abertura:
+  cena: "quarto escuro à noite, um computador ligado sozinho, só a luz amarela vindo do centro da tela"
+partes:
+  - etapa: gancho
+    fala: "Pelo segundo dia seguido, o projeto mais quente do GitHub é uma IA que usa o seu computador sem você encostar no mouse. E ela ganhou duas mil quatrocentas e setenta estrelas em um dia."
+  - etapa: panorama
+    fala: "Os dez que mais cresceram hoje somaram treze mil e novecentas estrelas. Bora do décimo ao primeiro."
+    numero: "13.900"
+  - etapa: repo
+    repo: "max-sixty/worktrunk"
+    desc: "Separa o trabalho de vários robôs de IA no mesmo projeto, cada um no seu canto."
+    destaque: "cada um no seu canto"
+    numero: "531"
+    fala: "Abrindo em décimo, o Worktrunk. Você põe vários robôs de IA no mesmo projeto e cada um trabalha no seu canto, sem bagunça. Quinhentas e trinta e uma estrelas."
+  - etapa: repo
+    repo: "harry0703/MoneyPrinterTurbo"
+    desc: "A IA faz o vídeo curto inteiro a partir de um tema: roteiro, imagens, legenda e música."
+    destaque: "vídeo curto inteiro"
+    numero: "617"
+    fala: "Nono lugar, a tal impressora de dinheiro: o Money Printer Turbo. Você escreve um tema e sai um vídeo curto pronto, com legenda e música. Seiscentas e dezessete estrelas."
+  - etapa: repo
+    repo: "github/spec-kit"
+    desc: "Kit do próprio GitHub que faz a IA escrever o plano antes de mexer no código."
+    destaque: "o plano antes"
+    numero: "808"
+    fala: "Em oitavo, um kit da casa: o Spec Kit, do próprio GitHub, que é da Microsoft. Ele obriga a IA a escrever o plano antes de sair mexendo. Oitocentas e oito estrelas."
+  - etapa: repo
+    repo: "floci-io/floci"
+    desc: "Uma cópia da nuvem da Amazon rodando no seu computador, de graça e sem cadastro."
+    destaque: "de graça"
+    numero: "1.090"
+    fala: "Sétimo, o Floci. Sabe a nuvem da Amazon, que cobra por tudo? Ele imita ela no seu computador, de graça e sem cadastro. Mil e noventa estrelas."
+  - etapa: repo
+    repo: "thedotmack/claude-mem"
+    desc: "Dá memória à sua IA: ela lembra do que vocês fizeram ontem e não começa do zero."
+    destaque: "memória"
+    numero: "1.172"
+    fala: "Em sexto, o Claude Mem, que simplesmente não sai do Top dez. Sua IA para de esquecer tudo a cada conversa e lembra do que vocês fizeram ontem. Mil cento e setenta e duas estrelas."
+  - etapa: repo
+    repo: "mattpocock/skills"
+    desc: "As receitas de um programador veterano para a IA trabalhar com capricho, não no chute."
+    destaque: "não no chute"
+    numero: "1.379"
+    fala: "Quinto, outro fixo do Top dez: o Skills. São as receitas de um programador veterano pra IA trabalhar com capricho, e não no chute. Mil trezentas e setenta e nove estrelas."
+  - etapa: repo
+    repo: "JiaFeiMiao-K-Cat/DiscImageStudio"
+    desc: "Desenha uma imagem visível na face de CDs, DVDs e Blu-ray usando um gravador comum."
+    destaque: "imagem visível"
+    numero: "1.778"
+    fala: "Número quatro, o mais curioso da lista. O Disc Image Studio usa o gravador comum pra desenhar uma foto de verdade na face de um CD ou DVD. Mil setecentas e setenta e oito estrelas."
+  - etapa: repo
+    repo: "D4Vinci/Scrapling"
+    desc: "Robô que puxa informação de qualquer site, até dos que bloqueiam. Respeite as regras."
+    destaque: "qualquer site"
+    numero: "2.005"
+    fala: "Agora o pódio. Em terceiro, o Scrapling, um robô que puxa informação de qualquer site, até dos que tentam bloquear. É polêmico, então cuidado. Duas mil e cinco estrelas."
+  - etapa: repo
+    repo: "NVIDIA/auto-ontology"
+    desc: "Da NVIDIA: um mapa dos dados da empresa para a IA acertar os números de verdade."
+    destaque: "acertar os números"
+    numero: "2.050"
+    fala: "Em segundo, a NVIDIA. O Auto Ontology ensina a IA onde estão os dados da empresa, pra ela parar de inventar números. Cresceu metade num dia só. Duas mil e cinquenta estrelas."
+  - etapa: repo
+    repo: "vercel-labs/agent-desktop"
+    desc: "Da Vercel: a IA abre, clica e digita nos programas do seu computador, sozinha."
+    destaque: "sozinha"
+    numero: "2.470"
+    fala: "E o número um, de novo, é da Vercel. O Agent Desktop. A IA abre seus programas, clica e digita sozinha. Duas mil quatrocentas e setenta estrelas."
+  - etapa: comentario
+    fala: "Você teria coragem de soltar uma IA no seu computador? Responde aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "treze mil e novecentas": "13.900"
+  "Quinhentas e trinta e uma": "531"
+  "Seiscentas e dezessete": "617"
+  "Oitocentas e oito": "808"
+  "Mil e noventa": "1.090"
+  "Mil cento e setenta e duas": "1.172"
+  "Mil trezentas e setenta e nove": "1.379"
+  "Mil setecentas e setenta e oito": "1.778"
+  "Duas mil e cinco": "2.005"
+  "Duas mil e cinquenta": "2.050"
+  "duas mil quatrocentas e setenta": "2.470"
+  "Duas mil quatrocentas e setenta": "2.470"
+cores: {bombando: "#FACC15", sozinha: "#FACC15", polêmico: "#ff2a1f", cuidado: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "IA que usa seu PC sozinha ganha +2.470 estrelas e é #1 no GitHub de novo"
+  contexto: "Top 10 do GitHub de 05/11/2026, do décimo ao primeiro, com os projetos que mais ganharam estrelas no dia. Pelo segundo dia seguido o Agent Desktop, da Vercel, lidera com 2.470 estrelas, seguido do Auto Ontology, da NVIDIA."
+  telegram: "Pelo segundo dia seguido, o Agent Desktop da Vercel lidera o GitHub: uma IA que abre programas, clica e digita no seu computador sozinha (+2.470 estrelas). A NVIDIA vem em segundo com o Auto Ontology, que ajuda a IA a acertar os números da empresa. E o Claude Mem e o Skills não saem do Top 10."

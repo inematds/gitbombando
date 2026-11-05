@@ -1,0 +1,12 @@
+IA que usa seu PC sozinha ganha +2.470 estrelas e é #1 no GitHub de novo
+
+#1 vercel-labs/agent-desktop — https://github.com/vercel-labs/agent-desktop
+#2 NVIDIA/auto-ontology — https://github.com/NVIDIA/auto-ontology
+#3 D4Vinci/Scrapling — https://github.com/D4Vinci/Scrapling
+#4 JiaFeiMiao-K-Cat/DiscImageStudio — https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio
+#5 mattpocock/skills — https://github.com/mattpocock/skills
+#6 thedotmack/claude-mem — https://github.com/thedotmack/claude-mem
+#7 floci-io/floci — https://github.com/floci-io/floci
+#8 github/spec-kit — https://github.com/github/spec-kit
+#9 harry0703/MoneyPrinterTurbo — https://github.com/harry0703/MoneyPrinterTurbo
+#10 max-sixty/worktrunk — https://github.com/max-sixty/worktrunk
