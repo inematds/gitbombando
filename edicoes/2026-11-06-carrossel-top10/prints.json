@@ -1,0 +1,82 @@
+{
+ "NVIDIA/auto-ontology": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/NVIDIA/auto-ontology/main/docs/assets/arch.png",
+  "tam": [
+   1400,
+   649
+  ]
+ },
+ "vercel-labs/agent-desktop": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/main/assets/architecture-dark.png",
+  "tam": [
+   1400,
+   1307
+  ]
+ },
+ "mattpocock/skills": {
+  "fonte": "readme",
+  "url": "https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png",
+  "tam": [
+   738,
+   388
+  ]
+ },
+ "D4Vinci/Scrapling": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/D4Vinci/Scrapling",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "JiaFeiMiao-K-Cat/DiscImageStudio": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/JiaFeiMiao-K-Cat/DiscImageStudio/main/docs/images/case1.jpg",
+  "tam": [
+   591,
+   593
+  ]
+ },
+ "floci-io/floci": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/b55714dc-ef36-40ae-a734-cd2cadc288a8",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "scenario-labs/skills": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/scenario-labs/skills/main/resources/scenario-logo.png",
+  "tam": [
+   1024,
+   1024
+  ]
+ },
+ "garrytan/gstack": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/garrytan/gstack",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "max-sixty/worktrunk": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/max-sixty/worktrunk-assets/main/assets/docs/light/wt-zellij-omnibus.gif",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "Usagi-org/ai-goofish-monitor": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Usagi-org/ai-goofish-monitor/master/static/img.png",
+  "tam": [
+   1400,
+   757
+  ]
+ }
+}

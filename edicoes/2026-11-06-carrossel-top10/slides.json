@@ -1,0 +1,374 @@
+{
+ "tipo": "top10",
+ "serie": "TOP 10 DO GITHUB",
+ "conta": "@inema.tds",
+ "data_br": "06/11/2026",
+ "capa": {
+  "linha1": "TOP 10",
+  "linha2": "DO GITHUB HOJE",
+  "numero": "+12.406",
+  "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas",
+  "manchete": "A IA ASSUME O SEU COMPUTADOR",
+  "destaque": "COMPUTADOR",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/9.png",
+   "prints/10.png",
+   "prints/4.png",
+   "prints/8.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "NVIDIA/auto-ontology",
+   "repo": "auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "gancho": [
+    "IA QUE NÃO",
+    "INVENTA NÚMERO"
+   ],
+   "o_que_e": "Uma biblioteca aberta da NVIDIA que monta um mapa dos dados da empresa, para a IA saber onde está cada número e o que ele significa.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Mapa dos seus dados",
+     "texto": "Gera o mapa a partir das descrições dos dados que a empresa já tem."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Confere cada resposta",
+     "texto": "Checa a consulta contra definições aprovadas e mostra de onde veio."
+    }
+   ],
+   "fluxo": [
+    "LÊ OS DADOS",
+    "MONTA O MAPA",
+    "IA RESPONDE"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+2.679",
+   "stat_rotulo": "hoje",
+   "total": "8.099",
+   "info2": "Python · desde 04/2026"
+  },
+  {
+   "pos": 2,
+   "nome": "vercel-labs/agent-desktop",
+   "repo": "agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "gancho": [
+    "A IA USA SEUS",
+    "PROGRAMAS SOZINHA"
+   ],
+   "o_que_e": "Um programa de terminal da Vercel que deixa a IA ver, clicar e digitar nos aplicativos do seu computador, sem depender de print da tela.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Mac, Windows e Linux",
+     "texto": "Funciona nos três sistemas, lendo os botões e campos de cada programa."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Sem print da tela",
+     "texto": "Lê a estrutura da janela em vez de comparar imagens pixel a pixel."
+    }
+   ],
+   "fluxo": [
+    "LÊ A JANELA",
+    "CLICA E DIGITA",
+    "CONFERE"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+2.173",
+   "stat_rotulo": "hoje",
+   "total": "17.520",
+   "info2": "Rust · desde 02/2026"
+  },
+  {
+   "pos": 3,
+   "nome": "mattpocock/skills",
+   "repo": "skills",
+   "url": "https://github.com/mattpocock/skills",
+   "gancho": [
+    "IA COM CAPRICHO,",
+    "NÃO NO CHUTE"
+   ],
+   "o_que_e": "Um pacote de habilidades para a IA de programação, que um programador experiente usa todo dia para fazer software de verdade.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Instala em 30 segundos",
+     "texto": "Entra no Claude Code e no Codex com um comando e se atualiza sozinho."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Pequenas e ajustáveis",
+     "texto": "Cada habilidade é curta, combina com as outras e roda em qualquer modelo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "PEDE A TAREFA",
+    "IA TRABALHA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+2.071",
+   "stat_rotulo": "hoje",
+   "total": "315.943",
+   "info2": "Shell · desde 02/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "D4Vinci/Scrapling",
+   "repo": "Scrapling",
+   "url": "https://github.com/D4Vinci/Scrapling",
+   "gancho": [
+    "PUXA DADOS DE",
+    "QUALQUER SITE"
+   ],
+   "o_que_e": "Uma ferramenta em Python que coleta informação de sites, até dos que tentam bloquear robôs, e entrega tudo organizado.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Do link ao site inteiro",
+     "texto": "Pega poucos campos de uma página ou copia um site todo em texto limpo."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga na sua IA",
+     "texto": "Funciona no Python, no terminal ou direto pelo seu assistente de IA."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "ROBÔ VISITA",
+    "DADOS PRONTOS"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "opengraph",
+   "stat": "+1.655",
+   "stat_rotulo": "hoje",
+   "total": "98.473",
+   "info2": "Python · desde 10/2024"
+  },
+  {
+   "pos": 5,
+   "nome": "JiaFeiMiao-K-Cat/DiscImageStudio",
+   "repo": "DiscImageStudio",
+   "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+   "gancho": [
+    "DESENHO NA FACE",
+    "DO SEU CD"
+   ],
+   "o_que_e": "Um programa que transforma uma imagem em dados que, gravados num CD, DVD ou Blu-ray, fazem o desenho aparecer na face do disco.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Gravador comum",
+     "texto": "Funciona com qualquer gravador de disco, sem peça especial."
+    },
+    {
+     "icone": "image",
+     "titulo": "Editor com camadas",
+     "texto": "Monta o desenho em camadas e ajusta brilho e tons antes de gravar."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O DISCO",
+    "MONTA A IMAGEM",
+    "GRAVA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+984",
+   "stat_rotulo": "hoje",
+   "total": "7.548",
+   "info2": "C# · desde 08/2026"
+  },
+  {
+   "pos": 6,
+   "nome": "floci-io/floci",
+   "repo": "floci",
+   "url": "https://github.com/floci-io/floci",
+   "gancho": [
+    "A NUVEM DA AMAZON",
+    "NO SEU PC"
+   ],
+   "o_que_e": "Um programa gratuito que imita os serviços da nuvem da Amazon no seu computador, para testar sem conta, sem senha e sem pagar.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Sobe com um comando",
+     "texto": "Roda pelo Docker com um único comando, sem cadastro nem chave de acesso."
+    },
+    {
+     "icone": "link",
+     "titulo": "Troca o LocalStack",
+     "texto": "Quem já usa o LocalStack só troca a imagem e segue trabalhando."
+    }
+   ],
+   "fluxo": [
+    "LIGA O DOCKER",
+    "APONTA O APP",
+    "TESTA DE GRAÇA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+779",
+   "stat_rotulo": "hoje",
+   "total": "30.665",
+   "info2": "Java · desde 02/2026"
+  },
+  {
+   "pos": 7,
+   "nome": "scenario-labs/skills",
+   "repo": "skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "gancho": [
+    "IMAGEM, VÍDEO E 3D",
+    "COM PREÇO ANTES"
+   ],
+   "o_que_e": "Um pacote de habilidades que ensina sua IA a criar imagem, vídeo, som e 3D pela Scenario, escolhendo o modelo e mostrando o preço antes.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Escolhe o modelo certo",
+     "texto": "Escolhe o modelo de IA para a tarefa e mostra quanto custa antes."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Comanda o Blender",
+     "texto": "Equipes de habilidades operam Blender, Maya, ZBrush, Unreal e Unity."
+    }
+   ],
+   "fluxo": [
+    "PEDE A ARTE",
+    "VÊ O PREÇO",
+    "ARQUIVO PRONTO"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+667",
+   "stat_rotulo": "hoje",
+   "total": "3.293",
+   "info2": "Python · desde 08/2026"
+  },
+  {
+   "pos": 8,
+   "nome": "garrytan/gstack",
+   "repo": "gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "gancho": [
+    "SUA IA VIRA",
+    "UMA EQUIPE"
+   ],
+   "o_que_e": "Um kit de comandos do chefe da Y Combinator que transforma o Claude Code numa equipe: chefe, designer, revisor, testador e quem publica.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Papéis prontos",
+     "texto": "Chefe, gerente, designer, revisor, testador e segurança, cada um num comando."
+    },
+    {
+     "icone": "search",
+     "titulo": "Testa no navegador real",
+     "texto": "O responsável pelos testes abre um navegador de verdade para conferir."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "CHAMA O PAPEL",
+    "CÓDIGO REVISADO"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "opengraph",
+   "stat": "+612",
+   "stat_rotulo": "hoje",
+   "total": "140.246",
+   "info2": "TypeScript · desde 03/2026"
+  },
+  {
+   "pos": 9,
+   "nome": "max-sixty/worktrunk",
+   "repo": "worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "gancho": [
+    "VÁRIAS IAS",
+    "SEM SE ATROPELAR"
+   ],
+   "o_que_e": "Um programa de terminal que dá a cada robô de IA uma cópia separada do mesmo projeto no Git, para vários trabalharem ao mesmo tempo.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Três comandos",
+     "texto": "Criar e trocar de cópia fica tão fácil quanto abrir um ramo no Git."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Automatiza a rotina",
+     "texto": "Ganchos rodam tarefas sozinhos e reaproveitam o que já foi montado."
+    }
+   ],
+   "fluxo": [
+    "CRIA A CÓPIA",
+    "IA TRABALHA",
+    "JUNTA TUDO"
+   ],
+   "print": "prints/9.png",
+   "print_fonte": "readme",
+   "stat": "+546",
+   "stat_rotulo": "hoje",
+   "total": "11.686",
+   "info2": "Rust · desde 10/2025"
+  },
+  {
+   "pos": 10,
+   "nome": "Usagi-org/ai-goofish-monitor",
+   "repo": "ai-goofish-monitor",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+   "gancho": [
+    "A OFERTA CERTA",
+    "CHEGA SOZINHA"
+   ],
+   "o_que_e": "Um sistema que vigia o Xianyu, site chinês de usados, e usa IA para analisar os anúncios e avisar quando aparece o que você procura.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Avisa no Telegram",
+     "texto": "Manda o alerta no Telegram, no WeChat empresarial e em outros canais."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Painel na web",
+     "texto": "Cria tarefas, vê os resultados e acompanha tudo numa página de controle."
+    }
+   ],
+   "fluxo": [
+    "DESCREVE O ITEM",
+    "IA FILTRA",
+    "CHEGA O AVISO"
+   ],
+   "print": "prints/10.png",
+   "print_fonte": "readme",
+   "stat": "+240",
+   "stat_rotulo": "hoje",
+   "total": "18.072",
+   "info2": "Python · desde 07/2025"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 10 links estão",
+  "titulo_b": "na legenda.",
+  "texto": "Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia no <b>@inema.tds</b>: <b>11h</b> vídeo · <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

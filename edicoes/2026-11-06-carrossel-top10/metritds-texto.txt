@@ -1,0 +1,17 @@
+Top 10 do GitHub · 06/11/2026
+
+Hoje o GitHub encheu de ferramentas que dão mais mãos para a IA: ela usa os programas do seu computador, vira uma equipe de programação e puxa dados de qualquer site. Passa o carrossel e veja o Top 10 do dia. Cursos grátis de IA no inema.club.
+
+1. NVIDIA/auto-ontology — https://github.com/NVIDIA/auto-ontology
+2. vercel-labs/agent-desktop — https://github.com/vercel-labs/agent-desktop
+3. mattpocock/skills — https://github.com/mattpocock/skills
+4. D4Vinci/Scrapling — https://github.com/D4Vinci/Scrapling
+5. JiaFeiMiao-K-Cat/DiscImageStudio — https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio
+6. floci-io/floci — https://github.com/floci-io/floci
+7. scenario-labs/skills — https://github.com/scenario-labs/skills
+8. garrytan/gstack — https://github.com/garrytan/gstack
+9. max-sixty/worktrunk — https://github.com/max-sixty/worktrunk
+10. Usagi-org/ai-goofish-monitor — https://github.com/Usagi-org/ai-goofish-monitor
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

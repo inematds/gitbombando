@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "A IA ASSUME O SEU COMPUTADOR",
+  "destaque": "COMPUTADOR"
+ },
+ "repos": {
+  "NVIDIA/auto-ontology": {
+   "gancho": [
+    "IA QUE NÃO",
+    "INVENTA NÚMERO"
+   ],
+   "o_que_e": "Uma biblioteca aberta da NVIDIA que monta um mapa dos dados da empresa, para a IA saber onde está cada número e o que ele significa.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Mapa dos seus dados",
+     "texto": "Gera o mapa a partir das descrições dos dados que a empresa já tem."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Confere cada resposta",
+     "texto": "Checa a consulta contra definições aprovadas e mostra de onde veio."
+    }
+   ],
+   "fluxo": [
+    "LÊ OS DADOS",
+    "MONTA O MAPA",
+    "IA RESPONDE"
+   ]
+  },
+  "vercel-labs/agent-desktop": {
+   "gancho": [
+    "A IA USA SEUS",
+    "PROGRAMAS SOZINHA"
+   ],
+   "o_que_e": "Um programa de terminal da Vercel que deixa a IA ver, clicar e digitar nos aplicativos do seu computador, sem depender de print da tela.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Mac, Windows e Linux",
+     "texto": "Funciona nos três sistemas, lendo os botões e campos de cada programa."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Sem print da tela",
+     "texto": "Lê a estrutura da janela em vez de comparar imagens pixel a pixel."
+    }
+   ],
+   "fluxo": [
+    "LÊ A JANELA",
+    "CLICA E DIGITA",
+    "CONFERE"
+   ]
+  },
+  "mattpocock/skills": {
+   "gancho": [
+    "IA COM CAPRICHO,",
+    "NÃO NO CHUTE"
+   ],
+   "o_que_e": "Um pacote de habilidades para a IA de programação, que um programador experiente usa todo dia para fazer software de verdade.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Instala em 30 segundos",
+     "texto": "Entra no Claude Code e no Codex com um comando e se atualiza sozinho."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Pequenas e ajustáveis",
+     "texto": "Cada habilidade é curta, combina com as outras e roda em qualquer modelo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "PEDE A TAREFA",
+    "IA TRABALHA"
+   ]
+  },
+  "D4Vinci/Scrapling": {
+   "gancho": [
+    "PUXA DADOS DE",
+    "QUALQUER SITE"
+   ],
+   "o_que_e": "Uma ferramenta em Python que coleta informação de sites, até dos que tentam bloquear robôs, e entrega tudo organizado.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Do link ao site inteiro",
+     "texto": "Pega poucos campos de uma página ou copia um site todo em texto limpo."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga na sua IA",
+     "texto": "Funciona no Python, no terminal ou direto pelo seu assistente de IA."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "ROBÔ VISITA",
+    "DADOS PRONTOS"
+   ]
+  },
+  "JiaFeiMiao-K-Cat/DiscImageStudio": {
+   "gancho": [
+    "DESENHO NA FACE",
+    "DO SEU CD"
+   ],
+   "o_que_e": "Um programa que transforma uma imagem em dados que, gravados num CD, DVD ou Blu-ray, fazem o desenho aparecer na face do disco.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Gravador comum",
+     "texto": "Funciona com qualquer gravador de disco, sem peça especial."
+    },
+    {
+     "icone": "image",
+     "titulo": "Editor com camadas",
+     "texto": "Monta o desenho em camadas e ajusta brilho e tons antes de gravar."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O DISCO",
+    "MONTA A IMAGEM",
+    "GRAVA"
+   ]
+  },
+  "floci-io/floci": {
+   "gancho": [
+    "A NUVEM DA AMAZON",
+    "NO SEU PC"
+   ],
+   "o_que_e": "Um programa gratuito que imita os serviços da nuvem da Amazon no seu computador, para testar sem conta, sem senha e sem pagar.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Sobe com um comando",
+     "texto": "Roda pelo Docker com um único comando, sem cadastro nem chave de acesso."
+    },
+    {
+     "icone": "link",
+     "titulo": "Troca o LocalStack",
+     "texto": "Quem já usa o LocalStack só troca a imagem e segue trabalhando."
+    }
+   ],
+   "fluxo": [
+    "LIGA O DOCKER",
+    "APONTA O APP",
+    "TESTA DE GRAÇA"
+   ]
+  },
+  "scenario-labs/skills": {
+   "gancho": [
+    "IMAGEM, VÍDEO E 3D",
+    "COM PREÇO ANTES"
+   ],
+   "o_que_e": "Um pacote de habilidades que ensina sua IA a criar imagem, vídeo, som e 3D pela Scenario, escolhendo o modelo e mostrando o preço antes.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Escolhe o modelo certo",
+     "texto": "Escolhe o modelo de IA para a tarefa e mostra quanto custa antes."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Comanda o Blender",
+     "texto": "Equipes de habilidades operam Blender, Maya, ZBrush, Unreal e Unity."
+    }
+   ],
+   "fluxo": [
+    "PEDE A ARTE",
+    "VÊ O PREÇO",
+    "ARQUIVO PRONTO"
+   ]
+  },
+  "garrytan/gstack": {
+   "gancho": [
+    "SUA IA VIRA",
+    "UMA EQUIPE"
+   ],
+   "o_que_e": "Um kit de comandos do chefe da Y Combinator que transforma o Claude Code numa equipe: chefe, designer, revisor, testador e quem publica.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Papéis prontos",
+     "texto": "Chefe, gerente, designer, revisor, testador e segurança, cada um num comando."
+    },
+    {
+     "icone": "search",
+     "titulo": "Testa no navegador real",
+     "texto": "O responsável pelos testes abre um navegador de verdade para conferir."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "CHAMA O PAPEL",
+    "CÓDIGO REVISADO"
+   ]
+  },
+  "max-sixty/worktrunk": {
+   "gancho": [
+    "VÁRIAS IAS",
+    "SEM SE ATROPELAR"
+   ],
+   "o_que_e": "Um programa de terminal que dá a cada robô de IA uma cópia separada do mesmo projeto no Git, para vários trabalharem ao mesmo tempo.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Três comandos",
+     "texto": "Criar e trocar de cópia fica tão fácil quanto abrir um ramo no Git."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Automatiza a rotina",
+     "texto": "Ganchos rodam tarefas sozinhos e reaproveitam o que já foi montado."
+    }
+   ],
+   "fluxo": [
+    "CRIA A CÓPIA",
+    "IA TRABALHA",
+    "JUNTA TUDO"
+   ]
+  },
+  "Usagi-org/ai-goofish-monitor": {
+   "gancho": [
+    "A OFERTA CERTA",
+    "CHEGA SOZINHA"
+   ],
+   "o_que_e": "Um sistema que vigia o Xianyu, site chinês de usados, e usa IA para analisar os anúncios e avisar quando aparece o que você procura.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Avisa no Telegram",
+     "texto": "Manda o alerta no Telegram, no WeChat empresarial e em outros canais."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Painel na web",
+     "texto": "Cria tarefas, vê os resultados e acompanha tudo numa página de controle."
+    }
+   ],
+   "fluxo": [
+    "DESCREVE O ITEM",
+    "IA FILTRA",
+    "CHEGA O AVISO"
+   ]
+  }
+ },
+ "legenda_abertura": "Hoje o GitHub encheu de ferramentas que dão mais mãos para a IA: ela usa os programas do seu computador, vira uma equipe de programação e puxa dados de qualquer site. Passa o carrossel e veja o Top 10 do dia. Cursos grátis de IA no inema.club.",
+ "telegram": "Saiu o Top 10 do dia no GitHub: a IA agora usa os programas do seu computador, vira equipe de programação e até desenha na face de um CD. Veja cada projeto no carrossel e aprenda a usar IA de graça no inema.club."
+}
