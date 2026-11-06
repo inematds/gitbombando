@@ -38,10 +38,10 @@ YTID=$(head -1 "$ED/youtube-lives4.txt" 2>/dev/null)
 {
   if [ -s "$ED/yt.txt" ]; then head -c 1500 "$ED/yt.txt"; else echo "$TIT"; fi
   echo
-  [ -n "$YTID" ] && echo "No YouTube: https://www.youtube.com/shorts/$YTID"
   echo "Curso gratuito em inema.club"
   echo "#github #opensource #ia #programacao #inemaclub"
 } > "$ED/metritds-texto.txt"
+python3 $HOME/projetos/metricool-inematds/sem_links.py "$ED/metritds-texto.txt" || exit 2   # sem link no Metricool (Nei, 05/11/2026)
 
 # 3. agenda pelo conector metricool-inematds (claude -p, assinatura)
 PEDIDO="Use só as ferramentas do servidor MCP metricool-inematds.
