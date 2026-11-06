@@ -406,7 +406,8 @@ def cmd_publicar(cd):
            + (f"\n🟥 SUGESTÃO: {rev['sugestao'][:300]}" if rev.get("sugestao") else ""))
     (cd / "v3.txt").write_text(msg + "\n")
     log(msg)
-    if not os.environ.get("SEM_BOT"):
+    deu_certo = ok_tg is not False and res.get("ok") is not False
+    if not os.environ.get("SEM_BOT") and not deu_certo:  # Nei, 06/11/2026: v3 só quando ele pedir ou der erro
         capa = cd / "v3-capa.jpg"
         Image.open(cd / "slides/01-capa.png").convert("RGB").resize((540, 675)).save(capa, quality=88)
         Path(str(capa) + ".envio-v3.json").unlink(missing_ok=True)
