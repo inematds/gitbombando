@@ -1,0 +1,99 @@
+modo: dia
+gancho:
+  tipo: noticia
+  manchete: "NVIDIA DERRUBA O REI: +2.679"
+  destaque: "+2.679"
+  objeto: "uma coroa dourada gigante rachando e caindo de um pedestal, com raios de luz verde e amarela escapando pelas rachaduras"
+  fontes:
+    - {nome: "github.com/trending", trecho: "NVIDIA/auto-ontology · 2,679 stars today"}
+    - {nome: "github.com/trending", trecho: "vercel-labs/agent-desktop · 2,173 stars today"}
+abertura:
+  cena: "sala escura de servidores à noite, fileiras de chips brilhando, só a luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "A NVIDIA, a gigante dos chips de IA, acabou de tomar o primeiro lugar do GitHub. Duas mil seiscentas e setenta e nove estrelas num dia só. O projeto cresceu metade em vinte e quatro horas."
+  - etapa: panorama
+    fala: "Os dez que mais cresceram hoje somaram doze mil quatrocentas e seis estrelas. Vou do décimo ao primeiro."
+    numero: "12.406"
+  - etapa: repo
+    repo: "Usagi-org/ai-goofish-monitor"
+    desc: "A IA vigia um site chinês de usados e avisa quando aparece a oferta que você quer."
+    destaque: "a oferta que você quer"
+    numero: "240"
+    fala: "Abrindo em décimo, um caçador de pechinchas. A IA vigia um site chinês de usados, tipo uma OLX, e avisa quando surge a oferta certa. Duzentas e quarenta estrelas."
+  - etapa: repo
+    repo: "max-sixty/worktrunk"
+    desc: "Separa o trabalho de vários robôs de IA no mesmo projeto, cada um no seu canto."
+    destaque: "cada um no seu canto"
+    numero: "546"
+    fala: "Nono, o Worktrunk, que não sai do Top dez. Você solta vários robôs de IA no mesmo projeto e nenhum atropela o outro. Quinhentas e quarenta e seis estrelas."
+  - etapa: repo
+    repo: "garrytan/gstack"
+    desc: "O kit do chefe da Y Combinator: a IA vira uma equipe inteira, do chefe ao testador."
+    destaque: "equipe inteira"
+    numero: "612"
+    fala: "Em oitavo, o gstack, do chefão da maior aceleradora de startups do mundo. Ele transforma a sua IA numa empresa inteira: diretor, designer e testador. Seiscentas e doze estrelas."
+  - etapa: repo
+    repo: "scenario-labs/skills"
+    desc: "Ensina a IA a criar imagem, vídeo, som e 3D, e mostra o preço antes de gastar."
+    destaque: "o preço antes"
+    numero: "667"
+    fala: "Sétimo, o Scenario Skills. Você pede, e a IA cria imagem, vídeo, som e até objeto em três dimensões. E o melhor: mostra o preço antes de gastar. Seiscentas e sessenta e sete estrelas."
+  - etapa: repo
+    repo: "floci-io/floci"
+    desc: "Uma cópia da nuvem da Amazon rodando no seu computador, de graça e sem cadastro."
+    destaque: "de graça"
+    numero: "779"
+    fala: "Em sexto, de novo, o Floci. A nuvem da Amazon cobra por tudo. Ele imita ela no seu computador, de graça e sem cadastro. Setecentas e setenta e nove estrelas."
+  - etapa: repo
+    repo: "JiaFeiMiao-K-Cat/DiscImageStudio"
+    desc: "Desenha uma imagem visível na face de CDs, DVDs e Blu-ray usando um gravador comum."
+    destaque: "imagem visível"
+    numero: "984"
+    fala: "Número cinco, o mais curioso, e ele não sai do Top dez. O Disc Image Studio usa o gravador comum pra desenhar uma foto de verdade num CD ou DVD. Novecentas e oitenta e quatro estrelas."
+  - etapa: repo
+    repo: "D4Vinci/Scrapling"
+    desc: "Robô que puxa informação de qualquer site, até dos que bloqueiam. Respeite as regras."
+    destaque: "qualquer site"
+    numero: "1.655"
+    fala: "Em quarto, o Scrapling, outro fixo da lista. Um robô que copia informação de qualquer site, até dos que tentam bloquear. Isso é polêmico, cuidado. Mil seiscentas e cinquenta e cinco estrelas."
+  - etapa: repo
+    repo: "mattpocock/skills"
+    desc: "As receitas de um programador veterano para a IA trabalhar com capricho, não no chute."
+    destaque: "não no chute"
+    numero: "2.071"
+    fala: "E agora o pódio. Em terceiro, o Skills, que já está no Top dez pela quinta vez. As receitas de um veterano pra IA trabalhar com capricho. Duas mil e setenta e uma estrelas."
+  - etapa: repo
+    repo: "vercel-labs/agent-desktop"
+    desc: "Da Vercel: a IA abre, clica e digita nos programas do seu computador, sozinha."
+    destaque: "sozinha"
+    numero: "2.173"
+    fala: "Em segundo, o rei destronado. O Agent Desktop, da Vercel, liderou dois dias. A IA abre seus programas, clica e digita sozinha. Duas mil cento e setenta e três estrelas."
+  - etapa: repo
+    repo: "NVIDIA/auto-ontology"
+    desc: "Da NVIDIA: um mapa dos dados da empresa para a IA parar de inventar números."
+    destaque: "parar de inventar números"
+    numero: "2.679"
+    fala: "E o número um é da NVIDIA. O Auto Ontology. Ele mostra pra IA onde estão os dados da empresa, e ela para de inventar números. Duas mil seiscentas e setenta e nove estrelas."
+  - etapa: comentario
+    fala: "Você confia nos números que a IA te dá? Responde aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "doze mil quatrocentas e seis": "12.406"
+  "Duzentas e quarenta": "240"
+  "Quinhentas e quarenta e seis": "546"
+  "Seiscentas e doze": "612"
+  "Seiscentas e sessenta e sete": "667"
+  "Setecentas e setenta e nove": "779"
+  "Novecentas e oitenta e quatro": "984"
+  "Mil seiscentas e cinquenta e cinco": "1.655"
+  "Duas mil e setenta e uma": "2.071"
+  "Duas mil cento e setenta e três": "2.173"
+  "Duas mil seiscentas e setenta e nove": "2.679"
+  "vinte e quatro": "24"
+cores: {bombando: "#FACC15", sozinha: "#FACC15", NVIDIA: "#FACC15", polêmico: "#ff2a1f", cuidado: "#ff2a1f", destronado: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "NVIDIA derruba a Vercel e vira #1 do GitHub com +2.679 estrelas em um dia"
+  contexto: "Top 10 do GitHub de 06/11/2026, do décimo ao primeiro, com os projetos que mais ganharam estrelas no dia. O Auto Ontology, da NVIDIA, assume o primeiro lugar com 2.679 estrelas e tira o Agent Desktop, da Vercel, do topo depois de dois dias."
+  telegram: "A NVIDIA tomou o topo do GitHub: o Auto Ontology, que ajuda a IA a parar de inventar números da empresa, ganhou +2.679 estrelas e cresceu quase 50% num dia. O Agent Desktop, da Vercel, caiu para segundo depois de dois dias liderando. E o Skills, o Scrapling e o Floci não saem do Top 10."

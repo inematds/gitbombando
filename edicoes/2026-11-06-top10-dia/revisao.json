@@ -1,0 +1,11 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Não achei nenhum defeito. A capa traz o TOP 10 DO GITHUB grande e a manchete igual ao gancho. Posições, estrelas totais e as pílulas 🔥 de todos os 10 cartões batem com o top10.json, a soma de 12.406 está certa e o fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "80,95 s: na troca do #5 para o #4, os dois cartões se misturam e o painel de baixo fica vazio. Uma transição mais curta, ou um corte seco, deixaria a passagem mais limpa.",
+  "61,71 s (#6 floci): o contador do painel ainda está em 0 e o gráfico vazio no meio da parte. Os números podiam começar a subir antes.",
+  "0–4 s: a manchete 'NVIDIA DERRUBA O REI' é forte, mas o 'rei' só se explica no #2. Citar a Vercel na capa ('NVIDIA DERRUBA A VERCEL') prenderia mais quem está rolando o feed.",
+  "Impacto 7: a contagem regressiva e a disputa pelo #1 seguram bem. Faltou alguma coisa visual entre o #9 e o #6, onde os cartões ficam repetitivos."
+ ]
+}

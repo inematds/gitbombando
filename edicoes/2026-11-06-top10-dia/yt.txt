@@ -1,0 +1,12 @@
+NVIDIA derruba a Vercel e vira #1 do GitHub com +2.679 estrelas em um dia
+
+#1 NVIDIA/auto-ontology — https://github.com/NVIDIA/auto-ontology
+#2 vercel-labs/agent-desktop — https://github.com/vercel-labs/agent-desktop
+#3 mattpocock/skills — https://github.com/mattpocock/skills
+#4 D4Vinci/Scrapling — https://github.com/D4Vinci/Scrapling
+#5 JiaFeiMiao-K-Cat/DiscImageStudio — https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio
+#6 floci-io/floci — https://github.com/floci-io/floci
+#7 scenario-labs/skills — https://github.com/scenario-labs/skills
+#8 garrytan/gstack — https://github.com/garrytan/gstack
+#9 max-sixty/worktrunk — https://github.com/max-sixty/worktrunk
+#10 Usagi-org/ai-goofish-monitor — https://github.com/Usagi-org/ai-goofish-monitor
