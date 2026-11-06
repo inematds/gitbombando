@@ -81,7 +81,7 @@ Log: $LOG
 $(cat "$ED/v3-resumo.txt" 2>/dev/null)"
 fi
 echo "$MSG"
-if [ -z "${SEM_BOT:-}" ]; then
+if [ -z "${SEM_BOT:-}" ] && [ -z "$OK" ]; then  # (Nei, 06/11/2026: aviso do YouTube no v3 só se der erro)
   CAPA="$ED/metritds-capa.jpg"
   ffmpeg -v error -y -ss 3 -i "$V" -frames:v 1 -vf scale=540:-2 "$CAPA"
   rm -f "$CAPA.envio-v3.json"
