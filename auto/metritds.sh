@@ -68,14 +68,8 @@ REDES=$(campo redes); FALTAM=$(campo faltam); PLAN=$(campo planner); ERRO=$(camp
 FAIXA="🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦"
 if [ -n "$OK" ]; then
   [ -z "${RASCUNHO:-}" ] && printf '%s\n%s\n' "$QUANDO_BR" "$REDES" > "$ED/metritds.txt"
-  MSG="$FAIXA
-🔵 PUBLICADO DIRETO · YouTube lives4 + metritds (Instagram/TikTok inema.tds) $([ -n "${RASCUNHO:-}" ] && echo '(RASCUNHO DE TESTE)')
-$FAIXA
-Bombando no GitHub · $TIT
-Quando: $QUANDO_BR · Redes: ${REDES:-?}$([ -n "$FALTAM" ] && printf '\nAinda não conectadas: %s' "$FALTAM")
-Instagram: https://www.instagram.com/inema.tds/
-TikTok: https://www.tiktok.com/@inema.tds
-Metricool: ${PLAN:-https://app.metricool.com/planner}
+  # deu certo: o v3 recebe só o aviso normal do YouTube, sem faixa azul nem links do Metricool (Nei, 06/11/2026)
+  MSG="Publicado no YouTube lives4 · Bombando no GitHub · $TIT
 $(cat "$ED/v3-resumo.txt" 2>/dev/null)"
 else
   MSG="$FAIXA
