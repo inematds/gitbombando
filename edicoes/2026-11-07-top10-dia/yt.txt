@@ -1,0 +1,12 @@
+Cloudflare libera o caça-falhas e derruba a NVIDIA: +2.548 estrelas em um dia no GitHub
+
+#1 cloudflare/security-audit-skill — https://github.com/cloudflare/security-audit-skill
+#2 mattpocock/skills — https://github.com/mattpocock/skills
+#3 NVIDIA/auto-ontology — https://github.com/NVIDIA/auto-ontology
+#4 google/skills — https://github.com/google/skills
+#5 lz4/lz4 — https://github.com/lz4/lz4
+#6 zed-industries/zed — https://github.com/zed-industries/zed
+#7 microsoft/vscode — https://github.com/microsoft/vscode
+#8 react/react — https://github.com/react/react
+#9 rust-lang/rust — https://github.com/rust-lang/rust
+#10 astral-sh/ruff — https://github.com/astral-sh/ruff

@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "A capa traz TOP 10 DO GITHUB grande e a manchete igual ao gancho. As posições e as pílulas 🔥 de #10 a #1 batem com o top10.json (169, 192, 248, 301, 306, 315, 534, 2.015, 2.070, 2.548). O avatar está correto e o fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "Quadro 2.2s: a manchete encosta na borda direita; com uma margem lateral um pouco maior fica mais limpo.",
+  "Quadros 127.81s/137.33s: a caixa vermelha diz 'QUAL VOCÊ VAI TESTAR?', mas o Nei pergunta se você deixaria uma IA caçar as falhas do seu sistema. Alinhar a pergunta da tela com a fala reforça o CTA.",
+  "Quadro 70.67s (#5 lz4): é o único projeto em que a fala não diz o número de estrelas (315), e o ícone é um placeholder genérico. Vale citar o número para manter o ritmo.",
+  "Quadros 99.24s/108.76s: o #2 fica uns 19 s no mesmo cartão. Um corte ou destaque extra no meio ajuda a não perder quem está assistindo antes do #1.",
+  "Impacto 7: o gancho Cloudflare + 'derrubou a NVIDIA' é forte, mas os #10 a #6 (ruff, rust, react, vscode, zed) são nomes conhecidos com ganho baixo e o meio esfria. Uma frase de tensão tipo 'o primeiro teve 15x mais que o décimo' seguraria melhor."
+ ]
+}

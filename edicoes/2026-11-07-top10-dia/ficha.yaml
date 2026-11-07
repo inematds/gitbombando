@@ -1,0 +1,96 @@
+modo: dia
+gancho:
+  tipo: noticia
+  manchete: "CLOUDFLARE SOLTA O CAÇA-FALHAS: +2.548"
+  destaque: "+2.548"
+  objeto: "um cadeado dourado gigante rachando ao meio, com uma lupa brilhante em cima e faíscas amarelas escapando pelas rachaduras"
+  fontes:
+    - {nome: "github.com/trending", trecho: "cloudflare/security-audit-skill · 2,548 stars today"}
+    - {nome: "github.com/trending", trecho: "NVIDIA/auto-ontology · 2,015 stars today"}
+abertura:
+  cena: "central de segurança escura à noite, telas com código e alertas, só a luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "A Cloudflare, que protege boa parte da internet, acabou de liberar a ferramenta que ela usa pra caçar falhas de segurança. E em um dia derrubou a NVIDIA do topo do GitHub."
+  - etapa: panorama
+    fala: "Os dez que mais cresceram hoje somaram oito mil seiscentas e noventa e oito estrelas. Tem Google, Microsoft e NVIDIA no meio. Vou do décimo ao primeiro."
+    numero: "8.698"
+  - etapa: repo
+    repo: "astral-sh/ruff"
+    desc: "Revisa e arruma programas em Python num piscar de olhos, bem mais rápido que os rivais."
+    destaque: "num piscar de olhos"
+    numero: "169"
+    fala: "Abrindo em décimo, o Ruff. Ele revisa programas em Python e arruma a bagunça num piscar de olhos, bem mais rápido que os rivais. Cento e sessenta e nove estrelas."
+  - etapa: repo
+    repo: "rust-lang/rust"
+    desc: "A linguagem de programação preferida de quem quer programa rápido e que não trava."
+    destaque: "não trava"
+    numero: "192"
+    fala: "Nono, a própria linguagem Rust. É a preferida de quem quer programa rápido e que não trava. Cento e noventa e duas estrelas."
+  - etapa: repo
+    repo: "react/react"
+    desc: "Criado no Facebook: o kit que monta boa parte dos sites e aplicativos que você usa."
+    destaque: "boa parte dos sites"
+    numero: "248"
+    fala: "Em oitavo, o React, criado no Facebook. Boa parte dos sites e aplicativos que você usa hoje é montada com ele. Duzentas e quarenta e oito estrelas."
+  - etapa: repo
+    repo: "microsoft/vscode"
+    desc: "Da Microsoft: o editor de programação mais usado do planeta, e de graça."
+    destaque: "de graça"
+    numero: "301"
+    fala: "Sétimo, o Visual Studio Code, da Microsoft. É o editor de programação mais usado do planeta, e é de graça. Trezentas e uma estrelas."
+  - etapa: repo
+    repo: "zed-industries/zed"
+    desc: "O rival do VS Code: editor super rápido, feito pra várias pessoas e a IA juntas."
+    destaque: "super rápido"
+    numero: "306"
+    fala: "Em sexto, o rival dele. O Zed, dos criadores do Atom, promete editar código na velocidade do pensamento, com várias pessoas e a IA juntas. Trezentas e seis estrelas."
+  - etapa: repo
+    repo: "lz4/lz4"
+    desc: "Compacta arquivos a mais de quinhentos megas por segundo, escondido em muito programa."
+    destaque: "quinhentos megas por segundo"
+    fala: "Número cinco, um veterano de doze anos. O LZ quatro compacta arquivos a mais de quinhentos megas por segundo. Ele está escondido em muito programa que você usa sem saber."
+  - etapa: repo
+    repo: "google/skills"
+    desc: "Do Google: ensina a sua IA a usar os produtos e a nuvem do Google sozinha."
+    destaque: "sozinha"
+    numero: "534"
+    fala: "Em quarto, o Google entrou na onda. O Google Skills ensina a sua IA a usar os produtos e a nuvem do Google, sem você explicar nada. Quinhentas e trinta e quatro estrelas."
+  - etapa: repo
+    repo: "NVIDIA/auto-ontology"
+    desc: "Da NVIDIA: um mapa dos dados da empresa para a IA parar de inventar números."
+    destaque: "parar de inventar números"
+    numero: "2.015"
+    fala: "E agora o pódio. Em terceiro, a NVIDIA, que ontem era a número um e não sai do Top dez. O Auto Ontology mostra pra IA onde estão os dados, e ela para de inventar números. Duas mil e quinze estrelas."
+  - etapa: repo
+    repo: "mattpocock/skills"
+    desc: "As receitas de um programador veterano para a IA trabalhar com capricho, não no chute."
+    destaque: "não no chute"
+    numero: "2.070"
+    fala: "Em segundo, o Skills, que não sai do Top dez: já é a sexta vez. São as receitas de um veterano pra IA trabalhar com capricho, não no chute. Duas mil e setenta estrelas."
+  - etapa: repo
+    repo: "cloudflare/security-audit-skill"
+    desc: "Da Cloudflare: a sua IA vira um auditor que caça falhas de segurança antes dos hackers."
+    destaque: "antes dos hackers"
+    numero: "2.548"
+    fala: "E o número um é da Cloudflare. O Security Audit transforma a sua IA num auditor que caça falhas antes dos hackers. Use só no que é seu. Duas mil quinhentas e quarenta e oito estrelas."
+  - etapa: comentario
+    fala: "Você deixaria uma IA caçar as falhas do seu sistema? Responde aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "oito mil seiscentas e noventa e oito": "8.698"
+  "Cento e sessenta e nove": "169"
+  "Cento e noventa e duas": "192"
+  "Duzentas e quarenta e oito": "248"
+  "Trezentas e uma": "301"
+  "Trezentas e seis": "306"
+  "Quinhentas e trinta e quatro": "534"
+  "Duas mil e quinze": "2.015"
+  "Duas mil e setenta": "2.070"
+  "Duas mil quinhentas e quarenta e oito": "2.548"
+cores: {bombando: "#FACC15", Cloudflare: "#FACC15", NVIDIA: "#FACC15", hackers: "#ff2a1f", falhas: "#ff2a1f", derrubou: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Cloudflare libera o caça-falhas e derruba a NVIDIA: +2.548 estrelas em um dia no GitHub"
+  contexto: "Top 10 do GitHub de 07/11/2026, do décimo ao primeiro, com os projetos que mais ganharam estrelas no dia. O Security Audit, da Cloudflare, que transforma a IA num auditor de segurança, assume o primeiro lugar com 2.548 estrelas e tira o Auto Ontology, da NVIDIA, do topo."
+  telegram: "A Cloudflare tomou o topo do GitHub: o Security Audit, que transforma a sua IA num caçador de falhas de segurança, ganhou +2.548 estrelas num dia. A NVIDIA caiu para terceiro e o Skills segue no pódio pela sexta vez. Google, Microsoft e Meta também aparecem no Top 10."
