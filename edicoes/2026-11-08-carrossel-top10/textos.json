@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "GIGANTES ABREM AS RECEITAS DA IA",
+  "destaque": "GIGANTES"
+ },
+ "repos": {
+  "cloudflare/security-audit-skill": {
+   "gancho": [
+    "SUA IA CAÇA",
+    "FALHAS NO CÓDIGO?"
+   ],
+   "o_que_e": "Uma habilidade da Cloudflare que transforma o seu assistente de programação num auditor que procura falhas de segurança em seis etapas.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Cada falha é conferida",
+     "texto": "Outro agente novo tenta desmentir cada achado antes de ele entrar."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Relatório pronto",
+     "texto": "Gera o relatório com as falhas confirmadas e as que ainda pedem checagem."
+    }
+   ],
+   "fluxo": [
+    "MAPEIA O CÓDIGO",
+    "CAÇA FALHAS",
+    "CONFERE TUDO"
+   ]
+  },
+  "milind-soni/OpenMausBot": {
+   "gancho": [
+    "UM TIME DE ROBÔS",
+    "NO SEU CHAT"
+   ],
+   "o_que_e": "Um app de conversa de código aberto em que cada contato é um robô de IA com personalidade, modelo e computador próprios para trabalhar.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Claude ou Codex por trás",
+     "texto": "Cada robô roda o Claude ou o Codex no seu computador, com seus modelos."
+    },
+    {
+     "icone": "download",
+     "titulo": "Mac, Windows e Linux",
+     "texto": "Tem instalador pronto para macOS, Windows e Ubuntu."
+    }
+   ],
+   "fluxo": [
+    "CRIA O ROBÔ",
+    "CONVERSA",
+    "VOCÊ APROVA"
+   ]
+  },
+  "sherlock-project/sherlock": {
+   "gancho": [
+    "UM NOME DE USUÁRIO",
+    "ONDE ELE EXISTE?"
+   ],
+   "o_que_e": "Um programa de terminal que procura um nome de usuário em mais de quatrocentas redes sociais e lista onde ele tem conta.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Vários nomes de uma vez",
+     "texto": "Você passa um ou vários nomes e ele busca todos na mesma rodada."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Resultado em arquivo",
+     "texto": "Salva as contas achadas num arquivo de texto, planilha ou CSV."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "DIGITA O NOME",
+    "VÊ AS CONTAS"
+   ]
+  },
+  "zed-industries/zed": {
+   "gancho": [
+    "PROGRAMAR SEM",
+    "ESPERAR O EDITOR"
+   ],
+   "o_que_e": "Um editor de programação muito rápido, feito pelos criadores do Atom, em que várias pessoas editam o mesmo código ao mesmo tempo.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Feito para ser rápido",
+     "texto": "Foi escrito em Rust para abrir e responder sem travar."
+    },
+    {
+     "icone": "download",
+     "titulo": "Mac, Linux e Windows",
+     "texto": "Você baixa direto do site ou instala pelo gerenciador do sistema."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O ZED",
+    "ABRE O PROJETO",
+    "CODA JUNTO"
+   ]
+  },
+  "mattpocock/skills": {
+   "gancho": [
+    "SUA IA PROGRAMA",
+    "COM CAPRICHO?"
+   ],
+   "o_que_e": "Uma coleção de habilidades que um programador veterano usa todo dia para a IA fazer engenharia de verdade, sem programar no chute.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Pequenas e ajustáveis",
+     "texto": "Cada habilidade é curta, fácil de adaptar e combinar com as outras."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala em 30 segundos",
+     "texto": "Tem instalação pronta para Claude Code, Codex e GitHub Copilot."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE A TAREFA",
+    "A IA SEGUE"
+   ]
+  },
+  "google/skills": {
+   "gancho": [
+    "SUA IA ENTENDE",
+    "A NUVEM DO GOOGLE"
+   ],
+   "o_que_e": "Uma coleção oficial do Google de habilidades que ensinam o seu assistente de IA a usar os produtos e a nuvem do Google.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Google Cloud de cara",
+     "texto": "Tem receitas para entrar no Google Cloud, dar acesso e montar a base."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Um comando instala",
+     "texto": "Um comando instala e você escolhe só as habilidades que quer."
+    }
+   ],
+   "fluxo": [
+    "RODA O COMANDO",
+    "ESCOLHE",
+    "A IA JÁ SABE"
+   ]
+  },
+  "anthropics/skills": {
+   "gancho": [
+    "ENSINE TAREFAS",
+    "NOVAS AO CLAUDE"
+   ],
+   "o_que_e": "Uma coleção oficial da Anthropic de pastas com instruções e scripts que o Claude carrega para fazer tarefas especiais sempre do mesmo jeito.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Da arte à empresa",
+     "texto": "Tem exemplos de arte, música, design, testes de sites e comunicação."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Uma pasta por tarefa",
+     "texto": "Cada habilidade fica numa pasta com um arquivo SKILL.md de instruções."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE",
+    "CLAUDE CARREGA",
+    "TAREFA FEITA"
+   ]
+  },
+  "astral-sh/ruff": {
+   "gancho": [
+    "CÓDIGO PYTHON",
+    "ARRUMADO NA HORA"
+   ],
+   "o_que_e": "Uma ferramenta que revisa e arruma programas em Python, apontando erros e deixando o código no padrão, muito mais rápido que as rivais.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Bem mais rápida",
+     "texto": "De 10 a 100 vezes mais rápida que o Flake8 e o Black, segundo o projeto."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Corrige sozinha",
+     "texto": "Conserta erros comuns, como tirar importações que não são usadas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "RODA NO CÓDIGO",
+    "CÓDIGO LIMPO"
+   ]
+  },
+  "prometheus/prometheus": {
+   "gancho": [
+    "SEU SERVIDOR CAIU?",
+    "VOCÊ SABE NA HORA"
+   ],
+   "o_que_e": "Um sistema de monitoramento que coleta medidas dos seus servidores de tempos em tempos e dispara alertas quando algo sai do normal.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Gráficos e painéis",
+     "texto": "Mostra as medidas em gráficos e painéis de vários jeitos."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Roda sozinho",
+     "texto": "Cada servidor do Prometheus funciona sem depender de outro armazenamento."
+    }
+   ],
+   "fluxo": [
+    "LIGA O SISTEMA",
+    "COLETA DADOS",
+    "RECEBE O ALERTA"
+   ]
+  },
+  "ranxianglei/billion-context": {
+   "gancho": [
+    "UM MÊS DE CONVERSA",
+    "SEM A IA ESQUECER"
+   ],
+   "o_que_e": "Um complemento que resume a conversa com o assistente de IA para ela durar um mês inteiro, mesmo com memória curta, gastando menos.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "Memória curta basta",
+     "texto": "Basta uma IA de memória pequena para a conversa durar um mês."
+    },
+    {
+     "icone": "database",
+     "titulo": "Gasta bem menos",
+     "texto": "Gasta cerca de cinco vezes menos com a IA, segundo o projeto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "CONVERSA NORMAL",
+    "ELE RESUME"
+   ]
+  }
+ },
+ "legenda_abertura": "Google, Anthropic e Cloudflare abriram as receitas que ensinam a IA a trabalhar, e todas estão no Top 10 do GitHub de hoje. Arrasta para o lado e veja o que cada projeto faz. Para aprender a usar tudo isso, os cursos grátis estão no inema.club.",
+ "telegram": "Saiu o Top 10 do GitHub de hoje: Google, Anthropic e Cloudflare liberaram as receitas que ensinam a IA a trabalhar. Veja no carrossel o que cada projeto faz. Os cursos grátis para aprender a usar estão no inema.club."
+}

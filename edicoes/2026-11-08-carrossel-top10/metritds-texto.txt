@@ -1,0 +1,17 @@
+Top 10 do GitHub · 08/11/2026
+
+Google, Anthropic e Cloudflare abriram as receitas que ensinam a IA a trabalhar, e todas estão no Top 10 do GitHub de hoje. Arrasta para o lado e veja o que cada projeto faz. Para aprender a usar tudo isso, os cursos grátis estão no inema.club.
+
+1. cloudflare/security-audit-skill — https://github.com/cloudflare/security-audit-skill
+2. milind-soni/OpenMausBot — https://github.com/milind-soni/OpenMausBot
+3. sherlock-project/sherlock — https://github.com/sherlock-project/sherlock
+4. zed-industries/zed — https://github.com/zed-industries/zed
+5. mattpocock/skills — https://github.com/mattpocock/skills
+6. google/skills — https://github.com/google/skills
+7. anthropics/skills — https://github.com/anthropics/skills
+8. astral-sh/ruff — https://github.com/astral-sh/ruff
+9. prometheus/prometheus — https://github.com/prometheus/prometheus
+10. ranxianglei/billion-context — https://github.com/ranxianglei/billion-context
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

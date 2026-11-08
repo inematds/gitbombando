@@ -1,0 +1,82 @@
+{
+ "cloudflare/security-audit-skill": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/cloudflare/security-audit-skill",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "milind-soni/OpenMausBot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
+  "tam": [
+   1400,
+   875
+  ]
+ },
+ "sherlock-project/sherlock": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/docs/images/demo.png",
+  "tam": [
+   920,
+   1028
+  ]
+ },
+ "zed-industries/zed": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/zed-industries/zed",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "mattpocock/skills": {
+  "fonte": "readme",
+  "url": "https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png",
+  "tam": [
+   738,
+   388
+  ]
+ },
+ "google/skills": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/google/skills",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "anthropics/skills": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/anthropics/skills",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "astral-sh/ruff": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/astral-sh/ruff",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "prometheus/prometheus": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/prometheus/prometheus",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "ranxianglei/billion-context": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/cache-web-session.en.png",
+  "tam": [
+   1160,
+   1541
+  ]
+ }
+}
