@@ -26,15 +26,50 @@ def log(*a):
     print("[coleta]", *a, flush=True)
 
 
+UA_FF = "Mozilla/5.0 (X11; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0"
+_COOKIE = None
+
+
+def cookie_github():
+    """Cookie de login do GitHub lido na hora do Firefox do servidor (nunca copiado nem impresso).
+    08/11/2026: github.com sem login devolvia 504 em trending/repo; com login do Nei (NeiMaldaner) abria. Liberado pelo Nei."""
+    global _COOKIE
+    if _COOKIE is not None:
+        return _COOKIE
+    import glob, shutil, sqlite3, tempfile
+    _COOKIE = ""
+    bases = ["~/snap/firefox/common/.mozilla/firefox/*/cookies.sqlite", "~/.mozilla/firefox/*/cookies.sqlite"]
+    for db in sorted((p for b in bases for p in glob.glob(os.path.expanduser(b))), key=os.path.getmtime, reverse=True):
+        with tempfile.TemporaryDirectory() as d:
+            for ext in ("", "-wal"):
+                if os.path.exists(db + ext):
+                    shutil.copy(db + ext, os.path.join(d, "c.sqlite" + ext))
+            try:
+                con = sqlite3.connect(os.path.join(d, "c.sqlite"))
+                ck = dict(con.execute("select name, value from moz_cookies where host like '%github.com'"))
+                con.close()
+            except Exception:  # noqa: BLE001
+                continue
+        if "user_session" in ck:
+            _COOKIE = "; ".join(f"{k}={v}" for k, v in ck.items())
+            log(f"usando o login do Firefox ({ck.get('dotcom_user', '?')})")
+            break
+    return _COOKIE
+
+
 def baixar(url, tent=3):
+    """Tenta sem login; se o GitHub negar (5xx/429), tenta com o login do Firefox do servidor."""
     for k in range(tent):
+        com_login = k > 0 and bool(cookie_github())
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
-            return urllib.request.urlopen(req, timeout=40).read().decode("utf-8", "replace")
+            h = {"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"}
+            if com_login:
+                h = {"User-Agent": UA_FF, "Accept-Language": "en-US,en;q=0.9", "Accept": "text/html", "Cookie": cookie_github()}
+            return urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=40).read().decode("utf-8", "replace")
         except Exception as e:  # noqa: BLE001
-            log(f"falhou {url} ({e}); tentativa {k + 1}")
+            log(f"falhou {url} ({e}); tentativa {k + 1}{' com login' if com_login else ''}")
             time.sleep(5 * (k + 1))
-    raise SystemExit(f"não baixou {url}")
+    raise SystemExit(f"não baixou {url}" + ("" if cookie_github() else " (sem login do GitHub no Firefox do servidor)"))
 
 
 def num(s):

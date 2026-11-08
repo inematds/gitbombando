@@ -15,6 +15,14 @@ echo "== $(date '+%F %T') metritds $ED"
 [ -s "$ED/metritds.txt" ] && [ -z "${RASCUNHO:-}${FORCAR:-}" ] && { echo "já agendado ($(head -1 "$ED/metritds.txt")): nada a fazer"; exit 0; }
 
 ALVO=$(( $(date +%s) + 600 ))
+# dia × semana × mês com 2 h entre si no Instagram/TikTok (Nei, 08/11/2026: "2 horas de diferença… deixa o Metricool fazer"):
+# dia = agora + 10 min (sai ~GB_PUBLICAR_AS); semana = GB_PUBLICAR_AS + 2 h; mês = + 4 h. Se a hora já passou, agora + 10 min.
+case "$(basename "$ED")" in *-top10-semana) DESLOC=2 ;; *-top10-mes) DESLOC=4 ;; *) DESLOC=0 ;; esac
+if [ "$DESLOC" != 0 ]; then
+  DIA_ED=$(basename "$ED" | cut -c1-10)
+  ESC=$(( $(date -d "$DIA_ED ${GB_PUBLICAR_AS:-11:00}" +%s) + DESLOC * 3600 ))
+  [ "$ESC" -gt "$ALVO" ] && ALVO=$ESC
+fi
 QUANDO_UTC=$(date -u -d "@$ALVO" +%Y-%m-%dT%H:%M:00)   # UTC: o Metricool deslocou 1 h horário local perto da meia-noite (lição do metricool-pub2)
 QUANDO_BR=$(TZ=America/Sao_Paulo date -d "@$ALVO" '+%d/%m %H:%M')
 

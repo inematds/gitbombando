@@ -14,6 +14,8 @@ import subprocess
 import sys
 import tempfile
 import urllib.parse
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -60,11 +62,18 @@ def candidatos(nome, branch):
     return achados[:10]
 
 
-def baixar(url, destino):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=40) as r:
-        tipo = r.headers.get("Content-Type", "")
-        dados = r.read(MAX_BYTES + 1)
+def baixar(url, destino, tent=1):
+    for k in range(tent):  # 429 (excesso de pedidos) passa com espera — 07/11/2026 derrubou os 2 carrosséis
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=40) as r:
+                tipo = r.headers.get("Content-Type", "")
+                dados = r.read(MAX_BYTES + 1)
+            break
+        except urllib.error.HTTPError as e:
+            if e.code not in (429, 500, 502, 503, 504) or k == tent - 1:
+                raise
+            time.sleep(20 * (k + 1))
     if len(dados) > MAX_BYTES:
         raise ValueError("grande demais")
     destino.write_bytes(dados)
@@ -127,7 +136,7 @@ def print_de(it, pasta):
     with tempfile.TemporaryDirectory() as tmp:
         bruto = Path(tmp) / "og"
         try:
-            baixar(og, bruto)
+            baixar(og, bruto, tent=4)
             Image.open(bruto).convert("RGB").save(saida)
             log(f"{nome}: sem print no README, cartão do GitHub")
             return {"fonte": "opengraph", "url": og, "tam": Image.open(saida).size}
@@ -149,8 +158,33 @@ def main(a):
         res[it["nome"]] = print_de(it, pasta)
     (cd / "prints.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
     faltam = [n for n, r in res.items() if r.get("fonte") is None]
-    if faltam:
-        sys.exit(f"sem imagem: {faltam}")
+    for it in dados["itens"]:  # 1 repo sem imagem não trava o carrossel: cartão INEMA no lugar (08/11/2026)
+        if it["nome"] in faltam:
+            cartao(it["nome"], pasta / f"{it['pos']}.png")
+            res[it["nome"]] = {"fonte": "cartao-inema"}
+            print(f"[prints] {it['nome']}: sem imagem, cartão INEMA", flush=True)
+    (cd / "prints.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
+
+
+def cartao(nome, saida):
+    """Cartão 1200x630 preto #0c0c10 com o nome do repo em amarelo #FACC15 (padrão INEMA)."""
+    from PIL import ImageDraw, ImageFont
+    im = Image.new("RGB", (1200, 630), "#0c0c10"); d = ImageDraw.Draw(im)
+    def fonte(t):
+        for f in ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "DejaVuSans-Bold.ttf"):
+            try:
+                return ImageFont.truetype(f, t)
+            except OSError:
+                pass
+        return ImageFont.load_default()
+    dono, _, repo = nome.partition("/")
+    t = 96
+    while t > 40 and d.textlength(repo, font=fonte(t)) > 1080:
+        t -= 6
+    d.text((60, 250), repo, fill="#FACC15", font=fonte(t))
+    d.text((60, 200), dono + " /", fill="#e5e5e5", font=fonte(40))
+    d.text((60, 540), "github.com/" + nome, fill="#a3a3a3", font=fonte(30))
+    im.save(saida)
 
 
 if __name__ == "__main__":
