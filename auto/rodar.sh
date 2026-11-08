@@ -4,7 +4,7 @@
 # coleta (GitHub) → roteiro (claude -p, assinatura) → avatar (estúdio HeyGen) + cartões + capa (Codex) → render
 #   → revisor (claude -p) → YouTube lives4 + bot v3 + Telegram → metritds (Instagram/TikTok inema.tds) → git push.
 # uso: auto/rodar.sh [AAAA-MM-DD, padrão hoje] [dia|semana|mes]
-#   O timer das 16:00 chama auto/rodar.sh sem modo = "auto": sempre o dia; no domingo também a semana; no dia 1º também o mês.
+#   Publica: dia GB_PUBLICAR_AS (11:00), semana +2 h, mês +4 h. O timer chama auto/rodar.sh sem modo = "auto": sempre o dia; no domingo também a semana; no dia 1º também o mês.
 # Teste: ED=<pasta de teste> AVATAR_DE=<mp4 já gravado> (não gasta avatar) SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 GB_SEM_HISTORICO=1.
 # Pular: linha "AAAA-MM-DD" (tudo) ou "AAAA-MM-DD semana" em auto/pular.txt.
 set -uo pipefail
@@ -83,9 +83,11 @@ fi
 
 # 4. publicar: YouTube lives4, bot v3, tópico no INEMA.TOOLS
 # gera cedo (06:30, estúdio HeyGen livre) e publica na hora marcada (Nei, 04/11/2026: "11 da manhã o vídeo")
-if [ -n "${GB_PUBLICAR_AS:-}" ] && [ "$MODO" = dia ]; then
-  ALVO=$(date -d "$DIA $GB_PUBLICAR_AS" +%s); AGORA=$(date +%s)
-  [ "$AGORA" -lt "$ALVO" ] && { echo "pronto e aprovado; esperando até $GB_PUBLICAR_AS para publicar"; sleep $((ALVO - AGORA)); }
+# semana = +2 h e mês = +4 h depois do dia, também no YouTube (Nei, 08/11/2026: "2 horas de diferença")
+if [ -n "${GB_PUBLICAR_AS:-}" ]; then
+  case "$MODO" in semana) DESLOC=2 ;; mes) DESLOC=4 ;; *) DESLOC=0 ;; esac
+  ALVO=$(( $(date -d "$DIA $GB_PUBLICAR_AS" +%s) + DESLOC * 3600 )); AGORA=$(date +%s)
+  [ "$AGORA" -lt "$ALVO" ] && { echo "pronto e aprovado; esperando até $(date -d "@$ALVO" +%H:%M) para publicar"; sleep $((ALVO - AGORA)); }
 fi
 [ "${SEM_METRI:-}" = 1 ] && export GB_V3_VIDEO=1   # sem metritds, o v3 recebe o vídeo como antes
 python3 "$RAIZ/gb.py" publicar "$ED" > "$ED/publicar-gb.log" 2>&1 || echo "publicar saiu com erro (ver publicar-gb.log)"
