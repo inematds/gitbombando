@@ -1,0 +1,98 @@
+modo: dia
+gancho:
+  tipo: perda
+  manchete: "SEU APELIDO ENTREGA 400 REDES"
+  destaque: "400"
+  objeto: "uma lupa dourada gigante sobre um crachá com um nome de usuário, rachando e soltando dezenas de ícones de redes sociais em faíscas vermelhas"
+  fontes:
+    - {nome: "github.com/sherlock-project/sherlock", trecho: "Hunt down social media accounts by username across 400+ social networks"}
+    - {nome: "github.com/trending", trecho: "sherlock-project/sherlock · 1,766 stars today"}
+abertura:
+  cena: "sala de investigação escura à noite, parede cheia de fotos ligadas por fios, só a luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "Só com o seu nome de usuário, um programa encontra as suas contas em mais de quatrocentas redes sociais. E hoje ele disparou no GitHub."
+  - etapa: panorama
+    fala: "Os dez que mais cresceram hoje somaram nove mil setecentas e dezesseis estrelas. E tem Google e Anthropic brigando no meio. Vou do décimo ao primeiro."
+    numero: "9.716"
+  - etapa: repo
+    repo: "ranxianglei/billion-context"
+    desc: "Resume a conversa com a IA pra ela lembrar de um mês inteiro gastando cinco vezes menos."
+    destaque: "cinco vezes menos"
+    numero: "191"
+    fala: "Abrindo em décimo, o Billion Context. Ele resume a conversa com a IA pra ela lembrar de um mês inteiro de trabalho, gastando cinco vezes menos. Cento e noventa e uma estrelas."
+  - etapa: repo
+    repo: "prometheus/prometheus"
+    desc: "Vigia os servidores dia e noite e avisa na hora em que alguma coisa sai do ar."
+    destaque: "avisa na hora"
+    numero: "322"
+    fala: "Nono, um veterano de catorze anos. O Prometheus vigia os servidores dia e noite e avisa na hora em que alguma coisa sai do ar. Trezentas e vinte e duas estrelas."
+  - etapa: repo
+    repo: "astral-sh/ruff"
+    desc: "Revisa e arruma programas em Python num piscar de olhos, bem mais rápido que os rivais."
+    destaque: "num piscar de olhos"
+    numero: "350"
+    fala: "Em oitavo, o Ruff, de volta. Ele confere programas em Python e arruma a bagunça num piscar de olhos. Trezentas e cinquenta estrelas."
+  - etapa: repo
+    repo: "anthropics/skills"
+    desc: "Da Anthropic, criadora do Claude: as receitas oficiais que ensinam tarefas novas à IA."
+    destaque: "receitas oficiais"
+    numero: "390"
+    fala: "Sétimo, a Anthropic, a empresa do Claude. O Skills dela traz as receitas oficiais que ensinam a IA a fazer tarefas novas, como montar planilha e apresentação. Trezentas e noventa estrelas."
+  - etapa: repo
+    repo: "google/skills"
+    desc: "Do Google: ensina a sua IA a usar os produtos e a nuvem do Google sem você explicar."
+    destaque: "sem você explicar"
+    numero: "443"
+    fala: "E logo acima vem o Google com a resposta. O Google Skills ensina a sua IA a usar os produtos e a nuvem do Google sem você explicar nada. Quatrocentas e quarenta e três estrelas."
+  - etapa: repo
+    repo: "mattpocock/skills"
+    desc: "As receitas de um programador veterano para a IA trabalhar com capricho, não no chute."
+    destaque: "não no chute"
+    numero: "1.100"
+    fala: "Número cinco, e esse não sai do Top dez. O Skills de um programador sozinho bate o Google e a Anthropic: receitas pra IA trabalhar com capricho, não no chute. Mil e cem estrelas."
+  - etapa: repo
+    repo: "zed-industries/zed"
+    desc: "Editor de programação super rápido, feito pra várias pessoas e a IA trabalharem juntas."
+    destaque: "super rápido"
+    numero: "1.114"
+    fala: "Em quarto, o Zed, dos criadores do Atom. É um editor de programação super rápido, onde você, seus colegas e a IA mexem no mesmo código ao mesmo tempo. Mil cento e catorze estrelas."
+  - etapa: repo
+    repo: "sherlock-project/sherlock"
+    desc: "Procura um nome de usuário em mais de quatrocentas redes sociais e lista onde ele existe."
+    destaque: "quatrocentas redes sociais"
+    numero: "1.766"
+    fala: "E agora o pódio. Em terceiro, o Sherlock. Você digita um apelido e ele caça essa pessoa em mais de quatrocentas redes. É polêmico, cuidado: use só pra se proteger. Mil setecentas e sessenta e seis estrelas."
+  - etapa: repo
+    repo: "milind-soni/OpenMausBot"
+    desc: "Um time de robôs de IA num app de conversa, com um computador próprio pra trabalhar."
+    destaque: "computador próprio"
+    numero: "1.955"
+    fala: "Em segundo, o OpenMausBot, que não sai do Top dez. É um time de robôs de IA dentro de um app de conversa, cada um com um computador só dele. E é de graça. Mil novecentas e cinquenta e cinco estrelas."
+  - etapa: repo
+    repo: "cloudflare/security-audit-skill"
+    desc: "Da Cloudflare: a sua IA vira um auditor que caça falhas de segurança antes dos hackers."
+    destaque: "antes dos hackers"
+    numero: "2.085"
+    fala: "E o número um, pelo segundo dia seguido, é da Cloudflare. O Security Audit faz a sua IA caçar falhas antes dos hackers. Duas mil e oitenta e cinco estrelas."
+  - etapa: comentario
+    fala: "Você já procurou o seu próprio apelido na internet? Conta aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "nove mil setecentas e dezesseis": "9.716"
+  "Cento e noventa e uma": "191"
+  "Trezentas e vinte e duas": "322"
+  "Trezentas e cinquenta": "350"
+  "Trezentas e noventa": "390"
+  "Quatrocentas e quarenta e três": "443"
+  "Mil e cem": "1.100"
+  "Mil cento e catorze": "1.114"
+  "Mil setecentas e sessenta e seis": "1.766"
+  "Mil novecentas e cinquenta e cinco": "1.955"
+  "Duas mil e oitenta e cinco": "2.085"
+cores: {bombando: "#FACC15", Cloudflare: "#FACC15", Google: "#FACC15", Anthropic: "#FACC15", Sherlock: "#ff2a1f", polêmico: "#ff2a1f", hackers: "#ff2a1f", falhas: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Cloudflare segue no topo e um caça-apelidos invade o pódio: +2.085 estrelas no GitHub"
+  contexto: "Top 10 do GitHub de 08/11/2026, do décimo ao primeiro, com os projetos que mais ganharam estrelas no dia. O Sherlock, que acha contas em mais de 400 redes só pelo nome de usuário, sobe ao pódio, e o Security Audit, da Cloudflare, fica em primeiro pelo segundo dia com 2.085 estrelas."
+  telegram: "A Cloudflare segurou o topo do GitHub pelo segundo dia: o Security Audit, que faz a IA caçar falhas de segurança, ganhou +2.085 estrelas. No pódio também o OpenMausBot, time de robôs de IA de graça, e o Sherlock, que acha suas contas em mais de 400 redes só pelo apelido. Google e Anthropic disputam as receitas de IA no meio da lista."

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Só com o seu nome de usuário, um programa encontra as suas contas em mais de quatrocentas redes sociais. E hoje ele disparou no GitHub.",
+  "legenda": "Só com o seu nome de usuário, um programa encontra as suas contas em mais de quatrocentas redes sociais. E hoje ele disparou no GitHub."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez que mais cresceram hoje somaram nove mil setecentas e dezesseis estrelas. E tem Google e Anthropic brigando no meio. Vou do décimo ao primeiro.",
+  "legenda": "Os dez que mais cresceram hoje somaram 9.716 estrelas. E tem Google e Anthropic brigando no meio. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Abrindo em décimo, o Billion Context. Ele resume a conversa com a IA pra ela lembrar de um mês inteiro de trabalho, gastando cinco vezes menos. Cento e noventa e uma estrelas.",
+  "legenda": "Abrindo em décimo, o Billion Context. Ele resume a conversa com a IA pra ela lembrar de um mês inteiro de trabalho, gastando cinco vezes menos. 191 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Nono, um veterano de catorze anos. O Prometheus vigia os servidores dia e noite e avisa na hora em que alguma coisa sai do ar. Trezentas e vinte e duas estrelas.",
+  "legenda": "Nono, um veterano de catorze anos. O Prometheus vigia os servidores dia e noite e avisa na hora em que alguma coisa sai do ar. 322 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, o Ruff, de volta. Ele confere programas em Python e arruma a bagunça num piscar de olhos. Trezentas e cinquenta estrelas.",
+  "legenda": "Em oitavo, o Ruff, de volta. Ele confere programas em Python e arruma a bagunça num piscar de olhos. 350 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo, a Anthropic, a empresa do Claude. O Skills dela traz as receitas oficiais que ensinam a IA a fazer tarefas novas, como montar planilha e apresentação. Trezentas e noventa estrelas.",
+  "legenda": "Sétimo, a Anthropic, a empresa do Claude. O Skills dela traz as receitas oficiais que ensinam a IA a fazer tarefas novas, como montar planilha e apresentação. 390 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "E logo acima vem o Google com a resposta. O Google Skills ensina a sua IA a usar os produtos e a nuvem do Google sem você explicar nada. Quatrocentas e quarenta e três estrelas.",
+  "legenda": "E logo acima vem o Google com a resposta. O Google Skills ensina a sua IA a usar os produtos e a nuvem do Google sem você explicar nada. 443 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Número cinco, e esse não sai do Top dez. O Skills de um programador sozinho bate o Google e a Anthropic: receitas pra IA trabalhar com capricho, não no chute. Mil e cem estrelas.",
+  "legenda": "Número cinco, e esse não sai do Top dez. O Skills de um programador sozinho bate o Google e a Anthropic: receitas pra IA trabalhar com capricho, não no chute. 1.100 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, o Zed, dos criadores do Atom. É um editor de programação super rápido, onde você, seus colegas e a IA mexem no mesmo código ao mesmo tempo. Mil cento e catorze estrelas.",
+  "legenda": "Em quarto, o Zed, dos criadores do Atom. É um editor de programação super rápido, onde você, seus colegas e a IA mexem no mesmo código ao mesmo tempo. 1.114 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Em terceiro, o Sherlock. Você digita um apelido e ele caça essa pessoa em mais de quatrocentas redes. É polêmico, cuidado: use só pra se proteger. Mil setecentas e sessenta e seis estrelas.",
+  "legenda": "E agora o pódio. Em terceiro, o Sherlock. Você digita um apelido e ele caça essa pessoa em mais de quatrocentas redes. É polêmico, cuidado: use só pra se proteger. 1.766 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, o OpenMausBot, que não sai do Top dez. É um time de robôs de IA dentro de um app de conversa, cada um com um computador só dele. E é de graça. Mil novecentas e cinquenta e cinco estrelas.",
+  "legenda": "Em segundo, o OpenMausBot, que não sai do Top dez. É um time de robôs de IA dentro de um app de conversa, cada um com um computador só dele. E é de graça. 1.955 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um, pelo segundo dia seguido, é da Cloudflare. O Security Audit faz a sua IA caçar falhas antes dos hackers. Duas mil e oitenta e cinco estrelas.",
+  "legenda": "E o número um, pelo segundo dia seguido, é da Cloudflare. O Security Audit faz a sua IA caçar falhas antes dos hackers. 2.085 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Você já procurou o seu próprio apelido na internet? Conta aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais.",
+  "legenda": "Você já procurou o seu próprio apelido na internet? Conta aqui nos comentários. Tá tudo no inema.club, e amanhã tem mais."
+ }
+]

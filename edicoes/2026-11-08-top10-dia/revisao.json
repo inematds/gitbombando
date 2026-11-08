@@ -1,0 +1,11 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "A capa traz TOP 10 DO GITHUB em letras grandes e a manchete igual à ficha. Cada cartão mostra posição e pílula 🔥 conferindo com o top10.json, do #10 (+191) ao #1 (+2.085). O fecho tem a caixa vermelha de pergunta e a pílula inema.club, e não há marcação crua nem quadro vazio.",
+ "sugestoes": [
+  "0.05–4.0 s: na capa, os ícones de redes sociais passam por cima da legenda karaokê ('SÓ COM O', 'EM MAIS DE'); dá para ler, mas a legenda ficaria mais limpa sem os ícones atrás.",
+  "13.81 s: a legenda 'NO MEIO.' sozinha acima do painel 9.716 diz pouco; o número total poderia aparecer junto na fala/legenda para reforçar.",
+  "92.26–102.07 s: o cartão do Sherlock (#3) poderia trazer um selo visual de alerta ('use só para se proteger'), já que a fala marca o projeto como polêmico.",
+  "131.49–141.3 s: o print do portal inema.club no fecho fica escuro e pequeno, e a pílula inema.club só aparece no fim; mostrá-la antes deixaria o CTA mais forte."
+ ]
+}
