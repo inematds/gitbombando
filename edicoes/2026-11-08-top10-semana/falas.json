@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Dezessete mil e cem estrelas em sete dias. E o campeão do GitHub nem é uma IA nova. É um controle remoto pra mandar em todas elas.",
+  "legenda": "Dezessete mil e cem estrelas em 7 dias. E o campeão do GitHub nem é uma IA nova. É um controle remoto pra mandar em todas elas."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez projetos que mais cresceram na semana somaram setenta e nove mil trezentas e setenta e três estrelas. Vou do décimo ao primeiro.",
+  "legenda": "Os dez projetos que mais cresceram na semana somaram 79.373 estrelas. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, superpowers. Um kit que obriga a IA a ter método: planejar, testar e revisar antes de te entregar. Já passa de trezentas mil estrelas e ganhou mais quatro mil quatrocentas e sessenta e seis estrelas.",
+  "legenda": "Em décimo, superpowers. Um kit que obriga a IA a ter método: planejar, testar e revisar antes de te entregar. Já passa de 300 mil estrelas e ganhou mais 4.466 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Número nove, o mais estranho da lista. Ziwei Doushu é a astrologia chinesa virando programa aberto: ele monta o seu mapa e entrega a leitura. Horóscopo no Top dez, com quatro mil novecentas e seis estrelas.",
+  "legenda": "Número nove, o mais estranho da lista. Ziwei Doushu é a astrologia chinesa virando programa aberto: ele monta o seu mapa e entrega a leitura. Horóscopo no Top dez, com 4.906 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, Claude Code Game Studios. Ele transforma a IA num estúdio de games inteiro: quarenta e nove agentes, cada um com seu cargo, como numa empresa de verdade. Ganhou cinco mil setecentas e dezenove estrelas.",
+  "legenda": "Em oitavo, Claude Code Game Studios. Ele transforma a IA num estúdio de games inteiro: 49 agentes, cada um com seu cargo, como numa empresa de verdade. Ganhou 5.719 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo lugar, Hallmark. Um kit de design que se recusa a deixar o seu site com cara de feito por robô. Cinquenta estilos prontos e seis mil seiscentas e vinte e quatro estrelas.",
+  "legenda": "Sétimo lugar, Hallmark. Um kit de design que se recusa a deixar o seu site com cara de feito por robô. Cinquenta estilos prontos e 6.624 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, OpenMausBot. Você monta um time de robôs de IA e conversa com eles como se fossem contatos, cada um com seu próprio computador. Cresceu sessenta e sete por cento na semana: sete mil e setenta e sete estrelas.",
+  "legenda": "Em sexto, OpenMausBot. Você monta um time de robôs de IA e conversa com eles como se fossem contatos, cada um com seu próprio computador. Cresceu 67% na semana: 7.077 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Número cinco, claude-mem. Cansou de a IA esquecer tudo e você ter de explicar de novo? Ele guarda o que ela fez e devolve na próxima conversa. São sete mil quatrocentas e oitenta e duas estrelas.",
+  "legenda": "Número cinco, claude-mem. Cansou de a IA esquecer tudo e você ter de explicar de novo? Ele guarda o que ela fez e devolve na próxima conversa. São 7.482 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, Impeccable. Ele ensina a IA a caprichar no visual e dedura aquele design genérico antes de ir pro ar. Passou de cem mil estrelas e ganhou sete mil seiscentas e vinte e três estrelas.",
+  "legenda": "Em quarto, Impeccable. Ele ensina a IA a caprichar no visual e dedura aquele design genérico antes de ir pro ar. Passou de 100 mil estrelas e ganhou 7.623 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Em terceiro, Scrapling. Ele copia dados de qualquer site, até dos que tentam barrar robôs. Isso é polêmico, então cuidado com o que você coleta. Foram oito mil setecentas e doze estrelas.",
+  "legenda": "E agora o pódio. Em terceiro, Scrapling. Ele copia dados de qualquer site, até dos que tentam barrar robôs. Isso é polêmico, então cuidado com o que você coleta. Foram 8.712 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, skills, do Matt Pocock. São as receitas que ele usa todo dia pra IA programar de verdade, sem improviso. Já tem mais de trezentas mil estrelas e ganhou nove mil seiscentas e sessenta e quatro estrelas.",
+  "legenda": "Em segundo, skills, do Matt Pocock. São as receitas que ele usa todo dia pra IA programar de verdade, sem improviso. Já tem mais de 300 mil estrelas e ganhou 9.664 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um. Tê Três Code. Um painel só pra mandar em todas as IAs que programam no seu computador, até pelo celular, com as assinaturas que você já tem. Foram dezessete mil e cem estrelas. Em sete dias.",
+  "legenda": "E o número um. Tê Três Code. Um painel só pra mandar em todas as IAs que programam no seu computador, até pelo celular, com as assinaturas que você já tem. Foram 17.100 estrelas. Em 7 dias."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema ponto club, e semana que vem tem mais.",
+  "legenda": "Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema.club, e semana que vem tem mais."
+ }
+]

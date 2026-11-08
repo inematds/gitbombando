@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "A capa traz \"TOP 10 DO GITHUB\" grande e a manchete idêntica a gancho.manchete. Nas pílulas 🔥, as posições e as estrelas batem com o top10.json do #10 ao #1, e o total de 79.373 confere com a soma. Não há quadro vazio nem marcação crua, o avatar aparece certo e o fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "0–4 s: a manchete \"O CONTROLE DAS IAS\" não diz o que é o projeto; \"UM CONTROLE PRA TODAS AS IAS: +17.100\" seria mais clara e mais forte para quem rola o feed",
+  "78.9 s e 89.6 s: o cartão do claude-mem fica parado uns 20 s com o contador ainda em 0; vale encurtar a fala ou fazer o contador subir mais cedo para não parecer travado",
+  "36–68 s: o gráfico 'antes × agora' com as duas barras quase da mesma altura (ex.: ziwei, hallmark) passa pouca emoção; destacar o ganho (barra do +N em cor viva) ajudaria a ler",
+  "143.1 s: o print do portal inema.club no fecho fica pequeno e ilegível; uma pílula grande ou um texto curto funcionaria melhor que a captura de tela",
+  "IMPACTO 7: o gancho e o número um são bons, mas o meio (#9 a #5) tem o mesmo ritmo e o mesmo visual; um corte ou um zoom no #9 (horóscopo, o mais curioso) seguraria melhor o feed"
+ ]
+}
