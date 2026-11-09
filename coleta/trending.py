@@ -204,6 +204,15 @@ def main(a):
     ler_retratos()
     lista = trending(modo)
     log(f"trending {modo}: {len(lista)} projetos na página")
+    # 09/11/2026: às 06:30 a página do dia tinha só 9 projetos; horas depois tinha 11. Espera e tenta de novo
+    # (até ~2 h, ainda antes da publicação das 11h). GB_ESPERA_TRENDING=0 desliga (testes).
+    for _ in range(int(os.environ.get("GB_ESPERA_TRENDING", "6"))):
+        if len(lista) >= 10:
+            break
+        log("menos de 10 projetos; tentando de novo em 20 min")
+        time.sleep(1200)
+        lista = trending(modo)
+        log(f"trending {modo}: {len(lista)} projetos na página")
     if len(lista) < 10:
         raise SystemExit(f"o Trending trouxe só {len(lista)} projetos (página fora do ar ou mudou)")
     # Top 10 = os projetos do Trending com MAIS estrelas ganhas no período (a ordem do próprio Trending mistura outros sinais

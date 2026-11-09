@@ -45,7 +45,7 @@ $1" || echo "falhou o envio do aviso"
 
 # 1. coleta (só GitHub)
 if [ -s "$ED/pesquisa/top10.json" ] && [ "${REUSAR:-}" = 1 ]; then echo "reusando a coleta"
-else timeout 900 python3 "$RAIZ/coleta/trending.py" "$ED" "$MODO" > "$ED/pesquisa/coleta.log" 2>&1 \
+else timeout 9000 python3 "$RAIZ/coleta/trending.py" "$ED" "$MODO" > "$ED/pesquisa/coleta.log" 2>&1 \
   || avisar "coleta do GitHub Trending falhou: $(tail -1 "$ED/pesquisa/coleta.log")"; fi
 
 # 2. roteiro pelo claude -p (assinatura); modelo = a ficha aprovada mais recente do mesmo modo

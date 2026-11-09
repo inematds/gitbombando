@@ -106,6 +106,9 @@ svg { display: block; }
 .lista { margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 22px; }
 .lista div { display: flex; gap: 14px; align-items: center; padding: 14px 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
   font: 700 24px/1.1 Inter, sans-serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* nome longo vira reticências em vez de cortar no meio da letra (revisor, 08/11/2026) */
+.lista div { min-width: 0; }
+.lista .n { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .lista b { flex: none; color: var(--amb-ink); background: var(--amb); border-radius: 8px; padding: 6px 10px; font: 800 22px/1 Sora, sans-serif; }
 .agenda { margin-top: auto; padding: 22px 26px; border-radius: 14px; border: 2px solid var(--amb-line); font: 500 27px/1.4 Inter, sans-serif; }
 .agenda b { color: var(--amb); font-family: Sora, sans-serif; }

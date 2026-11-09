@@ -86,7 +86,7 @@ function slide(s, i) {
 
 function fecho() {
   const f = S.fecho;
-  const lista = S.slides.map(s => `<div><b>${String(s.pos).padStart(2, "0")}</b>${esc(s.repo)}</div>`).join("");
+  const lista = S.slides.map(s => `<div><b>${String(s.pos).padStart(2, "0")}</b><span class="n">${esc(s.repo)}</span></div>`).join("");
   return `<div class="page fecho">${topo(total)}<div class="dentro">
     <h2>${esc(f.titulo_a)} <span class="hl">${esc(f.titulo_b)}</span></h2>
     <div class="sub">${esc(f.texto)}</div>
@@ -123,6 +123,15 @@ try {
         out.push({ classe: el.className, escala: +k.toFixed(2), estourou: estoura() });
       }
       // nada pode passar do fim da página (o que empurra o rodapé para fora)
+      const passou = () => [...document.querySelectorAll(".page *")].some(e => e.getBoundingClientRect().bottom > caixa.bottom + 1
+        && !e.closest(".mosaico") && !e.closest(".print"));
+      // 09/11/2026: gancho em 3 linhas empurrou a caixa do repo para fora. Encolhe o gancho até a página caber (até 55%).
+      const g = document.querySelector(".gancho");
+      if (g) {
+        const gb = parseFloat(getComputedStyle(g).fontSize);
+        let kg = parseFloat(g.style.fontSize || gb) / gb;
+        while (passou() && kg > 0.55) { kg -= 0.04; g.style.fontSize = gb * kg + "px"; }
+      }
       const fora = [...document.querySelectorAll(".page *")].filter(e => e.getBoundingClientRect().bottom > caixa.bottom + 1
         && !e.closest(".mosaico") && !e.closest(".print")).map(e => e.className.baseVal ?? e.className).slice(0, 5);
       const pr = document.querySelector(".print");

@@ -77,7 +77,8 @@ def cmd_dados(cd, tipo, dia=None):
         fonte = ed / "pesquisa/top10.json"
         if not fonte.exists():   # o vídeo da manhã não coletou: coleta aqui mesmo
             log("sem a coleta do vídeo; coletando o Trending agora")
-            subprocess.run([sys.executable, R / "coleta/trending.py", cd, "dia"], check=True, timeout=900)
+            subprocess.run([sys.executable, R / "coleta/trending.py", cd, "dia"], check=True, timeout=900,
+                           env={**os.environ, "GB_ESPERA_TRENDING": "0"})  # carrossel não espera (08/11/2026)
             fonte = cd / "pesquisa/top10.json"
         top = json.loads(fonte.read_text())
         desc = {}
