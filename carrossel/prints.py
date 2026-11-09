@@ -80,6 +80,24 @@ def baixar(url, destino, tent=1):
     return tipo
 
 
+def tem_qr(im, minimo=0.04):
+    """True se a imagem tem um QR code ocupando ≥ `minimo` da área (propaganda de grupo, doação). Sem OpenCV: False."""
+    try:
+        import cv2
+        import numpy as np
+    except ImportError:
+        return False
+    try:
+        # só conta QR que dá para LER: o detector sozinho acusava telas comuns (sherlock, mattpocock/skills)
+        txt, pts, _ = cv2.QRCodeDetector().detectAndDecode(cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR))
+    except Exception:  # noqa: BLE001
+        return False
+    if not txt or pts is None:
+        return False
+    area = abs(cv2.contourArea(pts.reshape(-1, 2).astype("float32")))
+    return area >= minimo * im.size[0] * im.size[1]
+
+
 def para_png(bruto, tipo, saida):
     """Converte para PNG (máx. 1400 px de largura). Devolve (largura, altura) ou None se não serve."""
     if tipo.startswith("video") or bruto.read_bytes()[4:8] == b"ftyp":
@@ -101,6 +119,8 @@ def para_png(bruto, tipo, saida):
     # quase tudo de uma cor só = logo/fundo liso, não é tela
     pequena = im.resize((48, 48))
     if len(set(pequena.getdata())) < 40:
+        return None
+    if tem_qr(im):   # 09/11/2026: README trouxe só o QR de um grupo de WeChat (revisor reprovou o carrossel da área)
         return None
     if w > 1400:
         im = im.resize((1400, round(h * 1400 / w)))
