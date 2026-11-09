@@ -1,0 +1,304 @@
+{
+ "tipo": "area",
+ "serie": "TOP 8 · AGENTES DE IA",
+ "conta": "@inema.tech",
+ "data_br": "09/11/2026",
+ "capa": {
+  "linha1": "TOP 8",
+  "linha2": "AGENTES DE IA",
+  "numero": "+8.240",
+  "numero_rotulo": "estrelas por dia, somando os 8 (criados nos últimos meses)",
+  "manchete": "DEEPSEEK PUXA A FILA DOS AGENTES",
+  "destaque": "DEEPSEEK",
+  "fundo": [
+   "prints/6.png",
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/7.png",
+   "prints/8.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "deepseek-ai/deepseek-harness",
+   "repo": "deepseek-harness",
+   "url": "https://github.com/deepseek-ai/deepseek-harness",
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "MONTADO EM PEÇAS"
+   ],
+   "o_que_e": "Uma base de código aberto da DeepSeek para rodar agentes de IA, em que cada parte é um complemento que você liga ou troca.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Abre no navegador",
+     "texto": "Um comando sobe uma tela web no seu computador para você usar."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Tudo é complemento",
+     "texto": "Cada função entra como uma peça separada que dá para trocar."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O NODE",
+    "RODA UM COMANDO",
+    "USA NA WEB"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "existente",
+   "stat": "+3.151",
+   "stat_rotulo": "por dia",
+   "total": "277.288",
+   "info2": "TypeScript · criado há 88 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "Ebony-Vinyl/dsh-our-free-model",
+   "repo": "dsh-our-free-model",
+   "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+   "gancho": [
+    "MODELOS DE PONTA",
+    "SEM PAGAR NADA?"
+   ],
+   "o_que_e": "Um complemento para o DeepSeek Harness que libera modelos de IA como DeepSeek V4.1 Flash e Kimi K3 sem cadastro e sem chave de acesso.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Sem login nem chave",
+     "texto": "Você instala e os modelos já aparecem, sem conta e sem cadastro."
+    },
+    {
+     "icone": "link",
+     "titulo": "Fontes públicas",
+     "texto": "Usa os portais abertos do OpenCode e da Kilo AI, ligados direto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO DSH",
+    "ESCOLHE MODELO",
+    "USA DE GRAÇA"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "existente",
+   "stat": "+1.469",
+   "stat_rotulo": "por dia",
+   "total": "67.308",
+   "info2": "JavaScript · criado há 46 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "ccch1mneyyy/dsh-Go",
+   "repo": "dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "gancho": [
+    "O AGENTE DE IA",
+    "NO SEU CELULAR"
+   ],
+   "o_que_e": "Um aplicativo para Android que roda o DeepSeek Harness no próprio celular e também controla o que está rodando no seu computador.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Linux dentro do app",
+     "texto": "Instala Ubuntu e Node.js no celular, sem root e sem Termux."
+    },
+    {
+     "icone": "link",
+     "titulo": "Controla o computador",
+     "texto": "Conecta por SSH ao DeepSeek Harness do seu computador ou servidor."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APK",
+    "INSTALA O MOTOR",
+    "CONVERSA E USA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "existente",
+   "stat": "+1.154",
+   "stat_rotulo": "por dia",
+   "total": "17.499",
+   "info2": "Dart · criado há 15 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "wangzan101/Mika",
+   "repo": "Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "gancho": [
+    "VOCÊ PEDE.",
+    "O CELULAR FAZ."
+   ],
+   "o_que_e": "Um assistente de IA para Android que abre apps, toca, digita e navega na web por você até terminar a tarefa.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Tela escondida",
+     "texto": "Trabalha numa tela de fundo, e você segue usando o celular."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Para antes de pagar",
+     "texto": "Põe o produto no carrinho e para antes de fechar a compra."
+    }
+   ],
+   "fluxo": [
+    "FALA O PEDIDO",
+    "MIKA ABRE O APP",
+    "TAREFA FEITA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "existente",
+   "stat": "+725",
+   "stat_rotulo": "por dia",
+   "total": "7.899",
+   "info2": "Kotlin · criado há 11 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "KKKKhazix/agent-autoloop",
+   "repo": "agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "gancho": [
+    "SEU AGENTE SOZINHO",
+    "ATÉ O FIM"
+   ],
+   "o_que_e": "Um programa que deixa agentes de terminal, como Claude Code e Codex, pegando tarefas sozinhos e só te chama quando precisa de uma decisão.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Cartão para decidir",
+     "texto": "Manda a dúvida para Slack, Discord ou aviso na área de trabalho."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Funciona em Windows, Mac e Linux, sem servidor na nuvem."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "DÁ A TAREFA",
+    "VOCÊ DECIDE"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "existente",
+   "stat": "+692",
+   "stat_rotulo": "por dia",
+   "total": "4.266",
+   "info2": "TypeScript · criado há 6 dias"
+  },
+  {
+   "pos": 6,
+   "nome": "rddmwmddr/android-ad-cleaner",
+   "repo": "android-ad-cleaner",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "gancho": [
+    "CELULAR SEM",
+    "PROPAGANDA"
+   ],
+   "o_que_e": "Uma ferramenta que desliga anúncios, notícias em alta e avisos de marketing do sistema de celulares Android chineses, sem root.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "App para computador",
+     "texto": "Versões para Mac e Windows: você pluga o celular e clica nos botões."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Dá para desfazer",
+     "texto": "Não precisa de root e guarda backup para voltar como era."
+    }
+   ],
+   "fluxo": [
+    "PLUGA O CELULAR",
+    "CLICA E ESPERA",
+    "SEM ANÚNCIOS"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+445",
+   "stat_rotulo": "por dia",
+   "total": "7.243",
+   "info2": "Python · criado há 16 dias"
+  },
+  {
+   "pos": 7,
+   "nome": "lemomo-ai/lemo-opuscar",
+   "repo": "lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "gancho": [
+    "FILMES FEITOS",
+    "SÓ COM CÓDIGO"
+   ],
+   "o_que_e": "Uma caixa de estilos de filme para o Claude Code: cada estilo traz um texto de instruções e um curta feito só com código, sem gerador de vídeo.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Estilos prontos",
+     "texto": "Escolhe um estilo pronto, traz sua história e o agente dirige."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Crie o seu estilo",
+     "texto": "Mude um estilo existente ou comece do zero e guarde para usar."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE ESTILO",
+    "TRAZ A HISTÓRIA",
+    "A IA DIRIGE"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "existente",
+   "stat": "+318",
+   "stat_rotulo": "por dia",
+   "total": "14.032",
+   "info2": "JavaScript · criado há 44 dias"
+  },
+  {
+   "pos": 8,
+   "nome": "google/elephant-goldfish-model",
+   "repo": "elephant-goldfish-model",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "gancho": [
+    "UM AGENTE PROJETA.",
+    "OUTRO REVISA."
+   ],
+   "o_que_e": "Um complemento de código aberto do Google para assistentes de IA: um agente escreve o projeto do software e outros revisam sem ver a conversa.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Revisão com olhar novo",
+     "texto": "Revisores leem o rascunho sem a conversa e acham pontos cegos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga em vários agentes",
+     "texto": "Instala no Codex, no ChatGPT para desktop e no Antigravity."
+    }
+   ],
+   "fluxo": [
+    "CONTA A IDEIA",
+    "IA ESCREVE",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "existente",
+   "stat": "+286",
+   "stat_rotulo": "por dia",
+   "total": "16.276",
+   "info2": "Python · criado há 57 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 8 links estão",
+  "titulo_b": "na legenda.",
+  "texto": "Salve para testar depois. Amanhã tem outra área, sempre às 18h.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

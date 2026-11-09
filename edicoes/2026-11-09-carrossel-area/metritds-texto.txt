@@ -1,0 +1,15 @@
+Top 8 do GitHub · agentes de IA · 09/11/2026
+
+Os agentes de IA que mais crescem no GitHub hoje, e três deles giram em torno do DeepSeek Harness. Arraste para o lado e veja o que cada um faz e como você usa. Cursos grátis de IA no inema.club.
+
+1. deepseek-ai/deepseek-harness — https://github.com/deepseek-ai/deepseek-harness
+2. Ebony-Vinyl/dsh-our-free-model — https://github.com/Ebony-Vinyl/dsh-our-free-model
+3. ccch1mneyyy/dsh-Go — https://github.com/ccch1mneyyy/dsh-Go
+4. wangzan101/Mika — https://github.com/wangzan101/Mika
+5. KKKKhazix/agent-autoloop — https://github.com/KKKKhazix/agent-autoloop
+6. rddmwmddr/android-ad-cleaner — https://github.com/rddmwmddr/android-ad-cleaner
+7. lemomo-ai/lemo-opuscar — https://github.com/lemomo-ai/lemo-opuscar
+8. google/elephant-goldfish-model — https://github.com/google/elephant-goldfish-model
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

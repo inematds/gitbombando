@@ -1,0 +1,31 @@
+{
+ "deepseek-ai/deepseek-harness": {
+  "fonte": "existente"
+ },
+ "Ebony-Vinyl/dsh-our-free-model": {
+  "fonte": "existente"
+ },
+ "ccch1mneyyy/dsh-Go": {
+  "fonte": "existente"
+ },
+ "wangzan101/Mika": {
+  "fonte": "existente"
+ },
+ "KKKKhazix/agent-autoloop": {
+  "fonte": "existente"
+ },
+ "rddmwmddr/android-ad-cleaner": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/rddmwmddr/android-ad-cleaner/main/images/gui-1-connect.png",
+  "tam": [
+   1400,
+   1011
+  ]
+ },
+ "lemomo-ai/lemo-opuscar": {
+  "fonte": "existente"
+ },
+ "google/elephant-goldfish-model": {
+  "fonte": "existente"
+ }
+}

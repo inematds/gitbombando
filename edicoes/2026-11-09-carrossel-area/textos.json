@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "DEEPSEEK PUXA A FILA DOS AGENTES",
+  "destaque": "DEEPSEEK"
+ },
+ "repos": {
+  "deepseek-ai/deepseek-harness": {
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "MONTADO EM PEÇAS"
+   ],
+   "o_que_e": "Uma base de código aberto da DeepSeek para rodar agentes de IA, em que cada parte é um complemento que você liga ou troca.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Abre no navegador",
+     "texto": "Um comando sobe uma tela web no seu computador para você usar."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Tudo é complemento",
+     "texto": "Cada função entra como uma peça separada que dá para trocar."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O NODE",
+    "RODA UM COMANDO",
+    "USA NA WEB"
+   ]
+  },
+  "Ebony-Vinyl/dsh-our-free-model": {
+   "gancho": [
+    "MODELOS DE PONTA",
+    "SEM PAGAR NADA?"
+   ],
+   "o_que_e": "Um complemento para o DeepSeek Harness que libera modelos de IA como DeepSeek V4.1 Flash e Kimi K3 sem cadastro e sem chave de acesso.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Sem login nem chave",
+     "texto": "Você instala e os modelos já aparecem, sem conta e sem cadastro."
+    },
+    {
+     "icone": "link",
+     "titulo": "Fontes públicas",
+     "texto": "Usa os portais abertos do OpenCode e da Kilo AI, ligados direto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO DSH",
+    "ESCOLHE MODELO",
+    "USA DE GRAÇA"
+   ]
+  },
+  "ccch1mneyyy/dsh-Go": {
+   "gancho": [
+    "O AGENTE DE IA",
+    "NO SEU CELULAR"
+   ],
+   "o_que_e": "Um aplicativo para Android que roda o DeepSeek Harness no próprio celular e também controla o que está rodando no seu computador.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Linux dentro do app",
+     "texto": "Instala Ubuntu e Node.js no celular, sem root e sem Termux."
+    },
+    {
+     "icone": "link",
+     "titulo": "Controla o computador",
+     "texto": "Conecta por SSH ao DeepSeek Harness do seu computador ou servidor."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APK",
+    "INSTALA O MOTOR",
+    "CONVERSA E USA"
+   ]
+  },
+  "wangzan101/Mika": {
+   "gancho": [
+    "VOCÊ PEDE.",
+    "O CELULAR FAZ."
+   ],
+   "o_que_e": "Um assistente de IA para Android que abre apps, toca, digita e navega na web por você até terminar a tarefa.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Tela escondida",
+     "texto": "Trabalha numa tela de fundo, e você segue usando o celular."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Para antes de pagar",
+     "texto": "Põe o produto no carrinho e para antes de fechar a compra."
+    }
+   ],
+   "fluxo": [
+    "FALA O PEDIDO",
+    "MIKA ABRE O APP",
+    "TAREFA FEITA"
+   ]
+  },
+  "KKKKhazix/agent-autoloop": {
+   "gancho": [
+    "SEU AGENTE SOZINHO",
+    "ATÉ O FIM"
+   ],
+   "o_que_e": "Um programa que deixa agentes de terminal, como Claude Code e Codex, pegando tarefas sozinhos e só te chama quando precisa de uma decisão.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Cartão para decidir",
+     "texto": "Manda a dúvida para Slack, Discord ou aviso na área de trabalho."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Funciona em Windows, Mac e Linux, sem servidor na nuvem."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "DÁ A TAREFA",
+    "VOCÊ DECIDE"
+   ]
+  },
+  "rddmwmddr/android-ad-cleaner": {
+   "gancho": [
+    "CELULAR SEM",
+    "PROPAGANDA"
+   ],
+   "o_que_e": "Uma ferramenta que desliga anúncios, notícias em alta e avisos de marketing do sistema de celulares Android chineses, sem root.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "App para computador",
+     "texto": "Versões para Mac e Windows: você pluga o celular e clica nos botões."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Dá para desfazer",
+     "texto": "Não precisa de root e guarda backup para voltar como era."
+    }
+   ],
+   "fluxo": [
+    "PLUGA O CELULAR",
+    "CLICA E ESPERA",
+    "SEM ANÚNCIOS"
+   ]
+  },
+  "lemomo-ai/lemo-opuscar": {
+   "gancho": [
+    "FILMES FEITOS",
+    "SÓ COM CÓDIGO"
+   ],
+   "o_que_e": "Uma caixa de estilos de filme para o Claude Code: cada estilo traz um texto de instruções e um curta feito só com código, sem gerador de vídeo.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Estilos prontos",
+     "texto": "Escolhe um estilo pronto, traz sua história e o agente dirige."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Crie o seu estilo",
+     "texto": "Mude um estilo existente ou comece do zero e guarde para usar."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE ESTILO",
+    "TRAZ A HISTÓRIA",
+    "A IA DIRIGE"
+   ]
+  },
+  "google/elephant-goldfish-model": {
+   "gancho": [
+    "UM AGENTE PROJETA.",
+    "OUTRO REVISA."
+   ],
+   "o_que_e": "Um complemento de código aberto do Google para assistentes de IA: um agente escreve o projeto do software e outros revisam sem ver a conversa.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Revisão com olhar novo",
+     "texto": "Revisores leem o rascunho sem a conversa e acham pontos cegos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga em vários agentes",
+     "texto": "Instala no Codex, no ChatGPT para desktop e no Antigravity."
+    }
+   ],
+   "fluxo": [
+    "CONTA A IDEIA",
+    "IA ESCREVE",
+    "VOCÊ APROVA"
+   ]
+  }
+ },
+ "legenda_abertura": "Os agentes de IA que mais crescem no GitHub hoje, e três deles giram em torno do DeepSeek Harness. Arraste para o lado e veja o que cada um faz e como você usa. Cursos grátis de IA no inema.club.",
+ "telegram": "Saiu o carrossel com os agentes de IA que mais crescem no GitHub, do celular que trabalha sozinho ao agente que revisa o próprio projeto. Veja cada um no carrossel e aprenda a usar agentes de IA de graça no inema.club."
+}
