@@ -1,0 +1,374 @@
+{
+ "tipo": "top10",
+ "serie": "TOP 10 DO GITHUB",
+ "conta": "@inema.tds",
+ "data_br": "09/11/2026",
+ "capa": {
+  "linha1": "TOP 10",
+  "linha2": "DO GITHUB HOJE",
+  "numero": "+13.277",
+  "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas",
+  "manchete": "ACHE QUALQUER PERFIL PELO APELIDO",
+  "destaque": "PERFIL",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/8.png",
+   "prints/9.png",
+   "prints/10.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "sherlock-project/sherlock",
+   "repo": "sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "gancho": [
+    "UM APELIDO.",
+    "ONDE ELE EXISTE?"
+   ],
+   "o_que_e": "Um programa de terminal que procura um nome de usuário em mais de 400 redes sociais e mostra em quais delas a conta existe.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Mais de 400 redes",
+     "texto": "Você digita o apelido e ele confere site por site onde a conta aparece."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala do seu jeito",
+     "texto": "Roda com Python (pipx ou pip) ou num contêiner Docker, de graça."
+    }
+   ],
+   "fluxo": [
+    "DIGITA O NOME",
+    "ELE VARRE",
+    "LISTA DE CONTAS"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "existente",
+   "stat": "+4.294",
+   "stat_rotulo": "hoje",
+   "total": "106.348",
+   "info2": "Python · desde 12/2018"
+  },
+  {
+   "pos": 2,
+   "nome": "meta/astryx",
+   "repo": "astryx",
+   "url": "https://github.com/meta/astryx",
+   "gancho": [
+    "O VISUAL DA META",
+    "NO SEU APP?"
+   ],
+   "o_que_e": "Um kit de telas e botões de código aberto que nasceu dentro da Meta, pronto para você e para agentes de IA montarem apps.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 peças",
+     "texto": "Componentes acessíveis, modo escuro, temas da sua marca e modelos prontos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para a IA usar",
+     "texto": "Pessoas e assistentes de IA constroem com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "ESCOLHE O TEMA",
+    "APP MONTADO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "existente",
+   "stat": "+3.324",
+   "stat_rotulo": "hoje",
+   "total": "18.929",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 3,
+   "nome": "milind-soni/OpenMausBot",
+   "repo": "OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "gancho": [
+    "UMA EQUIPE DE IA",
+    "NO SEU CHAT?"
+   ],
+   "o_que_e": "Um app de chat de código aberto em que cada contato é um robô de IA, com Claude ou Codex rodando no seu computador por baixo.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Computador próprio",
+     "texto": "Cada robô tem personalidade, modelo, apps ligados e um computador na nuvem."
+    },
+    {
+     "icone": "download",
+     "titulo": "Mac, Windows e Linux",
+     "texto": "Tem instalador pronto para macOS, Windows e Ubuntu, sem moeda nem token."
+    }
+   ],
+   "fluxo": [
+    "CRIA O ROBÔ",
+    "CONVERSA",
+    "APROVA O FEITO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "existente",
+   "stat": "+1.589",
+   "stat_rotulo": "hoje",
+   "total": "19.363",
+   "info2": "TypeScript · desde 08/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "anthropics/skills",
+   "repo": "skills",
+   "url": "https://github.com/anthropics/skills",
+   "gancho": [
+    "ENSINE UMA TAREFA",
+    "AO CLAUDE."
+   ],
+   "o_que_e": "Uma coleção oficial da Anthropic de skills: pastas com instruções e scripts que o Claude carrega para fazer tarefas sempre do mesmo jeito.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Pastas de instruções",
+     "texto": "Cada skill junta instruções, scripts e arquivos para uma tarefa específica."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Repete o seu padrão",
+     "texto": "Documentos com a marca da empresa, análises e tarefas pessoais no automático."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A SKILL",
+    "O CLAUDE LÊ",
+    "TAREFA FEITA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "existente",
+   "stat": "+1.052",
+   "stat_rotulo": "hoje",
+   "total": "190.441",
+   "info2": "Python · desde 09/2025"
+  },
+  {
+   "pos": 5,
+   "nome": "vercel-labs/agent-browser",
+   "repo": "agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "gancho": [
+    "A IA NAVEGA",
+    "SOZINHA."
+   ],
+   "o_que_e": "Um programa de terminal que dá um navegador para o agente de IA: ele abre páginas, lê o conteúdo e clica, um comando por vez.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Lê a página em texto",
+     "texto": "Cada botão ou campo ganha um código curto para a IA saber onde agir."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala em um passo",
+     "texto": "Sai pelo npm ou Homebrew e baixa o Chrome para testes na primeira vez."
+    }
+   ],
+   "fluxo": [
+    "ABRE A PÁGINA",
+    "A IA LÊ",
+    "CLICA E CONFERE"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "existente",
+   "stat": "+914",
+   "stat_rotulo": "hoje",
+   "total": "48.235",
+   "info2": "Rust · desde 01/2026"
+  },
+  {
+   "pos": 6,
+   "nome": "google-deepmind/mujoco",
+   "repo": "mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "gancho": [
+    "FÍSICA DE ROBÔ",
+    "NO COMPUTADOR."
+   ],
+   "o_que_e": "Um simulador de física do Google DeepMind que imita corpos articulados, como robôs e braços, batendo e se movendo no ambiente.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Rápido e preciso",
+     "texto": "Feito para pesquisa em robótica, biomecânica, animação e aprendizado de máquina."
+    },
+    {
+     "icone": "code",
+     "titulo": "Roda com Python",
+     "texto": "Tem ligação com Python, plugin para Unity e visualização no navegador."
+    }
+   ],
+   "fluxo": [
+    "MONTA O MODELO",
+    "SIMULA",
+    "VÊ O MOVIMENTO"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "existente",
+   "stat": "+579",
+   "stat_rotulo": "hoje",
+   "total": "16.777",
+   "info2": "C++ · desde 08/2021"
+  },
+  {
+   "pos": 7,
+   "nome": "anthropics/claude-quickstarts",
+   "repo": "claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "gancho": [
+    "SEU APP COM CLAUDE",
+    "JÁ COMEÇADO."
+   ],
+   "o_que_e": "Uma coleção oficial da Anthropic de projetos prontos para você começar um app com o Claude, como atendimento ao cliente e analista financeiro.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Atendimento com IA",
+     "texto": "Um agente de suporte que responde consultando uma base de conhecimento."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "IA que usa o computador",
+     "texto": "Uma demonstração em que o Claude controla um computador de mesa."
+    }
+   ],
+   "fluxo": [
+    "PEGA UM PROJETO",
+    "PÕE A CHAVE",
+    "ADAPTA O APP"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "existente",
+   "stat": "+560",
+   "stat_rotulo": "hoje",
+   "total": "19.823",
+   "info2": "Python · desde 08/2024"
+  },
+  {
+   "pos": 8,
+   "nome": "ZhuLinsen/daily_stock_analysis",
+   "repo": "daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "gancho": [
+    "SUAS AÇÕES",
+    "ANALISADAS TODO DIA."
+   ],
+   "o_que_e": "Um sistema que usa um modelo de IA para analisar as ações que você escolhe, junta cotações e notícias e manda um painel de decisão todo dia.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Vários mercados",
+     "texto": "Cobre bolsas da China, Hong Kong, EUA, Japão, Coreia, Taiwan e fundos ETF."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Roda sozinho de graça",
+     "texto": "Agenda pelo GitHub Actions ou Docker e avisa no Telegram, Slack ou e-mail."
+    }
+   ],
+   "fluxo": [
+    "LISTA AS AÇÕES",
+    "A IA ANALISA",
+    "RELATÓRIO CHEGA"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "existente",
+   "stat": "+505",
+   "stat_rotulo": "hoje",
+   "total": "68.593",
+   "info2": "Python · desde 01/2026"
+  },
+  {
+   "pos": 9,
+   "nome": "ruvnet/RuView",
+   "repo": "RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "gancho": [
+    "O WI-FI ENXERGA",
+    "ATRÁS DA PAREDE?"
+   ],
+   "o_que_e": "Um sistema que usa o sinal comum do Wi-Fi para perceber pessoas, respiração, batimentos e movimento num cômodo, sem nenhuma câmera.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Sem câmera nenhuma",
+     "texto": "Detecta presença e sinais vitais no escuro, sem pulseira e sem imagem."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga na casa conectada",
+     "texto": "Funciona com Home Assistant, Apple Home, Google Home e Alexa."
+    }
+   ],
+   "fluxo": [
+    "LIGA O SENSOR",
+    "LÊ O WI-FI",
+    "AVISA NA CASA"
+   ],
+   "print": "prints/9.png",
+   "print_fonte": "existente",
+   "stat": "+245",
+   "stat_rotulo": "hoje",
+   "total": "103.253",
+   "info2": "Rust · desde 06/2025"
+  },
+  {
+   "pos": 10,
+   "nome": "garrytan/gbrain",
+   "repo": "gbrain",
+   "url": "https://github.com/garrytan/gbrain",
+   "gancho": [
+    "MEMÓRIA PARA A IA",
+    "QUE VOCÊ CONTROLA."
+   ],
+   "o_que_e": "Uma memória para o agente de IA que você já usa: guarda fatos com a fonte, aceita correção e vale para vários agentes ao mesmo tempo.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Fatos com a fonte",
+     "texto": "Cada fato fica salvo com a origem e pode ser corrigido ou retirado."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Grátis no seu servidor",
+     "texto": "Código aberto para hospedar você mesmo; a versão hospedada é opcional."
+    }
+   ],
+   "fluxo": [
+    "LIGA NO AGENTE",
+    "ELE GUARDA",
+    "LEMBRA DEPOIS"
+   ],
+   "print": "prints/10.png",
+   "print_fonte": "existente",
+   "stat": "+215",
+   "stat_rotulo": "hoje",
+   "total": "31.959",
+   "info2": "TypeScript · desde 04/2026"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 10 links estão",
+  "titulo_b": "na legenda.",
+  "texto": "Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia no <b>@inema.tds</b>: <b>11h</b> vídeo · <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

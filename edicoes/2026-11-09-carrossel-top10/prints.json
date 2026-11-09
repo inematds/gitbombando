@@ -1,0 +1,32 @@
+{
+ "sherlock-project/sherlock": {
+  "fonte": "existente"
+ },
+ "meta/astryx": {
+  "fonte": "existente"
+ },
+ "milind-soni/OpenMausBot": {
+  "fonte": "existente"
+ },
+ "anthropics/skills": {
+  "fonte": "existente"
+ },
+ "vercel-labs/agent-browser": {
+  "fonte": "existente"
+ },
+ "google-deepmind/mujoco": {
+  "fonte": "existente"
+ },
+ "anthropics/claude-quickstarts": {
+  "fonte": "existente"
+ },
+ "ZhuLinsen/daily_stock_analysis": {
+  "fonte": "existente"
+ },
+ "ruvnet/RuView": {
+  "fonte": "existente"
+ },
+ "garrytan/gbrain": {
+  "fonte": "existente"
+ }
+}

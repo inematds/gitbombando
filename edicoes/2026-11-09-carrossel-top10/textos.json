@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "ACHE QUALQUER PERFIL PELO APELIDO",
+  "destaque": "PERFIL"
+ },
+ "repos": {
+  "sherlock-project/sherlock": {
+   "gancho": [
+    "UM APELIDO.",
+    "ONDE ELE EXISTE?"
+   ],
+   "o_que_e": "Um programa de terminal que procura um nome de usuário em mais de 400 redes sociais e mostra em quais delas a conta existe.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Mais de 400 redes",
+     "texto": "Você digita o apelido e ele confere site por site onde a conta aparece."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala do seu jeito",
+     "texto": "Roda com Python (pipx ou pip) ou num contêiner Docker, de graça."
+    }
+   ],
+   "fluxo": [
+    "DIGITA O NOME",
+    "ELE VARRE",
+    "LISTA DE CONTAS"
+   ]
+  },
+  "meta/astryx": {
+   "gancho": [
+    "O VISUAL DA META",
+    "NO SEU APP?"
+   ],
+   "o_que_e": "Um kit de telas e botões de código aberto que nasceu dentro da Meta, pronto para você e para agentes de IA montarem apps.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 peças",
+     "texto": "Componentes acessíveis, modo escuro, temas da sua marca e modelos prontos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para a IA usar",
+     "texto": "Pessoas e assistentes de IA constroem com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "ESCOLHE O TEMA",
+    "APP MONTADO"
+   ]
+  },
+  "milind-soni/OpenMausBot": {
+   "gancho": [
+    "UMA EQUIPE DE IA",
+    "NO SEU CHAT?"
+   ],
+   "o_que_e": "Um app de chat de código aberto em que cada contato é um robô de IA, com Claude ou Codex rodando no seu computador por baixo.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Computador próprio",
+     "texto": "Cada robô tem personalidade, modelo, apps ligados e um computador na nuvem."
+    },
+    {
+     "icone": "download",
+     "titulo": "Mac, Windows e Linux",
+     "texto": "Tem instalador pronto para macOS, Windows e Ubuntu, sem moeda nem token."
+    }
+   ],
+   "fluxo": [
+    "CRIA O ROBÔ",
+    "CONVERSA",
+    "APROVA O FEITO"
+   ]
+  },
+  "anthropics/skills": {
+   "gancho": [
+    "ENSINE UMA TAREFA",
+    "AO CLAUDE."
+   ],
+   "o_que_e": "Uma coleção oficial da Anthropic de skills: pastas com instruções e scripts que o Claude carrega para fazer tarefas sempre do mesmo jeito.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Pastas de instruções",
+     "texto": "Cada skill junta instruções, scripts e arquivos para uma tarefa específica."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Repete o seu padrão",
+     "texto": "Documentos com a marca da empresa, análises e tarefas pessoais no automático."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A SKILL",
+    "O CLAUDE LÊ",
+    "TAREFA FEITA"
+   ]
+  },
+  "vercel-labs/agent-browser": {
+   "gancho": [
+    "A IA NAVEGA",
+    "SOZINHA."
+   ],
+   "o_que_e": "Um programa de terminal que dá um navegador para o agente de IA: ele abre páginas, lê o conteúdo e clica, um comando por vez.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Lê a página em texto",
+     "texto": "Cada botão ou campo ganha um código curto para a IA saber onde agir."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala em um passo",
+     "texto": "Sai pelo npm ou Homebrew e baixa o Chrome para testes na primeira vez."
+    }
+   ],
+   "fluxo": [
+    "ABRE A PÁGINA",
+    "A IA LÊ",
+    "CLICA E CONFERE"
+   ]
+  },
+  "google-deepmind/mujoco": {
+   "gancho": [
+    "FÍSICA DE ROBÔ",
+    "NO COMPUTADOR."
+   ],
+   "o_que_e": "Um simulador de física do Google DeepMind que imita corpos articulados, como robôs e braços, batendo e se movendo no ambiente.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Rápido e preciso",
+     "texto": "Feito para pesquisa em robótica, biomecânica, animação e aprendizado de máquina."
+    },
+    {
+     "icone": "code",
+     "titulo": "Roda com Python",
+     "texto": "Tem ligação com Python, plugin para Unity e visualização no navegador."
+    }
+   ],
+   "fluxo": [
+    "MONTA O MODELO",
+    "SIMULA",
+    "VÊ O MOVIMENTO"
+   ]
+  },
+  "anthropics/claude-quickstarts": {
+   "gancho": [
+    "SEU APP COM CLAUDE",
+    "JÁ COMEÇADO."
+   ],
+   "o_que_e": "Uma coleção oficial da Anthropic de projetos prontos para você começar um app com o Claude, como atendimento ao cliente e analista financeiro.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Atendimento com IA",
+     "texto": "Um agente de suporte que responde consultando uma base de conhecimento."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "IA que usa o computador",
+     "texto": "Uma demonstração em que o Claude controla um computador de mesa."
+    }
+   ],
+   "fluxo": [
+    "PEGA UM PROJETO",
+    "PÕE A CHAVE",
+    "ADAPTA O APP"
+   ]
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+   "gancho": [
+    "SUAS AÇÕES",
+    "ANALISADAS TODO DIA."
+   ],
+   "o_que_e": "Um sistema que usa um modelo de IA para analisar as ações que você escolhe, junta cotações e notícias e manda um painel de decisão todo dia.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Vários mercados",
+     "texto": "Cobre bolsas da China, Hong Kong, EUA, Japão, Coreia, Taiwan e fundos ETF."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Roda sozinho de graça",
+     "texto": "Agenda pelo GitHub Actions ou Docker e avisa no Telegram, Slack ou e-mail."
+    }
+   ],
+   "fluxo": [
+    "LISTA AS AÇÕES",
+    "A IA ANALISA",
+    "RELATÓRIO CHEGA"
+   ]
+  },
+  "ruvnet/RuView": {
+   "gancho": [
+    "O WI-FI ENXERGA",
+    "ATRÁS DA PAREDE?"
+   ],
+   "o_que_e": "Um sistema que usa o sinal comum do Wi-Fi para perceber pessoas, respiração, batimentos e movimento num cômodo, sem nenhuma câmera.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Sem câmera nenhuma",
+     "texto": "Detecta presença e sinais vitais no escuro, sem pulseira e sem imagem."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga na casa conectada",
+     "texto": "Funciona com Home Assistant, Apple Home, Google Home e Alexa."
+    }
+   ],
+   "fluxo": [
+    "LIGA O SENSOR",
+    "LÊ O WI-FI",
+    "AVISA NA CASA"
+   ]
+  },
+  "garrytan/gbrain": {
+   "gancho": [
+    "MEMÓRIA PARA A IA",
+    "QUE VOCÊ CONTROLA."
+   ],
+   "o_que_e": "Uma memória para o agente de IA que você já usa: guarda fatos com a fonte, aceita correção e vale para vários agentes ao mesmo tempo.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Fatos com a fonte",
+     "texto": "Cada fato fica salvo com a origem e pode ser corrigido ou retirado."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Grátis no seu servidor",
+     "texto": "Código aberto para hospedar você mesmo; a versão hospedada é opcional."
+    }
+   ],
+   "fluxo": [
+    "LIGA NO AGENTE",
+    "ELE GUARDA",
+    "LEMBRA DEPOIS"
+   ]
+  }
+ },
+ "legenda_abertura": "Um programa que acha um apelido em mais de 400 redes sociais lidera o Top 10 do GitHub hoje. Na lista ainda tem Meta, Google e Anthropic abrindo projetos e um Wi-Fi que percebe gente atrás da parede. Passe o carrossel e aprenda a usar IA de graça no inema.club.",
+ "telegram": "Saiu o Top 10 do GitHub de hoje: os 10 projetos que mais ganharam estrelas, um por slide. Tem busca de perfis em mais de 400 redes, navegador para agentes de IA e memória que você controla. Veja o carrossel e os cursos grátis no inema.club."
+}

@@ -1,0 +1,17 @@
+Top 10 do GitHub · 09/11/2026
+
+Um programa que acha um apelido em mais de 400 redes sociais lidera o Top 10 do GitHub hoje. Na lista ainda tem Meta, Google e Anthropic abrindo projetos e um Wi-Fi que percebe gente atrás da parede. Passe o carrossel e aprenda a usar IA de graça no inema.club.
+
+1. sherlock-project/sherlock — https://github.com/sherlock-project/sherlock
+2. meta/astryx — https://github.com/meta/astryx
+3. milind-soni/OpenMausBot — https://github.com/milind-soni/OpenMausBot
+4. anthropics/skills — https://github.com/anthropics/skills
+5. vercel-labs/agent-browser — https://github.com/vercel-labs/agent-browser
+6. google-deepmind/mujoco — https://github.com/google-deepmind/mujoco
+7. anthropics/claude-quickstarts — https://github.com/anthropics/claude-quickstarts
+8. ZhuLinsen/daily_stock_analysis — https://github.com/ZhuLinsen/daily_stock_analysis
+9. ruvnet/RuView — https://github.com/ruvnet/RuView
+10. garrytan/gbrain — https://github.com/garrytan/gbrain
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub
