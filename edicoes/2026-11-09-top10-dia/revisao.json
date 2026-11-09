@@ -1,0 +1,12 @@
+{
+ "veredito": "reprovado",
+ "impacto": 7,
+ "motivo": "Capa (0,05 s a 4,0 s): a manchete \"+4.294 PRA CAÇAR SEU APELIDO\" fica cortada na borda de baixo da metade de cima (só aparece a metade de cima de \"+4.294 PRA CAÇAR\", e \"SEU APELIDO\" some) e a legenda karaokê (\"QUATRO MIL PESSOAS\") passa por cima dela, então fica ilegível. Na capa de 08/11 a manchete cabia inteira.",
+ "sugestoes": [
+  "Capa (0 s): diminuir o \"TOP 10 DO GITHUB\" ou o corpo da manchete para ela caber inteira acima do avatar, e tirar a legenda karaokê de cima da manchete no quadro 0",
+  "#10 a #1 (24 s a 125 s): os números de baixo, como 212 vs +215 e 3.308 vs +3.324, são o contador animado e as pílulas 🔥 batem com o top10.json, então está ok; só os rótulos das barras ficam pequenos demais para ler no celular",
+  "#9 RuView (34 s): o cartão podia trazer o alerta de privacidade escrito, já que a fala chama o projeto de polêmico",
+  "#1 Sherlock (125 s): a frase \"use só pra se proteger\" podia aparecer no cartão, além de estar na fala",
+  "IMPACTO 7: o gancho do caça-apelidos é forte e a contagem prende, mas a manchete cortada na capa tira a força dos primeiros segundos"
+ ]
+}

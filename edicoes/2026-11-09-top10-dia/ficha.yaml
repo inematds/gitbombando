@@ -1,0 +1,98 @@
+modo: dia
+gancho:
+  tipo: estatistica
+  manchete: "+4.294 PRA CAÇAR SEU APELIDO"
+  destaque: "+4.294"
+  objeto: "uma lupa dourada gigante explodindo sobre um celular, com dezenas de ícones de perfis voando em faíscas vermelhas"
+  fontes:
+    - {nome: "github.com/trending", trecho: "sherlock-project/sherlock · 4,294 stars today"}
+    - {nome: "github.com/sherlock-project/sherlock", trecho: "Hunt down social media accounts by username across 400+ social networks"}
+abertura:
+  cena: "sala de investigação escura à noite, telas com perfis de redes sociais ligados por fios, só a luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "Quatro mil pessoas em um único dia correram atrás de um programa que caça as suas contas em mais de quatrocentas redes. Só com o seu apelido."
+  - etapa: panorama
+    fala: "Os dez que mais cresceram hoje somaram treze mil duzentas e setenta e sete estrelas. Tem Meta, Google e Anthropic no meio. Vou do décimo ao primeiro."
+    numero: "13.277"
+  - etapa: repo
+    repo: "garrytan/gbrain"
+    desc: "Uma memória pra sua IA guardar fatos com a fonte, que você controla e corrige."
+    destaque: "você controla"
+    numero: "215"
+    fala: "Abrindo em décimo, o GBrain, do chefe da Y Combinator. Ele dá à sua IA uma memória que você controla: guarda fatos com a fonte e deixa você corrigir. Duzentas e quinze estrelas."
+  - etapa: repo
+    repo: "ruvnet/RuView"
+    desc: "Usa o sinal do WiFi pra perceber pessoas, respiração e batimentos, sem câmera nenhuma."
+    destaque: "sem câmera nenhuma"
+    numero: "245"
+    fala: "Nono, e esse assusta. O RuView usa o sinal do WiFi da casa pra perceber pessoas atrás da parede, até a respiração, sem câmera nenhuma. É polêmico, cuidado com a privacidade. Duzentas e quarenta e cinco estrelas."
+  - etapa: repo
+    repo: "ZhuLinsen/daily_stock_analysis"
+    desc: "Uma IA que analisa ações todo dia, junta notícias e manda o resumo pra você, de graça."
+    destaque: "de graça"
+    numero: "505"
+    fala: "Em oitavo, um projeto chinês. Uma IA que analisa ações todo dia, lê as notícias e manda o resumo pra você, sem custo. Quinhentas e cinco estrelas."
+  - etapa: repo
+    repo: "anthropics/claude-quickstarts"
+    desc: "Da Anthropic: projetos prontos pra você criar o seu próprio app com o Claude."
+    destaque: "projetos prontos"
+    numero: "560"
+    fala: "Sétimo, a Anthropic, a empresa do Claude. O Claude Quickstarts traz projetos prontos pra você montar o seu próprio aplicativo com a IA. Quinhentas e sessenta estrelas."
+  - etapa: repo
+    repo: "google-deepmind/mujoco"
+    desc: "Do Google DeepMind: um simulador de física onde robôs aprendem a andar antes de existir."
+    destaque: "antes de existir"
+    numero: "579"
+    fala: "Logo acima, o Google DeepMind. O MuJoCo é um simulador de física onde robôs aprendem a andar e pegar coisas antes mesmo de serem construídos. Quinhentas e setenta e nove estrelas."
+  - etapa: repo
+    repo: "vercel-labs/agent-browser"
+    desc: "Dá à IA um navegador próprio pra abrir sites, clicar e preencher por você."
+    destaque: "por você"
+    numero: "914"
+    fala: "Número cinco, o Agent Browser. É um programa de terminal que entrega um navegador para a IA abrir sites, clicar e preencher formulários no seu lugar. Novecentas e catorze estrelas."
+  - etapa: repo
+    repo: "anthropics/skills"
+    desc: "Da Anthropic: as receitas oficiais que ensinam tarefas novas à IA."
+    destaque: "receitas oficiais"
+    numero: "1.052"
+    fala: "Em quarto, a Anthropic de novo. O Skills traz as receitas oficiais que ensinam o Claude a fazer tarefas novas, como planilha e apresentação. Mil e cinquenta e duas estrelas."
+  - etapa: repo
+    repo: "milind-soni/OpenMausBot"
+    desc: "Um time de robôs de IA num app de conversa, com um computador próprio pra trabalhar."
+    destaque: "computador próprio"
+    numero: "1.589"
+    fala: "E agora o pódio. Em terceiro, o OpenMausBot, que não sai do Top dez. Você conversa com um time de robôs de IA como se fossem contatos, e cada um tem um computador só dele. Mil quinhentas e oitenta e nove estrelas."
+  - etapa: repo
+    repo: "meta/astryx"
+    desc: "Da Meta: o kit de telas usado em treze mil apps internos, agora aberto e pronto pra IA."
+    destaque: "treze mil apps"
+    numero: "3.324"
+    fala: "Em segundo, a Meta abriu o cofre. O Astryx é o kit de telas que move mais de treze mil aplicativos dentro da empresa, agora de graça e pronto pra IA usar. Três mil trezentas e vinte e quatro estrelas."
+  - etapa: repo
+    repo: "sherlock-project/sherlock"
+    desc: "Procura um nome de usuário em mais de quatrocentas redes sociais e lista onde ele existe."
+    destaque: "quatrocentas redes sociais"
+    numero: "4.294"
+    fala: "E o número um é o Sherlock. Você digita um apelido e ele acha a pessoa em mais de quatrocentas redes. Ontem era terceiro. Hoje disparou. É polêmico, use só pra se proteger. Quatro mil duzentas e noventa e quatro estrelas."
+  - etapa: comentario
+    fala: "Você teria coragem de procurar o seu próprio apelido? Conta aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "treze mil duzentas e setenta e sete": "13.277"
+  "Duzentas e quinze": "215"
+  "Duzentas e quarenta e cinco": "245"
+  "Quinhentas e cinco": "505"
+  "Quinhentas e sessenta": "560"
+  "Quinhentas e setenta e nove": "579"
+  "Novecentas e catorze": "914"
+  "Mil e cinquenta e duas": "1.052"
+  "Mil quinhentas e oitenta e nove": "1.589"
+  "Três mil trezentas e vinte e quatro": "3.324"
+  "Quatro mil duzentas e noventa e quatro": "4.294"
+cores: {bombando: "#FACC15", Meta: "#FACC15", Google: "#FACC15", Anthropic: "#FACC15", Sherlock: "#ff2a1f", polêmico: "#ff2a1f", privacidade: "#ff2a1f", assusta: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Caça-apelidos dispara ao topo do GitHub com +4.294 estrelas em um dia"
+  contexto: "Top 10 do GitHub de 09/11/2026, do décimo ao primeiro, com os projetos que mais ganharam estrelas no dia. O Sherlock, que acha contas em mais de 400 redes só pelo nome de usuário, salta do terceiro para o primeiro lugar com 4.294 estrelas, e a Meta abre o Astryx em segundo."
+  telegram: "O Sherlock, que acha suas contas em mais de 400 redes só pelo apelido, disparou ao topo do GitHub com +4.294 estrelas. Em segundo, a Meta abriu o Astryx, o kit de telas de 13 mil apps internos. Anthropic, Google DeepMind e um WiFi que enxerga atrás da parede completam a lista."

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Quatro mil pessoas em um único dia correram atrás de um programa que caça as suas contas em mais de quatrocentas redes. Só com o seu apelido.",
+  "legenda": "Quatro mil pessoas em um único dia correram atrás de um programa que caça as suas contas em mais de quatrocentas redes. Só com o seu apelido."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez que mais cresceram hoje somaram treze mil duzentas e setenta e sete estrelas. Tem Meta, Google e Anthropic no meio. Vou do décimo ao primeiro.",
+  "legenda": "Os dez que mais cresceram hoje somaram 13.277 estrelas. Tem Meta, Google e Anthropic no meio. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Abrindo em décimo, o GBrain, do chefe da Y Combinator. Ele dá à sua IA uma memória que você controla: guarda fatos com a fonte e deixa você corrigir. Duzentas e quinze estrelas.",
+  "legenda": "Abrindo em décimo, o GBrain, do chefe da Y Combinator. Ele dá à sua IA uma memória que você controla: guarda fatos com a fonte e deixa você corrigir. 215 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Nono, e esse assusta. O RuView usa o sinal do WiFi da casa pra perceber pessoas atrás da parede, até a respiração, sem câmera nenhuma. É polêmico, cuidado com a privacidade. Duzentas e quarenta e cinco estrelas.",
+  "legenda": "Nono, e esse assusta. O RuView usa o sinal do WiFi da casa pra perceber pessoas atrás da parede, até a respiração, sem câmera nenhuma. É polêmico, cuidado com a privacidade. 245 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, um projeto chinês. Uma IA que analisa ações todo dia, lê as notícias e manda o resumo pra você, sem custo. Quinhentas e cinco estrelas.",
+  "legenda": "Em oitavo, um projeto chinês. Uma IA que analisa ações todo dia, lê as notícias e manda o resumo pra você, sem custo. 505 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo, a Anthropic, a empresa do Claude. O Claude Quickstarts traz projetos prontos pra você montar o seu próprio aplicativo com a IA. Quinhentas e sessenta estrelas.",
+  "legenda": "Sétimo, a Anthropic, a empresa do Claude. O Claude Quickstarts traz projetos prontos pra você montar o seu próprio aplicativo com a IA. 560 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Logo acima, o Google DeepMind. O MuJoCo é um simulador de física onde robôs aprendem a andar e pegar coisas antes mesmo de serem construídos. Quinhentas e setenta e nove estrelas.",
+  "legenda": "Logo acima, o Google DeepMind. O MuJoCo é um simulador de física onde robôs aprendem a andar e pegar coisas antes mesmo de serem construídos. 579 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Número cinco, o Agent Browser. É um programa de terminal que entrega um navegador para a IA abrir sites, clicar e preencher formulários no seu lugar. Novecentas e catorze estrelas.",
+  "legenda": "Número cinco, o Agent Browser. É um programa de terminal que entrega um navegador para a IA abrir sites, clicar e preencher formulários no seu lugar. 914 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, a Anthropic de novo. O Skills traz as receitas oficiais que ensinam o Claude a fazer tarefas novas, como planilha e apresentação. Mil e cinquenta e duas estrelas.",
+  "legenda": "Em quarto, a Anthropic de novo. O Skills traz as receitas oficiais que ensinam o Claude a fazer tarefas novas, como planilha e apresentação. 1.052 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Em terceiro, o OpenMausBot, que não sai do Top dez. Você conversa com um time de robôs de IA como se fossem contatos, e cada um tem um computador só dele. Mil quinhentas e oitenta e nove estrelas.",
+  "legenda": "E agora o pódio. Em terceiro, o OpenMausBot, que não sai do Top dez. Você conversa com um time de robôs de IA como se fossem contatos, e cada um tem um computador só dele. 1.589 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, a Meta abriu o cofre. O Astryx é o kit de telas que move mais de treze mil aplicativos dentro da empresa, agora de graça e pronto pra IA usar. Três mil trezentas e vinte e quatro estrelas.",
+  "legenda": "Em segundo, a Meta abriu o cofre. O Astryx é o kit de telas que move mais de treze mil aplicativos dentro da empresa, agora de graça e pronto pra IA usar. 3.324 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um é o Sherlock. Você digita um apelido e ele acha a pessoa em mais de quatrocentas redes. Ontem era terceiro. Hoje disparou. É polêmico, use só pra se proteger. Quatro mil duzentas e noventa e quatro estrelas.",
+  "legenda": "E o número um é o Sherlock. Você digita um apelido e ele acha a pessoa em mais de quatrocentas redes. Ontem era terceiro. Hoje disparou. É polêmico, use só pra se proteger. 4.294 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Você teria coragem de procurar o seu próprio apelido? Conta aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais.",
+  "legenda": "Você teria coragem de procurar o seu próprio apelido? Conta aqui nos comentários. Tá tudo no inema.club, e amanhã tem mais."
+ }
+]
