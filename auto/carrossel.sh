@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Carrossel diário do Bombando no GitHub (Nei, 04/11/2026: "2 carrosséis e 1 vídeo diário … 14h o carrossel, e um às 18h
-# com os tops de cada área"). Publicação direta, sem aprovação: Telegram INEMA.DEV + Instagram/TikTok inema.tds + aviso no v3.
+# com os tops de cada área"). Publicação direta, sem aprovação: Telegram INEMA.DEV + Instagram/TikTok inema.tech (marca FTD, lives3) + aviso no v3.
 # dados → textos (claude -p) → prints do README + slides → portão → revisor (claude -p) → espera a hora → publica → git.
 # uso: auto/carrossel.sh <AAAA-MM-DD> top10|area
 #   PUBLICAR_AS=HH:MM espera essa hora para publicar (o timer liga ~1h30 antes). Sem HeyGen: não disputa com o vídeo.

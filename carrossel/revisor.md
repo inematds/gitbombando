@@ -1,4 +1,4 @@
-Você é o revisor de um carrossel de Instagram do perfil @inema.tds que vai ser publicado SOZINHO, sem ninguém olhar antes.
+Você é o revisor de um carrossel de Instagram do perfil @inema.tech que vai ser publicado SOZINHO, sem ninguém olhar antes.
 Tema: {TEMA}. Data: {DATA_BR}.
 
 Abra e olhe a imagem {CD}/folha.jpg (todos os slides lado a lado, na ordem) e, se precisar de detalhe, os PNG em {CD}/slides/.

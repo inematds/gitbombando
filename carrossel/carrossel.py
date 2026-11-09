@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Carrosséis diários do Bombando no GitHub (Instagram/TikTok inema.tds + tópico no INEMA.DEV).
+"""Carrosséis diários do Bombando no GitHub (Instagram/TikTok inema.tech, marca FTD do lives3 + tópico no INEMA.DEV; Nei 09/11/2026: "carrossel no lives3, os outros no lives4").
 
 Dois tipos (Nei, 04/11/2026: "2 carrosséis e 1 vídeo diário"):
   top10  — os 10 do GitHub Trending do dia (reusa a coleta do vídeo da manhã), sai às 14h
@@ -30,11 +30,11 @@ from PIL import Image
 
 AQUI = Path(__file__).resolve().parent
 R = AQUI.parent
-CONTA = "@inema.tds"
+CONTA = "@inema.tech"
 GRUPO_TG = "INEMA.DEV"
 TOPICO_TG = R / "auto/telegram-topico-carrossel.txt"
 HIST = R / "historico/carrossel-area.jsonl"
-AGENDA = "Todo dia no <b>@inema.tds</b>: <b>11h</b> vídeo · <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+AGENDA = "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
 ICONES = {"zap", "video", "image", "mic", "code", "terminal", "bot", "brain", "shield", "lock", "search", "globe", "layers",
           "clock", "cpu", "database", "wand", "chart", "folder", "link", "chat", "download"}
 PROIBIDO = re.compile(r"revolucion|incrível|inacreditável|insano|mude sua vida|!!|\bmort[eoa]s?\b|\btu\b|\bteu\b", re.I)
@@ -333,7 +333,7 @@ def telegram(cd, d, S, t, titulo):
 
 
 def metritds(cd, d, S, leg, titulo):
-    """carrossel no Instagram + TikTok (modo foto) inema.tds pelo Metricool da conta inematds (claude -p, assinatura)"""
+    """carrossel no Instagram + TikTok (modo foto) inema.tech (marca FTD) pelo Metricool da conta inematds (claude -p, assinatura)"""
     marca = cd / "metritds.txt"
     if marca.exists() and not os.environ.get("RASCUNHO") and not os.environ.get("FORCAR"):
         log("metritds: já agendado"); return {"ok": True, "redes": marca.read_text().splitlines()[1:2]}
@@ -359,7 +359,7 @@ def metritds(cd, d, S, leg, titulo):
     quando = time.strftime("%Y-%m-%dT%H:%M:00", time.gmtime(alvo))   # UTC (lição do metricool-pub2)
     rascunho = "true" if os.environ.get("RASCUNHO") else "false"
     pedido = f"""Use só as ferramentas do servidor MCP metricool-inematds.
-1) getBrandSettings: pegue o blogId da marca (label inema.tds) e veja em networksData se instagram e tiktok estão conectados.
+1) getBrandSettings: use a marca FTD (blogId 7908265, Instagram + TikTok inema.tech) e veja em networksData se instagram e tiktok estão conectados.
 2) createScheduledPost UMA vez com as redes conectadas (das duas) em providers. É um CARROSSEL DE IMAGENS (não vídeo):
    date = {quando}Z ; publicationDate = {{dateTime: "{quando}", timezone: "UTC"}}
    media = {json.dumps(urls)} (nesta ordem, todas)
@@ -401,7 +401,7 @@ def cmd_publicar(cd):
               f"ok · {', '.join(res.get('redes', []))}" + (" (RASCUNHO)" if os.environ.get("RASCUNHO") else "") if res.get("ok")
               else f"⚠ NÃO AGENDOU: {res.get('erro', '')[:200]}")
     msg = (f"{faixa}\n🔵 CARROSSEL PUBLICADO DIRETO · {titulo}\n{faixa}\n"
-           f"Telegram {GRUPO_TG}: {tg_txt}\nInstagram/TikTok inema.tds: {mt_txt}"
+           f"Telegram {GRUPO_TG}: {tg_txt}\nInstagram/TikTok inema.tech (FTD): {mt_txt}"
            + (f"\nAinda não conectadas: {', '.join(res['faltam'])}" if res.get("faltam") else "")
            + f"\n{len(S['slides']) + 2} slides · revisor: {rev.get('veredito', '?')}"
            + (f"\n🟥 SUGESTÃO: {rev['sugestao'][:300]}" if rev.get("sugestao") else ""))

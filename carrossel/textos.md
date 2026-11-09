@@ -1,4 +1,4 @@
-Você escreve os textos de um CARROSSEL de Instagram do perfil @inema.tds (INEMA.CLUB, cursos grátis de IA).
+Você escreve os textos de um CARROSSEL de Instagram do perfil @inema.tech (INEMA.CLUB, cursos grátis de IA).
 Tema: {TEMA}. Data: {DATA_BR}.
 
 Leia {CD}/dados.json. Para cada item tem: nome (dono/repo), descricao_en, readme (começo do README), topicos, linguagem
