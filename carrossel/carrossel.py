@@ -202,15 +202,15 @@ def cmd_montar(cd):
         capa = {"linha1": "TOP 10", "linha2": "DO GITHUB HOJE", "numero": f"+{br(d['soma'])}",
                 "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas"}
         serie = "TOP 10 DO GITHUB"
-        fecho = {"titulo_a": "Os 10 links estão", "titulo_b": "na legenda.",
-                 "texto": "Salve este post para testar com calma e mande para quem vive de tecnologia."}
+        fecho = {"titulo_a": "Os 10 nomes estão", "titulo_b": "na legenda.",
+                 "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia."}
     else:
         capa = {"linha1": f"TOP {n}", "linha2": d["area"]["nome"],
                 "numero": f"+{br(sum(it['por_dia'] for it in d['itens']))}",
                 "numero_rotulo": f"estrelas por dia, somando os {n} (criados nos últimos meses)"}
         serie = f"TOP {n} · {d['area']['nome']}"
-        fecho = {"titulo_a": f"Os {n} links estão", "titulo_b": "na legenda.",
-                 "texto": f"Salve para testar depois. Amanhã tem outra área, sempre às 18h."}
+        fecho = {"titulo_a": f"Os {n} nomes estão", "titulo_b": "na legenda.",
+                 "texto": f"Busque o nome no GitHub. Salve para testar depois. Amanhã tem outra área, sempre às 18h."}
     capa |= {"manchete": t["capa"]["manchete"].upper(), "destaque": (t["capa"].get("destaque") or "").upper(), "fundo": fundo}
     fecho["agenda"] = AGENDA
     S = {"tipo": d["tipo"], "serie": serie, "conta": CONTA, "data_br": data_br(d), "capa": capa, "slides": slides, "fecho": fecho}
@@ -286,8 +286,8 @@ def cmd_fazer(cd, tipo, dia=None):
 
 # ------------------------------------------------------------------ publicar
 def textos_pub(cd, d, S, t):
-    """legenda do Instagram/TikTok e post do Telegram, com os links"""
-    links = "\n".join(f"{s['pos']}. {s['nome']} — {s['url']}" for s in S["slides"])
+    """legenda do Instagram/TikTok (Metricool): só os nomes, SEM link (regra do Nei 05/11/2026; os links ficam no Telegram)"""
+    links = "\n".join(f"{s['pos']}. {s['nome']}" for s in S["slides"])
     titulo = (f"Top 10 do GitHub · {S['data_br']}" if d["tipo"] == "top10"
               else f"Top {len(S['slides'])} do GitHub · {d['area']['curto']} · {S['data_br']}")
     leg = (f"{titulo}\n\n{t['legenda_abertura'].strip()}\n\n{links}\n\nCursos grátis de IA em inema.club\n"
