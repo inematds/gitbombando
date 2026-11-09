@@ -23,7 +23,7 @@ R = Path(__file__).resolve().parent
 sys.path.insert(0, str(R))
 from nucleo import cartao, cena as CENA, pecas, retempo as RT, ritmo as RITMO  # noqa: E402
 
-VERSAO = "1.2.0"
+VERSAO = "1.3.0"
 CANAL = os.environ.get("GB_CANAL", "lives4")
 PERFIL = Path(os.environ.get("R7X_HEYGEN_PERFIL", Path.home() / ".cache/inemaccbot/perfil-heygen"))
 TEMPLATE_HEYGEN = os.environ.get("R7X_HEYGEN_TEMPLATE", "TEMPLATE-AVATAR16")
@@ -34,7 +34,9 @@ PERIODO = {"dia": "HOJE", "semana": "NA SEMANA", "mes": "NO MÊS"}
 UNID = {"dia": "⭐ HOJE", "semana": "⭐ NA SEMANA", "mes": "⭐ NO MÊS"}
 ANTES = {"dia": "ONTEM", "semana": "HÁ 7 DIAS", "mes": "HÁ 30 DIAS"}
 DIAS_CURVA = {"semana": 7, "mes": 30}   # curva "total por dia" precisa de um ponto por dia do período inteiro
-NOME = {"dia": "Top 10 do dia", "semana": "Top 10 da semana", "mes": "Top 10 do mês"}
+NOME_P = {"dia": "do dia", "semana": "da semana", "mes": "do mês"}
+def nome(d):   # 09/11/2026: Top N (5 a 10) — o Trending às vezes traz menos de 10 projetos
+    return f"Top {len(d['top10'])} {NOME_P[d['modo']]}"
 PROIBIDO = re.compile(r"\b(tu|teu|tua|teus|tuas|contigo|segue o canal|se inscreve|inscreva-se|mort[eoa]s?|morreu|óbitos?)\b", re.I)
 ESTILO = ("Estilo foto cinematográfica realista de impacto, como pôster de filme: UM único objeto ou assunto principal, grande, "
           "na metade de CIMA do quadro, numa AÇÃO ou estado dramático; luz dramática de cinema (foco forte ou contraluz com "
@@ -85,17 +87,18 @@ def cmd_checar(pasta):
     p, f, d = ler(pasta)
     modo = d["modo"]; erros = []
     P = f.get("partes") or []
-    if len(P) != 13:
-        erros.append(f"são {len(P)} partes; o formato é 13 (gancho, panorama, os 10 projetos do #10 ao #1, comentário)")
+    N = len(d["top10"])
+    if len(P) != N + 3:
+        erros.append(f"são {len(P)} partes; o formato é {N + 3} (gancho, panorama, os {N} projetos do #{N} ao #1, comentário)")
     else:
         if P[0].get("etapa") != "gancho" or P[1].get("etapa") != "panorama" or P[-1].get("etapa") != "comentario":
-            erros.append("ordem: parte 1 = gancho, 2 = panorama, 3–12 = repo, 13 = comentario")
+            erros.append(f"ordem: parte 1 = gancho, 2 = panorama, 3–{N + 2} = repo, {N + 3} = comentario")
         rp = repos(d)
         esperado = [x["nome"] for x in sorted(d["top10"], key=lambda x: -x["pos"])]   # contagem regressiva #10 → #1
-        vistos = [x.get("repo") for x in P[2:12]]
+        vistos = [x.get("repo") for x in P[2:N + 2]]
         if vistos != esperado:
-            erros.append(f"partes 3–12 têm de ser os projetos do #10 ao #1 na ordem: {esperado} (veio {vistos})")
-        for i, x in enumerate(P[2:12], 3):
+            erros.append(f"partes 3–{N + 2} têm de ser os projetos do #{N} ao #1 na ordem: {esperado} (veio {vistos})")
+        for i, x in enumerate(P[2:N + 2], 3):
             if x.get("etapa") != "repo":
                 erros.append(f"parte {i}: etapa deve ser repo")
             desc = str(x.get("desc") or "")
@@ -154,7 +157,7 @@ def cmd_checar(pasta):
 def ficha_motor(p, f, d):
     """completa a ficha que o motor (nucleo/cena.py) entende: telas, painéis com contador e gráfico, fonte, selo, cta"""
     modo = d["modo"]; rp = repos(d); data_br = dt.date.fromisoformat(d["dia"]).strftime("%d/%m/%Y")
-    M = {"marca": "INEMA · BOMBANDO NO GITHUB", "selo": f"TOP 10 {PERIODO[modo]}",
+    M = {"marca": "INEMA · BOMBANDO NO GITHUB", "selo": f"TOP {len(d['top10'])} {PERIODO[modo]}",
          "fonte": f"<b>github.com/trending</b> · estrelas ganhas {PERIODO[modo].lower()} · {data_br}",
          "gancho": f["gancho"], "abertura": f["abertura"], "trocas": f.get("trocas") or {}, "cores": f.get("cores") or {},
          "cta": {**f["cta"], "de": f["cta"].get("de") or f["partes"][-1]["fala"].split()[0].strip(",.?!:;")}, "club": f.get("club") or "aprenda a usar IA de verdade", "partes": []}
@@ -162,7 +165,7 @@ def ficha_motor(p, f, d):
         q = {"fala": x["fala"]}
         if x["etapa"] == "panorama":
             q["tela"] = "prints/ranking.png"; q["selo_tela"] = "github.com/trending"
-            q["painel"] = {"k": f"10 PROJETOS · {PERIODO[modo]}", "borda": "am",
+            q["painel"] = {"k": f"{len(d['top10'])} PROJETOS · {PERIODO[modo]}", "borda": "am",
                            "contador": {"ate": d["soma_periodo"], "unid": "ESTRELAS", "desde_inicio": True, **({"em": x["numero"]} if x.get("numero") else {})}}
         elif x["etapa"] == "repo":
             it = rp[x["repo"]]
@@ -190,7 +193,7 @@ def ficha_motor(p, f, d):
     if f.get("ritmo"):
         M["ritmo"] = f["ritmo"]
     else:   # a pausa (~0,75 s, silêncio) vem antes do #1: o suspense da contagem regressiva
-        M["ritmo"] = {"pausa_antes": {"parte": 12, "de": f["partes"][11]["fala"].split()[0].strip(",.:;!?")}}
+        M["ritmo"] = {"pausa_antes": {"parte": len(d["top10"]) + 2, "de": f["partes"][len(d["top10"]) + 1]["fala"].split()[0].strip(",.:;!?")}}
     return M
 
 
@@ -220,11 +223,11 @@ def cmd_imagens(pasta):
                   f"abertura.png — capa de impacto (é a capa do vídeo: tem de funcionar parada, num relance): {a['cena']}. "
                   f"No centro da cena, grande e nítido, o objeto-metáfora: {g['objeto']}. "
                   f"Texto ESCRITO DENTRO da arte, em CAIXA ALTA, português, fonte bold sem serifa bem grossa, em dois blocos colados, um sobre o outro. "
-                  "BLOCO 1 (a chamada principal, a MAIOR coisa do quadro, ocupa quase toda a largura): \"TOP 10 DO GITHUB\" em 2 linhas "
-                  "(\"TOP 10\" gigante em amarelo #FACC15; \"DO GITHUB\" logo abaixo, grande, em branco). "
+                  f"BLOCO 1 (a chamada principal, a MAIOR coisa do quadro, ocupa quase toda a largura): \"TOP {len(d['top10'])} DO GITHUB\" em 2 linhas "
+                  f"(\"TOP {len(d['top10'])}\" gigante em amarelo #FACC15; \"DO GITHUB\" logo abaixo, grande, em branco). "
                   f"BLOCO 2 (a manchete, bem menor que o bloco 1, mas ainda grande e legível): \"{g['manchete']}\" — em branco, MENOS a palavra "
                   f"\"{g['destaque']}\", em amarelo #FACC15, em 1 a 2 linhas. "
-                  "Os dois blocos ficam na METADE DE CIMA, entre 6% e 50% da altura, com margem de 7% nas laterais (nada encosta na borda); "
+                  "Os dois blocos ficam na METADE DE CIMA, entre 6% e 42% da altura (a manchete termina ACIMA de 42%), com margem de 7% nas laterais (nada encosta na borda); "
                   "a metade de baixo sem texto (ali entra o rosto). Contraste alto: letra legível em tamanho de miniatura. "
                   "Confira a grafia exata, com acentos; nenhuma outra palavra na imagem além desses dois blocos.\n\nNão mexa em nenhum outro arquivo. "
                   "Ao final, liste o arquivo salvo.\n")
@@ -240,7 +243,7 @@ def cmd_imagens(pasta):
             falha("o Codex não gerou capa/abertura.png (capa/codex.log)")
     pecas.vertical(capa / "abertura.png")
     pecas.abertura(capa / "abertura.png")
-    log("imagens OK (capa, ranking, 10 cartões, print do inema.club)")
+    log(f"imagens OK (capa, ranking, {len(d['top10'])} cartões, print do inema.club)")
 
 
 # ------------------------------------------------------------------ avatar (estúdio HeyGen, assinatura)
@@ -378,9 +381,10 @@ def cmd_publicar(pasta):
     url = ""
     if not os.environ.get("SEM_YT"):
         tit = pub["titulo"][:88] + " #Shorts"
-        ctx = (f"Short '{NOME[modo]}' do GitHub ({data_br}) do INEMA com Nei Maldaner: os 10 projetos que mais ganharam estrelas "
-               f"{PERIODO[modo].lower()} no GitHub Trending, do #10 ao #1. {pub.get('contexto', '')} Fonte: github.com/trending. "
-               "Links dos 10 projetos na descrição. Curso gratuito em https://inema.club.")
+        N = len(d["top10"])
+        ctx = (f"Short '{nome(d)}' do GitHub ({data_br}) do INEMA com Nei Maldaner: os {N} projetos que mais ganharam estrelas "
+               f"{PERIODO[modo].lower()} no GitHub Trending, do #{N} ao #1. {pub.get('contexto', '')} Fonte: github.com/trending. "
+               f"Links dos {N} projetos na descrição. Curso gratuito em https://inema.club.")
         links = "\n".join(f"#{x['pos']} {x['nome']} — https://github.com/{x['nome']}" for x in sorted(d["top10"], key=lambda x: x["pos"]))
         (p / "yt.txt").write_text(pub["titulo"] + "\n\n" + links + "\n")
         with open(p / "publicar.log", "w") as lg:
@@ -394,7 +398,7 @@ def cmd_publicar(pasta):
                                                     f"⚠ NÃO publicou no {CANAL} (ver publicar.log)")
     rev = json.loads((p / "revisao.json").read_text()) if (p / "revisao.json").exists() else {}
     sug = rev.get("sugestoes") or []
-    leg = (f"Bombando no GitHub · {NOME[modo]} · {data_br} · {duracao(v):.0f}s\n{st}\n" +
+    leg = (f"Bombando no GitHub · {nome(d)} · {data_br} · {duracao(v):.0f}s\n{st}\n" +
            (("🟥 SUGESTÃO: " + " | ".join(sug)[:500] + "\n") if sug else "") + pub["titulo"])
     (p / "v3-resumo.txt").write_text(leg + "\n")   # vai dentro da mensagem azul do metritds (Nei, 01/11/2026: publicação direta = só a azul no v3)
     if not os.environ.get("SEM_BOT") and os.environ.get("GB_V3_VIDEO"):
@@ -414,8 +418,8 @@ def telegram(p, f, d, url):
     v = p / "video.mp4"; thumb = p / "video.jpg"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "0.5", "-i", v, "-frames:v", "1", "-vf", "scale=320:-1", thumb], check=False)
     rp = repos(d)
-    linhas = [f"🔥 **{NOME[modo]} · {data_br}**", "", f["publicar"]["telegram"].strip(), "", "[[img:" + str(v) + "]]", "---",
-              "🏆 **Os 10 que mais ganharam estrelas**"]
+    linhas = [f"🔥 **{nome(d)} · {data_br}**", "", f["publicar"]["telegram"].strip(), "", "[[img:" + str(v) + "]]", "---",
+              f"🏆 **Os {len(d['top10'])} que mais ganharam estrelas**"]
     for x in sorted(d["top10"], key=lambda x: x["pos"]):
         desc = next((q.get("desc") for q in f["partes"] if q.get("repo") == x["nome"]), "") or ""
         linhas.append(f"{x['pos']}. **{x['nome']}** · +{br(x['estrelas_periodo'])} ⭐ — {desc}\n   https://github.com/{x['nome']}")
@@ -425,7 +429,7 @@ def telegram(p, f, d, url):
     md = p / "telegram.md"; md.write_text("\n".join(linhas) + "\n")
     cmd = [str(tg / "venv/bin/python"), "postar_topico.py", "--grupo", "INEMA.TOOLS", "--texto", str(md), "--enviar"]
     if arq_top.exists():
-        cmd += ["--topico", arq_top.read_text().strip(), "--titulo", f"{NOME[modo]} · {data_br}"]
+        cmd += ["--topico", arq_top.read_text().strip(), "--titulo", f"{nome(d)} · {data_br}"]
     else:
         cmd += ["--titulo", "BOMBANDO NO GITHUB - Top 10 diário", "--capa", str(p / "capa/abertura-desce.png"),
                 "--fonte", "📟 Gerado todo dia às 16h pelo gitbombando (github.com/trending)"]

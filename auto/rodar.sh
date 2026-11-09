@@ -54,8 +54,10 @@ PREV=$(ls -d "$RAIZ"/edicoes/*-"$SUF" 2>/dev/null | grep -vx "$ED" | sort | tail
 if [ -s "$ED/ficha.yaml" ] && [ "${REUSAR:-}" = 1 ] && python3 "$RAIZ/gb.py" checar "$ED" >/dev/null 2>&1; then echo "reusando ficha.yaml"
 else
   rm -f "$ED/ERRO.txt" "$ED/ficha.yaml"
+  N=$(python3 -c "import json;print(len(json.load(open('$ED/pesquisa/top10.json'))['top10']))")   # 5 a 10 (09/11/2026)
   PROMPT=$(sed -e "s|{ED}|$ED|g" -e "s|{PREV}|$PREV|g" -e "s|{RAIZ}|$RAIZ|g" -e "s|{DATA_BR}|$DATA_BR|g" -e "s|{MODO}|$MODO|g" \
-               -e "s|{NOME_MODO}|$NOME_MODO|g" -e "s|{PERIODO}|$PERIODO|g" "$RAIZ/auto/roteiro.md")
+               -e "s|{NOME_MODO}|$NOME_MODO|g" -e "s|{PERIODO}|$PERIODO|g" \
+               -e "s|{N}|$N|g" -e "s|{N2}|$((N + 2))|g" -e "s|{N3}|$((N + 3))|g" "$RAIZ/auto/roteiro.md")
   ( cd "$ED" && timeout 3600 env -u ANTHROPIC_API_KEY claude -p "$PROMPT" --permission-mode bypassPermissions \
       --add-dir "$RAIZ" > "$ED/claude.log" 2>&1 ) || echo "claude -p saiu com erro"
   [ -f "$ED/ERRO.txt" ] && avisar "o roteiro não saiu: $(head -c 400 "$ED/ERRO.txt")"

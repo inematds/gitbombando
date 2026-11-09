@@ -11,6 +11,7 @@ ordenados pelas estrelas por dia desde a criação. Ficam de fora os que já sa�
 import base64
 import datetime as dt
 import json
+import os
 import re
 import subprocess
 import sys
@@ -89,6 +90,28 @@ def buscar(area, dia, dias_criado):
     return achados
 
 
+def no_tema(area, itens, n=16):
+    """09/11/2026 (revisor + Nei): android-ad-cleaner (removedor de anúncios) entrou em "agentes" só porque se marcou
+    ai-agent. O claude -p (assinatura) olha os n primeiros e diz quais fogem do tema. Falhou → lista intacta."""
+    import os
+    cand = [{"nome": it["nome"], "descricao": it["descricao_en"][:200], "topicos": it["topicos"][:10]} for it in itens[:n]]
+    pedido = (f"Tema da lista: {area['curto']} ({area['nome']}). Para cada repositório abaixo, decida se ele É sobre esse tema "
+              "(o propósito principal do projeto, não só uma etiqueta ou um recurso secundário). Na dúvida, fica.\n"
+              f"{json.dumps(cand, ensure_ascii=False)}\n"
+              'Responda APENAS uma linha JSON, sem crase: {"fora": ["dono/repo", ...], "motivo": {"dono/repo": "frase curta"}}')
+    try:
+        r = subprocess.run(["claude", "-p", pedido], capture_output=True, text=True, timeout=300,
+                           env={k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"})
+        j = json.loads(re.search(r"\{.*\}", r.stdout, re.S).group(0))
+        fora = set(j.get("fora") or [])
+    except Exception as e:  # noqa: BLE001
+        log(f"filtro de tema falhou ({e}); segue sem filtro"); return itens
+    for nome in fora:
+        log(f"fora do tema: {nome} — {(j.get('motivo') or {}).get(nome, '')}")
+    resto = [it for it in itens if it["nome"] not in fora]
+    return resto if len(resto) >= QTD else itens
+
+
 def readme(nome):
     try:
         rd = json.loads(gh(f"repos/{nome}/readme"))
@@ -128,6 +151,8 @@ def main(a):
                       "dono_foto": j["owner"].get("avatar_url"), "default_branch": j.get("default_branch") or "main",
                       "url": j.get("html_url")})
     itens.sort(key=lambda x: -x["por_dia"])
+    if os.environ.get("GB_SEM_FILTRO_TEMA") != "1":
+        itens = no_tema(area, itens)
     top = itens[:QTD]
     for k, it in enumerate(top, 1):
         it["pos"] = k

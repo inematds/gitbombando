@@ -1,5 +1,16 @@
 # CHANGELOG — gitbombando
 
+## 1.3.0 — 09/11/2026
+- Coleta: github.com sem login dá 504 → tenta com o login do Firefox do servidor; Trending com menos de 10 espera até 1 h e
+  segue com Top N (5 a 10) — vídeo, roteiro, portão, ranking, selo e carrossel contam N.
+- Vídeo gera às 09:00 (era 06:30) e publica às 11:00; semana às 13:00 e mês às 15:00 (YouTube e Metricool).
+- Capa: quando título + manchete passam de 600 px, mede pelo TOP 10 amarelo e sobe a arte (manchete não cai atrás do avatar).
+- Whisper: tapa-buraco retranscreve só o buraco (pulava o pódio de novo).
+- Carrossel: vai para o Instagram/TikTok inema.tech (marca FTD, lives3); legenda sem link; gancho encolhe até caber;
+  lista do fecho com reticências; QR code legível no README é descartado; cartão INEMA quando falta imagem;
+  filtro de tema da área (`claude -p`) tira projeto que só usa a etiqueta.
+- Revisores: defeito pequeno que não atrapalha entender vira sugestão e a peça segue (Nei: "pouca coisa, deixa rodar").
+
 ## 1.2.0 — 04/11/2026
 - Dois carrosséis diários (`carrossel/`, `auto/carrossel.sh`): Top 10 do GitHub às 14h e Top da área às 18h (uma área por dia da
   semana, busca por tópico na API do GitHub). Slide no estilo "repositório da semana": gancho, print do README, o que é, 2

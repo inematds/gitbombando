@@ -64,7 +64,7 @@ def data_br(d):
 
 def tema(d):
     if d["tipo"] == "top10":
-        return "os 10 projetos que mais ganharam estrelas hoje no GitHub (Top 10 do dia)"
+        return f"os {len(d['itens'])} projetos que mais ganharam estrelas hoje no GitHub (Top {len(d['itens'])} do dia)"
     return f"os {len(d['itens'])} repositórios que mais crescem no GitHub na área {d['area']['curto']}"
 
 
@@ -199,10 +199,10 @@ def cmd_montar(cd):
     fundo += [s["print"] for s in slides if s["print"] not in fundo][: 12 - len(fundo)]
     n = len(slides)
     if d["tipo"] == "top10":
-        capa = {"linha1": "TOP 10", "linha2": "DO GITHUB HOJE", "numero": f"+{br(d['soma'])}",
-                "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas"}
-        serie = "TOP 10 DO GITHUB"
-        fecho = {"titulo_a": "Os 10 nomes estão", "titulo_b": "na legenda.",
+        capa = {"linha1": f"TOP {n}", "linha2": "DO GITHUB HOJE", "numero": f"+{br(d['soma'])}",
+                "numero_rotulo": f"estrelas ganhas pelos {n} em 24 horas"}
+        serie = f"TOP {n} DO GITHUB"
+        fecho = {"titulo_a": f"Os {n} nomes estão", "titulo_b": "na legenda.",
                  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia."}
     else:
         capa = {"linha1": f"TOP {n}", "linha2": d["area"]["nome"],
@@ -219,17 +219,18 @@ def cmd_montar(cd):
     # portão do desenho
     rel = json.loads((cd / "relatorio.json").read_text())
     erros = []
+    leves = []   # defeito pequeno: não barra; o revisor olha a imagem e decide (Nei, 09/11/2026: "pouca coisa, deixa rodar")
     for p in rel["paginas"]:
         for c in p["caixas"]:
             if c["estourou"]:
-                erros.append(f"{p['nome']}: texto não coube ({c['classe']})")
+                leves.append(f"{p['nome']}: texto não coube ({c['classe']})")
         if p["fora"]:
             erros.append(f"{p['nome']}: passou do fim da página ({p['fora']})")
         for i in p["imagens"]:
             if not i["ok"]:
                 erros.append(f"{p['nome']}: imagem quebrada ({i['src']})")
         if p["altura_print"] is not None and p["altura_print"] < 250:
-            erros.append(f"{p['nome']}: print espremido ({p['altura_print']} px)")
+            leves.append(f"{p['nome']}: print espremido ({p['altura_print']} px)")
         if "Sora" not in p["fontes"]:
             erros.append(f"{p['nome']}: fonte Sora não carregou")
     pngs = sorted((cd / "slides").glob("*.png"))
@@ -239,6 +240,9 @@ def cmd_montar(cd):
         if Image.open(p).size != (1080, 1350):
             erros.append(f"{p.name}: tamanho errado")
     folha(cd, pngs)
+    if leves:
+        (cd / "avisos.txt").write_text("\n".join(leves) + "\n")
+        log("avisos leves (o revisor decide):", "; ".join(leves)[:300])
     if erros:
         falha("; ".join(erros)[:800])
     log(f"montado: {len(pngs)} slides, portão OK")
@@ -288,7 +292,7 @@ def cmd_fazer(cd, tipo, dia=None):
 def textos_pub(cd, d, S, t):
     """legenda do Instagram/TikTok (Metricool): só os nomes, SEM link (regra do Nei 05/11/2026; os links ficam no Telegram)"""
     links = "\n".join(f"{s['pos']}. {s['nome']}" for s in S["slides"])
-    titulo = (f"Top 10 do GitHub · {S['data_br']}" if d["tipo"] == "top10"
+    titulo = (f"Top {len(S['slides'])} do GitHub · {S['data_br']}" if d["tipo"] == "top10"
               else f"Top {len(S['slides'])} do GitHub · {d['area']['curto']} · {S['data_br']}")
     leg = (f"{titulo}\n\n{t['legenda_abertura'].strip()}\n\n{links}\n\nCursos grátis de IA em inema.club\n"
            f"#github #opensource #ia #programacao #inemaclub")

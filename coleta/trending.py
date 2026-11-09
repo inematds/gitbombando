@@ -205,16 +205,19 @@ def main(a):
     lista = trending(modo)
     log(f"trending {modo}: {len(lista)} projetos na página")
     # 09/11/2026: às 06:30 a página do dia tinha só 9 projetos; horas depois tinha 11. Espera e tenta de novo
-    # (até ~2 h, ainda antes da publicação das 11h). GB_ESPERA_TRENDING=0 desliga (testes).
-    for _ in range(int(os.environ.get("GB_ESPERA_TRENDING", "6"))):
+    # (até 1 h: a rodada começa às 09:00 e publica às 11:00). GB_ESPERA_TRENDING=0 desliga (testes).
+    for _ in range(int(os.environ.get("GB_ESPERA_TRENDING", "3"))):
         if len(lista) >= 10:
             break
         log("menos de 10 projetos; tentando de novo em 20 min")
         time.sleep(1200)
         lista = trending(modo)
         log(f"trending {modo}: {len(lista)} projetos na página")
+    # Nei 09/11/2026: "se não tiver 10, pode ser acima de 5" → Top N com N de 5 a 10
+    if len(lista) < 5:
+        raise SystemExit(f"o Trending trouxe só {len(lista)} projetos (mínimo 5; página fora do ar ou mudou)")
     if len(lista) < 10:
-        raise SystemExit(f"o Trending trouxe só {len(lista)} projetos (página fora do ar ou mudou)")
+        log(f"seguindo com Top {len(lista)} (menos de 10 no Trending)")
     # Top 10 = os projetos do Trending com MAIS estrelas ganhas no período (a ordem do próprio Trending mistura outros sinais
     # e o gráfico ficava sem sentido: o 1º com 1.068 e o 4º com 2.371, 28/10/2026)
     for it in lista:

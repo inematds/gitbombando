@@ -128,6 +128,6 @@ def cartao_ranking(top, modo, data_br, saida):
                       f'<span class="nm">{html.escape(x["repo"])}</span><span class="bar"><i style="width:{100 * x["estrelas_periodo"] / mx:.1f}%"></i></span>'
                       f'<span class="v">+{br(x["estrelas_periodo"])}</span></div>')
     tit = {"dia": "BOMBANDO <b>HOJE</b>", "semana": "BOMBANDO <b>NA SEMANA</b>", "mes": "BOMBANDO <b>NO MÊS</b>"}[modo]
-    corpo = (f'<div class="rot">TOP 10 GITHUB · {data_br}</div><div class="tit" style="font-size:{TAM_TIT[modo]}px">{tit}</div>'
+    corpo = (f'<div class="rot">TOP {len(top)} GITHUB · {data_br}</div><div class="tit" style="font-size:{TAM_TIT[modo]}px">{tit}</div>'
              f'<div class="lista">{"".join(linhas)}</div><div class="fonte">⭐ estrelas ganhas {PERIODO[modo].lower()} · fonte: github.com/trending</div>')
     return fotografar(BASE.replace("%CSS%", CSS_RANK).replace("%CORPO%", corpo), saida)

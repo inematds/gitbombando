@@ -25,12 +25,37 @@ def vertical(p):
 MANCHETE_FUNDO = 800   # gitbombando 04/11/2026: a manchete termina acima daqui (a legenda do gancho fica ~860 px; o avatar, ~960 px)
 
 
+def blocos_texto(im):
+    """(x0, topo, x1, fundo) do texto da capa: topo = 1ª faixa amarela com 60+ linhas seguidas (letras do TOP 10),
+    fundo = última linha com muita letra clara (até 1300 px). None se não achar."""
+    import numpy as np
+    a = np.asarray(im.convert("RGB")).astype(int)
+    r, g, b = a[..., 0], a[..., 1], a[..., 2]
+    txt = (np.minimum(np.minimum(r, g), b) > 225) | ((r > 200) & (g > 170) & (b < 90))
+    ama = ((r > 200) & (g > 170) & (b < 90))[:, 60:W - 60].sum(1) > 350
+    topo, k = None, 0
+    for y, v in enumerate(ama):
+        k = k + 1 if v else 0
+        if k >= 60:
+            topo = y - 59; break
+    linhas = np.where(txt[:, 100:W - 100].sum(1) > 150)[0]
+    linhas = linhas[linhas < 1300]
+    if topo is None or not len(linhas):
+        return None
+    return (0, int(topo), W, int(linhas.max()))
+
+
 def abertura(p, dy=110):
     """desce a abertura 110 px com degradê no alto: o título não bate na faixa do topo → abertura-desce.png
     04/11/2026: se a manchete escrita na arte terminar baixo demais, desce menos (ou sobe, até 200 px): a manchete
     descia para trás do avatar e a legenda do gancho cobria "DO GITHUB" (revisor, semana 04/11)."""
     im = Image.open(vertical(p)).convert("RGB")
     _, cx = manchete(im)
+    if not cx:
+        # 09/11/2026: título + manchete com 600+ px de altura → manchete() desistia e a arte descia 110 px, jogando a
+        # manchete para trás do avatar ("+4.294 PRA CAÇAR SEU APELIDO" cortada). Topo = 1ª faixa amarela grossa (TOP 10),
+        # fundo = última linha de letra clara. Nas 14 capas antigas nunca desce mais que a regra velha.
+        cx = blocos_texto(im)
     if cx:
         # o topo do texto nunca sobe para a faixa da marca (< 120 px): arte dourada brilhante (cofre, 04/11) engana o detector
         dy = max(-200, 120 - cx[1], min(dy, MANCHETE_FUNDO - cx[3]))

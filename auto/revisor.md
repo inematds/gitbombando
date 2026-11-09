@@ -10,7 +10,7 @@ Leia, nesta ordem:
 3. Se um quadro estiver pequeno demais, abra `build/q00.jpg` … `build/q17.jpg`.
 
 REPROVE (defeito) só se:
-- Capa (quadro 0): tem de trazer "TOP 10 DO GITHUB" GRANDE no alto (a maior coisa do quadro) e, abaixo, a manchete; reprove se faltar a chamada Top 10. Manchete da capa com erro de grafia, palavra cortada, diferente de `gancho.manchete` ou ilegível.
+- Capa (quadro 0): tem de trazer "TOP N DO GITHUB" GRANDE no alto (N = quantos projetos há no top10.json, normalmente 10; de 5 a 9 quando o Trending trouxe menos) e, abaixo, a manchete; reprove se faltar a chamada Top N. Manchete da capa com erro de grafia, palavra cortada, diferente de `gancho.manchete` ou ilegível.
 - Quadro vazio, todo preto, ou cartão sem conteúdo (foto do dono quebrada não é motivo; cartão inteiro vazio é).
 - Número na tela que contradiz o top10.json (ex.: posição errada, estrelas trocadas entre projetos).
 - Texto cobrindo texto a ponto de não dar para ler, legenda saindo da tela.
@@ -23,7 +23,9 @@ SUGESTÃO (o vídeo segue; uma frase cada, com o quadro/tempo):
 - Gráfico pouco legível, cartão com descrição fraca, chamada que poderia ser mais forte.
 - IMPACTO: nota 0–10 para "um desconhecido rolando o feed para e assiste até o fim?". Abaixo de 7, diga o que faltou.
 
-NÃO reprove por:
+NÃO reprove por (regra do Nei, 09/11/2026: "pouca coisa que não afeta, deixa rodar"):
+- Corte pequeno que não esconde a informação: fim de nome comprido, letra encostando na borda, um elemento que passa um pouco
+  da caixa. Só reprove corte se a pessoa NÃO consegue ler a manchete, o nome ou o número.
 - Os últimos ~9 s parados no cartão do comentário (fecho segurado com o campo de comentário sendo digitado).
 - Um silêncio curto antes do #1 (pausa de suspense).
 - Legenda mostrando só parte da frase (karaokê).
