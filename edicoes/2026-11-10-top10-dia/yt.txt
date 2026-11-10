@@ -1,0 +1,12 @@
+A Meta abriu o kit de 13 mil apps e o GitHub explodiu: +3.111 estrelas em um dia
+
+#1 meta/astryx — https://github.com/meta/astryx
+#2 sherlock-project/sherlock — https://github.com/sherlock-project/sherlock
+#3 anthropics/skills — https://github.com/anthropics/skills
+#4 mattpocock/skills — https://github.com/mattpocock/skills
+#5 homeassistant-ai/ha-mcp — https://github.com/homeassistant-ai/ha-mcp
+#6 vercel-labs/agent-browser — https://github.com/vercel-labs/agent-browser
+#7 anthropics/claude-quickstarts — https://github.com/anthropics/claude-quickstarts
+#8 addyosmani/agent-skills — https://github.com/addyosmani/agent-skills
+#9 google-deepmind/mujoco — https://github.com/google-deepmind/mujoco
+#10 ranxianglei/billion-context — https://github.com/ranxianglei/billion-context

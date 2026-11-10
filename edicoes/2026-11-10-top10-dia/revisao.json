@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "A capa traz TOP 10 DO GITHUB e a manchete igual à ficha. As pílulas 🔥 e os totais batem com o top10.json do #10 ao #1. O fecho tem a caixa vermelha e a pílula inema.club, e não há quadro vazio nem marcação crua na tela.",
+ "sugestoes": [
+  "0–4 s (capa): a legenda karaokê fica sobre o cofre dourado e some ('A META LIBEROU', 'APLICATIVOS'). Uma faixa escura atrás da legenda resolve.",
+  "14.49 s (panorama): a palavra solta 'DUAS VEZES.' no alto não tem sentido sem o resto da frase. Vale destacar 'Meta, Google e Anthropic'.",
+  "77.4–87.89 s (#5 ha-mcp): o cartão fica parado por uns 20 s, mais tempo que os outros projetos. Pode encurtar ou trocar o visual no meio.",
+  "45.94 s (#8 agent-skills): o gráfico 'antes × agora' com duas barras quase iguais (+0,4%) não mostra crescimento. Melhor deixar só o número +465.",
+  "119.34 s (#2 sherlock): o 'CUIDADO:' em vermelho funciona. Dá para levar esse alerta também para o cartão, além da legenda."
+ ]
+}
