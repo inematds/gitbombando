@@ -1,0 +1,304 @@
+{
+ "tipo": "area",
+ "serie": "TOP 8 · CLAUDE CODE E MCP",
+ "conta": "@inema.tech",
+ "data_br": "10/11/2026",
+ "capa": {
+  "linha1": "TOP 8",
+  "linha2": "CLAUDE CODE E MCP",
+  "numero": "+3.535",
+  "numero_rotulo": "estrelas por dia, somando os 8 (criados nos últimos meses)",
+  "manchete": "CLAUDE CODE VIRA ESTÚDIO DE VÍDEO",
+  "destaque": "ESTÚDIO",
+  "fundo": [
+   "prints/1.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/8.png",
+   "prints/2.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "yetone/magpie",
+   "repo": "magpie",
+   "url": "https://github.com/yetone/magpie",
+   "gancho": [
+    "TROQUE O MODELO",
+    "DE CADA AGENTE"
+   ],
+   "o_que_e": "Um aplicativo para Mac que escolhe o modelo de IA de cada agente, como Claude Code ou Codex, direto da barra de menus.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Tudo num lugar só",
+     "texto": "Claude Code, Codex, Gemini CLI e OpenCode num único aplicativo."
+    },
+    {
+     "icone": "zap",
+     "titulo": "A cota acabou? Segue",
+     "texto": "Quando a cota acaba, ele passa sozinho para a sua próxima conta."
+    }
+   ],
+   "fluxo": [
+    "ABRE O MENU",
+    "ESCOLHE MODELO",
+    "AGENTE TROCADO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+708",
+   "stat_rotulo": "por dia",
+   "total": "33.840",
+   "info2": "Go · criado há 48 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "KKKKhazix/agent-autoloop",
+   "repo": "agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "gancho": [
+    "O AGENTE TRABALHA",
+    "E VOCÊ SÓ DECIDE"
+   ],
+   "o_que_e": "Um programa que deixa seu agente de terminal trabalhando sozinho em segundo plano e só chama você quando precisa de uma decisão.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Windows, Mac ou Linux, sem servidor na nuvem e sem porta aberta."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Chama só quando precisa",
+     "texto": "Manda um cartão no Slack, no Discord ou na área de trabalho."
+    }
+   ],
+   "fluxo": [
+    "DÁ A TAREFA",
+    "ELE TRABALHA",
+    "VOCÊ DECIDE"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+617",
+   "stat_rotulo": "por dia",
+   "total": "4.418",
+   "info2": "TypeScript · criado há 7 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "patch-gg/pixelfx",
+   "repo": "pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "gancho": [
+    "FOGO, MAGIA,",
+    "EXPLOSÃO EM PIXEL"
+   ],
+   "o_que_e": "Uma coleção de efeitos de pixel art feitos em código, como fogo, explosão e magia, com uma skill do Claude Code para criar novos.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Galeria para testar",
+     "texto": "Veja ao vivo, mude as cores e espelhe cada efeito no navegador."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Crie os seus efeitos",
+     "texto": "A skill do Claude Code rascunha, olha o resultado e refina."
+    }
+   ],
+   "fluxo": [
+    "ABRE A GALERIA",
+    "MUDA AS CORES",
+    "LEVA PRO JOGO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+591",
+   "stat_rotulo": "por dia",
+   "total": "6.634",
+   "info2": "JavaScript · criado há 11 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "JuneYaooo/rea-video",
+   "repo": "rea-video",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "gancho": [
+    "COMO ESSE VÍDEO",
+    "FOI FEITO?"
+   ],
+   "o_que_e": "Uma ferramenta que analisa um vídeo cena por cena, diz se foi filmado, gerado por IA ou feito em código, e explica como refazer.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Cena por cena",
+     "texto": "Diz se cada cena foi filmada, feita por IA ou montada em código."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Seu agente instala",
+     "texto": "No Claude Code ou no Codex, basta pedir; precisa de ffmpeg e Python."
+    }
+   ],
+   "fluxo": [
+    "MANDA O VÍDEO",
+    "ELE ANALISA",
+    "RECEITA PRONTA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+529",
+   "stat_rotulo": "por dia",
+   "total": "6.257",
+   "info2": "Python · criado há 12 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "lemomo-ai/lemo-opuscar",
+   "repo": "lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "gancho": [
+    "FILME FEITO",
+    "SÓ COM CÓDIGO"
+   ],
+   "o_que_e": "Uma caixa de estilos de filme para o Claude Code: cada estilo traz uma instrução pronta e um curta feito só em código.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Estilos prontos",
+     "texto": "Escolha um estilo pronto ou crie o seu do zero e guarde."
+    },
+    {
+     "icone": "video",
+     "titulo": "Sem gerador de vídeo",
+     "texto": "Cada filme de exemplo foi feito só em código pelo Claude Opus 5.5."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE ESTILO",
+    "TRAZ A HISTÓRIA",
+    "A IA DIRIGE"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+320",
+   "stat_rotulo": "por dia",
+   "total": "14.432",
+   "info2": "JavaScript · criado há 45 dias"
+  },
+  {
+   "pos": 6,
+   "nome": "google/elephant-goldfish-model",
+   "repo": "elephant-goldfish-model",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "gancho": [
+    "UM LEMBRA TUDO.",
+    "OUTRO REVISA."
+   ],
+   "o_que_e": "Um complemento aberto do Google para assistentes de IA: um agente escreve o plano do software e outros revisam sem a conversa anterior.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "O elefante lembra",
+     "texto": "Guarda o contexto do projeto e escreve o rascunho do plano."
+    },
+    {
+     "icone": "search",
+     "titulo": "O peixinho revisa",
+     "texto": "Revisores leem sem a conversa anterior e acham pontos cegos."
+    }
+   ],
+   "fluxo": [
+    "CONTA A IDEIA",
+    "IA ESCREVE",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+296",
+   "stat_rotulo": "por dia",
+   "total": "17.088",
+   "info2": "Python · criado há 58 dias"
+  },
+  {
+   "pos": 7,
+   "nome": "caru-ini/stack-diagram",
+   "repo": "stack-diagram",
+   "url": "https://github.com/caru-ini/stack-diagram",
+   "gancho": [
+    "UMA FRASE VIRA",
+    "DIAGRAMA"
+   ],
+   "o_que_e": "Uma skill para agentes de IA: você descreve seu sistema numa frase e recebe um diagrama com os logotipos oficiais.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Logotipos oficiais",
+     "texto": "Usa os próprios ícones da AWS, do Google Cloud e da Azure."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Vários agentes",
+     "texto": "Funciona no Claude Code, no Codex, no Cursor e nos apps do Claude."
+    }
+   ],
+   "fluxo": [
+    "DESCREVE",
+    "A IA DESENHA",
+    "DIAGRAMA PRONTO"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+242",
+   "stat_rotulo": "por dia",
+   "total": "2.242",
+   "info2": "TypeScript · criado há 9 dias"
+  },
+  {
+   "pos": 8,
+   "nome": "rehan-remade/universal-modder",
+   "repo": "universal-modder",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "gancho": [
+    "MODS NO SEU JOGO",
+    "PEDINDO À IA"
+   ],
+   "o_que_e": "Um pacote de skills e ferramentas para o Claude Code criar mods em quase qualquer jogo de PC que você tem.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Lê o jogo por dentro",
+     "texto": "Descobre o motor do jogo, lê o código real e monta o mod."
+    },
+    {
+     "icone": "image",
+     "titulo": "Arte, 3D e som",
+     "texto": "Gera arte, modelos 3D e áudio com o fal e testa no jogo rodando."
+    }
+   ],
+   "fluxo": [
+    "APONTA O JOGO",
+    "IA MONTA O MOD",
+    "TESTA E GRAVA"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "readme",
+   "stat": "+232",
+   "stat_rotulo": "por dia",
+   "total": "9.587",
+   "info2": "Python · criado há 41 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 8 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois. Amanhã tem outra área, sempre às 18h.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

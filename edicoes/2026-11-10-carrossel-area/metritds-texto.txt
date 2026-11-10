@@ -1,0 +1,15 @@
+Top 8 do GitHub · Claude Code, MCP e skills · 10/11/2026
+
+O Claude Code está virando estúdio: tem projeto que faz filme só com código, que desmonta vídeo cena por cena e que cria mod de jogo. Passe o carrossel e veja os que mais crescem no GitHub nesta área. Cursos grátis de IA no inema.club.
+
+1. yetone/magpie
+2. KKKKhazix/agent-autoloop
+3. patch-gg/pixelfx
+4. JuneYaooo/rea-video
+5. lemomo-ai/lemo-opuscar
+6. google/elephant-goldfish-model
+7. caru-ini/stack-diagram
+8. rehan-remade/universal-modder
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

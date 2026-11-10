@@ -1,0 +1,66 @@
+{
+ "yetone/magpie": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/yetone/magpie/main/site/public/img/agents-dark.png",
+  "tam": [
+   1400,
+   845
+  ]
+ },
+ "KKKKhazix/agent-autoloop": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/KKKKhazix/agent-autoloop",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "patch-gg/pixelfx": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/patch-gg/pixelfx/main/docs/readme/montage.gif",
+  "tam": [
+   792,
+   416
+  ]
+ },
+ "JuneYaooo/rea-video": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/JuneYaooo/rea-video/main/docs/cases/dual_role/thumb.jpg",
+  "tam": [
+   1200,
+   822
+  ]
+ },
+ "lemomo-ai/lemo-opuscar": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/docs/opuscar98.jpg",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "google/elephant-goldfish-model": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/93c799a2-10a3-4266-af02-eb79dd33a9a2",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "caru-ini/stack-diagram": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/caru-ini/stack-diagram/main/docs/hero-dark.png",
+  "tam": [
+   1400,
+   798
+  ]
+ },
+ "rehan-remade/universal-modder": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/rehan-remade/universal-modder/main/docs/media/mods-teaser.gif",
+  "tam": [
+   560,
+   315
+  ]
+ }
+}
