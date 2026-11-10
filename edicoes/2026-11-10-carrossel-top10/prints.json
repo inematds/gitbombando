@@ -1,0 +1,82 @@
+{
+ "meta/astryx": {
+  "fonte": "readme",
+  "url": "https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png",
+  "tam": [
+   1400,
+   735
+  ]
+ },
+ "sherlock-project/sherlock": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/docs/images/demo.png",
+  "tam": [
+   920,
+   1028
+  ]
+ },
+ "anthropics/skills": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/anthropics/skills",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "mattpocock/skills": {
+  "fonte": "readme",
+  "url": "https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png",
+  "tam": [
+   738,
+   388
+  ]
+ },
+ "homeassistant-ai/ha-mcp": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/ha-mcp-logo.png",
+  "tam": [
+   1400,
+   706
+  ]
+ },
+ "vercel-labs/agent-browser": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/vercel-labs/agent-browser",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "anthropics/claude-quickstarts": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/anthropics/claude-quickstarts",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "addyosmani/agent-skills": {
+  "fonte": "readme",
+  "url": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+  "tam": [
+   1376,
+   768
+  ]
+ },
+ "google-deepmind/mujoco": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/google-deepmind/mujoco",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "ranxianglei/billion-context": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/cache-web-session.en.png",
+  "tam": [
+   1160,
+   1541
+  ]
+ }
+}

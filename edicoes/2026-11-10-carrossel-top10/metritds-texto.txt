@@ -1,0 +1,17 @@
+Top 10 do GitHub · 10/11/2026
+
+Hoje o GitHub foi tomado por receitas prontas para a IA: Anthropic, Meta e Google DeepMind no Top 10 do dia. Passa o carrossel e veja o que cada projeto faz por você. Para aprender a usar tudo isso, os cursos grátis de IA estão no inema.club.
+
+1. meta/astryx
+2. sherlock-project/sherlock
+3. anthropics/skills
+4. mattpocock/skills
+5. homeassistant-ai/ha-mcp
+6. vercel-labs/agent-browser
+7. anthropics/claude-quickstarts
+8. addyosmani/agent-skills
+9. google-deepmind/mujoco
+10. ranxianglei/billion-context
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

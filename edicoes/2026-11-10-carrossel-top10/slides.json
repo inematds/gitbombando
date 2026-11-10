@@ -1,0 +1,374 @@
+{
+ "tipo": "top10",
+ "serie": "TOP 10 DO GITHUB",
+ "conta": "@inema.tech",
+ "data_br": "10/11/2026",
+ "capa": {
+  "linha1": "TOP 10",
+  "linha2": "DO GITHUB HOJE",
+  "numero": "+11.786",
+  "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas",
+  "manchete": "RECEITAS PRONTAS PARA A SUA IA",
+  "destaque": "RECEITAS",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/8.png",
+   "prints/10.png",
+   "prints/3.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/9.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "meta/astryx",
+   "repo": "astryx",
+   "url": "https://github.com/meta/astryx",
+   "gancho": [
+    "O KIT DE TELAS",
+    "DA META, ABERTO."
+   ],
+   "o_que_e": "Um kit de peças de tela da Meta, usado em mais de treze mil apps internos, agora aberto para você e a IA montarem aplicativos.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 componentes",
+     "texto": "Botões, menus e telas acessíveis, com tema da marca e modo escuro."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para a IA também",
+     "texto": "Pessoas e assistentes de IA montam telas com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "MONTA AS TELAS",
+    "APP PRONTO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+3.111",
+   "stat_rotulo": "hoje",
+   "total": "21.407",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 2,
+   "nome": "sherlock-project/sherlock",
+   "repo": "sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "gancho": [
+    "UM NOME DE USUÁRIO",
+    "ONDE ELE EXISTE?"
+   ],
+   "o_que_e": "Um programa de terminal que procura um nome de usuário em mais de quatrocentas redes sociais e mostra onde ele tem conta.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Mais de 400 redes",
+     "texto": "Procura o mesmo nome em centenas de sites de uma vez só."
+    },
+    {
+     "icone": "download",
+     "titulo": "Instala de vários jeitos",
+     "texto": "Roda com pipx, pip ou Docker e salva o que achou num arquivo de texto."
+    }
+   ],
+   "fluxo": [
+    "DIGITA O NOME",
+    "ELE PROCURA",
+    "LISTA DE CONTAS"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+2.387",
+   "stat_rotulo": "hoje",
+   "total": "108.200",
+   "info2": "Python · desde 12/2018"
+  },
+  {
+   "pos": 3,
+   "nome": "anthropics/skills",
+   "repo": "skills",
+   "url": "https://github.com/anthropics/skills",
+   "gancho": [
+    "ENSINE TAREFAS",
+    "NOVAS AO CLAUDE."
+   ],
+   "o_que_e": "Uma coleção oficial da Anthropic de receitas: pastas com instruções e scripts que o Claude carrega para fazer tarefas sempre do mesmo jeito.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Uma pasta por receita",
+     "texto": "Cada receita tem um arquivo SKILL.md com as instruções para o Claude."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Da arte à empresa",
+     "texto": "Exemplos para design, música, testes de sites e comunicação interna."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A SKILL",
+    "CLAUDE APRENDE",
+    "TAREFA FEITA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "opengraph",
+   "stat": "+1.676",
+   "stat_rotulo": "hoje",
+   "total": "191.754",
+   "info2": "Python · desde 09/2025"
+  },
+  {
+   "pos": 4,
+   "nome": "mattpocock/skills",
+   "repo": "skills",
+   "url": "https://github.com/mattpocock/skills",
+   "gancho": [
+    "IA QUE PROGRAMA",
+    "DE VERDADE?"
+   ],
+   "o_que_e": "Uma coleção de receitas pequenas que um programador experiente usa todo dia para a IA programar com método, sem você perder o controle.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Instala em 30 segundos",
+     "texto": "Vira plugin no Claude Code, no Codex e no GitHub Copilot."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Funciona com qualquer IA",
+     "texto": "Receitas pequenas que você adapta e combina do seu jeito."
+    }
+   ],
+   "fluxo": [
+    "INSTALA PLUGIN",
+    "ESCOLHE A SKILL",
+    "A IA SEGUE"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+1.223",
+   "stat_rotulo": "hoje",
+   "total": "320.308",
+   "info2": "Shell · desde 02/2026"
+  },
+  {
+   "pos": 5,
+   "nome": "homeassistant-ai/ha-mcp",
+   "repo": "ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "gancho": [
+    "SUA CASA",
+    "NUMA CONVERSA."
+   ],
+   "o_que_e": "Uma ponte entre o Home Assistant e assistentes como Claude e ChatGPT: você pede numa conversa e a IA configura a sua casa inteligente.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Claude, ChatGPT e outros",
+     "texto": "Você conversa com a IA e ela cria automações na sua casa."
+    },
+    {
+     "icone": "download",
+     "titulo": "Instala pela loja do HA",
+     "texto": "Entra pelo HACS ou pela Marketplace do Home Assistant 2026.11."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO HA",
+    "PEDE À IA",
+    "CASA AUTOMÁTICA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+792",
+   "stat_rotulo": "hoje",
+   "total": "6.328",
+   "info2": "Python · desde 09/2025"
+  },
+  {
+   "pos": 6,
+   "nome": "vercel-labs/agent-browser",
+   "repo": "agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "gancho": [
+    "A IA NAVEGA",
+    "POR VOCÊ."
+   ],
+   "o_que_e": "Um programa de terminal que dá à IA um navegador próprio: ela abre sites, lê a página como texto, clica e preenche, um passo por vez.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Um Chrome só da IA",
+     "texto": "Baixa um Chrome de testes e o mantém aberto entre um comando e outro."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Um comando por ação",
+     "texto": "Abrir, ler, clicar: cada passo é uma linha curta no terminal."
+    }
+   ],
+   "fluxo": [
+    "ABRE O SITE",
+    "A IA LÊ A TELA",
+    "CLICA SOZINHA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "opengraph",
+   "stat": "+775",
+   "stat_rotulo": "hoje",
+   "total": "48.881",
+   "info2": "Rust · desde 01/2026"
+  },
+  {
+   "pos": 7,
+   "nome": "anthropics/claude-quickstarts",
+   "repo": "claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "gancho": [
+    "SEU APP DE IA",
+    "JÁ COMEÇA PRONTO."
+   ],
+   "o_que_e": "Uma coleção da Anthropic de projetos prontos para você usar como ponto de partida e criar o seu próprio aplicativo com o Claude.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Atendente de suporte",
+     "texto": "Um agente que responde clientes consultando uma base de conhecimento."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Analista de finanças",
+     "texto": "Analisa dados financeiros numa conversa, com gráficos interativos."
+    }
+   ],
+   "fluxo": [
+    "PEGA O PROJETO",
+    "PÕE SUA CHAVE",
+    "ADAPTA E USA"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "opengraph",
+   "stat": "+530",
+   "stat_rotulo": "hoje",
+   "total": "20.251",
+   "info2": "Python · desde 08/2024"
+  },
+  {
+   "pos": 8,
+   "nome": "addyosmani/agent-skills",
+   "repo": "agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "gancho": [
+    "A IA COM HÁBITOS",
+    "DE SÊNIOR."
+   ],
+   "o_que_e": "Uma coleção de receitas com os hábitos de um programador sênior, para a IA seguir as mesmas etapas: planejar, construir, testar e revisar.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "9 comandos prontos",
+     "texto": "Do /spec ao /ship, cada comando chama as receitas certas da etapa."
+    },
+    {
+     "icone": "code",
+     "titulo": "Vale para várias IAs",
+     "texto": "Feito para Claude Code, Codex, Cursor e Antigravity."
+    }
+   ],
+   "fluxo": [
+    "DEFINE A IDEIA",
+    "PLANEJA E FAZ",
+    "TESTA E PUBLICA"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "readme",
+   "stat": "+465",
+   "stat_rotulo": "hoje",
+   "total": "114.785",
+   "info2": "JavaScript · desde 02/2026"
+  },
+  {
+   "pos": 9,
+   "nome": "google-deepmind/mujoco",
+   "repo": "mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "gancho": [
+    "ROBÔ TREINA",
+    "ANTES DE EXISTIR."
+   ],
+   "o_que_e": "Um simulador de física do Google DeepMind que calcula com rapidez e precisão como robôs, corpos e objetos se movem e se tocam.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Teste no navegador",
+     "texto": "Você experimenta o simulador direto no site mujoco.org."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Python e Unity",
+     "texto": "Liga com Python e com o motor de jogos Unity."
+    }
+   ],
+   "fluxo": [
+    "MONTA O ROBÔ",
+    "SIMULA A FÍSICA",
+    "VÊ O RESULTADO"
+   ],
+   "print": "prints/9.png",
+   "print_fonte": "opengraph",
+   "stat": "+453",
+   "stat_rotulo": "hoje",
+   "total": "17.158",
+   "info2": "C++ · desde 08/2021"
+  },
+  {
+   "pos": 10,
+   "nome": "ranxianglei/billion-context",
+   "repo": "billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "gancho": [
+    "CONVERSA COM IA",
+    "POR UM MÊS?"
+   ],
+   "o_que_e": "Um complemento que resume a conversa com a IA enquanto você trabalha, para a mesma sessão durar um mês gastando cinco vezes menos.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Gasta 5 vezes menos",
+     "texto": "Envia cerca de cinco vezes menos texto para o modelo de IA."
+    },
+    {
+     "icone": "database",
+     "titulo": "Memória pequena basta",
+     "texto": "A IA segue por semanas mesmo com uma memória de conversa curta."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "VOCÊ TRABALHA",
+    "ELE COMPRIME"
+   ],
+   "print": "prints/10.png",
+   "print_fonte": "readme",
+   "stat": "+374",
+   "stat_rotulo": "hoje",
+   "total": "5.950",
+   "info2": "TypeScript · desde 08/2026"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 10 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}
