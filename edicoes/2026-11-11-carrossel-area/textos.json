@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "SUA IA VIROU EDITORA DE VÍDEO",
+  "destaque": "EDITORA"
+ },
+ "repos": {
+  "dhruvthakur11/youtube-ai-video-editing-system": {
+   "gancho": [
+    "GRAVA LENDO,",
+    "A IA PROPÕE O CORTE"
+   ],
+   "o_que_e": "Um sistema de edição para YouTube: um teleprompter acompanha sua voz na gravação e agentes de IA sugerem os cortes num texto que você revisa.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Teleprompter que ouve",
+     "texto": "O roteiro rola na tela seguindo a sua voz enquanto você grava."
+    },
+    {
+     "icone": "video",
+     "titulo": "Cortes que você lê",
+     "texto": "Os agentes propõem os cortes em arquivos de texto que você ajusta à mão."
+    }
+   ],
+   "fluxo": [
+    "LÊ O ROTEIRO",
+    "GRAVA A FALA",
+    "REVISA CORTES"
+   ]
+  },
+  "shinyobjectz/raea": {
+   "gancho": [
+    "PEDE À IA,",
+    "SAI O VÍDEO"
+   ],
+   "o_que_e": "Um motor que transforma o pedido feito à sua IA em vídeo, animação, 3D ou jogo, renderizado na placa de vídeo do seu computador.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Na sua placa de vídeo",
+     "texto": "Renderiza no seu computador, mais rápido do que o vídeo toca."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Já fala com Claude Code",
+     "texto": "A instalação ensina o Claude Code a escrever, renderizar e conferir."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O RAEA",
+    "PEDE À IA",
+    "RENDERIZA"
+   ]
+  },
+  "s1dashu/ip-as-logo-skill": {
+   "gancho": [
+    "UM MASCOTE",
+    "VIRA SEU LOGO"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que cria mascotes simples e fofos para servir de logo, com formas arredondadas e poucas cores.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Três caminhos primeiro",
+     "texto": "Mostra três direções e só depois gera seis opções para você escolher."
+    },
+    {
+     "icone": "download",
+     "titulo": "Logos grátis no site",
+     "texto": "No site do projeto você baixa logos prontos, livres até para uso comercial."
+    }
+   ],
+   "fluxo": [
+    "DIZ A MARCA",
+    "ESCOLHE A LINHA",
+    "LOGO PRONTO"
+   ]
+  },
+  "XiaoyeCodes/code-animation-prompts": {
+   "gancho": [
+    "ESCOLHE O ESTILO,",
+    "A IA ANIMA"
+   ],
+   "o_que_e": "Uma coleção de 341 estilos de animação, com imagens de referência, que ensina o Claude Code e o Codex a animar vídeos com código.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Escolha sem internet",
+     "texto": "Um seletor offline busca, filtra e amplia os estilos antes de você escolher."
+    },
+    {
+     "icone": "video",
+     "titulo": "Sai em MP4",
+     "texto": "Uma ferramenta grava a animação quadro a quadro e salva em MP4."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE ESTILO",
+    "A IA PLANEJA",
+    "VÍDEO EM MP4"
+   ]
+  },
+  "kajisho5/ffmpeg-skill": {
+   "gancho": [
+    "SEU AGENTE",
+    "EDITA O VÍDEO"
+   ],
+   "o_que_e": "Um editor de vídeo para agentes de programação: o Claude Code, o Cursor ou o Codex corta, legenda e ajusta seu vídeo no seu computador.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Sem nuvem, sem chave",
+     "texto": "Tudo roda no seu computador com FFmpeg, sem enviar o vídeo para fora."
+    },
+    {
+     "icone": "wand",
+     "titulo": "42 ferramentas prontas",
+     "texto": "Corta, tira silêncio, põe legenda karaokê e muda o vídeo para 9:16."
+    }
+   ],
+   "fluxo": [
+    "PEDE O CORTE",
+    "O AGENTE EDITA",
+    "ELE CONFERE"
+   ]
+  },
+  "kaomei/stickman-video-director": {
+   "gancho": [
+    "UM ROTEIRO",
+    "VIRA DESENHO"
+   ],
+   "o_que_e": "Uma ferramenta que transforma um roteiro em vídeo animado de bonecos de palito, com narração, legendas e efeitos sonoros.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "11 estilos visuais",
+     "texto": "Do preto e branco ao noir, há estilos para ciência, histórias e mistério."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Grátis e aberto",
+     "texto": "Código aberto, sem câmera e sem assinatura mensal para produzir."
+    }
+   ],
+   "fluxo": [
+    "MANDA O TEMA",
+    "A IA MONTA",
+    "VÍDEO PRONTO"
+   ]
+  },
+  "Ebony-Vinyl/EAC-design-world": {
+   "gancho": [
+    "A IA EDITA",
+    "NO SEU ESTÚDIO"
+   ],
+   "o_que_e": "Um estúdio local de vídeo e design que se liga ao DeepSeek Harness: a IA edita em várias faixas e exporta arquivos de verdade.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Edição em várias faixas",
+     "texto": "Junta modelos, materiais, legenda e trilha numa linha do tempo."
+    },
+    {
+     "icone": "mic",
+     "titulo": "Narra e grava a tela",
+     "texto": "Faz narração com a voz do sistema e grava a tela no Windows e no Mac."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE MODELO",
+    "A IA MONTA",
+    "EXPORTA ARQUIVO"
+   ]
+  },
+  "Vincentwei1021/anything2explainer": {
+   "gancho": [
+    "DÁ UM TEMA,",
+    "GANHA UM VÍDEO"
+   ],
+   "o_que_e": "Uma habilidade para Claude Code e Codex que transforma qualquer tema num vídeo explicativo narrado, com legendas e animação feita em código.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Narração e legenda",
+     "texto": "Gera a voz em inglês ou chinês, a legenda e uma barra de capítulos."
+    },
+    {
+     "icone": "code",
+     "titulo": "Tudo desenhado em código",
+     "texto": "Sem banco de imagens nem gerador de vídeo: cada quadro é feito no Remotion."
+    }
+   ],
+   "fluxo": [
+    "DÁ O TEMA",
+    "A IA ROTEIRIZA",
+    "VÍDEO NARRADO"
+   ]
+  }
+ },
+ "legenda_abertura": "Sua IA já edita, anima e narra vídeo no seu computador. Arrasta o carrossel e vê os 8 projetos de vídeo e imagem que mais crescem no GitHub. Para aprender a usar, os cursos grátis estão no inema.club.",
+ "telegram": "Saiu o carrossel com os projetos de vídeo e imagem com IA que mais crescem no GitHub: editores que obedecem ao seu agente, animação feita em código e vídeo explicativo a partir de um tema. Passa pelo carrossel e, para aprender a usar, entra no inema.club, com cursos grátis."
+}
