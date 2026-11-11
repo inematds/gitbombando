@@ -1,0 +1,12 @@
+A Meta não larga o topo do GitHub: +2.842 estrelas em um dia com o Astryx
+
+#1 meta/astryx — https://github.com/meta/astryx
+#2 we-promise/sure — https://github.com/we-promise/sure
+#3 ZhuLinsen/daily_stock_analysis — https://github.com/ZhuLinsen/daily_stock_analysis
+#4 addyosmani/agent-skills — https://github.com/addyosmani/agent-skills
+#5 vercel-labs/agent-browser — https://github.com/vercel-labs/agent-browser
+#6 homeassistant-ai/ha-mcp — https://github.com/homeassistant-ai/ha-mcp
+#7 shadcn/improve — https://github.com/shadcn/improve
+#8 GoogleChrome/modern-web-guidance-src — https://github.com/GoogleChrome/modern-web-guidance-src
+#9 TheAlgorithms/Java — https://github.com/TheAlgorithms/Java
+#10 openai/codex-security — https://github.com/openai/codex-security

@@ -1,0 +1,99 @@
+modo: dia
+gancho:
+  tipo: noticia
+  manchete: "META NÃO SAI DO TOPO: +2.842"
+  destaque: "+2.842"
+  objeto: "um troféu dourado gigante com o pedestal rachando, cercado de peças de telas de aplicativo pegando fogo"
+  fontes:
+    - {nome: "github.com/trending", trecho: "meta/astryx · 2,842 stars today"}
+    - {nome: "github.com/meta/astryx", trecho: "the most-used and largest design system in the company — powering 13,000+ apps"}
+abertura:
+  cena: "pódio escuro numa arena vazia à noite, telões apagados ao fundo, só a luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "A Meta deu de graça o kit dos aplicativos dela, e o GitHub não larga. Mais um dia no topo, com quase três mil estrelas."
+  - etapa: panorama
+    fala: "Os dez que mais cresceram hoje somaram sete mil quinhentas e quarenta e seis estrelas. Tem Meta, Google e OpenAI no meio. Vou do décimo ao primeiro."
+    numero: "7.546"
+  - etapa: repo
+    repo: "openai/codex-security"
+    desc: "Da OpenAI: um vigia que caça falhas de segurança no seu código e ajuda a corrigir."
+    destaque: "falhas de segurança"
+    numero: "20"
+    fala: "Abrindo em décimo, a OpenAI. O Codex Security é um vigia que procura buracos de segurança no seu programa antes do invasor achar. Entrou com vinte estrelas."
+  - etapa: repo
+    repo: "TheAlgorithms/Java"
+    desc: "Uma biblioteca gigante com as receitas clássicas da programação, todas em Java."
+    destaque: "receitas clássicas"
+    numero: "39"
+    fala: "Nono lugar, um veterano de dez anos. O The Algorithms junta as receitas clássicas da programação num lugar só, ótimo pra quem está aprendendo. Trinta e nove estrelas."
+  - etapa: repo
+    repo: "GoogleChrome/modern-web-guidance-src"
+    desc: "Do Google Chrome: ensina a IA a montar sites do jeito moderno, sem vícios antigos."
+    destaque: "jeito moderno"
+    numero: "133"
+    fala: "Em oitavo, o time do Google Chrome. O Modern Web Guidance ensina a IA a criar sites do jeito certo de hoje, e não com truques velhos. Cento e trinta e três estrelas."
+  - etapa: repo
+    repo: "shadcn/improve"
+    desc: "A IA cara pensa e faz o plano; a IA barata executa. Você paga menos pelo mesmo trabalho."
+    destaque: "paga menos"
+    numero: "333"
+    fala: "Sétimo, o improve. A ideia é esperta: a IA mais cara estuda o projeto e escreve o plano, e uma IA barata faz o trabalho pesado. Trezentas e trinta e três estrelas."
+  - etapa: repo
+    repo: "homeassistant-ai/ha-mcp"
+    desc: "Você conversa com o Claude ou o ChatGPT e ele configura sua casa inteligente."
+    destaque: "casa inteligente"
+    numero: "640"
+    fala: "Em sexto, o HA MCP. Você fala com o Claude ou o ChatGPT e ele liga luz, cria rotina e arruma a sua casa inteligente. Cresceu dez por cento num dia: seiscentas e quarenta estrelas."
+  - etapa: repo
+    repo: "vercel-labs/agent-browser"
+    desc: "Dá um navegador pra IA abrir sites, ler a página e clicar sozinha por você."
+    destaque: "clicar sozinha"
+    numero: "712"
+    fala: "Quinto, o Agent Browser, da Vercel, que não sai do Top dez. Ele dá um navegador pra IA abrir sites, ler e clicar sozinha no seu lugar. Setecentas e doze estrelas."
+  - etapa: repo
+    repo: "addyosmani/agent-skills"
+    desc: "Os hábitos de um programador sênior empacotados pra IA seguir sempre, passo a passo."
+    destaque: "programador sênior"
+    numero: "788"
+    fala: "Em quarto, o Agent Skills, de um engenheiro do Google. Ele faz a IA trabalhar como um programador experiente: planeja, constrói e confere. Setecentas e oitenta e oito estrelas."
+  - etapa: repo
+    repo: "ZhuLinsen/daily_stock_analysis"
+    desc: "Um analista de ações com IA que lê notícias e cotações e te avisa todo dia, de graça."
+    destaque: "todo dia, de graça"
+    numero: "960"
+    fala: "E agora o pódio. Terceiro, um projeto chinês: uma IA que lê notícias e cotações da bolsa e te manda a análise todo dia, de graça. Mas cuidado, não é conselho de investimento. Novecentas e sessenta estrelas."
+  - etapa: repo
+    repo: "we-promise/sure"
+    desc: "Um aplicativo de finanças pessoais aberto e grátis pra organizar todo o seu dinheiro."
+    destaque: "aberto e grátis"
+    numero: "1.079"
+    fala: "Em segundo, o Sure. É um aplicativo de finanças pessoais, aberto e gratuito, pra você ver pra onde vai cada centavo sem pagar assinatura. Mil e setenta e nove estrelas."
+  - etapa: repo
+    repo: "meta/astryx"
+    desc: "Da Meta: o kit de telas usado em treze mil apps internos, agora aberto e pronto pra IA."
+    destaque: "treze mil apps"
+    numero: "2.842"
+    fala: "E o número um, de novo, é da Meta. O Astryx monta as telas de mais de treze mil aplicativos dela, e agora é seu. Ninguém tira ele do trono. Duas mil oitocentas e quarenta e duas estrelas."
+  - etapa: comentario
+    fala: "E você, organizaria o seu dinheiro com o Sure ou deixaria a IA analisar a bolsa? Conta aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "sete mil quinhentas e quarenta e seis": "7.546"
+  "vinte": "20"
+  "Trinta e nove": "39"
+  "Cento e trinta e três": "133"
+  "Trezentas e trinta e três": "333"
+  "dez por cento": "10%"
+  "seiscentas e quarenta": "640"
+  "Setecentas e doze": "712"
+  "Setecentas e oitenta e oito": "788"
+  "Novecentas e sessenta": "960"
+  "Mil e setenta e nove": "1.079"
+  "Duas mil oitocentas e quarenta e duas": "2.842"
+cores: {bombando: "#FACC15", Meta: "#FACC15", Google: "#FACC15", OpenAI: "#FACC15", Astryx: "#FACC15", cuidado: "#ff2a1f", invasor: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "A Meta não larga o topo do GitHub: +2.842 estrelas em um dia com o Astryx"
+  contexto: "Top 10 do GitHub de 11/11/2026, do décimo ao primeiro, com os projetos que mais ganharam estrelas no dia. O Astryx da Meta, kit de telas de mais de 13 mil apps internos, segue em primeiro com 2.842 estrelas."
+  telegram: "O Astryx da Meta segue no topo do GitHub com +2.842 estrelas. Em segundo, o Sure, app de finanças pessoais aberto e gratuito, e no pódio ainda uma IA que analisa a bolsa todo dia. Google, OpenAI e Vercel também aparecem."

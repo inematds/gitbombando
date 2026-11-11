@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com 'TOP 10 DO GITHUB' grande e manchete igual a gancho.manchete; as pílulas 🔥 de todos os cartões batem com o top10.json (de +20 a +2.842, soma 7.546); o avatar aparece certo e o fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "23,6 s: o quadro pega a transição do #10 para o #9, com 'codex-security' e 'Java' sobrepostos. Encurtar a fusão para o cartão do #10 (OpenAI) ficar limpo mais tempo.",
+  "13,8 s: o #10 (codex-security) quase não aparece sozinho na folha. Vale mostrar o logo da OpenAI com mais destaque, já que a fala abre com 'a OpenAI'.",
+  "33–43 s (#9 Java, #8 e #7): os gráficos 'antes × agora' com duas barras quase iguais quase não mostram nada. Um destaque do ganho (+39, +133) ajudaria.",
+  "131,5 s: o cartão do portal inema.club tem letra muito pequena. A pergunta vermelha poderia entrar antes.",
+  "Impacto 7: a capa e a disputa Meta × Google × OpenAI seguram, mas o #1 é o mesmo de ontem ('de novo'), o que tira um pouco da surpresa. Um gancho com o número de apps (13 mil) na capa poderia render mais."
+ ]
+}
