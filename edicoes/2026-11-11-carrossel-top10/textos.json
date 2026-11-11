@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "GIGANTES ABREM CÓDIGO PARA A IA",
+  "destaque": "GIGANTES"
+ },
+ "repos": {
+  "meta/astryx": {
+   "gancho": [
+    "TELAS PRONTAS",
+    "DA META PRA IA"
+   ],
+   "o_que_e": "Um kit aberto de peças de tela da Meta, com botões, temas e modo escuro, feito para pessoas e agentes de IA montarem apps.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 componentes",
+     "texto": "Peças de tela acessíveis, temas de marca e modo escuro num só kit."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Testado dentro da Meta",
+     "texto": "Cresceu por oito anos na Meta e virou o kit de telas mais usado lá."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "ESCOLHE O TEMA",
+    "APP PRONTO"
+   ]
+  },
+  "we-promise/sure": {
+   "gancho": [
+    "SEU DINHEIRO",
+    "TODO NUM LUGAR"
+   ],
+   "o_que_e": "Um aplicativo aberto e gratuito de finanças pessoais para organizar seu dinheiro, mantido pela comunidade a partir do Maybe Finance.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Finanças pessoais",
+     "texto": "Um app para acompanhar e organizar todo o seu dinheiro num lugar só."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Feito pela comunidade",
+     "texto": "Continua o Maybe Finance, app que foi abandonado pela empresa original."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "ORGANIZA CONTAS",
+    "VÊ O PANORAMA"
+   ]
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+   "gancho": [
+    "SUAS AÇÕES",
+    "ANALISADAS POR IA"
+   ],
+   "o_que_e": "Um sistema que usa um modelo de IA para analisar suas ações todo dia, lendo cotações e notícias, e manda o relatório para você.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Vários mercados",
+     "texto": "Ações da China, Hong Kong, EUA, Japão, Coreia, Taiwan e fundos de índice."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Aviso no Telegram",
+     "texto": "Manda o painel de decisão por Telegram, Discord, Slack ou e-mail."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE AÇÕES",
+    "A IA ANALISA",
+    "RECEBE O AVISO"
+   ]
+  },
+  "addyosmani/agent-skills": {
+   "gancho": [
+    "IA QUE PROGRAMA",
+    "COMO UM SÊNIOR"
+   ],
+   "o_que_e": "Um pacote de habilidades que faz a IA que programa seguir os passos e cuidados de um programador sênior, da ideia à entrega.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Nove comandos prontos",
+     "texto": "Comandos como /spec, /plan, /test e /ship para cada fase do trabalho."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Vários assistentes",
+     "texto": "Feito para Claude Code, Codex, Cursor e outros assistentes de código."
+    }
+   ],
+   "fluxo": [
+    "CONTA A IDEIA",
+    "A IA PLANEJA",
+    "TESTA E ENTREGA"
+   ]
+  },
+  "vercel-labs/agent-browser": {
+   "gancho": [
+    "A IA NAVEGA",
+    "E CLICA SOZINHA"
+   ],
+   "o_que_e": "Um programa de terminal que dá à IA um navegador: ela abre sites, lê a página como texto e clica nos botões, um passo por vez.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Navegador sempre aberto",
+     "texto": "O navegador fica aberto entre um comando e outro, cada passo é curto."
+    },
+    {
+     "icone": "download",
+     "titulo": "Instala com um comando",
+     "texto": "Sai pelo npm ou Homebrew e baixa o Chrome de teste na primeira vez."
+    }
+   ],
+   "fluxo": [
+    "ABRE O SITE",
+    "LÊ A PÁGINA",
+    "CLICA E CONFERE"
+   ]
+  },
+  "homeassistant-ai/ha-mcp": {
+   "gancho": [
+    "CASA INTELIGENTE",
+    "NA CONVERSA"
+   ],
+   "o_que_e": "Um conector que deixa o Claude, o ChatGPT e outros assistentes de IA configurarem e automatizarem sua casa no Home Assistant.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Fala com o Claude",
+     "texto": "Você pede no Claude ou no ChatGPT e ele ajusta o Home Assistant."
+    },
+    {
+     "icone": "download",
+     "titulo": "Instala pela loja",
+     "texto": "Entra pelo HACS ou pela loja do Home Assistant, em todo tipo de instalação."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO HA",
+    "LIGA A IA",
+    "PEDE O AJUSTE"
+   ]
+  },
+  "shadcn/improve": {
+   "gancho": [
+    "A IA CARA PLANEJA",
+    "A BARATA FAZ"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que analisa seu código e escreve planos para um modelo de IA mais barato executar depois.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Plano em texto simples",
+     "texto": "Os planos saem em texto comum que qualquer IA ou pessoa pode seguir."
+    },
+    {
+     "icone": "search",
+     "titulo": "Análise sob medida",
+     "texto": "Escolhe a análise: rápida, completa, só segurança, testes ou desempenho."
+    }
+   ],
+   "fluxo": [
+    "RODA /IMPROVE",
+    "LÊ O PLANO",
+    "OUTRA IA FAZ"
+   ]
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+   "gancho": [
+    "SITES MODERNOS",
+    "SEM VÍCIO ANTIGO"
+   ],
+   "o_que_e": "Um conjunto de habilidades do Google Chrome que ensina a IA que programa a fazer sites com as técnicas atuais da web.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Feito por navegadores",
+     "texto": "Cuidado pelas equipes do Chrome, Edge, Firefox e MDN com a comunidade."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Compatibilidade junto",
+     "texto": "Traz dados de quais navegadores aceitam cada recurso, direto para a IA."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O GUIA",
+    "A IA CONSULTA",
+    "SITE ATUAL"
+   ]
+  },
+  "TheAlgorithms/Java": {
+   "gancho": [
+    "APRENDA ALGORITMOS",
+    "LENDO O CÓDIGO"
+   ],
+   "o_que_e": "Uma coleção aberta com os algoritmos clássicos da programação, como busca e ordenação, todos escritos em Java para estudar.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "Feito para estudar",
+     "texto": "O próprio projeto avisa: o foco é aprender, não a velocidade máxima."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Roda no navegador",
+     "texto": "Dá para abrir, rodar e editar no Gitpod, um ambiente online grátis."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O TEMA",
+    "LÊ O CÓDIGO",
+    "RODA E APRENDE"
+   ]
+  },
+  "openai/codex-security": {
+   "gancho": [
+    "FALHAS NO CÓDIGO?",
+    "A IA ACHA E CORRIGE"
+   ],
+   "o_que_e": "Uma ferramenta da OpenAI que procura falhas de segurança no seu código, confere se são reais e ajuda você a corrigir.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Confere e corrige",
+     "texto": "Valida cada falha achada, gera a correção e confirma se ficou certa."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga com Jira e GitHub",
+     "texto": "Manda os achados para Linear, Jira ou GitHub e exporta os relatórios."
+    }
+   ],
+   "fluxo": [
+    "VARRE O CÓDIGO",
+    "CONFERE FALHAS",
+    "CORRIGE"
+   ]
+  }
+ },
+ "legenda_abertura": "Meta, OpenAI e Google Chrome abriram projetos novos e o GitHub inteiro foi atrás. Arrasta para o lado e veja os 10 que mais ganharam estrelas hoje, explicados em português simples. Quer aprender a usar IA de graça? Está tudo no inema.club.",
+ "telegram": "Saiu o Top 10 do dia no GitHub: Meta, OpenAI e Google Chrome no meio dos projetos que mais cresceram hoje. Passa o carrossel para ver o que cada um faz e como se usa. Os cursos grátis de IA estão no inema.club."
+}

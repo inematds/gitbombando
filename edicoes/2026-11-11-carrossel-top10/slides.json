@@ -1,0 +1,374 @@
+{
+ "tipo": "top10",
+ "serie": "TOP 10 DO GITHUB",
+ "conta": "@inema.tech",
+ "data_br": "11/11/2026",
+ "capa": {
+  "linha1": "TOP 10",
+  "linha2": "DO GITHUB HOJE",
+  "numero": "+7.546",
+  "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas",
+  "manchete": "GIGANTES ABREM CÓDIGO PARA A IA",
+  "destaque": "GIGANTES",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/6.png",
+   "prints/5.png",
+   "prints/7.png",
+   "prints/8.png",
+   "prints/9.png",
+   "prints/10.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "meta/astryx",
+   "repo": "astryx",
+   "url": "https://github.com/meta/astryx",
+   "gancho": [
+    "TELAS PRONTAS",
+    "DA META PRA IA"
+   ],
+   "o_que_e": "Um kit aberto de peças de tela da Meta, com botões, temas e modo escuro, feito para pessoas e agentes de IA montarem apps.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 componentes",
+     "texto": "Peças de tela acessíveis, temas de marca e modo escuro num só kit."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Testado dentro da Meta",
+     "texto": "Cresceu por oito anos na Meta e virou o kit de telas mais usado lá."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "ESCOLHE O TEMA",
+    "APP PRONTO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+2.842",
+   "stat_rotulo": "hoje",
+   "total": "24.149",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 2,
+   "nome": "we-promise/sure",
+   "repo": "sure",
+   "url": "https://github.com/we-promise/sure",
+   "gancho": [
+    "SEU DINHEIRO",
+    "TODO NUM LUGAR"
+   ],
+   "o_que_e": "Um aplicativo aberto e gratuito de finanças pessoais para organizar seu dinheiro, mantido pela comunidade a partir do Maybe Finance.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Finanças pessoais",
+     "texto": "Um app para acompanhar e organizar todo o seu dinheiro num lugar só."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Feito pela comunidade",
+     "texto": "Continua o Maybe Finance, app que foi abandonado pela empresa original."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "ORGANIZA CONTAS",
+    "VÊ O PANORAMA"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+1.079",
+   "stat_rotulo": "hoje",
+   "total": "12.483",
+   "info2": "Ruby · desde 07/2025"
+  },
+  {
+   "pos": 3,
+   "nome": "ZhuLinsen/daily_stock_analysis",
+   "repo": "daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "gancho": [
+    "SUAS AÇÕES",
+    "ANALISADAS POR IA"
+   ],
+   "o_que_e": "Um sistema que usa um modelo de IA para analisar suas ações todo dia, lendo cotações e notícias, e manda o relatório para você.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Vários mercados",
+     "texto": "Ações da China, Hong Kong, EUA, Japão, Coreia, Taiwan e fundos de índice."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Aviso no Telegram",
+     "texto": "Manda o painel de decisão por Telegram, Discord, Slack ou e-mail."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE AÇÕES",
+    "A IA ANALISA",
+    "RECEBE O AVISO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+960",
+   "stat_rotulo": "hoje",
+   "total": "69.727",
+   "info2": "Python · desde 01/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "addyosmani/agent-skills",
+   "repo": "agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "gancho": [
+    "IA QUE PROGRAMA",
+    "COMO UM SÊNIOR"
+   ],
+   "o_que_e": "Um pacote de habilidades que faz a IA que programa seguir os passos e cuidados de um programador sênior, da ideia à entrega.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Nove comandos prontos",
+     "texto": "Comandos como /spec, /plan, /test e /ship para cada fase do trabalho."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Vários assistentes",
+     "texto": "Feito para Claude Code, Codex, Cursor e outros assistentes de código."
+    }
+   ],
+   "fluxo": [
+    "CONTA A IDEIA",
+    "A IA PLANEJA",
+    "TESTA E ENTREGA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+788",
+   "stat_rotulo": "hoje",
+   "total": "115.548",
+   "info2": "JavaScript · desde 02/2026"
+  },
+  {
+   "pos": 5,
+   "nome": "vercel-labs/agent-browser",
+   "repo": "agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "gancho": [
+    "A IA NAVEGA",
+    "E CLICA SOZINHA"
+   ],
+   "o_que_e": "Um programa de terminal que dá à IA um navegador: ela abre sites, lê a página como texto e clica nos botões, um passo por vez.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Navegador sempre aberto",
+     "texto": "O navegador fica aberto entre um comando e outro, cada passo é curto."
+    },
+    {
+     "icone": "download",
+     "titulo": "Instala com um comando",
+     "texto": "Sai pelo npm ou Homebrew e baixa o Chrome de teste na primeira vez."
+    }
+   ],
+   "fluxo": [
+    "ABRE O SITE",
+    "LÊ A PÁGINA",
+    "CLICA E CONFERE"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "opengraph",
+   "stat": "+712",
+   "stat_rotulo": "hoje",
+   "total": "49.578",
+   "info2": "Rust · desde 01/2026"
+  },
+  {
+   "pos": 6,
+   "nome": "homeassistant-ai/ha-mcp",
+   "repo": "ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "gancho": [
+    "CASA INTELIGENTE",
+    "NA CONVERSA"
+   ],
+   "o_que_e": "Um conector que deixa o Claude, o ChatGPT e outros assistentes de IA configurarem e automatizarem sua casa no Home Assistant.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Fala com o Claude",
+     "texto": "Você pede no Claude ou no ChatGPT e ele ajusta o Home Assistant."
+    },
+    {
+     "icone": "download",
+     "titulo": "Instala pela loja",
+     "texto": "Entra pelo HACS ou pela loja do Home Assistant, em todo tipo de instalação."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO HA",
+    "LIGA A IA",
+    "PEDE O AJUSTE"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+640",
+   "stat_rotulo": "hoje",
+   "total": "6.967",
+   "info2": "Python · desde 09/2025"
+  },
+  {
+   "pos": 7,
+   "nome": "shadcn/improve",
+   "repo": "improve",
+   "url": "https://github.com/shadcn/improve",
+   "gancho": [
+    "A IA CARA PLANEJA",
+    "A BARATA FAZ"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que analisa seu código e escreve planos para um modelo de IA mais barato executar depois.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Plano em texto simples",
+     "texto": "Os planos saem em texto comum que qualquer IA ou pessoa pode seguir."
+    },
+    {
+     "icone": "search",
+     "titulo": "Análise sob medida",
+     "texto": "Escolhe a análise: rápida, completa, só segurança, testes ou desempenho."
+    }
+   ],
+   "fluxo": [
+    "RODA /IMPROVE",
+    "LÊ O PLANO",
+    "OUTRA IA FAZ"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "opengraph",
+   "stat": "+333",
+   "stat_rotulo": "hoje",
+   "total": "10.406",
+   "info2": "desde 06/2026"
+  },
+  {
+   "pos": 8,
+   "nome": "GoogleChrome/modern-web-guidance-src",
+   "repo": "modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "gancho": [
+    "SITES MODERNOS",
+    "SEM VÍCIO ANTIGO"
+   ],
+   "o_que_e": "Um conjunto de habilidades do Google Chrome que ensina a IA que programa a fazer sites com as técnicas atuais da web.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Feito por navegadores",
+     "texto": "Cuidado pelas equipes do Chrome, Edge, Firefox e MDN com a comunidade."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Compatibilidade junto",
+     "texto": "Traz dados de quais navegadores aceitam cada recurso, direto para a IA."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O GUIA",
+    "A IA CONSULTA",
+    "SITE ATUAL"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "opengraph",
+   "stat": "+133",
+   "stat_rotulo": "hoje",
+   "total": "1.415",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 9,
+   "nome": "TheAlgorithms/Java",
+   "repo": "Java",
+   "url": "https://github.com/TheAlgorithms/Java",
+   "gancho": [
+    "APRENDA ALGORITMOS",
+    "LENDO O CÓDIGO"
+   ],
+   "o_que_e": "Uma coleção aberta com os algoritmos clássicos da programação, como busca e ordenação, todos escritos em Java para estudar.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "Feito para estudar",
+     "texto": "O próprio projeto avisa: o foco é aprender, não a velocidade máxima."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Roda no navegador",
+     "texto": "Dá para abrir, rodar e editar no Gitpod, um ambiente online grátis."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O TEMA",
+    "LÊ O CÓDIGO",
+    "RODA E APRENDE"
+   ],
+   "print": "prints/9.png",
+   "print_fonte": "opengraph",
+   "stat": "+39",
+   "stat_rotulo": "hoje",
+   "total": "66.857",
+   "info2": "Java · desde 07/2016"
+  },
+  {
+   "pos": 10,
+   "nome": "openai/codex-security",
+   "repo": "codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "gancho": [
+    "FALHAS NO CÓDIGO?",
+    "A IA ACHA E CORRIGE"
+   ],
+   "o_que_e": "Uma ferramenta da OpenAI que procura falhas de segurança no seu código, confere se são reais e ajuda você a corrigir.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Confere e corrige",
+     "texto": "Valida cada falha achada, gera a correção e confirma se ficou certa."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga com Jira e GitHub",
+     "texto": "Manda os achados para Linear, Jira ou GitHub e exporta os relatórios."
+    }
+   ],
+   "fluxo": [
+    "VARRE O CÓDIGO",
+    "CONFERE FALHAS",
+    "CORRIGE"
+   ],
+   "print": "prints/10.png",
+   "print_fonte": "opengraph",
+   "stat": "+20",
+   "stat_rotulo": "hoje",
+   "total": "11.400",
+   "info2": "TypeScript · desde 07/2026"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 10 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

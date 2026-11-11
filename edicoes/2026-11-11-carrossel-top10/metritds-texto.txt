@@ -1,0 +1,17 @@
+Top 10 do GitHub · 11/11/2026
+
+Meta, OpenAI e Google Chrome abriram projetos novos e o GitHub inteiro foi atrás. Arrasta para o lado e veja os 10 que mais ganharam estrelas hoje, explicados em português simples. Quer aprender a usar IA de graça? Está tudo no inema.club.
+
+1. meta/astryx
+2. we-promise/sure
+3. ZhuLinsen/daily_stock_analysis
+4. addyosmani/agent-skills
+5. vercel-labs/agent-browser
+6. homeassistant-ai/ha-mcp
+7. shadcn/improve
+8. GoogleChrome/modern-web-guidance-src
+9. TheAlgorithms/Java
+10. openai/codex-security
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

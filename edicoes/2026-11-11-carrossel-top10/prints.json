@@ -1,0 +1,82 @@
+{
+ "meta/astryx": {
+  "fonte": "readme",
+  "url": "https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png",
+  "tam": [
+   1400,
+   735
+  ]
+ },
+ "we-promise/sure": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/we-promise/sure/main/docs/screenshots/dashboard-dark.webp",
+  "tam": [
+   1400,
+   948
+  ]
+ },
+ "ZhuLinsen/daily_stock_analysis": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/docs/assets/readme_workspace_tour_20260510.gif",
+  "tam": [
+   720,
+   633
+  ]
+ },
+ "addyosmani/agent-skills": {
+  "fonte": "readme",
+  "url": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+  "tam": [
+   1376,
+   768
+  ]
+ },
+ "vercel-labs/agent-browser": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/vercel-labs/agent-browser",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "homeassistant-ai/ha-mcp": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/ha-mcp-logo.png",
+  "tam": [
+   1400,
+   706
+  ]
+ },
+ "shadcn/improve": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/shadcn/improve",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "GoogleChrome/modern-web-guidance-src": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/GoogleChrome/modern-web-guidance-src",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "TheAlgorithms/Java": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/TheAlgorithms/Java",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "openai/codex-security": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/openai/codex-security",
+  "tam": [
+   1200,
+   600
+  ]
+ }
+}
