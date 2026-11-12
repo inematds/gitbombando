@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "META ABRE O SEGREDO DAS TELAS",
+  "destaque": "META"
+ },
+ "repos": {
+  "meta/astryx": {
+   "gancho": [
+    "AS TELAS DA META",
+    "AGORA SÃO SUAS"
+   ],
+   "o_que_e": "Um kit aberto de botões, menus e telas que a Meta usou em mais de treze mil apps internos, pronto para você e a IA montarem sites.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 peças",
+     "texto": "Componentes acessíveis, com tema da sua marca e modo escuro."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para a IA usar",
+     "texto": "Pessoas e assistentes de IA montam telas com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "ESCOLHE O TEMA",
+    "MONTA AS TELAS"
+   ]
+  },
+  "we-promise/sure": {
+   "gancho": [
+    "SEU DINHEIRO",
+    "NUM LUGAR SÓ"
+   ],
+   "o_que_e": "Um aplicativo aberto e grátis de finanças pessoais, mantido pela comunidade, para organizar todo o seu dinheiro.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Roda no seu servidor",
+     "texto": "Você pode instalar no seu próprio computador ou servidor, de graça."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Guia em português",
+     "texto": "As instruções vêm em vários idiomas, inclusive em português."
+    }
+   ],
+   "fluxo": [
+    "INSTALA GRÁTIS",
+    "LANÇA AS CONTAS",
+    "VÊ O RESUMO"
+   ]
+  },
+  "addyosmani/agent-skills": {
+   "gancho": [
+    "A IA PROGRAMANDO",
+    "COMO UM SÊNIOR"
+   ],
+   "o_que_e": "Um pacote de habilidades que faz a IA de programação seguir os hábitos de um programador sênior, da ideia ao lançamento.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "9 comandos prontos",
+     "texto": "Comandos como /spec, /plan e /test ativam a habilidade certa sozinhos."
+    },
+    {
+     "icone": "code",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Claude Code, Codex, Cursor e Antigravity."
+    }
+   ],
+   "fluxo": [
+    "DIZ A IDEIA",
+    "A IA PLANEJA",
+    "TESTA E LANÇA"
+   ]
+  },
+  "Alishahryar1/free-claude-code": {
+   "gancho": [
+    "CLAUDE CODE",
+    "SEM PAGAR?"
+   ],
+   "o_que_e": "Um programa que promete usar o Claude Code e outros assistentes de programação de graça, ligando cada um a outros modelos de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "12 assistentes",
+     "texto": "Funciona com Claude Code, Codex, OpenCode, Cline, Aider e outros."
+    },
+    {
+     "icone": "link",
+     "titulo": "Troca o modelo de IA",
+     "texto": "Manda o pedido do assistente para o provedor de IA que você escolher."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE A IA",
+    "PROGRAMA GRÁTIS"
+   ]
+  },
+  "pookjw/HermesEnabler": {
+   "gancho": [
+    "MOSTRADOR DE LUXO",
+    "NO SEU RELÓGIO"
+   ],
+   "o_que_e": "Um aplicativo que libera os mostradores exclusivos da Hermès em qualquer Apple Watch, sem comprar o modelo de luxo.",
+   "beneficios": [
+    {
+     "icone": "clock",
+     "titulo": "Qualquer Apple Watch",
+     "texto": "Funciona do watchOS 27.0 até o 27.3 beta 1, segundo o autor."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Faça backup antes",
+     "texto": "O app guarda uma cópia de segurança; restaure antes de apagá-lo."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "INSTALA NO CEL",
+    "ABRE NO RELÓGIO"
+   ]
+  },
+  "CopilotKit/OpenBot": {
+   "gancho": [
+    "UM COLEGA DE IA",
+    "COM PC PRÓPRIO"
+   ],
+   "o_que_e": "Um espaço de trabalho aberto em que colegas de IA ganham o próprio computador, com navegador e arquivos, e tudo o que fazem fica anotado.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "App Mac e Windows",
+     "texto": "Instalador pronto, sem terminal nem ferramentas de programador."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Pede sua aprovação",
+     "texto": "A IA espera o seu aval antes de enviar, e você assume quando quiser."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "DÁ A TAREFA",
+    "VOCÊ APROVA"
+   ]
+  },
+  "ggml-org/llama.cpp": {
+   "gancho": [
+    "IA RODANDO",
+    "NO SEU COMPUTADOR"
+   ],
+   "o_que_e": "Um programa aberto que roda modelos de IA direto no seu próprio computador, sem depender da internet nem pagar por uso.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda na sua máquina",
+     "texto": "Escrito em C e C++, leva o modelo de IA para o seu computador."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Código aberto",
+     "texto": "Licença MIT: livre para usar, estudar e modificar."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O MODELO",
+    "RODA NO PC",
+    "PERGUNTA À IA"
+   ]
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+   "gancho": [
+    "SITES MODERNOS",
+    "FEITOS PELA IA"
+   ],
+   "o_que_e": "Um conjunto de habilidades do Google Chrome que ensina a IA de programação a montar sites do jeito moderno, sem truques velhos.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Feito pelos navegadores",
+     "texto": "Cuidado pelas equipes do Chrome, Edge, Firefox e MDN."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Painel de testes",
+     "texto": "Um painel público mostra como as orientações se saem nos testes."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "A IA APRENDE",
+    "SITE MODERNO"
+   ]
+  },
+  "QwenLM/qwen-code": {
+   "gancho": [
+    "UM PROGRAMADOR IA",
+    "NO SEU TERMINAL"
+   ],
+   "o_que_e": "Um assistente de IA de código aberto, da Alibaba, que escreve código por você no terminal, no editor, no navegador e no chat.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Vive no terminal",
+     "texto": "Você pede em texto e ele escreve e mexe no código por você."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Guia em português",
+     "texto": "A documentação tem versão em português do Brasil."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE EM TEXTO",
+    "CÓDIGO PRONTO"
+   ]
+  },
+  "nodejs/node": {
+   "gancho": [
+    "O MOTOR QUE RODA",
+    "BOA PARTE DA WEB"
+   ],
+   "o_que_e": "Um programa aberto que roda JavaScript fora do navegador e move boa parte dos sites e aplicativos da internet.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Roda em tudo",
+     "texto": "Funciona no Windows, no macOS e no Linux, com o mesmo código."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Suporte longo",
+     "texto": "Tem versões com suporte de longo prazo e versões atuais com novidades."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O NODE",
+    "ESCREVE O APP",
+    "RODA NO PC"
+   ]
+  }
+ },
+ "legenda_abertura": "A Meta abriu o kit de telas que usava por dentro, e ele entrou no Top 10 do GitHub de hoje. Passe o carrossel e veja os 10 projetos que mais ganharam estrelas, explicados sem complicação. Para aprender a usar IA de verdade, os cursos são grátis no inema.club.",
+ "telegram": "Saiu o Top 10 do GitHub de hoje: da Meta abrindo o kit de telas ao Claude Code que promete ser de graça. Veja o carrossel com cada projeto explicado em português simples. Cursos grátis de IA no inema.club."
+}

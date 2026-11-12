@@ -1,0 +1,6 @@
+{
+ "veredito": "aprovado",
+ "motivo": "",
+ "slides_ruins": [],
+ "sugestao": "No slide 9 (modern-web-guidance-src) o print é só o cartão automático do GitHub e a URL do rodapé termina em reticências. Vale tentar um print do README e encurtar a URL quando ela for longa."
+}

@@ -1,0 +1,82 @@
+{
+ "meta/astryx": {
+  "fonte": "readme",
+  "url": "https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png",
+  "tam": [
+   1400,
+   735
+  ]
+ },
+ "we-promise/sure": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/we-promise/sure/main/docs/screenshots/dashboard-dark.webp",
+  "tam": [
+   1400,
+   948
+  ]
+ },
+ "addyosmani/agent-skills": {
+  "fonte": "readme",
+  "url": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+  "tam": [
+   1376,
+   768
+  ]
+ },
+ "Alishahryar1/free-claude-code": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/pic.png",
+  "tam": [
+   1400,
+   744
+  ]
+ },
+ "pookjw/HermesEnabler": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/pookjw/HermesEnabler/main/image.png",
+  "tam": [
+   1400,
+   1050
+  ]
+ },
+ "CopilotKit/OpenBot": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/c60f07da-8b6d-46eb-a573-17fc1e65a644",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "ggml-org/llama.cpp": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/88726b48-1713-48aa-a525-95a02e78afc4",
+  "tam": [
+   1400,
+   1014
+  ]
+ },
+ "GoogleChrome/modern-web-guidance-src": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/GoogleChrome/modern-web-guidance-src",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "QwenLM/qwen-code": {
+  "fonte": "readme",
+  "url": "https://img.alicdn.com/imgextra/i1/O1CN01DXWdF8BDUdD3XPhl_!!6000000001721-2-tps-1743-902.png",
+  "tam": [
+   1400,
+   724
+  ]
+ },
+ "nodejs/node": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/nodejs/node",
+  "tam": [
+   1200,
+   600
+  ]
+ }
+}

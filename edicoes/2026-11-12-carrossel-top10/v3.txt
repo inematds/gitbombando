@@ -1,0 +1,7 @@
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+🔵 CARROSSEL PUBLICADO DIRETO · Top 10 do GitHub · 12/11/2026
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+Telegram INEMA.DEV: ok (tópico 7597)
+Instagram/TikTok inema.tech (FTD): ok · instagram, tiktok
+12 slides · revisor: aprovado
+🟥 SUGESTÃO: No slide 9 (modern-web-guidance-src) o print é só o cartão automático do GitHub e a URL do rodapé termina em reticências. Vale tentar um print do README e encurtar a URL quando ela for longa.

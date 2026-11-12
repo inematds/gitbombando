@@ -1,0 +1,374 @@
+{
+ "tipo": "top10",
+ "serie": "TOP 10 DO GITHUB",
+ "conta": "@inema.tech",
+ "data_br": "12/11/2026",
+ "capa": {
+  "linha1": "TOP 10",
+  "linha2": "DO GITHUB HOJE",
+  "numero": "+6.563",
+  "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas",
+  "manchete": "META ABRE O SEGREDO DAS TELAS",
+  "destaque": "META",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/9.png",
+   "prints/8.png",
+   "prints/10.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "meta/astryx",
+   "repo": "astryx",
+   "url": "https://github.com/meta/astryx",
+   "gancho": [
+    "AS TELAS DA META",
+    "AGORA SÃO SUAS"
+   ],
+   "o_que_e": "Um kit aberto de botões, menus e telas que a Meta usou em mais de treze mil apps internos, pronto para você e a IA montarem sites.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 peças",
+     "texto": "Componentes acessíveis, com tema da sua marca e modo escuro."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para a IA usar",
+     "texto": "Pessoas e assistentes de IA montam telas com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "ESCOLHE O TEMA",
+    "MONTA AS TELAS"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+2.776",
+   "stat_rotulo": "hoje",
+   "total": "25.905",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 2,
+   "nome": "we-promise/sure",
+   "repo": "sure",
+   "url": "https://github.com/we-promise/sure",
+   "gancho": [
+    "SEU DINHEIRO",
+    "NUM LUGAR SÓ"
+   ],
+   "o_que_e": "Um aplicativo aberto e grátis de finanças pessoais, mantido pela comunidade, para organizar todo o seu dinheiro.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Roda no seu servidor",
+     "texto": "Você pode instalar no seu próprio computador ou servidor, de graça."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Guia em português",
+     "texto": "As instruções vêm em vários idiomas, inclusive em português."
+    }
+   ],
+   "fluxo": [
+    "INSTALA GRÁTIS",
+    "LANÇA AS CONTAS",
+    "VÊ O RESUMO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+1.078",
+   "stat_rotulo": "hoje",
+   "total": "13.448",
+   "info2": "Ruby · desde 07/2025"
+  },
+  {
+   "pos": 3,
+   "nome": "addyosmani/agent-skills",
+   "repo": "agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "gancho": [
+    "A IA PROGRAMANDO",
+    "COMO UM SÊNIOR"
+   ],
+   "o_que_e": "Um pacote de habilidades que faz a IA de programação seguir os hábitos de um programador sênior, da ideia ao lançamento.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "9 comandos prontos",
+     "texto": "Comandos como /spec, /plan e /test ativam a habilidade certa sozinhos."
+    },
+    {
+     "icone": "code",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Claude Code, Codex, Cursor e Antigravity."
+    }
+   ],
+   "fluxo": [
+    "DIZ A IDEIA",
+    "A IA PLANEJA",
+    "TESTA E LANÇA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+787",
+   "stat_rotulo": "hoje",
+   "total": "116.327",
+   "info2": "JavaScript · desde 02/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "Alishahryar1/free-claude-code",
+   "repo": "free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "gancho": [
+    "CLAUDE CODE",
+    "SEM PAGAR?"
+   ],
+   "o_que_e": "Um programa que promete usar o Claude Code e outros assistentes de programação de graça, ligando cada um a outros modelos de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "12 assistentes",
+     "texto": "Funciona com Claude Code, Codex, OpenCode, Cline, Aider e outros."
+    },
+    {
+     "icone": "link",
+     "titulo": "Troca o modelo de IA",
+     "texto": "Manda o pedido do assistente para o provedor de IA que você escolher."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE A IA",
+    "PROGRAMA GRÁTIS"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+636",
+   "stat_rotulo": "hoje",
+   "total": "68.852",
+   "info2": "Python · desde 01/2026"
+  },
+  {
+   "pos": 5,
+   "nome": "pookjw/HermesEnabler",
+   "repo": "HermesEnabler",
+   "url": "https://github.com/pookjw/HermesEnabler",
+   "gancho": [
+    "MOSTRADOR DE LUXO",
+    "NO SEU RELÓGIO"
+   ],
+   "o_que_e": "Um aplicativo que libera os mostradores exclusivos da Hermès em qualquer Apple Watch, sem comprar o modelo de luxo.",
+   "beneficios": [
+    {
+     "icone": "clock",
+     "titulo": "Qualquer Apple Watch",
+     "texto": "Funciona do watchOS 27.0 até o 27.3 beta 1, segundo o autor."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Faça backup antes",
+     "texto": "O app guarda uma cópia de segurança; restaure antes de apagá-lo."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "INSTALA NO CEL",
+    "ABRE NO RELÓGIO"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+390",
+   "stat_rotulo": "hoje",
+   "total": "1.333",
+   "info2": "Objective-C · desde 12/2024"
+  },
+  {
+   "pos": 6,
+   "nome": "CopilotKit/OpenBot",
+   "repo": "OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "gancho": [
+    "UM COLEGA DE IA",
+    "COM PC PRÓPRIO"
+   ],
+   "o_que_e": "Um espaço de trabalho aberto em que colegas de IA ganham o próprio computador, com navegador e arquivos, e tudo o que fazem fica anotado.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "App Mac e Windows",
+     "texto": "Instalador pronto, sem terminal nem ferramentas de programador."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Pede sua aprovação",
+     "texto": "A IA espera o seu aval antes de enviar, e você assume quando quiser."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "DÁ A TAREFA",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+291",
+   "stat_rotulo": "hoje",
+   "total": "11.210",
+   "info2": "TypeScript · desde 08/2026"
+  },
+  {
+   "pos": 7,
+   "nome": "ggml-org/llama.cpp",
+   "repo": "llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "gancho": [
+    "IA RODANDO",
+    "NO SEU COMPUTADOR"
+   ],
+   "o_que_e": "Um programa aberto que roda modelos de IA direto no seu próprio computador, sem depender da internet nem pagar por uso.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda na sua máquina",
+     "texto": "Escrito em C e C++, leva o modelo de IA para o seu computador."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Código aberto",
+     "texto": "Licença MIT: livre para usar, estudar e modificar."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O MODELO",
+    "RODA NO PC",
+    "PERGUNTA À IA"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+162",
+   "stat_rotulo": "hoje",
+   "total": "134.236",
+   "info2": "C++ · desde 03/2023"
+  },
+  {
+   "pos": 8,
+   "nome": "GoogleChrome/modern-web-guidance-src",
+   "repo": "modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "gancho": [
+    "SITES MODERNOS",
+    "FEITOS PELA IA"
+   ],
+   "o_que_e": "Um conjunto de habilidades do Google Chrome que ensina a IA de programação a montar sites do jeito moderno, sem truques velhos.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Feito pelos navegadores",
+     "texto": "Cuidado pelas equipes do Chrome, Edge, Firefox e MDN."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Painel de testes",
+     "texto": "Um painel público mostra como as orientações se saem nos testes."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "A IA APRENDE",
+    "SITE MODERNO"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "opengraph",
+   "stat": "+159",
+   "stat_rotulo": "hoje",
+   "total": "2.206",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 9,
+   "nome": "QwenLM/qwen-code",
+   "repo": "qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "gancho": [
+    "UM PROGRAMADOR IA",
+    "NO SEU TERMINAL"
+   ],
+   "o_que_e": "Um assistente de IA de código aberto, da Alibaba, que escreve código por você no terminal, no editor, no navegador e no chat.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Vive no terminal",
+     "texto": "Você pede em texto e ele escreve e mexe no código por você."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Guia em português",
+     "texto": "A documentação tem versão em português do Brasil."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE EM TEXTO",
+    "CÓDIGO PRONTO"
+   ],
+   "print": "prints/9.png",
+   "print_fonte": "readme",
+   "stat": "+151",
+   "stat_rotulo": "hoje",
+   "total": "29.543",
+   "info2": "TypeScript · desde 06/2025"
+  },
+  {
+   "pos": 10,
+   "nome": "nodejs/node",
+   "repo": "node",
+   "url": "https://github.com/nodejs/node",
+   "gancho": [
+    "O MOTOR QUE RODA",
+    "BOA PARTE DA WEB"
+   ],
+   "o_que_e": "Um programa aberto que roda JavaScript fora do navegador e move boa parte dos sites e aplicativos da internet.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Roda em tudo",
+     "texto": "Funciona no Windows, no macOS e no Linux, com o mesmo código."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Suporte longo",
+     "texto": "Tem versões com suporte de longo prazo e versões atuais com novidades."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O NODE",
+    "ESCREVE O APP",
+    "RODA NO PC"
+   ],
+   "print": "prints/10.png",
+   "print_fonte": "opengraph",
+   "stat": "+133",
+   "stat_rotulo": "hoje",
+   "total": "123.493",
+   "info2": "JavaScript · desde 11/2014"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 10 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

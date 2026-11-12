@@ -1,0 +1,17 @@
+Top 10 do GitHub · 12/11/2026
+
+A Meta abriu o kit de telas que usava por dentro, e ele entrou no Top 10 do GitHub de hoje. Passe o carrossel e veja os 10 projetos que mais ganharam estrelas, explicados sem complicação. Para aprender a usar IA de verdade, os cursos são grátis no inema.club.
+
+1. meta/astryx
+2. we-promise/sure
+3. addyosmani/agent-skills
+4. Alishahryar1/free-claude-code
+5. pookjw/HermesEnabler
+6. CopilotKit/OpenBot
+7. ggml-org/llama.cpp
+8. GoogleChrome/modern-web-guidance-src
+9. QwenLM/qwen-code
+10. nodejs/node
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub
