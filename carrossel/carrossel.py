@@ -38,6 +38,7 @@ AGENDA = "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h<
 ICONES = {"zap", "video", "image", "mic", "code", "terminal", "bot", "brain", "shield", "lock", "search", "globe", "layers",
           "clock", "cpu", "database", "wand", "chart", "folder", "link", "chat", "download"}
 PROIBIDO = re.compile(r"revolucion|incrível|inacreditável|insano|mude sua vida|!!|\bmort[eoa]s?\b|\btu\b|\bteu\b", re.I)
+TRAVA = Path.home() / "projetos/metricool-inematds/intervalo.py"
 SEM_CHAVE = {k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"}   # claude -p sempre pela assinatura
 
 
@@ -360,6 +361,13 @@ def metritds(cd, d, S, leg, titulo):
             return {"ok": False, "erro": "upload na release: " + r.stderr[:200]}
     (cd / "metritds-texto.txt").write_text(leg)
     alvo = time.time() + 600
+    if not os.environ.get("RASCUNHO"):   # trava de 1 h entre posts da marca (Nei, 12/11/2026); INTERVALO_LIVRE=1 libera
+        t = subprocess.run(["python3", str(TRAVA), "--conector", "metricool-inematds", "--marca", "FTD", "--alvo", str(int(alvo))],
+                           capture_output=True, text=True)
+        log("metritds:", t.stderr.strip()[-200:])
+        if t.returncode:
+            return {"ok": False, "erro": "trava de 1 h: não consegui ler a agenda da marca, não agendei"}
+        alvo = int(t.stdout.split()[-1])
     quando = time.strftime("%Y-%m-%dT%H:%M:00", time.gmtime(alvo))   # UTC (lição do metricool-pub2)
     rascunho = "true" if os.environ.get("RASCUNHO") else "false"
     pedido = f"""Use só as ferramentas do servidor MCP metricool-inematds.
@@ -383,6 +391,7 @@ def metritds(cd, d, S, leg, titulo):
     except Exception:  # noqa: BLE001
         res = {"ok": False, "erro": r.stdout[-300:]}
     if res.get("ok") and not os.environ.get("RASCUNHO"):
+        subprocess.run(["python3", str(TRAVA), "--registrar", "--marca", "FTD", "--alvo", str(int(alvo))])
         marca.write_text(time.strftime("%d/%m %H:%M", time.localtime(alvo)) + "\n" + ", ".join(res.get("redes", [])) + "\n")
     return res
 
