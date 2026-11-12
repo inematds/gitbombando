@@ -1,0 +1,99 @@
+modo: dia
+gancho:
+  tipo: noticia
+  manchete: "LUXO DA HERMÈS DESTRAVADO: +41%"
+  destaque: "+41%"
+  objeto: "um relógio inteligente de luxo com a tela rachando, um cadeado dourado partido ao meio e faíscas amarelas saindo"
+  fontes:
+    - {nome: "github.com/trending", trecho: "pookjw/HermesEnabler · 390 stars today"}
+    - {nome: "github.com/pookjw/HermesEnabler", trecho: "Enable Hermès Watch Faces on any Apple Watch devices"}
+abertura:
+  cena: "vitrine de joalheria escura à noite, vidro trincado, só a luz amarela vindo do centro"
+partes:
+  - etapa: gancho
+    fala: "Tem gente destravando os mostradores de luxo da Hermès em qualquer Apple Watch. O projeto cresceu quarenta e um por cento num dia. E nem foi o campeão."
+  - etapa: panorama
+    fala: "Os dez que mais cresceram hoje somaram seis mil quinhentas e sessenta e três estrelas. Tem Meta, Google e o time do Chrome no meio. Vou do décimo ao primeiro."
+    numero: "6.563"
+  - etapa: repo
+    repo: "nodejs/node"
+    desc: "O motor que roda boa parte dos sites e aplicativos da internet, aberto há mais de dez anos."
+    destaque: "boa parte dos sites"
+    numero: "133"
+    fala: "Abrindo em décimo, um gigante veterano. O Node é o motor por trás de boa parte dos sites e aplicativos que você usa todo dia. Cento e trinta e três estrelas."
+  - etapa: repo
+    repo: "QwenLM/qwen-code"
+    desc: "Da Alibaba: um assistente de IA gratuito que escreve código direto no seu computador."
+    destaque: "gratuito"
+    numero: "151"
+    fala: "Nono lugar, a resposta chinesa. O Qwen Code, da Alibaba, é um ajudante de IA aberto que escreve e conserta código direto no seu computador. Cento e cinquenta e uma estrelas."
+  - etapa: repo
+    repo: "GoogleChrome/modern-web-guidance-src"
+    desc: "Do Google Chrome: ensina a IA a montar sites do jeito moderno, sem truques velhos."
+    destaque: "jeito moderno"
+    numero: "159"
+    fala: "Em oitavo, o time do Google Chrome de novo. O Modern Web Guidance ensina a IA a fazer sites do jeito certo de hoje. Cento e cinquenta e nove estrelas."
+  - etapa: repo
+    repo: "ggml-org/llama.cpp"
+    desc: "Roda uma IA inteira no seu próprio computador, sem internet e sem pagar nada."
+    destaque: "sem internet"
+    numero: "162"
+    fala: "Sétimo, o llama ponto cpp. Com ele, você roda uma IA inteira no seu próprio computador, sem internet e sem mandar seus dados pra ninguém. Cento e sessenta e duas estrelas."
+  - etapa: repo
+    repo: "CopilotKit/OpenBot"
+    desc: "Colegas de trabalho de IA, cada um com o próprio computador, e tudo que fazem fica anotado."
+    destaque: "próprio computador"
+    numero: "291"
+    fala: "Em sexto, o OpenBot. São colegas de trabalho de IA: cada um ganha um computador, navega, mexe em arquivos, e cada passo fica registrado. Duzentas e noventa e uma estrelas."
+  - etapa: repo
+    repo: "pookjw/HermesEnabler"
+    desc: "Libera os mostradores exclusivos da Hermès em qualquer Apple Watch, sem pagar o modelo de luxo."
+    destaque: "exclusivos da Hermès"
+    numero: "390"
+    fala: "Quinto, o tal do relógio. O Hermes Enabler libera os mostradores exclusivos da Hermès em qualquer Apple Watch. Isso é polêmico, cuidado com a garantia. Trezentas e noventa estrelas."
+  - etapa: repo
+    repo: "Alishahryar1/free-claude-code"
+    desc: "Promete usar o Claude Code e outros assistentes de programação de graça, pelo terminal."
+    destaque: "de graça"
+    numero: "636"
+    fala: "Em quarto, uma promessa ousada. O Free Claude Code diz que você usa o Claude Code e outros assistentes de programação de graça. Mas cuidado, confira as regras de cada serviço. Seiscentas e trinta e seis estrelas."
+  - etapa: repo
+    repo: "addyosmani/agent-skills"
+    desc: "Os hábitos de um programador sênior empacotados pra IA seguir sempre, passo a passo."
+    destaque: "programador sênior"
+    numero: "787"
+    fala: "E agora o pódio. Terceiro, o Agent Skills, de um engenheiro do Google, que não sai do Top dez. Ele faz a IA trabalhar como um programador experiente. Setecentas e oitenta e sete estrelas."
+  - etapa: repo
+    repo: "we-promise/sure"
+    desc: "Um aplicativo de finanças pessoais aberto e grátis pra organizar todo o seu dinheiro."
+    destaque: "aberto e grátis"
+    numero: "1.078"
+    fala: "Em segundo, de novo, o Sure. Um aplicativo de finanças pessoais aberto e gratuito, pra você ver pra onde vai cada centavo sem pagar assinatura. Mil e setenta e oito estrelas."
+  - etapa: repo
+    repo: "meta/astryx"
+    desc: "Da Meta: o kit de telas usado em treze mil apps internos, agora aberto e pronto pra IA."
+    destaque: "treze mil apps"
+    numero: "2.776"
+    fala: "E o número um não muda. É da Meta. O Astryx monta as telas de mais de treze mil aplicativos dela, e não sai do Top dez. Ninguém derruba. Duas mil setecentas e setenta e seis estrelas."
+  - etapa: comentario
+    fala: "E você, rodaria uma IA no seu computador ou destravaria o relógio de luxo? Conta aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "quarenta e um por cento": "41%"
+  "seis mil quinhentas e sessenta e três": "6.563"
+  "Cento e trinta e três": "133"
+  "Cento e cinquenta e uma": "151"
+  "Cento e cinquenta e nove": "159"
+  "Cento e sessenta e duas": "162"
+  "Duzentas e noventa e uma": "291"
+  "Trezentas e noventa": "390"
+  "Seiscentas e trinta e seis": "636"
+  "Setecentas e oitenta e sete": "787"
+  "Mil e setenta e oito": "1.078"
+  "Duas mil setecentas e setenta e seis": "2.776"
+cores: {bombando: "#FACC15", Meta: "#FACC15", Google: "#FACC15", Astryx: "#FACC15", Hermès: "#FACC15", cuidado: "#ff2a1f", polêmico: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Apple Watch de luxo destravado e a Meta no topo do GitHub com +2.776 estrelas"
+  contexto: "Top 10 do GitHub de 12/11/2026, do décimo ao primeiro, com os projetos que mais ganharam estrelas no dia. O Astryx da Meta segue em primeiro com 2.776 estrelas, e um projeto que libera os mostradores da Hermès em qualquer Apple Watch cresceu 41%."
+  telegram: "O Astryx da Meta segue no topo do GitHub com +2.776 estrelas, e o Sure, app de finanças aberto, segura o segundo lugar. A surpresa do dia: um projeto que libera os mostradores de luxo da Hermès em qualquer Apple Watch cresceu 41% em 24 horas."

@@ -1,0 +1,13 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com TOP 10 DO GITHUB e manchete igual ao gancho, as 10 pílulas 🔥 e o painel geral (6.563) batem com o top10.json, o avatar fica correto e o fecho tem a caixa vermelha e a pílula inema.club; não achei defeito visível.",
+ "sugestoes": [
+  "0–4 s (capa): a imagem do relógio quase some atrás do texto; um relógio rachando mais visível reforçaria o 'destravado'.",
+  "33,8 s e 53,6 s (#9 qwen-code, #7 llama.cpp): o gráfico 'antes × agora' mostra duas barras quase iguais (+0,5% e +0,1%) e não passa crescimento; destacar o ganho ou usar outro visual nesses casos.",
+  "103,2 s e 113,1 s (#2 sure): o cartão aparece duas vezes seguidas e o painel começa em 0; parece repetição, então vale entrar direto no contador animado.",
+  "63,5 s (#6 OpenBot): descrição boa, mas poderia trazer o dado mais forte (11 mil estrelas) junto do gancho.",
+  "132,98 s (fecho): o print do inema.club com 'NOVEMBRO É…' cortado embaixo fica poluído; dá para recortar só a parte de cima.",
+  "IMPACTO 7: o gancho da Hermès +41% é forte; dá para segurar mais no meio (#9 ao #6) com frases mais curtas ou um contraste visual mais forte entre os cartões."
+ ]
+}

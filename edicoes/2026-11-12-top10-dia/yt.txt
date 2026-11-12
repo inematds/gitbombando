@@ -1,0 +1,12 @@
+Apple Watch de luxo destravado e a Meta no topo do GitHub com +2.776 estrelas
+
+#1 meta/astryx — https://github.com/meta/astryx
+#2 we-promise/sure — https://github.com/we-promise/sure
+#3 addyosmani/agent-skills — https://github.com/addyosmani/agent-skills
+#4 Alishahryar1/free-claude-code — https://github.com/Alishahryar1/free-claude-code
+#5 pookjw/HermesEnabler — https://github.com/pookjw/HermesEnabler
+#6 CopilotKit/OpenBot — https://github.com/CopilotKit/OpenBot
+#7 ggml-org/llama.cpp — https://github.com/ggml-org/llama.cpp
+#8 GoogleChrome/modern-web-guidance-src — https://github.com/GoogleChrome/modern-web-guidance-src
+#9 QwenLM/qwen-code — https://github.com/QwenLM/qwen-code
+#10 nodejs/node — https://github.com/nodejs/node
