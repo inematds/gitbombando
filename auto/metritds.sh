@@ -23,6 +23,11 @@ if [ "$DESLOC" != 0 ]; then
   ESC=$(( $(date -d "$DIA_ED ${GB_PUBLICAR_AS:-11:00}" +%s) + DESLOC * 3600 ))
   [ "$ESC" -gt "$ALVO" ] && ALVO=$ESC
 fi
+# trava de 1 h entre posts da mesma marca (Nei, 12/11/2026); INTERVALO_LIVRE=1 = o Nei autorizou juntar
+INT_ERRO=""
+if [ -z "${RASCUNHO:-}" ]; then
+  NOVO=$(python3 "$HOME/projetos/metricool-inematds/intervalo.py" --conector metricool-inematds --marca "inema.tds" --alvo "$ALVO") && ALVO="$NOVO" || INT_ERRO=1
+fi
 QUANDO_UTC=$(date -u -d "@$ALVO" +%Y-%m-%dT%H:%M:00)   # UTC: o Metricool deslocou 1 h horário local perto da meia-noite (lição do metricool-pub2)
 QUANDO_BR=$(TZ=America/Sao_Paulo date -d "@$ALVO" '+%d/%m %H:%M')
 
@@ -62,8 +67,10 @@ PEDIDO="Use só as ferramentas do servidor MCP metricool-inematds.
    instagramData (só se instagram estiver conectado) = {type: \"REEL\", showReelOnFeed: true, isAiGenerated: true}
 3) Responda APENAS uma linha JSON, sem crase: {\"ok\":true|false,\"redes\":[...],\"faltam\":[redes não conectadas],\"planner\":[plannerUrl...],\"erro\":\"texto do erro ou vazio\"}"
 cd "$ED"
+if [ -n "$INT_ERRO" ]; then OUT='{"ok":false,"erro":"trava de 1 h: não consegui ler a agenda da marca, não agendei"}'; else
 OUT=$(printf '%s' "$PEDIDO" | timeout 600 env -u ANTHROPIC_API_KEY claude -p \
       --allowedTools "mcp__metricool-inematds__getBrandSettings mcp__metricool-inematds__createScheduledPost Read" 2>&1)
+fi
 echo "claude: $OUT"
 J=$(printf '%s' "$OUT" | grep -o '{.*"ok".*}' | tail -1)
 campo() { printf '%s' "$J" | python3 -c "import sys,json
@@ -76,6 +83,7 @@ REDES=$(campo redes); FALTAM=$(campo faltam); PLAN=$(campo planner); ERRO=$(camp
 FAIXA="🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦"
 if [ -n "$OK" ]; then
   [ -z "${RASCUNHO:-}" ] && printf '%s\n%s\n' "$QUANDO_BR" "$REDES" > "$ED/metritds.txt"
+  [ -z "${RASCUNHO:-}" ] && python3 "$HOME/projetos/metricool-inematds/intervalo.py" --registrar --marca "inema.tds" --alvo "$ALVO"
   # deu certo: o v3 recebe só o aviso normal do YouTube, sem faixa azul nem links do Metricool (Nei, 06/11/2026)
   MSG="Publicado no YouTube lives4 · Bombando no GitHub · $TIT
 $(cat "$ED/v3-resumo.txt" 2>/dev/null)"
