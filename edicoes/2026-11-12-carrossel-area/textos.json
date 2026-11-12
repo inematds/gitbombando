@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "AVIÕES ENTREGAM ONDE VOCÊ ESTÁ",
+  "destaque": "AVIÕES"
+ },
+ "repos": {
+  "N1nEmAn/sapper-v2": {
+   "gancho": [
+    "TESTE DE INVASÃO",
+    "SEM NINGUÉM OLHANDO"
+   ],
+   "o_que_e": "Um time de agentes de IA que faz sozinho, por horas, testes de invasão autorizados para achar falhas de segurança antes de um atacante.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Campeão em competição",
+     "texto": "Venceu o desafio de ataque e defesa da Tencent Cloud, 8 horas sem humano."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Troca agente e modelo",
+     "texto": "Cada papel pode rodar no Claude Code, no Codex ou em outro modelo de IA."
+    }
+   ],
+   "fluxo": [
+    "DEFINE O ALVO",
+    "AGENTES ATACAM",
+    "FALHAS ACHADAS"
+   ]
+  },
+  "Oldcircle/geo-sleuth": {
+   "gancho": [
+    "DE ONDE É",
+    "ESSA FOTO?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que descobre onde uma foto foi tirada usando mapas, relevo, satélite e street view, e mostra as provas.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Acha sem placa ou marco",
+     "texto": "Usa a geometria de pontes, ruas e montanhas quando a foto não tem texto."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Roda em vários agentes",
+     "texto": "Funciona no Claude Code, Codex, Cursor, Gemini CLI e GitHub Copilot."
+    }
+   ],
+   "fluxo": [
+    "MANDA A FOTO",
+    "A IA INVESTIGA",
+    "LOCAL NO MAPA"
+   ]
+  },
+  "jiwoochris/artex-global": {
+   "gancho": [
+    "ENTENDA O ATAQUE",
+    "PARA SE DEFENDER"
+   ],
+   "o_que_e": "Um sistema de agentes de IA que simula invasões em ambiente autorizado, publicado para ajudar equipes de defesa a detectar esse tipo de ataque.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Cinco idiomas",
+     "texto": "Tela e relatórios em inglês, coreano, chinês, espanhol ou japonês."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Foco em detecção",
+     "texto": "Feito para quem defende entender como agem os ataques autônomos com IA."
+    }
+   ],
+   "fluxo": [
+    "SOBE O SISTEMA",
+    "AGENTES SIMULAM",
+    "RELATÓRIO SAI"
+   ]
+  },
+  "lizTheDeveloper/flyover-scrub": {
+   "gancho": [
+    "AVIÃO NO ÁUDIO",
+    "DIZ ONDE VOCÊ ESTÁ"
+   ],
+   "o_que_e": "Um programa que apaga do áudio dos seus vídeos o som de aviões passando, que pode revelar o lugar exato da gravação.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Tira o zumbido da rede",
+     "texto": "Também remove o chiado da rede elétrica, que pode datar a gravação."
+    },
+    {
+     "icone": "search",
+     "titulo": "Confere antes de postar",
+     "texto": "O modo de checagem aponta os sons de risco sem alterar o arquivo."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O VÍDEO",
+    "LIMPA O ÁUDIO",
+    "POSTA SEGURO"
+   ]
+  },
+  "Tropicaldrescoop/discord-id-osint-checker": {
+   "gancho": [
+    "ESSE PERFIL",
+    "É GOLPE?"
+   ],
+   "o_que_e": "Um aplicativo grátis para Windows que mostra quando um perfil, servidor ou convite do Discord foi criado e se ele imita outro.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Nada sai do seu PC",
+     "texto": "Roda no seu computador com o seu próprio robô do Discord, sem site de fora."
+    },
+    {
+     "icone": "search",
+     "titulo": "Pega nome imitado",
+     "texto": "Compara com os perfis que você salvou e aponta letras trocadas."
+    }
+   ],
+   "fluxo": [
+    "COLA O ID",
+    "VÊ A DATA",
+    "ACHA O GOLPE"
+   ]
+  },
+  "morluto/awesome-reverse-engineering": {
+   "gancho": [
+    "COMO UM PROGRAMA",
+    "FUNCIONA POR DENTRO?"
+   ],
+   "o_que_e": "Uma lista organizada de ferramentas e materiais de estudo para desmontar e entender programas, aplicativos, firmware e protocolos.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Busca pela tarefa",
+     "texto": "Uma tabela leva da sua necessidade direto à ferramenta indicada."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Também para aprender",
+     "texto": "Tem seção para estudar a linguagem de máquina e o básico do assunto."
+    }
+   ],
+   "fluxo": [
+    "DIZ A TAREFA",
+    "VÊ A LISTA",
+    "INSTALA E USA"
+   ]
+  },
+  "1337isnot1337/DOPPLERGEIST": {
+   "gancho": [
+    "O SOM DO AVIÃO",
+    "ACHA A GRAVAÇÃO"
+   ],
+   "o_que_e": "Um programa em Python que descobre onde um áudio foi gravado comparando o som de aviões passando com o histórico de voos.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Acha o som sozinho",
+     "texto": "Varre a gravação inteira atrás dos sons de aviões em movimento."
+    },
+    {
+     "icone": "database",
+     "titulo": "Usa voos do passado",
+     "texto": "Baixa e organiza arquivos públicos de rotas de aviões para comparar."
+    }
+   ],
+   "fluxo": [
+    "ENVIA O ÁUDIO",
+    "CRUZA OS VOOS",
+    "LOCAL PROVÁVEL"
+   ]
+  },
+  "PatchBuilderAmplify/stolen-crypto-tracer": {
+   "gancho": [
+    "CRIPTO ROUBADA?",
+    "SIGA O DINHEIRO"
+   ],
+   "o_que_e": "Um aplicativo grátis que segue criptomoedas roubadas, transferência por transferência, até a corretora que pode congelar a conta.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Cinco redes de cripto",
+     "texto": "Funciona em Bitcoin, Ethereum, TRON, BNB Chain e Solana."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Relatório em um clique",
+     "texto": "Gera o documento pronto para você levar à polícia."
+    }
+   ],
+   "fluxo": [
+    "COLA A CARTEIRA",
+    "SEGUE A GRANA",
+    "GERA RELATÓRIO"
+   ]
+  }
+ },
+ "legenda_abertura": "O som de um avião passando pode revelar onde você gravou um vídeo, e dois dos projetos que mais crescem em segurança digital no GitHub mostram isso: um ataca, o outro protege. Arraste o carrossel e veja os 8. Aprenda IA de graça no inema.club, direto na internet.",
+ "telegram": "Saiu o carrossel com os 8 repositórios de segurança digital que mais crescem no GitHub, do teste de invasão feito por agentes de IA ao rastreio de cripto roubada. Veja quais você já pode testar. Cursos de IA grátis no inema.club, direto na internet."
+}

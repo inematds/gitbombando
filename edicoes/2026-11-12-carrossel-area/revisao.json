@@ -1,0 +1,6 @@
+{
+ "veredito": "aprovado",
+ "motivo": "",
+ "slides_ruins": [],
+ "sugestao": "No slide 9 (stolen-crypto-tracer), a URL do repositório sai cortada com reticências no rodapé. Diminuir a fonte da URL quando o nome do dono é longo. Os prints dos slides 4 e 9 (fundo escuro com texto miúdo) dizem pouco: preferir um quadro mais claro do README quando houver."
+}

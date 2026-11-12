@@ -1,0 +1,7 @@
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+🔵 CARROSSEL PUBLICADO DIRETO · Top 8 do GitHub · segurança digital · 12/11/2026
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+Telegram INEMA.DEV: ok (tópico 7597)
+Instagram/TikTok inema.tech (FTD): ok · instagram, tiktok
+10 slides · revisor: aprovado
+🟥 SUGESTÃO: No slide 9 (stolen-crypto-tracer), a URL do repositório sai cortada com reticências no rodapé. Diminuir a fonte da URL quando o nome do dono é longo. Os prints dos slides 4 e 9 (fundo escuro com texto miúdo) dizem pouco: preferir um quadro mais claro do README quando houver.

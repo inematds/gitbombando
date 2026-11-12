@@ -1,0 +1,15 @@
+Top 8 do GitHub · segurança digital · 12/11/2026
+
+O som de um avião passando pode revelar onde você gravou um vídeo, e dois dos projetos que mais crescem em segurança digital no GitHub mostram isso: um ataca, o outro protege. Arraste o carrossel e veja os 8. Aprenda IA de graça no inema.club, direto na internet.
+
+1. N1nEmAn/sapper-v2
+2. Oldcircle/geo-sleuth
+3. jiwoochris/artex-global
+4. lizTheDeveloper/flyover-scrub
+5. Tropicaldrescoop/discord-id-osint-checker
+6. morluto/awesome-reverse-engineering
+7. 1337isnot1337/DOPPLERGEIST
+8. PatchBuilderAmplify/stolen-crypto-tracer
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

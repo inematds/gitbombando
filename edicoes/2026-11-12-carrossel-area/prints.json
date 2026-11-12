@@ -1,0 +1,66 @@
+{
+ "N1nEmAn/sapper-v2": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/N1nEmAn/sapper-v2/master/docs/assets/foundation-three-capabilities.jpg",
+  "tam": [
+   900,
+   350
+  ]
+ },
+ "Oldcircle/geo-sleuth": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Oldcircle/geo-sleuth/main/docs/hero.gif",
+  "tam": [
+   900,
+   658
+  ]
+ },
+ "jiwoochris/artex-global": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/jiwoochris/artex-global/main/screenshots/en/dashboard.png",
+  "tam": [
+   1400,
+   875
+  ]
+ },
+ "lizTheDeveloper/flyover-scrub": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/lizTheDeveloper/flyover-scrub/main/research/figures/video/03_where_it_was_recorded.png",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "Tropicaldrescoop/discord-id-osint-checker": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Tropicaldrescoop/discord-id-osint-checker/main/assets/readme/hero.gif",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "morluto/awesome-reverse-engineering": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/morluto/awesome-reverse-engineering",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "1337isnot1337/DOPPLERGEIST": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/1337isnot1337/DOPPLERGEIST/main/docs/assets/livermore-automatic-mp3.png",
+  "tam": [
+   1400,
+   686
+  ]
+ },
+ "PatchBuilderAmplify/stolen-crypto-tracer": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/PatchBuilderAmplify/stolen-crypto-tracer/main/assets/wake.gif",
+  "tam": [
+   1200,
+   780
+  ]
+ }
+}

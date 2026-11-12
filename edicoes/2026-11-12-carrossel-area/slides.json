@@ -1,0 +1,304 @@
+{
+ "tipo": "area",
+ "serie": "TOP 8 · SEGURANÇA",
+ "conta": "@inema.tech",
+ "data_br": "12/11/2026",
+ "capa": {
+  "linha1": "TOP 8",
+  "linha2": "SEGURANÇA",
+  "numero": "+663",
+  "numero_rotulo": "estrelas por dia, somando os 8 (criados nos últimos meses)",
+  "manchete": "AVIÕES ENTREGAM ONDE VOCÊ ESTÁ",
+  "destaque": "AVIÕES",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/7.png",
+   "prints/8.png",
+   "prints/6.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "N1nEmAn/sapper-v2",
+   "repo": "sapper-v2",
+   "url": "https://github.com/N1nEmAn/sapper-v2",
+   "gancho": [
+    "TESTE DE INVASÃO",
+    "SEM NINGUÉM OLHANDO"
+   ],
+   "o_que_e": "Um time de agentes de IA que faz sozinho, por horas, testes de invasão autorizados para achar falhas de segurança antes de um atacante.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Campeão em competição",
+     "texto": "Venceu o desafio de ataque e defesa da Tencent Cloud, 8 horas sem humano."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Troca agente e modelo",
+     "texto": "Cada papel pode rodar no Claude Code, no Codex ou em outro modelo de IA."
+    }
+   ],
+   "fluxo": [
+    "DEFINE O ALVO",
+    "AGENTES ATACAM",
+    "FALHAS ACHADAS"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+157",
+   "stat_rotulo": "por dia",
+   "total": "2.018",
+   "info2": "Python · criado há 13 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "Oldcircle/geo-sleuth",
+   "repo": "geo-sleuth",
+   "url": "https://github.com/Oldcircle/geo-sleuth",
+   "gancho": [
+    "DE ONDE É",
+    "ESSA FOTO?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que descobre onde uma foto foi tirada usando mapas, relevo, satélite e street view, e mostra as provas.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Acha sem placa ou marco",
+     "texto": "Usa a geometria de pontes, ruas e montanhas quando a foto não tem texto."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Roda em vários agentes",
+     "texto": "Funciona no Claude Code, Codex, Cursor, Gemini CLI e GitHub Copilot."
+    }
+   ],
+   "fluxo": [
+    "MANDA A FOTO",
+    "A IA INVESTIGA",
+    "LOCAL NO MAPA"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+125",
+   "stat_rotulo": "por dia",
+   "total": "6.915",
+   "info2": "Python · criado há 55 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "jiwoochris/artex-global",
+   "repo": "artex-global",
+   "url": "https://github.com/jiwoochris/artex-global",
+   "gancho": [
+    "ENTENDA O ATAQUE",
+    "PARA SE DEFENDER"
+   ],
+   "o_que_e": "Um sistema de agentes de IA que simula invasões em ambiente autorizado, publicado para ajudar equipes de defesa a detectar esse tipo de ataque.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Cinco idiomas",
+     "texto": "Tela e relatórios em inglês, coreano, chinês, espanhol ou japonês."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Foco em detecção",
+     "texto": "Feito para quem defende entender como agem os ataques autônomos com IA."
+    }
+   ],
+   "fluxo": [
+    "SOBE O SISTEMA",
+    "AGENTES SIMULAM",
+    "RELATÓRIO SAI"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+79",
+   "stat_rotulo": "por dia",
+   "total": "3.158",
+   "info2": "Go · criado há 40 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "lizTheDeveloper/flyover-scrub",
+   "repo": "flyover-scrub",
+   "url": "https://github.com/lizTheDeveloper/flyover-scrub",
+   "gancho": [
+    "AVIÃO NO ÁUDIO",
+    "DIZ ONDE VOCÊ ESTÁ"
+   ],
+   "o_que_e": "Um programa que apaga do áudio dos seus vídeos o som de aviões passando, que pode revelar o lugar exato da gravação.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Tira o zumbido da rede",
+     "texto": "Também remove o chiado da rede elétrica, que pode datar a gravação."
+    },
+    {
+     "icone": "search",
+     "titulo": "Confere antes de postar",
+     "texto": "O modo de checagem aponta os sons de risco sem alterar o arquivo."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O VÍDEO",
+    "LIMPA O ÁUDIO",
+    "POSTA SEGURO"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+73",
+   "stat_rotulo": "por dia",
+   "total": "325",
+   "info2": "Python · criado há 4 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "Tropicaldrescoop/discord-id-osint-checker",
+   "repo": "discord-id-osint-checker",
+   "url": "https://github.com/Tropicaldrescoop/discord-id-osint-checker",
+   "gancho": [
+    "ESSE PERFIL",
+    "É GOLPE?"
+   ],
+   "o_que_e": "Um aplicativo grátis para Windows que mostra quando um perfil, servidor ou convite do Discord foi criado e se ele imita outro.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Nada sai do seu PC",
+     "texto": "Roda no seu computador com o seu próprio robô do Discord, sem site de fora."
+    },
+    {
+     "icone": "search",
+     "titulo": "Pega nome imitado",
+     "texto": "Compara com os perfis que você salvou e aponta letras trocadas."
+    }
+   ],
+   "fluxo": [
+    "COLA O ID",
+    "VÊ A DATA",
+    "ACHA O GOLPE"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+63",
+   "stat_rotulo": "por dia",
+   "total": "383",
+   "info2": "HTML · criado há 6 dias"
+  },
+  {
+   "pos": 6,
+   "nome": "morluto/awesome-reverse-engineering",
+   "repo": "awesome-reverse-engineering",
+   "url": "https://github.com/morluto/awesome-reverse-engineering",
+   "gancho": [
+    "COMO UM PROGRAMA",
+    "FUNCIONA POR DENTRO?"
+   ],
+   "o_que_e": "Uma lista organizada de ferramentas e materiais de estudo para desmontar e entender programas, aplicativos, firmware e protocolos.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Busca pela tarefa",
+     "texto": "Uma tabela leva da sua necessidade direto à ferramenta indicada."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Também para aprender",
+     "texto": "Tem seção para estudar a linguagem de máquina e o básico do assunto."
+    }
+   ],
+   "fluxo": [
+    "DIZ A TAREFA",
+    "VÊ A LISTA",
+    "INSTALA E USA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "opengraph",
+   "stat": "+61",
+   "stat_rotulo": "por dia",
+   "total": "2.080",
+   "info2": "Python · criado há 34 dias"
+  },
+  {
+   "pos": 7,
+   "nome": "1337isnot1337/DOPPLERGEIST",
+   "repo": "DOPPLERGEIST",
+   "url": "https://github.com/1337isnot1337/DOPPLERGEIST",
+   "gancho": [
+    "O SOM DO AVIÃO",
+    "ACHA A GRAVAÇÃO"
+   ],
+   "o_que_e": "Um programa em Python que descobre onde um áudio foi gravado comparando o som de aviões passando com o histórico de voos.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Acha o som sozinho",
+     "texto": "Varre a gravação inteira atrás dos sons de aviões em movimento."
+    },
+    {
+     "icone": "database",
+     "titulo": "Usa voos do passado",
+     "texto": "Baixa e organiza arquivos públicos de rotas de aviões para comparar."
+    }
+   ],
+   "fluxo": [
+    "ENVIA O ÁUDIO",
+    "CRUZA OS VOOS",
+    "LOCAL PROVÁVEL"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+60",
+   "stat_rotulo": "por dia",
+   "total": "572",
+   "info2": "Python · criado há 10 dias"
+  },
+  {
+   "pos": 8,
+   "nome": "PatchBuilderAmplify/stolen-crypto-tracer",
+   "repo": "stolen-crypto-tracer",
+   "url": "https://github.com/PatchBuilderAmplify/stolen-crypto-tracer",
+   "gancho": [
+    "CRIPTO ROUBADA?",
+    "SIGA O DINHEIRO"
+   ],
+   "o_que_e": "Um aplicativo grátis que segue criptomoedas roubadas, transferência por transferência, até a corretora que pode congelar a conta.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Cinco redes de cripto",
+     "texto": "Funciona em Bitcoin, Ethereum, TRON, BNB Chain e Solana."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Relatório em um clique",
+     "texto": "Gera o documento pronto para você levar à polícia."
+    }
+   ],
+   "fluxo": [
+    "COLA A CARTEIRA",
+    "SEGUE A GRANA",
+    "GERA RELATÓRIO"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "readme",
+   "stat": "+45",
+   "stat_rotulo": "por dia",
+   "total": "392",
+   "info2": "JavaScript · criado há 9 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 8 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois. Amanhã tem outra área, sempre às 18h.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}
