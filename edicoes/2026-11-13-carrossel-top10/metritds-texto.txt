@@ -1,0 +1,17 @@
+Top 10 do GitHub · 13/11/2026
+
+Google, OpenAI, Alibaba e Tailscale abriram código novo e o GitHub inteiro foi ver. Passe o carrossel e veja os 10 projetos que mais subiram hoje, explicados em português simples. Quer aprender a usar IA de verdade? Os cursos são grátis no inema.club, direto na internet.
+
+1. GoogleChrome/modern-web-guidance-src
+2. we-promise/sure
+3. openai/codex-security
+4. ZhuLinsen/daily_stock_analysis
+5. Likely7/Veyra-NRVideo
+6. alibaba/open-code-review
+7. tailscale/tailcat
+8. backnotprop/plannotator
+9. block/buzz
+10. louislam/uptime-kuma
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

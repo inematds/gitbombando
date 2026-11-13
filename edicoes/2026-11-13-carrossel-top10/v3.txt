@@ -1,0 +1,7 @@
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+🔵 CARROSSEL PUBLICADO DIRETO · Top 10 do GitHub · 13/11/2026
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+Telegram INEMA.DEV: ok (tópico 7597)
+Instagram/TikTok inema.tech (FTD): ok · instagram, tiktok
+12 slides · revisor: aprovado
+🟥 SUGESTÃO: No slide 7 (open-code-review) o print é uma tabela verde em fundo escuro, pequena e sem contexto; vale preferir o cartão do GitHub ou um print do README que mostre o comentário do revisor na linha do código.

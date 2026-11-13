@@ -1,0 +1,82 @@
+{
+ "GoogleChrome/modern-web-guidance-src": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/GoogleChrome/modern-web-guidance-src",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "we-promise/sure": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/we-promise/sure/main/docs/screenshots/dashboard-dark.webp",
+  "tam": [
+   1400,
+   948
+  ]
+ },
+ "openai/codex-security": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/openai/codex-security",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "ZhuLinsen/daily_stock_analysis": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/docs/assets/readme_workspace_preview.gif",
+  "tam": [
+   640,
+   320
+  ]
+ },
+ "Likely7/Veyra-NRVideo": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/assets/veyra-2.0.0-promo.webp",
+  "tam": [
+   960,
+   540
+  ]
+ },
+ "alibaba/open-code-review": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/benchmark-en.png",
+  "tam": [
+   1400,
+   1004
+  ]
+ },
+ "tailscale/tailcat": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/tailscale/tailcat",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "backnotprop/plannotator": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/backnotprop/plannotator",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "block/buzz": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/block/buzz/main/docs/assets/screenshots/channel-thread.png",
+  "tam": [
+   1400,
+   1095
+  ]
+ },
+ "louislam/uptime-kuma": {
+  "fonte": "readme",
+  "url": "https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg",
+  "tam": [
+   1024,
+   641
+  ]
+ }
+}

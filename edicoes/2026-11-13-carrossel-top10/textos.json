@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "GIGANTES ABREM O CÓDIGO HOJE",
+  "destaque": "GIGANTES"
+ },
+ "repos": {
+  "GoogleChrome/modern-web-guidance-src": {
+   "gancho": [
+    "SUA IA FAZ SITES",
+    "DO JEITO MODERNO?"
+   ],
+   "o_que_e": "Um conjunto de habilidades do Google Chrome que ensina a sua IA de programação a montar sites com as práticas atuais, sem truques velhos.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Feito pelos navegadores",
+     "texto": "Cuidado pelas equipes do Chrome, Edge, Firefox e MDN, com a comunidade."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Afasta o código velho",
+     "texto": "Tira a IA dos padrões antigos e usa o que os navegadores já suportam."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "PEDE O SITE",
+    "CÓDIGO ATUAL"
+   ]
+  },
+  "we-promise/sure": {
+   "gancho": [
+    "SEU DINHEIRO",
+    "TODO NUM LUGAR"
+   ],
+   "o_que_e": "Um aplicativo de finanças pessoais aberto e grátis, feito pela comunidade, para você organizar e acompanhar todo o seu dinheiro.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Finanças organizadas",
+     "texto": "Junta contas e patrimônio para você ver para onde vai o seu dinheiro."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Em português também",
+     "texto": "O guia vem em vários idiomas, inclusive português, e o código é aberto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "LIGA AS CONTAS",
+    "VÊ O DINHEIRO"
+   ]
+  },
+  "openai/codex-security": {
+   "gancho": [
+    "FALHAS NO CÓDIGO?",
+    "A IA CAÇA E CONSERTA"
+   ],
+   "o_que_e": "Uma ferramenta da OpenAI que procura falhas de segurança no seu código, confirma se são reais e ajuda a gerar a correção.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Varre o projeto inteiro",
+     "texto": "Examina o repositório, pastas escolhidas ou só as últimas mudanças."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga com o que você usa",
+     "texto": "Manda os achados para Linear, Jira ou GitHub e roda dentro do Codex."
+    }
+   ],
+   "fluxo": [
+    "ESCANEIA",
+    "CONFIRMA",
+    "GERA A CORREÇÃO"
+   ]
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+   "gancho": [
+    "ANÁLISE DE AÇÕES",
+    "TODO DIA NO CELULAR"
+   ],
+   "o_que_e": "Um sistema que usa um modelo de IA para analisar as ações que você escolhe todo dia, com cotações e notícias, e te manda o resumo.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Vários mercados",
+     "texto": "Cobre bolsas da China, Hong Kong, EUA, Japão, Coreia e Taiwan, e ETFs."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Aviso no Telegram",
+     "texto": "Envia o painel de decisão no Telegram, Discord, Slack ou e-mail."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE AÇÕES",
+    "A IA ANALISA",
+    "RESUMO CHEGA"
+   ]
+  },
+  "Likely7/Veyra-NRVideo": {
+   "gancho": [
+    "VÍDEO E JOGO",
+    "MAIS NÍTIDOS"
+   ],
+   "o_que_e": "Um programa para Windows que melhora vídeo, imagem e jogo em tempo real com a placa de vídeo, deixando tudo mais nítido e fluido.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "IA na placa de vídeo",
+     "texto": "Aumenta a resolução, tira ruído e cria quadros extras na hora."
+    },
+    {
+     "icone": "video",
+     "titulo": "PS5, Xbox e PC",
+     "texto": "Funciona com placa de captura e transmissão de jogos dos consoles."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "ESCOLHE A FONTE",
+    "IMAGEM MELHOR"
+   ]
+  },
+  "alibaba/open-code-review": {
+   "gancho": [
+    "REVISÃO DE CÓDIGO",
+    "IGUAL À DA ALIBABA"
+   ],
+   "o_que_e": "Um revisor de código com IA criado dentro da Alibaba, usado por dezenas de milhares de programadores e agora aberto para todos.",
+   "beneficios": [
+    {
+     "icone": "code",
+     "titulo": "Comenta linha a linha",
+     "texto": "Lê as mudanças e aponta o problema exato em cada linha do código."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Regras prontas",
+     "texto": "Já vem com regras contra erros comuns e brechas de segurança em sites."
+    }
+   ],
+   "fluxo": [
+    "LIGA UM MODELO",
+    "LÊ AS MUDANÇAS",
+    "COMENTÁRIOS"
+   ]
+  },
+  "tailscale/tailcat": {
+   "gancho": [
+    "DOIS COMPUTADORES",
+    "UM TÚNEL SEGURO"
+   ],
+   "o_que_e": "Uma ferramenta da Tailscale que liga dois computadores por um túnel criptografado, direto, sem precisar de conta na Tailscale.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Tudo criptografado",
+     "texto": "O tráfego entre as duas pontas vai cifrado com WireGuard."
+    },
+    {
+     "icone": "link",
+     "titulo": "Endereço curto",
+     "texto": "Um lado gera um endereço curto e o outro usa ele para se conectar."
+    }
+   ],
+   "fluxo": [
+    "ABRE O SERVIDOR",
+    "PASSA O CÓDIGO",
+    "CONECTADO"
+   ]
+  },
+  "backnotprop/plannotator": {
+   "gancho": [
+    "REVISE O PLANO",
+    "ANTES DA IA AGIR"
+   ],
+   "o_que_e": "Um painel no navegador onde você anota e corrige os planos e o código da sua IA de programação e manda o retorno com um clique.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Liga com vários agentes",
+     "texto": "Funciona com Claude Code, Codex, Copilot, Gemini e outros assistentes."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Planos e código juntos",
+     "texto": "Anota planos, textos e páginas e revisa as mudanças do código."
+    }
+   ],
+   "fluxo": [
+    "A IA PLANEJA",
+    "VOCÊ ANOTA",
+    "ELA CORRIGE"
+   ]
+  },
+  "block/buzz": {
+   "gancho": [
+    "GENTE E IA",
+    "NA MESMA SALA"
+   ],
+   "o_que_e": "Um espaço de conversa e trabalho em que pessoas e agentes de IA dividem as mesmas salas, rodando num servidor que é seu.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Servidor seu",
+     "texto": "Você hospeda a comunidade no seu próprio servidor e controla tudo."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Tudo registrado",
+     "texto": "Mensagens, revisões e etapas de trabalho ficam num histórico assinado."
+    }
+   ],
+   "fluxo": [
+    "SOBE O SERVIDOR",
+    "CHAMA A IA",
+    "TODOS JUNTOS"
+   ]
+  },
+  "louislam/uptime-kuma": {
+   "gancho": [
+    "SEU SITE CAIU?",
+    "VOCÊ SABE NA HORA"
+   ],
+   "o_que_e": "Um vigia grátis que você instala no seu servidor e que avisa na hora quando o seu site ou sistema sai do ar.",
+   "beneficios": [
+    {
+     "icone": "clock",
+     "titulo": "Checa a cada 20 s",
+     "texto": "Testa sites, servidores e programas no Docker em intervalos curtos."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Aviso no Telegram",
+     "texto": "Manda alerta por Telegram, Discord, Slack, e-mail e mais de 90 canais."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "CADASTRA O SITE",
+    "RECEBE O ALERTA"
+   ]
+  }
+ },
+ "legenda_abertura": "Google, OpenAI, Alibaba e Tailscale abriram código novo e o GitHub inteiro foi ver. Passe o carrossel e veja os 10 projetos que mais subiram hoje, explicados em português simples. Quer aprender a usar IA de verdade? Os cursos são grátis no inema.club, direto na internet.",
+ "telegram": "Saiu o Top 10 do GitHub de hoje: Google, OpenAI e Alibaba no meio dos projetos que mais ganharam estrelas. Passe o carrossel para ver o que cada um faz e para quem serve. Quer aprender a usar essas ferramentas? Tudo grátis no inema.club."
+}
