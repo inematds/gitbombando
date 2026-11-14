@@ -1,0 +1,17 @@
+Top 10 do GitHub · 14/11/2026
+
+Google, OpenAI e Alibaba colocaram ferramentas novas para a sua IA programar melhor, e elas dominaram o GitHub hoje. Arrasta para o lado e veja o que cada um dos 10 projetos faz. Quer aprender a usar IA de graça? Os cursos estão no inema.club, direto na internet.
+
+1. GoogleChrome/modern-web-guidance-src
+2. alibaba/open-code-review
+3. ZhuLinsen/daily_stock_analysis
+4. ChromeDevTools/chrome-devtools-mcp
+5. we-promise/sure
+6. openai/codex-security
+7. tradermonty/claude-trading-skills
+8. tailscale/tailcat
+9. louislam/uptime-kuma
+10. Likely7/Veyra-NRVideo
+
+Cursos grátis de IA em inema.club
+#github #opensource #ia #programacao #inemaclub

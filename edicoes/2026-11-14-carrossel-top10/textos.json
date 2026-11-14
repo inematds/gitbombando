@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "GIGANTES ENSINAM SUA IA A PROGRAMAR",
+  "destaque": "GIGANTES"
+ },
+ "repos": {
+  "GoogleChrome/modern-web-guidance-src": {
+   "gancho": [
+    "SUA IA FAZ SITE",
+    "DO JEITO MODERNO"
+   ],
+   "o_que_e": "Um pacote de habilidades do Google Chrome que ensina a sua IA de programação as boas práticas atuais para montar sites.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Chrome, Edge e Firefox",
+     "texto": "As equipes dos três navegadores e da MDN cuidam do conteúdo."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala com um comando",
+     "texto": "Um comando no terminal instala as habilidades na sua IA."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "A IA APRENDE",
+    "SITE MODERNO"
+   ]
+  },
+  "alibaba/open-code-review": {
+   "gancho": [
+    "A IA REVISA",
+    "SEU CÓDIGO?"
+   ],
+   "o_que_e": "Um programa de terminal da Alibaba que usa IA para revisar as mudanças no seu código e apontar erros linha por linha.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Regras prontas",
+     "texto": "Já vem com regras para falhas de segurança e erros comuns em várias linguagens."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Gasta bem menos",
+     "texto": "No teste deles, usou cerca de 1/9 do consumo do Claude Code."
+    }
+   ],
+   "fluxo": [
+    "LIGA O MODELO",
+    "LÊ AS MUDANÇAS",
+    "APONTA ERROS"
+   ]
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+   "gancho": [
+    "SUAS AÇÕES",
+    "ANALISADAS TODO DIA"
+   ],
+   "o_que_e": "Um sistema que usa IA para analisar ações todo dia, com cotações e notícias, e manda um painel de decisão para você.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Vários mercados",
+     "texto": "Bolsas da China, Hong Kong, EUA, Japão, Coreia e Taiwan."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Chega no seu Telegram",
+     "texto": "Manda o relatório no Telegram, Discord, Slack ou e-mail."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE AÇÕES",
+    "A IA ANALISA",
+    "RESUMO NO CHAT"
+   ]
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+   "gancho": [
+    "SUA IA MEXE",
+    "NO NAVEGADOR?"
+   ],
+   "o_que_e": "Uma ferramenta do Chrome que deixa a sua IA de programação abrir, controlar e investigar um navegador Chrome de verdade.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Mede a velocidade",
+     "texto": "Grava o carregamento da página e mostra o que deixa o site lento."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga no Claude e Cursor",
+     "texto": "Funciona com Claude, Cursor, Copilot e Antigravity."
+    }
+   ],
+   "fluxo": [
+    "LIGA NA IA",
+    "ABRE O CHROME",
+    "ACHA O ERRO"
+   ]
+  },
+  "we-promise/sure": {
+   "gancho": [
+    "SEU DINHEIRO",
+    "NUM LUGAR SÓ"
+   ],
+   "o_que_e": "Um aplicativo aberto de finanças pessoais, mantido pela comunidade, para organizar suas contas e seu patrimônio num só lugar.",
+   "beneficios": [
+    {
+     "icone": "code",
+     "titulo": "Herdou o Maybe Finance",
+     "texto": "Continua um app que custou quase 1 milhão de dólares para ser feito."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Em vários idiomas",
+     "texto": "O guia tem versão em português, espanhol, japonês e mais."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "PÕE AS CONTAS",
+    "VÊ O DINHEIRO"
+   ]
+  },
+  "openai/codex-security": {
+   "gancho": [
+    "CAÇA FALHAS",
+    "NO SEU CÓDIGO"
+   ],
+   "o_que_e": "Uma ferramenta da OpenAI que procura falhas de segurança no seu código, confere se são reais e ajuda a consertar.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Confere e conserta",
+     "texto": "Valida cada falha encontrada e gera a correção do código."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga no Jira e GitHub",
+     "texto": "Manda o que achou para o Linear, o Jira ou o GitHub."
+    }
+   ],
+   "fluxo": [
+    "VARRE O CÓDIGO",
+    "CONFERE A FALHA",
+    "GERA O CONSERTO"
+   ]
+  },
+  "tradermonty/claude-trading-skills": {
+   "gancho": [
+    "O CLAUDE OLHA",
+    "A BOLSA COM VOCÊ"
+   ],
+   "o_que_e": "Um conjunto de habilidades para o Claude Code que ajuda você a analisar o mercado, planejar operações e revisar seus resultados.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Gráficos e filtros",
+     "texto": "Análise de gráficos, calendário econômico e filtros de ações."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Foco no risco",
+     "texto": "Ajuda a planejar e anotar operações, sem prometer lucro."
+    }
+   ],
+   "fluxo": [
+    "ABRE O CLAUDE",
+    "ANALISA O DIA",
+    "ANOTA E REVISA"
+   ]
+  },
+  "tailscale/tailcat": {
+   "gancho": [
+    "DOIS COMPUTADORES",
+    "UM TÚNEL SEGURO"
+   ],
+   "o_que_e": "Um programa de terminal da Tailscale que liga dois computadores por um túnel criptografado, sem passar pelo painel central da Tailscale.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Criptografia WireGuard",
+     "texto": "Todo o tráfego entre as duas pontas vai criptografado."
+    },
+    {
+     "icone": "link",
+     "titulo": "Conexão direta",
+     "texto": "Tenta ligar as máquinas direto, com um servidor de reserva."
+    }
+   ],
+   "fluxo": [
+    "ABRE O SERVIDOR",
+    "ENVIA ENDEREÇO",
+    "CONECTOU"
+   ]
+  },
+  "louislam/uptime-kuma": {
+   "gancho": [
+    "SITE CAIU?",
+    "VOCÊ SABE NA HORA"
+   ],
+   "o_que_e": "Um vigia grátis que você instala no seu servidor e que avisa na hora quando o seu site ou sistema sai do ar.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Avisa no Telegram",
+     "texto": "Manda alerta por Telegram, Discord, e-mail e mais de 90 serviços."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Checa a cada 20 segundos",
+     "texto": "Testa site, ping e Docker a cada vinte segundos."
+    }
+   ],
+   "fluxo": [
+    "SOBE NO DOCKER",
+    "CADASTRA O SITE",
+    "RECEBE O AVISO"
+   ]
+  },
+  "Likely7/Veyra-NRVideo": {
+   "gancho": [
+    "VÍDEO MAIS NÍTIDO",
+    "E MAIS FLUIDO"
+   ],
+   "o_que_e": "Um player para Windows que usa a placa de vídeo para deixar vídeo, imagem e jogo de console mais nítidos e mais fluidos.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Usa a placa de vídeo",
+     "texto": "Melhora a imagem em tempo real com placas NVIDIA e AMD."
+    },
+    {
+     "icone": "video",
+     "titulo": "Placa de captura",
+     "texto": "Funciona com placa de captura, PS5, Xbox e vídeos do PC."
+    }
+   ],
+   "fluxo": [
+    "ABRE O VÍDEO",
+    "LIGA O REFORÇO",
+    "IMAGEM NÍTIDA"
+   ]
+  }
+ },
+ "legenda_abertura": "Google, OpenAI e Alibaba colocaram ferramentas novas para a sua IA programar melhor, e elas dominaram o GitHub hoje. Arrasta para o lado e veja o que cada um dos 10 projetos faz. Quer aprender a usar IA de graça? Os cursos estão no inema.club, direto na internet.",
+ "telegram": "Saiu o Top 10 do GitHub de hoje: Google, OpenAI e Alibaba lideram com ferramentas para a sua IA programar e caçar falhas. No carrossel você vê o que cada projeto faz e como se usa. Cursos grátis de IA no inema.club, direto na internet."
+}
