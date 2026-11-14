@@ -4,7 +4,7 @@ Motor de telejornal copiado do r7ex (que veio do eventosextremospub); roda sozin
 
   python3 gb.py coletar <pasta> [dia|semana|mes]   Top 10 → pesquisa/top10.json (coleta/trending.py)
   python3 gb.py checar <pasta>            portão do roteiro (ficha.yaml escrita pelo claude -p a partir de auto/roteiro.md)
-  python3 gb.py imagens <pasta>           Codex desenha a capa (manchete); cartões dos 10 projetos + ranking; print do inema.club
+  python3 gb.py imagens <pasta>           Codex desenha a capa (manchete); cartões dos 10 projetos + ranking; imagem padrão do inema.club
   python3 gb.py avatar <pasta>            avatar no estúdio do HeyGen (precisa de avatar/APROVADO_HEYGEN)
   python3 gb.py cena <pasta>              tempos das palavras + ritmo + cena.js
   python3 gb.py render <pasta>            vídeo → <pasta>/video.mp4 (tela :99)
@@ -210,12 +210,10 @@ def cmd_imagens(pasta):
             if x.get("etapa") == "repo":
                 it = rp[x["repo"]]
                 tarefas.append(ex.submit(cartao.cartao_repo, it, modo, x["desc"], prints / f"r{it['pos']}.png", x.get("destaque")))
-        raw = prints / "raw-p13.png"
-        if not raw.exists():
-            tarefas.append(ex.submit(pecas.screenshot, "https://inema.club", raw))
         for t in tarefas:
             t.result()
-    pecas.print_card(prints / "raw-p13.png", prints / "p13-c.png")
+    # fecho: imagem padrão do inema.club (Nei, 14/11/2026), no lugar do print do site (pequeno e escuro no celular)
+    pecas.print_card(R / "assets/inema-hero.webp", prints / "p13-c.png", brilho=1.0)
     g, a = f["gancho"], f["abertura"]
     if not (capa / "abertura.png").exists():
         pedido = (f"Gere 1 imagem com a ferramenta de geração de imagem (image_gen) e salve nesta pasta como abertura.png, em PNG, "
@@ -243,7 +241,7 @@ def cmd_imagens(pasta):
             falha("o Codex não gerou capa/abertura.png (capa/codex.log)")
     pecas.vertical(capa / "abertura.png")
     pecas.abertura(capa / "abertura.png")
-    log(f"imagens OK (capa, ranking, {len(d['top10'])} cartões, print do inema.club)")
+    log(f"imagens OK (capa, ranking, {len(d['top10'])} cartões, imagem do inema.club)")
 
 
 # ------------------------------------------------------------------ avatar (estúdio HeyGen, assinatura)
@@ -304,7 +302,7 @@ def cmd_cena(pasta):
     r = RITMO.aplicar(p, M)
     if r:
         log(f"ritmo: {r['wpm_heygen']:.0f} → {r['wpm']:.0f} palavras/min · {r['duracao']:.1f} s")
-    # o comentário da parte 13 usa o print do inema.club (prints/p13-c.png), como no r7ex
+    # o comentário da parte 13 usa a imagem padrão do inema.club (prints/p13-c.png), como no r7ex
     dur, nt, npn, nl = CENA.montar(p, M, fl)
     log(f"cena.js ok: {dur} s · {nt} telas · {npn} painéis · {nl} blocos de legenda")
 

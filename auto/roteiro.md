@@ -43,8 +43,10 @@ ficar para trás, curiosidade), o número e a fonte ficam na tela. Nunca invente
   tensão ("E agora o pódio…"). Se o projeto for de uma big tech (JetBrains, Google, Microsoft, OpenAI…) diga. Se
   `vezes_antes` ≥ 2, diga que ele "não sai do Top 10". Projeto polêmico (jailbreak, burlar trava de IA, invasão, conteúdo
   adulto): descreva sem ensinar e com alerta ("isso é polêmico, cuidado"). No #1, segure: frase curta de efeito.
-- Parte {N3} (**comentario**): "Qual desses você vai testar primeiro? Tá tudo no inema ponto club, e amanhã tem mais." —
-  pode variar, mas tem de ter "inema ponto club" e uma pergunta que gera comentário.
+- Parte {N3} (**comentario**): "Qual desses você vai testar primeiro? Tá tudo no inema ponto club, mas lá você aprende a
+  integrar esses projetos em vez de só copiar, e direto na internet." — pode variar, mas tem de ter a pergunta que gera
+  comentário, "inema ponto club" e a ideia de que lá se aprende a INTEGRAR (não só copiar os repositórios), direto na internet
+  (Nei, 14/11/2026).
 
 ## Regras de fala (o portão reprova)
 

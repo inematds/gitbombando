@@ -33,7 +33,7 @@ Guía completa (landing + paso a paso): **https://inematds.github.io/gitbombando
 | 2 | Recopilación | `coleta/trending.py <pasta> dia\|semana\|mes`: página de GitHub Trending + API de GitHub (descripción, README, lenguaje, estrellas, foto del dueño); Top 10 ordenado por las estrellas ganadas → `pesquisa/top10.json` | ⚙️ |
 | 3 | Guion | `claude -p` con `auto/roteiro.md` escribe `ficha.yaml`: gancho sensacionalista con el dato más contundente, panorama, #10 → #1, pregunta final | 🤖 |
 | 4 | Filtro del guion | `python3 gb.py checar <pasta>`: 13 partes en orden, proyectos correctos, 1.300–2.500 caracteres, titular ≤ 6 palabras, sin cifras en lo que se dice, "você", CTA solo inema.club | ⚙️ |
-| 5 | Avatar + imágenes | `gb.py fazer`: envía el diálogo al estudio de HeyGen (suscripción; autorización vigente de Nei, 28/10/2026) y, al mismo tiempo, crea la portada con el titular (Codex), el ranking, 10 tarjetas y una captura de inema.club | ⚙️ |
+| 5 | Avatar + imágenes | `gb.py fazer`: envía el diálogo al estudio de HeyGen (suscripción; autorización vigente de Nei, 28/10/2026) y, al mismo tiempo, crea la portada con el titular (Codex), el ranking, 10 tarjetas y la imagen estándar de inema.club | ⚙️ |
 | 6 | Edición | tiempo de cada palabra (Whisper), ritmo (~182 palabras/min, pausa antes del #1), escena con contador y gráfico en cada proyecto, renderizado en el motor de noticiero | ⚙️ |
 | 7 | Revisión | `claude -p` con `auto/revisor.md` lee la hoja de 18 cuadros: aprobado, sigue; rechazado, se detiene y avisa en v3 | 🤖 |
 | 8 | Publicar | `gb.py publicar`: YouTube **lives4** (yt-pubx, título con #Shorts, enlaces de los 10 en la descripción) → bot **v3** → tema fijo **BOMBANDO NO GITHUB** en INEMA.TOOLS | ⚙️ |

@@ -41,5 +41,7 @@ Regras (um portão automático confere; texto fora da regra volta):
 - Não invente: nada que o README ou a descrição não digam. Se não entender o projeto, descreva só o que está claro.
 - Não escreva números de estrelas nos textos (o slide já mostra os números certos).
 - legenda_abertura e telegram: chamem para o carrossel e para o inema.club, sem lista de links (a lista entra sozinha).
+  Ao falar do inema.club, diga que está tudo lá, mas que lá você aprende a integrar esses projetos em vez de só copiar os
+  repositórios, direto na internet (Nei, 14/11/2026).
 
 Se não conseguir ler o dados.json, escreva {CD}/ERRO.txt com o motivo. Não mexa em nenhum outro arquivo.

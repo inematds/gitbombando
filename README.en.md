@@ -25,7 +25,7 @@ Complete guide (landing page + step-by-step instructions): **https://inematds.gi
 | 2 | Collection | `coleta/trending.py <pasta> dia\|semana\|mes`: GitHub Trending page + GitHub API (description, README, language, stars, owner's photo); Top 10 ranked by stars gained → `pesquisa/top10.json` | ⚙️ |
 | 3 | Script | `claude -p` with `auto/roteiro.md` writes `ficha.yaml`: sensational hook with the strongest fact, overview, #10 → #1, final question | 🤖 |
 | 4 | Script gate | `python3 gb.py checar <pasta>`: 13 parts in order, correct projects, 1,300–2,500 characters, headline ≤ 6 words, no numerals in spoken lines, "you", CTA only inema.club | ⚙️ |
-| 5 | Avatar + images | `gb.py fazer`: sends the script to the HeyGen studio (subscription; Nei's authorization in place, 28/10/2026) and, at the same time, creates the headline cover (Codex), ranking, 10 cards, and inema.club screenshot | ⚙️ |
+| 5 | Avatar + images | `gb.py fazer`: sends the script to the HeyGen studio (subscription; Nei's authorization in place, 28/10/2026) and, at the same time, creates the headline cover (Codex), ranking, 10 cards, and the standard inema.club image | ⚙️ |
 | 6 | Assembly | Timing for each word (Whisper), pacing (~182 words/min, pause before #1), scene with counter and chart for each project, render in the news broadcast engine | ⚙️ |
 | 7 | Review | `claude -p` with `auto/revisor.md` reads the 18-frame sheet: approved means it continues; rejected means it stops and notifies in v3 | 🤖 |
 | 8 | Publish | `gb.py publicar`: YouTube **lives4** (yt-pubx, title with #Shorts, links to all 10 in the description) → bot **v3** → pinned topic **BOMBANDO NO GITHUB** in INEMA.TOOLS | ⚙️ |

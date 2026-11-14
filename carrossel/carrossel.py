@@ -295,7 +295,7 @@ def textos_pub(cd, d, S, t):
     links = "\n".join(f"{s['pos']}. {s['nome']}" for s in S["slides"])
     titulo = (f"Top {len(S['slides'])} do GitHub · {S['data_br']}" if d["tipo"] == "top10"
               else f"Top {len(S['slides'])} do GitHub · {d['area']['curto']} · {S['data_br']}")
-    leg = (f"{titulo}\n\n{t['legenda_abertura'].strip()}\n\n{links}\n\nCursos grátis de IA em inema.club\n"
+    leg = (f"{titulo}\n\n{t['legenda_abertura'].strip()}\n\n{links}\n\nTá tudo no inema.club: lá você aprende a integrar estes projetos em vez de só copiar, direto na internet\n"
            f"#github #opensource #ia #programacao #inemaclub")
     return titulo, leg[:2150]
 

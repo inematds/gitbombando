@@ -33,7 +33,7 @@ Guia completo (landing + passo a passo): **https://inematds.github.io/gitbomband
 | 2 | Coleta | `coleta/trending.py <pasta> dia\|semana\|mes`: página do GitHub Trending + API do GitHub (descrição, README, linguagem, estrelas, foto do dono); Top 10 ordenado pelas estrelas ganhas → `pesquisa/top10.json`; com menos de 10 no Trending espera até 1 h e, se ainda faltar, segue com Top N (mínimo 5) | ⚙️ |
 | 3 | Roteiro | `claude -p` com `auto/roteiro.md` escreve `ficha.yaml`: gancho sensacionalista com o fato mais forte, panorama, #10 → #1, pergunta final | 🤖 |
 | 4 | Portão do roteiro | `python3 gb.py checar <pasta>`: N+3 partes na ordem (13 no Top 10), projetos certos, 1.300–2.500 caracteres, manchete ≤ 6 palavras, sem algarismo na fala, "você", CTA só inema.club | ⚙️ |
-| 5 | Avatar + imagens | `gb.py fazer`: fala ao estúdio do HeyGen (assinatura; autorização em pé do Nei, 28/10/2026) e, ao mesmo tempo, capa com a manchete (Codex), ranking, 10 cartões e print do inema.club | ⚙️ |
+| 5 | Avatar + imagens | `gb.py fazer`: fala ao estúdio do HeyGen (assinatura; autorização em pé do Nei, 28/10/2026) e, ao mesmo tempo, capa com a manchete (Codex), ranking, 10 cartões e a imagem padrão do inema.club | ⚙️ |
 | 6 | Montagem | tempo de cada palavra (Whisper), ritmo (~182 palavras/min, pausa antes do #1), cena com contador e gráfico em cada projeto, render no motor de telejornal | ⚙️ |
 | 7 | Revisão | `claude -p` com `auto/revisor.md` lê a folha de 18 quadros: aprovado segue; reprovado para e avisa no v3 | 🤖 |
 | 8 | Publicar | `gb.py publicar`: YouTube **lives4** (yt-pubx, título com #Shorts, links dos 10 na descrição) → bot **v3** → tópico fixo **BOMBANDO NO GITHUB** no INEMA.TOOLS | ⚙️ |
