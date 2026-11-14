@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "A capa traz \"TOP 10 DO GITHUB\" grande e a manchete igual à da ficha. As pílulas 🔥 de todos os cartões que aparecem na folha (#10 423, #9 432, #7 556, #6 599, #5 659, #4 673, #3 867, #2 897, #1 1.225) e o ranking do panorama batem com o top10.json. O avatar fica em meia tela embaixo no começo e o fecho tem a caixa vermelha e a pílula inema.club, sem marcação crua nem quadro vazio.",
+ "sugestoes": [
+  "0–4 s: o \"10\" de \"TOP 10\" e o \"+1.225\" encostam na borda direita; dá para ler, mas uma margem um pouco maior deixaria a capa mais limpa.",
+  "Nenhum quadro da folha cai no cartão do #8 (tailcat): o corte vai de 34.96 s (#9) para 45.28 s (#7). Não chega a ser defeito, mas convém conferir que o #8 aparece entre 35 e 45 s.",
+  "117.51 s: no começo da parte do #1, o painel de baixo mostra \"0\" e barras vazias por um instante. É o contador animado, mas no momento do clímax uma subida mais rápida daria mais impacto.",
+  "138 s: o print do portal inema.club tem texto pequeno e pouco legível no celular. Dá para aproximar o título e o botão.",
+  "IMPACTO 7: a manchete \"Google no topo de novo\" funciona. Faltou uma imagem forte de choque nos 2 primeiros segundos, e a coroa dourada fica escondida atrás do texto."
+ ]
+}

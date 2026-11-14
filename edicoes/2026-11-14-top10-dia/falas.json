@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "O Google não larga o primeiro lugar do GitHub. É o segundo dia seguido no topo. E hoje ele tem mais um projeto colado no pódio.",
+  "legenda": "O Google não larga o primeiro lugar do GitHub. É o segundo dia seguido no topo. E hoje ele tem mais um projeto colado no pódio."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez que mais cresceram hoje somaram seis mil oitocentas e vinte e uma estrelas. Tem Google, OpenAI e Alibaba na briga. Vou do décimo ao primeiro.",
+  "legenda": "Os dez que mais cresceram hoje somaram 6.821 estrelas. Tem Google, OpenAI e Alibaba na briga. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Abrindo em décimo, o Veyra. Cresceu trinta por cento num dia só. Promete deixar jogo de console mais nítido e mais fluido usando a placa do seu computador. Promessa grande, confira antes. Quatrocentas e vinte e três estrelas.",
+  "legenda": "Abrindo em décimo, o Veyra. Cresceu 30% num dia só. Promete deixar jogo de console mais nítido e mais fluido usando a placa do seu computador. Promessa grande, confira antes. 423 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Nono lugar, o Uptime Kuma. É um vigia gratuito que fica de olho no seu site e te avisa na hora quando ele cai. Quatrocentas e trinta e duas estrelas.",
+  "legenda": "Nono lugar, o Uptime Kuma. É um vigia gratuito que fica de olho no seu site e te avisa na hora quando ele cai. 432 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, o Tailcat, da Tailscale. Ele liga dois computadores por um túnel secreto e criptografado, sem ninguém no meio. Quatrocentas e noventa estrelas.",
+  "legenda": "Em oitavo, o Tailcat, da Tailscale. Ele liga dois computadores por um túnel secreto e criptografado, sem ninguém no meio. 490 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo, a IA que vira seu analista de bolsa. O Claude Trading Skills ensina o Claude a ler o mercado, montar gráficos e testar estratégias. Só não é conselho de investimento, cuidado. Quinhentas e cinquenta e seis estrelas.",
+  "legenda": "Sétimo, a IA que vira seu analista de bolsa. O Claude Trading Skills ensina o Claude a ler o mercado, montar gráficos e testar estratégias. Só não é conselho de investimento, cuidado. 556 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, a OpenAI, que não sai do Top dez. O Codex Security caça as brechas que um hacker usaria no seu código e ajuda a fechar. Quinhentas e noventa e nove estrelas.",
+  "legenda": "Em sexto, a OpenAI, que não sai do Top dez. O Codex Security caça as brechas que um hacker usaria no seu código e ajuda a fechar. 599 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Quinto, o Sure, outro que não sai do Top dez. É o aplicativo de finanças aberto e gratuito pra você ver pra onde vai cada centavo, sem pagar assinatura. Seiscentas e cinquenta e nove estrelas.",
+  "legenda": "Quinto, o Sure, outro que não sai do Top dez. É o aplicativo de finanças aberto e gratuito pra você ver pra onde vai cada centavo, sem pagar assinatura. 659 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, olha o Google de novo. O Chrome DevTools para agentes deixa a sua IA abrir o navegador, clicar, testar e achar o erro do site sozinha. Seiscentas e setenta e três estrelas.",
+  "legenda": "Em quarto, olha o Google de novo. O Chrome DevTools para agentes deixa a sua IA abrir o navegador, clicar, testar e achar o erro do site sozinha. 673 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Terceiro, o analista de ações que não sai do Top dez. Uma IA lê notícias e gráficos todo dia e te manda o resumo de graça. Oitocentas e sessenta e sete estrelas.",
+  "legenda": "E agora o pódio. Terceiro, o analista de ações que não sai do Top dez. Uma IA lê notícias e gráficos todo dia e te manda o resumo de graça. 867 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, a Alibaba. O Open Code Review é o revisor de IA que ela usava por dentro e que já pegou milhões de erros. Agora é aberto pra você. Oitocentas e noventa e sete estrelas.",
+  "legenda": "Em segundo, a Alibaba. O Open Code Review é o revisor de IA que ela usava por dentro e que já pegou milhões de erros. Agora é aberto pra você. 897 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um, de novo, é do Google. Ninguém derruba. O Modern Web Guidance, que não sai do Top dez, ensina a sua IA a fazer sites do jeito certo de hoje. Mil duzentas e vinte e cinco estrelas.",
+  "legenda": "E o número um, de novo, é do Google. Ninguém derruba. O Modern Web Guidance, que não sai do Top dez, ensina a sua IA a fazer sites do jeito certo de hoje. 1.225 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "E você, deixaria uma IA mexer no seu navegador ou nas suas ações? Conta aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais.",
+  "legenda": "E você, deixaria uma IA mexer no seu navegador ou nas suas ações? Conta aqui nos comentários. Tá tudo no inema.club, e amanhã tem mais."
+ }
+]
