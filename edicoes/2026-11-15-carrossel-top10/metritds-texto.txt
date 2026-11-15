@@ -1,0 +1,17 @@
+Top 10 do GitHub · 15/11/2026
+
+O Google Chrome dominou o dia no GitHub com duas ferramentas para deixar a sua IA melhor em criar e testar sites. Passe o carrossel e veja os 10 projetos que mais cresceram hoje. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.
+
+1. GoogleChrome/modern-web-guidance-src
+2. backnotprop/plannotator
+3. Likely7/Veyra-NRVideo
+4. ChromeDevTools/chrome-devtools-mcp
+5. tradermonty/claude-trading-skills
+6. alibaba/open-code-review
+7. we-promise/sure
+8. dream-num/univer
+9. louislam/uptime-kuma
+10. martin-olivier/airgorah
+
+Tá tudo no inema.club: lá você aprende a integrar estes projetos em vez de só copiar, direto na internet
+#github #opensource #ia #programacao #inemaclub

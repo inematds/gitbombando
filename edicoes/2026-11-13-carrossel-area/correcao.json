@@ -1,0 +1,10 @@
+{
+  "data": "2026-11-15",
+  "removidos": [
+    "Arda313131882/aion-2-trainer-tool",
+    "kcgeekedup-hash/delta-force-trainer-tool"
+  ],
+  "motivo": "Projetos de trainer de jogo suspeitos de malware apontados pelo revisor; não recomendá-los.",
+  "itens_restantes": 6,
+  "backup": "edicoes/2026-11-13-carrossel-area/antes-correcao-2026-11-15"
+}

@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "Capa com TOP 10 DO GITHUB e a manchete certa; as posições, estrelas e pílulas 🔥 batem com o top10.json; o avatar aparece em todos os quadros e o fecho traz a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "53.86: a transição do #8 para o #6 sobrepõe dois cartões semitransparentes e fica parecendo texto embaralhado; um corte mais seco ou uma transição mais curta deixaria a passagem mais limpa.",
+  "113.69: o nome modern-web-guidance-src quebra em duas linhas (src sozinho embaixo); dá para reduzir a fonte do #1 para caber numa linha.",
+  "13.97: no painel do panorama, a chamada 'OPENAI E ALIBABA' sozinha perde força; mostrar 'GOOGLE, OPENAI E ALIBABA' ou o destaque 4.725 junto ajudaria.",
+  "0.05: a capa poderia destacar o '84%' ou 'do 8º ao 1º' para reforçar o gancho de virada logo no primeiro segundo.",
+  "113.69: um flash ou zoom no #1 antes do contador subir aumentaria o suspense do pódio."
+ ]
+}

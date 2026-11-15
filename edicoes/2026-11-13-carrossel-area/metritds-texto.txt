@@ -1,0 +1,13 @@
+Top 6 do GitHub · automação e produtividade · 13/11/2026
+
+Agentes de IA que mexem no celular, conversam com sua equipe e trabalham enquanto você faz outra coisa: esses são os projetos de automação que mais crescem no GitHub. Arrasta o carrossel para ver os seis. E no inema.club está tudo lá, mas você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.
+
+1. wangzan101/Mika
+2. KKKKhazix/agent-autoloop
+3. agentes-chat/agentes-chat
+4. lexmount/moli
+5. milind-soni/OpenMausBot
+6. KKKKhazix/AIHOT
+
+Tá tudo no inema.club: lá você aprende a integrar estes projetos em vez de só copiar, direto na internet
+#github #opensource #ia #programacao #inemaclub

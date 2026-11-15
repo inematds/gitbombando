@@ -1,0 +1,15 @@
+Google dispara no GitHub: +1.875 estrelas em um dia e OpenAI no pódio
+
+#1 GoogleChrome/modern-web-guidance-src —
+#2 we-promise/sure —
+#3 openai/codex-security —
+#4 ZhuLinsen/daily_stock_analysis —
+#5 Likely7/Veyra-NRVideo —
+#6 alibaba/open-code-review —
+#7 tailscale/tailcat —
+#8 backnotprop/plannotator —
+#9 block/buzz —
+#10 louislam/uptime-kuma —
+
+Curso gratuito em inema.club
+#github #opensource #ia #programacao #inemaclub

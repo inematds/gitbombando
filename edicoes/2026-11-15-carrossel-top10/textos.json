@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "GOOGLE ENSINA SUA IA A PROGRAMAR",
+  "destaque": "GOOGLE"
+ },
+ "repos": {
+  "GoogleChrome/modern-web-guidance-src": {
+   "gancho": [
+    "SUA IA FAZ SITES",
+    "DO JEITO MODERNO?"
+   ],
+   "o_que_e": "Um pacote de habilidades do Google Chrome que ensina a sua IA de programação a montar sites com as práticas atuais da web, sem truques velhos.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Feito pelos navegadores",
+     "texto": "Mantido pelas equipes do Chrome, Edge, Firefox e MDN."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala com um comando",
+     "texto": "Um assistente guiado no terminal instala tudo para você."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O PACOTE",
+    "PEDE O SITE",
+    "CÓDIGO ATUAL"
+   ]
+  },
+  "backnotprop/plannotator": {
+   "gancho": [
+    "REVISE O PLANO",
+    "ANTES DA IA AGIR"
+   ],
+   "o_que_e": "Um painel no navegador para você ler, anotar e corrigir os planos e o código da sua IA de programação, mandando o retorno com um clique.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Liga em vários agentes",
+     "texto": "Funciona com Claude Code, Codex, Gemini CLI, OpenCode e outros."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Comenta e devolve",
+     "texto": "Você marca o texto, comenta e a IA recebe o retorno na hora."
+    }
+   ],
+   "fluxo": [
+    "A IA PROPÕE",
+    "VOCÊ ANOTA",
+    "ELA CORRIGE"
+   ]
+  },
+  "Likely7/Veyra-NRVideo": {
+   "gancho": [
+    "VÍDEO E JOGO",
+    "MAIS NÍTIDOS?"
+   ],
+   "o_que_e": "Um programa para Windows que melhora vídeo, imagem e jogo de console em tempo real, usando a placa de vídeo para deixar mais nítido e fluido.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Qualquer fonte",
+     "texto": "Vídeo do computador, placa de captura e jogos de PS5 e Xbox."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "NVIDIA e AMD",
+     "texto": "Roda no Windows 11 usando placas de vídeo das duas marcas."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O VEYRA",
+    "ESCOLHE A FONTE",
+    "IMAGEM MELHOR"
+   ]
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+   "gancho": [
+    "SUA IA NO",
+    "NAVEGADOR REAL"
+   ],
+   "o_que_e": "Uma ferramenta do Google Chrome que deixa a sua IA de programação abrir, controlar e investigar um navegador Chrome de verdade.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Acha o erro do site",
+     "texto": "A IA vê mensagens de erro, tráfego de rede e tira prints da tela."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Mede a velocidade",
+     "texto": "Grava o carregamento da página e aponta o que deixa tudo lento."
+    }
+   ],
+   "fluxo": [
+    "LIGA NA SUA IA",
+    "ELA ABRE O SITE",
+    "TESTA E CORRIGE"
+   ]
+  },
+  "tradermonty/claude-trading-skills": {
+   "gancho": [
+    "ANALISAR A BOLSA",
+    "COM O CLAUDE?"
+   ],
+   "o_que_e": "Um conjunto de habilidades para o Claude Code que ajuda investidores a revisar o mercado, planejar operações e controlar o risco.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Mercado e gráficos",
+     "texto": "Análise de mercado, gráficos técnicos e calendário econômico."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Você decide",
+     "texto": "Não dá sinal de compra: organiza o seu processo e o seu risco."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE A ANÁLISE",
+    "VOCÊ DECIDE"
+   ]
+  },
+  "alibaba/open-code-review": {
+   "gancho": [
+    "A IA DA ALIBABA",
+    "REVISA SEU CÓDIGO"
+   ],
+   "o_que_e": "Um programa de terminal da Alibaba que usa IA para revisar código e apontar erros linha por linha. Já achou milhões de falhas lá dentro.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Caça falhas de segurança",
+     "texto": "Regras prontas para brechas como injeção de SQL e XSS."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Gasta menos",
+     "texto": "Usa bem menos processamento da IA que o Claude Code na revisão."
+    }
+   ],
+   "fluxo": [
+    "LIGA UMA IA",
+    "RODA A REVISÃO",
+    "VÊ OS ERROS"
+   ]
+  },
+  "we-promise/sure": {
+   "gancho": [
+    "SEU DINHEIRO",
+    "ORGANIZADO"
+   ],
+   "o_que_e": "Um aplicativo de finanças pessoais aberto e grátis, criado pela comunidade a partir do antigo Maybe Finance, para organizar todo o seu dinheiro.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Roda no seu servidor",
+     "texto": "Você mesmo hospeda o aplicativo, de graça, com seus dados."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Tem português",
+     "texto": "A documentação está em vários idiomas, incluindo português."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O SURE",
+    "LANÇA AS CONTAS",
+    "VÊ O RESUMO"
+   ]
+  },
+  "dream-num/univer": {
+   "gancho": [
+    "SEU PRÓPRIO",
+    "ESCRITÓRIO COM IA"
+   ],
+   "o_que_e": "Um kit de código aberto para montar o seu próprio escritório com IA, com planilhas, documentos e slides dentro do seu programa.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilha e documento",
+     "texto": "Começa com editores abertos de planilhas e textos prontos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para agentes",
+     "texto": "Pessoas e IAs editam, calculam e colaboram no mesmo arquivo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "LIGA AO SISTEMA",
+    "EDITA COM IA"
+   ]
+  },
+  "louislam/uptime-kuma": {
+   "gancho": [
+    "SEU SITE CAIU?",
+    "VOCÊ FICA SABENDO"
+   ],
+   "o_que_e": "Um vigia grátis que você instala no seu servidor e que avisa na hora quando o seu site ou sistema sai do ar.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Avisa no Telegram",
+     "texto": "Alertas por Telegram, Discord, e-mail e mais de 90 serviços."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Confere sem parar",
+     "texto": "Testa seus sites e servidores a cada 20 segundos."
+    }
+   ],
+   "fluxo": [
+    "SOBE NO DOCKER",
+    "CADASTRA O SITE",
+    "RECEBE ALERTA"
+   ]
+  },
+  "martin-olivier/airgorah": {
+   "gancho": [
+    "SEU WI-FI",
+    "DÁ PRA INVADIR?"
+   ],
+   "o_que_e": "Um programa para Linux que testa a segurança da sua rede wi-fi e mostra se a senha dela pode ser quebrada. Use só na rede que é sua.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Vê quem está na rede",
+     "texto": "Captura o tráfego próximo e lista aparelhos conectados."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Testa a senha",
+     "texto": "Tenta quebrar a senha da rede para mostrar se ela é fraca."
+    }
+   ],
+   "fluxo": [
+    "ABRE NO LINUX",
+    "ESCOLHE A REDE",
+    "VÊ AS FALHAS"
+   ]
+  }
+ },
+ "legenda_abertura": "O Google Chrome dominou o dia no GitHub com duas ferramentas para deixar a sua IA melhor em criar e testar sites. Passe o carrossel e veja os 10 projetos que mais cresceram hoje. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 10 do GitHub de hoje, com o Google Chrome em destaque ensinando a IA a programar sites. Veja o carrossel no @inema.tech. E no inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

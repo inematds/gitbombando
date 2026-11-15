@@ -1,0 +1,99 @@
+modo: dia
+gancho:
+  tipo: estatistica
+  manchete: "GOOGLE DISPARA: +1.875 ESTRELAS"
+  destaque: "+1.875"
+  objeto: "um navegador gigante em forma de foguete rasgando uma tela de notebook, com rachaduras e faíscas amarelas"
+  fontes:
+    - {nome: "github.com/trending", trecho: "GoogleChrome/modern-web-guidance-src · 1,875 stars today"}
+    - {nome: "github.com/GoogleChrome/modern-web-guidance-src", trecho: "Keep your coding agent up to date with the latest web best practices"}
+abertura:
+  cena: "sala de servidores escura à noite, cabos pelo chão, só a luz amarela explodindo do centro"
+partes:
+  - etapa: gancho
+    fala: "O time do Google Chrome quase dobrou de tamanho em um dia. Quase oitenta e quatro por cento a mais de estrelas. E ontem ele era só o oitavo."
+  - etapa: panorama
+    fala: "Os dez que mais cresceram hoje somaram quatro mil setecentas e vinte e cinco estrelas. Tem Google, OpenAI e Alibaba na briga. Vou do décimo ao primeiro."
+    numero: "4.725"
+  - etapa: repo
+    repo: "louislam/uptime-kuma"
+    desc: "Um vigia grátis que avisa na hora quando o seu site ou sistema sai do ar."
+    destaque: "avisa na hora"
+    numero: "61"
+    fala: "Abrindo em décimo, o Uptime Kuma. É um vigia gratuito que fica de olho no seu site e te avisa na hora quando ele cai. Sessenta e uma estrelas."
+  - etapa: repo
+    repo: "block/buzz"
+    desc: "Um espaço de conversa onde pessoas e agentes de IA trabalham juntos, num servidor seu."
+    destaque: "pessoas e agentes de IA"
+    numero: "95"
+    fala: "Nono lugar, o Buzz, da Block, a empresa do criador do Twitter. É um chat onde gente e IA trabalham lado a lado, e o servidor é seu. Noventa e cinco estrelas."
+  - etapa: repo
+    repo: "backnotprop/plannotator"
+    desc: "Um painel pra você revisar e corrigir o plano da IA antes que ela faça besteira."
+    destaque: "antes que ela faça besteira"
+    numero: "100"
+    fala: "Em oitavo, o Plannotator. Você lê o plano que a IA montou, marca o que está errado e manda de volta com um clique. Cem estrelas."
+  - etapa: repo
+    repo: "tailscale/tailcat"
+    desc: "Da Tailscale: liga dois computadores por um túnel seguro e criptografado, direto."
+    destaque: "túnel seguro"
+    numero: "173"
+    fala: "Sétimo, uma brincadeira séria da Tailscale. O Tailcat liga dois computadores por um túnel secreto e criptografado, sem central no meio. Cento e setenta e três estrelas."
+  - etapa: repo
+    repo: "alibaba/open-code-review"
+    desc: "Da Alibaba: o revisor de código com IA que já achou milhões de erros lá dentro."
+    destaque: "milhões de erros"
+    numero: "206"
+    fala: "Em sexto, a Alibaba abriu o jogo. O Open Code Review é o revisor de IA que ela usava por dentro e que já pegou milhões de erros. Agora é seu. Duzentas e seis estrelas."
+  - etapa: repo
+    repo: "Likely7/Veyra-NRVideo"
+    desc: "Promete deixar vídeo e jogo mais nítido e mais fluido em tempo real, usando a placa de vídeo."
+    destaque: "mais nítido e mais fluido"
+    numero: "245"
+    fala: "Quinto, o Veyra. Ele promete deixar vídeo e jogo de console mais nítido e mais fluido na hora, usando a placa do seu computador. Promessa grande, confira antes. Duzentas e quarenta e cinco estrelas."
+  - etapa: repo
+    repo: "ZhuLinsen/daily_stock_analysis"
+    desc: "Uma IA que analisa ações todo dia com notícias e gráficos e te manda o resumo."
+    destaque: "analisa ações todo dia"
+    numero: "272"
+    fala: "Em quarto, o analista de bolsa que não sai do Top dez. Uma IA lê notícias e gráficos das ações todo dia e te manda o resumo. Não é conselho de investimento, cuidado. Duzentas e setenta e duas estrelas."
+  - etapa: repo
+    repo: "openai/codex-security"
+    desc: "Da OpenAI: uma IA que caça falhas de segurança no código e ainda ajuda a consertar."
+    destaque: "caça falhas de segurança"
+    numero: "754"
+    fala: "E agora o pódio. Terceiro, a OpenAI. O Codex Security caça brechas que hacker usaria no seu código, confirma e ajuda a fechar. Setecentas e cinquenta e quatro estrelas."
+  - etapa: repo
+    repo: "we-promise/sure"
+    desc: "Um aplicativo de finanças pessoais aberto e grátis pra organizar todo o seu dinheiro."
+    destaque: "aberto e grátis"
+    numero: "944"
+    fala: "Em segundo, mais uma vez, o Sure, que não sai do Top dez. É o aplicativo de finanças aberto e gratuito pra você ver pra onde vai cada centavo, sem assinatura. Novecentas e quarenta e quatro estrelas."
+  - etapa: repo
+    repo: "GoogleChrome/modern-web-guidance-src"
+    desc: "Do Google Chrome: ensina a sua IA a montar sites do jeito moderno, sem truques velhos."
+    destaque: "jeito moderno"
+    numero: "1.875"
+    fala: "E o número um é do Google. Ontem era oitavo. Hoje, ninguém segura. O Modern Web Guidance ensina a sua IA a fazer sites do jeito certo de hoje. Mil oitocentas e setenta e cinco estrelas."
+  - etapa: comentario
+    fala: "E você, deixaria uma IA caçar falhas no seu código ou cuidar do seu dinheiro? Conta aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "oitenta e quatro por cento": "84%"
+  "quatro mil setecentas e vinte e cinco": "4.725"
+  "Sessenta e uma": "61"
+  "Noventa e cinco": "95"
+  "Cem": "100"
+  "Cento e setenta e três": "173"
+  "Duzentas e seis": "206"
+  "Duzentas e quarenta e cinco": "245"
+  "Duzentas e setenta e duas": "272"
+  "Setecentas e cinquenta e quatro": "754"
+  "Novecentas e quarenta e quatro": "944"
+  "Mil oitocentas e setenta e cinco": "1.875"
+cores: {bombando: "#FACC15", Google: "#FACC15", OpenAI: "#FACC15", Alibaba: "#FACC15", cuidado: "#ff2a1f", hacker: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Google dispara no GitHub: +1.875 estrelas em um dia e OpenAI no pódio"
+  contexto: "Top 10 do GitHub de 13/11/2026, do décimo ao primeiro, com os projetos que mais ganharam estrelas no dia. O Modern Web Guidance, do Google Chrome, saltou do oitavo para o primeiro com 1.875 estrelas, quase 84% a mais em 24 horas."
+  telegram: "O Google Chrome saltou do oitavo para o primeiro lugar do GitHub com +1.875 estrelas, quase 84% a mais em um dia. No pódio também estão o Sure, app de finanças aberto, e o Codex Security da OpenAI, que caça falhas no código."

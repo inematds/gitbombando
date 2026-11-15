@@ -1,0 +1,234 @@
+{
+ "tipo": "area",
+ "serie": "TOP 6 · AUTOMAÇÃO",
+ "conta": "@inema.tech",
+ "data_br": "13/11/2026",
+ "capa": {
+  "linha1": "TOP 6",
+  "linha2": "AUTOMAÇÃO",
+  "numero": "+2.089",
+  "numero_rotulo": "estrelas por dia, somando os 6 (criados nos últimos meses)",
+  "manchete": "AGENTES QUE TRABALHAM POR VOCÊ",
+  "destaque": "AGENTES",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "wangzan101/Mika",
+   "repo": "Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "gancho": [
+    "FALA O QUE QUER.",
+    "O CELULAR FAZ."
+   ],
+   "o_que_e": "Um assistente de IA para Android: você diz o que precisa e ele mexe nos apps e na internet do celular até terminar a tarefa.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Tela livre para você",
+     "texto": "Trabalha numa tela escondida em segundo plano enquanto você usa o celular."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Pergunta antes de pagar",
+     "texto": "Monta o carrinho ou o pedido e para antes de finalizar a compra."
+    }
+   ],
+   "fluxo": [
+    "FALA O PEDIDO",
+    "ELE ABRE APPS",
+    "TAREFA FEITA"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "existente",
+   "stat": "+571",
+   "stat_rotulo": "por dia",
+   "total": "8.511",
+   "info2": "Kotlin · criado há 15 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "KKKKhazix/agent-autoloop",
+   "repo": "agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "gancho": [
+    "SEU AGENTE TRABALHA",
+    "SEM VOCÊ OLHAR"
+   ],
+   "o_que_e": "Uma ferramenta que deixa agentes de terminal, como Claude Code e Codex, trabalhando sozinhos e só chama você quando precisa de uma decisão.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Windows, Mac ou Linux, com um comando, sem pagar servidor na nuvem."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Avisa onde você está",
+     "texto": "Manda a pergunta para Slack, Discord ou notificação no computador."
+    }
+   ],
+   "fluxo": [
+    "CHEGA A TAREFA",
+    "AGENTE EXECUTA",
+    "VOCÊ DECIDE"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "existente",
+   "stat": "+503",
+   "stat_rotulo": "por dia",
+   "total": "5.115",
+   "info2": "TypeScript · criado há 10 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "agentes-chat/agentes-chat",
+   "repo": "agentes-chat",
+   "url": "https://github.com/agentes-chat/agentes-chat",
+   "gancho": [
+    "UM SLACK ONDE A IA",
+    "É DA EQUIPE"
+   ],
+   "o_que_e": "Um chat de equipe de código aberto, parecido com o Slack, em que pessoas e agentes de IA conversam e trabalham juntos nos canais.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Aprovação humana",
+     "texto": "Ações sensíveis esperam uma pessoa aprovar dentro da própria conversa."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Grátis no seu servidor",
+     "texto": "Instala no seu servidor sem custo, com apps para web, desktop e celular."
+    }
+   ],
+   "fluxo": [
+    "CRIA O CANAL",
+    "CHAMA O AGENTE",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "existente",
+   "stat": "+297",
+   "stat_rotulo": "por dia",
+   "total": "1.326",
+   "info2": "TypeScript · criado há 4 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "lexmount/moli",
+   "repo": "moli",
+   "url": "https://github.com/lexmount/moli",
+   "gancho": [
+    "UM NAVEGADOR",
+    "SÓ PARA A IA"
+   ],
+   "o_que_e": "Um navegador sem tela, leve e rápido, feito para agentes de IA abrirem sites, buscarem na web e tirarem o conteúdo das páginas.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Página vira texto",
+     "texto": "Transforma qualquer site em texto organizado para a IA ler e usar."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Leve e multiplataforma",
+     "texto": "Gasta poucos recursos e roda em Linux, macOS e Windows."
+    }
+   ],
+   "fluxo": [
+    "PASSA O LINK",
+    "MOLI ABRE",
+    "TEXTO PRONTO"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "existente",
+   "stat": "+249",
+   "stat_rotulo": "por dia",
+   "total": "23.658",
+   "info2": "Rust · criado há 95 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "milind-soni/OpenMausBot",
+   "repo": "OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "gancho": [
+    "SEU TIME DE ROBÔS",
+    "NUM APP DE CHAT"
+   ],
+   "o_que_e": "Um app de chat de código aberto em que cada contato é um agente de IA com personalidade, modelo e computador próprios.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Claude ou Codex",
+     "texto": "Cada robô usa Claude ou Codex rodando no seu próprio computador."
+    },
+    {
+     "icone": "download",
+     "titulo": "App para instalar",
+     "texto": "Tem instalador pronto para macOS, Windows e Ubuntu."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O BOT",
+    "PEDE NO CHAT",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "existente",
+   "stat": "+236",
+   "stat_rotulo": "por dia",
+   "total": "22.123",
+   "info2": "TypeScript · criado há 94 dias"
+  },
+  {
+   "pos": 6,
+   "nome": "KKKKhazix/AIHOT",
+   "repo": "AIHOT",
+   "url": "https://github.com/KKKKhazix/AIHOT",
+   "gancho": [
+    "NOTÍCIAS DO SETOR",
+    "NUM RESUMO DIÁRIO"
+   ],
+   "o_que_e": "Um site que junta notícias de várias fontes, usa IA para escolher as importantes e escreve sozinho um resumo diário.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Filtra o que importa",
+     "texto": "A IA dá nota duas vezes a cada notícia e só publica as melhores."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Adapta ao seu setor",
+     "texto": "Troca as fontes e os critérios e vira o site de notícias da sua área."
+    }
+   ],
+   "fluxo": [
+    "JUNTA FONTES",
+    "IA SELECIONA",
+    "RESUMO DO DIA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "existente",
+   "stat": "+233",
+   "stat_rotulo": "por dia",
+   "total": "10.621",
+   "info2": "TypeScript · criado há 46 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 6 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois. Amanhã tem outra área, sempre às 18h.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

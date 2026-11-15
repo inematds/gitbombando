@@ -1,0 +1,374 @@
+{
+ "tipo": "top10",
+ "serie": "TOP 10 DO GITHUB",
+ "conta": "@inema.tech",
+ "data_br": "15/11/2026",
+ "capa": {
+  "linha1": "TOP 10",
+  "linha2": "DO GITHUB HOJE",
+  "numero": "+6.561",
+  "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas",
+  "manchete": "GOOGLE ENSINA SUA IA A PROGRAMAR",
+  "destaque": "GOOGLE",
+  "fundo": [
+   "prints/3.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/8.png",
+   "prints/9.png",
+   "prints/10.png",
+   "prints/1.png",
+   "prints/2.png",
+   "prints/4.png",
+   "prints/5.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "GoogleChrome/modern-web-guidance-src",
+   "repo": "modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "gancho": [
+    "SUA IA FAZ SITES",
+    "DO JEITO MODERNO?"
+   ],
+   "o_que_e": "Um pacote de habilidades do Google Chrome que ensina a sua IA de programação a montar sites com as práticas atuais da web, sem truques velhos.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Feito pelos navegadores",
+     "texto": "Mantido pelas equipes do Chrome, Edge, Firefox e MDN."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala com um comando",
+     "texto": "Um assistente guiado no terminal instala tudo para você."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O PACOTE",
+    "PEDE O SITE",
+    "CÓDIGO ATUAL"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "opengraph",
+   "stat": "+1.220",
+   "stat_rotulo": "hoje",
+   "total": "6.551",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 2,
+   "nome": "backnotprop/plannotator",
+   "repo": "plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "gancho": [
+    "REVISE O PLANO",
+    "ANTES DA IA AGIR"
+   ],
+   "o_que_e": "Um painel no navegador para você ler, anotar e corrigir os planos e o código da sua IA de programação, mandando o retorno com um clique.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Liga em vários agentes",
+     "texto": "Funciona com Claude Code, Codex, Gemini CLI, OpenCode e outros."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Comenta e devolve",
+     "texto": "Você marca o texto, comenta e a IA recebe o retorno na hora."
+    }
+   ],
+   "fluxo": [
+    "A IA PROPÕE",
+    "VOCÊ ANOTA",
+    "ELA CORRIGE"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+860",
+   "stat_rotulo": "hoje",
+   "total": "11.536",
+   "info2": "TypeScript · desde 12/2025"
+  },
+  {
+   "pos": 3,
+   "nome": "Likely7/Veyra-NRVideo",
+   "repo": "Veyra-NRVideo",
+   "url": "https://github.com/Likely7/Veyra-NRVideo",
+   "gancho": [
+    "VÍDEO E JOGO",
+    "MAIS NÍTIDOS?"
+   ],
+   "o_que_e": "Um programa para Windows que melhora vídeo, imagem e jogo de console em tempo real, usando a placa de vídeo para deixar mais nítido e fluido.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Qualquer fonte",
+     "texto": "Vídeo do computador, placa de captura e jogos de PS5 e Xbox."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "NVIDIA e AMD",
+     "texto": "Roda no Windows 11 usando placas de vídeo das duas marcas."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O VEYRA",
+    "ESCOLHE A FONTE",
+    "IMAGEM MELHOR"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+731",
+   "stat_rotulo": "hoje",
+   "total": "2.582",
+   "info2": "C++ · desde 09/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "ChromeDevTools/chrome-devtools-mcp",
+   "repo": "chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "gancho": [
+    "SUA IA NO",
+    "NAVEGADOR REAL"
+   ],
+   "o_que_e": "Uma ferramenta do Google Chrome que deixa a sua IA de programação abrir, controlar e investigar um navegador Chrome de verdade.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Acha o erro do site",
+     "texto": "A IA vê mensagens de erro, tráfego de rede e tira prints da tela."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Mede a velocidade",
+     "texto": "Grava o carregamento da página e aponta o que deixa tudo lento."
+    }
+   ],
+   "fluxo": [
+    "LIGA NA SUA IA",
+    "ELA ABRE O SITE",
+    "TESTA E CORRIGE"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "opengraph",
+   "stat": "+718",
+   "stat_rotulo": "hoje",
+   "total": "56.581",
+   "info2": "TypeScript · desde 09/2025"
+  },
+  {
+   "pos": 5,
+   "nome": "tradermonty/claude-trading-skills",
+   "repo": "claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "gancho": [
+    "ANALISAR A BOLSA",
+    "COM O CLAUDE?"
+   ],
+   "o_que_e": "Um conjunto de habilidades para o Claude Code que ajuda investidores a revisar o mercado, planejar operações e controlar o risco.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Mercado e gráficos",
+     "texto": "Análise de mercado, gráficos técnicos e calendário econômico."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Você decide",
+     "texto": "Não dá sinal de compra: organiza o seu processo e o seu risco."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE A ANÁLISE",
+    "VOCÊ DECIDE"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "opengraph",
+   "stat": "+707",
+   "stat_rotulo": "hoje",
+   "total": "5.135",
+   "info2": "Python · desde 10/2025"
+  },
+  {
+   "pos": 6,
+   "nome": "alibaba/open-code-review",
+   "repo": "open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "gancho": [
+    "A IA DA ALIBABA",
+    "REVISA SEU CÓDIGO"
+   ],
+   "o_que_e": "Um programa de terminal da Alibaba que usa IA para revisar código e apontar erros linha por linha. Já achou milhões de falhas lá dentro.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Caça falhas de segurança",
+     "texto": "Regras prontas para brechas como injeção de SQL e XSS."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Gasta menos",
+     "texto": "Usa bem menos processamento da IA que o Claude Code na revisão."
+    }
+   ],
+   "fluxo": [
+    "LIGA UMA IA",
+    "RODA A REVISÃO",
+    "VÊ OS ERROS"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+688",
+   "stat_rotulo": "hoje",
+   "total": "51.698",
+   "info2": "Go · desde 05/2026"
+  },
+  {
+   "pos": 7,
+   "nome": "we-promise/sure",
+   "repo": "sure",
+   "url": "https://github.com/we-promise/sure",
+   "gancho": [
+    "SEU DINHEIRO",
+    "ORGANIZADO"
+   ],
+   "o_que_e": "Um aplicativo de finanças pessoais aberto e grátis, criado pela comunidade a partir do antigo Maybe Finance, para organizar todo o seu dinheiro.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Roda no seu servidor",
+     "texto": "Você mesmo hospeda o aplicativo, de graça, com seus dados."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Tem português",
+     "texto": "A documentação está em vários idiomas, incluindo português."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O SURE",
+    "LANÇA AS CONTAS",
+    "VÊ O RESUMO"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+520",
+   "stat_rotulo": "hoje",
+   "total": "15.521",
+   "info2": "Ruby · desde 07/2025"
+  },
+  {
+   "pos": 8,
+   "nome": "dream-num/univer",
+   "repo": "univer",
+   "url": "https://github.com/dream-num/univer",
+   "gancho": [
+    "SEU PRÓPRIO",
+    "ESCRITÓRIO COM IA"
+   ],
+   "o_que_e": "Um kit de código aberto para montar o seu próprio escritório com IA, com planilhas, documentos e slides dentro do seu programa.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilha e documento",
+     "texto": "Começa com editores abertos de planilhas e textos prontos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para agentes",
+     "texto": "Pessoas e IAs editam, calculam e colaboram no mesmo arquivo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "LIGA AO SISTEMA",
+    "EDITA COM IA"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "readme",
+   "stat": "+495",
+   "stat_rotulo": "hoje",
+   "total": "25.213",
+   "info2": "TypeScript · desde 09/2022"
+  },
+  {
+   "pos": 9,
+   "nome": "louislam/uptime-kuma",
+   "repo": "uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "gancho": [
+    "SEU SITE CAIU?",
+    "VOCÊ FICA SABENDO"
+   ],
+   "o_que_e": "Um vigia grátis que você instala no seu servidor e que avisa na hora quando o seu site ou sistema sai do ar.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Avisa no Telegram",
+     "texto": "Alertas por Telegram, Discord, e-mail e mais de 90 serviços."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Confere sem parar",
+     "texto": "Testa seus sites e servidores a cada 20 segundos."
+    }
+   ],
+   "fluxo": [
+    "SOBE NO DOCKER",
+    "CADASTRA O SITE",
+    "RECEBE ALERTA"
+   ],
+   "print": "prints/9.png",
+   "print_fonte": "readme",
+   "stat": "+352",
+   "stat_rotulo": "hoje",
+   "total": "94.379",
+   "info2": "JavaScript · desde 07/2021"
+  },
+  {
+   "pos": 10,
+   "nome": "martin-olivier/airgorah",
+   "repo": "airgorah",
+   "url": "https://github.com/martin-olivier/airgorah",
+   "gancho": [
+    "SEU WI-FI",
+    "DÁ PRA INVADIR?"
+   ],
+   "o_que_e": "Um programa para Linux que testa a segurança da sua rede wi-fi e mostra se a senha dela pode ser quebrada. Use só na rede que é sua.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Vê quem está na rede",
+     "texto": "Captura o tráfego próximo e lista aparelhos conectados."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Testa a senha",
+     "texto": "Tenta quebrar a senha da rede para mostrar se ela é fraca."
+    }
+   ],
+   "fluxo": [
+    "ABRE NO LINUX",
+    "ESCOLHE A REDE",
+    "VÊ AS FALHAS"
+   ],
+   "print": "prints/10.png",
+   "print_fonte": "readme",
+   "stat": "+270",
+   "stat_rotulo": "hoje",
+   "total": "6.144",
+   "info2": "Rust · desde 09/2022"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 10 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}
