@@ -224,6 +224,35 @@ class ContratosIA(unittest.TestCase):
                              {'autorizada': True, 'autorizacao': 'FICTÍCIA, sem rede'}, 'teste', [])
 
 
+    def test_metricool_codex_limita_conector_e_ferramentas_sem_shell_livre(self):
+        home = self.p/'codex-home'; home.mkdir()
+        (home/'config.toml').write_text('[mcp_servers.metricool-inematds]\nurl="https://ai.metricool.com/mcp"\n[mcp_servers.metricool]\nurl="https://ai.metricool.com/mcp"\n')
+        c = {**self.cfg['etapas']['metricool_agenda'], 'motor': 'codex', 'modelo': 'gpt-6.1-sol',
+             'codex_home': str(home)}
+        cmd = ia.comando(c, 'mcp__metricool-inematds__getBrandSettings mcp__metricool-inematds__getScheduledPosts',
+                         True, self.p/'resposta')
+        self.assertIn('mcp_servers.metricool-inematds.enabled=true', cmd)
+        self.assertIn('mcp_servers.metricool.enabled=false', cmd)
+        filtro = next(x for x in cmd if 'enabled_tools=' in x)
+        self.assertNotIn('createScheduledPost', filtro)
+        self.assertIn('getScheduledPosts', filtro)
+        self.assertIn('read-only', cmd)
+        self.assertNotIn('--dangerously-bypass-approvals-and-sandbox', cmd)
+        self.assertEqual(ia.ambiente(c)['CODEX_HOME'], str(home))
+        self.cfg['etapas']['metricool_agenda'].update(c)
+        ia.validar(self.cfg)
+
+    def test_metricool_codex_recusa_ferramenta_fora_do_contrato(self):
+        c = {**self.cfg['etapas']['metricool_publicacao'], 'motor': 'codex', 'modelo': 'gpt-6.1-sol'}
+        with self.assertRaisesRegex(ValueError, 'fora do contrato'):
+            ia.comando(c, 'mcp__metricool-inematds__deleteScheduledPost', True, self.p/'out')
+
+    def test_intervalo_nao_ignora_horario_ilegivel(self):
+        inter = modulo('intervalo_data_invalida', R/'auto/intervalo.py')
+        with patch.object(inter, 'executar_ia', return_value='{"ok":true,"posts":[{"dateTime":"ilegivel"}]}'):
+            self.assertIsNone(inter.agenda('metricool-inematds', 'FTD', 10000, str(self.p)))
+
+
     def test_metricool_nao_aceita_api_de_texto(self):
         self.cfg['etapas']['metricool_publicacao'].update(tipo='api', motor='anthropic')
         with self.assertRaisesRegex(ValueError, 'conector Metricool'):

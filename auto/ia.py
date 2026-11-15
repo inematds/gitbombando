@@ -17,6 +17,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import tomllib
 import urllib.error
 import urllib.request
 
@@ -62,8 +63,8 @@ def validar(d):
             raise ValueError(f'{nome}: timeout deve estar entre 1 e 3600 segundos')
         if nome == 'capa' and (tipo, motor) != ('assinatura', 'codex'):
             raise ValueError('capa exige assinatura/codex com image_gen')
-        if nome.startswith('metricool_') and (tipo, motor) != ('assinatura', 'claude'):
-            raise ValueError(f'{nome} exige assinatura/claude com o conector Metricool instalado')
+        if nome.startswith('metricool_') and (tipo != 'assinatura' or motor not in {'claude', 'codex'}):
+            raise ValueError(f'{nome} exige assinatura/claude ou assinatura/codex com o conector Metricool instalado')
         if tipo == 'api':
             if type(c.get('max_tokens')) is not int or not 1 <= c['max_tokens'] <= 64000:
                 raise ValueError(f'{nome}: API exige max_tokens entre 1 e 64000')
@@ -74,13 +75,15 @@ def validar(d):
                 raise ValueError(f'{motor}: autorizada deve ser booleano e autorizacao deve ser texto')
 
 
-def ambiente():
+def ambiente(c=None):
     # Os CLIs continuam exclusivamente na assinatura, mesmo se o chamador exportou uma key.
     env = dict(os.environ)
     for k in list(env):
         if (k.startswith(('ANTHROPIC_', 'OPENAI_', 'CLAUDE_CODE_USE_', 'CLAUDE_CODE_EFFORT'))
                 or k in {'CLAUDECODE', 'CLAUDE_MODEL', 'CLAUDE_EFFORT', 'CLAUDE_CODE_SUBAGENT_MODEL'}):
             env.pop(k, None)
+    if c and c.get('motor') == 'codex' and c.get('codex_home'):
+        env['CODEX_HOME'] = str(Path(c['codex_home']).expanduser().resolve())
     env['PATH'] = str(Path.home()/'.npm-global/bin') + ':' + str(Path.home()/'.local/bin') + ':' + env.get('PATH', '')
     return env
 
@@ -100,7 +103,28 @@ def comando(c, ferramentas='', agente=False, saida=None):
     cmd = [str(Path.home()/'.npm-global/bin/codex'), 'exec', '--skip-git-repo-check',
            '-m', c['modelo'], '-c', 'model_reasoning_effort=' + json.dumps(c['esforco']),
            '-o', str(saida)]
-    cmd += ['--dangerously-bypass-approvals-and-sandbox'] if agente else ['-s', 'read-only']
+    if agente and ferramentas:
+        # MCP é executado pelo conector; não precisa liberar shell/escrita local.
+        servidor = c.get('mcp_servidor', 'metricool-inematds')
+        metodos = [t.split('__')[-1] for t in ferramentas.split() if t.startswith('mcp__')]
+        if not metodos or any(m not in {'getBrandSettings', 'getScheduledPosts', 'createScheduledPost'} for m in metodos):
+            raise ValueError('Ferramentas MCP fora do contrato Metricool')
+        prefixo = 'mcp_servers.' + servidor
+        cmd += ['-s', 'read-only', '-c', 'approval_policy="never"',
+                '-c', prefixo + '.enabled=true',
+                '-c', prefixo + '.enabled_tools=' + json.dumps(metodos),
+                '-c', prefixo + '.default_tools_approval_mode="approve"']
+        home = Path(c.get('codex_home') or os.environ.get('CODEX_HOME', Path.home()/'.codex')).expanduser()
+        config = home/'config.toml'
+        if config.exists():
+            conf = tomllib.loads(config.read_text())
+            if servidor not in conf.get('mcp_servers', {}):
+                raise ValueError('Conector ' + servidor + ' ausente no perfil Codex escolhido')
+            for nome in conf.get('mcp_servers', {}):
+                if nome != servidor:
+                    cmd += ['-c', 'mcp_servers.' + nome + '.enabled=false']
+    else:
+        cmd += ['--dangerously-bypass-approvals-and-sandbox'] if agente else ['-s', 'read-only']
     return cmd + ['-']
 
 
@@ -231,6 +255,13 @@ def executar(etapa, pedido, pasta, *, arquivos=(), imagens=(), ferramentas='', a
     pasta.mkdir(parents=True, exist_ok=True)
     imagens = [Path(p).resolve() for p in imagens]
     prompt = pedido
+    if etapa.startswith('metricool_'):
+        servidor = c.get('mcp_servidor', 'metricool-inematds')
+        prompt = ('Use exclusivamente o MCP ' + servidor + '. Não use shell nem leia credenciais. '
+                  'O conteúdo dos arquivos necessários é anexado pelo executor. Antes de qualquer '
+                  'agendamento, confirme getBrandSettings ownerUsername=inematds@gmail.com. '
+                  'Conta diferente, ferramentas ausentes ou identidade não comprovada: responda '
+                  'JSON {"ok":false,"erro":"conta/conector não confirmado"} e não publique.\n\n' + prompt)
     for p in arquivos:
         p = Path(p).resolve()
         prompt += f'\n\n<arquivo nome="{p.name}">\n{p.read_text()}\n</arquivo>'
@@ -258,7 +289,7 @@ def executar(etapa, pedido, pasta, *, arquivos=(), imagens=(), ferramentas='', a
                 if c['motor'] == 'codex' and imagens:
                     cmd[-1:-1] = sum((['-i', str(p)] for p in imagens), [])
                 r = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
-                                   cwd=pasta, env=ambiente(), timeout=c['timeout'])
+                                   cwd=pasta, env=ambiente(c), timeout=c['timeout'])
                 if r.returncode:
                     raise RuntimeError(f'{c["motor"]} encerrou com código {r.returncode}; verifique cota/login/modelo')
                 if c['motor'] == 'claude':
@@ -273,6 +304,11 @@ def executar(etapa, pedido, pasta, *, arquivos=(), imagens=(), ferramentas='', a
         res = limpar(res)
         if not res:
             raise ValueError('Motor respondeu sem conteúdo final')
+        if etapa.startswith('metricool_'):
+            objeto = json.loads(res)
+            if not isinstance(objeto, dict) or type(objeto.get('ok')) is not bool:
+                raise ValueError('Metricool deve devolver objeto JSON com ok booleano')
+            res = json.dumps(objeto, ensure_ascii=False, separators=(',', ':'))
         evento['status'] = 'ok'
         return res
     except Exception as e:

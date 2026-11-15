@@ -22,6 +22,12 @@ if [ "$DESLOC" != 0 ]; then
   DIA_ED=$(basename "$ED" | cut -c1-10)
   ESC=$(( $(date -d "$DIA_ED ${GB_PUBLICAR_AS:-11:00}" +%s) + DESLOC * 3600 ))
   [ "$ESC" -gt "$ALVO" ] && ALVO=$ESC
+  REC_DIA="$RAIZ/edicoes/$DIA_ED-top10-dia/metritds-agendamento.json"
+  if [ -s "$REC_DIA" ]; then
+    BASE_DIA=$(python3 -c 'import json,sys;print(json.load(open(sys.argv[1]))["epoch"])' "$REC_DIA")
+    ESC=$(( BASE_DIA + DESLOC * 3600 ))
+    [ "$ESC" -gt "$ALVO" ] && ALVO=$ESC
+  fi
 fi
 # trava de 1 h entre posts da mesma marca (Nei, 12/11/2026); INTERVALO_LIVRE=1 = o Nei autorizou juntar
 INT_ERRO=""
@@ -58,18 +64,18 @@ python3 $HOME/projetos/metricool-inematds/sem_links.py "$ED/metritds-texto.txt" 
 
 # 3. agenda pelo conector metricool-inematds (claude -p, assinatura)
 PEDIDO="Use só as ferramentas do servidor MCP metricool-inematds.
-1) getBrandSettings: pegue o blogId da marca (deve haver só uma, label inema.tds) e veja em networksData quais destas redes estão conectadas: tiktok, instagram.
-2) createScheduledPost UMA vez, com todas as redes conectadas (das duas) em providers:
+1) getBrandSettings: confirme ownerUsername inematds@gmail.com; escolha SOMENTE a marca label inema.tds, blogId 7797870, e confira instagram e tiktok. Não escolha outra marca.
+2) getScheduledPosts da marca no dia alvo: se a MESMA mídia já estiver agendada, não crie outra e retorne ok=true com as redes/planner existentes. Caso contrário, createScheduledPost UMA vez, com todas as redes conectadas (das duas) em providers:
    date = ${QUANDO_UTC}Z ; publicationDate = {dateTime: \"${QUANDO_UTC}\", timezone: \"UTC\"}
-   media = [\"$MEDIA\"] ; text = conteúdo exato do arquivo $ED/metritds-texto.txt (leia com a ferramenta Read)
+   media = [\"$MEDIA\"] ; text = conteúdo exato do arquivo $ED/metritds-texto.txt (conteúdo anexado pelo executor, sem shell)
    draft = $([ -n "${RASCUNHO:-}" ] && echo true || echo false) ; autoPublish = true
    tiktokData = {privacyOption: \"PUBLIC_TO_EVERYONE\", title: primeira linha do texto (até 90 caracteres), isAigc: true}
    instagramData (só se instagram estiver conectado) = {type: \"REEL\", showReelOnFeed: true, isAiGenerated: true}
 3) Responda APENAS uma linha JSON, sem crase: {\"ok\":true|false,\"redes\":[...],\"faltam\":[redes não conectadas],\"planner\":[plannerUrl...],\"erro\":\"texto do erro ou vazio\"}"
 cd "$ED"
 if [ -n "$INT_ERRO" ]; then OUT='{"ok":false,"erro":"trava de 1 h: não consegui ler a agenda da marca, não agendei"}'; else
-OUT=$(printf '%s' "$PEDIDO" | python3 "$RAIZ/auto/ia.py" executar metricool_publicacao --pasta "$ED" --agente \
-      --ferramentas "mcp__metricool-inematds__getBrandSettings mcp__metricool-inematds__createScheduledPost Read" 2>&1)
+OUT=$(printf '%s' "$PEDIDO" | python3 "$RAIZ/auto/ia.py" executar metricool_publicacao --pasta "$ED" --agente --arquivo "$ED/metritds-texto.txt" \
+      --ferramentas "mcp__metricool-inematds__getBrandSettings mcp__metricool-inematds__getScheduledPosts mcp__metricool-inematds__createScheduledPost Read" 2>&1)
 fi
 echo "claude: $OUT"
 J=$(printf '%s' "$OUT" | grep -o '{.*"ok".*}' | tail -1)
@@ -83,6 +89,13 @@ REDES=$(campo redes); FALTAM=$(campo faltam); PLAN=$(campo planner); ERRO=$(camp
 FAIXA="🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦"
 if [ -n "$OK" ]; then
   [ -z "${RASCUNHO:-}" ] && printf '%s\n%s\n' "$QUANDO_BR" "$REDES" > "$ED/metritds.txt"
+  if [ -z "${RASCUNHO:-}" ]; then
+    python3 - "$ED/metritds-agendamento.json" "$ALVO" "$REDES" <<'RECIBO'
+import json,sys
+from pathlib import Path
+Path(sys.argv[1]).write_text(json.dumps({"epoch":int(sys.argv[2]),"redes":sys.argv[3]},ensure_ascii=False)+"\n")
+RECIBO
+  fi
   [ -z "${RASCUNHO:-}" ] && python3 "$RAIZ/auto/intervalo.py" --registrar --marca "inema.tds" --alvo "$ALVO"
   # deu certo: o v3 recebe só o aviso normal do YouTube, sem faixa azul nem links do Metricool (Nei, 06/11/2026)
   MSG="Publicado no YouTube lives4 · Bombando no GitHub · $TIT

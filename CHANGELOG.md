@@ -1,5 +1,12 @@
 # CHANGELOG — gitbombando
 
+## 1.7.0 — 15/11/2026
+- Metricool integrado à assinatura Codex: consulta e publicação usam MCP metricool-inematds no perfil autenticado ~/.codex-2. Claude segue disponível por configuração.
+- Ferramentas MCP limitadas por etapa, shell sem escrita, demais conectores desativados só na chamada e confirmação obrigatória da conta inematds.
+- Legendas anexadas ao executor, JSON do conector normalizado e verificação de mídia já agendada para evitar duplicação.
+- Agenda com horário inválido bloqueia agendamento; retomada de semana/mês respeita 2h/4h após horário efetivo do dia.
+- 21 testes locais e consulta real de agenda pelo executor integrado aprovados.
+
 ## 1.6.0 — 15/11/2026
 - Pedido do Nei: ativar Claude API para operação. Cinco etapas de texto/revisão passam a Anthropic; autorização e escopo registrados no YAML.
 - Capa permanece Codex/image_gen; Metricool permanece Claude por assinatura/MCP. OpenAI/OpenRouter continuam desativadas.

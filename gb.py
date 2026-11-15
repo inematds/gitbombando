@@ -24,7 +24,7 @@ sys.path.insert(0, str(R))
 from auto.ia import executar as executar_ia
 from nucleo import cartao, cena as CENA, pecas, retempo as RT, ritmo as RITMO  # noqa: E402
 
-VERSAO = "1.6.0"
+VERSAO = "1.7.0"
 CANAL = os.environ.get("GB_CANAL", "lives4")
 PERFIL = Path(os.environ.get("R7X_HEYGEN_PERFIL", Path.home() / ".cache/inemaccbot/perfil-heygen"))
 TEMPLATE_HEYGEN = os.environ.get("R7X_HEYGEN_TEMPLATE", "TEMPLATE-AVATAR16")

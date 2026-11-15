@@ -46,7 +46,7 @@
 # API usa max_tokens como teto de saída, não como teto de custo em dinheiro.
 # Só documentar/escolher uma API não autoriza seu consumo.
 # A CAPA permanece assinatura/codex + image_gen. NÃO trocar para API.
-# METRICOOL ainda exige assinatura/claude com MCP; API de texto não o substitui.
+# METRICOOL aceita assinatura Claude ou Codex com MCP; operação atual no Codex autenticado.
 # ./ia configurar preserva estes comentários; ./ia validar confere sem chamadas.
 # TESTES REAIS em 15/11/2026, somente roteiro + portão, sem publicar:
 # - API Anthropic / claude-opus-5-5 / low: APROVADO, 13 partes, 2.275 caracteres.
@@ -54,7 +54,7 @@
 # API OpenAI e API OpenRouter: implementadas e testadas com respostas simuladas;
 # nenhuma chamada real/autorização de consumo para esses dois serviços.
 # Depois dos testes, Nei autorizou ativar Anthropic nos crons: configuração abaixo.
-# Operação atual: texto/revisão na API Anthropic; capa no Codex; Metricool no Claude/MCP.
+# Operação atual: texto/revisão na API Anthropic; capa no Codex; Metricool no Codex/MCP.
 versao: 1
 api:
   autorizada: true
@@ -129,15 +129,19 @@ etapas:
     max_tokens: 6000
   # METRICOOL: conferir intervalo de 1 hora entre posts (exige conector MCP).
   metricool_agenda:
-    tipo: assinatura
-    motor: claude
-    modelo: claude-opus-5-5
-    esforco: low
+    tipo: "assinatura"
+    motor: "codex"
+    modelo: "gpt-6.1-sol"
+    esforco: "medium"
     timeout: 600
+    codex_home: "/home/nmaldaner/.codex-2"
+    mcp_servidor: "metricool-inematds"
   # METRICOOL: agendar publicação (exige conector MCP).
   metricool_publicacao:
-    tipo: assinatura
-    motor: claude
-    modelo: claude-opus-5-5
-    esforco: low
+    tipo: "assinatura"
+    motor: "codex"
+    modelo: "gpt-6.1-sol"
+    esforco: "medium"
     timeout: 900
+    codex_home: "/home/nmaldaner/.codex-2"
+    mcp_servidor: "metricool-inematds"

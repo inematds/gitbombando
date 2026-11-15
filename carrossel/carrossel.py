@@ -375,18 +375,18 @@ def metritds(cd, d, S, leg, titulo):
     rascunho = "true" if os.environ.get("RASCUNHO") else "false"
     pedido = f"""Use só as ferramentas do servidor MCP metricool-inematds.
 1) getBrandSettings: use a marca FTD (blogId 7908265, Instagram + TikTok inema.tech) e veja em networksData se instagram e tiktok estão conectados.
-2) createScheduledPost UMA vez com as redes conectadas (das duas) em providers. É um CARROSSEL DE IMAGENS (não vídeo):
+2) Consulte getScheduledPosts da marca no dia alvo. Se a MESMA mídia já estiver agendada, retorne ok=true com as redes/planner existentes e não duplique. Caso contrário, createScheduledPost UMA vez com as redes conectadas (das duas) em providers. É um CARROSSEL DE IMAGENS (não vídeo):
    date = {quando}Z ; publicationDate = {{dateTime: "{quando}", timezone: "UTC"}}
    media = {json.dumps(urls)} (nesta ordem, todas)
-   text = conteúdo exato do arquivo {cd}/metritds-texto.txt (leia com a ferramenta Read)
+   text = conteúdo exato do arquivo {cd}/metritds-texto.txt (conteúdo anexado pelo executor, sem shell)
    draft = {rascunho} ; autoPublish = true
    instagramData = {{type: "POST", isAiGenerated: true}}
    tiktokData = {{privacyOption: "PUBLIC_TO_EVERYONE", title: "{titulo[:88]}", photoCoverIndex: 0, autoAddMusic: true}}
    Se der erro por causa do TikTok (fotos), tente de novo SÓ com instagram e diga isso no campo erro.
 3) Responda APENAS uma linha JSON, sem crase: {{"ok":true|false,"redes":[...],"faltam":[...],"planner":[...],"erro":"texto ou vazio"}}"""
     try:
-        resposta = executar_ia("metricool_publicacao", pedido, cd, agente=True,
-                    ferramentas="mcp__metricool-inematds__getBrandSettings mcp__metricool-inematds__createScheduledPost Read")
+        resposta = executar_ia("metricool_publicacao", pedido, cd, agente=True, arquivos=[cd / "metritds-texto.txt"],
+                    ferramentas="mcp__metricool-inematds__getBrandSettings mcp__metricool-inematds__getScheduledPosts mcp__metricool-inematds__createScheduledPost Read")
     except Exception as e:
         return {"ok": False, "erro": str(e)}
     (cd / "metritds.log").write_text(resposta)

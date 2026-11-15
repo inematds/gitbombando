@@ -61,7 +61,7 @@ def agenda(conector, marca, alvo, cwd):
         try:
             resposta = executar_ia("metricool_agenda", pedido, cwd, agente=True, ferramentas=tools)
         except Exception as e:
-            log(f"claude -p falhou: {e}")
+            log(f"motor de IA falhou: {e}")
             continue
         m = re.findall(r'\{.*"ok".*\}', resposta)
         try:
@@ -80,7 +80,8 @@ def agenda(conector, marca, alvo, cwd):
                     t = t.replace(tzinfo=ZoneInfo(p.get("timezone") or "UTC"))
                 out.append(int(t.timestamp()))
             except Exception:
-                log(f"horário ilegível ignorado: {p}")
+                log("horário ilegível na agenda; recuso agendar")
+                return None
         return out
     return None
 

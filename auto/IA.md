@@ -1,4 +1,4 @@
-# IA independente por etapa — gitbombando 1.6.0
+# IA independente por etapa — gitbombando 1.7.0
 
 A configuração está em `auto/ia.yaml`, dentro deste repositório. Não usa o modelo ou o esforço dos terminais nem o arquivo central modelos.env. Cada chamada lê a configuração atual e registra os valores utilizados na pasta da edição, em `ia-execucoes.jsonl` (sem chave e sem prompt). Não é necessário reiniciar timers ou serviços: a próxima chamada usa a alteração. Uma chamada em andamento termina com a configuração que já recebeu.
 
@@ -24,8 +24,8 @@ Também é possível editar só o YAML. O comando `configurar` valida antes de s
 | carrossel_filtro | Seleção dos projetos do tema do dia | assinatura/claude, assinatura/codex, api/anthropic, api/openai, api/openrouter |
 | carrossel_textos | Textos dos dois tipos de carrossel | assinatura/claude, assinatura/codex, api/anthropic, api/openai, api/openrouter |
 | carrossel_revisao | Revisão visual dos slides | assinatura/claude, assinatura/codex, api/anthropic, api/openai, api/openrouter |
-| metricool_agenda | Consulta da agenda para manter 1 h entre posts | assinatura/claude + MCP instalado |
-| metricool_publicacao | Agendamento do vídeo e dos carrosséis | assinatura/claude + MCP instalado |
+| metricool_agenda | Consulta da agenda para manter 1 h entre posts | assinatura/claude ou assinatura/codex + MCP instalado |
+| metricool_publicacao | Agendamento do vídeo e dos carrosséis | assinatura/claude ou assinatura/codex + MCP instalado |
 
 Os dois carrosséis compartilham as etapas carrossel_*. Os modos dia/semana/mês compartilham roteiro/capa/revisao_video. Os modelos dos revisores precisam aceitar imagens. Alterar o modelo da capa altera o agente Codex; a ferramenta de imagem continua sendo image_gen da assinatura. Avatar/HeyGen, Whisper, render, coleta e publicadores sem IA não têm esforço de raciocínio e não são alterados por este arquivo.
 
@@ -116,3 +116,11 @@ O script `tests/teste_motores_reais.py` permite repetir o teste em um destino no
 Pedido posterior do Nei: “entao deixa ele operacional com claude api, ok”. Anthropic ativada em roteiro, revisao_video, carrossel_filtro, carrossel_textos e carrossel_revisao. Chave referenciada: inemapro-api-key no wifi/.env. Os modelos e esforços permanecem Opus 5.5/low para texto/filtro e Opus 5.5/medium para revisão. O YAML registra a autorização e limita o uso às cinco etapas. Não é necessário reiniciar os timers; as próximas chamadas leem a configuração.
 
 A capa permanece Codex por assinatura. A consulta da agenda e o agendamento pelo Metricool permanecem Claude por assinatura/MCP: a API de texto não fornece esse conector. Portanto, o limite semanal da assinatura ainda pode impedir a publicação no Metricool, embora texto e revisão já usem API. Não houve reexecução de edições anteriores nesta ativação. OpenAI/OpenRouter seguem desativadas.
+
+## Metricool pelo Codex em operação — 15/11/2026 (v1.7.0)
+
+Pedido do Nei: integrar o conector Codex e publicar pendências seguindo as regras. metricool_agenda e metricool_publicacao passaram para assinatura/codex, gpt-6.1-sol/medium, codex_home ~/.codex-2 e mcp_servidor metricool-inematds. A consulta real pelo executor integrado funcionou. Os demais servidores MCP ficam desativados somente nessa execução; o conector correto expõe apenas as ferramentas necessárias à etapa. O shell permanece read-only, e as legendas são anexadas sem precisar ler arquivos por shell.
+
+Antes de agendar, o executor exige ownerUsername inematds@gmail.com. A marca do vídeo é inema.tds/7797870 e a dos carrosséis é FTD/7908265. A consulta precisa devolver horários válidos para preservar o intervalo de 1 hora por marca; caso contrário, não agenda. O publicador consulta a mesma mídia no dia alvo antes de criar e não deve duplicá-la. O JSON final é normalizado em uma linha.
+
+Capa continua Codex/image_gen, e texto/revisão continuam API Anthropic. OpenAI/OpenRouter permanecem desativadas. Os registros antigos de dependência do Claude acima descrevem versões anteriores. A publicação não depende mais da cota semanal do Claude; depende da autenticação vigente do conector no perfil Codex configurado.
