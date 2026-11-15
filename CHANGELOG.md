@@ -1,5 +1,11 @@
 # CHANGELOG — gitbombando
 
+## 1.5.0 — 15/11/2026
+- Cinco opções documentadas com `#` no próprio auto/ia.yaml: Claude/Codex por assinatura e APIs Anthropic/OpenAI/OpenRouter. O comando configurar preserva comentários, inclusive inline.
+- Adaptadores OpenAI Responses e OpenRouter com esforço explícito, texto/visão e autorização independente por serviço; sem chamadas reais a esses dois provedores.
+- Testes reais de roteiro aprovados pela API Anthropic (Opus 5.5/low) e assinatura Codex (gpt-6.1-sol/medium); configurações isoladas, sem publicação nem ativação de API nos crons.
+- 18 testes locais; capa permanece Codex/image_gen por assinatura.
+
 ## 1.4.0 — 15/11/2026
 - Motor, tipo, modelo e esforço por etapa em `auto/ia.yaml`, com comandos `./ia ver/configurar/validar`; sem herança de modelo/esforço dos terminais.
 - Roteiro, filtro, textos e revisores aceitam Claude/Codex por assinatura ou Anthropic direta (texto/visão, desativada até autorização explícita).

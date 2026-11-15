@@ -1,7 +1,59 @@
-# Configuração exclusiva do gitbombando. Não lê modelos.env nem o modelo dos terminais.
-# Tipos: assinatura (motor claude ou codex), api (motor anthropic).
-# API exige autorização explícita do Nei; nenhuma está autorizada nesta entrega.
-# Capa: assinatura/codex. Metricool: assinatura/claude (conector instalado).
+# GITBOMBANDO — escolha tipo, motor, modelo e esforço para CADA etapa abaixo.
+# Este arquivo é exclusivo deste projeto; não herda modelo/esforço dos terminais.
+# Edite os 4 campos da etapa desejada usando UMA das opções comentadas:
+#
+# 1) CLAUDE PELA ASSINATURA (login existente do Claude Code, sem chave de API):
+#    tipo: assinatura
+#    motor: claude
+#    modelo: claude-opus-5-5
+#    esforco: low
+#
+# 2) CODEX PELA ASSINATURA (login existente do Codex, sem chave de API):
+#    tipo: assinatura
+#    motor: codex
+#    modelo: gpt-6.1-sol
+#    esforco: medium
+#
+# 3) CLAUDE PELA API DIRETA DA ANTHROPIC (consumo pago):
+#    tipo: api
+#    motor: anthropic
+#    modelo: claude-opus-5-5
+#    esforco: low
+#    chave_nome: inemapro-api-key
+#    Exige autorização em api.autorizada + api.autorizacao; o teste de 15/11
+#    foi autorizado só em configuração isolada, sem ativar API nos crons.
+#
+# 4) MODELOS OPENAI/CODEX PELA API DIRETA OPENAI (consumo pago):
+#    tipo: api
+#    motor: openai
+#    modelo: gpt-6.1-sol
+#    esforco: medium
+#    chave_nome: OPENAI_API_KEY
+#    Exige autorização em api.openai. O ID/acesso da API pode diferir da assinatura.
+#    Não transforma Codex CLI em API: usa a Responses API da OpenAI diretamente.
+#
+# 5) OPENROUTER PELA API (consumo pago, modelo com prefixo do provedor):
+#    tipo: api
+#    motor: openrouter
+#    modelo: anthropic/claude-opus-5.5
+#    esforco: low
+#    chave_nome: OPENROUTER_API_KEY
+#    Exige autorização em api.openrouter. O modelo deve suportar esforço e,
+#    nos revisores, imagens. Sem fallback automático entre provedores.
+#
+# ESFORÇO: Claude/Anthropic low|medium|high|xhigh|max; Codex low|medium|high|xhigh.
+# OpenAI/OpenRouter aceitam também none|minimal|max, conforme o modelo escolhido.
+# API usa max_tokens como teto de saída, não como teto de custo em dinheiro.
+# Só documentar/escolher uma API não autoriza seu consumo.
+# A CAPA permanece assinatura/codex + image_gen. NÃO trocar para API.
+# METRICOOL ainda exige assinatura/claude com MCP; API de texto não o substitui.
+# ./ia configurar preserva estes comentários; ./ia validar confere sem chamadas.
+# TESTES REAIS em 15/11/2026, somente roteiro + portão, sem publicar:
+# - API Anthropic / claude-opus-5-5 / low: APROVADO, 13 partes, 2.275 caracteres.
+# - Assinatura Codex / gpt-6.1-sol / medium: APROVADO, 13 partes, 1.945 caracteres.
+# API OpenAI e API OpenRouter: implementadas e testadas com respostas simuladas;
+# nenhuma chamada real/autorização de consumo para esses dois serviços.
+# Os testes não ativaram API na configuração de produção abaixo.
 versao: 1
 api:
   autorizada: false
@@ -9,7 +61,19 @@ api:
   arquivo_chaves: /home/nmaldaner/projetos/wifi/.env
   chave_nome: inemapro-api-key
   versao_anthropic: '2023-06-01'
+  # Autorizações e referências são independentes por serviço. Não colocar chaves aqui.
+  # OpenAI e OpenRouter estão preparados, sem autorização nem teste real de API.
+  openai:
+    autorizada: false
+    autorizacao: ''
+    chave_nome: OPENAI_API_KEY
+    # arquivo_chaves herda o caminho acima; pode informar outro arquivo autorizado.
+  openrouter:
+    autorizada: false
+    autorizacao: ''
+    chave_nome: OPENROUTER_API_KEY
 etapas:
+  # VÍDEO: gerar a ficha YAML. Aceita as cinco opções documentadas acima.
   roteiro:
     tipo: assinatura
     motor: claude
@@ -17,12 +81,14 @@ etapas:
     esforco: low
     timeout: 1800
     max_tokens: 12000
+  # IMAGEM: manter sempre no Codex pela assinatura, conforme pedido do Nei.
   capa:
     tipo: assinatura
     motor: codex
     modelo: gpt-6.1-sol
     esforco: medium
     timeout: 1800
+  # VÍDEO: modelo com visão para conferir os quadros.
   revisao_video:
     tipo: assinatura
     motor: claude
@@ -30,6 +96,7 @@ etapas:
     esforco: medium
     timeout: 900
     max_tokens: 6000
+  # CARROSSEL: selecionar projetos compatíveis com a área do dia.
   carrossel_filtro:
     tipo: assinatura
     motor: claude
@@ -37,6 +104,7 @@ etapas:
     esforco: low
     timeout: 300
     max_tokens: 4000
+  # CARROSSEL: escrever textos dos slides.
   carrossel_textos:
     tipo: assinatura
     motor: claude
@@ -44,6 +112,7 @@ etapas:
     esforco: low
     timeout: 1800
     max_tokens: 14000
+  # CARROSSEL: modelo com visão para revisar slides.
   carrossel_revisao:
     tipo: assinatura
     motor: claude
@@ -51,12 +120,14 @@ etapas:
     esforco: medium
     timeout: 900
     max_tokens: 6000
+  # METRICOOL: conferir intervalo de 1 hora entre posts (exige conector MCP).
   metricool_agenda:
     tipo: assinatura
     motor: claude
     modelo: claude-opus-5-5
     esforco: low
     timeout: 600
+  # METRICOOL: agendar publicação (exige conector MCP).
   metricool_publicacao:
     tipo: assinatura
     motor: claude

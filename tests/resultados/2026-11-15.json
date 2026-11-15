@@ -1,0 +1,77 @@
+{
+  "escopo": "geração e portão real do roteiro, sem publicação; produção preservada",
+  "autorizacao": "Nei: quero que testes se ele funciona com a api do claude e se funciona com assinatura do codex",
+  "testes": [
+    {
+      "data": "2026-11-15T18:34:30.703694+00:00",
+      "motor": "anthropic",
+      "modelo": "claude-opus-5-5",
+      "esforco": "low",
+      "etapa": "roteiro",
+      "pasta": "/home/nmaldaner/projetos/output/gitbombando-testes-ia-2026-11-15/anthropic",
+      "publicacao": false,
+      "config_cron_alterada": false,
+      "status": "aprovado",
+      "partes": 13,
+      "caracteres_fala": 2275,
+      "segundos": 37.87,
+      "execucoes": [
+        {
+          "data": "2026-11-15T18:34:30.705390+00:00",
+          "etapa": "roteiro",
+          "tipo": "api",
+          "motor": "anthropic",
+          "modelo": "claude-opus-5-5",
+          "esforco": "low",
+          "modelo_retornado": "claude-opus-5-5",
+          "uso": {
+            "input_tokens": 22138,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 4649,
+            "output_tokens_details": {
+              "thinking_tokens": 1643
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          "status": "ok",
+          "segundos": 37.8
+        }
+      ]
+    },
+    {
+      "data": "2026-11-15T18:35:04.632142+00:00",
+      "motor": "codex",
+      "modelo": "gpt-6.1-sol",
+      "esforco": "medium",
+      "etapa": "roteiro",
+      "pasta": "/home/nmaldaner/projetos/output/gitbombando-testes-ia-2026-11-15/codex",
+      "publicacao": false,
+      "config_cron_alterada": false,
+      "status": "aprovado",
+      "partes": 13,
+      "caracteres_fala": 1945,
+      "segundos": 42.15,
+      "execucoes": [
+        {
+          "data": "2026-11-15T18:35:04.633733+00:00",
+          "etapa": "roteiro",
+          "tipo": "assinatura",
+          "motor": "codex",
+          "modelo": "gpt-6.1-sol",
+          "esforco": "medium",
+          "status": "ok",
+          "segundos": 42.08
+        }
+      ]
+    }
+  ],
+  "openai_api": "somente simulado; sem autorização de rede",
+  "openrouter_api": "somente simulado; sem autorização de rede"
+}

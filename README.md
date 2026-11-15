@@ -22,7 +22,7 @@ O motor, modelo e esforço de cada etapa ficam em `auto/ia.yaml`, exclusivos des
 Veja com `./ia ver`; altere, por exemplo, com `./ia configurar roteiro --modelo claude-opus-5-5 --esforco medium`.
 Para trocar texto/visão para Codex: `./ia configurar roteiro --tipo assinatura --motor codex --modelo gpt-6.1-sol --esforco medium`.
 Confira com `./ia validar` (sem chamadas de IA). Instruções e limites: [auto/IA.md](auto/IA.md).
-A API Anthropic está implementada e **desativada**; só poderá ser usada depois de autorização explícita.
+As cinco opções estão documentadas com `#` no próprio YAML: assinaturas Claude/Codex e APIs Anthropic/OpenAI/OpenRouter. As APIs estão **desativadas nos crons**. Os testes reais de roteiro passaram com API Anthropic e assinatura Codex; detalhes em [auto/IA.md](auto/IA.md).
 
 ## 📖 Guia de uso
 

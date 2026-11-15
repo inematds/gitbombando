@@ -129,13 +129,94 @@ class ContratosIA(unittest.TestCase):
         self.assertNotIn('chave-simulada', (self.p/'ia-execucoes.jsonl').read_text())
 
     def test_api_truncada_e_recusada_sem_retry(self):
-        c = self.cfg['etapas']['roteiro']
+        c = {**self.cfg['etapas']['roteiro'], 'motor': 'anthropic'}
         with patch.object(ia, 'ler_chave', return_value='teste'), \
              patch.object(ia.urllib.request, 'urlopen', return_value=io.BytesIO(json.dumps({
                  'stop_reason': 'max_tokens', 'content': [{'type': 'text', 'text': 'parcial'}]}).encode())) as net, \
              self.assertRaisesRegex(ValueError, 'incompleta'):
             ia.chamar_api(c, {**self.cfg['api'], 'autorizada': True, 'autorizacao': 'teste sem rede'}, 'teste', [])
         self.assertEqual(net.call_count, 1)
+
+    def test_configurar_preserva_documentacao_com_hash_e_comentario_inline(self):
+        texto = (R/'auto/ia.yaml').read_text().replace('\n    esforco: low\n', '\n    esforco: low # ajuste simples\n', 1)
+        self.path.write_text(texto)
+        comentarios = [l.lstrip() for l in texto.splitlines() if l.lstrip().startswith('#')]
+        with patch.object(sys, 'argv', ['ia', 'configurar', 'roteiro', '--esforco', 'high',
+                                       '--chave-nome', 'alias-com-hifen']), \
+             patch.object(sys, 'stdout', io.StringIO()):
+            ia.main()
+        atual = self.path.read_text()
+        self.assertEqual(comentarios, [l.lstrip() for l in atual.splitlines() if l.lstrip().startswith('#')])
+        self.assertIn('esforco: "high" # ajuste simples', atual)
+        self.assertEqual(ia.carregar(self.path)['etapas']['roteiro']['chave_nome'], 'alias-com-hifen')
+
+    def test_autorizacao_anthropic_nao_autoriza_openai_ou_openrouter(self):
+        self.cfg['api'].update(autorizada=True, autorizacao='somente Anthropic')
+        for motor in ('openai', 'openrouter'):
+            with self.subTest(motor=motor):
+                self.cfg['etapas']['roteiro'].update(tipo='api', motor=motor, modelo='modelo-exemplo')
+                self.salvar()
+                with patch.object(ia, 'ler_chave') as key, patch.object(ia.urllib.request, 'urlopen') as net, \
+                     self.assertRaisesRegex(ValueError, 'API desativada'):
+                    ia.executar('roteiro', 'teste', self.p)
+                key.assert_not_called(); net.assert_not_called()
+
+    def test_api_recusa_etapa_fora_do_escopo_autorizado(self):
+        c = {**self.cfg['etapas']['roteiro'], 'motor': 'anthropic', '_etapa': 'roteiro'}
+        api = {**self.cfg['api'], 'autorizada': True, 'autorizacao': 'somente teste de filtro',
+               'etapas_autorizadas': ['carrossel_filtro']}
+        with patch.object(ia, 'ler_chave') as key, self.assertRaisesRegex(ValueError, 'esta etapa'):
+            ia.chamar_api(c, api, 'teste', [])
+        key.assert_not_called()
+
+    def test_api_openai_responses_texto_visao_e_esforco(self):
+        c = {**self.cfg['etapas']['revisao_video'], 'motor': 'openai', 'modelo': 'modelo-openai'}
+        api = {'autorizada': True, 'autorizacao': 'FICTÍCIA, teste sem rede'}
+        imagem = self.p/'imagem.png'; imagem.write_bytes(b'fake')
+        def resposta(req, timeout):
+            body = json.loads(req.data)
+            self.assertEqual(req.full_url, 'https://api.openai.com/v1/responses')
+            self.assertEqual(req.get_header('Authorization'), 'Bearer fake')
+            self.assertEqual(body['reasoning']['effort'], 'medium')
+            self.assertEqual(body['max_output_tokens'], c['max_tokens'])
+            self.assertFalse(body['store'])
+            self.assertEqual(body['input'][0]['content'][1]['type'], 'input_image')
+            return io.BytesIO(json.dumps({'status': 'completed', 'model': c['modelo'],
+                    'output': [{'type': 'message', 'content': [{'type': 'output_text', 'text': '{"ok":true}'}]}],
+                    'usage': {'input_tokens': 30, 'output_tokens': 10}}).encode())
+        with patch.object(ia, 'ler_chave', return_value='fake'), \
+             patch.object(ia.urllib.request, 'urlopen', side_effect=resposta):
+            res, info = ia.chamar_api(c, api, 'teste', [imagem])
+        self.assertEqual(json.loads(res), {'ok': True})
+        self.assertEqual(info['modelo_retornado'], c['modelo'])
+
+    def test_api_openrouter_envia_slug_esforco_e_desliga_fallback(self):
+        c = {**self.cfg['etapas']['roteiro'], 'motor': 'openrouter', 'modelo': 'anthropic/claude-opus-5.5'}
+        api = {'autorizada': True, 'autorizacao': 'FICTÍCIA, teste sem rede'}
+        def resposta(req, timeout):
+            body = json.loads(req.data)
+            self.assertEqual(req.full_url, 'https://openrouter.ai/api/v1/chat/completions')
+            self.assertEqual(body['model'], c['modelo'])
+            self.assertEqual(body['reasoning'], {'effort': 'low', 'exclude': True})
+            self.assertFalse(body['provider']['allow_fallbacks'])
+            self.assertTrue(body['provider']['require_parameters'])
+            return io.BytesIO(json.dumps({'model': c['modelo'], 'choices': [
+                       {'finish_reason': 'stop', 'message': {'content': '{"ok":true}'}}]}).encode())
+        with patch.object(ia, 'ler_chave', return_value='fake'), \
+             patch.object(ia.urllib.request, 'urlopen', side_effect=resposta):
+            res, _ = ia.chamar_api(c, api, 'teste', [])
+        self.assertEqual(json.loads(res), {'ok': True})
+
+    def test_openai_e_openrouter_recusam_resposta_incompleta(self):
+        casos = [('openai', {'status': 'incomplete', 'output': []}),
+                 ('openrouter', {'choices': [{'finish_reason': 'length', 'message': {'content': 'parcial'}}]})]
+        for motor, body in casos:
+            with self.subTest(motor=motor), patch.object(ia, 'ler_chave', return_value='fake'), \
+                 patch.object(ia.urllib.request, 'urlopen', return_value=io.BytesIO(json.dumps(body).encode())), \
+                 self.assertRaisesRegex(ValueError, 'incompleta'):
+                ia.chamar_api({**self.cfg['etapas']['roteiro'], 'motor': motor},
+                             {'autorizada': True, 'autorizacao': 'FICTÍCIA, sem rede'}, 'teste', [])
+
 
     def test_metricool_nao_aceita_api_de_texto(self):
         self.cfg['etapas']['metricool_publicacao'].update(tipo='api', motor='anthropic')

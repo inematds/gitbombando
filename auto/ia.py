@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Executor de IA do gitbombando: configuração por etapa, sem herdar modelo/esforço.
 
-API Anthropic direta para texto/visão; nunca transforma Claude/Codex CLI em API.
+APIs Anthropic/OpenAI/OpenRouter para texto/visão; nunca converte os CLIs em API.
 Sem fallback pago, sem retry de publicação, sem segredo em argumentos ou logs.
 """
 import argparse
@@ -28,7 +28,9 @@ ETAPAS = ('roteiro', 'capa', 'revisao_video', 'carrossel_filtro', 'carrossel_tex
           'carrossel_revisao', 'metricool_agenda', 'metricool_publicacao')
 ESFORCOS = {'claude': {'low', 'medium', 'high', 'xhigh', 'max'},
             'codex': {'low', 'medium', 'high', 'xhigh'},
-            'anthropic': {'low', 'medium', 'high', 'xhigh', 'max'}}
+            'anthropic': {'low', 'medium', 'high', 'xhigh', 'max'},
+            'openai': {'none', 'minimal', 'low', 'medium', 'high', 'xhigh', 'max'},
+            'openrouter': {'none', 'minimal', 'low', 'medium', 'high', 'xhigh', 'max'}}
 
 
 def carregar(arquivo=None):
@@ -48,8 +50,8 @@ def validar(d):
         raise ValueError('api.autorizada deve ser booleano e api.autorizacao deve ser texto')
     for nome, c in d['etapas'].items():
         tipo, motor = c.get('tipo'), c.get('motor')
-        if (tipo, motor) not in {('assinatura', 'claude'), ('assinatura', 'codex'), ('api', 'anthropic')}:
-            raise ValueError(f'{nome}: use assinatura/claude, assinatura/codex ou api/anthropic')
+        if (tipo, motor) not in {('assinatura', 'claude'), ('assinatura', 'codex'), ('api', 'anthropic'), ('api', 'openai'), ('api', 'openrouter')}:
+            raise ValueError(f'{nome}: use assinatura/claude, assinatura/codex, api/anthropic, api/openai ou api/openrouter')
         if not isinstance(c.get('modelo'), str) or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:/-]*', c['modelo']):
             raise ValueError(f'{nome}: informe um ID de modelo, sem espaços')
         if motor == 'claude' and not c['modelo'].startswith('claude-'):
@@ -65,8 +67,11 @@ def validar(d):
         if tipo == 'api':
             if type(c.get('max_tokens')) is not int or not 1 <= c['max_tokens'] <= 64000:
                 raise ValueError(f'{nome}: API exige max_tokens entre 1 e 64000')
-            if not api.get('chave_nome') or not api.get('arquivo_chaves'):
+            cred = configuracao_api(d, c)
+            if not cred.get('chave_nome') or not cred.get('arquivo_chaves'):
                 raise ValueError('API exige chave_nome e arquivo_chaves (não o valor da chave)')
+            if not isinstance(cred.get('autorizada'), bool) or not isinstance(cred.get('autorizacao'), str):
+                raise ValueError(f'{motor}: autorizada deve ser booleano e autorizacao deve ser texto')
 
 
 def ambiente():
@@ -122,41 +127,106 @@ def ler_chave(api):
     raise ValueError('Chave configurada não encontrada ou vazia; valor não exibido')
 
 
+def configuracao_api(d, c):
+    # A autorização Anthropic não libera OpenAI ou OpenRouter.
+    raiz = d.get('api', {})
+    motor = c['motor']
+    if motor == 'anthropic':
+        api = {k: v for k, v in raiz.items() if k not in {'openai', 'openrouter'}}
+    else:
+        api = dict(raiz.get(motor, {}))
+        api.setdefault('arquivo_chaves', raiz.get('arquivo_chaves'))
+        api.setdefault('chave_nome', {'openai': 'OPENAI_API_KEY', 'openrouter': 'OPENROUTER_API_KEY'}[motor])
+        api.setdefault('autorizada', False)
+        api.setdefault('autorizacao', '')
+    api.update({k: c[k] for k in ('chave_nome', 'arquivo_chaves') if c.get(k)})
+    return api
+
+
 def chamar_api(c, api, prompt, imagens):
     # Checar ANTES de ler credenciais ou abrir qualquer conexão.
+    motor = c.get('motor', 'anthropic')
     if api.get('autorizada') is not True or not api.get('autorizacao', '').strip():
-        raise ValueError('API desativada: exige autorização explícita do Nei para Anthropic e estas etapas')
-    content = [{'type': 'text', 'text': prompt}]
+        raise ValueError(f'API desativada: exige autorização explícita do Nei para {motor} e estas etapas')
+    permitidas = api.get('etapas_autorizadas')
+    if permitidas is not None and c.get('_etapa') not in permitidas:
+        raise ValueError('API não autorizada para esta etapa')
+    pictures = []
     for p in imagens:
         mime = mimetypes.guess_type(str(p))[0]
         if mime not in {'image/jpeg', 'image/png', 'image/webp', 'image/gif'}:
             raise ValueError('Imagem em formato não suportado')
-        content.append({'type': 'image', 'source': {'type': 'base64', 'media_type': mime,
-                        'data': base64.b64encode(p.read_bytes()).decode()}})
-    body = {'model': c['modelo'], 'max_tokens': c['max_tokens'],
-            'output_config': {'effort': c['esforco']},
-            'messages': [{'role': 'user', 'content': content}]}
-    req = urllib.request.Request('https://api.anthropic.com/v1/messages',
-          data=json.dumps(body).encode(), method='POST',
-          headers={'Content-Type': 'application/json', 'x-api-key': ler_chave(api),
-                   'anthropic-version': api.get('versao_anthropic', '2023-06-01')})
+        pictures.append((mime, base64.b64encode(p.read_bytes()).decode()))
+    headers = {'Content-Type': 'application/json'}
+    if motor == 'anthropic':
+        content = [{'type': 'text', 'text': prompt}]
+        content += [{'type': 'image', 'source': {'type': 'base64', 'media_type': mime, 'data': data}}
+                    for mime, data in pictures]
+        body = {'model': c['modelo'], 'max_tokens': c['max_tokens'],
+                'output_config': {'effort': c['esforco']},
+                'messages': [{'role': 'user', 'content': content}]}
+        endpoint = 'https://api.anthropic.com/v1/messages'
+        headers.update({'x-api-key': ler_chave(api),
+                        'anthropic-version': api.get('versao_anthropic', '2023-06-01')})
+    elif motor == 'openai':
+        content = [{'type': 'input_text', 'text': prompt}]
+        content += [{'type': 'input_image', 'image_url': f'data:{mime};base64,{data}'} for mime, data in pictures]
+        body = {'model': c['modelo'], 'input': [{'role': 'user', 'content': content}],
+                'reasoning': {'effort': c['esforco']}, 'max_output_tokens': c['max_tokens'], 'store': False}
+        endpoint = 'https://api.openai.com/v1/responses'
+        headers['Authorization'] = 'Bearer ' + ler_chave(api)
+    elif motor == 'openrouter':
+        content = [{'type': 'text', 'text': prompt}]
+        content += [{'type': 'image_url', 'image_url': {'url': f'data:{mime};base64,{data}'}}
+                    for mime, data in pictures]
+        body = {'model': c['modelo'], 'messages': [{'role': 'user', 'content': content}],
+                'reasoning': {'effort': c['esforco'], 'exclude': True}, 'max_tokens': c['max_tokens'],
+                'provider': {'require_parameters': True, 'allow_fallbacks': False}}
+        endpoint = 'https://openrouter.ai/api/v1/chat/completions'
+        headers['Authorization'] = 'Bearer ' + ler_chave(api)
+    else:
+        raise ValueError('Motor de API não suportado')
+    req = urllib.request.Request(endpoint, data=json.dumps(body).encode(), method='POST', headers=headers)
     try:
         with urllib.request.urlopen(req, timeout=c['timeout']) as res:
             d = json.load(res)
     except urllib.error.HTTPError as e:
-        # O corpo do provedor não entra nos logs: pode ecoar conteúdo sensível.
-        raise RuntimeError(f'Anthropic HTTP {e.code}; sem fallback ou nova cobrança automática') from None
+        # Expor só a categoria conhecida, nunca o corpo cru do provedor (pode conter segredos).
+        codigo = ''
+        try:
+            err = json.loads(e.read(65536)).get('error', {})
+            valor = err.get('type') or err.get('code')
+            if valor in {'authentication_error', 'permission_error', 'not_found_error', 'invalid_request_error',
+                         'rate_limit_error', 'overloaded_error', 'insufficient_quota', 'model_not_found'}:
+                codigo = f' ({valor})'
+        except (ValueError, AttributeError):
+            pass
+        raise RuntimeError(f'{motor} HTTP {e.code}{codigo}; sem fallback ou nova cobrança automática') from None
     except urllib.error.URLError:
-        raise RuntimeError('Falha de conexão com Anthropic; sem repetição automática') from None
-    if d.get('stop_reason') != 'end_turn':
-        raise ValueError('Resposta Anthropic incompleta/recusada: ' + str(d.get('stop_reason')))
-    text = '\n'.join(x['text'] for x in d.get('content', []) if x.get('type') == 'text')
+        raise RuntimeError(f'Falha de conexão com {motor}; sem repetição automática') from None
+    if motor == 'anthropic':
+        if d.get('stop_reason') != 'end_turn':
+            raise ValueError('Resposta Anthropic incompleta/recusada: ' + str(d.get('stop_reason')))
+        text = '\n'.join(x['text'] for x in d.get('content', []) if x.get('type') == 'text')
+    elif motor == 'openai':
+        if d.get('status') != 'completed':
+            raise ValueError('Resposta OpenAI incompleta/recusada: ' + str(d.get('status')))
+        text = '\n'.join(x['text'] for item in d.get('output', []) for x in item.get('content', [])
+                         if x.get('type') == 'output_text')
+    else:
+        escolhas = d.get('choices') or []
+        if d.get('error') or not escolhas or escolhas[0].get('finish_reason') != 'stop':
+            raise ValueError('Resposta OpenRouter incompleta/recusada')
+        text = escolhas[0].get('message', {}).get('content')
+        if not isinstance(text, str):
+            raise ValueError('OpenRouter não devolveu conteúdo de texto')
     return text, {'modelo_retornado': d.get('model'), 'uso': d.get('usage')}
 
 
 def executar(etapa, pedido, pasta, *, arquivos=(), imagens=(), ferramentas='', agente=False):
     d = carregar()
     c = dict(d['etapas'][etapa])
+    c['_etapa'] = etapa
     pasta = Path(pasta).resolve()
     pasta.mkdir(parents=True, exist_ok=True)
     imagens = [Path(p).resolve() for p in imagens]
@@ -178,7 +248,7 @@ def executar(etapa, pedido, pasta, *, arquivos=(), imagens=(), ferramentas='', a
         if c['tipo'] == 'api':
             if agente:
                 raise ValueError('API de texto/visão não executa ferramentas MCP nem gera capa')
-            api = {**d['api'], **{k: c[k] for k in ('chave_nome', 'arquivo_chaves') if k in c}}
+            api = configuracao_api(d, c)
             res, info = chamar_api(c, api, prompt, imagens)
             evento.update(info)
         else:
@@ -220,7 +290,37 @@ def mostrar(d):
     print(f'{"ETAPA":24} {"TIPO":12} {"MOTOR":11} {"MODELO":23} ESFORÇO')
     for n, c in d['etapas'].items():
         print(f'{n:24} {c["tipo"]:12} {c["motor"]:11} {c["modelo"]:23} {c["esforco"]}')
-    print('API Anthropic:', 'autorizada (consumo pago)' if d['api']['autorizada'] else 'desativada')
+    for motor in ('anthropic', 'openai', 'openrouter'):
+        api = configuracao_api(d, {'motor': motor})
+        print(f'API {motor}:', 'autorizada (consumo pago)' if api['autorizada'] else 'desativada')
+
+
+def alterar_com_comentarios(texto, etapa, mudancas):
+    arvore = yaml.compose(texto)
+    raiz = {k.value: v for k, v in arvore.value}
+    etapas = {k.value: v for k, v in raiz['etapas'].value}
+    no = etapas[etapa]
+    campos = {k.value: v for k, v in no.value}
+    edicoes = []
+    novos = []
+    for chave, valor in mudancas.items():
+        representacao = json.dumps(valor, ensure_ascii=False)
+        if chave in campos:
+            valor_no = campos[chave]
+            if not isinstance(valor_no, yaml.ScalarNode):
+                raise ValueError('Campo da etapa deve ser escalar: ' + chave)
+            edicoes.append((valor_no.start_mark.index, valor_no.end_mark.index, representacao))
+        else:
+            novos.append('    ' + chave + ': ' + representacao + '\n')
+    if novos:
+        fim = no.value[-1][1].end_mark.index
+        proxima_linha = texto.find('\n', fim)
+        indice = len(texto) if proxima_linha < 0 else proxima_linha + 1
+        prefixo = '\n' if proxima_linha < 0 else ''
+        edicoes.append((indice, indice, prefixo + ''.join(novos)))
+    for inicio, fim, substituto in sorted(edicoes, reverse=True):
+        texto = texto[:inicio] + substituto + texto[fim:]
+    return texto
 
 
 def main():
@@ -244,15 +344,22 @@ def main():
         p = Path(os.environ.get('GB_IA_CONFIG', CONFIG)).expanduser().resolve()
         with p.with_suffix('.lock').open('w') as lock:
             fcntl.flock(lock, fcntl.LOCK_EX)
+            original = p.read_text()
             d = carregar(p)
+            mudancas = {}
             for k in ('tipo', 'motor', 'modelo', 'esforco'):
                 if getattr(a, k) is not None:
+                    mudancas[k] = getattr(a, k)
                     d['etapas'][a.etapa][k] = getattr(a, k)
             if a.chave_nome is not None:
+                mudancas['chave_nome'] = a.chave_nome
                 d['etapas'][a.etapa]['chave_nome'] = a.chave_nome
             validar(d)
+            atualizado = alterar_com_comentarios(original, a.etapa, mudancas)
+            if yaml.safe_load(atualizado) != d:
+                raise ValueError('Alteração inconsistente; configuração original preservada')
             with tempfile.NamedTemporaryFile(mode='w', dir=p.parent, delete=False) as f:
-                yaml.safe_dump(d, f, allow_unicode=True, sort_keys=False)
+                f.write(atualizado)
                 tmp = Path(f.name)
             tmp.replace(p)
         mostrar(d)
