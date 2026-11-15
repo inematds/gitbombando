@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "A capa traz 'TOP 10 DO GITHUB' grande e a manchete igual à da ficha. As posições e as pílulas 🔥 do #10 ao #1 batem com o top10.json (270, 352, 495, 520, 688, 707, 718, 731, 860, 1.220; soma 6.561). O avatar está correto e o fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "24,4 s e 34,6 s: os dois quadros caem na transição e mostram nomes e descrições sobrepostos (airgorah/kuma, univer/kuma). O Uptime Kuma (#9) não aparece limpo em nenhum quadro da folha. Vale encurtar o crossfade dos cartões.",
+  "34,6 s: o painel de baixo mostra '0 HOJE' com rótulo do univer enquanto a legenda ainda fala das 352 estrelas do #9, o que dá impressão de número errado por um instante.",
+  "Gráficos de barras do painel de baixo (44–126 s): eixos e rótulos minúsculos, ilegíveis no celular. Um rótulo grande no pico ajudaria.",
+  "Capa (0–4 s): a manchete 'GOOGLE DOMINA O GITHUB' repete 'GITHUB' logo abaixo de 'TOP 10 DO GITHUB'. 'GOOGLE NÃO SAI DO TOPO: +1.220' seria mais forte.",
+  "IMPACTO 7: o gancho do Google repetido no topo segura. O que falta é um momento de surpresa no meio, como o Veyra crescendo 40% num dia, com destaque visual."
+ ]
+}

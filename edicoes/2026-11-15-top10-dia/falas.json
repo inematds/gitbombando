@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Ninguém tira o Google do primeiro lugar do GitHub. Mais um dia no topo. E tem um segundo projeto dele bem perto do pódio.",
+  "legenda": "Ninguém tira o Google do primeiro lugar do GitHub. Mais um dia no topo. E tem um segundo projeto dele bem perto do pódio."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez que mais cresceram hoje somaram seis mil quinhentas e sessenta e uma estrelas. Tem Google, Alibaba e até um programa de invadir wi-fi. Vou do décimo ao primeiro.",
+  "legenda": "Os dez que mais cresceram hoje somaram 6.561 estrelas. Tem Google, Alibaba e até um programa de invadir wi-fi. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Abrindo em décimo, o Airgorah. Ele testa se uma rede wi-fi dá pra invadir. Isso é polêmico, cuidado: só use na sua própria rede. Duzentas e setenta estrelas.",
+  "legenda": "Abrindo em décimo, o Airgorah. Ele testa se uma rede wi-fi dá pra invadir. Isso é polêmico, cuidado: só use na sua própria rede. 270 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Nono lugar, o Uptime Kuma, que não sai do Top dez. É um vigia gratuito que fica de olho no seu site e te avisa no instante em que ele cai. Trezentas e cinquenta e duas estrelas.",
+  "legenda": "Nono lugar, o Uptime Kuma, que não sai do Top dez. É um vigia gratuito que fica de olho no seu site e te avisa no instante em que ele cai. 352 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, o Univer. É um kit pra você montar o seu próprio escritório, com planilha, texto e apresentação, onde a IA também trabalha junto. Quatrocentas e noventa e cinco estrelas.",
+  "legenda": "Em oitavo, o Univer. É um kit pra você montar o seu próprio escritório, com planilha, texto e apresentação, onde a IA também trabalha junto. 495 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo, o Sure, outro que não sai do Top dez. É o aplicativo de finanças aberto e gratuito pra você ver pra onde vai cada centavo, sem pagar assinatura. Quinhentas e vinte estrelas.",
+  "legenda": "Sétimo, o Sure, outro que não sai do Top dez. É o aplicativo de finanças aberto e gratuito pra você ver pra onde vai cada centavo, sem pagar assinatura. 520 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, a Alibaba, que também não sai do Top dez. O Open Code Review é o revisor de IA que ela usava por dentro e que já pegou milhões de erros. Seiscentas e oitenta e oito estrelas.",
+  "legenda": "Em sexto, a Alibaba, que também não sai do Top dez. O Open Code Review é o revisor de IA que ela usava por dentro e que já pegou milhões de erros. 688 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Quinto, a IA que vira seu analista de bolsa. O Claude Trading Skills ensina o Claude a ler o mercado e testar estratégias. Só não é conselho de investimento, cuidado. Setecentas e sete estrelas.",
+  "legenda": "Quinto, a IA que vira seu analista de bolsa. O Claude Trading Skills ensina o Claude a ler o mercado e testar estratégias. Só não é conselho de investimento, cuidado. 707 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, olha o Google de novo. O Chrome DevTools para agentes deixa a sua IA abrir o navegador, clicar, testar e achar o erro do site sozinha. Setecentas e dezoito estrelas.",
+  "legenda": "Em quarto, olha o Google de novo. O Chrome DevTools para agentes deixa a sua IA abrir o navegador, clicar, testar e achar o erro do site sozinha. 718 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Terceiro, o Veyra, que não sai do Top dez. Cresceu quase quarenta por cento num dia. Promete deixar jogo de console mais nítido e fluido. Promessa grande, confira antes. Setecentas e trinta e uma estrelas.",
+  "legenda": "E agora o pódio. Terceiro, o Veyra, que não sai do Top dez. Cresceu quase 40% num dia. Promete deixar jogo de console mais nítido e fluido. Promessa grande, confira antes. 731 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, o Plannotator. Ele põe você no controle: a IA mostra o plano, você risca, anota e devolve a correção com um clique. Oitocentas e sessenta estrelas.",
+  "legenda": "Em segundo, o Plannotator. Ele põe você no controle: a IA mostra o plano, você risca, anota e devolve a correção com um clique. 860 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um, de novo, é do Google. Ninguém derruba. O Modern Web Guidance ensina a sua IA a fazer sites do jeito certo de hoje. Mil duzentas e vinte estrelas.",
+  "legenda": "E o número um, de novo, é do Google. Ninguém derruba. O Modern Web Guidance ensina a sua IA a fazer sites do jeito certo de hoje. 1.220 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]
