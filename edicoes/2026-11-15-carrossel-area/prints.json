@@ -1,0 +1,66 @@
+{
+ "FrigadeHQ/yogurt": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/FrigadeHQ/yogurt/main/docs/assets/yogurt-screenshot.webp",
+  "tam": [
+   1400,
+   868
+  ]
+ },
+ "Edge0-AI/Edge0": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Edge0-AI/Edge0/main/assets/edge0-release/hero.png",
+  "tam": [
+   1400,
+   599
+  ]
+ },
+ "FareedKhan-dev/kimi-k3-in-c": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/FareedKhan-dev/kimi-k3-in-c/main/docs/images/patrick_pray.png",
+  "tam": [
+   500,
+   500
+  ]
+ },
+ "mw00/project-maya": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/mw00/project-maya/main/assets/maya-logo.png",
+  "tam": [
+   512,
+   512
+  ]
+ },
+ "synchopate/llama-modchip": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/synchopate/llama-modchip/main/assets/launch_284b_64gb.gif",
+  "tam": [
+   1280,
+   720
+  ]
+ },
+ "hyperionaidev/smolmaxxing": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/hyperionaidev/smolmaxxing/main/screenshots/llmui_05_stream.png",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "simplexai-labs/linger": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/simplexai-labs/linger/main/assets/linger-story-poster.jpg",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "huawei-csl/MACaQ": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/huawei-csl/MACaQ/main/docs/assets/qwen3-4b-size-quality.png",
+  "tam": [
+   1400,
+   744
+  ]
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "MODELOS GIGANTES NO SEU NOTEBOOK",
+  "destaque": "GIGANTES"
+ },
+ "repos": {
+  "FrigadeHQ/yogurt": {
+   "gancho": [
+    "ATA DE REUNIÃO",
+    "SEM SAIR DO PC"
+   ],
+   "o_que_e": "Um aplicativo grátis que grava suas chamadas, transcreve a fala e resume a reunião, com tudo processado no seu computador.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Privado por padrão",
+     "texto": "Áudio, transcrição e IA ficam no seu computador, sem conta."
+    },
+    {
+     "icone": "mic",
+     "titulo": "Sem robô na chamada",
+     "texto": "Grava Zoom, Teams e Meet sem colocar um bot na reunião."
+    }
+   ],
+   "fluxo": [
+    "ABRE A CHAMADA",
+    "ELE GRAVA",
+    "RESUMO PRONTO"
+   ]
+  },
+  "Edge0-AI/Edge0": {
+   "gancho": [
+    "IA GRANDE",
+    "NO SEU CELULAR?"
+   ],
+   "o_que_e": "Um programa de código aberto que roda modelos de IA grandes direto no notebook e no celular, lendo partes do modelo do disco.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda em todo aparelho",
+     "texto": "Mac, iPhone, Android, Linux e Windows com o mesmo programa."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Chat e servidor local",
+     "texto": "Traz exemplos de app de conversa para computador e celular."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O MODELO",
+    "ABRE O CHAT",
+    "CONVERSA LOCAL"
+   ]
+  },
+  "FareedKhan-dev/kimi-k3-in-c": {
+   "gancho": [
+    "IA GIGANTE",
+    "EM 8 GB DE RAM"
+   ],
+   "o_que_e": "Um programa minúsculo em C que roda o modelo de IA Kimi K3, enorme, num processador comum, sem placa de vídeo.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Sem placa de vídeo",
+     "texto": "Usa só o processador e lê o modelo do disco a cada passo."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Mais memória, mais rápido",
+     "texto": "A resposta é a mesma; mais RAM só reduz o tempo de espera."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O MODELO",
+    "RODA NA CPU",
+    "RESPOSTA SAI"
+   ]
+  },
+  "mw00/project-maya": {
+   "gancho": [
+    "MODELO DE DATACENTER",
+    "NA SUA PLACA"
+   ],
+   "o_que_e": "Um programa grátis que roda modelos de IA enormes, como GLM e DeepSeek, nas suas placas de vídeo, sem nada sair da máquina.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Usa GPU, RAM e SSD",
+     "texto": "Divide o modelo entre placa, memória e SSD e se ajusta sozinho."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga nas suas ferramentas",
+     "texto": "Conversa com apps feitos para OpenAI e Anthropic, no seu PC."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE MODELO",
+    "CONVERSA"
+   ]
+  },
+  "synchopate/llama-modchip": {
+   "gancho": [
+    "DEEPSEEK GIGANTE",
+    "SEM PLACA?"
+   ],
+   "o_que_e": "Um projeto que comprime modelos de IA grandes, como o DeepSeek-V4-Flash, para rodarem só no processador, em 64 GB de RAM.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Zero placas de vídeo",
+     "texto": "Roda modelos grandes só com processador e memória do PC."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Vários sistemas",
+     "texto": "Funciona em Linux, macOS e Windows 11, segundo o projeto."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O MODELO",
+    "RODA NA CPU",
+    "USA LOCAL"
+   ]
+  },
+  "hyperionaidev/smolmaxxing": {
+   "gancho": [
+    "IA NA TV BOX",
+    "E NO IPAD VELHO"
+   ],
+   "o_que_e": "Um projeto que descobre o maior modelo de IA que um aparelho pequeno aguenta, como TV box, celular antigo ou tablet.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Reaproveita aparelhos",
+     "texto": "Testado numa TV box Xiaomi, num iPad de 2013 e num celular."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Números medidos",
+     "texto": "Cada resultado foi medido no próprio aparelho, sem estimativa."
+    }
+   ],
+   "fluxo": [
+    "PEGA O APARELHO",
+    "ACHA O MODELO",
+    "IA RODANDO"
+   ]
+  },
+  "simplexai-labs/linger": {
+   "gancho": [
+    "SEU ASSISTENTE",
+    "SEM NUVEM"
+   ],
+   "o_que_e": "Um assistente pessoal de IA de código aberto que roda inteiro no seu PC, lembra o que importa e faz tarefas por conta própria.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Sem custo por uso",
+     "texto": "O modelo roda na sua máquina, sem conta de nuvem a pagar."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Modelo grande em 12 GB",
+     "texto": "Roda modelo grande numa placa de 12 GB usando a RAM junto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO PC",
+    "PEDE A TAREFA",
+    "ELE RESOLVE"
+   ]
+  },
+  "huawei-csl/MACaQ": {
+   "gancho": [
+    "MODELO MAIS LEVE",
+    "SEM PERDER QUALIDADE"
+   ],
+   "o_que_e": "Uma ferramenta da Huawei que comprime modelos de IA de texto, imagem, vídeo e áudio para rodarem no seu computador.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Além de texto",
+     "texto": "Comprime modelos de imagem, vídeo, áudio e texto num só lugar."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Compressão rápida",
+     "texto": "Comprime um modelo de 122 bilhões de parâmetros em 64 minutos."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE MODELO",
+    "COMPRIME",
+    "RODA LOCAL"
+   ]
+  }
+ },
+ "legenda_abertura": "Modelos de IA que antes pediam um datacenter agora rodam no notebook, no celular e até numa TV box. Separamos os 8 repositórios que mais crescem no GitHub nessa área. Passa o carrossel para ver cada um.",
+ "telegram": "Saiu o carrossel com os 8 repositórios que mais crescem para rodar IA no seu próprio computador. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

@@ -1,0 +1,15 @@
+Top 8 do GitHub · modelos de IA rodando no seu computador · 15/11/2026
+
+Modelos de IA que antes pediam um datacenter agora rodam no notebook, no celular e até numa TV box. Separamos os 8 repositórios que mais crescem no GitHub nessa área. Passa o carrossel para ver cada um.
+
+1. FrigadeHQ/yogurt
+2. Edge0-AI/Edge0
+3. FareedKhan-dev/kimi-k3-in-c
+4. mw00/project-maya
+5. synchopate/llama-modchip
+6. hyperionaidev/smolmaxxing
+7. simplexai-labs/linger
+8. huawei-csl/MACaQ
+
+Tá tudo no inema.club: lá você aprende a integrar estes projetos em vez de só copiar, direto na internet
+#github #opensource #ia #programacao #inemaclub
