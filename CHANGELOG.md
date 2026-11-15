@@ -1,5 +1,11 @@
 # CHANGELOG — gitbombando
 
+## 1.7.1 — 15/11/2026
+- Publicação serial por marca durante consulta, criação e recibo; rechecagem do recibo após a trava impede corrida entre retomadas. Marcas diferentes continuam independentes.
+- Cópia social 720p menor e URL CDN para contornar timeout de ingestão de MP4 pelo Metricool; master aprovado preservado.
+- Portão/prompt bloqueiam IAs na fala; revisão do avatar recebe título interno com hash da fala.
+- 23 testes locais aprovados; publicação real dos carrosséis e vídeos pelo Codex/MCP.
+
 ## 1.7.0 — 15/11/2026
 - Metricool integrado à assinatura Codex: consulta e publicação usam MCP metricool-inematds no perfil autenticado ~/.codex-2. Claude segue disponível por configuração.
 - Ferramentas MCP limitadas por etapa, shell sem escrita, demais conectores desativados só na chamada e confirmação obrigatória da conta inematds.

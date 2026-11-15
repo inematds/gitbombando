@@ -20,3 +20,6 @@ auto/.carrossel-*
 auto/ia.lock
 auto/logs/
 **/ia-execucoes.jsonl
+
+edicoes/*/antes-correcao-*/
+edicoes/*/avatar-antes-*/

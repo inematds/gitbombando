@@ -253,6 +253,40 @@ class ContratosIA(unittest.TestCase):
             self.assertIsNone(inter.agenda('metricool-inematds', 'FTD', 10000, str(self.p)))
 
 
+    def test_publicacoes_da_mesma_marca_nao_sobrepoem_regiao_critica(self):
+        from auto import metricool_lock
+        import threading
+        import time
+        from concurrent.futures import ThreadPoolExecutor
+        guarda = threading.Lock()
+        ativos = 0
+        maximo = 0
+        @metricool_lock.serializar('FTD-teste', timeout=5)
+        def publicar():
+            nonlocal ativos, maximo
+            with guarda:
+                ativos += 1
+                maximo = max(maximo, ativos)
+            time.sleep(0.05)
+            with guarda:
+                ativos -= 1
+        with patch.object(metricool_lock.Path, 'home', return_value=self.p):
+            with ThreadPoolExecutor(2) as ex:
+                tarefas = [ex.submit(publicar) for _ in range(2)]
+                for t in tarefas: t.result()
+        self.assertEqual(maximo, 1)
+
+    def test_portao_real_bloqueia_sigla_ias_na_fala(self):
+        (self.p/'pesquisa').mkdir()
+        ficha = yaml.safe_load((R/'tests/fixtures/ficha.yaml').read_text())
+        ficha['partes'][0]['fala'] += ' IAs.'
+        (self.p/'ficha.yaml').write_text(yaml.safe_dump(ficha))
+        (self.p/'pesquisa/top10.json').write_text((R/'tests/fixtures/top10.json').read_text())
+        r = subprocess.run([sys.executable, str(R/'gb.py'), 'checar', str(self.p)], capture_output=True, text=True)
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn('nunca IAs', r.stderr)
+
+
     def test_metricool_nao_aceita_api_de_texto(self):
         self.cfg['etapas']['metricool_publicacao'].update(tipo='api', motor='anthropic')
         with self.assertRaisesRegex(ValueError, 'conector Metricool'):

@@ -32,6 +32,7 @@ AQUI = Path(__file__).resolve().parent
 R = AQUI.parent
 sys.path.insert(0, str(R))
 from auto.ia import executar as executar_ia
+from auto.metricool_lock import serializar
 CONTA = "@inema.tech"
 GRUPO_TG = "INEMA.DEV"
 TOPICO_TG = R / "auto/telegram-topico-carrossel.txt"
@@ -340,6 +341,7 @@ def telegram(cd, d, S, t, titulo):
     return True
 
 
+@serializar("FTD")
 def metritds(cd, d, S, leg, titulo):
     """carrossel no Instagram + TikTok (modo foto) inema.tech (marca FTD) pelo Metricool da conta inematds (claude -p, assinatura)"""
     marca = cd / "metritds.txt"

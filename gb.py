@@ -14,6 +14,7 @@ Motor de telejornal copiado do r7ex (que veio do eventosextremospub); roda sozin
 """
 import concurrent.futures as cf
 import datetime as dt
+import hashlib
 import json, os, re, shutil, subprocess, sys
 from pathlib import Path
 
@@ -24,7 +25,7 @@ sys.path.insert(0, str(R))
 from auto.ia import executar as executar_ia
 from nucleo import cartao, cena as CENA, pecas, retempo as RT, ritmo as RITMO  # noqa: E402
 
-VERSAO = "1.7.0"
+VERSAO = "1.7.1"
 CANAL = os.environ.get("GB_CANAL", "lives4")
 PERFIL = Path(os.environ.get("R7X_HEYGEN_PERFIL", Path.home() / ".cache/inemaccbot/perfil-heygen"))
 TEMPLATE_HEYGEN = os.environ.get("R7X_HEYGEN_TEMPLATE", "TEMPLATE-AVATAR16")
@@ -134,6 +135,8 @@ def cmd_checar(pasta):
     if P and ("inema ponto club" not in P[-1]["fala"]):
         erros.append("parte 13 precisa de 'inema ponto club'")
     for i, x in enumerate(P, 1):
+        if re.search(r"\bIAs\b", x.get("fala", "")):
+            erros.append(f"parte {i}: na fala use inteligências artificiais ou i-ás, nunca IAs")
         if re.search(r"\d", x.get("fala", "")):
             erros.append(f"parte {i}: algarismo na fala (o avatar lê errado): escreva por extenso e use 'trocas'")
         if PROIBIDO.search(x.get("fala", "")):
@@ -257,7 +260,7 @@ def avatar_enviar(p, f):
         falha("falta avatar/APROVADO_HEYGEN")
     (av / "fala.txt").write_text(fala_total(f) + "\n")
     with open(av / "studio.log", "w") as lg:
-        subprocess.run(["node", "heygen-studio.mjs", "--titulo", f"GBX-{p.name}", "--fala-arquivo", av / "fala.txt",
+        subprocess.run(["node", "heygen-studio.mjs", "--titulo", f"GBX-{p.name}-{hashlib.sha256(fala_total(f).encode()).hexdigest()[:8]}", "--fala-arquivo", av / "fala.txt",
                         "--perfil", PERFIL, "--template", TEMPLATE_HEYGEN], cwd=HEYGEN_DIR, env=dict(os.environ, DISPLAY=TELA),
                        stdout=lg, stderr=subprocess.STDOUT, timeout=12000)
     s = (av / "studio.log").read_text()

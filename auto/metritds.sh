@@ -14,6 +14,22 @@ echo "== $(date '+%F %T') metritds $ED"
 [ -s "$V" ] || { echo "sem video.mp4"; exit 1; }
 [ -s "$ED/metritds.txt" ] && [ -z "${RASCUNHO:-}${FORCAR:-}" ] && { echo "já agendado ($(head -1 "$ED/metritds.txt")): nada a fazer"; exit 0; }
 
+# Cópia de distribuição menor; preserva o master aprovado e seus tempos.
+SOCIAL="$ED/video-social.mp4"
+if [ ! -s "$SOCIAL" ] || [ "$V" -nt "$SOCIAL" ]; then
+  "$HOME/projetos/wifi/scripts/fila-vaga" render gitbombando-social -- \
+    ffmpeg -v error -y -i "$V" -vf 'scale=720:-2' -c:v libx264 -crf 26 -preset medium \
+    -maxrate 1200k -bufsize 2400k -c:a aac -b:a 96k -movflags +faststart "$SOCIAL" \
+    || { echo "Falhou: cópia de distribuição"; exit 1; }
+fi
+V="$SOCIAL"
+
+# A consulta e o agendamento formam uma operação serial por marca.
+mkdir -p "$HOME/.local/share/metricool-intervalo"
+exec 7>"$HOME/.local/share/metricool-intervalo/inematds_inema.tds.publicacao.lock"
+flock -w 1800 7 || { echo "trava de publicação ocupada"; exit 1; }
+[ -s "$ED/metritds.txt" ] && [ -z "${RASCUNHO:-}${FORCAR:-}" ] && { echo "já agendado por outra execução"; exit 0; }
+
 ALVO=$(( $(date +%s) + 600 ))
 # dia × semana × mês com 2 h entre si no Instagram/TikTok (Nei, 08/11/2026: "2 horas de diferença… deixa o Metricool fazer"):
 # dia = agora + 10 min (sai ~GB_PUBLICAR_AS); semana = GB_PUBLICAR_AS + 2 h; mês = + 4 h. Se a hora já passou, agora + 10 min.
@@ -46,6 +62,8 @@ TMP="$(mktemp -d)"; cp "$V" "$TMP/$NOME"
 gh release upload social "$TMP/$NOME" -R inematds/gitbombando --clobber || { echo "Falhou: upload na release"; rm -rf "$TMP"; exit 1; }
 rm -rf "$TMP"
 MEDIA="https://github.com/inematds/gitbombando/releases/download/social/$NOME"
+# Entregar a URL do CDN evita timeout do fetcher do Metricool no redirecionamento GitHub.
+MEDIA=$(python3 "$RAIZ/auto/resolver_midia.py" "$MEDIA") || exit 1
 
 # 2. legenda: título + top 10 (yt.txt) + YouTube + hashtags
 TIT=$(python3 - "$ED" <<'PY'

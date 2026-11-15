@@ -4,6 +4,13 @@ Uma linha por falha, mais recente no topo.
 
 | data | o que quebrou | menor correção | prompt \| infra |
 |---|---|---|---|
+| 2026-11-15 | Duas retomadas consultaram agenda em paralelo e agendaram vídeos na mesma marca às 16:42 | serializar consulta→criação→recibo por marca e corrigir post de 13/11 para 17:42; releitura confirmou | infra |
+| 2026-11-15 | updateScheduledPost recusou networkData com redes vazias fora de providers | enviar só configurações das redes ativas Instagram/TikTok, preservando conteúdo; data corrigida no mesmo post | infra |
+| 2026-11-15 | Estúdio HeyGen não reabria título já gerado após correção da fala | título interno leva hash da fala para distinguir revisão; novo avatar enviado | infra |
+| 2026-11-15 | Metricool não baixava o MP4 de 31 MB da release e retornava timeout | gerar cópia social 720p de 11 MB e resolver CDN; master aprovado preservado, dois vídeos aceitos | infra |
+| 2026-11-15 | Roteiro da semana trouxe IAs na fala, expressão que o avatar pode ler em inglês | trocar por inteligências artificiais antes de publicar e bloquear IAs no portão/prompt; avatar anterior preservado | prompt |
+| 2026-11-15 | Vídeo de 13/11 parou porque Whisper não alinhou a fala f12 | retranscrever o mesmo avatar pela fila GPU; novo alinhamento 95%, sem regenerar avatar | infra |
+| 2026-11-15 | Carrossel de 13/11 recomendava dois trainers de jogos suspeitos e foi reprovado | retirar os dois itens, preservar backup e reconstruir/revisar Top 6; aprovado | prompt |
 | 2026-11-15 | Integração Codex/MCP recusou configuração com invalid transport antes de consultar agenda | usar segmento sem aspas em overrides -c mcp_servers.metricool-inematds; consulta real e regressão verificadas | infra |
 | 2026-11-15 | Comando configurar reserializava YAML e apagava comentários de orientação | substituir só escalares da etapa pelos índices do parser, preservando comentários; teste de regressão | infra |
 | 2026-11-15 | package.json ainda marcava 1.2.0 enquanto o pipeline estava em 1.3.0 | alinhar package.json, lockfile e VERSAO na entrega 1.4.0 | infra |

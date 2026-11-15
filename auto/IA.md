@@ -1,4 +1,4 @@
-# IA independente por etapa — gitbombando 1.7.0
+# IA independente por etapa — gitbombando 1.7.1
 
 A configuração está em `auto/ia.yaml`, dentro deste repositório. Não usa o modelo ou o esforço dos terminais nem o arquivo central modelos.env. Cada chamada lê a configuração atual e registra os valores utilizados na pasta da edição, em `ia-execucoes.jsonl` (sem chave e sem prompt). Não é necessário reiniciar timers ou serviços: a próxima chamada usa a alteração. Uma chamada em andamento termina com a configuração que já recebeu.
 
@@ -124,3 +124,11 @@ Pedido do Nei: integrar o conector Codex e publicar pendências seguindo as regr
 Antes de agendar, o executor exige ownerUsername inematds@gmail.com. A marca do vídeo é inema.tds/7797870 e a dos carrosséis é FTD/7908265. A consulta precisa devolver horários válidos para preservar o intervalo de 1 hora por marca; caso contrário, não agenda. O publicador consulta a mesma mídia no dia alvo antes de criar e não deve duplicá-la. O JSON final é normalizado em uma linha.
 
 Capa continua Codex/image_gen, e texto/revisão continuam API Anthropic. OpenAI/OpenRouter permanecem desativadas. Os registros antigos de dependência do Claude acima descrevem versões anteriores. A publicação não depende mais da cota semanal do Claude; depende da autenticação vigente do conector no perfil Codex configurado.
+
+## Proteções de publicação verificadas na retomada
+
+Na v1.7.1, consulta da agenda, criação e registro ficam sob trava por marca em ~/.local/share/metricool-intervalo/inematds_<marca>.publicacao.lock. Marcas diferentes não se bloqueiam. Isso corrige a corrida em que duas consultas simultâneas viam o mesmo horário livre. O recibo é conferido novamente dentro da trava.
+
+O MP4 aprovado permanece em video.mp4. O publicador gera video-social.mp4 em 720p, AAC e faststart, mais leve para a ingestão do Metricool, e resolve o redirecionamento público da release para seu CDN. O endereço CDN pode conter assinatura temporária e não deve ser impresso em relatórios. Na retomada, o original de 31 MB falhou no download remoto; a cópia de 11 MB foi aceita. Publicações já existentes não devem ser recriadas.
+
+A correção do horário de um post existente usa updateScheduledPost e mantém o mesmo ID. O payload deve conter apenas networkData das redes ativas em providers: campos vazios de twitter/outras redes devolvidos pelo leitor provocam rejeição se reenviados. Nunca resolver isso apagando e recriando posts sem aprovação individual de exclusão.

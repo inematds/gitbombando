@@ -56,6 +56,7 @@ ficar para trás, curiosidade), o número e a fonte ficam na tela. Nunca invente
   legenda ("dois mil cento e trinta e nove": "2.139"). Use `numero: "2.139"` na parte do projeto para o contador chegar
   nesse número no instante em que ele é dito (tem de ser exatamente a forma da legenda, uma palavra só).
 - Nunca termine uma fala num número solto: ponha "estrelas" depois.
+- Na fala, nunca escreva "IAs": a voz lê em inglês. Escreva "inteligências artificiais" ou "i-ás". Tela e legenda podem usar IAs.
 - Frases curtas. Ritmo de conversa, não de leitura.
 
 ## Formato do `ficha.yaml`
