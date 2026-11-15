@@ -33,6 +33,12 @@ class ContratosIA(unittest.TestCase):
         self.addCleanup(self.tmp.cleanup)
         self.p = Path(self.tmp.name)
         self.cfg = copy.deepcopy(ia.carregar(R/'auto/ia.yaml'))
+        for nome, c in self.cfg['etapas'].items():
+            c.update(tipo='assinatura', motor='codex' if nome == 'capa' else 'claude',
+                     modelo='gpt-6.1-sol' if nome == 'capa' else 'claude-opus-5-5',
+                     esforco='medium' if nome in ('capa', 'revisao_video', 'carrossel_revisao') else 'low')
+        self.cfg['api'].update(autorizada=False, autorizacao='')
+        self.cfg['api'].pop('etapas_autorizadas', None)
         self.path = self.p/'ia.yaml'
         self.salvar()
         self.env = patch.dict(os.environ, {'GB_IA_CONFIG': str(self.path)})

@@ -20,8 +20,8 @@
 #    modelo: claude-opus-5-5
 #    esforco: low
 #    chave_nome: inemapro-api-key
-#    Exige autorização em api.autorizada + api.autorizacao; o teste de 15/11
-#    foi autorizado só em configuração isolada, sem ativar API nos crons.
+#    Autorizada pelo Nei em 15/11 para texto e revisão dos crons deste projeto.
+#    Escopo registrado abaixo em api.autorizacao e api.etapas_autorizadas.
 #
 # 4) MODELOS OPENAI/CODEX PELA API DIRETA OPENAI (consumo pago):
 #    tipo: api
@@ -53,11 +53,18 @@
 # - Assinatura Codex / gpt-6.1-sol / medium: APROVADO, 13 partes, 1.945 caracteres.
 # API OpenAI e API OpenRouter: implementadas e testadas com respostas simuladas;
 # nenhuma chamada real/autorização de consumo para esses dois serviços.
-# Os testes não ativaram API na configuração de produção abaixo.
+# Depois dos testes, Nei autorizou ativar Anthropic nos crons: configuração abaixo.
+# Operação atual: texto/revisão na API Anthropic; capa no Codex; Metricool no Claude/MCP.
 versao: 1
 api:
-  autorizada: false
-  autorizacao: ''
+  autorizada: true
+  autorizacao: 'Nei, 15/11/2026: entao deixa ele operacional com claude api, ok; etapas de texto e revisão do gitbombando'
+  etapas_autorizadas:
+    - roteiro
+    - revisao_video
+    - carrossel_filtro
+    - carrossel_textos
+    - carrossel_revisao
   arquivo_chaves: /home/nmaldaner/projetos/wifi/.env
   chave_nome: inemapro-api-key
   versao_anthropic: '2023-06-01'
@@ -75,8 +82,8 @@ api:
 etapas:
   # VÍDEO: gerar a ficha YAML. Aceita as cinco opções documentadas acima.
   roteiro:
-    tipo: assinatura
-    motor: claude
+    tipo: "api"
+    motor: "anthropic"
     modelo: claude-opus-5-5
     esforco: low
     timeout: 1800
@@ -90,32 +97,32 @@ etapas:
     timeout: 1800
   # VÍDEO: modelo com visão para conferir os quadros.
   revisao_video:
-    tipo: assinatura
-    motor: claude
+    tipo: "api"
+    motor: "anthropic"
     modelo: claude-opus-5-5
     esforco: medium
     timeout: 900
     max_tokens: 6000
   # CARROSSEL: selecionar projetos compatíveis com a área do dia.
   carrossel_filtro:
-    tipo: assinatura
-    motor: claude
+    tipo: "api"
+    motor: "anthropic"
     modelo: claude-opus-5-5
     esforco: low
     timeout: 300
     max_tokens: 4000
   # CARROSSEL: escrever textos dos slides.
   carrossel_textos:
-    tipo: assinatura
-    motor: claude
+    tipo: "api"
+    motor: "anthropic"
     modelo: claude-opus-5-5
     esforco: low
     timeout: 1800
     max_tokens: 14000
   # CARROSSEL: modelo com visão para revisar slides.
   carrossel_revisao:
-    tipo: assinatura
-    motor: claude
+    tipo: "api"
+    motor: "anthropic"
     modelo: claude-opus-5-5
     esforco: medium
     timeout: 900

@@ -1,4 +1,4 @@
-# IA independente por etapa — gitbombando 1.5.0
+# IA independente por etapa — gitbombando 1.6.0
 
 A configuração está em `auto/ia.yaml`, dentro deste repositório. Não usa o modelo ou o esforço dos terminais nem o arquivo central modelos.env. Cada chamada lê a configuração atual e registra os valores utilizados na pasta da edição, em `ia-execucoes.jsonl` (sem chave e sem prompt). Não é necessário reiniciar timers ou serviços: a próxima chamada usa a alteração. Uma chamada em andamento termina com a configuração que já recebeu.
 
@@ -38,9 +38,9 @@ Os dois carrosséis compartilham as etapas carrossel_*. Os modos dia/semana/mês
 - `timeout`: limite em segundos, de 1 a 3600.
 - `max_tokens`: teto de saída na API. Não representa um teto de gasto em dólares. Roteiro e textos podem fazer até duas tentativas para corrigir validação; a consulta da agenda também tenta até duas vezes. Publicação não tem repetição automática pelo executor.
 
-As configurações iniciais explicitam Opus 5.5/low para escrita, filtro e Metricool; Opus 5.5/medium para revisão; gpt-6.1-sol/medium para capa. Claude e Codex CLI têm as chaves e seletores de modelo/esforço herdados removidos do ambiente. Modelo/esforço são passados por flags explícitas; o login e os conectores existentes permanecem disponíveis. Nenhum adaptador troca automaticamente para um serviço pago.
+A configuração atual usa API Anthropic com Opus 5.5/low para escrita e filtro; Opus 5.5/medium para revisão. Metricool mantém Claude por assinatura com Opus 5.5/low; gpt-6.1-sol/medium para capa. Claude e Codex CLI têm as chaves e seletores de modelo/esforço herdados removidos do ambiente. Modelo/esforço são passados por flags explícitas; o login e os conectores existentes permanecem disponíveis. Nenhum adaptador troca automaticamente para um serviço pago.
 
-## APIs diretas (preparadas, desativadas nos crons)
+## APIs diretas (Anthropic ativa; OpenAI/OpenRouter desativadas)
 
 O executor usa a Messages API diretamente para texto e visão. Não usa API por dentro de Claude Code/Codex. Os scripts anexam dados e imagens, recebem YAML/JSON e salvam os arquivos; o modelo não executa comandos. Isso permite trocar o modelo sem reconstruir a lógica do cron.
 
@@ -110,3 +110,9 @@ A chamada Anthropic retornou o modelo claude-opus-5-5 e registrou 22.138 tokens 
 Evidência compacta: `tests/resultados/2026-11-15.json`. Artefatos completos locais: `~/projetos/output/gitbombando-testes-ia-2026-11-15/{anthropic,codex}/` (ficha, dados, configuração isolada e log de execução). Nenhum vídeo/avatar/imagem foi gerado e nada foi publicado. Os testes cobrem geração e validação de roteiro; não provam revisão visual ou publicação por esses motores.
 
 O script `tests/teste_motores_reais.py` permite repetir o teste em um destino novo. `--motor anthropic --autorizar-api` só pode ser usado dentro de autorização explícita vigente; `--motor codex` usa a assinatura. Os 18 testes automáticos locais continuam sem rede e verificam também OpenAI/OpenRouter simulados, isolamento de autorizações e preservação dos comentários.
+
+## Ativação em produção — 15/11/2026 (v1.6.0)
+
+Pedido posterior do Nei: “entao deixa ele operacional com claude api, ok”. Anthropic ativada em roteiro, revisao_video, carrossel_filtro, carrossel_textos e carrossel_revisao. Chave referenciada: inemapro-api-key no wifi/.env. Os modelos e esforços permanecem Opus 5.5/low para texto/filtro e Opus 5.5/medium para revisão. O YAML registra a autorização e limita o uso às cinco etapas. Não é necessário reiniciar os timers; as próximas chamadas leem a configuração.
+
+A capa permanece Codex por assinatura. A consulta da agenda e o agendamento pelo Metricool permanecem Claude por assinatura/MCP: a API de texto não fornece esse conector. Portanto, o limite semanal da assinatura ainda pode impedir a publicação no Metricool, embora texto e revisão já usem API. Não houve reexecução de edições anteriores nesta ativação. OpenAI/OpenRouter seguem desativadas.

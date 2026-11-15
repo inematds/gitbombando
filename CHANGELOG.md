@@ -1,5 +1,9 @@
 # CHANGELOG — gitbombando
 
+## 1.6.0 — 15/11/2026
+- Pedido do Nei: ativar Claude API para operação. Cinco etapas de texto/revisão passam a Anthropic; autorização e escopo registrados no YAML.
+- Capa permanece Codex/image_gen; Metricool permanece Claude por assinatura/MCP. OpenAI/OpenRouter continuam desativadas.
+
 ## 1.5.0 — 15/11/2026
 - Cinco opções documentadas com `#` no próprio auto/ia.yaml: Claude/Codex por assinatura e APIs Anthropic/OpenAI/OpenRouter. O comando configurar preserva comentários, inclusive inline.
 - Adaptadores OpenAI Responses e OpenRouter com esforço explícito, texto/visão e autorização independente por serviço; sem chamadas reais a esses dois provedores.
