@@ -1,0 +1,65 @@
+# Configuração exclusiva do gitbombando. Não lê modelos.env nem o modelo dos terminais.
+# Tipos: assinatura (motor claude ou codex), api (motor anthropic).
+# API exige autorização explícita do Nei; nenhuma está autorizada nesta entrega.
+# Capa: assinatura/codex. Metricool: assinatura/claude (conector instalado).
+versao: 1
+api:
+  autorizada: false
+  autorizacao: ''
+  arquivo_chaves: /home/nmaldaner/projetos/wifi/.env
+  chave_nome: inemapro-api-key
+  versao_anthropic: '2023-06-01'
+etapas:
+  roteiro:
+    tipo: assinatura
+    motor: claude
+    modelo: claude-opus-5-5
+    esforco: low
+    timeout: 1800
+    max_tokens: 12000
+  capa:
+    tipo: assinatura
+    motor: codex
+    modelo: gpt-6.1-sol
+    esforco: medium
+    timeout: 1800
+  revisao_video:
+    tipo: assinatura
+    motor: claude
+    modelo: claude-opus-5-5
+    esforco: medium
+    timeout: 900
+    max_tokens: 6000
+  carrossel_filtro:
+    tipo: assinatura
+    motor: claude
+    modelo: claude-opus-5-5
+    esforco: low
+    timeout: 300
+    max_tokens: 4000
+  carrossel_textos:
+    tipo: assinatura
+    motor: claude
+    modelo: claude-opus-5-5
+    esforco: low
+    timeout: 1800
+    max_tokens: 14000
+  carrossel_revisao:
+    tipo: assinatura
+    motor: claude
+    modelo: claude-opus-5-5
+    esforco: medium
+    timeout: 900
+    max_tokens: 6000
+  metricool_agenda:
+    tipo: assinatura
+    motor: claude
+    modelo: claude-opus-5-5
+    esforco: low
+    timeout: 600
+  metricool_publicacao:
+    tipo: assinatura
+    motor: claude
+    modelo: claude-opus-5-5
+    esforco: low
+    timeout: 900

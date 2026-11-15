@@ -21,9 +21,10 @@ import yaml
 
 R = Path(__file__).resolve().parent
 sys.path.insert(0, str(R))
+from auto.ia import executar as executar_ia
 from nucleo import cartao, cena as CENA, pecas, retempo as RT, ritmo as RITMO  # noqa: E402
 
-VERSAO = "1.3.0"
+VERSAO = "1.4.0"
 CANAL = os.environ.get("GB_CANAL", "lives4")
 PERFIL = Path(os.environ.get("R7X_HEYGEN_PERFIL", Path.home() / ".cache/inemaccbot/perfil-heygen"))
 TEMPLATE_HEYGEN = os.environ.get("R7X_HEYGEN_TEMPLATE", "TEMPLATE-AVATAR16")
@@ -233,8 +234,11 @@ def cmd_imagens(pasta):
         log("Codex: capa…")
         for tent in (1, 2):
             with open(capa / "codex.log", "w") as lg:
-                subprocess.run(["codex", "exec", "--skip-git-repo-check", "--dangerously-bypass-approvals-and-sandbox"], input=pedido,
-                               text=True, cwd=capa, stdout=lg, stderr=subprocess.STDOUT, timeout=1800)
+                try:
+                    lg.write(executar_ia("capa", pedido, capa, agente=True))
+                except Exception as e:
+                    lg.write(str(e))
+                    raise
             if (capa / "abertura.png").exists():
                 break
         if not (capa / "abertura.png").exists():
@@ -349,10 +353,9 @@ def cmd_revisar(pasta):
     p = Path(pasta).resolve()
     cmd_folha(p)
     try:
-        r = subprocess.run(["claude", "-p", "--output-format", "json", "--allowedTools", "Read", "--", (R / "auto/revisor.md").read_text()],
-                           cwd=p, capture_output=True, text=True, timeout=900, stdin=subprocess.DEVNULL,
-                           env={k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"})
-        res = json.loads(r.stdout)["result"].strip()
+        res = executar_ia("revisao_video", (R / "auto/revisor.md").read_text(), p,
+                          arquivos=[p / "ficha.yaml", p / "pesquisa/top10.json"],
+                          imagens=[p / "build/folha.jpg"])
         v = json.loads(res[res.index("{"): res.rindex("}") + 1])
         assert v.get("veredito") in ("aprovado", "reprovado")
     except Exception as e:  # noqa: BLE001

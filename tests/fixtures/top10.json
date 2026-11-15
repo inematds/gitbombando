@@ -1,0 +1,45 @@
+{
+  "modo": "dia",
+  "top10": [
+    {
+      "nome": "GoogleChrome/modern-web-guidance-src",
+      "pos": 1
+    },
+    {
+      "nome": "alibaba/open-code-review",
+      "pos": 2
+    },
+    {
+      "nome": "ZhuLinsen/daily_stock_analysis",
+      "pos": 3
+    },
+    {
+      "nome": "ChromeDevTools/chrome-devtools-mcp",
+      "pos": 4
+    },
+    {
+      "nome": "we-promise/sure",
+      "pos": 5
+    },
+    {
+      "nome": "openai/codex-security",
+      "pos": 6
+    },
+    {
+      "nome": "tradermonty/claude-trading-skills",
+      "pos": 7
+    },
+    {
+      "nome": "tailscale/tailcat",
+      "pos": 8
+    },
+    {
+      "nome": "louislam/uptime-kuma",
+      "pos": 9
+    },
+    {
+      "nome": "Likely7/Veyra-NRVideo",
+      "pos": 10
+    }
+  ]
+}

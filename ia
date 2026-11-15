@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Controle de IA do gitbombando, sem menu interativo.
+set -eu
+RAIZ="$(cd "$(dirname "$0")" && pwd)"
+exec python3 "$RAIZ/auto/ia.py" "$@"

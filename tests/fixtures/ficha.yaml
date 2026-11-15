@@ -1,0 +1,99 @@
+modo: dia
+gancho:
+  tipo: noticia
+  manchete: "GOOGLE NO TOPO DE NOVO: +1.225"
+  destaque: "+1.225"
+  objeto: "uma coroa dourada gigante em cima de um navegador rachado, soltando faíscas e raios de luz amarela"
+  fontes:
+    - {nome: "github.com/trending", trecho: "GoogleChrome/modern-web-guidance-src · 1,225 stars today"}
+    - {nome: "github.com/trending", trecho: "ChromeDevTools/chrome-devtools-mcp · 673 stars today"}
+abertura:
+  cena: "sala de servidores escura à noite, fumaça baixa no chão, só a luz amarela explodindo do centro"
+partes:
+  - etapa: gancho
+    fala: "O Google não larga o primeiro lugar do GitHub. É o segundo dia seguido no topo. E hoje ele tem mais um projeto colado no pódio."
+  - etapa: panorama
+    fala: "Os dez que mais cresceram hoje somaram seis mil oitocentas e vinte e uma estrelas. Tem Google, OpenAI e Alibaba na briga. Vou do décimo ao primeiro."
+    numero: "6.821"
+  - etapa: repo
+    repo: "Likely7/Veyra-NRVideo"
+    desc: "Promete deixar vídeo e jogo de console mais nítido e mais fluido, usando a placa de vídeo."
+    destaque: "mais nítido e mais fluido"
+    numero: "423"
+    fala: "Abrindo em décimo, o Veyra. Cresceu trinta por cento num dia só. Promete deixar jogo de console mais nítido e mais fluido usando a placa do seu computador. Promessa grande, confira antes. Quatrocentas e vinte e três estrelas."
+  - etapa: repo
+    repo: "louislam/uptime-kuma"
+    desc: "Um vigia grátis que avisa na hora quando o seu site ou sistema sai do ar."
+    destaque: "avisa na hora"
+    numero: "432"
+    fala: "Nono lugar, o Uptime Kuma. É um vigia gratuito que fica de olho no seu site e te avisa na hora quando ele cai. Quatrocentas e trinta e duas estrelas."
+  - etapa: repo
+    repo: "tailscale/tailcat"
+    desc: "Da Tailscale: liga dois computadores por um túnel seguro e criptografado, direto."
+    destaque: "túnel seguro"
+    numero: "490"
+    fala: "Em oitavo, o Tailcat, da Tailscale. Ele liga dois computadores por um túnel secreto e criptografado, sem ninguém no meio. Quatrocentas e noventa estrelas."
+  - etapa: repo
+    repo: "tradermonty/claude-trading-skills"
+    desc: "Habilidades pro Claude analisar a bolsa, montar gráficos e testar estratégias de ações."
+    destaque: "analisar a bolsa"
+    numero: "556"
+    fala: "Sétimo, a IA que vira seu analista de bolsa. O Claude Trading Skills ensina o Claude a ler o mercado, montar gráficos e testar estratégias. Só não é conselho de investimento, cuidado. Quinhentas e cinquenta e seis estrelas."
+  - etapa: repo
+    repo: "openai/codex-security"
+    desc: "Da OpenAI: uma IA que caça falhas de segurança no código e ainda ajuda a consertar."
+    destaque: "caça falhas de segurança"
+    numero: "599"
+    fala: "Em sexto, a OpenAI, que não sai do Top dez. O Codex Security caça as brechas que um hacker usaria no seu código e ajuda a fechar. Quinhentas e noventa e nove estrelas."
+  - etapa: repo
+    repo: "we-promise/sure"
+    desc: "Um aplicativo de finanças pessoais aberto e grátis pra organizar todo o seu dinheiro."
+    destaque: "aberto e grátis"
+    numero: "659"
+    fala: "Quinto, o Sure, outro que não sai do Top dez. É o aplicativo de finanças aberto e gratuito pra você ver pra onde vai cada centavo, sem pagar assinatura. Seiscentas e cinquenta e nove estrelas."
+  - etapa: repo
+    repo: "ChromeDevTools/chrome-devtools-mcp"
+    desc: "Do Google Chrome: deixa a sua IA abrir, mexer e investigar um navegador de verdade."
+    destaque: "navegador de verdade"
+    numero: "673"
+    fala: "Em quarto, olha o Google de novo. O Chrome DevTools para agentes deixa a sua IA abrir o navegador, clicar, testar e achar o erro do site sozinha. Seiscentas e setenta e três estrelas."
+  - etapa: repo
+    repo: "ZhuLinsen/daily_stock_analysis"
+    desc: "Uma IA que analisa ações todo dia com notícias e gráficos e te manda o resumo."
+    destaque: "analisa ações todo dia"
+    numero: "867"
+    fala: "E agora o pódio. Terceiro, o analista de ações que não sai do Top dez. Uma IA lê notícias e gráficos todo dia e te manda o resumo de graça. Oitocentas e sessenta e sete estrelas."
+  - etapa: repo
+    repo: "alibaba/open-code-review"
+    desc: "Da Alibaba: o revisor de código com IA que já achou milhões de erros lá dentro."
+    destaque: "milhões de erros"
+    numero: "897"
+    fala: "Em segundo, a Alibaba. O Open Code Review é o revisor de IA que ela usava por dentro e que já pegou milhões de erros. Agora é aberto pra você. Oitocentas e noventa e sete estrelas."
+  - etapa: repo
+    repo: "GoogleChrome/modern-web-guidance-src"
+    desc: "Do Google Chrome: ensina a sua IA a montar sites do jeito moderno, sem truques velhos."
+    destaque: "jeito moderno"
+    numero: "1.225"
+    fala: "E o número um, de novo, é do Google. Ninguém derruba. O Modern Web Guidance, que não sai do Top dez, ensina a sua IA a fazer sites do jeito certo de hoje. Mil duzentas e vinte e cinco estrelas."
+  - etapa: comentario
+    fala: "E você, deixaria uma IA mexer no seu navegador ou nas suas ações? Conta aqui nos comentários. Tá tudo no inema ponto club, e amanhã tem mais."
+trocas:
+  "seis mil oitocentas e vinte e uma": "6.821"
+  "trinta por cento": "30%"
+  "Quatrocentas e vinte e três": "423"
+  "Quatrocentas e trinta e duas": "432"
+  "Quatrocentas e noventa": "490"
+  "Quinhentas e cinquenta e seis": "556"
+  "Quinhentas e noventa e nove": "599"
+  "Seiscentas e cinquenta e nove": "659"
+  "Seiscentas e setenta e três": "673"
+  "Oitocentas e sessenta e sete": "867"
+  "Oitocentas e noventa e sete": "897"
+  "Mil duzentas e vinte e cinco": "1.225"
+cores: {bombando: "#FACC15", Google: "#FACC15", OpenAI: "#FACC15", Alibaba: "#FACC15", cuidado: "#ff2a1f", hacker: "#ff2a1f"}
+cta: {a: "QUAL VOCÊ VAI TESTAR? 👇", b: "comenta o número aqui embaixo", comentario: "vou testar o #1 🚀"}
+club: "aprenda a usar essas IAs de verdade"
+publicar:
+  titulo: "Google não larga o topo do GitHub: +1.225 estrelas e mais um projeto no Top 10"
+  contexto: "Top 10 do GitHub de 14/11/2026, do décimo ao primeiro, com os projetos que mais ganharam estrelas no dia. O Modern Web Guidance, do Google Chrome, fica em primeiro pelo segundo dia seguido com 1.225 estrelas, e o Chrome DevTools para agentes, também do Google, aparece em quarto."
+  telegram: "O Google segue no primeiro lugar do GitHub pelo segundo dia, com +1.225 estrelas no Modern Web Guidance, e ainda emplacou o Chrome DevTools para agentes em quarto. No pódio também estão o revisor de código da Alibaba e um analista de ações com IA."

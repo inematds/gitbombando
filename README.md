@@ -16,6 +16,14 @@ do grupo INEMA.TOOLS no Telegram. Os carrosséis vão para o Instagram e o TikTo
 INEMA.DEV no Telegram. É para quem quer saber o que está bombando em tecnologia sem ler inglês nem código. Roda na máquina do INEMA
 (Python, Node, Codex, Claude Code e a assinatura do HeyGen).
 
+## Controle de IA por etapa
+
+O motor, modelo e esforço de cada etapa ficam em `auto/ia.yaml`, exclusivos deste projeto.
+Veja com `./ia ver`; altere, por exemplo, com `./ia configurar roteiro --modelo claude-opus-5-5 --esforco medium`.
+Para trocar texto/visão para Codex: `./ia configurar roteiro --tipo assinatura --motor codex --modelo gpt-6.1-sol --esforco medium`.
+Confira com `./ia validar` (sem chamadas de IA). Instruções e limites: [auto/IA.md](auto/IA.md).
+A API Anthropic está implementada e **desativada**; só poderá ser usada depois de autorização explícita.
+
 ## 📖 Guia de uso
 
 Guia completo (landing + passo a passo): **https://inematds.github.io/gitbombando/guia/**

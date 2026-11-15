@@ -1,5 +1,12 @@
 # CHANGELOG — gitbombando
 
+## 1.4.0 — 15/11/2026
+- Motor, tipo, modelo e esforço por etapa em `auto/ia.yaml`, com comandos `./ia ver/configurar/validar`; sem herança de modelo/esforço dos terminais.
+- Roteiro, filtro, textos e revisores aceitam Claude/Codex por assinatura ou Anthropic direta (texto/visão, desativada até autorização explícita).
+- Capa e chamadas do Metricool também têm configuração explícita; trava de intervalo local usa a etapa metricool_agenda sem mudar outros projetos.
+- Scripts controlam arquivos, portões e até duas tentativas de roteiro; registro por chamada em ia-execucoes.jsonl. Sem fallback pago.
+- package.json alinhado à versão do pipeline.
+
 ## 1.3.0 — 09/11/2026
 - Coleta: github.com sem login dá 504 → tenta com o login do Firefox do servidor; Trending com menos de 10 espera até 1 h e
   segue com Top N (5 a 10) — vídeo, roteiro, portão, ranking, selo e carrossel contam N.

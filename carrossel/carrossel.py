@@ -30,6 +30,8 @@ from PIL import Image
 
 AQUI = Path(__file__).resolve().parent
 R = AQUI.parent
+sys.path.insert(0, str(R))
+from auto.ia import executar as executar_ia
 CONTA = "@inema.tech"
 GRUPO_TG = "INEMA.DEV"
 TOPICO_TG = R / "auto/telegram-topico-carrossel.txt"
@@ -38,8 +40,7 @@ AGENDA = "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h<
 ICONES = {"zap", "video", "image", "mic", "code", "terminal", "bot", "brain", "shield", "lock", "search", "globe", "layers",
           "clock", "cpu", "database", "wand", "chart", "folder", "link", "chat", "download"}
 PROIBIDO = re.compile(r"revolucion|incrível|inacreditável|insano|mude sua vida|!!|\bmort[eoa]s?\b|\btu\b|\bteu\b", re.I)
-TRAVA = Path.home() / "projetos/metricool-inematds/intervalo.py"
-SEM_CHAVE = {k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"}   # claude -p sempre pela assinatura
+TRAVA = R / "auto/intervalo.py"
 
 
 def log(*a):
@@ -158,9 +159,10 @@ def cmd_textos(cd):
         extra = ""
         if tent == 2:
             extra = "\n\nA tentativa anterior voltou do portão com estes erros; corrija todos:\n- " + "\n- ".join(erros)
+        resposta = executar_ia("carrossel_textos", pedido + extra, cd, arquivos=[cd / "dados.json"])
         with open(cd / "textos.log", "a") as lg:
-            subprocess.run(["claude", "-p", pedido + extra, "--permission-mode", "bypassPermissions", "--add-dir", str(cd)],
-                           cwd=cd, stdout=lg, stderr=subprocess.STDOUT, timeout=1800, env=SEM_CHAVE, stdin=subprocess.DEVNULL)
+            lg.write(resposta + "\n")
+        (cd / "textos.json").write_text(resposta)
         if (cd / "ERRO.txt").exists():
             falha("roteirista: " + (cd / "ERRO.txt").read_text()[:300])
         try:
@@ -264,9 +266,10 @@ def cmd_revisar(cd):
     pedido = ((AQUI / "revisor.md").read_text().replace("{CD}", str(cd)).replace("{TEMA}", tema(d))
               .replace("{DATA_BR}", data_br(d)))
     try:
-        r = subprocess.run(["claude", "-p", "--output-format", "json", "--allowedTools", "Read", "--add-dir", str(cd), "--", pedido],
-                           cwd=cd, capture_output=True, text=True, timeout=900, stdin=subprocess.DEVNULL, env=SEM_CHAVE)
-        res = json.loads(r.stdout)["result"].strip()
+        arquivos = [cd / "slides.json"]
+        if (cd / "avisos.txt").exists(): arquivos.append(cd / "avisos.txt")
+        res = executar_ia("carrossel_revisao", pedido, cd, arquivos=arquivos,
+                          imagens=[cd / "folha.jpg", *sorted((cd / "slides").glob("*.png"))])
         v = json.loads(res[res.index("{"): res.rindex("}") + 1])
         assert v.get("veredito") in ("aprovado", "reprovado")
     except Exception as e:  # noqa: BLE001
@@ -362,7 +365,7 @@ def metritds(cd, d, S, leg, titulo):
     (cd / "metritds-texto.txt").write_text(leg)
     alvo = time.time() + 600
     if not os.environ.get("RASCUNHO"):   # trava de 1 h entre posts da marca (Nei, 12/11/2026); INTERVALO_LIVRE=1 libera
-        t = subprocess.run(["python3", str(TRAVA), "--conector", "metricool-inematds", "--marca", "FTD", "--alvo", str(int(alvo))],
+        t = subprocess.run(["python3", str(TRAVA), "--conector", "metricool-inematds", "--marca", "FTD", "--alvo", str(int(alvo)), "--cwd", str(cd)],
                            capture_output=True, text=True)
         log("metritds:", t.stderr.strip()[-200:])
         if t.returncode:
@@ -381,15 +384,17 @@ def metritds(cd, d, S, leg, titulo):
    tiktokData = {{privacyOption: "PUBLIC_TO_EVERYONE", title: "{titulo[:88]}", photoCoverIndex: 0, autoAddMusic: true}}
    Se der erro por causa do TikTok (fotos), tente de novo SÓ com instagram e diga isso no campo erro.
 3) Responda APENAS uma linha JSON, sem crase: {{"ok":true|false,"redes":[...],"faltam":[...],"planner":[...],"erro":"texto ou vazio"}}"""
-    r = subprocess.run(["claude", "-p", "--allowedTools",
-                        "mcp__metricool-inematds__getBrandSettings mcp__metricool-inematds__createScheduledPost Read"],
-                       input=pedido, cwd=cd, capture_output=True, text=True, timeout=900, env=SEM_CHAVE)
-    (cd / "metritds.log").write_text(r.stdout + r.stderr)
-    m = re.findall(r'\{[^{}]*"ok"[^{}]*\}', r.stdout)
+    try:
+        resposta = executar_ia("metricool_publicacao", pedido, cd, agente=True,
+                    ferramentas="mcp__metricool-inematds__getBrandSettings mcp__metricool-inematds__createScheduledPost Read")
+    except Exception as e:
+        return {"ok": False, "erro": str(e)}
+    (cd / "metritds.log").write_text(resposta)
+    m = re.findall(r'\{[^{}]*"ok"[^{}]*\}', resposta)
     try:
         res = json.loads(m[-1])
     except Exception:  # noqa: BLE001
-        res = {"ok": False, "erro": r.stdout[-300:]}
+        res = {"ok": False, "erro": resposta[-300:]}
     if res.get("ok") and not os.environ.get("RASCUNHO"):
         subprocess.run(["python3", str(TRAVA), "--registrar", "--marca", "FTD", "--alvo", str(int(alvo))])
         marca.write_text(time.strftime("%d/%m %H:%M", time.localtime(alvo)) + "\n" + ", ".join(res.get("redes", [])) + "\n")

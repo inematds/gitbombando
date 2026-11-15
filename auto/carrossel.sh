@@ -31,6 +31,8 @@ Para publicar assim mesmo: cd $RAIZ && python3 carrossel/carrossel.py publicar $
   echo "AVISO: $1"; exit 1
 }
 
+python3 "$RAIZ/auto/ia.py" validar >/dev/null || avisar "configuração de IA inválida (auto/ia.yaml)"
+
 python3 "$RAIZ/carrossel/carrossel.py" fazer "$ED" "$TIPO" "$DIA" > "$ED/fazer.log" 2>&1
 RC=$?
 V=$(python3 -c "import json;print(json.load(open('$ED/revisao.json'))['veredito'])" 2>/dev/null)

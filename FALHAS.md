@@ -4,6 +4,7 @@ Uma linha por falha, mais recente no topo.
 
 | data | o que quebrou | menor correção | prompt \| infra |
 |---|---|---|---|
+| 2026-11-15 | package.json ainda marcava 1.2.0 enquanto o pipeline estava em 1.3.0 | alinhar package.json, lockfile e VERSAO na entrega 1.4.0 | infra |
 | 2026-11-09 | Carrossel da área reprovado: print do README de android-ad-cleaner era só o QR de um grupo de WeChat | prints.tem_qr: descarta imagem com QR legível ≥4% da área (0 falsos em 104 prints antigos) | infra |
 | 2026-11-09 | Vídeo do dia não saiu: às 06:30 o Trending tinha só 9 projetos (exigimos 10) | coleta espera 20 min e tenta de novo até 6× (timeout da coleta 15 min → 2h30) | infra |
 | 2026-11-09 | Carrossel Top 10 reprovado no portão: gancho em 3 linhas empurrou a caixa do repo para fora (slide 8) | render encolhe o gancho até a página caber (até 55%) | prompt + infra |

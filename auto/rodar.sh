@@ -43,12 +43,14 @@ $1" || echo "falhou o envio do aviso"
   echo "AVISO: $1"; exit "${2:-1}"
 }
 
+python3 "$RAIZ/auto/ia.py" validar >/dev/null || avisar "configuração de IA inválida (auto/ia.yaml)"
+
 # 1. coleta (só GitHub)
 if [ -s "$ED/pesquisa/top10.json" ] && [ "${REUSAR:-}" = 1 ]; then echo "reusando a coleta"
 else timeout 9000 python3 "$RAIZ/coleta/trending.py" "$ED" "$MODO" > "$ED/pesquisa/coleta.log" 2>&1 \
   || avisar "coleta do GitHub Trending falhou: $(tail -1 "$ED/pesquisa/coleta.log")"; fi
 
-# 2. roteiro pelo claude -p (assinatura); modelo = a ficha aprovada mais recente do mesmo modo
+# 2. motor/modelo/esforço em auto/ia.yaml; referência = ficha aprovada anterior
 PREV=$(ls -d "$RAIZ"/edicoes/*-"$SUF" 2>/dev/null | grep -vx "$ED" | sort | tail -1)
 [ -n "$PREV" ] && [ -f "$PREV/ficha.yaml" ] || PREV="$RAIZ/modelo"
 if [ -s "$ED/ficha.yaml" ] && [ "${REUSAR:-}" = 1 ] && python3 "$RAIZ/gb.py" checar "$ED" >/dev/null 2>&1; then echo "reusando ficha.yaml"
@@ -58,8 +60,8 @@ else
   PROMPT=$(sed -e "s|{ED}|$ED|g" -e "s|{PREV}|$PREV|g" -e "s|{RAIZ}|$RAIZ|g" -e "s|{DATA_BR}|$DATA_BR|g" -e "s|{MODO}|$MODO|g" \
                -e "s|{NOME_MODO}|$NOME_MODO|g" -e "s|{PERIODO}|$PERIODO|g" \
                -e "s|{N}|$N|g" -e "s|{N2}|$((N + 2))|g" -e "s|{N3}|$((N + 3))|g" "$RAIZ/auto/roteiro.md")
-  ( cd "$ED" && timeout 3600 env -u ANTHROPIC_API_KEY claude -p "$PROMPT" --permission-mode bypassPermissions \
-      --add-dir "$RAIZ" > "$ED/claude.log" 2>&1 ) || echo "claude -p saiu com erro"
+  printf '%s' "$PROMPT" | python3 "$RAIZ/auto/roteiro.py" "$ED" "$PREV" > "$ED/claude.log" 2>&1 \
+    || avisar "roteirista falhou: $(tail -c 500 "$ED/claude.log")"
   [ -f "$ED/ERRO.txt" ] && avisar "o roteiro não saiu: $(head -c 400 "$ED/ERRO.txt")"
   python3 "$RAIZ/gb.py" checar "$ED" > "$ED/checar.log" 2>&1 || avisar "roteiro reprovado no portão: $(tail -c 500 "$ED/checar.log")"
 fi

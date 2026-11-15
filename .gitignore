@@ -16,3 +16,7 @@ auto/.rodando
 *.envio-v3.json
 edicoes/*/slides/
 auto/.carrossel-*
+
+auto/ia.lock
+auto/logs/
+**/ia-execucoes.jsonl

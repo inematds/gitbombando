@@ -11,8 +11,8 @@ do #10 ao #1, cartão de cada projeto, gráficos e o avatar do Nei. Explicação
   `auto/rodar.sh` grava o `avatar/APROVADO_HEYGEN` de cada rodada com essa data. Nunca pela API do HeyGen para gerar.
 - **Independente**: motor (`motor/`), estúdio HeyGen (`heygen/`), Whisper/ritmo/cena (`nucleo/`) são cópias do r7ex de
   28/10/2026. Não importar nada do r7ex/eventosextremospub; mudar aqui não afeta eles.
-- **APIs:** só a do GitHub (liberada em 05/10/2026) para coletar; Telegram (liberado para publicar conteúdo). O roteirista e o
-  revisor são `claude -p` (assinatura); a capa é Codex `image_gen` (assinatura). Nenhuma outra API.
+- **IA por etapa (15/11/2026):** fonte exclusiva = `auto/ia.yaml`; controle com `./ia ver`, `./ia configurar <etapa> --tipo ... --motor ... --modelo ... --esforco ...` e `./ia validar`. Não herdar modelo/esforço global ou de modelos.env. O executor `auto/ia.py` sempre passa valores explícitos e registra `ia-execucoes.jsonl` na edição. Ver `auto/IA.md`.
+- **APIs:** GitHub e Telegram seguem as autorizações existentes. IA começa toda por assinatura. O adaptador Anthropic direto (texto/visão) está implementado, mas `api.autorizada: false`: NÃO ativar, carregar chave nem chamar API sem autorização explícita do Nei para Anthropic e as etapas escolhidas; registrar a autorização em `api.autorizacao`. Claude Code e Codex CLI continuam só por assinatura, nunca por API. Sem fallback pago. Capa exige Codex/image_gen; Metricool exige Claude com seu MCP. API de texto não substitui essas ferramentas.
 - A lista de stargazers da API do GitHub responde **404** (desde 2026): a curva de estrelas vem dos nossos retratos de hora em
   hora (`coleta/retrato.py`, timer `gitbombando-retrato`, `historico/estrelas.jsonl`). Sem 3 retratos, o gráfico do projeto
   é "antes × agora" (total − ganho no período → total).
