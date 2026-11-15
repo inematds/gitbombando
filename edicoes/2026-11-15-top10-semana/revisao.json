@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "Capa com TOP 10 DO GITHUB e manchete correta; as pílulas 🔥 e as estrelas dos 10 cartões batem com o top10.json; o avatar está correto e o fecho traz a caixa vermelha e a pílula inema.club; só há detalhes de estilo.",
+ "sugestoes": [
+  "q03 (4.0s): o fim de '+13.660' na manchete da capa encosta e corta na borda direita; recuar um pouco a manchete ou reduzir a fonte.",
+  "q14-q15 (110.71s-121.39s): o cartão do Sherlock não tem nenhum selo visual de 'polêmico' (cor #ff2a1f); um alerta na tela reforçaria o aviso que o Nei faz na fala.",
+  "q08 (57.36s): o cartão do analista de ações poderia trazer na tela o 'não é conselho de investimento', além da legenda.",
+  "q04-q15: os números das barras do gráfico no painel de baixo ficam minúsculos e ilegíveis no celular; mostrar só o início e o fim da curva.",
+  "q00 (0.05s): o gancho é forte; um corte mais rápido do cofre para o rosto do Nei nos primeiros 2 s pode segurar ainda mais o scroll."
+ ]
+}

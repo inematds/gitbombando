@@ -1,0 +1,15 @@
+13.660 estrelas em 7 dias: a Meta abriu o kit de 13 mil apps e lidera o GitHub
+
+#1 meta/astryx —
+#2 sherlock-project/sherlock —
+#3 milind-soni/OpenMausBot —
+#4 anthropics/skills —
+#5 google/elephant-goldfish-model —
+#6 vercel-labs/agent-browser —
+#7 ZhuLinsen/daily_stock_analysis —
+#8 we-promise/sure —
+#9 addyosmani/agent-skills —
+#10 google-deepmind/mujoco —
+
+Curso gratuito em inema.club
+#github #opensource #ia #programacao #inemaclub

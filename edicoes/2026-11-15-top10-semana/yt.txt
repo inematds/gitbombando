@@ -1,0 +1,12 @@
+13.660 estrelas em 7 dias: a Meta abriu o kit de 13 mil apps e lidera o GitHub
+
+#1 meta/astryx — https://github.com/meta/astryx
+#2 sherlock-project/sherlock — https://github.com/sherlock-project/sherlock
+#3 milind-soni/OpenMausBot — https://github.com/milind-soni/OpenMausBot
+#4 anthropics/skills — https://github.com/anthropics/skills
+#5 google/elephant-goldfish-model — https://github.com/google/elephant-goldfish-model
+#6 vercel-labs/agent-browser — https://github.com/vercel-labs/agent-browser
+#7 ZhuLinsen/daily_stock_analysis — https://github.com/ZhuLinsen/daily_stock_analysis
+#8 we-promise/sure — https://github.com/we-promise/sure
+#9 addyosmani/agent-skills — https://github.com/addyosmani/agent-skills
+#10 google-deepmind/mujoco — https://github.com/google-deepmind/mujoco

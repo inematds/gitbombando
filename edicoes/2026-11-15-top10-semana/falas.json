@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "A Meta abriu de graça o kit que monta mais de treze mil apps dela. E em sete dias ele virou o projeto mais quente do GitHub.",
+  "legenda": "A Meta abriu de graça o kit que monta mais de 13 mil apps dela. E em 7 dias ele virou o projeto mais quente do GitHub."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez projetos que mais cresceram na semana somaram sessenta e três mil trezentas e setenta e duas estrelas. Vou do décimo ao primeiro.",
+  "legenda": "Os dez projetos que mais cresceram na semana somaram 63.372 estrelas. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, MuJoCo, do Google DeepMind. É um simulador de física onde robôs aprendem a andar e pegar coisas antes de existir de verdade. Ganhou mil oitocentas e cinquenta e nove estrelas.",
+  "legenda": "Em décimo, MuJoCo, do Google DeepMind. É um simulador de física onde robôs aprendem a andar e pegar coisas antes de existir de verdade. Ganhou 1.859 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Número nove, agent-skills. São as manias boas de um programador sênior empacotadas pra IA: planejar, testar e revisar sempre. Já passa de cem mil estrelas e somou três mil seiscentas e setenta estrelas.",
+  "legenda": "Número nove, agent-skills. São as manias boas de um programador sênior empacotadas pra IA: planejar, testar e revisar sempre. Já passa de 100 mil estrelas e somou 3.670 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, Sure. Um app de finanças pessoais que custou quase um milhão de dólares, foi abandonado e a comunidade ressuscitou de graça. Ganhou quatro mil quatrocentas e oitenta e três estrelas.",
+  "legenda": "Em oitavo, Sure. Um app de finanças pessoais que custou quase US$ 1 milhão, foi abandonado e a comunidade ressuscitou de graça. Ganhou 4.483 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo lugar, um analista de ações com IA. Ele lê o mercado e as notícias e te manda um resumo todo dia. Mas cuidado: não é conselho de investimento. Foram quatro mil quinhentas e vinte e seis estrelas.",
+  "legenda": "Sétimo lugar, um analista de ações com IA. Ele lê o mercado e as notícias e te manda um resumo todo dia. Mas cuidado: não é conselho de investimento. Foram 4.526 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, agent-browser, da Vercel. Ele entrega um navegador na mão da IA: ela abre sites, clica e preenche formulários sozinha. Somou quatro mil seiscentas e uma estrelas.",
+  "legenda": "Em sexto, agent-browser, da Vercel. Ele entrega um navegador na mão da IA: ela abre sites, clica e preenche formulários sozinha. Somou 4.601 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Número cinco, do Google: o elefante e o peixinho dourado. O elefante lembra de tudo e escreve o plano. O peixinho esquece e revisa com olhos novos. Ganhou cinco mil quinhentas e trinta e nove estrelas.",
+  "legenda": "Número cinco, do Google: o elefante e o peixinho dourado. O elefante lembra de tudo e escreve o plano. O peixinho esquece e revisa com olhos novos. Ganhou 5.539 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, skills, da Anthropic, a dona do Claude. São as receitas oficiais que ensinam a IA a fazer documento, planilha e apresentação. Já tem quase duzentas mil estrelas e ganhou seis mil duzentas e vinte estrelas.",
+  "legenda": "Em quarto, skills, da Anthropic, a dona do Claude. São as receitas oficiais que ensinam a IA a fazer documento, planilha e apresentação. Já tem quase 200 mil estrelas e ganhou 6.220 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Em terceiro, OpenMausBot. Você conversa com um time de robôs de IA como se fossem contatos, e cada um tem seu próprio computador. Mais seis mil quatrocentas e treze estrelas.",
+  "legenda": "E agora o pódio. Em terceiro, OpenMausBot. Você conversa com um time de robôs de IA como se fossem contatos, e cada um tem seu próprio computador. Mais 6.413 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, Sherlock. Você digita um nome de usuário e ele caça essa pessoa em mais de quatrocentas redes sociais. Isso é polêmico, cuidado: pode virar ferramenta de perseguição. Foram doze mil quatrocentas e uma estrelas.",
+  "legenda": "Em segundo, Sherlock. Você digita um nome de usuário e ele caça essa pessoa em mais de 400 redes sociais. Isso é polêmico, cuidado: pode virar ferramenta de perseguição. Foram 12.401 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um. Astryx, da Meta. O kit que monta mais de treze mil apps da empresa agora é seu, de graça, feito pra pessoas e inteligências artificiais criarem juntas. Quase dobrou em sete dias: treze mil seiscentas e sessenta estrelas.",
+  "legenda": "E o número um. Astryx, da Meta. O kit que monta mais de 13 mil apps da empresa agora é seu, de graça, feito pra pessoas e inteligências artificiais criarem juntas. Quase dobrou em 7 dias: 13.660 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

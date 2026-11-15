@@ -1,0 +1,623 @@
+{
+ "modo": "semana",
+ "periodo": "this week",
+ "coletado_em": "2026-11-15T14:03:00.487042+00:00",
+ "dia": "2026-11-15",
+ "fonte": "https://github.com/trending?since=weekly",
+ "top10": [
+  {
+   "pos": 1,
+   "nome": "meta/astryx",
+   "dono": "meta",
+   "repo": "astryx",
+   "descricao_en": "An open source design system that's fully customizable and agent ready",
+   "linguagem": "TypeScript",
+   "estrelas_total_trending": 28535,
+   "forks_trending": 2229,
+   "estrelas_periodo": 13660,
+   "pos_trending": 1,
+   "estrelas_total": 28535,
+   "forks": 2229,
+   "criado_em": "2026-01-09T16:20:32Z",
+   "atualizado_em": "2026-11-15T14:02:16Z",
+   "topicos": [],
+   "site": "http://astryx.atmeta.com",
+   "licenca": "MIT",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/69631?v=4",
+   "url": "https://github.com/meta/astryx",
+   "readme": "# Astryx\nAn open source design system that's fully customizable and built for how we build now:   by people and the agents working alongside them.\n**Currently in Beta** · Built on [React 19+](https://react.dev) and [StyleX](https://stylexjs.com)\n[ ](https://www.npmjs.com/package/@astryxdesign/core)\n[ ](LICENSE)\n[ ](https://github.com/meta/astryx/wiki/Contributing)\n[ ](https://astryx.atmeta.com)\n[ ](https://astryx.atmeta.com/storybook/)\n[ ](https://astryx.atmeta.com/sandbox/)\n**[Docs](https://astryx.atmeta.com)** · **[Storybook](https://astryx.atmeta.com/storybook/)** · **[Sandbox](https://astryx.atmeta.com/sandbox/)** · **[Contributing](https://github.com/meta/astryx/wiki/Contributing)** · **[Discord](https://discord.com/invite/XnsUcFykEP)**\n## Overview\nAstryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day.\nIt ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library to adopt — and both people and AI assistants build with the same tooling.\n**What makes Astryx different:**\n- **Open internals.** Components are built to be composed at any level, not locked behind a closed top-level API. The building blocks you'd reach for are exported directly, and when you need to go deeper, swizzle ejects a component's full source into your project to own.\n- **No styling lock-in.** Astryx authors its styles with StyleX, but that's invisible to consumers. Override with `className` using Tailwind, CSS modules, or plain CSS — whatever your project already uses.\n- **Customize without wrapping.** A theme is a set of CSS custom property overrides, so a designer can make Astryx unmistakably theirs without forking or wrapping component source.\n- **Built for people and agents.** The API, docs, and CLI are designed together so a person and an AI assistant build the same way, from the same reference.\n## Getting Started\nAstryx requires **React 19** or later (`react` and `react-dom` are peer dependencies of `@astryxdesign/core`).\nInstall Astryx, a theme, and its peer dependencies:\n```bash\n# npm\nnpm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex\nnpm install -D @astryxdesign/cli\n# pnpm\npnpm add @",
+   "crescimento": {
+    "antes": 14875,
+    "agora": 28535,
+    "ganho": 13660,
+    "pct": 91.8
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "08/11",
+     "09/11",
+     "10/11",
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     16988,
+     20227,
+     23008,
+     25102,
+     26615,
+     27431,
+     28188,
+     28494
+    ],
+    "tipo": "total",
+    "pontos": 162
+   },
+   "vezes_antes": 0,
+   "historico": []
+  },
+  {
+   "pos": 2,
+   "nome": "sherlock-project/sherlock",
+   "dono": "sherlock-project",
+   "repo": "sherlock",
+   "descricao_en": "Hunt down social media accounts by username across social networks",
+   "linguagem": "Python",
+   "estrelas_total_trending": 112148,
+   "forks_trending": 12968,
+   "estrelas_periodo": 12401,
+   "pos_trending": 3,
+   "estrelas_total": 112148,
+   "forks": 12968,
+   "criado_em": "2018-12-24T14:30:48Z",
+   "atualizado_em": "2026-11-15T05:13:15Z",
+   "topicos": [
+    "cli",
+    "cti",
+    "cybersecurity",
+    "forensics",
+    "hacktoberfest",
+    "information-gathering",
+    "infosec",
+    "linux",
+    "osint",
+    "pentesting",
+    "python",
+    "python3",
+    "reconnaissance",
+    "redteam",
+    "sherlock",
+    "tools"
+   ],
+   "site": "https://sherlockproject.xyz",
+   "licenca": "MIT",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/48293496?v=4",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "readme": "Hunt down social media accounts by username across  400+ social networks  \n   Installation \n  &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;\n   Usage \n  &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;\n   Contributing \n## Installation\n   &#8202;&#8202;   \n> [!WARNING]  \n> Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be __broken__.  \n> Users of these systems should defer to [`uv`](https://docs.astral.sh/uv/)/`pipx`/`pip` or Docker.\n| Method | Notes |\n| - | - |\n| `pipx install sherlock-project` | `pip` or [`uv`](https://docs.astral.sh/uv/) may be used in place of `pipx` |\n| `docker run -it --rm sherlock/sherlock` |\n| `dnf install sherlock-project` | |\nCommunity-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packages are not directly supported or maintained by the Sherlock Project.\nSee all alternative installation methods [here](https://sherlockproject.xyz/installation).\n## General usage\nTo search for only one user:\n```bash\nsherlock user123\n```\nTo search for more than one user:\n```bash\nsherlock user1 user2 user3\n```\nAccounts found will be stored in an individual text file with the corresponding username (e.g ```user123.txt```).\n```console\n$ sherlock --help\nusage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT] [--output OUTPUT] [--csv] [--xlsx] [--site SITE_NAME] [--proxy PROXY_URL] [--dump-response]\n                [--json JSON_FILE] [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color] [--browse] [--local] [--nsfw] [--txt] [--ignore-exclusions]\n                USERNAMES [USERNAMES ...]\nSherlock: Find Usernames Across Social Networks (Version 0.16.0)\npositional arguments:\n  USERNAMES             One or more usernames to check with social networks. Check similar usernames using {?} (replace to '_', '-', '.').\noptions:\n  -h, --help            show this help message and exit\n  --version             Display version information and dependencies.\n  --verbose, -v, -d, --debug\n                        Display extra debugging information and metrics.\n  --folderoutput FOLDEROUTPUT, -fo FOLDEROUTPUT\n                        If using multiple usernames, the output of the results will be saved to this folder.\n  --output OUTPUT, -o OUTPUT\n                        If using single username, the output of the result will be saved to this file.\n  --csv                 Create Comma-Separated Values (CSV) File.\n  --xlsx                Create the standard file for the modern Mi",
+   "crescimento": {
+    "antes": 99747,
+    "agora": 112148,
+    "ganho": 12401,
+    "pct": 12.4
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "08/11",
+     "09/11",
+     "10/11",
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     103791,
+     107189,
+     109062,
+     110116,
+     110596,
+     111181,
+     111816,
+     112113
+    ],
+    "tipo": "total",
+    "pontos": 162
+   },
+   "vezes_antes": 0,
+   "historico": []
+  },
+  {
+   "pos": 3,
+   "nome": "milind-soni/OpenMausBot",
+   "dono": "milind-soni",
+   "repo": "OpenMausBot",
+   "descricao_en": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "linguagem": "TypeScript",
+   "estrelas_total_trending": 23068,
+   "forks_trending": 3211,
+   "estrelas_periodo": 6413,
+   "pos_trending": 8,
+   "estrelas_total": 23068,
+   "forks": 3211,
+   "criado_em": "2026-08-11T18:58:55Z",
+   "atualizado_em": "2026-11-15T13:21:18Z",
+   "topicos": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "computer-use",
+    "docker",
+    "electron",
+    "grok",
+    "grok-bot",
+    "grok-bot-alternative",
+    "self-hosted",
+    "typescript"
+   ],
+   "site": "https://www.mausbot.com/",
+   "licenca": "Apache-2.0",
+   "dono_tipo": "User",
+   "dono_foto": "https://avatars.githubusercontent.com/u/46266943?v=4",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "readme": "# OpenMausBot\n**The open-source Grok Bot alternative: your own team of AI bots, in a chat app.**\n[**openmausbot.com**](https://www.openmausbot.com) &nbsp;·&nbsp; [Download](https://www.openmausbot.com/download) &nbsp;·&nbsp; [Open source Grok Bot alternative, compared](https://www.openmausbot.com/blog/grok-bot-vs-openmausbot)\n OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenAI or Manus. \nEvery bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own\npersonality, its own model, its own cloud computer, and its own connected apps.\nTalk to them like contacts. Watch them work. Approve what matters.\n[ ](https://github.com/milind-soni/OpenMausBot/releases/latest)\n&nbsp;\n&nbsp;\n&nbsp;\n [latest release](https://github.com/milind-soni/OpenMausBot/releases/latest) &nbsp;·&nbsp; macOS: Apple silicon & Intel · signed & notarized .dmg &nbsp;·&nbsp; Windows: x64 installer &nbsp;·&nbsp; Ubuntu 24.04 x64: .deb or AppImage beta &nbsp;·&nbsp; [all releases](https://github.com/milind-soni/OpenMausBot/releases) \n Powered by  boat.dev  \n Inference provider sponsor \n---\n> ⚠️ **No affiliation with any cryptocurrency.** OpenMausBot has no token. Any coin using the OpenMausBot, Maus, or SupaMaus name is not created, endorsed, or affiliated with this project or its maintainer. I have received no tokens, payment, or allocation from anyone, and I will not be endorsing any token.\n## Why\nOne assistant in one box is the wrong shape for agents. OpenMausBot is an independent, open-source project inspired by **Grok Bot** —\nit keeps the idea (AI as a *messaging app*: a roster of bots you chat with, each with its own personality,\nmemory of its thread, model, computer, and apps) and rebuilds it open, local-first, and on the agents you\nalready have:\n- **Bring your own agents.** Bots run on the `claude`, `codex`, and `grok` CLIs installed on your own machine\n  — your existing logins and subscriptions, no new accounts, no proxy in the middle. Point any engine at a\n  custom CLI binary (a versioned build or wrapper) in **Settings → Engines**.\n- **Local first.** One small harness server on `127.0.0.1` owns every agent process. Transcripts, keys, and\n  events live in ",
+   "crescimento": {
+    "antes": 16655,
+    "agora": 23068,
+    "ganho": 6413,
+    "pct": 38.5
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "08/11",
+     "09/11",
+     "10/11",
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     18359,
+     19759,
+     20685,
+     21267,
+     21743,
+     22215,
+     22800,
+     23044
+    ],
+    "tipo": "total",
+    "pontos": 162
+   },
+   "vezes_antes": 1,
+   "historico": [
+    {
+     "dia": "2026-11-08",
+     "pos": 6,
+     "estrelas_total": 17580
+    }
+   ]
+  },
+  {
+   "pos": 4,
+   "nome": "anthropics/skills",
+   "dono": "anthropics",
+   "repo": "skills",
+   "descricao_en": "Public repository for Agent Skills",
+   "linguagem": "Python",
+   "estrelas_total_trending": 195079,
+   "forks_trending": 22939,
+   "estrelas_periodo": 6220,
+   "pos_trending": 2,
+   "estrelas_total": 195079,
+   "forks": 22939,
+   "criado_em": "2025-09-22T15:53:31Z",
+   "atualizado_em": "2026-11-14T21:52:49Z",
+   "topicos": [
+    "agent-skills"
+   ],
+   "site": null,
+   "licenca": null,
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/76263028?v=4",
+   "url": "https://github.com/anthropics/skills",
+   "readme": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).\n[ ](https://skills.sh/anthropics/skills)\n# Skills\nSkills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.\nFor more information, check out:\n- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)\n- [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)\n- [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)\n- [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)\n# About This Repository\nThis repository contains skills that demonstrate what's possible with Claude's skills system. These skills range from creative applications (art, music, design) to technical tasks (testing web apps, MCP server generation) to enterprise workflows (communications, branding, etc.).\nEach skill is self-contained in its own folder with a `SKILL.md` file containing the instructions and metadata that Claude uses. Browse through these skills to get inspiration for your own skills or to understand different patterns and approaches.\nMany skills in this repo are open source (Apache 2.0). We've also included the document creation & editing skills that power [Claude's document capabilities](https://www.anthropic.com/news/create-files) under the hood in the [`skills/docx`](./skills/docx), [`skills/pdf`](./skills/pdf), [`skills/pptx`](./skills/pptx), and [`skills/xlsx`](./skills/xlsx) subfolders. These are also open source (Apache 2.0), and we wanted to share them with developers as a reference for more complex skills that are actively used in a production AI application.\n## Disclaimer\n**These skills are provided for demonstration and educational purposes only.** While some of these capabilities may be available in Claude, the implementations and behaviors you receive from Claude may differ from what is shown in these skills. These skills are meant to illustrate patterns and possibilities. Always test",
+   "crescimento": {
+    "antes": 188859,
+    "agora": 195079,
+    "ganho": 6220,
+    "pct": 3.3
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "08/11",
+     "09/11",
+     "10/11",
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     189713,
+     191064,
+     192386,
+     193183,
+     193722,
+     194161,
+     194648,
+     195033
+    ],
+    "tipo": "total",
+    "pontos": 162
+   },
+   "vezes_antes": 0,
+   "historico": []
+  },
+  {
+   "pos": 5,
+   "nome": "google/elephant-goldfish-model",
+   "dono": "google",
+   "repo": "elephant-goldfish-model",
+   "descricao_en": "Open-source plugin for designing and reviewing software with agents",
+   "linguagem": "Python",
+   "estrelas_total_trending": 19468,
+   "forks_trending": 1447,
+   "estrelas_periodo": 5539,
+   "pos_trending": 9,
+   "estrelas_total": 19468,
+   "forks": 1447,
+   "criado_em": "2026-09-13T16:31:06Z",
+   "atualizado_em": "2026-11-15T13:33:20Z",
+   "topicos": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "codex-plugin",
+    "coding-agents",
+    "context-engineering",
+    "developer-tools",
+    "gemini",
+    "llm",
+    "multi-agent",
+    "prompt-engineering",
+    "spec-driven-development"
+   ],
+   "site": "https://egm.dev",
+   "licenca": "Apache-2.0",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/1342004?v=4",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "readme": "Design with an elephant. Review with a goldfish. \n   Install  &ensp;·&ensp;\n   Quickstart  &ensp;·&ensp;\n   Documentation  &ensp;·&ensp;\n   Website \nDevelop ideas with context and review documents with fresh eyes. EGM is an open-source plugin for AI assistants.\n**Elephant** holds your project context and drafts the specification. **Goldfish** reviewers examine the draft and referenced source material without the earlier conversation, helping expose unstated assumptions and blind spots. **You** make the architectural trade-offs and approve the specification before implementing.\nThe built-in draft and design-review workflow targets software specifications. For other documents, choose reviewers and standards with `/egm-review-loop`. Bootstrap and drift reporting apply to software codebases.\nhttps://github.com/user-attachments/assets/93c799a2-10a3-4266-af02-eb79dd33a9a2\n## Install\nChoose your coding agent. Install the complete plugin so its skills can read the reviewer prompts and document standards.\n### ChatGPT and Codex desktop\nOpen the [published EGM plugin](https://chatgpt.com/plugins/plugins_6aeb90f47ec88191a3c107e01d3eb357) in the desktop app and install it. This listing is desktop-only. For Codex CLI, use the commands below.\n### Antigravity CLI\n```sh\nagy plugin install https://github.com/google/elephant-goldfish-model\n```\nFor the **Antigravity App** and **Antigravity for IDEs** (Visual Studio Code extension), run `/plugin` or see the [installation instructions](docs/harnesses.md#antigravity-app-and-antigravity-for-ides).\n### Claude Code\n```sh\nclaude plugin marketplace add google/elephant-goldfish-model\nclaude plugin install egm@egm\n```\n### Codex CLI\n```sh\ncodex plugin marketplace add google/elephant-goldfish-model\ncodex plugin add egm@egm\n```\nStart a new session after installation. For **Claude Cowork** and **ChatGPT Work**, see the [setup guide](docs/harnesses.md).\n## Try a 60-second review on existing code\nReview an existing design document, README, or PR plan against the live code. You do not need to write a new specification. The commands below use the `/egm:` prefix for Antigravity (agy CLI) and Claude Code. In Codex, select the corresponding EGM skill from the skill picker.\n  **Review an existing document**\n```text\n/egm:egm-review docs/designs/webhooks.md\n```\nUse the path to your design doc, or to a PR plan saved as Markdown. Fresh reviewers check the design, its clarity, its fit with the code, and its implementation plan.\n  **Check for drift**\n``",
+   "crescimento": {
+    "antes": 13929,
+    "agora": 19468,
+    "ganho": 5539,
+    "pct": 39.8
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     18644,
+     19226,
+     19439
+    ],
+    "tipo": "total",
+    "pontos": 39
+   },
+   "vezes_antes": 0,
+   "historico": []
+  },
+  {
+   "pos": 6,
+   "nome": "vercel-labs/agent-browser",
+   "dono": "vercel-labs",
+   "repo": "agent-browser",
+   "descricao_en": "Browser automation CLI for AI agents",
+   "linguagem": "Rust",
+   "estrelas_total_trending": 51423,
+   "forks_trending": 3594,
+   "estrelas_periodo": 4601,
+   "pos_trending": 5,
+   "estrelas_total": 51423,
+   "forks": 3594,
+   "criado_em": "2026-01-11T05:38:15Z",
+   "atualizado_em": "2026-11-15T12:43:23Z",
+   "topicos": [],
+   "site": "https://agent-browser.dev",
+   "licenca": "Apache-2.0",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/108547162?v=4",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "readme": "# agent-browser\nBrowser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.\nagent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call.\n## Install\n```bash\nnpm install -g agent-browser\nagent-browser install           # download Chrome for Testing (first time only)\n```\n- **Homebrew:** `brew install agent-browser`, then `agent-browser install`.\n- **Linux:** `agent-browser install --with-deps` also installs the browser's system libraries.\n- **No install:** `npx agent-browser open example.com`.\nProject installs, building from source, `upgrade`, and `doctor` are covered in [Installation](https://agent-browser.dev/installation).\n## Quick start\n```bash\nagent-browser open example.com\nagent-browser snapshot -i       # interactive elements, each with a ref\nagent-browser click @e1         # act on a ref from that snapshot\nagent-browser get url           # check the result\nagent-browser close\n```\nThe snapshot for `example.com`:\n```\n- link \"Learn more\" [ref=e1]\n```\n- Refs describe the page at the time of the snapshot. After navigation or a DOM change, take a new snapshot before using refs again.\n- CSS selectors, text, XPath, and semantic locators also work, for example `agent-browser find role button click --name \"Submit\"`. See [Selectors](https://agent-browser.dev/selectors).\n- A click fails, instead of reporting success, when the target is hidden, disabled, outside the viewport, or covered by another element such as a consent banner. Dismiss the covering element, take a new snapshot, and retry.\nThe full walkthrough is in the [quick start](https://agent-browser.dev/quick-start).\n## How it works\nThe CLI sends each command to a background daemon that starts on the first command and controls the browser over the Chrome DevTools Protocol. Each `--session` gets its own daemon and browser. By default, the daemon closes a headless browser and exits after one hour without commands, saving state first when [session persistence](https://agent-browser.dev/sessions) is configured.\nChrome for Testing is the default browser. You can also attach to a running Chrome with `--cdp` or `--auto-connect` ([CDP mode](https://agent-browser.dev/cdp-mod",
+   "crescimento": {
+    "antes": 46822,
+    "agora": 51423,
+    "ganho": 4601,
+    "pct": 9.8
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "08/11",
+     "09/11",
+     "10/11",
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     47676,
+     48532,
+     49261,
+     49910,
+     50354,
+     50753,
+     51233,
+     51403
+    ],
+    "tipo": "total",
+    "pontos": 162
+   },
+   "vezes_antes": 0,
+   "historico": []
+  },
+  {
+   "pos": 7,
+   "nome": "ZhuLinsen/daily_stock_analysis",
+   "dono": "ZhuLinsen",
+   "repo": "daily_stock_analysis",
+   "descricao_en": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "linguagem": "Python",
+   "estrelas_total_trending": 72392,
+   "forks_trending": 57546,
+   "estrelas_periodo": 4526,
+   "pos_trending": 6,
+   "estrelas_total": 72392,
+   "forks": 57546,
+   "criado_em": "2026-01-10T06:43:20Z",
+   "atualizado_em": "2026-11-15T13:43:15Z",
+   "topicos": [
+    "a-stock",
+    "ai-agent",
+    "aigc",
+    "llm",
+    "quant",
+    "quantitative-finance",
+    "quantitative-trading"
+   ],
+   "site": "https://dsa.zhulinsen.tech",
+   "licenca": "MIT",
+   "dono_tipo": "User",
+   "dono_foto": "https://avatars.githubusercontent.com/u/42829555?v=4",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "readme": "# 📈 股票智能分析系统\n[ ](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)\n[ ](https://arxiv.org/abs/2608.26990)\n[ ](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml)\n[ ](https://opensource.org/licenses/MIT)\n[ ](https://www.python.org/downloads/)\n[ ](https://github.com/features/actions)\n[ ](https://hub.docker.com/r/zhulinsen/daily_stock_analysis)\n     &nbsp;   \n> 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱\n[**产品预览**](#-产品预览) · [**功能特性**](#-功能特性) · [**快速开始**](#-快速开始) · [**推送效果**](#-推送效果) · [**文档中心**](docs/INDEX.md) · [**完整指南**](docs/full-guide.md)\n简体中文 | [English](docs/README_EN.md) | [繁體中文](docs/README_CHT.md)\n  💖 赞助商 (Sponsors)  \n       感谢  Modelflare  赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供  65% / 75% / 85% 每日缓存命中率保障 ；单笔充值  US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册  \n## 🖥️ 产品预览\n   点击动图查看完整演示 \n## ✨ 功能特性\n| 能力 | 覆盖内容 |\n|------|------|\n| AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 |\n| 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 [市场支持边界](docs/market-support.md) |\n| Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 |\n| Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置策略，覆盖 Web/Bot/API |\n| 智能导入与补全 | 图片、CSV/Excel、剪贴板导入；股票代码/名称/拼音/别名补全 |\n| 自动化与推送 | GitHub Actions、Docker、本地定时任务、FastAPI 服务和企业微信/飞书/Telegram/Discord/Slack/邮件推送 |\n> 功能细节、字段契约、基本面 P0 超时语义、交易纪律、数据源优先级、Web/API 行为请看 [完整配置与部署指南](docs/full-guide.md)。\n### 技术栈与数据来源\n| 类型 | 支持 |\n|------|------|\n| AI 模型 | [Modelflare](https://modelflare.dev/sign-up?utm_source=github&utm_campaign=daily_stock_analysis)、[AIHubMix](https://inferera.com/?aff=CfMq)、Gemini、OpenAI 兼容、DeepSeek、通义千问、Claude、Ollama 本地模型等 |\n| 行情数据 | [TickPlus（推荐）](http://www.tickplus.org/register?reg=5433cf922395)、AkShare、Tushare、Pytdx、Baostock、YFinance、Longbridge |\n| 新闻搜索 | [SerpAPI](https://serpapi.com/github-daily-stock-analysis)、[Anspire](https://open.anspire.cn/dsa?share_code=QFBC0FYC)、[Tavily](https://tavily.com/)、[Bocha](https://open.bocha.cn/)、[Brave](https://brave.com/search/api/)、[MiniMax](https://platform.minimaxi.com/)、SearXNG |\n| 社交舆情 | [Stock Sentiment API](https://api.adanos.org/docs)（Reddit / X / Polymarket，仅美股，可选） |\n> 项目默认内置 AkShare、Baostock、YFinance 等免费行情源，可零配置运行；免费源受上游限流、接口变动和网络波动影响，稳定性不保证。长期定时、批量分析或更稳定行情建议配置 Tushare、Longbridge 等 token 型数据源，适用市场、Actions 映射和 fallback 规则见 [数据源配置](docs/full-guide.md#数据源配置)。\n## 🚀 快速开始\n### 方式一：[GitHub Actions（推荐）](https://w",
+   "crescimento": {
+    "antes": 67866,
+    "agora": 72392,
+    "ganho": 4526,
+    "pct": 6.7
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "09/11",
+     "10/11",
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     68917,
+     69578,
+     70329,
+     71097,
+     71655,
+     72272,
+     72382
+    ],
+    "tipo": "total",
+    "pontos": 139
+   },
+   "vezes_antes": 0,
+   "historico": []
+  },
+  {
+   "pos": 8,
+   "nome": "we-promise/sure",
+   "dono": "we-promise",
+   "repo": "sure",
+   "descricao_en": "The personal finance app for everyone (by everyone)",
+   "linguagem": "Ruby",
+   "estrelas_total_trending": 15555,
+   "forks_trending": 1363,
+   "estrelas_periodo": 4483,
+   "pos_trending": 7,
+   "estrelas_total": 15555,
+   "forks": 1363,
+   "criado_em": "2025-07-23T04:13:55Z",
+   "atualizado_em": "2026-11-15T12:31:47Z",
+   "topicos": [],
+   "site": "https://sure.am",
+   "licenca": "AGPL-3.0",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/222344567?v=4",
+   "url": "https://github.com/we-promise/sure",
+   "readme": "[ ](https://deepwiki.com/we-promise/sure)\n[ ](https://oss.skylight.io/app/applications/s6PEZSKwcklL)\n[ ](https://app.dosu.dev/a72bdcfd-15f5-4edc-bd85-ea0daa6c3adc/ask)\n[ ](https://github.com/we-promise/sure/actions/workflows/pipelock.yml)\n   Deutsch  | \n   Español  | \n   Français  | \n   日本語  | \n   한국어  | \n   Português  | \n   Русский  | \n   中文 \n# Sure: The personal finance app for everyone\n Get\ninvolved: [Discord](https://discord.gg/36ZGBsxYEK) • [Website](https://sure.am) • [Issues](https://github.com/we-promise/sure/issues) \n> [!IMPORTANT]\n> This repository is a community fork of the now-abandoned Maybe Finance project.  \n> Learn more in their [final release](https://github.com/maybe-finance/maybe/releases/tag/v0.6.0) doc.\n## Backstory\nThe [Maybe Finance](https://github.com/maybe-finance/maybe) (archived/abandoned repo) team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription.\nThe business end of things didn't work out, and so they stopped developing the app in mid-2023.\nAfter spending nearly $1 million on development (employees, contractors, data providers, infra, etc.), the team open-sourced the app. Their goal was to let users self-host it for free — and eventually launch a hosted version for a small fee.\nThey actually did launch that hosted version … briefly.\nThat also didn’t work out — at least not as a sustainable B2C business — so now here we are: hosting a community-maintained fork to keep the codebase alive and see where this can go next.\nJoin us!\n## Hosting Sure\nSure is a fully working personal finance app that can be [self hosted with Docker](docs/hosting/docker.md).\nSure can be accessed from a browser, the macOS desktop app, the mobile app, API\nclients, and LLM agents. See [Sure Clients](docs/clients.md) for an overview.\n## Forking and Attribution\nThis repo is a community fork of the archived Maybe Finance repo.\nYou’re free to fork it under the AGPLv3 license — but we’d love it if you stuck around and contributed here instead.\nTo stay compliant and avoid trademark issues:\n- Be sure to include the original [AGPLv3 license](https://github.com/maybe-finance/maybe/blob/main/LICENSE) and clearly state in your README that your fork is based on Maybe Finance but is **not affiliated with or endorsed by** Maybe Finance Inc.\n- \"Maybe\" is a trademark of Maybe Finance Inc. and therefore, use o",
+   "crescimento": {
+    "antes": 11072,
+    "agora": 15555,
+    "ganho": 4483,
+    "pct": 40.5
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "10/11",
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     12018,
+     13008,
+     13961,
+     14777,
+     15345,
+     15543
+    ],
+    "tipo": "total",
+    "pontos": 116
+   },
+   "vezes_antes": 0,
+   "historico": []
+  },
+  {
+   "pos": 9,
+   "nome": "addyosmani/agent-skills",
+   "dono": "addyosmani",
+   "repo": "agent-skills",
+   "descricao_en": "Production-grade engineering skills for AI coding agents.",
+   "linguagem": "JavaScript",
+   "estrelas_total_trending": 117769,
+   "forks_trending": 12328,
+   "estrelas_periodo": 3670,
+   "pos_trending": 11,
+   "estrelas_total": 117769,
+   "forks": 12328,
+   "criado_em": "2026-02-15T20:20:26Z",
+   "atualizado_em": "2026-11-14T04:33:56Z",
+   "topicos": [
+    "agent-skills",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "cursor",
+    "skills"
+   ],
+   "site": "https://skills.addy.ie",
+   "licenca": "MIT",
+   "dono_tipo": "User",
+   "dono_foto": "https://avatars.githubusercontent.com/u/110953?v=4",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "readme": "# Agent Skills\n**Production-grade engineering skills for AI coding agents.**\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n---\n## Commands\n9 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |\n| Build incrementally | `/build` | One slice at a time |\n| Prove it works | `/test` | Tests are proof |\n| Set the quality bar | `/constraints` | Decide it once, enforce it everywhere |\n| Review before merge | `/review` | Improve code health |\n| Audit web performance | `/webperf` | Measure before you optimize |\n| Simplify the code | `/code-simplify` | Clarity over cleverness |\n| Ship to production | `/ship` | Faster is safer |\nIn Claude Code these install as plugin commands. Where a built-in command has the same name, as `/review` does, use the namespaced form: `/agent-skills:review`.\nWant fewer manual steps once the spec exists? **`/build auto`** generates the plan and implements every task in a single approved pass — you approve the plan once, then it runs autonomously. It removes the human stepping *between* tasks, not the verification: every task is still test-driven and committed individually, and it pauses on failures or risky steps.\nSkills also activate automatically based on what you're doing — designing an API triggers `api-and-interface-design`, building UI triggers `frontend-ui-engineering`, and so on.\n---\n## Quick Start\n**Fastest path — any agent, one command.** The open [skills CLI](https://github.com/vercel-labs/skills) installs into 70+ agents (Claude Code, Cursor, Codex, Copilot, Cline, and more):\n```bash\nnpx skills add addyosmani/agent-skills           ",
+   "crescimento": {
+    "antes": 114099,
+    "agora": 117769,
+    "ganho": 3670,
+    "pct": 3.2
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "10/11",
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     115213,
+     115990,
+     116707,
+     117169,
+     117599,
+     117748
+    ],
+    "tipo": "total",
+    "pontos": 116
+   },
+   "vezes_antes": 0,
+   "historico": []
+  },
+  {
+   "pos": 10,
+   "nome": "google-deepmind/mujoco",
+   "dono": "google-deepmind",
+   "repo": "mujoco",
+   "descricao_en": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "linguagem": "C++",
+   "estrelas_total_trending": 18037,
+   "forks_trending": 2208,
+   "estrelas_periodo": 1859,
+   "pos_trending": 10,
+   "estrelas_total": 18037,
+   "forks": 2208,
+   "criado_em": "2021-08-27T12:25:48Z",
+   "atualizado_em": "2026-11-15T04:54:37Z",
+   "topicos": [
+    "mujoco",
+    "physics",
+    "robotics"
+   ],
+   "site": "https://mujoco.org",
+   "licenca": "Apache-2.0",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/8596759?v=4",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "readme": "**MuJoCo** stands for **Mu**lti-**Jo**int dynamics with **Co**ntact. It is a\ngeneral purpose physics engine that aims to facilitate research and development\nin robotics, biomechanics, graphics and animation, machine learning, and other\nareas which demand fast and accurate simulation of articulated structures\ninteracting with their environment.\nThis repository is maintained by [Google DeepMind](https://www.deepmind.com/).\nMuJoCo has a C API and is intended for researchers and developers. The runtime\nsimulation module is tuned to maximize performance and operates on low-level\ndata structures that are preallocated by the built-in XML compiler. The library\nincludes interactive visualization in native desktop windows and web browsers.\nMuJoCo further exposes a large number of utility functions for computing\nphysics-related quantities.\nWe also provide [Python bindings] and a plug-in for the [Unity] game engine.\n## Documentation\nMuJoCo's documentation can be found at [mujoco.readthedocs.io]. Upcoming\nfeatures due for the next release can be found in the [changelog] in the\n\"latest\" branch.\n## Getting Started\n1. **Try MuJoCo in your browser.**\nVisit [mujoco.org](https://mujoco.org) to explore MuJoCo on desktop or mobile\nwith nothing to install, or open [live.mujoco.org](https://live.mujoco.org) to\ninspect and drag and drop your own models in the WebAssembly version of the\n[MuJoCo Studio] app (slower than native C, since it runs in WebAssembly).\n2. **Run a viewer on your machine.**\nFollow the [Getting Started] guide in the documentation to download a prebuilt\nrelease and run the [MuJoCo Studio] app or the classic `simulate` viewer (shown\nin [this video](https://www.youtube.com/watch?v=P83tKA1iz2Y)) on your machine.\n3. **Explore our online IPython notebooks.**\nIf you are a Python user, you might want to start with our tutorial notebooks\nrunning on Google Colab:\n - The **introductory** tutorial teaches MuJoCo basics:\n   [ ](https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/tutorial.ipynb)\n - The **Model Editing** tutorial shows how to create and edit models procedurally:\n   [ ](https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/mjspec.ipynb)\n - The **rollout** tutorial shows how to use the multithreaded `rollout` module:\n   [ ](https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/rollout.ipynb)\n - The **LQR** tutorial synthesizes a linear-quadratic controller, balancing a\n   humano",
+   "crescimento": {
+    "antes": 16178,
+    "agora": 18037,
+    "ganho": 1859,
+    "pct": 11.5
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "08/11",
+     "09/11",
+     "10/11",
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11"
+    ],
+    "v": [
+     16452,
+     16939,
+     17392,
+     17650,
+     17774,
+     17877,
+     17986,
+     18033
+    ],
+    "tipo": "total",
+    "pontos": 162
+   },
+   "vezes_antes": 0,
+   "historico": []
+  }
+ ],
+ "soma_periodo": 63372
+}
