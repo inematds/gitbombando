@@ -1,0 +1,66 @@
+{
+ "vercel-labs/ui": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/vercel-labs/ui",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "milind-soni/OpenMausBot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
+  "tam": [
+   1400,
+   875
+  ]
+ },
+ "lexmount/moli": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/lexmount/moli/main/assets/moli-game.jpg",
+  "tam": [
+   1400,
+   807
+  ]
+ },
+ "DIYgod/pinky": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/DIYgod/pinky/main/assets/readme/demo.gif",
+  "tam": [
+   760,
+   428
+  ]
+ },
+ "agentes-chat/agentes-chat": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/agentes-chat/agentes-chat/main/docs/media/readme-hero.png",
+  "tam": [
+   1400,
+   972
+  ]
+ },
+ "modelflare-ai/AnyModelBot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/modelflare-ai/AnyModelBot/master/docs/assets/hero/hero-demo.gif",
+  "tam": [
+   960,
+   656
+  ]
+ },
+ "microsoft/TokenEconomizer": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/microsoft/TokenEconomizer/main/docs/assets/teaser.png",
+  "tam": [
+   1400,
+   750
+  ]
+ },
+ "Fei2411/DS-Bot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Fei2411/DS-Bot/main/docs/images/team.png",
+  "tam": [
+   1400,
+   860
+  ]
+ }
+}

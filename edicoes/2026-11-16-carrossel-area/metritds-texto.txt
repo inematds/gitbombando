@@ -1,0 +1,15 @@
+Top 8 do GitHub · agentes de IA · 16/11/2026
+
+Agentes de IA agora mexem no seu celular, navegam na web e trabalham junto com a sua equipe no chat. Passe o carrossel e veja os 8 repositórios que mais crescem no GitHub nessa área. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.
+
+1. vercel-labs/ui
+2. milind-soni/OpenMausBot
+3. lexmount/moli
+4. DIYgod/pinky
+5. agentes-chat/agentes-chat
+6. modelflare-ai/AnyModelBot
+7. microsoft/TokenEconomizer
+8. Fei2411/DS-Bot
+
+Tá tudo no inema.club: lá você aprende a integrar estes projetos em vez de só copiar, direto na internet
+#github #opensource #ia #programacao #inemaclub

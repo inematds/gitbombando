@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "BOTS GANHAM COMPUTADOR PRÓPRIO",
+  "destaque": "COMPUTADOR"
+ },
+ "repos": {
+  "vercel-labs/ui": {
+   "gancho": [
+    "SUA IA MONTA",
+    "TELAS ACESSÍVEIS"
+   ],
+   "o_que_e": "Uma biblioteca de comportamentos de tela, como foco, seleção e arrastar, para seus agentes de IA criarem interfaces.",
+   "beneficios": [
+    {
+     "icone": "code",
+     "titulo": "Vários sistemas web",
+     "texto": "Funciona com React, Vue, Svelte, Solid e Web Components."
+    },
+    {
+     "icone": "bot",
+     "titulo": "O agente escreve",
+     "texto": "Você não precisa aprender o código: seus agentes escrevem por você."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "DÁ A SKILL",
+    "AGENTE CRIA"
+   ]
+  },
+  "milind-soni/OpenMausBot": {
+   "gancho": [
+    "SEU TIME DE BOTS",
+    "NUM APP DE CHAT"
+   ],
+   "o_que_e": "Um app de chat de código aberto em que cada contato é um agente de IA com personalidade, modelo e computador na nuvem próprios.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Claude ou Codex",
+     "texto": "Cada bot roda Claude ou Codex no seu computador, por baixo."
+    },
+    {
+     "icone": "download",
+     "titulo": "Mac, Windows, Linux",
+     "texto": "Instaladores prontos para macOS, Windows e Ubuntu."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "CRIA UM BOT",
+    "VOCÊ APROVA"
+   ]
+  },
+  "lexmount/moli": {
+   "gancho": [
+    "SEU AGENTE LÊ",
+    "QUALQUER SITE"
+   ],
+   "o_que_e": "Um navegador sem janela, leve e rápido, feito em Rust para agentes de IA buscarem, lerem e automatizarem páginas da web.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Página vira texto",
+     "texto": "Transforma qualquer página em Markdown, um texto limpo para a IA."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Roda em todo lugar",
+     "texto": "Funciona em Linux, macOS e Windows, com instalação de uma linha."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PASSA O LINK",
+    "TEXTO PRONTO"
+   ]
+  },
+  "DIYgod/pinky": {
+   "gancho": [
+    "A IA USA",
+    "SEU CELULAR?"
+   ],
+   "o_que_e": "Um app que deixa agentes como Claude Code mexerem no seu iPhone ou Android, enquanto você assiste e aprova os passos de risco.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Pede antes de pagar",
+     "texto": "Por padrão, o Pinky pede sua aprovação antes de qualquer pagamento."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Leve e nativo",
+     "texto": "Download de 16 a 22 MB, sem Electron, usando pouca memória no Mac."
+    }
+   ],
+   "fluxo": [
+    "LIGA O CELULAR",
+    "A IA OPERA",
+    "VOCÊ APROVA"
+   ]
+  },
+  "agentes-chat/agentes-chat": {
+   "gancho": [
+    "EQUIPE E AGENTES",
+    "NO MESMO CHAT"
+   ],
+   "o_que_e": "Uma alternativa ao Slack, de código aberto, em que sua equipe e agentes de IA trabalham juntos em canais e mensagens.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Seguro por padrão",
+     "texto": "Ações sensíveis esperam a aprovação de uma pessoa no próprio chat."
+    },
+    {
+     "icone": "database",
+     "titulo": "Grátis no seu servidor",
+     "texto": "Instala com um comando num servidor Linux, sem pagar licença."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "CHAMA O AGENTE",
+    "ELE TRABALHA"
+   ]
+  },
+  "modelflare-ai/AnyModelBot": {
+   "gancho": [
+    "BOTS COM",
+    "QUALQUER MODELO"
+   ],
+   "o_que_e": "Um time de bots de IA que roda no seu computador, com memória própria, e conversa pelo app, WeChat ou Feishu.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 70 modelos",
+     "texto": "GPT, Claude, Gemini, DeepSeek e outros com uma só chave Modelflare."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Paga só o que usa",
+     "texto": "Sem assinatura: você paga pelo uso ou usa sua própria chave."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "ESCOLHE MODELO",
+    "BOT TRABALHA"
+   ]
+  },
+  "microsoft/TokenEconomizer": {
+   "gancho": [
+    "AGENTE DE CÓDIGO",
+    "MAIS BARATO"
+   ],
+   "o_que_e": "Uma ferramenta da Microsoft que deixa agentes de programação mais baratos, aprendendo com as sessões que já rodaram no projeto.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Custo menor",
+     "texto": "Nos testes, o custo médio caiu entre 18% e 31% em cinco combinações."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Lembra o projeto",
+     "texto": "Guarda fatos do projeto, como comandos que funcionam, para não repetir erros."
+    }
+   ],
+   "fluxo": [
+    "AGENTE RODA",
+    "ELE APRENDE",
+    "GASTA MENOS"
+   ]
+  },
+  "Fei2411/DS-Bot": {
+   "gancho": [
+    "BOTS QUE",
+    "CONVERSAM ENTRE SI"
+   ],
+   "o_que_e": "Um app de código aberto que transforma o DeepSeek Harness em bots que você cria, conversa e põe para trabalhar.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Grupos de bots",
+     "texto": "Bots trocam mensagens entre si e participam de conversas em grupo."
+    },
+    {
+     "icone": "download",
+     "titulo": "App ou plugin",
+     "texto": "App para Windows, macOS e Linux, ou plugin dentro do DeepSeek Harness."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE MODELO",
+    "CRIA O BOT"
+   ]
+  }
+ },
+ "legenda_abertura": "Agentes de IA agora mexem no seu celular, navegam na web e trabalham junto com a sua equipe no chat. Passe o carrossel e veja os 8 repositórios que mais crescem no GitHub nessa área. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 8 repositórios de agentes de IA que mais crescem no GitHub, de bots com computador próprio a IA que usa seu celular. Confira no perfil @inema.tech. E no inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
