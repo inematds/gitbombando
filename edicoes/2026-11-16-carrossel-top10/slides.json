@@ -1,0 +1,374 @@
+{
+ "tipo": "top10",
+ "serie": "TOP 10 DO GITHUB",
+ "conta": "@inema.tech",
+ "data_br": "16/11/2026",
+ "capa": {
+  "linha1": "TOP 10",
+  "linha2": "DO GITHUB HOJE",
+  "numero": "+8.566",
+  "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas",
+  "manchete": "GIGANTES ENSINAM SUA IA A PROGRAMAR",
+  "destaque": "GIGANTES",
+  "fundo": [
+   "prints/1.png",
+   "prints/4.png",
+   "prints/7.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/8.png",
+   "prints/9.png",
+   "prints/10.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "dream-num/univer",
+   "repo": "univer",
+   "url": "https://github.com/dream-num/univer",
+   "gancho": [
+    "SEU ESCRITÓRIO",
+    "COM IA DENTRO?"
+   ],
+   "o_que_e": "Um kit de código aberto para montar o seu próprio escritório com IA, com planilhas, textos e slides editáveis por pessoas e por assistentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilha, texto e slide",
+     "texto": "Edita, calcula e trabalha com arquivos de Excel, Word e PowerPoint."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para IA também",
+     "texto": "Você conecta o seu aplicativo ou o seu assistente de IA aos documentos."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "LIGA SEU APP",
+    "EDITA COM IA"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+1.878",
+   "stat_rotulo": "hoje",
+   "total": "27.291",
+   "info2": "TypeScript · desde 09/2022"
+  },
+  {
+   "pos": 2,
+   "nome": "GoogleChrome/modern-web-guidance-src",
+   "repo": "modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "gancho": [
+    "SUA IA FAZ SITE",
+    "DO JEITO MODERNO"
+   ],
+   "o_que_e": "Um conjunto de instruções do Google Chrome que ensina a sua IA de programação a montar sites com práticas atuais, sem truques velhos.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Feito por navegadores",
+     "texto": "Mantido pelas equipes do Chrome, Edge, Firefox e MDN com a comunidade."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Evita código velho",
+     "texto": "Afasta a IA de soluções antigas e checa se o navegador aceita o recurso."
+    }
+   ],
+   "fluxo": [
+    "RODA O COMANDO",
+    "SEGUE O GUIA",
+    "IA ATUALIZADA"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+1.200",
+   "stat_rotulo": "hoje",
+   "total": "7.706",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 3,
+   "nome": "Tencent/LoopForge",
+   "repo": "LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "gancho": [
+    "VÁRIAS IAS",
+    "COM SEU AVAL"
+   ],
+   "o_que_e": "Um espaço de trabalho da Tencent, instalado no seu servidor, em que você pede pelo chat e várias IAs programam, mas só seguem com a sua aprovação.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Junta várias IAs",
+     "texto": "Coordena Claude Code, Codex, CodeBuddy, Cursor e outros programas de IA."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Você aprova cada etapa",
+     "texto": "Roda em caixas isoladas no Docker, com pontos de revisão humana."
+    }
+   ],
+   "fluxo": [
+    "PEDE NO CHAT",
+    "IAS TRABALHAM",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "opengraph",
+   "stat": "+1.016",
+   "stat_rotulo": "hoje",
+   "total": "2.138",
+   "info2": "Go · desde 07/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "alibaba/open-code-review",
+   "repo": "open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "gancho": [
+    "SEU CÓDIGO",
+    "REVISADO POR IA"
+   ],
+   "o_que_e": "Um revisor de código com IA da Alibaba, usado lá dentro por milhares de programadores, que aponta erros linha por linha.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Comentário por linha",
+     "texto": "Lê as mudanças, procura no projeto todo e marca o erro na linha certa."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Usa o modelo que quiser",
+     "texto": "Funciona com modelos de IA compatíveis com OpenAI e Anthropic."
+    }
+   ],
+   "fluxo": [
+    "LIGA O MODELO",
+    "RODA A REVISÃO",
+    "LÊ OS ALERTAS"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+946",
+   "stat_rotulo": "hoje",
+   "total": "52.625",
+   "info2": "Go · desde 05/2026"
+  },
+  {
+   "pos": 5,
+   "nome": "tradermonty/claude-trading-skills",
+   "repo": "claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "gancho": [
+    "CLAUDE NA BOLSA",
+    "COM DISCIPLINA"
+   ],
+   "o_que_e": "Um conjunto de habilidades para o Claude Code ajudar quem investe a analisar o mercado, planejar operações e controlar o risco.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Análise de mercado",
+     "texto": "Gráficos técnicos, calendário econômico e filtros de ações no Claude."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Foco no processo",
+     "texto": "Ajuda a planejar e revisar decisões; não é recomendação de compra."
+    }
+   ],
+   "fluxo": [
+    "INSTALA SKILLS",
+    "PEDE ANÁLISE",
+    "PLANEJA A AÇÃO"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "opengraph",
+   "stat": "+841",
+   "stat_rotulo": "hoje",
+   "total": "5.963",
+   "info2": "Python · desde 10/2025"
+  },
+  {
+   "pos": 6,
+   "nome": "ChromeDevTools/chrome-devtools-mcp",
+   "repo": "chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "gancho": [
+    "SUA IA NO",
+    "NAVEGADOR REAL"
+   ],
+   "o_que_e": "Uma ferramenta do Google Chrome que deixa a sua IA de programação abrir, controlar e investigar um navegador Chrome de verdade.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Investiga o site",
+     "texto": "Vê as conexões da página, tira prints e lê as mensagens de erro."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Mede a velocidade",
+     "texto": "Grava o carregamento e mostra o que deixa a página lenta."
+    }
+   ],
+   "fluxo": [
+    "LIGA NA SUA IA",
+    "IA ABRE CHROME",
+    "ACHA O PROBLEMA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "opengraph",
+   "stat": "+837",
+   "stat_rotulo": "hoje",
+   "total": "57.401",
+   "info2": "TypeScript · desde 09/2025"
+  },
+  {
+   "pos": 7,
+   "nome": "ag-ui-protocol/ag-ui",
+   "repo": "ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "gancho": [
+    "IA DENTRO",
+    "DO SEU APP"
+   ],
+   "o_que_e": "Uma língua comum, aberta e leve, que padroniza como assistentes de IA conversam com os aplicativos que as pessoas usam.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Padrão aberto",
+     "texto": "Define cerca de 16 tipos de evento entre a IA e a tela do usuário."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Começa em segundos",
+     "texto": "Um único comando cria um aplicativo novo já pronto para a IA."
+    }
+   ],
+   "fluxo": [
+    "CRIA O APP",
+    "LIGA A IA",
+    "USA NA TELA"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+790",
+   "stat_rotulo": "hoje",
+   "total": "18.335",
+   "info2": "TypeScript · desde 05/2025"
+  },
+  {
+   "pos": 8,
+   "nome": "backnotprop/plannotator",
+   "repo": "plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "gancho": [
+    "CORRIJA A IA",
+    "ANTES DELA AGIR"
+   ],
+   "o_que_e": "Um painel no seu navegador para você revisar, anotar e corrigir o plano e o código da sua IA, e mandar o retorno com um clique.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Anota e devolve",
+     "texto": "Você marca o plano e o comentário volta direto para a IA agir."
+    },
+    {
+     "icone": "code",
+     "titulo": "Funciona com várias IAs",
+     "texto": "Claude Code, Codex, Gemini CLI, OpenCode, Copilot e outras."
+    }
+   ],
+   "fluxo": [
+    "IA PROPÕE",
+    "VOCÊ ANOTA",
+    "IA AJUSTA"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "opengraph",
+   "stat": "+689",
+   "stat_rotulo": "hoje",
+   "total": "12.196",
+   "info2": "TypeScript · desde 12/2025"
+  },
+  {
+   "pos": 9,
+   "nome": "google-labs-code/stitch-skills",
+   "repo": "stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "gancho": [
+    "SUA IA DESENHA",
+    "TELAS DE APP?"
+   ],
+   "o_que_e": "Uma coleção de habilidades do Google Stitch que faz a sua IA de programação desenhar e montar telas de aplicativo e site.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Design e montagem",
+     "texto": "Pacotes separados para desenhar telas, montar peças e utilidades."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Roda em várias IAs",
+     "texto": "Compatível com Codex, Claude Code, Cursor, Gemini CLI e Antigravity."
+    }
+   ],
+   "fluxo": [
+    "INSTALA PLUGIN",
+    "PEDE A TELA",
+    "TELA PRONTA"
+   ],
+   "print": "prints/9.png",
+   "print_fonte": "opengraph",
+   "stat": "+247",
+   "stat_rotulo": "hoje",
+   "total": "9.568",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 10,
+   "nome": "NVIDIA/SkillEvaluator",
+   "repo": "SkillEvaluator",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "gancho": [
+    "SUA SKILL",
+    "FUNCIONA MESMO?"
+   ],
+   "o_que_e": "Um avaliador da Nvidia que testa as habilidades da sua IA e compara os resultados com e sem cada habilidade instalada.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Checagem de qualidade",
+     "texto": "O primeiro nível roda sem chave de acesso, direto no seu computador."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Mede o efeito real",
+     "texto": "Compara a IA trabalhando com e sem a habilidade nas mesmas tarefas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "TESTA A SKILL",
+    "VÊ O RESULTADO"
+   ],
+   "print": "prints/10.png",
+   "print_fonte": "opengraph",
+   "stat": "+122",
+   "stat_rotulo": "hoje",
+   "total": "2.198",
+   "info2": "Python · desde 06/2026"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 10 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

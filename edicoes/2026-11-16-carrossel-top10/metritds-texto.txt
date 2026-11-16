@@ -1,0 +1,17 @@
+Top 10 do GitHub · 16/11/2026
+
+Google, Nvidia, Alibaba e Tencent dominaram o GitHub hoje com ferramentas que ensinam a sua IA a programar melhor. Passa o carrossel para ver os 10 projetos que mais cresceram no dia. E no inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.
+
+1. dream-num/univer
+2. GoogleChrome/modern-web-guidance-src
+3. Tencent/LoopForge
+4. alibaba/open-code-review
+5. tradermonty/claude-trading-skills
+6. ChromeDevTools/chrome-devtools-mcp
+7. ag-ui-protocol/ag-ui
+8. backnotprop/plannotator
+9. google-labs-code/stitch-skills
+10. NVIDIA/SkillEvaluator
+
+Tá tudo no inema.club: lá você aprende a integrar estes projetos em vez de só copiar, direto na internet
+#github #opensource #ia #programacao #inemaclub

@@ -1,0 +1,82 @@
+{
+ "dream-num/univer": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/workspace-promo.png",
+  "tam": [
+   1400,
+   700
+  ]
+ },
+ "GoogleChrome/modern-web-guidance-src": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/GoogleChrome/modern-web-guidance-src",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "Tencent/LoopForge": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/Tencent/LoopForge",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "alibaba/open-code-review": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/benchmark-en.png",
+  "tam": [
+   1400,
+   1004
+  ]
+ },
+ "tradermonty/claude-trading-skills": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/tradermonty/claude-trading-skills",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "ChromeDevTools/chrome-devtools-mcp": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/ChromeDevTools/chrome-devtools-mcp",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "ag-ui-protocol/ag-ui": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/c298eea8-3f39-4a94-b968-7712429b0c49",
+  "tam": [
+   1400,
+   824
+  ]
+ },
+ "backnotprop/plannotator": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/backnotprop/plannotator",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "google-labs-code/stitch-skills": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/google-labs-code/stitch-skills",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "NVIDIA/SkillEvaluator": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/NVIDIA/SkillEvaluator",
+  "tam": [
+   1200,
+   600
+  ]
+ }
+}
