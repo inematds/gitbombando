@@ -1,0 +1,12 @@
+O Google perdeu o topo do GitHub: Univer dispara com +1.878 estrelas em um dia
+
+#1 dream-num/univer — https://github.com/dream-num/univer
+#2 GoogleChrome/modern-web-guidance-src — https://github.com/GoogleChrome/modern-web-guidance-src
+#3 Tencent/LoopForge — https://github.com/Tencent/LoopForge
+#4 alibaba/open-code-review — https://github.com/alibaba/open-code-review
+#5 tradermonty/claude-trading-skills — https://github.com/tradermonty/claude-trading-skills
+#6 ChromeDevTools/chrome-devtools-mcp — https://github.com/ChromeDevTools/chrome-devtools-mcp
+#7 ag-ui-protocol/ag-ui — https://github.com/ag-ui-protocol/ag-ui
+#8 backnotprop/plannotator — https://github.com/backnotprop/plannotator
+#9 google-labs-code/stitch-skills — https://github.com/google-labs-code/stitch-skills
+#10 NVIDIA/SkillEvaluator — https://github.com/NVIDIA/SkillEvaluator

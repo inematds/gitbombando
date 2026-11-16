@@ -1,0 +1,150 @@
+modo: dia
+gancho:
+  tipo: noticia
+  manchete: 'GOOGLE PERDE O TRONO: +1.878'
+  destaque: '+1.878'
+  objeto: uma coroa dourada do Google rachando ao meio, com raios de luz amarela escapando
+    pelas rachaduras
+  fontes:
+  - nome: github.com/trending
+    trecho: dream-num/univer · 1,878 stars today
+  - nome: github.com/trending
+    trecho: GoogleChrome/modern-web-guidance-src · 1,200 stars today
+abertura:
+  cena: sala de servidores escura à noite, fumaça baixa no chão, só a luz amarela
+    explodindo do centro
+partes:
+- etapa: gancho
+  fala: Depois de três dias seguidos, o Google perdeu o primeiro lugar do GitHub.
+    E quem derrubou foi um projeto que ontem estava lá embaixo.
+- etapa: panorama
+  fala: Os dez que mais cresceram hoje somaram oito mil quinhentas e sessenta e seis
+    estrelas. Tem Google, Nvidia, Alibaba e Tencent na briga. Vou do décimo ao primeiro.
+  numero: '8.566'
+- etapa: repo
+  repo: NVIDIA/SkillEvaluator
+  desc: 'Da Nvidia: um avaliador que testa se as habilidades da sua IA funcionam de
+    verdade.'
+  destaque: funcionam de verdade
+  numero: '122'
+  fala: Abrindo em décimo, a Nvidia. O SkillEvaluator testa se as habilidades que
+    você ensina pra sua IA ajudam mesmo ou só atrapalham. Cento e vinte e duas estrelas.
+- etapa: repo
+  repo: google-labs-code/stitch-skills
+  desc: 'Do Google: habilidades que fazem a sua IA desenhar telas de aplicativo e
+    site.'
+  destaque: desenhar telas
+  numero: '247'
+  fala: Nono lugar, mais um do Google. O Stitch Skills ensina a sua IA a desenhar
+    telas de site e de aplicativo, como um designer. Duzentas e quarenta e sete estrelas.
+- etapa: repo
+  repo: backnotprop/plannotator
+  desc: Um painel pra você revisar, anotar e corrigir o plano da sua IA antes dela
+    agir.
+  destaque: antes dela agir
+  numero: '689'
+  fala: Em oitavo, o Plannotator, que não sai do Top dez. A IA mostra o plano, você
+    anota, corrige e devolve com um clique. Quem manda é você. Seiscentas e oitenta
+    e nove estrelas.
+- etapa: repo
+  repo: ag-ui-protocol/ag-ui
+  desc: Uma língua comum pra colocar assistentes de IA dentro de qualquer aplicativo.
+  destaque: dentro de qualquer aplicativo
+  numero: '790'
+  fala: Sétimo, o AG-UI. É uma espécie de idioma comum pra colocar um assistente de
+    IA conversando dentro de qualquer aplicativo que você usa. Setecentas e noventa
+    estrelas.
+- etapa: repo
+  repo: ChromeDevTools/chrome-devtools-mcp
+  desc: 'Do Google Chrome: deixa a sua IA abrir, mexer e investigar um navegador de
+    verdade.'
+  destaque: navegador de verdade
+  numero: '837'
+  fala: Em sexto, o Google de novo, que não sai do Top dez. O Chrome DevTools para
+    agentes deixa a sua IA abrir o navegador e achar o erro do site sozinha. Oitocentas
+    e trinta e sete estrelas.
+- etapa: repo
+  repo: tradermonty/claude-trading-skills
+  desc: Habilidades pro Claude analisar a bolsa, planejar operações e controlar o
+    risco.
+  destaque: analisar a bolsa
+  numero: '841'
+  fala: Quinto, a IA analista de bolsa, que também não sai do Top dez. Ela organiza
+    sua análise e seu risco. Mas não é conselho de investimento, cuidado. Oitocentas
+    e quarenta e uma estrelas.
+- etapa: repo
+  repo: alibaba/open-code-review
+  desc: 'Da Alibaba: o revisor de código com IA que já achou milhões de erros lá dentro.'
+  destaque: milhões de erros
+  numero: '946'
+  fala: Em quarto, a Alibaba, firme no Top dez. O Open Code Review é o revisor de
+    IA que ela usava por dentro e já pegou milhões de erros. Agora é aberto pra você.
+    Novecentas e quarenta e seis estrelas.
+- etapa: repo
+  repo: Tencent/LoopForge
+  desc: 'Da Tencent: um chefe de equipe que coloca várias IAs pra programar com a
+    sua aprovação.'
+  destaque: com a sua aprovação
+  numero: '1.016'
+  fala: E agora o pódio. Terceiro, a gigante chinesa Tencent. O LoopForge põe várias
+    inteligências artificiais pra programar em equipe, mas só entrega com a sua aprovação.
+    Cresceu noventa por cento num dia. Mil e dezesseis estrelas.
+- etapa: repo
+  repo: GoogleChrome/modern-web-guidance-src
+  desc: 'Do Google Chrome: ensina a sua IA a montar sites do jeito moderno, sem truques
+    velhos.'
+  destaque: jeito moderno
+  numero: '1.200'
+  fala: Em segundo, o ex-campeão. O Modern Web Guidance, do Google, ensina a sua IA
+    a fazer sites do jeito certo de hoje. Foram três dias no topo. Hoje caiu. Mil
+    e duzentas estrelas.
+- etapa: repo
+  repo: dream-num/univer
+  desc: 'Kit pra montar o seu próprio escritório com IA: planilhas, textos e slides.'
+  destaque: escritório com IA
+  numero: '1.878'
+  fala: E o número um derrubou o Google. Ontem era oitavo. O Univer é um kit aberto
+    pra montar o seu próprio escritório, com planilha, texto e apresentação, e a IA
+    trabalhando junto. Mil oitocentas e setenta e oito estrelas.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo
+    no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só
+    copiar, e direto na internet.
+trocas:
+  oito mil quinhentas e sessenta e seis: '8.566'
+  noventa por cento: 90%
+  Cento e vinte e duas: '122'
+  Duzentas e quarenta e sete: '247'
+  Seiscentas e oitenta e nove: '689'
+  Setecentas e noventa: '790'
+  Oitocentas e trinta e sete: '837'
+  Oitocentas e quarenta e uma: '841'
+  Novecentas e quarenta e seis: '946'
+  Mil e dezesseis: '1.016'
+  Mil e duzentas: '1.200'
+  Mil oitocentas e setenta e oito: '1.878'
+cores:
+  bombando: '#FACC15'
+  Google: '#FACC15'
+  Nvidia: '#FACC15'
+  Alibaba: '#FACC15'
+  Tencent: '#FACC15'
+  derrubou: '#FACC15'
+  cuidado: '#ff2a1f'
+  caiu: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: 'O Google perdeu o topo do GitHub: Univer dispara com +1.878 estrelas em
+    um dia'
+  contexto: Top 10 do GitHub de 16/11/2026, do décimo ao primeiro, com os projetos
+    que mais ganharam estrelas no dia. O Univer, kit de escritório com IA, saltou
+    do oitavo lugar para o primeiro com 1.878 estrelas e tirou o Google do topo depois
+    de três dias.
+  telegram: 'Virada no GitHub: o Univer, kit aberto pra montar seu próprio escritório
+    com IA, ganhou 1.878 estrelas e tirou o Google do primeiro lugar. No pódio ainda
+    estão o Modern Web Guidance, do Google, e o LoopForge, da Tencent, que cresceu
+    90% num dia.'

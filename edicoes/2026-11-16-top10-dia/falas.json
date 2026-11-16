@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Depois de três dias seguidos, o Google perdeu o primeiro lugar do GitHub. E quem derrubou foi um projeto que ontem estava lá embaixo.",
+  "legenda": "Depois de três dias seguidos, o Google perdeu o primeiro lugar do GitHub. E quem derrubou foi um projeto que ontem estava lá embaixo."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez que mais cresceram hoje somaram oito mil quinhentas e sessenta e seis estrelas. Tem Google, Nvidia, Alibaba e Tencent na briga. Vou do décimo ao primeiro.",
+  "legenda": "Os dez que mais cresceram hoje somaram 8.566 estrelas. Tem Google, Nvidia, Alibaba e Tencent na briga. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Abrindo em décimo, a Nvidia. O SkillEvaluator testa se as habilidades que você ensina pra sua IA ajudam mesmo ou só atrapalham. Cento e vinte e duas estrelas.",
+  "legenda": "Abrindo em décimo, a Nvidia. O SkillEvaluator testa se as habilidades que você ensina pra sua IA ajudam mesmo ou só atrapalham. 122 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Nono lugar, mais um do Google. O Stitch Skills ensina a sua IA a desenhar telas de site e de aplicativo, como um designer. Duzentas e quarenta e sete estrelas.",
+  "legenda": "Nono lugar, mais um do Google. O Stitch Skills ensina a sua IA a desenhar telas de site e de aplicativo, como um designer. 247 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, o Plannotator, que não sai do Top dez. A IA mostra o plano, você anota, corrige e devolve com um clique. Quem manda é você. Seiscentas e oitenta e nove estrelas.",
+  "legenda": "Em oitavo, o Plannotator, que não sai do Top dez. A IA mostra o plano, você anota, corrige e devolve com um clique. Quem manda é você. 689 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo, o AG-UI. É uma espécie de idioma comum pra colocar um assistente de IA conversando dentro de qualquer aplicativo que você usa. Setecentas e noventa estrelas.",
+  "legenda": "Sétimo, o AG-UI. É uma espécie de idioma comum pra colocar um assistente de IA conversando dentro de qualquer aplicativo que você usa. 790 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, o Google de novo, que não sai do Top dez. O Chrome DevTools para agentes deixa a sua IA abrir o navegador e achar o erro do site sozinha. Oitocentas e trinta e sete estrelas.",
+  "legenda": "Em sexto, o Google de novo, que não sai do Top dez. O Chrome DevTools para agentes deixa a sua IA abrir o navegador e achar o erro do site sozinha. 837 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Quinto, a IA analista de bolsa, que também não sai do Top dez. Ela organiza sua análise e seu risco. Mas não é conselho de investimento, cuidado. Oitocentas e quarenta e uma estrelas.",
+  "legenda": "Quinto, a IA analista de bolsa, que também não sai do Top dez. Ela organiza sua análise e seu risco. Mas não é conselho de investimento, cuidado. 841 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, a Alibaba, firme no Top dez. O Open Code Review é o revisor de IA que ela usava por dentro e já pegou milhões de erros. Agora é aberto pra você. Novecentas e quarenta e seis estrelas.",
+  "legenda": "Em quarto, a Alibaba, firme no Top dez. O Open Code Review é o revisor de IA que ela usava por dentro e já pegou milhões de erros. Agora é aberto pra você. 946 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Terceiro, a gigante chinesa Tencent. O LoopForge põe várias inteligências artificiais pra programar em equipe, mas só entrega com a sua aprovação. Cresceu noventa por cento num dia. Mil e dezesseis estrelas.",
+  "legenda": "E agora o pódio. Terceiro, a gigante chinesa Tencent. O LoopForge põe várias inteligências artificiais pra programar em equipe, mas só entrega com a sua aprovação. Cresceu 90% num dia. 1.016 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, o ex-campeão. O Modern Web Guidance, do Google, ensina a sua IA a fazer sites do jeito certo de hoje. Foram três dias no topo. Hoje caiu. Mil e duzentas estrelas.",
+  "legenda": "Em segundo, o ex-campeão. O Modern Web Guidance, do Google, ensina a sua IA a fazer sites do jeito certo de hoje. Foram três dias no topo. Hoje caiu. 1.200 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um derrubou o Google. Ontem era oitavo. O Univer é um kit aberto pra montar o seu próprio escritório, com planilha, texto e apresentação, e a IA trabalhando junto. Mil oitocentas e setenta e oito estrelas.",
+  "legenda": "E o número um derrubou o Google. Ontem era oitavo. O Univer é um kit aberto pra montar o seu próprio escritório, com planilha, texto e apresentação, e a IA trabalhando junto. 1.878 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]
