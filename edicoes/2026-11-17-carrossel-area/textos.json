@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "A IA AGORA USA SEU CELULAR",
+  "destaque": "CELULAR"
+ },
+ "repos": {
+  "qybaihe/bla": {
+   "gancho": [
+    "PROTEJA SEU CÓDIGO",
+    "DA IA QUE DESMONTA"
+   ],
+   "o_que_e": "Uma ferramenta de código aberto que protege seus programas contra agentes de IA que tentam desmontá-los para descobrir como funcionam.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Vários formatos",
+     "texto": "Protege JavaScript, Python, apps Android, SQLite e arquivos de modelos."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Terminal ou MCP",
+     "texto": "Roda como programa de terminal ou conectado ao Claude Code via MCP."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O APP",
+    "APLICA A DEFESA",
+    "IA SE CONFUNDE"
+   ]
+  },
+  "haydenschmitty/floorplan": {
+   "gancho": [
+    "ENTENDA SEU APP",
+    "NUM MAPA SÓ"
+   ],
+   "o_que_e": "Um complemento para Claude Code e Codex que lê o código do seu app e desenha um mapa interativo, com nomes simples para cada parte.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Cada ligação à vista",
+     "texto": "Mostra cada parte, arquivo e pedido na internet e como eles se conectam."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Pergunte ao mapa",
+     "texto": "Você explora o mapa, faz perguntas e o mantém atualizado enquanto trabalha."
+    }
+   ],
+   "fluxo": [
+    "PEDE O MAPA",
+    "IA LÊ O CÓDIGO",
+    "MAPA PRONTO"
+   ]
+  },
+  "DIYgod/pinky": {
+   "gancho": [
+    "IA NO SEU CELULAR",
+    "COM SUA APROVAÇÃO"
+   ],
+   "o_que_e": "Um aplicativo que deixa a IA usar seu iPhone ou Android de verdade, enquanto você assiste no computador e aprova os passos arriscados.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Você aprova antes",
+     "texto": "Por padrão, pede sua permissão antes de qualquer pagamento no celular."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Qualquer agente",
+     "texto": "Funciona com Claude Code, Codex, Cursor ou sozinho, direto no celular."
+    }
+   ],
+   "fluxo": [
+    "LIGA O CELULAR",
+    "PEDE A TAREFA",
+    "VOCÊ APROVA"
+   ]
+  },
+  "microsoft/TokenEconomizer": {
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "GASTANDO MENOS"
+   ],
+   "o_que_e": "Uma ferramenta da Microsoft que deixa agentes de programação mais baratos, aprendendo com as sessões anteriores em cada projeto.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Custo menor",
+     "texto": "Nos testes, cortou de 18% a 30% do custo médio em cinco combinações."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Lembra o projeto",
+     "texto": "Guarda fatos do projeto, como o comando certo, para não redescobrir sempre."
+    }
+   ],
+   "fluxo": [
+    "USA O AGENTE",
+    "ELE APRENDE",
+    "GASTA MENOS"
+   ]
+  },
+  "openfilm/openfilm": {
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "FAZENDO VÍDEOS"
+   ],
+   "o_que_e": "Um editor de vídeo de código aberto que transforma agentes como o Claude Code em criadores de vídeo, e você ajusta tudo o que eles fazem.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "A IA monta o filme",
+     "texto": "Busca imagens, música e vozes, escreve cada cena e faz os cortes."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Aponte e peça",
+     "texto": "Você aponta um trecho e pede a mudança, ou edita à mão na linha do tempo."
+    }
+   ],
+   "fluxo": [
+    "PEDE O VÍDEO",
+    "A IA EDITA",
+    "VOCÊ AJUSTA"
+   ]
+  },
+  "alchaincyf/huashu-art-motion": {
+   "gancho": [
+    "ARTE QUE SE MEXE",
+    "FEITA COM CÓDIGO"
+   ],
+   "o_que_e": "Um pacote de instruções (skill) para Claude Code e Codex que transforma estilos de arte em animações feitas com código.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Dezenas de estilos",
+     "texto": "Traz 35 estilos artísticos e 9 formatos de explicação prontos para usar."
+    },
+    {
+     "icone": "download",
+     "titulo": "Instala com um comando",
+     "texto": "Um comando no terminal adiciona a skill ao seu agente de programação."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "ESCOLHE ESTILO",
+    "ANIMAÇÃO PRONTA"
+   ]
+  },
+  "Leonxlnx/earshot": {
+   "gancho": [
+    "SUA IA AGORA",
+    "CONSEGUE OUVIR"
+   ],
+   "o_que_e": "Uma ferramenta de código aberto que dá ouvidos aos agentes de IA: eles escutam, avaliam e criam sons para vídeos e jogos.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Funciona localmente, só com o processador, sem placa de vídeo."
+    },
+    {
+     "icone": "mic",
+     "titulo": "Cria sons em código",
+     "texto": "O agente cria os próprios efeitos sonoros e melhora ouvindo o resultado."
+    }
+   ],
+   "fluxo": [
+    "MANDA O ÁUDIO",
+    "A IA ESCUTA",
+    "SOM AJUSTADO"
+   ]
+  },
+  "Louis-CFM/coucou": {
+   "gancho": [
+    "SEUS AGENTES",
+    "NO NOTCH DO MAC"
+   ],
+   "o_que_e": "Um app de código aberto que vive no topo da tela do Mac e no iPhone e avisa quando seus agentes de IA, como o Claude Code, precisam de você.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Aprove de qualquer lugar",
+     "texto": "Libere permissões pelo notch do Mac ou pela tela de bloqueio do iPhone."
+    },
+    {
+     "icone": "mic",
+     "titulo": "Ditado por voz",
+     "texto": "Segure uma tecla, fale e o texto aparece onde você digita, offline."
+    }
+   ],
+   "fluxo": [
+    "ABRE O APP",
+    "AGENTE TRABALHA",
+    "VOCÊ APROVA"
+   ]
+  }
+ },
+ "legenda_abertura": "A IA já usa seu celular, ouve sons e faz vídeos: estes são os 8 projetos de Claude Code, MCP e skills que mais crescem no GitHub. Passe o carrossel para ver o que cada um faz. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 8 projetos de Claude Code, MCP e skills que mais crescem no GitHub, da IA que usa seu celular ao agente que gasta menos. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

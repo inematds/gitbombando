@@ -1,0 +1,304 @@
+{
+ "tipo": "area",
+ "serie": "TOP 8 · CLAUDE CODE E MCP",
+ "conta": "@inema.tech",
+ "data_br": "17/11/2026",
+ "capa": {
+  "linha1": "TOP 8",
+  "linha2": "CLAUDE CODE E MCP",
+  "numero": "+1.563",
+  "numero_rotulo": "estrelas por dia, somando os 8 (criados nos últimos meses)",
+  "manchete": "A IA AGORA USA SEU CELULAR",
+  "destaque": "CELULAR",
+  "fundo": [
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/8.png",
+   "prints/1.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "qybaihe/bla",
+   "repo": "bla",
+   "url": "https://github.com/qybaihe/bla",
+   "gancho": [
+    "PROTEJA SEU CÓDIGO",
+    "DA IA QUE DESMONTA"
+   ],
+   "o_que_e": "Uma ferramenta de código aberto que protege seus programas contra agentes de IA que tentam desmontá-los para descobrir como funcionam.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Vários formatos",
+     "texto": "Protege JavaScript, Python, apps Android, SQLite e arquivos de modelos."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Terminal ou MCP",
+     "texto": "Roda como programa de terminal ou conectado ao Claude Code via MCP."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O APP",
+    "APLICA A DEFESA",
+    "IA SE CONFUNDE"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "opengraph",
+   "stat": "+260",
+   "stat_rotulo": "por dia",
+   "total": "6.047",
+   "info2": "TypeScript · criado há 23 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "haydenschmitty/floorplan",
+   "repo": "floorplan",
+   "url": "https://github.com/haydenschmitty/floorplan",
+   "gancho": [
+    "ENTENDA SEU APP",
+    "NUM MAPA SÓ"
+   ],
+   "o_que_e": "Um complemento para Claude Code e Codex que lê o código do seu app e desenha um mapa interativo, com nomes simples para cada parte.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Cada ligação à vista",
+     "texto": "Mostra cada parte, arquivo e pedido na internet e como eles se conectam."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Pergunte ao mapa",
+     "texto": "Você explora o mapa, faz perguntas e o mantém atualizado enquanto trabalha."
+    }
+   ],
+   "fluxo": [
+    "PEDE O MAPA",
+    "IA LÊ O CÓDIGO",
+    "MAPA PRONTO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+225",
+   "stat_rotulo": "por dia",
+   "total": "4.720",
+   "info2": "JavaScript · criado há 21 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "DIYgod/pinky",
+   "repo": "pinky",
+   "url": "https://github.com/DIYgod/pinky",
+   "gancho": [
+    "IA NO SEU CELULAR",
+    "COM SUA APROVAÇÃO"
+   ],
+   "o_que_e": "Um aplicativo que deixa a IA usar seu iPhone ou Android de verdade, enquanto você assiste no computador e aprova os passos arriscados.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Você aprova antes",
+     "texto": "Por padrão, pede sua permissão antes de qualquer pagamento no celular."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Qualquer agente",
+     "texto": "Funciona com Claude Code, Codex, Cursor ou sozinho, direto no celular."
+    }
+   ],
+   "fluxo": [
+    "LIGA O CELULAR",
+    "PEDE A TAREFA",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+219",
+   "stat_rotulo": "por dia",
+   "total": "2.367",
+   "info2": "Go · criado há 11 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "microsoft/TokenEconomizer",
+   "repo": "TokenEconomizer",
+   "url": "https://github.com/microsoft/TokenEconomizer",
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "GASTANDO MENOS"
+   ],
+   "o_que_e": "Uma ferramenta da Microsoft que deixa agentes de programação mais baratos, aprendendo com as sessões anteriores em cada projeto.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Custo menor",
+     "texto": "Nos testes, cortou de 18% a 30% do custo médio em cinco combinações."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Lembra o projeto",
+     "texto": "Guarda fatos do projeto, como o comando certo, para não redescobrir sempre."
+    }
+   ],
+   "fluxo": [
+    "USA O AGENTE",
+    "ELE APRENDE",
+    "GASTA MENOS"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+211",
+   "stat_rotulo": "por dia",
+   "total": "7.463",
+   "info2": "Python · criado há 35 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "openfilm/openfilm",
+   "repo": "openfilm",
+   "url": "https://github.com/openfilm/openfilm",
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "FAZENDO VÍDEOS"
+   ],
+   "o_que_e": "Um editor de vídeo de código aberto que transforma agentes como o Claude Code em criadores de vídeo, e você ajusta tudo o que eles fazem.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "A IA monta o filme",
+     "texto": "Busca imagens, música e vozes, escreve cada cena e faz os cortes."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Aponte e peça",
+     "texto": "Você aponta um trecho e pede a mudança, ou edita à mão na linha do tempo."
+    }
+   ],
+   "fluxo": [
+    "PEDE O VÍDEO",
+    "A IA EDITA",
+    "VOCÊ AJUSTA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+183",
+   "stat_rotulo": "por dia",
+   "total": "8.090",
+   "info2": "TypeScript · criado há 44 dias"
+  },
+  {
+   "pos": 6,
+   "nome": "alchaincyf/huashu-art-motion",
+   "repo": "huashu-art-motion",
+   "url": "https://github.com/alchaincyf/huashu-art-motion",
+   "gancho": [
+    "ARTE QUE SE MEXE",
+    "FEITA COM CÓDIGO"
+   ],
+   "o_que_e": "Um pacote de instruções (skill) para Claude Code e Codex que transforma estilos de arte em animações feitas com código.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Dezenas de estilos",
+     "texto": "Traz 35 estilos artísticos e 9 formatos de explicação prontos para usar."
+    },
+    {
+     "icone": "download",
+     "titulo": "Instala com um comando",
+     "texto": "Um comando no terminal adiciona a skill ao seu agente de programação."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "ESCOLHE ESTILO",
+    "ANIMAÇÃO PRONTA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+168",
+   "stat_rotulo": "por dia",
+   "total": "7.127",
+   "info2": "JavaScript · criado há 42 dias"
+  },
+  {
+   "pos": 7,
+   "nome": "Leonxlnx/earshot",
+   "repo": "earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "gancho": [
+    "SUA IA AGORA",
+    "CONSEGUE OUVIR"
+   ],
+   "o_que_e": "Uma ferramenta de código aberto que dá ouvidos aos agentes de IA: eles escutam, avaliam e criam sons para vídeos e jogos.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Funciona localmente, só com o processador, sem placa de vídeo."
+    },
+    {
+     "icone": "mic",
+     "titulo": "Cria sons em código",
+     "texto": "O agente cria os próprios efeitos sonoros e melhora ouvindo o resultado."
+    }
+   ],
+   "fluxo": [
+    "MANDA O ÁUDIO",
+    "A IA ESCUTA",
+    "SOM AJUSTADO"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+153",
+   "stat_rotulo": "por dia",
+   "total": "5.085",
+   "info2": "Python · criado há 33 dias"
+  },
+  {
+   "pos": 8,
+   "nome": "Louis-CFM/coucou",
+   "repo": "coucou",
+   "url": "https://github.com/Louis-CFM/coucou",
+   "gancho": [
+    "SEUS AGENTES",
+    "NO NOTCH DO MAC"
+   ],
+   "o_que_e": "Um app de código aberto que vive no topo da tela do Mac e no iPhone e avisa quando seus agentes de IA, como o Claude Code, precisam de você.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Aprove de qualquer lugar",
+     "texto": "Libere permissões pelo notch do Mac ou pela tela de bloqueio do iPhone."
+    },
+    {
+     "icone": "mic",
+     "titulo": "Ditado por voz",
+     "texto": "Segure uma tecla, fale e o texto aparece onde você digita, offline."
+    }
+   ],
+   "fluxo": [
+    "ABRE O APP",
+    "AGENTE TRABALHA",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "readme",
+   "stat": "+144",
+   "stat_rotulo": "por dia",
+   "total": "7.297",
+   "info2": "Swift · criado há 51 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 8 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois. Amanhã tem outra área, sempre às 18h.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

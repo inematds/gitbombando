@@ -1,0 +1,66 @@
+{
+ "qybaihe/bla": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/qybaihe/bla",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "haydenschmitty/floorplan": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/haydenschmitty/floorplan/main/docs/images/video.jpg",
+  "tam": [
+   1400,
+   875
+  ]
+ },
+ "DIYgod/pinky": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/DIYgod/pinky/main/assets/readme/demo.gif",
+  "tam": [
+   760,
+   428
+  ]
+ },
+ "microsoft/TokenEconomizer": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/microsoft/TokenEconomizer/main/docs/assets/teaser.png",
+  "tam": [
+   1400,
+   750
+  ]
+ },
+ "openfilm/openfilm": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/openfilm/openfilm/main/docs/openfilm.webp",
+  "tam": [
+   1280,
+   720
+  ]
+ },
+ "alchaincyf/huashu-art-motion": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/alchaincyf/huashu-art-motion/main/assets/showcase/hero.png",
+  "tam": [
+   1400,
+   931
+  ]
+ },
+ "Leonxlnx/earshot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Leonxlnx/earshot/main/docs/media/launch_frames.png",
+  "tam": [
+   1400,
+   593
+  ]
+ },
+ "Louis-CFM/coucou": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Louis-CFM/coucou/main/docs/media/demo.gif",
+  "tam": [
+   760,
+   450
+  ]
+ }
+}
