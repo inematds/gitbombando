@@ -1,0 +1,82 @@
+{
+ "obra/superpowers": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/obra/superpowers",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "dream-num/univer": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/workspace-promo.png",
+  "tam": [
+   1400,
+   700
+  ]
+ },
+ "ag-ui-protocol/ag-ui": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/c298eea8-3f39-4a94-b968-7712429b0c49",
+  "tam": [
+   1400,
+   824
+  ]
+ },
+ "elementalsouls/Claude-BugHunter": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "alibaba/open-code-review": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/benchmark-en.png",
+  "tam": [
+   1400,
+   1004
+  ]
+ },
+ "affaan-m/ECC": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "backnotprop/plannotator": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/backnotprop/plannotator",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "Tencent/LoopForge": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/Tencent/LoopForge",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "google-labs-code/stitch-skills": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/google-labs-code/stitch-skills",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "google-research/paper-orchestra": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/google-research/paper-orchestra/main/assets/overview.png",
+  "tam": [
+   1400,
+   728
+  ]
+ }
+}

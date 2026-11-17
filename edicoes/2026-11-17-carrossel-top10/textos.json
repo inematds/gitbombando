@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "IAS AGORA PROGRAMAM EM EQUIPE",
+  "destaque": "EQUIPE"
+ },
+ "repos": {
+  "obra/superpowers": {
+   "gancho": [
+    "IA QUE PERGUNTA",
+    "ANTES DE PROGRAMAR"
+   ],
+   "o_que_e": "Um conjunto de habilidades que ensina seu assistente de programação a perguntar, planejar e só depois escrever o código.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "Entende antes de agir",
+     "texto": "Pergunta o que você quer e mostra o plano em partes curtas de ler."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Roda em vários agentes",
+     "texto": "Funciona com Claude Code, Cursor, Gemini CLI, Codex e outros."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ PEDE",
+    "A IA PERGUNTA",
+    "PLANO EM PARTES"
+   ]
+  },
+  "dream-num/univer": {
+   "gancho": [
+    "PLANILHA E TEXTO",
+    "NO SEU APP"
+   ],
+   "o_que_e": "Um kit de código aberto para colocar planilhas, documentos e slides editáveis dentro do seu próprio programa, com IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilhas e documentos",
+     "texto": "Editores abertos de planilhas e de textos para usar como base."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes de IA",
+     "texto": "Pessoas e assistentes de IA editam e calculam no mesmo arquivo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "LIGA SEU APP",
+    "EDITA COM IA"
+   ]
+  },
+  "ag-ui-protocol/ag-ui": {
+   "gancho": [
+    "IA DENTRO",
+    "DO SEU APLICATIVO"
+   ],
+   "o_que_e": "Um padrão aberto que define como assistentes de IA conversam com aplicativos, para levar o mesmo agente a vários lugares.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Vários lugares",
+     "texto": "O mesmo agente pode rodar em site, app de celular, terminal ou Slack."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Começo com um comando",
+     "texto": "Um comando no terminal monta um app já ligado ao agente escolhido."
+    }
+   ],
+   "fluxo": [
+    "RODA O COMANDO",
+    "ESCOLHE A IA",
+    "APP PRONTO"
+   ]
+  },
+  "elementalsouls/Claude-BugHunter": {
+   "gancho": [
+    "CAÇAR FALHAS",
+    "COM O CLAUDE?"
+   ],
+   "o_que_e": "Um pacote de habilidades para o Claude Code que o faz agir como um caçador de falhas de segurança. Use só com permissão.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Casos reais de falhas",
+     "texto": "Padrões tirados de relatórios públicos do HackerOne sobre falhas."
+    },
+    {
+     "icone": "search",
+     "titulo": "Fica dentro do escopo",
+     "texto": "Segue um método de trabalho em fases e respeita o que foi autorizado."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "DEFINE O ALVO",
+    "A IA INVESTIGA"
+   ]
+  },
+  "alibaba/open-code-review": {
+   "gancho": [
+    "REVISÃO DE CÓDIGO",
+    "FEITA PELA IA"
+   ],
+   "o_que_e": "Um programa de terminal que lê as mudanças no seu código e deixa comentários de revisão linha por linha, usando IA.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Testado na Alibaba",
+     "texto": "Usado por dezenas de milhares de programadores dentro da empresa."
+    },
+    {
+     "icone": "link",
+     "titulo": "OpenAI ou Anthropic",
+     "texto": "Você só configura o endereço do modelo de IA que já usa."
+    }
+   ],
+   "fluxo": [
+    "MUDA O CÓDIGO",
+    "A IA REVISA",
+    "COMENTA A LINHA"
+   ]
+  },
+  "affaan-m/ECC": {
+   "gancho": [
+    "MÉTODO E MEMÓRIA",
+    "PRO SEU AGENTE"
+   ],
+   "o_que_e": "Um conjunto de habilidades, memória e segurança para assistentes de programação como Claude Code, Codex e Cursor.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Claude Code, Codex, Opencode, Cursor e outros."
+    },
+    {
+     "icone": "download",
+     "titulo": "Grátis e aberto",
+     "texto": "Licença MIT; só a versão paga cobre repositórios privados."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "VOCÊ PEDE",
+    "IA COM MÉTODO"
+   ]
+  },
+  "backnotprop/plannotator": {
+   "gancho": [
+    "CORRIJA O PLANO",
+    "ANTES DA IA AGIR"
+   ],
+   "o_que_e": "Um painel no navegador em que você lê, anota e comenta o plano da IA, e manda tudo de volta para ela corrigir.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Anota e comenta",
+     "texto": "Marque planos, textos e páginas e mande o retorno ao agente."
+    },
+    {
+     "icone": "code",
+     "titulo": "Revisa o código",
+     "texto": "Revise mudanças locais ou pedidos de alteração no GitHub."
+    }
+   ],
+   "fluxo": [
+    "A IA PLANEJA",
+    "VOCÊ ANOTA",
+    "A IA AJUSTA"
+   ]
+  },
+  "Tencent/LoopForge": {
+   "gancho": [
+    "VÁRIAS IAS",
+    "COM SEU OK"
+   ],
+   "o_que_e": "Uma área de trabalho que roda no seu servidor, onde várias IAs de programação trabalham em equipe e você aprova cada etapa.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Pede no chat",
+     "texto": "Você descreve o pedido e o robô principal divide o trabalho."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Roda no seu servidor",
+     "texto": "Cada tarefa fica num ambiente Docker isolado, sob licença MIT."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ DESCREVE",
+    "IAS TRABALHAM",
+    "VOCÊ APROVA"
+   ]
+  },
+  "google-labs-code/stitch-skills": {
+   "gancho": [
+    "SUA IA VIRA",
+    "DESIGNER DE TELAS"
+   ],
+   "o_que_e": "Uma coleção de habilidades do Google que liga seu assistente de programação ao Google Stitch para criar telas e sites.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Design e construção",
+     "texto": "Pacotes separados para desenhar telas, montar componentes e utilidades."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Codex, Antigravity, Gemini CLI, Claude Code e Cursor."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE A TELA",
+    "DESIGN PRONTO"
+   ]
+  },
+  "google-research/paper-orchestra": {
+   "gancho": [
+    "DAS ANOTAÇÕES",
+    "AO ARTIGO PRONTO"
+   ],
+   "o_que_e": "Um time de IAs do Google que transforma ideias e resultados de experimentos num artigo científico pronto para envio.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Busca referências",
+     "texto": "Pesquisa e encaixa trabalhos relacionados no texto do artigo."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Gera gráficos",
+     "texto": "Cria gráficos e entrega o artigo no formato pedido pela conferência."
+    }
+   ],
+   "fluxo": [
+    "DÁ AS NOTAS",
+    "IAS ESCREVEM",
+    "ARTIGO PRONTO"
+   ]
+  }
+ },
+ "legenda_abertura": "Hoje o GitHub foi das IAs que programam em equipe, planejam antes de agir e esperam o seu ok. Arraste o carrossel e veja os 10 projetos que mais cresceram no dia. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 10 do GitHub de hoje: IAs que perguntam antes de programar, revisam código e trabalham em equipe. Veja o carrossel no @inema.tech. No inema.club está tudo, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
