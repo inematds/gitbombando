@@ -1,0 +1,12 @@
+IA hacker domina o GitHub: Claude BugHunter ganha +2.322 estrelas em um dia
+
+#1 elementalsouls/Claude-BugHunter — https://github.com/elementalsouls/Claude-BugHunter
+#2 google-research/paper-orchestra — https://github.com/google-research/paper-orchestra
+#3 affaan-m/ECC — https://github.com/affaan-m/ECC
+#4 mvanhorn/last30days-skill — https://github.com/mvanhorn/last30days-skill
+#5 obra/superpowers — https://github.com/obra/superpowers
+#6 sveltejs/svelte — https://github.com/sveltejs/svelte
+#7 getarcaneapp/arcane — https://github.com/getarcaneapp/arcane
+#8 HKUDS/CLI-Anything — https://github.com/HKUDS/CLI-Anything
+#9 google-labs-code/stitch-skills — https://github.com/google-labs-code/stitch-skills
+#10 NVIDIA/SkillEvaluator — https://github.com/NVIDIA/SkillEvaluator

@@ -1,0 +1,13 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "Capa com TOP 10 DO GITHUB grande e manchete legível; os números das pílulas 🔥, das estrelas totais e do painel batem com o top10.json; o avatar está presente; o fecho tem caixa vermelha e pílula inema.club; sem defeito visível ao público.",
+ "sugestoes": [
+  "q00 (0.05s): a manchete da capa diz 'EM 24H' e a ficha diz 'EM UM DIA'; o sentido é o mesmo, mas vale alinhar a ficha com o texto renderizado.",
+  "q00–q03 (0.05–4.0s): a legenda karaokê fica sobre o cadeado e esconde o objeto do gancho; subir a legenda ou o cadeado deixaria a capa mais forte.",
+  "q04 (13.46s): no ranking, a linha do ECC fica tão pequena que '+1.109' quase se lê como '+1.100'; uma fonte maior nos números do panorama ajudaria.",
+  "q08 (51.32s): o gráfico do Arcane aparece zerado e sem barras visíveis por muito tempo; começar a animação mais cedo evita a impressão de gráfico vazio.",
+  "q14 (108.11s): no #1, o contador ainda está em 0 no 'UM.'; acelerar o contador ali reforçaria o clímax.",
+  "q12–q15 (89–117s): pódio e #1 têm o mesmo visual dos demais; um destaque extra no #1 polêmico (cor vermelha, selo de alerta) aumentaria a retenção."
+ ]
+}

@@ -1,0 +1,138 @@
+modo: dia
+gancho:
+  tipo: estatistica
+  manchete: 'IA HACKER: +2.322 EM UM DIA'
+  destaque: '+2.322'
+  objeto: um cadeado dourado gigante rachando ao meio, com faíscas vermelhas e amarelas
+    explodindo da rachadura
+  fontes:
+  - nome: github.com/trending
+    trecho: elementalsouls/Claude-BugHunter · 2,322 stars today
+  - nome: github.com/trending
+    trecho: google-research/paper-orchestra · 1,529 stars today
+abertura:
+  cena: sala escura de segurança à noite, telas apagadas e só uma luz amarela vindo
+    do centro
+partes:
+- etapa: gancho
+  fala: Uma inteligência artificial que caça falhas de segurança ganhou mais de duas
+    mil estrelas em um dia. E tomou o primeiro lugar do GitHub.
+- etapa: panorama
+  fala: Os dez que mais cresceram hoje somaram nove mil cento e sessenta e duas estrelas.
+    Tem Google, NVIDIA e uma IA polêmica. Vou do décimo ao primeiro.
+  numero: '9.162'
+- etapa: repo
+  repo: NVIDIA/SkillEvaluator
+  desc: 'Da NVIDIA: testa as habilidades que você instala na IA e mostra se ajudam.'
+  destaque: se ajudam
+  numero: '323'
+  fala: Em décimo, a NVIDIA, gigante dos chips. O SkillEvaluator testa as habilidades
+    que você instala na sua IA e mostra se ajudam ou atrapalham. Trezentas e vinte
+    e três estrelas.
+- etapa: repo
+  repo: google-labs-code/stitch-skills
+  desc: 'Do Google: habilidades que transformam a sua IA em designer de telas.'
+  destaque: designer de telas
+  numero: '369'
+  fala: Número nove, o Google, que não sai do Top dez. O Stitch Skills faz a sua IA
+    desenhar as telas do seu site ou aplicativo. Trezentas e sessenta e nove estrelas.
+- etapa: repo
+  repo: HKUDS/CLI-Anything
+  desc: Deixa qualquer programa pronto pra ser usado direto por uma IA.
+  destaque: qualquer programa
+  numero: '384'
+  fala: 'Oitavo, o CLI-Anything. A ideia é ousada: deixar qualquer programa pronto
+    pra ser comandado por uma inteligência artificial. Trezentas e oitenta e quatro
+    estrelas.'
+- etapa: repo
+  repo: getarcaneapp/arcane
+  desc: Painel simples pra cuidar dos programas do seu servidor, sem decorar comando.
+  destaque: sem decorar comando
+  numero: '547'
+  fala: Em sétimo, o Arcane. Um painel simples pra cuidar dos programas que rodam
+    no seu servidor, sem decorar comando. Quinhentas e quarenta e sete estrelas.
+- etapa: repo
+  repo: sveltejs/svelte
+  desc: Kit veterano pra criar sites rápidos e leves, mantido por voluntários.
+  destaque: rápidos e leves
+  numero: '694'
+  fala: Sexto lugar, um veterano de dez anos. O Svelte é um kit pra criar sites rápidos
+    e leves, feito por voluntários. Seiscentas e noventa e quatro estrelas.
+- etapa: repo
+  repo: obra/superpowers
+  desc: Ensina a IA a perguntar e planejar antes de sair programando.
+  destaque: planejar antes
+  numero: '823'
+  fala: Quinto, o campeão de ontem caiu. O superpowers, que ensina a IA a planejar
+    antes de programar, não sai do Top dez. Oitocentas e vinte e três estrelas.
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Pesquisa qualquer assunto no Reddit, YouTube e X e te entrega um resumo.
+  destaque: um resumo
+  numero: '1.062'
+  fala: Quarto, o last thirty days. Ele vasculha Reddit, YouTube e X sobre qualquer
+    assunto do último mês e te entrega um resumo. Mil e sessenta e duas estrelas.
+- etapa: repo
+  repo: affaan-m/ECC
+  desc: 'Dá método e memória pro seu assistente de programação: planeja, testa e revisa.'
+  destaque: método e memória
+  numero: '1.109'
+  fala: E agora o pódio. Terceiro, o ECC. Ele faz o seu assistente de programação
+    planejar, testar e lembrar do que importa. Hoje, mil cento e nove estrelas.
+- etapa: repo
+  repo: google-research/paper-orchestra
+  desc: 'Do Google: transforma ideias e anotações num artigo científico pronto.'
+  destaque: artigo científico pronto
+  numero: '1.529'
+  fala: Em segundo, o Google de novo. O PaperOrchestra transforma ideias e anotações
+    num artigo científico pronto pra enviar. Cresceu quase sessenta por cento num
+    dia. Mil quinhentas e vinte e nove estrelas.
+- etapa: repo
+  repo: elementalsouls/Claude-BugHunter
+  desc: 'Transforma a IA num caçador de falhas de segurança. Polêmico: só com permissão.'
+  destaque: caçador de falhas
+  numero: '2.322'
+  fala: E o número um. O Claude BugHunter. Ele vira a IA num caçador de falhas de
+    segurança. Serve pra proteger, mas pode servir pra atacar. Isso é polêmico, cuidado.
+    Duas mil trezentas e vinte e duas estrelas.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo
+    no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só
+    copiar, e direto na internet.
+trocas:
+  nove mil cento e sessenta e duas: '9.162'
+  Trezentas e vinte e três: '323'
+  Trezentas e sessenta e nove: '369'
+  Trezentas e oitenta e quatro: '384'
+  Quinhentas e quarenta e sete: '547'
+  Seiscentas e noventa e quatro: '694'
+  Oitocentas e vinte e três: '823'
+  Mil e sessenta e duas: '1.062'
+  mil cento e nove: '1.109'
+  Mil quinhentas e vinte e nove: '1.529'
+  Duas mil trezentas e vinte e duas: '2.322'
+  sessenta por cento: 60%
+cores:
+  bombando: '#FACC15'
+  Google: '#FACC15'
+  NVIDIA: '#FACC15'
+  polêmico: '#ff2a1f'
+  polêmica: '#ff2a1f'
+  cuidado: '#ff2a1f'
+  atacar: '#ff2a1f'
+  caiu: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: 'IA hacker domina o GitHub: Claude BugHunter ganha +2.322 estrelas em um
+    dia'
+  contexto: Top 10 do GitHub de 18/11/2026, do décimo ao primeiro, com os projetos
+    que mais ganharam estrelas no dia. O Claude BugHunter, que transforma a IA em
+    caçadora de falhas de segurança, ganhou 2.322 estrelas e tomou o topo.
+  telegram: 'Uma IA caçadora de falhas de segurança, o Claude BugHunter, ganhou 2.322
+    estrelas e tomou o primeiro lugar do GitHub. É polêmico: serve pra proteger, mas
+    também pra atacar. No Top 10 ainda tem Google em dobro, NVIDIA e o superpowers
+    caindo do topo.'

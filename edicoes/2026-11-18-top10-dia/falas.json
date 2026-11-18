@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Uma inteligência artificial que caça falhas de segurança ganhou mais de duas mil estrelas em um dia. E tomou o primeiro lugar do GitHub.",
+  "legenda": "Uma inteligência artificial que caça falhas de segurança ganhou mais de duas mil estrelas em um dia. E tomou o primeiro lugar do GitHub."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez que mais cresceram hoje somaram nove mil cento e sessenta e duas estrelas. Tem Google, NVIDIA e uma IA polêmica. Vou do décimo ao primeiro.",
+  "legenda": "Os dez que mais cresceram hoje somaram 9.162 estrelas. Tem Google, NVIDIA e uma IA polêmica. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, a NVIDIA, gigante dos chips. O SkillEvaluator testa as habilidades que você instala na sua IA e mostra se ajudam ou atrapalham. Trezentas e vinte e três estrelas.",
+  "legenda": "Em décimo, a NVIDIA, gigante dos chips. O SkillEvaluator testa as habilidades que você instala na sua IA e mostra se ajudam ou atrapalham. 323 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Número nove, o Google, que não sai do Top dez. O Stitch Skills faz a sua IA desenhar as telas do seu site ou aplicativo. Trezentas e sessenta e nove estrelas.",
+  "legenda": "Número nove, o Google, que não sai do Top dez. O Stitch Skills faz a sua IA desenhar as telas do seu site ou aplicativo. 369 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Oitavo, o CLI-Anything. A ideia é ousada: deixar qualquer programa pronto pra ser comandado por uma inteligência artificial. Trezentas e oitenta e quatro estrelas.",
+  "legenda": "Oitavo, o CLI-Anything. A ideia é ousada: deixar qualquer programa pronto pra ser comandado por uma inteligência artificial. 384 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Em sétimo, o Arcane. Um painel simples pra cuidar dos programas que rodam no seu servidor, sem decorar comando. Quinhentas e quarenta e sete estrelas.",
+  "legenda": "Em sétimo, o Arcane. Um painel simples pra cuidar dos programas que rodam no seu servidor, sem decorar comando. 547 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Sexto lugar, um veterano de dez anos. O Svelte é um kit pra criar sites rápidos e leves, feito por voluntários. Seiscentas e noventa e quatro estrelas.",
+  "legenda": "Sexto lugar, um veterano de dez anos. O Svelte é um kit pra criar sites rápidos e leves, feito por voluntários. 694 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Quinto, o campeão de ontem caiu. O superpowers, que ensina a IA a planejar antes de programar, não sai do Top dez. Oitocentas e vinte e três estrelas.",
+  "legenda": "Quinto, o campeão de ontem caiu. O superpowers, que ensina a IA a planejar antes de programar, não sai do Top dez. 823 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Quarto, o last thirty days. Ele vasculha Reddit, YouTube e X sobre qualquer assunto do último mês e te entrega um resumo. Mil e sessenta e duas estrelas.",
+  "legenda": "Quarto, o last thirty days. Ele vasculha Reddit, YouTube e X sobre qualquer assunto do último mês e te entrega um resumo. 1.062 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Terceiro, o ECC. Ele faz o seu assistente de programação planejar, testar e lembrar do que importa. Hoje, mil cento e nove estrelas.",
+  "legenda": "E agora o pódio. Terceiro, o ECC. Ele faz o seu assistente de programação planejar, testar e lembrar do que importa. Hoje, 1.109 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, o Google de novo. O PaperOrchestra transforma ideias e anotações num artigo científico pronto pra enviar. Cresceu quase sessenta por cento num dia. Mil quinhentas e vinte e nove estrelas.",
+  "legenda": "Em segundo, o Google de novo. O PaperOrchestra transforma ideias e anotações num artigo científico pronto pra enviar. Cresceu quase 60% num dia. 1.529 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um. O Claude BugHunter. Ele vira a IA num caçador de falhas de segurança. Serve pra proteger, mas pode servir pra atacar. Isso é polêmico, cuidado. Duas mil trezentas e vinte e duas estrelas.",
+  "legenda": "E o número um. O Claude BugHunter. Ele vira a IA num caçador de falhas de segurança. Serve pra proteger, mas pode servir pra atacar. Isso é polêmico, cuidado. 2.322 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]
