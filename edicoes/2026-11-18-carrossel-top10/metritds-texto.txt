@@ -1,0 +1,17 @@
+Top 10 do GitHub · 18/11/2026
+
+Hoje o GitHub foi dominado por IAs que caçam falhas, escrevem artigos e pesquisam por você. Passa o carrossel para ver os 10 projetos que mais ganharam estrelas no dia. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.
+
+1. elementalsouls/Claude-BugHunter
+2. google-research/paper-orchestra
+3. affaan-m/ECC
+4. mvanhorn/last30days-skill
+5. DeanChensj/jiangshan-map
+6. NVIDIA/SkillEvaluator
+7. obra/superpowers
+8. sveltejs/svelte
+9. getarcaneapp/arcane
+10. HKUDS/CLI-Anything
+
+Tá tudo no inema.club: lá você aprende a integrar estes projetos em vez de só copiar, direto na internet
+#github #opensource #ia #programacao #inemaclub

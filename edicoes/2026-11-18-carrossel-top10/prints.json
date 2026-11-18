@@ -1,0 +1,82 @@
+{
+ "elementalsouls/Claude-BugHunter": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "google-research/paper-orchestra": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/google-research/paper-orchestra/main/assets/overview.png",
+  "tam": [
+   1400,
+   728
+  ]
+ },
+ "affaan-m/ECC": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "mvanhorn/last30days-skill": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/mvanhorn/last30days-skill",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "DeanChensj/jiangshan-map": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/DeanChensj/jiangshan-map/main/assets/hero_demo_en.webp",
+  "tam": [
+   1080,
+   675
+  ]
+ },
+ "NVIDIA/SkillEvaluator": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/NVIDIA/SkillEvaluator",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "obra/superpowers": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/obra/superpowers",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "sveltejs/svelte": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/sveltejs/svelte",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "getarcaneapp/arcane": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/getarcaneapp/arcane",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "HKUDS/CLI-Anything": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/teaser.png",
+  "tam": [
+   1400,
+   462
+  ]
+ }
+}
