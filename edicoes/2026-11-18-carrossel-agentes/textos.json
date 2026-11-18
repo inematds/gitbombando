@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "AGENTES QUE TRABALHAM SOZINHOS",
+  "destaque": "SOZINHOS"
+ },
+ "repos": {
+  "deepseek-ai/deepseek-harness": {
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "MONTADO EM PEÇAS?"
+   ],
+   "o_que_e": "Uma base de código aberto da DeepSeek para rodar agentes de IA, em que cada função é um plugin, uma peça que você liga ou desliga.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Tudo é plugin",
+     "texto": "Cada parte do agente é uma peça que você pode trocar ou adicionar."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Abre no navegador",
+     "texto": "Um comando instala e abre a tela do agente no seu navegador."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O NODE",
+    "RODA O COMANDO",
+    "USA NA WEB"
+   ]
+  },
+  "KKKKhazix/agent-autoloop": {
+   "gancho": [
+    "SEU AGENTE SEGUE",
+    "SEM VOCÊ OLHAR?"
+   ],
+   "o_que_e": "Um programa que deixa agentes como Claude Code e Codex trabalhando em segundo plano e só chama você quando precisa de uma decisão.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Funciona em Windows, Mac e Linux, sem pagar servidor na nuvem."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Pergunta quando precisa",
+     "texto": "Manda a dúvida para Slack, Discord ou aviso na tela do computador."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "AGENTE TRABALHA",
+    "VOCÊ DECIDE"
+   ]
+  },
+  "google/elephant-goldfish-model": {
+   "gancho": [
+    "UM ELEFANTE CRIA.",
+    "UM PEIXE REVISA."
+   ],
+   "o_que_e": "Um plugin do Google para assistentes de IA: um agente escreve o plano do software e outros revisam sem ver a conversa anterior.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Revisão com olhar novo",
+     "texto": "Revisores sem o histórico acham suposições e pontos cegos no plano."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga em vários agentes",
+     "texto": "Instala no ChatGPT, Codex, Claude Code e Antigravity do Google."
+    }
+   ],
+   "fluxo": [
+    "DESCREVE IDEIA",
+    "IA REVISA",
+    "VOCÊ APROVA"
+   ]
+  },
+  "milind-soni/OpenMausBot": {
+   "gancho": [
+    "UMA EQUIPE DE IAS",
+    "NUM APP DE CHAT?"
+   ],
+   "o_que_e": "Um aplicativo de código aberto em que cada contato do chat é um agente de IA com personalidade, modelo e computador próprios.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Agentes como contatos",
+     "texto": "Você conversa com cada robô, vê ele trabalhar e aprova o que importa."
+    },
+    {
+     "icone": "download",
+     "titulo": "Mac, Windows e Linux",
+     "texto": "Tem instalador pronto e usa Claude ou Codex que você já tem."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "CRIA OS BOTS",
+    "APROVA TAREFAS"
+   ]
+  },
+  "microsoft/TokenEconomizer": {
+   "gancho": [
+    "AGENTE DE CÓDIGO",
+    "GASTANDO MENOS?"
+   ],
+   "o_que_e": "Uma ferramenta da Microsoft que deixa agentes de programação mais baratos, aprendendo com as sessões que eles já rodaram no projeto.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Custo menor",
+     "texto": "Nos testes do estudo, o custo médio caiu em todas as combinações."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Lembra do projeto",
+     "texto": "Guarda fatos do projeto para o agente não redescobrir toda vez."
+    }
+   ],
+   "fluxo": [
+    "LIGA NO AGENTE",
+    "ELE APRENDE",
+    "GASTA MENOS"
+   ]
+  }
+ },
+ "legenda_abertura": "Os agentes de IA estão deixando de esperar você na frente da tela: agora trabalham em segundo plano, revisam o próprio plano e gastam menos. Arraste o carrossel e veja os 5 projetos que mais crescem nessa área. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de sistemas de agentes de IA que mais crescem no GitHub. Confira e passe no inema.club: está tudo lá, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · SISTEMAS DE AGENTES",
+ "conta": "@inema.tds",
+ "data_br": "18/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "SISTEMAS DE AGENTES",
+  "numero": "+4.101",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "AGENTES QUE TRABALHAM SOZINHOS",
+  "destaque": "SOZINHOS",
+  "fundo": [
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/1.png",
+   "prints/2.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "deepseek-ai/deepseek-harness",
+   "repo": "deepseek-harness",
+   "url": "https://github.com/deepseek-ai/deepseek-harness",
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "MONTADO EM PEÇAS?"
+   ],
+   "o_que_e": "Uma base de código aberto da DeepSeek para rodar agentes de IA, em que cada função é um plugin, uma peça que você liga ou desliga.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Tudo é plugin",
+     "texto": "Cada parte do agente é uma peça que você pode trocar ou adicionar."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Abre no navegador",
+     "texto": "Um comando instala e abre a tela do agente no seu navegador."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O NODE",
+    "RODA O COMANDO",
+    "USA NA WEB"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "opengraph",
+   "stat": "+2.923",
+   "stat_rotulo": "por dia",
+   "total": "283.585",
+   "info2": "TypeScript · criado há 97 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "KKKKhazix/agent-autoloop",
+   "repo": "agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "gancho": [
+    "SEU AGENTE SEGUE",
+    "SEM VOCÊ OLHAR?"
+   ],
+   "o_que_e": "Um programa que deixa agentes como Claude Code e Codex trabalhando em segundo plano e só chama você quando precisa de uma decisão.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Funciona em Windows, Mac e Linux, sem pagar servidor na nuvem."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Pergunta quando precisa",
+     "texto": "Manda a dúvida para Slack, Discord ou aviso na tela do computador."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "AGENTE TRABALHA",
+    "VOCÊ DECIDE"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+389",
+   "stat_rotulo": "por dia",
+   "total": "5.899",
+   "info2": "TypeScript · criado há 15 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "google/elephant-goldfish-model",
+   "repo": "elephant-goldfish-model",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "gancho": [
+    "UM ELEFANTE CRIA.",
+    "UM PEIXE REVISA."
+   ],
+   "o_que_e": "Um plugin do Google para assistentes de IA: um agente escreve o plano do software e outros revisam sem ver a conversa anterior.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Revisão com olhar novo",
+     "texto": "Revisores sem o histórico acham suposições e pontos cegos no plano."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga em vários agentes",
+     "texto": "Instala no ChatGPT, Codex, Claude Code e Antigravity do Google."
+    }
+   ],
+   "fluxo": [
+    "DESCREVE IDEIA",
+    "IA REVISA",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+321",
+   "stat_rotulo": "por dia",
+   "total": "21.108",
+   "info2": "Python · criado há 66 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "milind-soni/OpenMausBot",
+   "repo": "OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "gancho": [
+    "UMA EQUIPE DE IAS",
+    "NUM APP DE CHAT?"
+   ],
+   "o_que_e": "Um aplicativo de código aberto em que cada contato do chat é um agente de IA com personalidade, modelo e computador próprios.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Agentes como contatos",
+     "texto": "Você conversa com cada robô, vê ele trabalhar e aprova o que importa."
+    },
+    {
+     "icone": "download",
+     "titulo": "Mac, Windows e Linux",
+     "texto": "Tem instalador pronto e usa Claude ou Codex que você já tem."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "CRIA OS BOTS",
+    "APROVA TAREFAS"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+257",
+   "stat_rotulo": "por dia",
+   "total": "25.325",
+   "info2": "TypeScript · criado há 99 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "microsoft/TokenEconomizer",
+   "repo": "TokenEconomizer",
+   "url": "https://github.com/microsoft/TokenEconomizer",
+   "gancho": [
+    "AGENTE DE CÓDIGO",
+    "GASTANDO MENOS?"
+   ],
+   "o_que_e": "Uma ferramenta da Microsoft que deixa agentes de programação mais baratos, aprendendo com as sessões que eles já rodaram no projeto.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Custo menor",
+     "texto": "Nos testes do estudo, o custo médio caiu em todas as combinações."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Lembra do projeto",
+     "texto": "Guarda fatos do projeto para o agente não redescobrir toda vez."
+    }
+   ],
+   "fluxo": [
+    "LIGA NO AGENTE",
+    "ELE APRENDE",
+    "GASTA MENOS"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+211",
+   "stat_rotulo": "por dia",
+   "total": "7.653",
+   "info2": "Python · criado há 36 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

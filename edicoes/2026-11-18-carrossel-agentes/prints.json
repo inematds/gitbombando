@@ -1,0 +1,42 @@
+{
+ "deepseek-ai/deepseek-harness": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/deepseek-ai/deepseek-harness",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "KKKKhazix/agent-autoloop": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/KKKKhazix/agent-autoloop",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "google/elephant-goldfish-model": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/93c799a2-10a3-4266-af02-eb79dd33a9a2",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "milind-soni/OpenMausBot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
+  "tam": [
+   1400,
+   875
+  ]
+ },
+ "microsoft/TokenEconomizer": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/microsoft/TokenEconomizer/main/docs/assets/teaser.png",
+  "tam": [
+   1400,
+   750
+  ]
+ }
+}
