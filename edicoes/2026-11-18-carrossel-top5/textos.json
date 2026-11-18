@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "META E GOOGLE LIDERAM A SEMANA",
+  "destaque": "META"
+ },
+ "repos": {
+  "meta/astryx": {
+   "gancho": [
+    "O VISUAL DA META",
+    "NO SEU APP"
+   ],
+   "o_que_e": "Um sistema de design de código aberto da Meta: peças prontas de tela para montar apps, feitas para pessoas e agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "150+ peças prontas",
+     "texto": "Botões, menus e telas acessíveis, com tema da marca e modo escuro."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para a IA",
+     "texto": "Pessoas e assistentes de IA constroem com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "ESCOLHE O TEMA",
+    "MONTA AS TELAS"
+   ]
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+   "gancho": [
+    "IA QUE PROGRAMA",
+    "SEM VÍCIO ANTIGO"
+   ],
+   "o_que_e": "Um pacote de habilidades que ensina seu agente de programação as boas práticas mais recentes para criar sites e o que cada navegador suporta.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Chrome, Edge e Firefox",
+     "texto": "Mantido pelos times do Chrome, Edge, Firefox e MDN com a comunidade."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala com um comando",
+     "texto": "Um assistente no terminal guia a instalação passo a passo."
+    }
+   ],
+   "fluxo": [
+    "RODA O COMANDO",
+    "INSTALA SKILLS",
+    "IA ATUALIZADA"
+   ]
+  },
+  "dream-num/univer": {
+   "gancho": [
+    "PLANILHA E TEXTO",
+    "DENTRO DO SEU APP"
+   ],
+   "o_que_e": "Um kit de código aberto para colocar planilhas e documentos editáveis dentro do seu produto, usados por pessoas e agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Planilhas e documentos",
+     "texto": "Edição, cálculo e colaboração prontos para embutir no seu app."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Conecta com agentes",
+     "texto": "Seu aplicativo ou agente de IA pode ler e editar o conteúdo."
+    }
+   ],
+   "fluxo": [
+    "ABRE O EDITOR",
+    "CONECTA A IA",
+    "EDITA JUNTO"
+   ]
+  },
+  "anthropics/skills": {
+   "gancho": [
+    "ENSINE TAREFAS",
+    "AO CLAUDE?"
+   ],
+   "o_que_e": "Uma coleção oficial da Anthropic de habilidades para o Claude: pastas com instruções e scripts que ensinam tarefas específicas.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Uma pasta por tarefa",
+     "texto": "Cada habilidade fica numa pasta com um arquivo SKILL.md de instruções."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Da arte à empresa",
+     "texto": "Exemplos de arte, música, testes de sites, marca e comunicação."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A SKILL",
+    "CLAUDE CARREGA",
+    "TAREFA FEITA"
+   ]
+  },
+  "we-promise/sure": {
+   "gancho": [
+    "SUAS FINANÇAS",
+    "NO SEU SERVIDOR"
+   ],
+   "o_que_e": "Um app de finanças pessoais de código aberto, mantido pela comunidade a partir do Maybe Finance, que você pode hospedar de graça.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Finanças e patrimônio",
+     "texto": "Controle de finanças pessoais e gestão de patrimônio num só app."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Mantido pela comunidade",
+     "texto": "Continua o Maybe Finance, que foi abandonado após quase US$ 1 milhão."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "LANÇA AS CONTAS",
+    "VÊ SEU DINHEIRO"
+   ]
+  }
+ },
+ "legenda_abertura": "Meta, Google e Anthropic dominaram o GitHub nesta semana, e o Top 5 está no carrossel. Arraste para ver o que cada projeto faz e como se usa. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 5 da semana no GitHub, com projetos da Meta, do Google e da Anthropic. Veja o carrossel no @inema.tds. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
