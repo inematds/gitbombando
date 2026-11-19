@@ -1,0 +1,113 @@
+{
+ "tipo": "top5",
+ "dia": "2026-11-19",
+ "itens": [
+  {
+   "pos": 1,
+   "nome": "GoogleChrome/modern-web-guidance-src",
+   "dono": "GoogleChrome",
+   "repo": "modern-web-guidance-src",
+   "descricao_en": "Keep your coding agent up to date with the latest web best practices",
+   "linguagem": "TypeScript",
+   "estrelas_periodo": 7257,
+   "estrelas_total": 8977,
+   "criado_em": "2026-01-27T20:22:24Z",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "topicos": [],
+   "readme": "#   Modern Web Guidance (Source)\nThis repo is the source repository for [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) and includes the code and documentation for authoring, calibrating, and evaluating its contents.\n[**Modern Web Guidance**](https://developer.chrome.com/docs/modern-web-guidance) is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform.\nSee [CONTRIBUTING.md](./CONTRIBUTING.md) and [GOVERNANCE.md](./GOVERNANCE.md) for how we work on the project and orientation of the codebase.\n---\n*Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community.*\n[Documentation](https://developer.chrome.com/docs/modern-web-guidance) · [Eval Dashboard](https://googlechrome.github.io/modern-web-guidance-src/) · [Source Code](https://github.com/GoogleChrome/modern-web-guidance-src) · [Report an Issue](https://github.com/GoogleChrome/modern-web-guidance-src/issues)\n##   Quickstart\n```shell\nnpx modern-web-guidance@latest install\n```\nThis command runs an interactive wizard to install Modern Web Guidance. See [Alternative Installation Methods](#-alternative-installation-methods) below.\n#### Try it out (without installing)\n```shell\n# Search for relevant gui",
+   "desc_pt": ""
+  },
+  {
+   "pos": 2,
+   "nome": "dream-num/univer",
+   "dono": "dream-num",
+   "repo": "univer",
+   "descricao_en": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "linguagem": "TypeScript",
+   "estrelas_periodo": 6840,
+   "estrelas_total": 30365,
+   "criado_em": "2022-09-29T12:09:14Z",
+   "url": "https://github.com/dream-num/univer",
+   "topicos": [
+    "board",
+    "collaboration",
+    "doc",
+    "docx",
+    "excel",
+    "offce365",
+    "office",
+    "pdf",
+    "ppt",
+    "pptx",
+    "presentation",
+    "sdk",
+    "sheet",
+    "slides",
+    "spreadsheet",
+    "univer",
+    "word",
+    "wordprocessor",
+    "workspace",
+    "xlsx"
+   ],
+   "readme": "Build your own AI office with Univer Office SDK. \n Start with open-source Sheets and Docs, then connect your own application or agent. \n  🚀 Quick start  ·  💼 Workspace  ·  📚 Documentation  ·  ⚖️ Feature comparison  ·  🌐 Website  ·  🎮 Showcase  ·  🔧 API Reference  ·  📝 Blog  \n  English  ·  Français  ·  Deutsch  ·  Español  ·  简体中文  ·  繁體中文  ·  日本語  ·  한국어  \n Table of contents \n- [💡 What is Univer?](#what-is-univer)\n  - [Open-source capabilities](#open-source-capabilities)\n- [🚀 Build on the open-source foundation](#what-you-can-build)\n  - [Quick start: an open-source spreadsheet editor](#quick-start)\n  - [Connect your application to editable content](#connect-your-application-to-editable-content)\n- [🏗️ Explore the open-source architecture](#open-source-architecture)\n  - [Give custom features clear boundaries](#give-custom-features-clear-boundaries)\n  - [Compose cross-feature edits and undo/redo](#compose-cross-feature-edits-and-undoredo)\n  - [Connect applications and agents through Facade APIs and events](#connect-applications-and-agents-through-facade-apis-and-events)\n- [🧩 Extend your application with Univer Office SDK](#open-source-and-commercial-extensions)\n  - [Scope and licensing](#scope-and-licensing)\n- [🌐 Application patterns and ecosystem](#application-patterns-and-ecosystem)\n  - [Univer Workspace: an Office SDK reference application](#univer-workspace-an-office-sdk-reference-application)\n  - [CLI, agent integrations, and developer skills](#cli-agent-integrations-and-de",
+   "desc_pt": ""
+  },
+  {
+   "pos": 3,
+   "nome": "meta/astryx",
+   "dono": "meta",
+   "repo": "astryx",
+   "descricao_en": "An open source design system that's fully customizable and agent ready",
+   "linguagem": "TypeScript",
+   "estrelas_periodo": 6250,
+   "estrelas_total": 30754,
+   "criado_em": "2026-01-09T16:20:32Z",
+   "url": "https://github.com/meta/astryx",
+   "topicos": [],
+   "readme": "# Astryx\nAn open source design system that's fully customizable and built for how we build now:   by people and the agents working alongside them.\n**Currently in Beta** · Built on [React 19+](https://react.dev) and [StyleX](https://stylexjs.com)\n[ ](https://www.npmjs.com/package/@astryxdesign/core)\n[ ](LICENSE)\n[ ](https://github.com/meta/astryx/wiki/Contributing)\n[ ](https://astryx.atmeta.com)\n[ ](https://astryx.atmeta.com/storybook/)\n[ ](https://astryx.atmeta.com/sandbox/)\n**[Docs](https://astryx.atmeta.com)** · **[Storybook](https://astryx.atmeta.com/storybook/)** · **[Sandbox](https://astryx.atmeta.com/sandbox/)** · **[Contributing](https://github.com/meta/astryx/wiki/Contributing)** · **[Discord](https://discord.com/invite/XnsUcFykEP)**\n## Overview\nAstryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day.\nIt ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library to adopt — and both people and AI assistants build with the same tooling.\n**What makes Astryx different:**\n- **Open internals.** Components are built to be composed at any level, not locked behind a closed top-level API. The building blocks you'",
+   "desc_pt": ""
+  },
+  {
+   "pos": 4,
+   "nome": "alibaba/open-code-review",
+   "dono": "alibaba",
+   "repo": "open-code-review",
+   "descricao_en": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "linguagem": "Go",
+   "estrelas_periodo": 4383,
+   "estrelas_total": 54284,
+   "criado_em": "2026-05-18T02:16:36Z",
+   "url": "https://github.com/alibaba/open-code-review",
+   "topicos": [
+    "agent",
+    "agent-skills",
+    "code-review",
+    "code-review-assistant",
+    "harness",
+    "repository-level-context"
+   ],
+   "readme": "OpenCodeReview \n  English |  简体中文  |  日本語  |  한국어  |  Русский \n---\n## What is Open Code Review?\nOpen Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group's internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. After thorough validation at massive scale, we incubated it into an open source project for the community. Simply configure a model endpoint to get started.\nIt reads Git diffs, sends changed files to a configurable LLM via an agent with tool-use capabilities, and generates structured review comments with line-level precision. The agent can read full file contents, search the codebase, inspect other changed files for context, and produce deep reviews — not just surface-level diff feedback. Beyond diff review, `ocr scan` reviews entire files for auditing unfamiliar codebases or directories that have no meaningful diff.\nVisit the [official website](https://open-codereview.ai) for more details.\n## Benchmark\n> Compared to general-purpose agents (Claude Code), Open Code Review achieves significantly higher **Precision** and **F1** with the same underlying model, while consuming only **~1/9 of the tokens** and completing reviews faster. Note that its Recall is lower than general-purpose agents — a deliberate trade-off favoring precision over noise.\nA real-world code review benchmark built from **50** popular open-source repositories, **200** real ",
+   "desc_pt": ""
+  },
+  {
+   "pos": 5,
+   "nome": "anthropics/skills",
+   "dono": "anthropics",
+   "repo": "skills",
+   "descricao_en": "Public repository for Agent Skills",
+   "linguagem": "Python",
+   "estrelas_periodo": 4381,
+   "estrelas_total": 197470,
+   "criado_em": "2025-09-22T15:53:31Z",
+   "url": "https://github.com/anthropics/skills",
+   "topicos": [
+    "agent-skills"
+   ],
+   "readme": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).\n[ ](https://skills.sh/anthropics/skills)\n# Skills\nSkills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.\nFor more information, check out:\n- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)\n- [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)\n- [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)\n- [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)\n# About This Repository\nThis repository contains skills that demonstrate what's possible with Claude's skills system. These skills range from creative applications (art, music, design) to technical tasks (testing web apps, MCP server generation) to enterprise workflows (communications, branding, etc.).\nEach skill is self-contained in its own folder with a `SKILL.md` file containing the instructions and metadata that Claude uses.",
+   "desc_pt": ""
+  }
+ ],
+ "soma": 29111,
+ "fonte": "github.com/trending"
+}

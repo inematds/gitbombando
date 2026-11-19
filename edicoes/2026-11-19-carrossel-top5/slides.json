@@ -1,0 +1,199 @@
+{
+ "tipo": "top5",
+ "serie": "TOP 5 DO GITHUB",
+ "conta": "@inema.tds",
+ "data_br": "19/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "DO GITHUB NA SEMANA",
+  "numero": "+29.111",
+  "numero_rotulo": "estrelas ganhas pelos 5 em 7 dias",
+  "manchete": "GIGANTES ABREM FERRAMENTAS PARA AGENTES",
+  "destaque": "GIGANTES",
+  "fundo": [
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/1.png",
+   "prints/5.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "GoogleChrome/modern-web-guidance-src",
+   "repo": "modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "SABE A WEB ATUAL?"
+   ],
+   "o_que_e": "Um conjunto de habilidades que ensina ao seu agente de programação com IA as boas práticas atuais da web, mantido por Chrome, Edge e Firefox.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Times dos navegadores",
+     "texto": "Mantido por Chrome, Edge, Firefox e MDN, junto com a comunidade."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Instala com um comando",
+     "texto": "Um assistente interativo guia a instalação passo a passo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "AGENTE CONSULTA",
+    "CÓDIGO ATUAL"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "opengraph",
+   "stat": "+7.257",
+   "stat_rotulo": "na semana",
+   "total": "8.977",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 2,
+   "nome": "dream-num/univer",
+   "repo": "univer",
+   "url": "https://github.com/dream-num/univer",
+   "gancho": [
+    "PLANILHA E TEXTO",
+    "NO SEU PRODUTO?"
+   ],
+   "o_que_e": "Um kit de código aberto para colocar planilhas e documentos editáveis dentro do seu próprio sistema, usados por pessoas e por agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilhas e documentos",
+     "texto": "Edição, cálculo e colaboração em planilhas e textos de código aberto."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes de IA",
+     "texto": "Seu aplicativo ou agente de IA pode editar o conteúdo direto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "LIGA SEU APP",
+    "EDITA JUNTO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+6.840",
+   "stat_rotulo": "na semana",
+   "total": "30.365",
+   "info2": "TypeScript · desde 09/2022"
+  },
+  {
+   "pos": 3,
+   "nome": "meta/astryx",
+   "repo": "astryx",
+   "url": "https://github.com/meta/astryx",
+   "gancho": [
+    "O VISUAL DA META",
+    "ABERTO PARA VOCÊ"
+   ],
+   "o_que_e": "Um sistema de design de código aberto que nasceu na Meta: botões, telas e modelos prontos para pessoas e assistentes de IA montarem apps.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 componentes",
+     "texto": "Peças prontas e acessíveis, com tema da marca e modo escuro."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para IA também",
+     "texto": "Pessoas e assistentes de IA usam as mesmas ferramentas para criar."
+    }
+   ],
+   "fluxo": [
+    "IMPORTA O CSS",
+    "USA AS PEÇAS",
+    "APP PRONTO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+6.250",
+   "stat_rotulo": "na semana",
+   "total": "30.754",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "alibaba/open-code-review",
+   "repo": "open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "gancho": [
+    "IA REVISANDO",
+    "SEU CÓDIGO?"
+   ],
+   "o_que_e": "Um programa de terminal da Alibaba que usa um modelo de IA para revisar mudanças no código e comentar linha por linha os problemas.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Comentário por linha",
+     "texto": "Aponta falhas como injeção de SQL e outros erros de segurança."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Liga com OpenAI e Claude",
+     "texto": "Compatível com modelos da OpenAI e da Anthropic; basta configurar."
+    }
+   ],
+   "fluxo": [
+    "LÊ AS MUDANÇAS",
+    "A IA REVISA",
+    "COMENTÁRIOS"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+4.383",
+   "stat_rotulo": "na semana",
+   "total": "54.284",
+   "info2": "Go · desde 05/2026"
+  },
+  {
+   "pos": 5,
+   "nome": "anthropics/skills",
+   "repo": "skills",
+   "url": "https://github.com/anthropics/skills",
+   "gancho": [
+    "ENSINE TAREFAS",
+    "AO CLAUDE?"
+   ],
+   "o_que_e": "Uma coleção oficial da Anthropic de habilidades: pastas com instruções e scripts que o Claude carrega para fazer tarefas específicas.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Uma pasta por habilidade",
+     "texto": "Cada uma tem um arquivo SKILL.md com as instruções para o Claude."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Da arte ao trabalho",
+     "texto": "Exemplos de arte, música, design, testes de sites e marca."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A SKILL",
+    "CLAUDE CARREGA",
+    "TAREFA FEITA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "opengraph",
+   "stat": "+4.381",
+   "stat_rotulo": "na semana",
+   "total": "197.470",
+   "info2": "Python · desde 09/2025"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

@@ -1,0 +1,7 @@
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+🔵 CARROSSEL · Top 5 do GitHub na semana · 19/11/2026
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+Telegram INEMA.FTD: ok (tópico 1921)
+Fila do x3: ok · lives12 item 3642
+7 slides · revisor: aprovado
+🟥 SUGESTÃO: No slide do open-code-review, trocar a tabela escura e estreita de benchmark por um print que mostre os comentários de revisão no código; no fecho, ocupar o espaço vazio do meio, por exemplo com as estrelas da semana de cada projeto ao lado do nome.

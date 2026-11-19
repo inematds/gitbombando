@@ -1,0 +1,6 @@
+{
+ "veredito": "aprovado",
+ "motivo": "",
+ "slides_ruins": [],
+ "sugestao": "No slide do open-code-review, trocar a tabela escura e estreita de benchmark por um print que mostre os comentários de revisão no código; no fecho, ocupar o espaço vazio do meio, por exemplo com as estrelas da semana de cada projeto ao lado do nome."
+}

@@ -1,0 +1,42 @@
+{
+ "GoogleChrome/modern-web-guidance-src": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/GoogleChrome/modern-web-guidance-src",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "dream-num/univer": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/workspace-promo.png",
+  "tam": [
+   1400,
+   700
+  ]
+ },
+ "meta/astryx": {
+  "fonte": "readme",
+  "url": "https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png",
+  "tam": [
+   1400,
+   735
+  ]
+ },
+ "alibaba/open-code-review": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/benchmark-en.png",
+  "tam": [
+   1400,
+   1004
+  ]
+ },
+ "anthropics/skills": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/anthropics/skills",
+  "tam": [
+   1200,
+   600
+  ]
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "GIGANTES ABREM FERRAMENTAS PARA AGENTES",
+  "destaque": "GIGANTES"
+ },
+ "repos": {
+  "GoogleChrome/modern-web-guidance-src": {
+   "gancho": [
+    "SEU AGENTE DE IA",
+    "SABE A WEB ATUAL?"
+   ],
+   "o_que_e": "Um conjunto de habilidades que ensina ao seu agente de programação com IA as boas práticas atuais da web, mantido por Chrome, Edge e Firefox.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Times dos navegadores",
+     "texto": "Mantido por Chrome, Edge, Firefox e MDN, junto com a comunidade."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Instala com um comando",
+     "texto": "Um assistente interativo guia a instalação passo a passo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "AGENTE CONSULTA",
+    "CÓDIGO ATUAL"
+   ]
+  },
+  "dream-num/univer": {
+   "gancho": [
+    "PLANILHA E TEXTO",
+    "NO SEU PRODUTO?"
+   ],
+   "o_que_e": "Um kit de código aberto para colocar planilhas e documentos editáveis dentro do seu próprio sistema, usados por pessoas e por agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilhas e documentos",
+     "texto": "Edição, cálculo e colaboração em planilhas e textos de código aberto."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes de IA",
+     "texto": "Seu aplicativo ou agente de IA pode editar o conteúdo direto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "LIGA SEU APP",
+    "EDITA JUNTO"
+   ]
+  },
+  "meta/astryx": {
+   "gancho": [
+    "O VISUAL DA META",
+    "ABERTO PARA VOCÊ"
+   ],
+   "o_que_e": "Um sistema de design de código aberto que nasceu na Meta: botões, telas e modelos prontos para pessoas e assistentes de IA montarem apps.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 componentes",
+     "texto": "Peças prontas e acessíveis, com tema da marca e modo escuro."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para IA também",
+     "texto": "Pessoas e assistentes de IA usam as mesmas ferramentas para criar."
+    }
+   ],
+   "fluxo": [
+    "IMPORTA O CSS",
+    "USA AS PEÇAS",
+    "APP PRONTO"
+   ]
+  },
+  "alibaba/open-code-review": {
+   "gancho": [
+    "IA REVISANDO",
+    "SEU CÓDIGO?"
+   ],
+   "o_que_e": "Um programa de terminal da Alibaba que usa um modelo de IA para revisar mudanças no código e comentar linha por linha os problemas.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Comentário por linha",
+     "texto": "Aponta falhas como injeção de SQL e outros erros de segurança."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Liga com OpenAI e Claude",
+     "texto": "Compatível com modelos da OpenAI e da Anthropic; basta configurar."
+    }
+   ],
+   "fluxo": [
+    "LÊ AS MUDANÇAS",
+    "A IA REVISA",
+    "COMENTÁRIOS"
+   ]
+  },
+  "anthropics/skills": {
+   "gancho": [
+    "ENSINE TAREFAS",
+    "AO CLAUDE?"
+   ],
+   "o_que_e": "Uma coleção oficial da Anthropic de habilidades: pastas com instruções e scripts que o Claude carrega para fazer tarefas específicas.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Uma pasta por habilidade",
+     "texto": "Cada uma tem um arquivo SKILL.md com as instruções para o Claude."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Da arte ao trabalho",
+     "texto": "Exemplos de arte, música, design, testes de sites e marca."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A SKILL",
+    "CLAUDE CARREGA",
+    "TAREFA FEITA"
+   ]
+  }
+ },
+ "legenda_abertura": "Google, Meta, Alibaba e Anthropic dominaram o GitHub nesta semana com ferramentas para agentes de IA. Passe o carrossel e veja o que cada projeto faz. Está tudo no inema.club, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 5 da semana no GitHub: ferramentas de Google, Meta, Alibaba e Anthropic para agentes de IA. Confira o carrossel no @inema.tds. No inema.club está tudo lá, e você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
