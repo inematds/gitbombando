@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "A IA ESCREVE ARTIGO CIENTÍFICO",
+  "destaque": "ARTIGO"
+ },
+ "repos": {
+  "google-research/paper-orchestra": {
+   "gancho": [
+    "ARTIGO CIENTÍFICO",
+    "ESCRITO POR IA?"
+   ],
+   "o_que_e": "Uma equipe de agentes de IA do Google que transforma ideias e anotações de experimentos num artigo científico pronto para enviar.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Revisão de literatura",
+     "texto": "Busca, prioriza e junta estudos relacionados direto no texto do artigo."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Gráficos e diagramas",
+     "texto": "Gera gráficos e aceita diagramas de conceito dentro do manuscrito."
+    }
+   ],
+   "fluxo": [
+    "MANDA AS NOTAS",
+    "IA ESCREVE",
+    "ARTIGO EM LATEX"
+   ]
+  },
+  "affaan-m/ECC": {
+   "gancho": [
+    "TURBINE SEU",
+    "CLAUDE CODE"
+   ],
+   "o_que_e": "Um pacote de habilidades, memória e segurança para assistentes de programação com IA, como Claude Code, Codex e Cursor.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Claude Code, Codex, Opencode, Cursor e outros."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Grátis e aberto",
+     "texto": "Código aberto com licença MIT; plano pago só para repositórios privados."
+    }
+   ],
+   "fluxo": [
+    "INSTALA PLUGIN",
+    "USA NO CÓDIGO",
+    "IA MAIS AFIADA"
+   ]
+  },
+  "mvanhorn/last30days-skill": {
+   "gancho": [
+    "PESQUISE QUALQUER",
+    "ASSUNTO DO MÊS"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que pesquisa um tema no Reddit, X, YouTube, Polymarket e na web e entrega um resumo com fontes.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Várias redes juntas",
+     "texto": "Junta Reddit, X, YouTube, TikTok, Hacker News e GitHub numa busca."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Sem configurar",
+     "texto": "Reddit, Hacker News e Polymarket funcionam logo após instalar."
+    }
+   ],
+   "fluxo": [
+    "DIGITA O TEMA",
+    "IA VASCULHA",
+    "RESUMO PRONTO"
+   ]
+  },
+  "obra/superpowers": {
+   "gancho": [
+    "SUA IA PERGUNTA",
+    "ANTES DE CODAR"
+   ],
+   "o_que_e": "Um método de desenvolvimento para assistentes de programação com IA: antes de escrever código, ele pergunta o que você quer fazer.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Plano antes do código",
+     "texto": "Mostra o plano em partes curtas, fáceis de ler e aprovar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Roda em vários agentes",
+     "texto": "Instala em Claude Code, Cursor, Codex, Gemini CLI e outros."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ EXPLICA",
+    "IA PLANEJA",
+    "IA CONSTRÓI"
+   ]
+  },
+  "sveltejs/svelte": {
+   "gancho": [
+    "SITES RÁPIDOS",
+    "COM MENOS CÓDIGO"
+   ],
+   "o_que_e": "Uma ferramenta para criar sites e aplicativos web que transforma seus componentes em JavaScript leve e eficiente.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Página mais leve",
+     "texto": "Atualiza só o pedaço da tela que mudou, sem pesar o navegador."
+    },
+    {
+     "icone": "code",
+     "titulo": "Aberto e gratuito",
+     "texto": "Projeto de código aberto, licença MIT, mantido por voluntários."
+    }
+   ],
+   "fluxo": [
+    "ESCREVE A TELA",
+    "SVELTE CONVERTE",
+    "SITE NO AR"
+   ]
+  },
+  "getarcaneapp/arcane": {
+   "gancho": [
+    "DOCKER SEM",
+    "TERMINAL?"
+   ],
+   "o_que_e": "Um painel web para gerenciar contêineres Docker (programas empacotados) pelo navegador, que você instala no seu próprio servidor.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Tudo pelo navegador",
+     "texto": "Uma tela web para ver e controlar seus contêineres Docker e Compose."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Transparente",
+     "texto": "Publica a lista completa de componentes usados no programa."
+    }
+   ],
+   "fluxo": [
+    "INSTALA ARCANE",
+    "ABRE O PAINEL",
+    "GERENCIA TUDO"
+   ]
+  },
+  "HKUDS/CLI-Anything": {
+   "gancho": [
+    "QUALQUER PROGRAMA",
+    "NAS MÃOS DA IA"
+   ],
+   "o_que_e": "Um projeto que cria programas de terminal para softwares comuns, para que agentes de IA como Claude Code consigam usá-los sozinhos.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Loja da comunidade",
+     "texto": "No CLI-Hub você procura e instala comandos feitos pela comunidade."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Resultados reais",
+     "texto": "Agentes geram projetos de CAD, cenas 3D, diagramas e legendas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA DO HUB",
+    "ESCOLHE O APP",
+    "IA OPERA"
+   ]
+  },
+  "google-labs-code/stitch-skills": {
+   "gancho": [
+    "DESIGN DE TELAS",
+    "COM O GOOGLE"
+   ],
+   "o_que_e": "Uma coleção de habilidades do Google para que assistentes de IA, como Claude Code e Cursor, criem telas com o Google Stitch.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Três pacotes",
+     "texto": "Design, construção de componentes e utilidades: instale o que precisar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Padrão aberto",
+     "texto": "Segue o padrão Agent Skills e roda em Codex, Gemini CLI e Cursor."
+    }
+   ],
+   "fluxo": [
+    "INSTALA PLUGIN",
+    "PEDE A TELA",
+    "DESIGN PRONTO"
+   ]
+  },
+  "n8n-io/n8n": {
+   "gancho": [
+    "AUTOMATIZE TUDO",
+    "ARRASTANDO BLOCOS"
+   ],
+   "o_que_e": "Uma plataforma para montar automações e agentes de IA em uma tela visual, ligando mais de 1500 serviços, na nuvem ou no seu servidor.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Mais de 1500 conexões",
+     "texto": "Liga a IA aos sistemas que você já usa, com mais de 9 mil modelos prontos."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Escolha o modelo",
+     "texto": "Use OpenAI, Anthropic, Google ou modelos abertos e troque quando quiser."
+    }
+   ],
+   "fluxo": [
+    "ARRASTA BLOCOS",
+    "LIGA A IA",
+    "RODA SOZINHO"
+   ]
+  },
+  "cursor/plugins": {
+   "gancho": [
+    "PLUGINS OFICIAIS",
+    "DO CURSOR"
+   ],
+   "o_que_e": "Uma coleção de plugins oficiais do Cursor, o editor de código com IA, que somam funções novas como revisão de código e ensino.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Revisão profunda",
+     "texto": "O Thermos audita segurança e qualidade do código antes de juntar."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Memória e ensino",
+     "texto": "Plugins para planos de estudo e para a IA lembrar do que aprendeu."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE PLUGIN",
+    "INSTALA",
+    "CURSOR EVOLUI"
+   ]
+  }
+ },
+ "legenda_abertura": "Hoje o GitHub foi dominado por agentes de IA: do Google escrevendo artigo científico a assistentes que pesquisam o mês inteiro por você. Passe o carrossel e veja os 10 projetos que mais cresceram no dia. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 10 do GitHub de hoje, com agentes de IA que escrevem artigos, pesquisam redes sociais e automatizam tarefas. Confira o carrossel no @inema.tech. No inema.club está tudo lá, e você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

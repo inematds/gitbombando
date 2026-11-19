@@ -1,0 +1,374 @@
+{
+ "tipo": "top10",
+ "serie": "TOP 10 DO GITHUB",
+ "conta": "@inema.tech",
+ "data_br": "19/11/2026",
+ "capa": {
+  "linha1": "TOP 10",
+  "linha2": "DO GITHUB HOJE",
+  "numero": "+7.145",
+  "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas",
+  "manchete": "A IA ESCREVE ARTIGO CIENTÍFICO",
+  "destaque": "ARTIGO",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/7.png",
+   "prints/9.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/8.png",
+   "prints/10.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "google-research/paper-orchestra",
+   "repo": "paper-orchestra",
+   "url": "https://github.com/google-research/paper-orchestra",
+   "gancho": [
+    "ARTIGO CIENTÍFICO",
+    "ESCRITO POR IA?"
+   ],
+   "o_que_e": "Uma equipe de agentes de IA do Google que transforma ideias e anotações de experimentos num artigo científico pronto para enviar.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Revisão de literatura",
+     "texto": "Busca, prioriza e junta estudos relacionados direto no texto do artigo."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Gráficos e diagramas",
+     "texto": "Gera gráficos e aceita diagramas de conceito dentro do manuscrito."
+    }
+   ],
+   "fluxo": [
+    "MANDA AS NOTAS",
+    "IA ESCREVE",
+    "ARTIGO EM LATEX"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+1.524",
+   "stat_rotulo": "hoje",
+   "total": "4.711",
+   "info2": "Python · desde 05/2026"
+  },
+  {
+   "pos": 2,
+   "nome": "affaan-m/ECC",
+   "repo": "ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "gancho": [
+    "TURBINE SEU",
+    "CLAUDE CODE"
+   ],
+   "o_que_e": "Um pacote de habilidades, memória e segurança para assistentes de programação com IA, como Claude Code, Codex e Cursor.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Claude Code, Codex, Opencode, Cursor e outros."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Grátis e aberto",
+     "texto": "Código aberto com licença MIT; plano pago só para repositórios privados."
+    }
+   ],
+   "fluxo": [
+    "INSTALA PLUGIN",
+    "USA NO CÓDIGO",
+    "IA MAIS AFIADA"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+1.108",
+   "stat_rotulo": "hoje",
+   "total": "306.855",
+   "info2": "JavaScript · desde 01/2026"
+  },
+  {
+   "pos": 3,
+   "nome": "mvanhorn/last30days-skill",
+   "repo": "last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "gancho": [
+    "PESQUISE QUALQUER",
+    "ASSUNTO DO MÊS"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que pesquisa um tema no Reddit, X, YouTube, Polymarket e na web e entrega um resumo com fontes.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Várias redes juntas",
+     "texto": "Junta Reddit, X, YouTube, TikTok, Hacker News e GitHub numa busca."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Sem configurar",
+     "texto": "Reddit, Hacker News e Polymarket funcionam logo após instalar."
+    }
+   ],
+   "fluxo": [
+    "DIGITA O TEMA",
+    "IA VASCULHA",
+    "RESUMO PRONTO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "opengraph",
+   "stat": "+1.059",
+   "stat_rotulo": "hoje",
+   "total": "70.423",
+   "info2": "Python · desde 01/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "obra/superpowers",
+   "repo": "superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "gancho": [
+    "SUA IA PERGUNTA",
+    "ANTES DE CODAR"
+   ],
+   "o_que_e": "Um método de desenvolvimento para assistentes de programação com IA: antes de escrever código, ele pergunta o que você quer fazer.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Plano antes do código",
+     "texto": "Mostra o plano em partes curtas, fáceis de ler e aprovar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Roda em vários agentes",
+     "texto": "Instala em Claude Code, Cursor, Codex, Gemini CLI e outros."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ EXPLICA",
+    "IA PLANEJA",
+    "IA CONSTRÓI"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "opengraph",
+   "stat": "+822",
+   "stat_rotulo": "hoje",
+   "total": "321.593",
+   "info2": "Shell · desde 10/2025"
+  },
+  {
+   "pos": 5,
+   "nome": "sveltejs/svelte",
+   "repo": "svelte",
+   "url": "https://github.com/sveltejs/svelte",
+   "gancho": [
+    "SITES RÁPIDOS",
+    "COM MENOS CÓDIGO"
+   ],
+   "o_que_e": "Uma ferramenta para criar sites e aplicativos web que transforma seus componentes em JavaScript leve e eficiente.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Página mais leve",
+     "texto": "Atualiza só o pedaço da tela que mudou, sem pesar o navegador."
+    },
+    {
+     "icone": "code",
+     "titulo": "Aberto e gratuito",
+     "texto": "Projeto de código aberto, licença MIT, mantido por voluntários."
+    }
+   ],
+   "fluxo": [
+    "ESCREVE A TELA",
+    "SVELTE CONVERTE",
+    "SITE NO AR"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "opengraph",
+   "stat": "+692",
+   "stat_rotulo": "hoje",
+   "total": "89.732",
+   "info2": "JavaScript · desde 11/2016"
+  },
+  {
+   "pos": 6,
+   "nome": "getarcaneapp/arcane",
+   "repo": "arcane",
+   "url": "https://github.com/getarcaneapp/arcane",
+   "gancho": [
+    "DOCKER SEM",
+    "TERMINAL?"
+   ],
+   "o_que_e": "Um painel web para gerenciar contêineres Docker (programas empacotados) pelo navegador, que você instala no seu próprio servidor.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Tudo pelo navegador",
+     "texto": "Uma tela web para ver e controlar seus contêineres Docker e Compose."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Transparente",
+     "texto": "Publica a lista completa de componentes usados no programa."
+    }
+   ],
+   "fluxo": [
+    "INSTALA ARCANE",
+    "ABRE O PAINEL",
+    "GERENCIA TUDO"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "opengraph",
+   "stat": "+547",
+   "stat_rotulo": "hoje",
+   "total": "10.025",
+   "info2": "Go · desde 04/2025"
+  },
+  {
+   "pos": 7,
+   "nome": "HKUDS/CLI-Anything",
+   "repo": "CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "gancho": [
+    "QUALQUER PROGRAMA",
+    "NAS MÃOS DA IA"
+   ],
+   "o_que_e": "Um projeto que cria programas de terminal para softwares comuns, para que agentes de IA como Claude Code consigam usá-los sozinhos.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Loja da comunidade",
+     "texto": "No CLI-Hub você procura e instala comandos feitos pela comunidade."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Resultados reais",
+     "texto": "Agentes geram projetos de CAD, cenas 3D, diagramas e legendas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA DO HUB",
+    "ESCOLHE O APP",
+    "IA OPERA"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+389",
+   "stat_rotulo": "hoje",
+   "total": "60.139",
+   "info2": "Python · desde 03/2026"
+  },
+  {
+   "pos": 8,
+   "nome": "google-labs-code/stitch-skills",
+   "repo": "stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "gancho": [
+    "DESIGN DE TELAS",
+    "COM O GOOGLE"
+   ],
+   "o_que_e": "Uma coleção de habilidades do Google para que assistentes de IA, como Claude Code e Cursor, criem telas com o Google Stitch.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Três pacotes",
+     "texto": "Design, construção de componentes e utilidades: instale o que precisar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Padrão aberto",
+     "texto": "Segue o padrão Agent Skills e roda em Codex, Gemini CLI e Cursor."
+    }
+   ],
+   "fluxo": [
+    "INSTALA PLUGIN",
+    "PEDE A TELA",
+    "DESIGN PRONTO"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "opengraph",
+   "stat": "+365",
+   "stat_rotulo": "hoje",
+   "total": "10.544",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 9,
+   "nome": "n8n-io/n8n",
+   "repo": "n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "gancho": [
+    "AUTOMATIZE TUDO",
+    "ARRASTANDO BLOCOS"
+   ],
+   "o_que_e": "Uma plataforma para montar automações e agentes de IA em uma tela visual, ligando mais de 1500 serviços, na nuvem ou no seu servidor.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Mais de 1500 conexões",
+     "texto": "Liga a IA aos sistemas que você já usa, com mais de 9 mil modelos prontos."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Escolha o modelo",
+     "texto": "Use OpenAI, Anthropic, Google ou modelos abertos e troque quando quiser."
+    }
+   ],
+   "fluxo": [
+    "ARRASTA BLOCOS",
+    "LIGA A IA",
+    "RODA SOZINHO"
+   ],
+   "print": "prints/9.png",
+   "print_fonte": "readme",
+   "stat": "+325",
+   "stat_rotulo": "hoje",
+   "total": "211.327",
+   "info2": "TypeScript · desde 06/2019"
+  },
+  {
+   "pos": 10,
+   "nome": "cursor/plugins",
+   "repo": "plugins",
+   "url": "https://github.com/cursor/plugins",
+   "gancho": [
+    "PLUGINS OFICIAIS",
+    "DO CURSOR"
+   ],
+   "o_que_e": "Uma coleção de plugins oficiais do Cursor, o editor de código com IA, que somam funções novas como revisão de código e ensino.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Revisão profunda",
+     "texto": "O Thermos audita segurança e qualidade do código antes de juntar."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Memória e ensino",
+     "texto": "Plugins para planos de estudo e para a IA lembrar do que aprendeu."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE PLUGIN",
+    "INSTALA",
+    "CURSOR EVOLUI"
+   ],
+   "print": "prints/10.png",
+   "print_fonte": "opengraph",
+   "stat": "+314",
+   "stat_rotulo": "hoje",
+   "total": "17.385",
+   "info2": "TypeScript · desde 01/2026"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 10 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}
