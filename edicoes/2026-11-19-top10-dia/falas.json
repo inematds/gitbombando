@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "O Google criou uma inteligência artificial que escreve artigo científico sozinha. E ela tomou o primeiro lugar do GitHub hoje.",
+  "legenda": "O Google criou uma inteligência artificial que escreve artigo científico sozinha. E ela tomou o primeiro lugar do GitHub hoje."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez projetos que mais cresceram hoje somaram sete mil cento e quarenta e cinco estrelas. Tem Google em dobro e muita i-á programando sozinha. Vou do décimo ao primeiro.",
+  "legenda": "Os dez projetos que mais cresceram hoje somaram 7.145 estrelas. Tem Google em dobro e muita i-á programando sozinha. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, estreando no Top dez, os plugins oficiais do Cursor. São extensões que dão novos poderes ao editor que programa com inteligência artificial. Foram trezentas e catorze estrelas.",
+  "legenda": "Em décimo, estreando no Top dez, os plugins oficiais do Cursor. São extensões que dão novos poderes ao editor que programa com inteligência artificial. Foram 314 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Número nove, o ene oito ene. Você arrasta blocos na tela e monta robôs que fazem o trabalho chato por você, com i-á no meio. Hoje, trezentas e vinte e cinco estrelas.",
+  "legenda": "Número nove, o ene oito ene. Você arrasta blocos na tela e monta robôs que fazem o trabalho chato por você, com i-á no meio. Hoje, 325 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Oitavo, o Google, que não sai do Top dez. O Stitch Skills faz a sua i-á desenhar as telas do seu site ou aplicativo. Ganhou trezentas e sessenta e cinco estrelas.",
+  "legenda": "Oitavo, o Google, que não sai do Top dez. O Stitch Skills faz a sua i-á desenhar as telas do seu site ou aplicativo. Ganhou 365 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Em sétimo, o CLI-Anything. A promessa é ousada: qualquer programa do seu computador vira algo que a inteligência artificial comanda sozinha. São trezentas e oitenta e nove estrelas.",
+  "legenda": "Em sétimo, o CLI-Anything. A promessa é ousada: qualquer programa do seu computador vira algo que a inteligência artificial comanda sozinha. São 389 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Sexto lugar, o Arcane. Um painel simples pra cuidar dos programas que rodam no seu servidor, sem decorar comando nenhum. Levou quinhentas e quarenta e sete estrelas.",
+  "legenda": "Sexto lugar, o Arcane. Um painel simples pra cuidar dos programas que rodam no seu servidor, sem decorar comando nenhum. Levou 547 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Quinto, um veterano de dez anos. O Svelte é um kit pra criar sites rápidos e leves, mantido por voluntários. Somou seiscentas e noventa e duas estrelas.",
+  "legenda": "Quinto, um veterano de dez anos. O Svelte é um kit pra criar sites rápidos e leves, mantido por voluntários. Somou 692 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, o superpowers, que não sai do Top dez. Ele ensina a i-á a perguntar e planejar antes de sair programando. Mais oitocentas e vinte e duas estrelas.",
+  "legenda": "Em quarto, o superpowers, que não sai do Top dez. Ele ensina a i-á a perguntar e planejar antes de sair programando. Mais 822 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Terceiro, o last thirty days. Ele vasculha Reddit, YouTube e X sobre qualquer assunto do último mês e te entrega um resumo. Mil e cinquenta e nove estrelas.",
+  "legenda": "E agora o pódio. Terceiro, o last thirty days. Ele vasculha Reddit, YouTube e X sobre qualquer assunto do último mês e te entrega um resumo. 1.059 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, o ECC, que não sai do Top dez. Ele faz o seu assistente de programação planejar, testar e lembrar do que importa. Hoje, mil cento e oito estrelas.",
+  "legenda": "Em segundo, o ECC, que não sai do Top dez. Ele faz o seu assistente de programação planejar, testar e lembrar do que importa. Hoje, 1.108 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um. Google. O PaperOrchestra pega ideias e anotações e entrega um artigo científico pronto, com gráficos e tudo. Cresceu quase quarenta e oito por cento num dia. Mil quinhentas e vinte e quatro estrelas.",
+  "legenda": "E o número um. Google. O PaperOrchestra pega ideias e anotações e entrega um artigo científico pronto, com gráficos e tudo. Cresceu quase 48% num dia. 1.524 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

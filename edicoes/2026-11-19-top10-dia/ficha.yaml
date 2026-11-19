@@ -1,0 +1,138 @@
+modo: dia
+gancho:
+  tipo: noticia
+  manchete: '+1.524 ESTRELAS: IA DO GOOGLE'
+  destaque: '+1.524'
+  objeto: uma pilha de folhas de artigo científico pegando fogo, com uma caneta dourada
+    escrevendo sozinha no meio das chamas
+  fontes:
+  - nome: github.com/trending
+    trecho: google-research/paper-orchestra · 1,524 stars today
+  - nome: github.com/trending
+    trecho: affaan-m/ECC · 1,108 stars today
+abertura:
+  cena: biblioteca escura à noite, estantes na sombra e só uma luz amarela vindo do
+    centro
+partes:
+- etapa: gancho
+  fala: O Google criou uma inteligência artificial que escreve artigo científico sozinha.
+    E ela tomou o primeiro lugar do GitHub hoje.
+- etapa: panorama
+  fala: Os dez projetos que mais cresceram hoje somaram sete mil cento e quarenta
+    e cinco estrelas. Tem Google em dobro e muita i-á programando sozinha. Vou do
+    décimo ao primeiro.
+  numero: '7.145'
+- etapa: repo
+  repo: cursor/plugins
+  desc: Extensões oficiais do Cursor, o editor que programa com IA ao seu lado.
+  destaque: oficiais
+  numero: '314'
+  fala: Em décimo, estreando no Top dez, os plugins oficiais do Cursor. São extensões
+    que dão novos poderes ao editor que programa com inteligência artificial. Foram
+    trezentas e catorze estrelas.
+- etapa: repo
+  repo: n8n-io/n8n
+  desc: Monta robôs que fazem tarefas repetitivas por você, arrastando blocos na tela.
+  destaque: robôs
+  numero: '325'
+  fala: Número nove, o ene oito ene. Você arrasta blocos na tela e monta robôs que
+    fazem o trabalho chato por você, com i-á no meio. Hoje, trezentas e vinte e cinco
+    estrelas.
+- etapa: repo
+  repo: google-labs-code/stitch-skills
+  desc: 'Do Google: habilidades que fazem a sua IA desenhar telas de sites e apps.'
+  destaque: desenhar telas
+  numero: '365'
+  fala: Oitavo, o Google, que não sai do Top dez. O Stitch Skills faz a sua i-á desenhar
+    as telas do seu site ou aplicativo. Ganhou trezentas e sessenta e cinco estrelas.
+- etapa: repo
+  repo: HKUDS/CLI-Anything
+  desc: Deixa qualquer programa pronto pra ser comandado direto por uma IA.
+  destaque: qualquer programa
+  numero: '389'
+  fala: 'Em sétimo, o CLI-Anything. A promessa é ousada: qualquer programa do seu
+    computador vira algo que a inteligência artificial comanda sozinha. São trezentas
+    e oitenta e nove estrelas.'
+- etapa: repo
+  repo: getarcaneapp/arcane
+  desc: Painel bonito e simples pra cuidar dos programas do seu servidor, sem decorar
+    comando.
+  destaque: sem decorar comando
+  numero: '547'
+  fala: Sexto lugar, o Arcane. Um painel simples pra cuidar dos programas que rodam
+    no seu servidor, sem decorar comando nenhum. Levou quinhentas e quarenta e sete
+    estrelas.
+- etapa: repo
+  repo: sveltejs/svelte
+  desc: Kit veterano pra criar sites rápidos e leves, mantido por voluntários.
+  destaque: rápidos e leves
+  numero: '692'
+  fala: Quinto, um veterano de dez anos. O Svelte é um kit pra criar sites rápidos
+    e leves, mantido por voluntários. Somou seiscentas e noventa e duas estrelas.
+- etapa: repo
+  repo: obra/superpowers
+  desc: Ensina a IA a perguntar e planejar antes de sair programando.
+  destaque: planejar antes
+  numero: '822'
+  fala: Em quarto, o superpowers, que não sai do Top dez. Ele ensina a i-á a perguntar
+    e planejar antes de sair programando. Mais oitocentas e vinte e duas estrelas.
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Vasculha Reddit, YouTube e X sobre qualquer assunto e te entrega um resumo.
+  destaque: um resumo
+  numero: '1.059'
+  fala: E agora o pódio. Terceiro, o last thirty days. Ele vasculha Reddit, YouTube
+    e X sobre qualquer assunto do último mês e te entrega um resumo. Mil e cinquenta
+    e nove estrelas.
+- etapa: repo
+  repo: affaan-m/ECC
+  desc: 'Dá método e memória pro seu assistente de programação: planeja, testa e revisa.'
+  destaque: método e memória
+  numero: '1.108'
+  fala: Em segundo, o ECC, que não sai do Top dez. Ele faz o seu assistente de programação
+    planejar, testar e lembrar do que importa. Hoje, mil cento e oito estrelas.
+- etapa: repo
+  repo: google-research/paper-orchestra
+  desc: 'Do Google: transforma ideias e anotações num artigo científico pronto.'
+  destaque: artigo científico pronto
+  numero: '1.524'
+  fala: E o número um. Google. O PaperOrchestra pega ideias e anotações e entrega
+    um artigo científico pronto, com gráficos e tudo. Cresceu quase quarenta e oito
+    por cento num dia. Mil quinhentas e vinte e quatro estrelas.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo
+    no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só
+    copiar, e direto na internet.
+trocas:
+  sete mil cento e quarenta e cinco: '7.145'
+  trezentas e catorze: '314'
+  trezentas e vinte e cinco: '325'
+  trezentas e sessenta e cinco: '365'
+  trezentas e oitenta e nove: '389'
+  quinhentas e quarenta e sete: '547'
+  seiscentas e noventa e duas: '692'
+  oitocentas e vinte e duas: '822'
+  Mil e cinquenta e nove: '1.059'
+  mil cento e oito: '1.108'
+  Mil quinhentas e vinte e quatro: '1.524'
+  quarenta e oito por cento: 48%
+cores:
+  bombando: '#FACC15'
+  Google: '#FACC15'
+  pódio: '#FACC15'
+  ousada: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: IA do Google que escreve artigo científico sozinha ganha +1.524 estrelas
+    em um dia
+  contexto: Top 10 do GitHub de 19/11/2026, do décimo ao primeiro, com os projetos
+    que mais ganharam estrelas no dia. O PaperOrchestra, do Google, que transforma
+    ideias num artigo científico pronto, ganhou 1.524 estrelas e tomou o topo.
+  telegram: 'O Google tomou o primeiro lugar do GitHub com o PaperOrchestra, uma IA
+    que transforma ideias e anotações num artigo científico pronto: 1.524 estrelas
+    em um dia. No pódio ainda tem o ECC e o last30days, e o Google aparece de novo
+    com o Stitch Skills.'

@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "Todos os quadros estão de acordo: a capa traz TOP 10 DO GITHUB e a manchete igual à da ficha, as pílulas 🔥, as estrelas totais e as posições batem com o top10.json, o avatar fica em meia tela e o fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "79.26s (#4 superpowers): o pico de 1.325 estrelas numa só hora achata as outras barras do gráfico; vale limitar a escala ou explicar o pico.",
+  "107.48–116.89s (#1 paper-orchestra): o cartão poderia trazer o selo '+48% em um dia', o dado mais forte da fala, para reforçar o clímax.",
+  "0.05–4.0s (capa): a legenda karaokê sobre as chamas tem pouco contraste nas palavras ainda não ditas; um fundo escuro atrás da legenda ajudaria.",
+  "13.41s (panorama): a fonte do rodapé e a linha 'estrelas ganhas hoje' estão muito pequenas e quase ilegíveis no celular.",
+  "51.04s (#7 CLI-Anything): a foto do dono mostra o logo 'Open DataScience', que pode confundir quem não conhece o HKUDS; vale considerar o nome do projeto no lugar."
+ ]
+}
