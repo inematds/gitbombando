@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · SISTEMAS DE AGENTES",
+ "conta": "@inema.tds",
+ "data_br": "19/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "SISTEMAS DE AGENTES",
+  "numero": "+1.058",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "AGENTES QUE CLONAM VÍDEO VIRAL",
+  "destaque": "VIRAL",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "hypit-ai/hypit",
+   "repo": "hypit",
+   "url": "https://github.com/hypit-ai/hypit",
+   "gancho": [
+    "CLONAR VÍDEO VIRAL",
+    "COM AGENTES DE IA?"
+   ],
+   "o_que_e": "Um sistema que ensina agentes de IA, como o Claude Code, a criar vídeo: você entrega um vídeo e o agente monta legendas, cenas extras e efeitos.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Vídeo vira receita",
+     "texto": "O agente refaz o vídeo inteiro: imagens, legendas, cenas extras e efeitos."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Grátis para usar",
+     "texto": "O Hypit não cobra; você paga só o agente e os modelos de IA que escolher."
+    }
+   ],
+   "fluxo": [
+    "SOLTA O VÍDEO",
+    "O AGENTE CLONA",
+    "VÍDEO PRONTO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+272",
+   "stat_rotulo": "por dia",
+   "total": "30.700",
+   "info2": "TypeScript · criado há 113 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "lexmount/moli",
+   "repo": "moli",
+   "url": "https://github.com/lexmount/moli",
+   "gancho": [
+    "SEU AGENTE NAVEGA",
+    "NA INTERNET"
+   ],
+   "o_que_e": "Um navegador sem janela, feito para agentes de IA, que abre páginas, pesquisa na web e extrai o conteúdo gastando poucos recursos do computador.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Lê qualquer página",
+     "texto": "Busca sites, pesquisa na web e entrega o texto da página pronto para a IA."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Leve e rápido",
+     "texto": "Feito em Rust, roda em Linux, macOS e Windows usando poucos recursos."
+    }
+   ],
+   "fluxo": [
+    "PEDE AO AGENTE",
+    "ELE ABRE O SITE",
+    "TEXTO EXTRAÍDO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+238",
+   "stat_rotulo": "por dia",
+   "total": "24.057",
+   "info2": "Rust · criado há 101 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "Fei2411/DS-Bot",
+   "repo": "DS-Bot",
+   "url": "https://github.com/Fei2411/DS-Bot",
+   "gancho": [
+    "UM TIME DE ROBÔS",
+    "QUE CONVERSA"
+   ],
+   "o_que_e": "Um aplicativo de código aberto que transforma o DeepSeek Harness em robôs de IA que você cria, com quem conversa e que trocam mensagens entre si.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Robôs em grupo",
+     "texto": "Os robôs mandam mensagens uns aos outros e participam de conversas em grupo."
+    },
+    {
+     "icone": "download",
+     "titulo": "App para desktop",
+     "texto": "Instalador para Windows, macOS e Linux, já com o DeepSeek Harness incluso."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "ESCOLHE MODELO",
+    "CRIA SEUS BOTS"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+197",
+   "stat_rotulo": "por dia",
+   "total": "8.431",
+   "info2": "JavaScript · criado há 43 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "mdiri-ai/SoduWork",
+   "repo": "SoduWork",
+   "url": "https://github.com/mdiri-ai/SoduWork",
+   "gancho": [
+    "UM AGENTE FAZ,",
+    "OUTRO REVISA"
+   ],
+   "o_que_e": "Uma central para equipes e seus agentes de IA, instalada no seu próprio servidor, em que cada pedido só termina quando quem pediu aprova.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Revisão automática",
+     "texto": "Um agente faz o trabalho e outro, em outro modelo, confere antes de entregar."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Vários agentes",
+     "texto": "Funciona com Codex, OpenCode, Qwen Code, Kimi Code e DeepSeek Harness."
+    }
+   ],
+   "fluxo": [
+    "FAZ O PEDIDO",
+    "AGENTE EXECUTA",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+185",
+   "stat_rotulo": "por dia",
+   "total": "3.948",
+   "info2": "JavaScript · criado há 21 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "agentes-chat/agentes-chat",
+   "repo": "agentes-chat",
+   "url": "https://github.com/agentes-chat/agentes-chat",
+   "gancho": [
+    "SEU TIME E A IA",
+    "NO MESMO CHAT"
+   ],
+   "o_que_e": "Uma alternativa ao Slack, de código aberto, em que pessoas e agentes de IA trabalham juntos em canais e mensagens diretas, no seu próprio servidor.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Pede sua aprovação",
+     "texto": "Ações sensíveis esperam o sim de uma pessoa, e cada gasto fica registrado."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Agentes de verdade",
+     "texto": "Usam Claude, ChatGPT, Gemini ou Grok, com computador e navegador próprios."
+    }
+   ],
+   "fluxo": [
+    "SOBE O SERVIDOR",
+    "CHAMA O AGENTE",
+    "ELE TRABALHA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+166",
+   "stat_rotulo": "por dia",
+   "total": "1.735",
+   "info2": "TypeScript · criado há 10 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

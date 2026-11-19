@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "AGENTES QUE CLONAM VÍDEO VIRAL",
+  "destaque": "VIRAL"
+ },
+ "repos": {
+  "hypit-ai/hypit": {
+   "gancho": [
+    "CLONAR VÍDEO VIRAL",
+    "COM AGENTES DE IA?"
+   ],
+   "o_que_e": "Um sistema que ensina agentes de IA, como o Claude Code, a criar vídeo: você entrega um vídeo e o agente monta legendas, cenas extras e efeitos.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Vídeo vira receita",
+     "texto": "O agente refaz o vídeo inteiro: imagens, legendas, cenas extras e efeitos."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Grátis para usar",
+     "texto": "O Hypit não cobra; você paga só o agente e os modelos de IA que escolher."
+    }
+   ],
+   "fluxo": [
+    "SOLTA O VÍDEO",
+    "O AGENTE CLONA",
+    "VÍDEO PRONTO"
+   ]
+  },
+  "lexmount/moli": {
+   "gancho": [
+    "SEU AGENTE NAVEGA",
+    "NA INTERNET"
+   ],
+   "o_que_e": "Um navegador sem janela, feito para agentes de IA, que abre páginas, pesquisa na web e extrai o conteúdo gastando poucos recursos do computador.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Lê qualquer página",
+     "texto": "Busca sites, pesquisa na web e entrega o texto da página pronto para a IA."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Leve e rápido",
+     "texto": "Feito em Rust, roda em Linux, macOS e Windows usando poucos recursos."
+    }
+   ],
+   "fluxo": [
+    "PEDE AO AGENTE",
+    "ELE ABRE O SITE",
+    "TEXTO EXTRAÍDO"
+   ]
+  },
+  "Fei2411/DS-Bot": {
+   "gancho": [
+    "UM TIME DE ROBÔS",
+    "QUE CONVERSA"
+   ],
+   "o_que_e": "Um aplicativo de código aberto que transforma o DeepSeek Harness em robôs de IA que você cria, com quem conversa e que trocam mensagens entre si.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Robôs em grupo",
+     "texto": "Os robôs mandam mensagens uns aos outros e participam de conversas em grupo."
+    },
+    {
+     "icone": "download",
+     "titulo": "App para desktop",
+     "texto": "Instalador para Windows, macOS e Linux, já com o DeepSeek Harness incluso."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "ESCOLHE MODELO",
+    "CRIA SEUS BOTS"
+   ]
+  },
+  "mdiri-ai/SoduWork": {
+   "gancho": [
+    "UM AGENTE FAZ,",
+    "OUTRO REVISA"
+   ],
+   "o_que_e": "Uma central para equipes e seus agentes de IA, instalada no seu próprio servidor, em que cada pedido só termina quando quem pediu aprova.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Revisão automática",
+     "texto": "Um agente faz o trabalho e outro, em outro modelo, confere antes de entregar."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Vários agentes",
+     "texto": "Funciona com Codex, OpenCode, Qwen Code, Kimi Code e DeepSeek Harness."
+    }
+   ],
+   "fluxo": [
+    "FAZ O PEDIDO",
+    "AGENTE EXECUTA",
+    "VOCÊ APROVA"
+   ]
+  },
+  "agentes-chat/agentes-chat": {
+   "gancho": [
+    "SEU TIME E A IA",
+    "NO MESMO CHAT"
+   ],
+   "o_que_e": "Uma alternativa ao Slack, de código aberto, em que pessoas e agentes de IA trabalham juntos em canais e mensagens diretas, no seu próprio servidor.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Pede sua aprovação",
+     "texto": "Ações sensíveis esperam o sim de uma pessoa, e cada gasto fica registrado."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Agentes de verdade",
+     "texto": "Usam Claude, ChatGPT, Gemini ou Grok, com computador e navegador próprios."
+    }
+   ],
+   "fluxo": [
+    "SOBE O SERVIDOR",
+    "CHAMA O AGENTE",
+    "ELE TRABALHA"
+   ]
+  }
+ },
+ "legenda_abertura": "Agentes de IA agora clonam vídeos, navegam na internet e trabalham em equipe com você. Arrasta o carrossel para ver os 5 projetos de sistemas de agentes que mais crescem no GitHub. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de sistemas de agentes de IA que mais crescem no GitHub. Confira e veja qual combina com o seu trabalho. No inema.club está tudo lá, e você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

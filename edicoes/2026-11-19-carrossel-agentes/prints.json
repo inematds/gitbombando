@@ -1,0 +1,42 @@
+{
+ "hypit-ai/hypit": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/981c28e8-ddab-4164-85bc-03b5d71275dc",
+  "tam": [
+   1080,
+   738
+  ]
+ },
+ "lexmount/moli": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/lexmount/moli/main/assets/moli-game.jpg",
+  "tam": [
+   1400,
+   807
+  ]
+ },
+ "Fei2411/DS-Bot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Fei2411/DS-Bot/main/docs/images/team.png",
+  "tam": [
+   1400,
+   860
+  ]
+ },
+ "mdiri-ai/SoduWork": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/mdiri-ai/SoduWork/main/docs/assets/product-architecture.en.png",
+  "tam": [
+   1400,
+   1711
+  ]
+ },
+ "agentes-chat/agentes-chat": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/agentes-chat/agentes-chat/main/docs/media/readme-hero.png",
+  "tam": [
+   1400,
+   972
+  ]
+ }
+}
