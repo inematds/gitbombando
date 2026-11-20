@@ -1,0 +1,42 @@
+{
+ "BaaRai/ARTEX": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/BaaRai/ARTEX/main/screenshots/tasks.png",
+  "tam": [
+   1400,
+   875
+  ]
+ },
+ "expo/exact": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/expo/exact/main/docs/screenshots/softwear-web.webp",
+  "tam": [
+   800,
+   500
+  ]
+ },
+ "Leonxlnx/earshot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Leonxlnx/earshot/main/docs/media/launch_frames.png",
+  "tam": [
+   1400,
+   593
+  ]
+ },
+ "Louis-CFM/coucou": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Louis-CFM/coucou/main/docs/media/demo.gif",
+  "tam": [
+   760,
+   450
+  ]
+ },
+ "CopilotKit/OpenBot": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/c60f07da-8b6d-46eb-a573-17fc1e65a644",
+  "tam": [
+   1400,
+   788
+  ]
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · SISTEMAS DE AGENTES",
+ "conta": "@inema.tds",
+ "data_br": "20/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "SISTEMAS DE AGENTES",
+  "numero": "+981",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "AGENTES DE IA QUE TESTAM INVASÕES",
+  "destaque": "INVASÕES",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "BaaRai/ARTEX",
+   "repo": "ARTEX",
+   "url": "https://github.com/BaaRai/ARTEX",
+   "gancho": [
+    "ATAQUE SIMULADO",
+    "COM PROVAS."
+   ],
+   "o_que_e": "Um sistema de agentes de IA que testa sozinho a segurança de sites e servidores e guarda as provas de cada falha que encontra.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Falhas com provas",
+     "texto": "Cada falha vem com o pedido e a resposta que a comprovam."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Roda no seu servidor",
+     "texto": "Você hospeda tudo, e cada ação passa por regras e aprovação."
+    }
+   ],
+   "fluxo": [
+    "DEFINE O ALVO",
+    "AGENTES TESTAM",
+    "FALHAS PROVADAS"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+303",
+   "stat_rotulo": "por dia",
+   "total": "12.919",
+   "info2": "Go · criado há 43 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "expo/exact",
+   "repo": "exact",
+   "url": "https://github.com/expo/exact",
+   "gancho": [
+    "UM APP SÓ.",
+    "TODAS AS TELAS."
+   ],
+   "o_que_e": "Uma base para criar apps que rodam na web, no iPhone, no Mac, no Android e no Linux, e que um agente de IA consegue montar, rodar e testar.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Escreve uma vez só",
+     "texto": "O mesmo app roda nativo na web, iPhone, Mac, Android e Linux."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para agentes de IA",
+     "texto": "Agentes de programação montam, rodam, veem e testam o app."
+    }
+   ],
+   "fluxo": [
+    "PEDE O APP",
+    "A IA CONSTRÓI",
+    "TESTA EM TUDO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+259",
+   "stat_rotulo": "por dia",
+   "total": "4.771",
+   "info2": "Rust · criado há 18 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "Leonxlnx/earshot",
+   "repo": "earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "gancho": [
+    "IA QUE ESCUTA",
+    "O QUE CRIOU?"
+   ],
+   "o_que_e": "Uma ferramenta que dá ouvidos aos agentes de IA de programação: eles escutam, avaliam e criam sons em código.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Ouve e descreve sons",
+     "texto": "Transforma um áudio em palavras que o agente consegue entender."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Roda no processador",
+     "texto": "Funciona no seu computador, sem placa de vídeo, e é gratuito."
+    }
+   ],
+   "fluxo": [
+    "MANDA O ÁUDIO",
+    "A IA ESCUTA",
+    "SOM AJUSTADO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+146",
+   "stat_rotulo": "por dia",
+   "total": "5.290",
+   "info2": "Python · criado há 36 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "Louis-CFM/coucou",
+   "repo": "coucou",
+   "url": "https://github.com/Louis-CFM/coucou",
+   "gancho": [
+    "SEUS AGENTES",
+    "NO NOTCH DO MAC."
+   ],
+   "o_que_e": "Um bichinho que mora no topo da tela do Mac e no celular e avisa quando seus agentes de IA, como Claude Code e Codex, precisam de você.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Aprova de onde estiver",
+     "texto": "Libera pedidos do agente no notch ou na tela de bloqueio do iPhone."
+    },
+    {
+     "icone": "mic",
+     "titulo": "Ditado por voz offline",
+     "texto": "Segura uma tecla, fala e o texto aparece onde você digita."
+    }
+   ],
+   "fluxo": [
+    "AGENTE TRABALHA",
+    "MOCHI AVISA",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+137",
+   "stat_rotulo": "por dia",
+   "total": "7.358",
+   "info2": "Swift · criado há 54 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "CopilotKit/OpenBot",
+   "repo": "OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "gancho": [
+    "COLEGAS DE IA",
+    "NO SEU SERVIDOR."
+   ],
+   "o_que_e": "Um espaço de trabalho aberto para colegas de IA que você mesmo hospeda, escolhendo os modelos de IA e os agentes que quiser usar.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Instala sem terminal",
+     "texto": "Tem instalador pronto para Mac e Windows, sem ferramentas técnicas."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Usa navegador e espera",
+     "texto": "O bot navega, usa ferramentas e aguarda sua aprovação para enviar."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A IA",
+    "O BOT TRABALHA",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+136",
+   "stat_rotulo": "por dia",
+   "total": "13.025",
+   "info2": "TypeScript · criado há 95 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}
