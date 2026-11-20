@@ -1,0 +1,199 @@
+{
+ "tipo": "top5",
+ "serie": "TOP 5 DO GITHUB",
+ "conta": "@inema.tds",
+ "data_br": "20/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "DO GITHUB NA SEMANA",
+  "numero": "+27.043",
+  "numero_rotulo": "estrelas ganhas pelos 5 em 7 dias",
+  "manchete": "GOOGLE, META E ALIBABA ABREM CÓDIGO",
+  "destaque": "ABREM",
+  "fundo": [
+   "prints/1.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/2.png",
+   "prints/5.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "dream-num/univer",
+   "repo": "univer",
+   "url": "https://github.com/dream-num/univer",
+   "gancho": [
+    "SEU PRÓPRIO OFFICE",
+    "COM IA DENTRO?"
+   ],
+   "o_que_e": "Uma base de código aberto para criar planilhas e documentos editáveis dentro do seu próprio sistema, que pessoas e agentes de IA podem usar.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilhas e documentos",
+     "texto": "Começa com editores de planilha e de texto abertos, prontos para usar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes de IA",
+     "texto": "Seu aplicativo ou agente de IA consegue editar o conteúdo direto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A BASE",
+    "ABRE A PLANILHA",
+    "A IA EDITA"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+7.248",
+   "stat_rotulo": "na semana",
+   "total": "30.800",
+   "info2": "TypeScript · desde 09/2022"
+  },
+  {
+   "pos": 2,
+   "nome": "GoogleChrome/modern-web-guidance-src",
+   "repo": "modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "gancho": [
+    "SUA IA PROGRAMANDO",
+    "SITE MODERNO?"
+   ],
+   "o_que_e": "Um pacote de orientações do Chrome, Edge, Firefox e MDN que ensina seu assistente de IA de programação a criar sites com práticas atuais.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Fora do código antigo",
+     "texto": "Afasta a IA de soluções ultrapassadas e indica as atuais da web."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala com um comando",
+     "texto": "Um assistente no terminal guia a instalação. Precisa de Node.js 22."
+    }
+   ],
+   "fluxo": [
+    "RODA O COMANDO",
+    "ESCOLHE A IA",
+    "CÓDIGO ATUAL"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+6.858",
+   "stat_rotulo": "na semana",
+   "total": "9.366",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 3,
+   "nome": "meta/astryx",
+   "repo": "astryx",
+   "url": "https://github.com/meta/astryx",
+   "gancho": [
+    "O VISUAL DA META",
+    "NO SEU APP?"
+   ],
+   "o_que_e": "Um conjunto de peças visuais prontas para aplicativos, usado por anos dentro da Meta, agora aberto e feito para pessoas e IA usarem.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 componentes",
+     "texto": "Botões, telas e modelos prontos, com modo escuro e temas de marca."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para IA também",
+     "texto": "Pessoas e assistentes de IA constroem com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "IMPORTA AS PEÇAS",
+    "AJUSTA O TEMA",
+    "APP PRONTO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+4.977",
+   "stat_rotulo": "na semana",
+   "total": "31.171",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "alibaba/open-code-review",
+   "repo": "open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "gancho": [
+    "A IA REVISA",
+    "SEU CÓDIGO"
+   ],
+   "o_que_e": "Um programa de terminal da Alibaba que usa um modelo de IA para revisar mudanças no código e comentar problemas linha por linha.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Comentário por linha",
+     "texto": "Aponta falhas de segurança e erros comuns no ponto exato do código."
+    },
+    {
+     "icone": "link",
+     "titulo": "Liga com OpenAI e Claude",
+     "texto": "Basta configurar o modelo de IA que você já usa para começar."
+    }
+   ],
+   "fluxo": [
+    "CONFIGURA A IA",
+    "LÊ AS MUDANÇAS",
+    "COMENTÁRIOS"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+4.492",
+   "stat_rotulo": "na semana",
+   "total": "54.517",
+   "info2": "Go · desde 05/2026"
+  },
+  {
+   "pos": 5,
+   "nome": "backnotprop/plannotator",
+   "repo": "plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "gancho": [
+    "CORRIGIR O PLANO",
+    "ANTES DA IA AGIR?"
+   ],
+   "o_que_e": "Uma tela no navegador onde você lê, marca e comenta os planos e o código do seu assistente de IA e devolve tudo com um clique.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Claude Code, Codex, Gemini CLI, OpenCode e outros."
+    },
+    {
+     "icone": "code",
+     "titulo": "Revisão de código",
+     "texto": "Revise mudanças locais ou pedidos de alteração e comente cada linha."
+    }
+   ],
+   "fluxo": [
+    "A IA PROPÕE",
+    "VOCÊ ANOTA",
+    "ENVIA O RETORNO"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "opengraph",
+   "stat": "+3.468",
+   "stat_rotulo": "na semana",
+   "total": "13.772",
+   "info2": "TypeScript · desde 12/2025"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}
