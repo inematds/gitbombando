@@ -1,0 +1,142 @@
+modo: dia
+gancho:
+  tipo: contrario
+  manchete: +2.028 ESTRELAS E A IA OBEDECE
+  destaque: '+2.028'
+  objeto: um robô dourado de joelhos diante de uma prancheta em chamas, com faíscas
+    amarelas explodindo ao redor
+  fontes:
+  - nome: github.com/trending
+    trecho: obra/superpowers · 2,028 stars today
+  - nome: github.com/trending
+    trecho: elementalsouls/Claude-BugHunter · 1,349 stars today
+abertura:
+  cena: oficina escura de madrugada, bancadas na sombra e só uma luz amarela vindo
+    do centro
+partes:
+- etapa: gancho
+  fala: A inteligência artificial que programa sozinha tem um defeito. Ela sai fazendo
+    sem pensar. E o projeto que corrige isso disparou hoje no GitHub.
+- etapa: panorama
+  fala: Os dez projetos que mais cresceram hoje somaram sete mil setecentas e vinte
+    e nove estrelas. Tem Google, tem hacker, tem robô pesquisador. Vou do décimo ao
+    primeiro.
+  numero: '7.729'
+- etapa: repo
+  repo: cathrynlavery/diagram-design
+  desc: Faz a sua IA desenhar diagramas bonitos, com a cara da sua marca.
+  destaque: diagramas bonitos
+  numero: '271'
+  fala: Em décimo, o diagram design. Você pede em português e a inteligência artificial
+    desenha um diagrama bonito, com as cores da sua marca. Foram duzentas e setenta
+    e uma estrelas.
+- etapa: repo
+  repo: google-labs-code/stitch-skills
+  desc: 'Do Google: habilidades que fazem a sua IA desenhar telas de sites e apps.'
+  destaque: desenhar telas
+  numero: '302'
+  fala: Número nove, o Google, que não sai do Top dez. O Stitch Skills ensina a sua
+    i-á a desenhar as telas de um site ou aplicativo. Hoje, trezentas e duas estrelas.
+- etapa: repo
+  repo: XiaoYouChR/Ghost-Downloader-3
+  desc: Um baixador que pega vídeo, arquivo e torrent num só programa.
+  destaque: num só programa
+  numero: '341'
+  fala: Oitavo, o Ghost Downloader. Um programa só que baixa vídeo, arquivo, torrent
+    e até lista inteira do YouTube. Promete substituir cinco aplicativos. Levou trezentas
+    e quarenta e uma estrelas.
+- etapa: repo
+  repo: mjmirza/app-store-compliance
+  desc: Evita que o seu aplicativo seja recusado pela Apple e pelo Google.
+  destaque: recusado
+  numero: '377'
+  fala: Sétimo lugar, para quem tem aplicativo. Ele revisa o seu app antes de mandar
+    pra Apple e pro Google e evita a recusa. Cresceu quase vinte por cento num dia.
+    Trezentas e setenta e sete estrelas.
+- etapa: repo
+  repo: cursor/plugins
+  desc: Extensões oficiais do Cursor, o editor que programa com IA ao seu lado.
+  destaque: oficiais
+  numero: '384'
+  fala: Em sexto, os plugins oficiais do Cursor. São extensões que dão novos poderes
+    ao editor que programa com inteligência artificial. Somaram trezentas e oitenta
+    e quatro estrelas.
+- etapa: repo
+  repo: firecrawl/firecrawl
+  desc: Transforma qualquer site em texto limpo pra sua IA ler e entender.
+  destaque: qualquer site
+  numero: '825'
+  fala: Quinto, o Firecrawl. Ele lê qualquer site e entrega o conteúdo limpinho pra
+    inteligência artificial entender. É o olho da i-á na internet. Ganhou oitocentas
+    e vinte e cinco estrelas.
+- etapa: repo
+  repo: HKUDS/CLI-Anything
+  desc: Deixa qualquer programa pronto pra ser comandado direto por uma IA.
+  destaque: qualquer programa
+  numero: '898'
+  fala: 'Em quarto, o CLI-Anything, que não sai do Top dez. A promessa é ousada: qualquer
+    programa do seu computador passa a ser comandado pela inteligência artificial.
+    Oitocentas e noventa e oito estrelas.'
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Vasculha Reddit, YouTube e X sobre qualquer assunto e te entrega um resumo.
+  destaque: um resumo
+  numero: '954'
+  fala: E agora o pódio. Terceiro, o last thirty days, que não sai do Top dez. Ele
+    vasculha Reddit, YouTube e X sobre qualquer assunto e te entrega um resumo. Novecentas
+    e cinquenta e quatro estrelas.
+- etapa: repo
+  repo: elementalsouls/Claude-BugHunter
+  desc: Transforma a IA num caçador de falhas de segurança em sites e sistemas.
+  destaque: caçador de falhas
+  numero: '1.349'
+  fala: Em segundo, um projeto polêmico. O Claude BugHunter transforma a i-á num caçador
+    de falhas de segurança. Serve pra proteger, mas também pode atacar. Cuidado. Mil
+    trezentas e quarenta e nove estrelas.
+- etapa: repo
+  repo: obra/superpowers
+  desc: Ensina a IA a perguntar e planejar antes de sair programando.
+  destaque: planejar antes
+  numero: '2.028'
+  fala: E o número um. Ele de novo. O superpowers faz a inteligência artificial parar,
+    perguntar e planejar antes de programar. Não sai do Top dez. Hoje, duas mil e
+    vinte e oito estrelas.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo
+    no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só
+    copiar, e direto na internet.
+trocas:
+  sete mil setecentas e vinte e nove: '7.729'
+  duzentas e setenta e uma: '271'
+  trezentas e duas: '302'
+  trezentas e quarenta e uma: '341'
+  vinte por cento: 20%
+  Trezentas e setenta e sete: '377'
+  trezentas e oitenta e quatro: '384'
+  oitocentas e vinte e cinco: '825'
+  Oitocentas e noventa e oito: '898'
+  Novecentas e cinquenta e quatro: '954'
+  Mil trezentas e quarenta e nove: '1.349'
+  duas mil e vinte e oito: '2.028'
+cores:
+  bombando: '#FACC15'
+  Google: '#FACC15'
+  pódio: '#FACC15'
+  polêmico: '#ff2a1f'
+  Cuidado: '#ff2a1f'
+  atacar: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: O kit que faz a IA pensar antes de programar ganhou +2.028 estrelas em um
+    dia
+  contexto: Top 10 do GitHub de 20/11/2026, do décimo ao primeiro, com os projetos
+    que mais ganharam estrelas no dia. O superpowers, que ensina a IA a planejar antes
+    de programar, voltou ao topo com 2.028 estrelas.
+  telegram: 'O superpowers voltou ao primeiro lugar do GitHub: 2.028 estrelas em um
+    dia ensinando a IA a perguntar e planejar antes de programar. Em segundo, o polêmico
+    Claude BugHunter, que transforma a IA em caçadora de falhas de segurança. E o
+    Google aparece de novo com o Stitch Skills.'

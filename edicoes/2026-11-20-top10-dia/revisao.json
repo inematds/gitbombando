@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "Capa com 'TOP 10 DO GITHUB' grande e a manchete correta; todos os números das pílulas 🔥 e o total 7.729 batem com o top10.json; avatar presente em todos os quadros; fecho tem a caixa vermelha e a pílula inema.club; nenhum defeito visível.",
+ "sugestoes": [
+  "0.05–4.0s: o 'TOP 10' encosta nas bordas laterais; um pouco de margem deixaria a capa mais limpa.",
+  "13.76s: os nomes longos no ranking ('app-store-complia…') aparecem cortados; abreviar ou reduzir a fonte melhora a leitura.",
+  "23.51s em diante: o gráfico de barras por hora no painel de baixo é pequeno e os rótulos do eixo ficam ilegíveis no celular; vale ampliar ou mostrar só o pico.",
+  "62.54s (#6 plugins): a descrição 'Extensões oficiais do Cursor' é genérica; um exemplo concreto do que o plugin faz prenderia mais.",
+  "121.09s (#1): chamar o 'ele de novo' com um selo visual de 'voltou ao topo' reforçaria o clímax."
+ ]
+}
