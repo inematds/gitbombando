@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "GIGANTES ABREM SUAS FERRAMENTAS DE IA",
+  "destaque": "GIGANTES"
+ },
+ "repos": {
+  "dream-num/univer": {
+   "gancho": [
+    "SEU PRÓPRIO OFFICE",
+    "COM IA DENTRO?"
+   ],
+   "o_que_e": "Uma base de código aberto para criar planilhas e documentos editáveis dentro do seu próprio app, prontos para pessoas e agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilhas e documentos",
+     "texto": "Começa com editores de planilha e texto abertos, prontos para usar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes de IA",
+     "texto": "Seu app ou agente de IA edita o conteúdo por comandos e eventos."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A BASE",
+    "LIGA SEU APP",
+    "IA EDITA JUNTO"
+   ]
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+   "gancho": [
+    "SUA IA CODANDO",
+    "COM A WEB DE HOJE"
+   ],
+   "o_que_e": "Um pacote de habilidades que ensina seu assistente de programação com IA as boas práticas atuais da web e evita código ultrapassado.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Feito pelos navegadores",
+     "texto": "Mantido pelas equipes do Chrome, Edge, Firefox e MDN com a comunidade."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala com um comando",
+     "texto": "Um assistente no terminal guia a instalação. Pede Node.js 22 ou mais."
+    }
+   ],
+   "fluxo": [
+    "RODA O COMANDO",
+    "ESCOLHE A IA",
+    "CÓDIGO ATUAL"
+   ]
+  },
+  "alibaba/open-code-review": {
+   "gancho": [
+    "REVISÃO DE CÓDIGO",
+    "FEITA PELA IA?"
+   ],
+   "o_que_e": "Um programa de terminal da Alibaba que usa IA para revisar mudanças no código e comentar, linha por linha, onde estão os erros.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Acha falhas de segurança",
+     "texto": "Regras prontas para injeção de SQL, ataques XSS e erros de concorrência."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Usa o modelo que quiser",
+     "texto": "Funciona com modelos de IA compatíveis com OpenAI e Anthropic."
+    }
+   ],
+   "fluxo": [
+    "LÊ A MUDANÇA",
+    "A IA ANALISA",
+    "COMENTA A LINHA"
+   ]
+  },
+  "meta/astryx": {
+   "gancho": [
+    "TELAS PRONTAS",
+    "PARA VOCÊ E A IA"
+   ],
+   "o_que_e": "Um conjunto de peças visuais da Meta para montar apps em React, usado em mais de 13 mil apps da empresa e pronto para agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 componentes",
+     "texto": "Botões, menus e outras peças acessíveis, com modo escuro e modelos."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Visual com sua marca",
+     "texto": "Temas personalizáveis para deixar tudo com as cores da sua marca."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE PEÇAS",
+    "APP MONTADO"
+   ]
+  },
+  "mvanhorn/last30days-skill": {
+   "gancho": [
+    "PESQUISA NAS REDES",
+    "EM UM COMANDO?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que pesquisa qualquer tema no Reddit, X, YouTube, Polymarket e na web e entrega um resumo.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Várias fontes juntas",
+     "texto": "Reddit, Hacker News, Polymarket e GitHub funcionam sem configurar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Roda no Claude Code",
+     "texto": "Também instala no Codex, Cursor, Copilot, Gemini e outros agentes."
+    }
+   ],
+   "fluxo": [
+    "DIGITA O TEMA",
+    "A IA PESQUISA",
+    "RESUMO PRONTO"
+   ]
+  }
+ },
+ "legenda_abertura": "Meta, Alibaba e Google abriram ferramentas de IA, e elas dominaram o GitHub nesta semana. Passe o carrossel para ver os cinco projetos que mais ganharam estrelas e o que cada um faz. No inema.club está tudo lá, mas você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 5 da semana no GitHub, com ferramentas abertas por Meta, Alibaba e Google. Confira o carrossel para entender cada projeto em poucos segundos. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

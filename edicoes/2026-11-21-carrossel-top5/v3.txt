@@ -1,0 +1,7 @@
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+🔵 CARROSSEL · Top 5 do GitHub na semana · 21/11/2026
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+Telegram INEMA.FTD: ok (tópico 1921)
+Fila do x3: ok · lives12 item 3761
+7 slides · revisor: aprovado
+🟥 SUGESTÃO: No slide do open-code-review (4/7) o print é uma tabela escura e miúda, quase ilegível no feed; prefira o cartão do GitHub nesses casos. Ajuste também o selo de estrelas para não cobrir o logo do Chrome e a foto do autor nos slides 3/7 e 6/7, e preencha o espaço vazio no meio do fecho.
