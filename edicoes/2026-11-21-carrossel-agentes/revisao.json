@@ -1,0 +1,6 @@
+{
+ "veredito": "aprovado",
+ "motivo": "",
+ "slides_ruins": [],
+ "sugestao": "No slide 5 (openbot), o cartão do GitHub mostra '10k Stars', mas o rodapé diz 9.560 estrelas. Prefira um print do README ou um cartão sem contagem para não parecer contradição; no slide 2, o print do sapper-v2 só tem texto em chinês e não mostra o teste de invasão, então vale buscar uma imagem mais ilustrativa."
+}

@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "AGENTES DE IA QUE TRABALHAM SOZINHOS",
+  "destaque": "SOZINHOS"
+ },
+ "repos": {
+  "N1nEmAn/sapper-v2": {
+   "gancho": [
+    "TESTE DE INVASÃO",
+    "FEITO POR AGENTES"
+   ],
+   "o_que_e": "Um sistema que coordena vários agentes de IA para fazer testes de invasão autorizados, sozinho por horas. Venceu uma competição de segurança.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Campeão em desafio",
+     "texto": "Venceu desafio da Tencent Cloud com 8 horas sem ninguém operando."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Troca agente e modelo",
+     "texto": "Cada papel pode usar Claude Code, Codex, DeepSeek ou outro modelo."
+    }
+   ],
+   "fluxo": [
+    "DEFINE O ALVO",
+    "AGENTES ATACAM",
+    "FALHAS ACHADAS"
+   ]
+  },
+  "kajisho5/ffmpeg-skill": {
+   "gancho": [
+    "EDITAR VÍDEO",
+    "SÓ PEDINDO?"
+   ],
+   "o_que_e": "Um editor de vídeo para agentes de IA como Claude Code e Cursor: você pede cortes, legendas e formatos, e ele edita no seu computador.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Ferramentas de vídeo",
+     "texto": "Corta, legenda, reenquadra para 9:16 e ajusta o volume do áudio."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Tudo no seu computador",
+     "texto": "Sem nuvem e sem chave de acesso paga: roda local com o FFmpeg."
+    }
+   ],
+   "fluxo": [
+    "MANDA O VÍDEO",
+    "PEDE A EDIÇÃO",
+    "VÍDEO PRONTO"
+   ]
+  },
+  "Oldcircle/geo-sleuth": {
+   "gancho": [
+    "UMA FOTO.",
+    "ONDE FOI TIRADA?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que descobre onde uma foto foi tirada, usando mapas, relevo, satélite e street view, e mostra as provas.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Sem placa nem letreiro",
+     "texto": "Usa geometria do mapa, relevo e imagens de satélite para achar o lugar."
+    },
+    {
+     "icone": "image",
+     "titulo": "Mostra as provas",
+     "texto": "Devolve a posição da câmera, a direção e uma imagem de satélite."
+    }
+   ],
+   "fluxo": [
+    "MANDA A FOTO",
+    "AGENTE ANALISA",
+    "LOCAL ACHADO"
+   ]
+  },
+  "nightly-labs/openbot": {
+   "gancho": [
+    "UMA EQUIPE",
+    "DE AGENTES DE IA"
+   ],
+   "o_que_e": "Um aplicativo de computador onde vários agentes de IA, como Codex e Claude, têm seu próprio espaço, fila de tarefas e conversam entre si.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Vários agentes juntos",
+     "texto": "Roda Codex, Claude Code, Grok, Gemini e outros no mesmo aplicativo."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Filas e arquivos",
+     "texto": "Fila de tarefas, troca de arquivos e navegador embutido para os agentes."
+    }
+   ],
+   "fluxo": [
+    "CRIA O AGENTE",
+    "DÁ A TAREFA",
+    "ELES COLABORAM"
+   ]
+  },
+  "kuafuai/andee": {
+   "gancho": [
+    "SEU CELULAR",
+    "USADO PELA IA"
+   ],
+   "o_que_e": "Um agente pessoal que vive no seu celular ou Mac e usa os aplicativos como você: abre, toca, digita e lê a tela.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Dados no aparelho",
+     "texto": "Memória e senhas nunca saem do seu celular ou do seu Mac."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Sem root",
+     "texto": "Um app no Android e um no Mac, sem root e com qualquer modelo de IA."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ PEDE",
+    "ELE USA OS APPS",
+    "TAREFA FEITA"
+   ]
+  }
+ },
+ "legenda_abertura": "Agentes de IA que editam vídeo, acham o local de uma foto e usam seu celular por você: estes são os 5 repositórios de sistemas de agentes que mais crescem no GitHub. Passe o carrossel e veja o que cada um faz. No inema.club está tudo lá, e você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de sistemas de agentes de IA que mais crescem no GitHub. Confira cada um no post. No inema.club está tudo lá, e você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

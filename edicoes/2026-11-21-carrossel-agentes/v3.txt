@@ -1,0 +1,7 @@
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+🔵 CARROSSEL · Top 5 do GitHub · sistemas de agentes de IA · 21/11/2026
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+Telegram INEMA.FTD: ok (tópico 1921)
+Fila do x3: ok · lives12 item 3765
+7 slides · revisor: aprovado
+🟥 SUGESTÃO: No slide 5 (openbot), o cartão do GitHub mostra '10k Stars', mas o rodapé diz 9.560 estrelas. Prefira um print do README ou um cartão sem contagem para não parecer contradição; no slide 2, o print do sapper-v2 só tem texto em chinês e não mostra o teste de invasão, então vale buscar uma imagem mais 

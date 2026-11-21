@@ -1,0 +1,42 @@
+{
+ "N1nEmAn/sapper-v2": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/N1nEmAn/sapper-v2/master/docs/assets/foundation-three-capabilities.jpg",
+  "tam": [
+   900,
+   350
+  ]
+ },
+ "kajisho5/ffmpeg-skill": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/brand/og.png",
+  "tam": [
+   1280,
+   640
+  ]
+ },
+ "Oldcircle/geo-sleuth": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Oldcircle/geo-sleuth/main/docs/hero.gif",
+  "tam": [
+   900,
+   658
+  ]
+ },
+ "nightly-labs/openbot": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/nightly-labs/openbot",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "kuafuai/andee": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/kuafuai/andee/main/images/cover.png",
+  "tam": [
+   1200,
+   630
+  ]
+ }
+}
