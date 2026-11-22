@@ -1,0 +1,42 @@
+{
+ "iamajmeena/neonclipping": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/iamajmeena/neonclipping/main/docs/neonclipping-ui.jpg",
+  "tam": [
+   800,
+   600
+  ]
+ },
+ "hikaku-io/hikaku-extension": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/hikaku-io/hikaku-extension/main/docs/images/in-the-wild.jpg",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "wici-ai/inferssd": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/wici-ai/inferssd",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "incoai/splash": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/incoai/splash",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "zeekk0/OpenAmika": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/zeekk0/OpenAmika/main/docs/images/mekahime-logo-card.png",
+  "tam": [
+   1180,
+   469
+  ]
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "IA PESADA RODANDO NO SEU PC",
+  "destaque": "PC"
+ },
+ "repos": {
+  "iamajmeena/neonclipping": {
+   "gancho": [
+    "COLA O LINK.",
+    "GANHA OS CORTES."
+   ],
+   "o_que_e": "Um programa grátis que transforma vídeos longos do YouTube, Twitch ou Kick em cortes verticais com legenda, tudo no seu computador.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Nada sai do seu PC",
+     "texto": "Sem conta, sem assinatura e sem enviar vídeo para servidor."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Cortes em minutos",
+     "texto": "Corta uma live de 85 minutos em cerca de 97 segundos."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "A IA ESCOLHE",
+    "CORTES PRONTOS"
+   ]
+  },
+  "hikaku-io/hikaku-extension": {
+   "gancho": [
+    "ESSA IMAGEM",
+    "FOI FEITA POR IA?"
+   ],
+   "o_que_e": "Uma extensão de navegador que marca imagens e vídeos feitos por IA enquanto você navega, e mostra o motivo da suspeita.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Roda no seu aparelho",
+     "texto": "A análise acontece no seu computador, sem enviar as imagens."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Chrome, Edge e Firefox",
+     "texto": "Funciona também em vídeos do YouTube e do TikTok."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "NAVEGA NORMAL",
+    "VÊ O ALERTA"
+   ]
+  },
+  "wici-ai/inferssd": {
+   "gancho": [
+    "IA GIGANTE",
+    "NO SEU PC COMUM?"
+   ],
+   "o_que_e": "Um programa que roda modelos de IA maiores que a memória do seu computador, lendo partes do modelo direto do SSD.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Usa o SSD como apoio",
+     "texto": "Carrega só as partes do modelo que precisa, direto do disco."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Chat no navegador",
+     "texto": "Você conversa com o modelo numa página aberta no navegador."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "ESCOLHE MODELO",
+    "CONVERSA"
+   ]
+  },
+  "incoai/splash": {
+   "gancho": [
+    "IA RÁPIDA",
+    "NO SEU MAC."
+   ],
+   "o_que_e": "Um programa que roda modelos de IA num Mac com chip Apple e liga assistentes de programação como o Claude Code.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "App para Mac",
+     "texto": "Baixa, arrasta para Aplicativos e usa em Mac M3 ou mais novo."
+    },
+    {
+     "icone": "code",
+     "titulo": "Liga em assistentes",
+     "texto": "Funciona com OpenCode, Claude Code, Codex e outros assistentes."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "BAIXA O MODELO",
+    "USA NO MAC"
+   ]
+  },
+  "zeekk0/OpenAmika": {
+   "gancho": [
+    "UMA COMPANHEIRA",
+    "COM VOZ E MEMÓRIA."
+   ],
+   "o_que_e": "Uma companheira virtual de código aberto, com avatar animado, conversa por voz em tempo real e memória de longo prazo.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Conversa por voz",
+     "texto": "Ela ouve e responde falando, em tempo real, como numa chamada."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Cérebro local ou online",
+     "texto": "Usa um modelo de IA no seu PC pelo Ollama ou online pelo OpenRouter."
+    }
+   ],
+   "fluxo": [
+    "INSTALA EM 7",
+    "LIGA O OLLAMA",
+    "FALA COM ELA"
+   ]
+  }
+ },
+ "legenda_abertura": "Os 5 projetos que mais crescem no GitHub para rodar IA no seu próprio computador, sem mandar nada para a nuvem. Passa o carrossel e veja o que cada um faz. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios que mais crescem no GitHub para rodar IA no seu computador. Dá uma olhada e conta qual você vai testar. Está tudo no inema.club, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
