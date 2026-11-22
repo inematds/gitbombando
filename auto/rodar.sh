@@ -46,6 +46,7 @@ echo "=== $(date '+%F %T') Bombando no GitHub $MODO $DIA (v$(grep -o 'VERSAO = "
 grep -qx "$DIA" "$RAIZ/auto/pular.txt" 2>/dev/null && { echo "pulado (auto/pular.txt)"; exit 0; }
 grep -qx "$DIA $MODO" "$RAIZ/auto/pular.txt" 2>/dev/null && { echo "pulado (auto/pular.txt)"; exit 0; }
 [ -s "$ED/youtube-$CANAL.txt" ] && [ -z "${FORCAR:-}" ] && { echo "já publicado hoje ($(cat "$ED/youtube-$CANAL.txt")); FORCAR=1 refaz"; exit 0; }
+[ -s "$ED/x3-$CANAL.txt" ] && [ -z "${FORCAR:-}" ] && { echo "já na fila do x3 (item $(cat "$ED/x3-$CANAL.txt")); FORCAR=1 refaz"; exit 0; }   # 22/11/2026
 # vídeo já feito e revisado nesta pasta: retoma sem refazer roteiro nem avatar
 [ -s "$ED/video.mp4" ] && [ -s "$ED/revisao.json" ] && REUSAR=1
 # avatar já enviado ao estúdio (máquina caiu no meio): mantém coleta e roteiro, senão a fala não bate com a ficha (04/11/2026)

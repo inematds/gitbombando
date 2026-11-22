@@ -1,5 +1,8 @@
 # CHANGELOG — gitbombando
 
+## 1.10.2 — 22/11/2026
+- Vídeo que entrou na fila do x3 mas espera o horário do canal (lives8: 07, 13, 19 h) conta como entregue: sem "Falhou" falso no v3; o item fica em `x3-<canal>.txt` e a rodada não põe de novo na fila.
+
 ## 1.10.1 — 22/11/2026
 - Falha não para mais a rodada: até 3 tentativas para qualquer erro, cada uma conserta só o que falhou (render refaz a partir da cena; avatar que não fala o roteiro é reenviado sozinho; HeyGen sem envio reenvia como antes). Nei: "se encontrar uma falha, conserta só a falha e continua, até 3 tentativas".
 - Antes do render, toda imagem do `cena.js` é conferida; faltando, refaz imagens e cena; se ainda faltar, usa a tela boa mais próxima e registra `SUBSTITUÍ` no log.

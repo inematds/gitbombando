@@ -25,7 +25,7 @@ sys.path.insert(0, str(R))
 from auto.ia import executar as executar_ia
 from nucleo import cartao, cena as CENA, pecas, retempo as RT, ritmo as RITMO  # noqa: E402
 
-VERSAO = "1.10.1"
+VERSAO = "1.10.2"
 CANAL = os.environ.get("GB_CANAL", "lives4")
 PERFIL = Path(os.environ.get("R7X_HEYGEN_PERFIL", Path.home() / ".cache/inemaccbot/perfil-heygen"))
 TEMPLATE_HEYGEN = os.environ.get("R7X_HEYGEN_TEMPLATE", "TEMPLATE-AVATAR16")
@@ -456,9 +456,15 @@ def cmd_publicar(pasta):
         if m:
             url = f"https://www.youtube.com/shorts/{m[-1]}"
             (p / f"youtube-{CANAL}.txt").write_text(m[-1] + "\n")
-    st = f"publicado no {CANAL}: {url}" if url else ("(sem YouTube nesta rodada)" if os.environ.get("SEM_YT") else
-                                                    f"⚠ NÃO publicou no {CANAL} (ver publicar.log)")
-    if not url and not os.environ.get("SEM_YT") and not os.environ.get("SEM_BOT"):   # v3 só recebe erro (Nei, 18/11/2026)
+    # entrou na fila do x3 mas o canal só publica nos horários dele (lives8: 07, 13, 19 h): entregue, não é erro (22/11/2026)
+    fila = [] if url or os.environ.get("SEM_YT") or not (p / "publicar.log").exists() else \
+        re.findall(r"na fila: item (\d+)", (p / "publicar.log").read_text())
+    if fila:
+        (p / f"x3-{CANAL}.txt").write_text(fila[-1] + "\n")
+    st = (f"publicado no {CANAL}: {url}" if url else "(sem YouTube nesta rodada)" if os.environ.get("SEM_YT") else
+          f"na fila do x3 no {CANAL} (item {fila[-1]}): sai no próximo horário do canal" if fila else
+          f"⚠ NÃO publicou no {CANAL} (ver publicar.log)")
+    if not url and not fila and not os.environ.get("SEM_YT") and not os.environ.get("SEM_BOT"):   # v3 só recebe erro (Nei, 18/11/2026)
         (p / "aviso.txt").write_text(st + "\n"); Path(str(p / "aviso.txt") + ".envio-v3.json").unlink(missing_ok=True)
         subprocess.run(["node", R / "bin/enviar_bot_v3.mjs", p / "aviso.txt", f"Falhou: Bombando no GitHub · {nome(d)} · {data_br}\n{st}"], timeout=900)
     rev = json.loads((p / "revisao.json").read_text()) if (p / "revisao.json").exists() else {}
