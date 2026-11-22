@@ -4,6 +4,9 @@ Uma linha por falha, mais recente no topo.
 
 | data | o que quebrou | menor correção | prompt \| infra |
 |---|---|---|---|
+| 2026-11-22 | Reel top5 (semana/área) não renderiza desde 21/11: "The source image cannot be decoded" — gb.py grava o fecho como prints/p13-c.png fixo (top10 tem 13 partes) e o cena.js do top5 (8 partes) pede p8-c.png, que não existe | nome do fecho = p{nº de partes}-c.png; + conferir imagens antes do render e 3 tentativas consertando só a falha (v1.10.1) | infra |
+| 2026-11-18 | Reel do dia parou: card do estúdio HeyGen ficou Draft depois do Enviar e a rodada não tentou de novo | reenviar o avatar antes de desistir; refeito à mão às 17:15 | infra |
+| 2026-11-17 | Reel reprovado: a capa desenhou a manchete abaixo de 42% da altura e a legenda caiu em cima | medir onde a manchete termina e pedir outra capa antes do render; capa refeita e publicada em 18/11 no lives7 | prompt |
 | 2026-11-15 | Duas retomadas consultaram agenda em paralelo e agendaram vídeos na mesma marca às 16:42 | serializar consulta→criação→recibo por marca e corrigir post de 13/11 para 17:42; releitura confirmou | infra |
 | 2026-11-15 | updateScheduledPost recusou networkData com redes vazias fora de providers | enviar só configurações das redes ativas Instagram/TikTok, preservando conteúdo; data corrigida no mesmo post | infra |
 | 2026-11-15 | Estúdio HeyGen não reabria título já gerado após correção da fala | título interno leva hash da fala para distinguir revisão; novo avatar enviado | infra |

@@ -1,5 +1,19 @@
 # CHANGELOG — gitbombando
 
+## 1.10.1 — 22/11/2026
+- Falha não para mais a rodada: até 3 tentativas para qualquer erro, cada uma conserta só o que falhou (render refaz a partir da cena; avatar que não fala o roteiro é reenviado sozinho; HeyGen sem envio reenvia como antes). Nei: "se encontrar uma falha, conserta só a falha e continua, até 3 tentativas".
+- Antes do render, toda imagem do `cena.js` é conferida; faltando, refaz imagens e cena; se ainda faltar, usa a tela boa mais próxima e registra `SUBSTITUÍ` no log.
+- Fecho do inema.club passa a se chamar `p<nº de partes>-c.png` (era `p13` fixo e derrubou o top5 de 8 partes em 21 e 22/11).
+- Aviso de falha no v3 traz a linha `REPROVOU` do log, não mais o fim do log ("Node.js v24.22.3").
+
+## 1.9.1 — 18/11/2026
+- Grade nova (`auto/grade.sh`): 07:00 Top 10 do dia, 08:00 Top 5 da semana, 09:30 Top 5 da área, 10:00 Top 5 de agentes, domingo 09:00 Top 10 da semana.
+- Reels em lives4, lives8, lives3 e lives7; carrosséis em lives9 e lives12 pela fila do x3 e no Telegram INEMA.FTD. Nada direto no Metricool.
+- HeyGen tenta 3 vezes; revisor reprovou = capa nova e novo render, uma vez. O v3 só recebe erro.
+
+## 1.8.1 — 18/11/2026
+- O vídeo entra na fila do x3 no lives4; YouTube e redes saem de lá. O metritds fica só para rodada manual com `SEM_YT=1`.
+
 ## 1.7.1 — 15/11/2026
 - Publicação serial por marca durante consulta, criação e recibo; rechecagem do recibo após a trava impede corrida entre retomadas. Marcas diferentes continuam independentes.
 - Cópia social 720p menor e URL CDN para contornar timeout de ingestão de MP4 pelo Metricool; master aprovado preservado.

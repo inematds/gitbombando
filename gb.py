@@ -10,7 +10,7 @@ Motor de telejornal copiado do r7ex (que veio do eventosextremospub); roda sozin
   python3 gb.py render <pasta>            vídeo → <pasta>/video.mp4 (tela :99)
   python3 gb.py revisar <pasta>           folha de 18 quadros + revisor claude -p (auto/revisor.md) → revisao.json
   python3 gb.py fazer <pasta>             checar → imagens + avatar → cena → render → revisar
-  python3 gb.py publicar <pasta>          YouTube lives4 (yt-pubx) → bot v3 → tópico do INEMA.TOOLS no Telegram
+  python3 gb.py publicar <pasta>          fila do x3 no lives4 (YouTube e redes) → bot v3 → tópico do INEMA.TOOLS no Telegram
 """
 import concurrent.futures as cf
 import datetime as dt
@@ -25,19 +25,21 @@ sys.path.insert(0, str(R))
 from auto.ia import executar as executar_ia
 from nucleo import cartao, cena as CENA, pecas, retempo as RT, ritmo as RITMO  # noqa: E402
 
-VERSAO = "1.7.1"
+VERSAO = "1.10.1"
 CANAL = os.environ.get("GB_CANAL", "lives4")
 PERFIL = Path(os.environ.get("R7X_HEYGEN_PERFIL", Path.home() / ".cache/inemaccbot/perfil-heygen"))
 TEMPLATE_HEYGEN = os.environ.get("R7X_HEYGEN_TEMPLATE", "TEMPLATE-AVATAR16")
 HEYGEN_DIR = R / "heygen"
 TELA = ":99"
 TROCAS_PADRAO = {"inema ponto club": "inema.club", "dois mil e vinte e seis": "2026", "dois mil e vinte e sete": "2027"}
-PERIODO = {"dia": "HOJE", "semana": "NA SEMANA", "mes": "NO MÊS"}
-UNID = {"dia": "⭐ HOJE", "semana": "⭐ NA SEMANA", "mes": "⭐ NO MÊS"}
-ANTES = {"dia": "ONTEM", "semana": "HÁ 7 DIAS", "mes": "HÁ 30 DIAS"}
+PERIODO = {"dia": "HOJE", "semana": "NA SEMANA", "mes": "NO MÊS", "area": "POR DIA"}
+UNID = {"dia": "⭐ HOJE", "semana": "⭐ NA SEMANA", "mes": "⭐ NO MÊS", "area": "⭐ POR DIA"}
+ANTES = {"dia": "ONTEM", "semana": "HÁ 7 DIAS", "mes": "HÁ 30 DIAS", "area": "ANTES"}
 DIAS_CURVA = {"semana": 7, "mes": 30}   # curva "total por dia" precisa de um ponto por dia do período inteiro
 NOME_P = {"dia": "do dia", "semana": "da semana", "mes": "do mês"}
 def nome(d):   # 09/11/2026: Top N (5 a 10) — o Trending às vezes traz menos de 10 projetos
+    if d["modo"] == "area":
+        return f"Top {len(d['top10'])} de {d['area']['curto']}"
     return f"Top {len(d['top10'])} {NOME_P[d['modo']]}"
 PROIBIDO = re.compile(r"\b(tu|teu|tua|teus|tuas|contigo|segue o canal|se inscreve|inscreva-se|mort[eoa]s?|morreu|óbitos?)\b", re.I)
 ESTILO = ("Estilo foto cinematográfica realista de impacto, como pôster de filme: UM único objeto ou assunto principal, grande, "
@@ -161,14 +163,16 @@ def cmd_checar(pasta):
 def ficha_motor(p, f, d):
     """completa a ficha que o motor (nucleo/cena.py) entende: telas, painéis com contador e gráfico, fonte, selo, cta"""
     modo = d["modo"]; rp = repos(d); data_br = dt.date.fromisoformat(d["dia"]).strftime("%d/%m/%Y")
-    M = {"marca": "INEMA · BOMBANDO NO GITHUB", "selo": f"TOP {len(d['top10'])} {PERIODO[modo]}",
-         "fonte": f"<b>github.com/trending</b> · estrelas ganhas {PERIODO[modo].lower()} · {data_br}",
+    por_area = modo == "area"
+    M = {"marca": "INEMA · BOMBANDO NO GITHUB", "selo": f"TOP {len(d['top10'])} · {d['area']['nome']}" if por_area else f"TOP {len(d['top10'])} {PERIODO[modo]}",
+         "fonte": f"<b>github.com</b> · estrelas por dia desde a criação · {data_br}" if por_area
+                  else f"<b>github.com/trending</b> · estrelas ganhas {PERIODO[modo].lower()} · {data_br}",
          "gancho": f["gancho"], "abertura": f["abertura"], "trocas": f.get("trocas") or {}, "cores": f.get("cores") or {},
          "cta": {**f["cta"], "de": f["cta"].get("de") or f["partes"][-1]["fala"].split()[0].strip(",.?!:;")}, "club": f.get("club") or "aprenda a usar IA de verdade", "partes": []}
     for i, x in enumerate(f["partes"]):
         q = {"fala": x["fala"]}
         if x["etapa"] == "panorama":
-            q["tela"] = "prints/ranking.png"; q["selo_tela"] = "github.com/trending"
+            q["tela"] = "prints/ranking.png"; q["selo_tela"] = "github.com" if por_area else "github.com/trending"
             q["painel"] = {"k": f"{len(d['top10'])} PROJETOS · {PERIODO[modo]}", "borda": "am",
                            "contador": {"ate": d["soma_periodo"], "unid": "ESTRELAS", "desde_inicio": True, **({"em": x["numero"]} if x.get("numero") else {})}}
         elif x["etapa"] == "repo":
@@ -217,7 +221,7 @@ def cmd_imagens(pasta):
         for t in tarefas:
             t.result()
     # fecho: imagem padrão do inema.club (Nei, 14/11/2026), no lugar do print do site (pequeno e escuro no celular)
-    pecas.print_card(R / "assets/inema-hero.webp", prints / "p13-c.png", brilho=1.0)
+    pecas.print_card(R / "assets/inema-hero.webp", prints / f"p{len(f['partes'])}-c.png", brilho=1.0)
     g, a = f["gancho"], f["abertura"]
     if not (capa / "abertura.png").exists():
         pedido = (f"Gere 1 imagem com a ferramenta de geração de imagem (image_gen) e salve nesta pasta como abertura.png, em PNG, "
@@ -259,8 +263,11 @@ def avatar_enviar(p, f):
     if not (av / "APROVADO_HEYGEN").exists():
         falha("falta avatar/APROVADO_HEYGEN")
     (av / "fala.txt").write_text(fala_total(f) + "\n")
+    # nova tentativa leva outro título: o estúdio confere o card pelo nome, e o rascunho antigo continua lá
+    tent = os.environ.get("GB_TENTATIVA", "1")
+    sufixo = "" if tent == "1" else f"-t{tent}"
     with open(av / "studio.log", "w") as lg:
-        subprocess.run(["node", "heygen-studio.mjs", "--titulo", f"GBX-{p.name}-{hashlib.sha256(fala_total(f).encode()).hexdigest()[:8]}", "--fala-arquivo", av / "fala.txt",
+        subprocess.run(["node", "heygen-studio.mjs", "--titulo", f"GBX-{p.name}-{hashlib.sha256(fala_total(f).encode()).hexdigest()[:8]}{sufixo}", "--fala-arquivo", av / "fala.txt",
                         "--perfil", PERFIL, "--template", TEMPLATE_HEYGEN], cwd=HEYGEN_DIR, env=dict(os.environ, DISPLAY=TELA),
                        stdout=lg, stderr=subprocess.STDOUT, timeout=12000)
     s = (av / "studio.log").read_text()
@@ -309,12 +316,60 @@ def cmd_cena(pasta):
     r = RITMO.aplicar(p, M)
     if r:
         log(f"ritmo: {r['wpm_heygen']:.0f} → {r['wpm']:.0f} palavras/min · {r['duracao']:.1f} s")
-    # o comentário da parte 13 usa a imagem padrão do inema.club (prints/p13-c.png), como no r7ex
+    # o comentário da última parte usa a imagem padrão do inema.club (prints/p<N>-c.png, N = nº de partes: 13 no top10, 8 no top5), como no r7ex
     dur, nt, npn, nl = CENA.montar(p, M, fl)
     log(f"cena.js ok: {dur} s · {nt} telas · {npn} painéis · {nl} blocos de legenda")
 
 
+def conferir_telas(p):
+    """toda imagem que o cena.js pede existe e abre? devolve (texto do cena.js, dados, lista das ruins)"""
+    from PIL import Image
+    t = (p / "cena.js").read_text(); c = json.loads(t[t.index("{"): t.rindex("}") + 1])
+    ruins = []
+    for x in c.get("telas", []) + [h for h in c.get("hero", []) if isinstance(h, dict)]:
+        s = x.get("src")
+        if not s:
+            continue
+        try:
+            with Image.open(p / s) as im:
+                im.load()
+        except Exception as e:  # noqa: BLE001
+            ruins.append((x, f"{s} ({type(e).__name__})"))
+    return t, c, ruins
+
+
+def consertar_telas(pasta):
+    """antes do render (Nei, 22/11/2026: "se encontrar uma falha, conserta só a falha e continua"):
+    imagem faltando ou quebrada → refaz imagens e cena uma vez; se ainda faltar, troca pela tela boa mais próxima e segue.
+    Motivo: prints/p13-c.png fixo derrubou o top5 (8 partes) em 21 e 22/11 com "The source image cannot be decoded"."""
+    p = Path(pasta).resolve()
+    t, c, ruins = conferir_telas(p)
+    if not ruins:
+        return
+    log("imagem faltando ou quebrada:", ", ".join(r for _, r in ruins), "→ refazendo imagens e cena")
+    cmd_imagens(pasta); cmd_cena(pasta)
+    t, c, ruins = conferir_telas(p)
+    if not ruins:
+        log("imagens consertadas")
+        return
+    motivo = {id(x): r for x, r in ruins}
+    ultima = "capa/preto.png"                            # tela boa mais recente na ordem do vídeo
+    for x in c["telas"] + [h for h in c.get("hero", []) if isinstance(h, dict)]:
+        if id(x) not in motivo:
+            ultima = x.get("src") or ultima
+            continue
+        s = x["src"]   # fecho do inema.club com número errado → usa o fecho que existe
+        irmas = sorted(str(q.relative_to(p)) for q in (p / s).parent.glob("p*-c.png")) if s.endswith("-c.png") else []
+        x["src"] = irmas[0] if irmas else ultima
+        log(f"SUBSTITUÍ {motivo[id(x)]} por {x['src']}")
+    (p / "cena.js").write_text(t[: t.index("{")] + json.dumps(c, ensure_ascii=False) + t[t.rindex("}") + 1:])
+    t, c, ruins = conferir_telas(p)
+    if ruins:
+        falha("imagem sem conserto: " + ", ".join(r for _, r in ruins))
+
+
 def cmd_render(pasta):
+    consertar_telas(pasta)
     p, f, d = ler(pasta)
     env = dict(os.environ, DISPLAY=TELA, GEO="geo-br.js", LAYOUT="canto", MUSICA=str(R / "assets/trilha.mp3"), R7X_RENDER_TIMEOUT="3000")
     with open(p / "build-render.log", "w") as lg:
@@ -386,20 +441,26 @@ def cmd_publicar(pasta):
     if not os.environ.get("SEM_YT"):
         tit = pub["titulo"][:88] + " #Shorts"
         N = len(d["top10"])
-        ctx = (f"Short '{nome(d)}' do GitHub ({data_br}) do INEMA com Nei Maldaner: os {N} projetos que mais ganharam estrelas "
-               f"{PERIODO[modo].lower()} no GitHub Trending, do #{N} ao #1. {pub.get('contexto', '')} Fonte: github.com/trending. "
+        crit = ("que mais crescem em estrelas por dia no GitHub" if modo == "area" else f"que mais ganharam estrelas {PERIODO[modo].lower()} no GitHub Trending")
+        ctx = (f"Short '{nome(d)}' do GitHub ({data_br}) do INEMA com Nei Maldaner: os {N} projetos {crit}, do #{N} ao #1. "
+               f"{pub.get('contexto', '')} Fonte: {'github.com' if modo == 'area' else 'github.com/trending'}. "
                f"Links dos {N} projetos na descrição. Curso gratuito em https://inema.club.")
         links = "\n".join(f"#{x['pos']} {x['nome']} — https://github.com/{x['nome']}" for x in sorted(d["top10"], key=lambda x: x["pos"]))
         (p / "yt.txt").write_text(pub["titulo"] + "\n\n" + links + "\n")
         with open(p / "publicar.log", "w") as lg:
-            subprocess.run([str(Path.home() / "projetos/yt-pubx/yt-pubx"), "publicar", v, "--canal", CANAL, "--title", tit,
-                            "--contexto", ctx, "--contexto-arquivo", p / "yt.txt"], stdout=lg, stderr=subprocess.STDOUT, timeout=2400)
+            subprocess.run([str(Path.home() / "projetos/yt-pub-x3/yt-pub-x3"), "enviar-arquivo", v, "--canal", CANAL, "--titulo", tit,
+                            "--contexto", ctx, "--contexto-arquivo", p / "yt.txt", "--quando", "agora",
+                            "--origem", f"gitbombando/{d['dia']}-{modo}", "--esperar", "2400"],
+                           stdout=lg, stderr=subprocess.STDOUT, timeout=2600)
         m = re.findall(r"watch\?v=([A-Za-z0-9_-]{6,})", (p / "publicar.log").read_text())
         if m:
             url = f"https://www.youtube.com/shorts/{m[-1]}"
             (p / f"youtube-{CANAL}.txt").write_text(m[-1] + "\n")
     st = f"publicado no {CANAL}: {url}" if url else ("(sem YouTube nesta rodada)" if os.environ.get("SEM_YT") else
                                                     f"⚠ NÃO publicou no {CANAL} (ver publicar.log)")
+    if not url and not os.environ.get("SEM_YT") and not os.environ.get("SEM_BOT"):   # v3 só recebe erro (Nei, 18/11/2026)
+        (p / "aviso.txt").write_text(st + "\n"); Path(str(p / "aviso.txt") + ".envio-v3.json").unlink(missing_ok=True)
+        subprocess.run(["node", R / "bin/enviar_bot_v3.mjs", p / "aviso.txt", f"Falhou: Bombando no GitHub · {nome(d)} · {data_br}\n{st}"], timeout=900)
     rev = json.loads((p / "revisao.json").read_text()) if (p / "revisao.json").exists() else {}
     sug = rev.get("sugestoes") or []
     leg = (f"Bombando no GitHub · {nome(d)} · {data_br} · {duracao(v):.0f}s\n{st}\n" +

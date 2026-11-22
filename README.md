@@ -30,38 +30,45 @@ Guia completo (landing + passo a passo): **https://inematds.github.io/gitbomband
 
 ---
 
-## O processo, do início ao fim (13 passos)
+## O processo, do início ao fim (11 passos)
 
-🧠 = sessão com o Nei (gasta tokens) · ⚙️ = script/timer (zero token) · 🤖 = `claude -p` curto (sessão nova)
+🧠 = sessão com o Nei (gasta tokens) · ⚙️ = script/timer (zero token) · 🤖 = IA em sessão curta (`auto/ia.yaml`)
+
+| Hora | Conteúdo | Reel (fila do x3) | Carrossel (fila do x3 + Telegram INEMA.FTD) |
+|---|---|---|---|
+| 07:00 | Top 10 do dia | lives4 | lives9 |
+| 08:00 | Top 5 da semana | lives8 | lives12 |
+| 09:30 | Top 5 da área do dia | lives3 | lives9 |
+| 10:00 | Top 5 de sistemas de agentes | lives7 | lives12 |
+| Domingo 09:00 | Top 10 da semana | lives4 | não tem |
 
 | # | Passo | Comando / o que acontece | Quem |
 |---|---|---|---|
-| 0 | Retrato das estrelas | timer `gitbombando-retrato` de hora em hora: `coleta/retrato.py` guarda as estrelas dos projetos em alta em `historico/estrelas.jsonl` (vira a curva dos gráficos) | ⚙️ |
-| 1 | Agenda | timer `gitbombando.timer` às **09:00** → `auto/rodar.sh <dia>` (gera com o estúdio do HeyGen livre): o dia sempre, publicado às **11:00** (`GB_PUBLICAR_AS`); no domingo, depois dele, a semana e, no dia 1º, o mês, que saem assim que ficam prontos (começo da tarde) | ⚙️ |
-| 2 | Coleta | `coleta/trending.py <pasta> dia\|semana\|mes`: página do GitHub Trending + API do GitHub (descrição, README, linguagem, estrelas, foto do dono); Top 10 ordenado pelas estrelas ganhas → `pesquisa/top10.json`; com menos de 10 no Trending espera até 1 h e, se ainda faltar, segue com Top N (mínimo 5) | ⚙️ |
-| 3 | Roteiro | `claude -p` com `auto/roteiro.md` escreve `ficha.yaml`: gancho sensacionalista com o fato mais forte, panorama, #10 → #1, pergunta final | 🤖 |
-| 4 | Portão do roteiro | `python3 gb.py checar <pasta>`: N+3 partes na ordem (13 no Top 10), projetos certos, 1.300–2.500 caracteres, manchete ≤ 6 palavras, sem algarismo na fala, "você", CTA só inema.club | ⚙️ |
-| 5 | Avatar + imagens | `gb.py fazer`: fala ao estúdio do HeyGen (assinatura; autorização em pé do Nei, 28/10/2026) e, ao mesmo tempo, capa com a manchete (Codex), ranking, 10 cartões e a imagem padrão do inema.club | ⚙️ |
-| 6 | Montagem | tempo de cada palavra (Whisper), ritmo (~182 palavras/min, pausa antes do #1), cena com contador e gráfico em cada projeto, render no motor de telejornal | ⚙️ |
-| 7 | Revisão | `claude -p` com `auto/revisor.md` lê a folha de 18 quadros: aprovado segue; reprovado para e avisa no v3 | 🤖 |
-| 8 | Publicar | `gb.py publicar`: YouTube **lives4** (yt-pubx, título com #Shorts, links dos 10 na descrição) → bot **v3** → tópico fixo **BOMBANDO NO GITHUB** no INEMA.TOOLS | ⚙️ |
-| 8b | Metritds | `auto/metritds.sh <pasta>`: sobe o vídeo na release `social` do repo e agenda (agora + 10 min) no **Instagram + TikTok inema.tds** (marca do lives4) pelo Metricool da conta inematds (conector `metricool-inematds`, via `claude -p`); dia ~11:10, semana 13:00, mês 15:00; aviso azul no v3 | 🤖 |
-| 9 | Guardar | git commit + push (roteiro, dados e histórico; mídia fica fora) | ⚙️ |
-| 10 | Carrossel Top 10 | timer `gitbombando-carrossel-top10` às 12:45 → `auto/carrossel.sh <dia> top10` (publica às **14:00**): reusa a coleta do vídeo; `claude -p` com `carrossel/textos.md` escreve gancho, "o que é", 2 benefícios e o fluxo de cada um; print de cada projeto tirado do README (`carrossel/prints.py`); 12 slides 1080×1350 (`carrossel/render.mjs`); portão do texto e do desenho; revisor `claude -p` (`carrossel/revisor.md`) | ⚙️🤖 |
-| 11 | Carrossel da área | timer `gitbombando-carrossel-area` às 16:45 → `auto/carrossel.sh <dia> area` (publica às **18:00**): `carrossel/area.py` busca no GitHub os repositórios da área do dia criados nos últimos 120 dias, ordenados por estrelas por dia, sem repetir as últimas 8 semanas e sem conteúdo adulto; depois o mesmo caminho do passo 10 com 8 projetos | ⚙️🤖 |
-| 12 | Publicar o carrossel | `carrossel/carrossel.py publicar`: álbum no tópico fixo **BOMBANDO NO GITHUB - Carrosséis diários** do **INEMA.DEV** (Telegram) → carrossel no Instagram + fotos no TikTok **inema.tech** (marca FTD = lives3, desde 09/11/2026; Metricool, agora + 10 min, legenda sem link) → aviso azul no v3 → git. Reprovado = não publica e avisa no v3 | ⚙️🤖 |
+| 0 | Retrato das estrelas | timer `gitbombando-retrato` de hora em hora: `coleta/retrato.py` | ⚙️ |
+| 1 | Agenda | timers `gitbombando-grade-*` → `auto/grade.sh dia\|top5\|area\|agentes\|semana` | ⚙️ |
+| 2 | Coleta | `coleta/trending.py` (dia, semana, `GB_TOP=5`) ou `coleta/area_top.py` (área e agentes) | ⚙️ |
+| 3 | Carrossel | `auto/carrossel.sh <dia> <tipo>`: textos, prints, slides, portão e revisor; roda sem esperar o reel | 🤖 |
+| 4 | Publicar carrossel | álbum no INEMA.FTD e `yt-pub-x3 enviar` no canal do horário | ⚙️ |
+| 5 | Roteiro | `auto/rodar.sh <dia> <modo>` escreve `ficha.yaml` com `auto/roteiro.md` | 🤖 |
+| 6 | Portão | `python3 gb.py checar <pasta>` | ⚙️ |
+| 7 | Avatar e imagens | `gb.py fazer`: estúdio HeyGen e capa pelo Codex | ⚙️ |
+| 8 | Montagem e revisão | cena, conferência das imagens (falta = refaz ou troca pela tela vizinha), render e revisor; reprovado = capa nova e novo render, uma vez | 🤖 |
+|  | Falhou? | até 3 tentativas para qualquer erro, cada uma refaz só o que falhou (render, avatar ou envio ao HeyGen); o aviso no v3 traz a linha do erro | ⚙️ |
+| 9 | Publicar reel | `gb.py publicar`: fila do x3 e tópico no INEMA.TOOLS | ⚙️ |
+| 10 | Guardar | git commit + push (roteiro, dados e histórico; mídia fica fora) | ⚙️ |
 
-Teste sem publicar: `ED=/tmp/teste-video AVATAR_DE=<avatar.mp4> SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh 2026-10-28 dia`.
-Carrossel sem publicar: `ED=/tmp/teste SEM_TG=1 SEM_METRI=1 SEM_BOT=1 SEM_GIT=1 auto/carrossel.sh 2026-11-04 area`
-(`RASCUNHO=1` no lugar de `SEM_METRI=1` agenda no Metricool como rascunho).
-Pular um dia: linha `AAAA-MM-DD` (ou `AAAA-MM-DD semana`, `AAAA-MM-DD carrossel`, `AAAA-MM-DD carrossel-top10`, `AAAA-MM-DD carrossel-area`) em `auto/pular.txt`.
+O projeto não fala com o Metricool: quem publica nas redes é o x3. O bot v3 só recebe erro. Os reels saem um por vez e publicam ao ficar prontos.
+
+Teste sem publicar: `ED=<pasta> GB_TRAVA=<arquivo> GB_PARAR_APOS_ROTEIRO=1 SEM_BOT=1 SEM_GIT=1 auto/rodar.sh <dia> agentes`
+Carrossel sem publicar: `ED=<pasta> SEM_TG=1 SEM_X3=1 SEM_BOT=1 SEM_GIT=1 auto/carrossel.sh <dia> area`
+Pular: linha `AAAA-MM-DD`, `AAAA-MM-DD <modo>`, `AAAA-MM-DD carrossel` ou `AAAA-MM-DD carrossel-<tipo>` em `auto/pular.txt`.
 
 ## Instalação dos timers (uma vez)
 
 ```bash
-cp auto/systemd/gitbombando* ~/.config/systemd/user/
+cp auto/systemd/gitbombando-grade* auto/systemd/gitbombando-retrato.* ~/.config/systemd/user/
 systemctl --user daemon-reload
-systemctl --user enable --now gitbombando-retrato.timer gitbombando.timer gitbombando-carrossel-top10.timer gitbombando-carrossel-area.timer
+systemctl --user enable --now gitbombando-retrato.timer gitbombando-grade-{dia,top5,area,agentes,semana}.timer
 ```
 
 ## O que aparece no vídeo
