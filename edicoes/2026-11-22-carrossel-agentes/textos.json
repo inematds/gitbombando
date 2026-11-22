@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "AGENTES DE IA TRABALHANDO EM EQUIPE",
+  "destaque": "EQUIPE"
+ },
+ "repos": {
+  "elie222/rakazo": {
+   "gancho": [
+    "COLEGAS DE IA",
+    "COM COMPUTADOR?"
+   ],
+   "o_que_e": "Um assistente de IA de código aberto que você roda na sua máquina, com memória, rotinas e um computador próprio para trabalhar.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Roda em todo lugar",
+     "texto": "Use na web, no computador, no iPhone e no Android."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Bots em equipe",
+     "texto": "Junte bots num grupo: eles dividem o trabalho e conferem um ao outro."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ PEDE",
+    "O BOT TRABALHA",
+    "ELE TE RESPONDE"
+   ]
+  },
+  "Human-Agent-Society/reef": {
+   "gancho": [
+    "AGENTES QUE",
+    "APRENDEM SOZINHOS"
+   ],
+   "o_que_e": "Uma base de código aberto para agentes de IA que melhoram sempre, ligando o uso, o retorno recebido e o aprendizado.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "Treina o modelo",
+     "texto": "Ajusta o próprio modelo de IA a partir do retorno que o agente recebe."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Melhora as instruções",
+     "texto": "Aprimora os comandos, regras e habilidades que guiam o agente."
+    }
+   ],
+   "fluxo": [
+    "AGENTE TRABALHA",
+    "RECEBE RETORNO",
+    "FICA MELHOR"
+   ]
+  },
+  "monid-ai/monid": {
+   "gancho": [
+    "UMA CHAVE SÓ.",
+    "2 MIL FERRAMENTAS."
+   ],
+   "o_que_e": "Uma central de código aberto que dá a um agente de IA acesso a mais de 2 mil ferramentas, como busca na web e geração de vídeo.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Um endereço, uma chave",
+     "texto": "Liga o agente a busca, redes sociais, dados de mercado, imagem e voz."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Paga só o que volta",
+     "texto": "A cobrança é por uso, e erros ou buscas sem resultado saem de graça."
+    }
+   ],
+   "fluxo": [
+    "PEGA A CHAVE",
+    "AGENTE ESCOLHE",
+    "FERRAMENTA AGE"
+   ]
+  },
+  "ApodexAI/FrontierAgent": {
+   "gancho": [
+    "UMA EQUIPE DE IA",
+    "NO SEU TERMINAL"
+   ],
+   "o_que_e": "Um programa de terminal de código aberto em que agentes de IA pesquisam, leem arquivos e entregam trabalhos longos, sozinhos ou em equipe.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Modo equipe",
+     "texto": "Um coordenador divide a tarefa entre agentes em paralelo e junta tudo."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala com um comando",
+     "texto": "Roda no macOS e no Linux, sem instalar nada antes e sem exigir Docker."
+    }
+   ],
+   "fluxo": [
+    "DÁ A TAREFA",
+    "AGENTES DIVIDEM",
+    "ENTREGA PRONTA"
+   ]
+  },
+  "totec448-spec/chat-on-steroids": {
+   "gancho": [
+    "CHATGPT MEXENDO",
+    "NO SEU PROJETO"
+   ],
+   "o_que_e": "Um aplicativo de código aberto que deixa o ChatGPT ler e editar arquivos, rodar testes e usar o seu computador, com várias tarefas em paralelo.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Aviso no celular",
+     "texto": "Recebe mensagem pelo ntfy ou Telegram quando a conversa termina ou trava."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Você no controle",
+     "texto": "Passos sensíveis, como login, ficam para você fazer, nunca o app."
+    }
+   ],
+   "fluxo": [
+    "CONECTA O APP",
+    "CHATGPT EXECUTA",
+    "VOCÊ ACOMPANHA"
+   ]
+  }
+ },
+ "legenda_abertura": "Os agentes de IA estão deixando de trabalhar sozinhos: agora dividem tarefas, usam computador próprio e aprendem com o retorno. Arraste o carrossel e veja os 5 projetos de sistemas de agentes que mais crescem no GitHub. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de sistemas de agentes de IA que mais crescem no GitHub, de equipes de bots a agentes que melhoram sozinhos. Confira no Instagram do @inema.tds. E no inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

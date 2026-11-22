@@ -1,0 +1,42 @@
+{
+ "elie222/rakazo": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/elie222/rakazo/main/docs/readme-hero.png",
+  "tam": [
+   1280,
+   640
+  ]
+ },
+ "Human-Agent-Society/reef": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/Human-Agent-Society/reef",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "monid-ai/monid": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/monid-ai/monid/main/assets/monid-hero.png",
+  "tam": [
+   1400,
+   1032
+  ]
+ },
+ "ApodexAI/FrontierAgent": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/ApodexAI/FrontierAgent/main/assets/apodex1.1_bench.png",
+  "tam": [
+   1400,
+   924
+  ]
+ },
+ "totec448-spec/chat-on-steroids": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/totec448-spec/chat-on-steroids/main/docs/images/demo.gif",
+  "tam": [
+   960,
+   540
+  ]
+ }
+}

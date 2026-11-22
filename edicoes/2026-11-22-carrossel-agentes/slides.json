@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · SISTEMAS DE AGENTES",
+ "conta": "@inema.tds",
+ "data_br": "22/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "SISTEMAS DE AGENTES",
+  "numero": "+371",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "AGENTES DE IA TRABALHANDO EM EQUIPE",
+  "destaque": "EQUIPE",
+  "fundo": [
+   "prints/1.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/2.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "elie222/rakazo",
+   "repo": "rakazo",
+   "url": "https://github.com/elie222/rakazo",
+   "gancho": [
+    "COLEGAS DE IA",
+    "COM COMPUTADOR?"
+   ],
+   "o_que_e": "Um assistente de IA de código aberto que você roda na sua máquina, com memória, rotinas e um computador próprio para trabalhar.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Roda em todo lugar",
+     "texto": "Use na web, no computador, no iPhone e no Android."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Bots em equipe",
+     "texto": "Junte bots num grupo: eles dividem o trabalho e conferem um ao outro."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ PEDE",
+    "O BOT TRABALHA",
+    "ELE TE RESPONDE"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+93",
+   "stat_rotulo": "por dia",
+   "total": "9.457",
+   "info2": "TypeScript · criado há 101 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "Human-Agent-Society/reef",
+   "repo": "reef",
+   "url": "https://github.com/Human-Agent-Society/reef",
+   "gancho": [
+    "AGENTES QUE",
+    "APRENDEM SOZINHOS"
+   ],
+   "o_que_e": "Uma base de código aberto para agentes de IA que melhoram sempre, ligando o uso, o retorno recebido e o aprendizado.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "Treina o modelo",
+     "texto": "Ajusta o próprio modelo de IA a partir do retorno que o agente recebe."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Melhora as instruções",
+     "texto": "Aprimora os comandos, regras e habilidades que guiam o agente."
+    }
+   ],
+   "fluxo": [
+    "AGENTE TRABALHA",
+    "RECEBE RETORNO",
+    "FICA MELHOR"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+92",
+   "stat_rotulo": "por dia",
+   "total": "7.646",
+   "info2": "Python · criado há 83 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "monid-ai/monid",
+   "repo": "monid",
+   "url": "https://github.com/monid-ai/monid",
+   "gancho": [
+    "UMA CHAVE SÓ.",
+    "2 MIL FERRAMENTAS."
+   ],
+   "o_que_e": "Uma central de código aberto que dá a um agente de IA acesso a mais de 2 mil ferramentas, como busca na web e geração de vídeo.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Um endereço, uma chave",
+     "texto": "Liga o agente a busca, redes sociais, dados de mercado, imagem e voz."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Paga só o que volta",
+     "texto": "A cobrança é por uso, e erros ou buscas sem resultado saem de graça."
+    }
+   ],
+   "fluxo": [
+    "PEGA A CHAVE",
+    "AGENTE ESCOLHE",
+    "FERRAMENTA AGE"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+70",
+   "stat_rotulo": "por dia",
+   "total": "6.219",
+   "info2": "TypeScript · criado há 88 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "ApodexAI/FrontierAgent",
+   "repo": "FrontierAgent",
+   "url": "https://github.com/ApodexAI/FrontierAgent",
+   "gancho": [
+    "UMA EQUIPE DE IA",
+    "NO SEU TERMINAL"
+   ],
+   "o_que_e": "Um programa de terminal de código aberto em que agentes de IA pesquisam, leem arquivos e entregam trabalhos longos, sozinhos ou em equipe.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Modo equipe",
+     "texto": "Um coordenador divide a tarefa entre agentes em paralelo e junta tudo."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Instala com um comando",
+     "texto": "Roda no macOS e no Linux, sem instalar nada antes e sem exigir Docker."
+    }
+   ],
+   "fluxo": [
+    "DÁ A TAREFA",
+    "AGENTES DIVIDEM",
+    "ENTREGA PRONTA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+59",
+   "stat_rotulo": "por dia",
+   "total": "5.445",
+   "info2": "Python · criado há 92 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "totec448-spec/chat-on-steroids",
+   "repo": "chat-on-steroids",
+   "url": "https://github.com/totec448-spec/chat-on-steroids",
+   "gancho": [
+    "CHATGPT MEXENDO",
+    "NO SEU PROJETO"
+   ],
+   "o_que_e": "Um aplicativo de código aberto que deixa o ChatGPT ler e editar arquivos, rodar testes e usar o seu computador, com várias tarefas em paralelo.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Aviso no celular",
+     "texto": "Recebe mensagem pelo ntfy ou Telegram quando a conversa termina ou trava."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Você no controle",
+     "texto": "Passos sensíveis, como login, ficam para você fazer, nunca o app."
+    }
+   ],
+   "fluxo": [
+    "CONECTA O APP",
+    "CHATGPT EXECUTA",
+    "VOCÊ ACOMPANHA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+57",
+   "stat_rotulo": "por dia",
+   "total": "5.198",
+   "info2": "TypeScript · criado há 92 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}
