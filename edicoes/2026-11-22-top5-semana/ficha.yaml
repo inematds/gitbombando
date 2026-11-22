@@ -1,0 +1,98 @@
+modo: semana
+gancho:
+  tipo: estatistica
+  manchete: +7.240 ESTRELAS NUM OFFICE ABERTO
+  destaque: '+7.240'
+  objeto: uma planilha gigante rachando ao meio, com documentos e slides voando entre
+    faíscas amarelas
+  fontes:
+  - nome: github.com/trending?since=weekly
+    trecho: dream-num/univer · 7,240 stars this week
+  - nome: github.com/dream-num/univer
+    trecho: Build your own AI office with Univer Office SDK
+abertura:
+  cena: escritório escuro à noite, mesas vazias e telas apagadas, só uma luz amarela
+    forte vindo do centro
+partes:
+- etapa: gancho
+  fala: Planilha, documento e apresentação, num escritório aberto feito pra trabalhar
+    com inteligência artificial. Em sete dias, mais de sete mil pessoas marcaram estrela
+    nele.
+- etapa: panorama
+  fala: No Top cinco da semana, os projetos que mais cresceram somaram vinte e três
+    mil oitocentas e trinta e sete estrelas. Vou do quinto ao primeiro.
+  numero: '23.837'
+- etapa: repo
+  repo: meta/astryx
+  desc: Kit visual da Meta que monta mais de 13 mil apps, agora aberto e pronto pra
+    IA.
+  destaque: 13 mil apps
+  numero: '3.967'
+  fala: Em quinto, a Meta, dona do Instagram e do WhatsApp. Astryx é o kit visual
+    que cresceu lá dentro por oito anos e monta mais de treze mil aplicativos. Agora
+    é aberto pra todo mundo. Três mil novecentas e sessenta e sete estrelas.
+- etapa: repo
+  repo: alibaba/open-code-review
+  desc: Revisor de código com IA da Alibaba, que acha erros antes de virarem problema.
+  destaque: acha erros
+  numero: '4.032'
+  fala: Número quatro vem da China. O Open Code Review, da gigante Alibaba, usa inteligência
+    artificial pra revisar código e achar erros antes de virarem problema. E gastando
+    bem menos. Quatro mil e trinta e duas estrelas.
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Pesquisa qualquer assunto no Reddit, YouTube e X e resume o que o povo falou
+    no último mês.
+  destaque: resume o que o povo falou
+  numero: '4.198'
+  fala: E agora o pódio. Bronze pro Last Thirty Days. Você pergunta qualquer assunto
+    e ele vasculha Reddit, YouTube e X, e resume o que gente de verdade falou no último
+    mês. Quatro mil cento e noventa e oito estrelas.
+- etapa: repo
+  repo: GoogleChrome/modern-web-guidance-src
+  desc: Manual do Google Chrome que impede a IA de fazer sites com truques velhos.
+  destaque: truques velhos
+  numero: '4.400'
+  fala: Prata pro Google. O time do Chrome, junto com Microsoft e Mozilla, fez um
+    manual que impede a inteligência artificial de criar sites com truques velhos.
+    Cresceu setenta e oito por cento. Quatro mil e quatrocentas estrelas.
+- etapa: repo
+  repo: dream-num/univer
+  desc: Um escritório aberto, com planilhas, documentos e apresentações, para pessoas
+    e IAs.
+  destaque: escritório aberto
+  numero: '7.240'
+  fala: E o campeão da semana é o Univer. Um escritório aberto que qualquer empresa
+    coloca no próprio sistema, pra você e a inteligência artificial editarem planilhas
+    e documentos juntos. Sete mil duzentas e quarenta estrelas. Numa semana.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  Top cinco: Top 5
+  vinte e três mil oitocentas e trinta e sete: '23.837'
+  treze mil: 13 mil
+  Três mil novecentas e sessenta e sete: '3.967'
+  Quatro mil e trinta e duas: '4.032'
+  Quatro mil cento e noventa e oito: '4.198'
+  setenta e oito por cento: 78%
+  Quatro mil e quatrocentas: '4.400'
+  Sete mil duzentas e quarenta: '7.240'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'Office aberto pra IA ganhou 7.240 estrelas: o Top 5 do GitHub da semana'
+  contexto: O Top 5 do GitHub da semana de 22/11/2026, do quinto ao primeiro, explicado
+    sem jargão. O Univer, um escritório aberto para pessoas e IAs, liderou com 7.240
+    estrelas, à frente de Google, Last30days, Alibaba e Meta.
+  telegram: 'O que bombou na semana no GitHub: o Univer, um escritório aberto com
+    planilha, documento e apresentação feito pra trabalhar com IA, ganhou 7.240 estrelas.
+    Google, Alibaba e Meta também estão no Top 5, e o manual do Google Chrome cresceu
+    78% em sete dias.'
