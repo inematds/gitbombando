@@ -1,0 +1,13 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Os números dos cartões batem com o top10.json (10 pílulas 🔥 e o painel de 40.531). A capa traz TOP 10 DO GITHUB com a manchete correta, o avatar está presente e o fecho tem a caixa vermelha e a pílula inema.club; não há defeito visível ao público.",
+ "sugestoes": [
+  "2.2s/4.0s: o '+7.240' da manchete da capa encosta na borda direita; recuar um pouco a linha deixaria a capa mais limpa.",
+  "13.8s em diante: os rótulos dos dias e os valores sobre as barras dos gráficos dos cartões ficam minúsculos no celular; mostrar menos rótulos ou usar fonte maior ajudaria.",
+  "13.8s: o painel corta os nomes ('modern-web-guida…', 'chrome-devtools-…'); abreviar de forma mais amigável ou reduzir a fonte só nesses nomes.",
+  "121.57s: no cartão #1, o 'IA.' fica sozinho na última linha da descrição; encurtar o texto para fechar em duas linhas.",
+  "131.37s/141.17s: a legenda 'VEZ DE SÓ' solta no fecho perde força; dar destaque a uma palavra-chave da chamada (ex.: 'INTEGRAR') reforçaria o convite ao inema.club.",
+  "Impacto: a capa e o gancho são fortes; para passar de 7, mostre o produto do #1 (uma planilha do Univer em ação) já nos primeiros segundos em vez de só o avatar falando."
+ ]
+}

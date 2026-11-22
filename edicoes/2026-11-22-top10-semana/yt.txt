@@ -1,0 +1,12 @@
+7.240 estrelas em 7 dias: o Office grátis com IA que lidera o GitHub
+
+#1 dream-num/univer — https://github.com/dream-num/univer
+#2 GoogleChrome/modern-web-guidance-src — https://github.com/GoogleChrome/modern-web-guidance-src
+#3 mvanhorn/last30days-skill — https://github.com/mvanhorn/last30days-skill
+#4 alibaba/open-code-review — https://github.com/alibaba/open-code-review
+#5 meta/astryx — https://github.com/meta/astryx
+#6 ag-ui-protocol/ag-ui — https://github.com/ag-ui-protocol/ag-ui
+#7 kajisho5/ffmpeg-skill — https://github.com/kajisho5/ffmpeg-skill
+#8 backnotprop/plannotator — https://github.com/backnotprop/plannotator
+#9 tradermonty/claude-trading-skills — https://github.com/tradermonty/claude-trading-skills
+#10 ChromeDevTools/chrome-devtools-mcp — https://github.com/ChromeDevTools/chrome-devtools-mcp

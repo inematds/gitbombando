@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Tem gente montando um Office inteiro, de graça, pra você e a inteligência artificial usarem juntos. Em sete dias ele ganhou sete mil duzentas e quarenta estrelas.",
+  "legenda": "Tem gente montando um Office inteiro, de graça, pra você e a inteligência artificial usarem juntos. Em 7 dias ele ganhou 7.240 estrelas."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez projetos que mais cresceram na semana somaram quarenta mil quinhentas e trinta e uma estrelas. Vou do décimo ao primeiro.",
+  "legenda": "Os dez projetos que mais cresceram na semana somaram 40.531 estrelas. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, Chrome DevTools para agentes, do Google. A inteligência artificial abre o Chrome, testa o site e acha o erro sozinha. Ganhou duas mil setecentas e noventa e cinco estrelas.",
+  "legenda": "Em décimo, Chrome DevTools para agentes, do Google. A inteligência artificial abre o Chrome, testa o site e acha o erro sozinha. Ganhou 2.795 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Número nove, Claude Trading Skills. A IA analisa o mercado de ações e organiza seus investimentos. Mas cuidado: não é conselho financeiro. Foram três mil cento e treze estrelas.",
+  "legenda": "Número nove, Claude Trading Skills. A IA analisa o mercado de ações e organiza seus investimentos. Mas cuidado: não é conselho financeiro. Foram 3.113 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, Plannotator. Um painel onde você lê, comenta e corrige o plano da inteligência artificial antes dela agir. Somou três mil trezentas e noventa e seis estrelas.",
+  "legenda": "Em oitavo, Plannotator. Um painel onde você lê, comenta e corrige o plano da inteligência artificial antes dela agir. Somou 3.396 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo lugar, ffmpeg-skill. Um editor de vídeo pra IA: ela corta, legenda e ajusta pro celular, tudo no seu computador. Ganhou três mil quinhentas e noventa e oito estrelas.",
+  "legenda": "Sétimo lugar, ffmpeg-skill. Um editor de vídeo pra IA: ela corta, legenda e ajusta pro celular, tudo no seu computador. Ganhou 3.598 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, AG-UI. É a tomada padrão que liga qualquer assistente de IA a qualquer aplicativo, site ou celular. Mais três mil setecentas e noventa e duas estrelas.",
+  "legenda": "Em sexto, AG-UI. É a tomada padrão que liga qualquer assistente de IA a qualquer aplicativo, site ou celular. Mais 3.792 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Número cinco, Astryx, da Meta. Foi o número um na semana passada. O kit que monta mais de treze mil apps da empresa, agora de graça. Somou três mil novecentas e sessenta e sete estrelas.",
+  "legenda": "Número cinco, Astryx, da Meta. Foi o número um na semana passada. O kit que monta mais de 13 mil apps da empresa, agora de graça. Somou 3.967 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, Open Code Review, do Alibaba. A IA que revisava o código dos programadores da empresa agora é aberta pra todo mundo. Foram quatro mil e trinta e duas estrelas.",
+  "legenda": "Em quarto, Open Code Review, do Alibaba. A IA que revisava o código dos programadores da empresa agora é aberta pra todo mundo. Foram 4.032 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Em terceiro, Last Thirty Days. Você dá um assunto e a IA vasculha Reddit, YouTube e redes do último mês e te entrega um resumo. Quatro mil cento e noventa e oito estrelas.",
+  "legenda": "E agora o pódio. Em terceiro, last30days. Você dá um assunto e a IA vasculha Reddit, YouTube e redes do último mês e te entrega um resumo. 4.198 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, Modern Web Guidance, do Google. Um guia que impede a IA de programar sites do jeito antigo. Cresceu setenta e oito por cento: quatro mil e quatrocentas estrelas.",
+  "legenda": "Em segundo, Modern Web Guidance, do Google. Um guia que impede a IA de programar sites do jeito antigo. Cresceu 78%: 4.400 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um. Univer. Planilha, documento e apresentação num kit aberto, pra criar seu próprio Office com inteligência artificial dentro. Sete mil duzentas e quarenta estrelas.",
+  "legenda": "E o número um. Univer. Planilha, documento e apresentação num kit aberto, pra criar seu próprio Office com inteligência artificial dentro. 7.240 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]
