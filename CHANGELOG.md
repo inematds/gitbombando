@@ -1,5 +1,9 @@
 # CHANGELOG — gitbombando
 
+## 1.11.2 — 22/11/2026
+- Todo reel vai também ao grupo INEMA.FREE (https://t.me/+Trl-P9FduY8zMjdh), pela conta do Nei: vídeo com legenda curta e, abaixo, os links dos tops e depois o link do YouTube (`bin/postar_free.py`, uma vez por edição em `free.log`).
+- Se o vídeo ainda está na fila do x3, um serviço à parte (`gb-free-<edição>`) espera o YouTube publicar (até 12 h) e posta já com o link.
+
 ## 1.10.2 — 22/11/2026
 - Vídeo que entrou na fila do x3 mas espera o horário do canal (lives8: 07, 13, 19 h) conta como entregue: sem "Falhou" falso no v3; o item fica em `x3-<canal>.txt` e a rodada não põe de novo na fila.
 

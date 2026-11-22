@@ -25,7 +25,7 @@ sys.path.insert(0, str(R))
 from auto.ia import executar as executar_ia
 from nucleo import cartao, cena as CENA, pecas, retempo as RT, ritmo as RITMO  # noqa: E402
 
-VERSAO = "1.10.2"
+VERSAO = "1.11.2"
 CANAL = os.environ.get("GB_CANAL", "lives4")
 PERFIL = Path(os.environ.get("R7X_HEYGEN_PERFIL", Path.home() / ".cache/inemaccbot/perfil-heygen"))
 TEMPLATE_HEYGEN = os.environ.get("R7X_HEYGEN_TEMPLATE", "TEMPLATE-AVATAR16")
@@ -477,8 +477,26 @@ def cmd_publicar(pasta):
         subprocess.run(["node", R / "bin/enviar_bot_v3.mjs", v, leg], timeout=900)
     if not os.environ.get("SEM_TG"):
         telegram(p, f, d, url)
+        free(p, url, fila)
     log(st)
     return url
+
+
+def free(p, url, fila):
+    """INEMA.FREE (Nei, 22/11/2026: "sempre publicado também"), com os links dos tops e depois o do YouTube.
+    Com link: posta agora. Na fila do x3: um serviço à parte espera o YouTube publicar (até 12 h) e posta com o link."""
+    py = Path.home() / "projetos/telegramtopicosindex/venv/bin/python"; sc = R / "bin/postar_free.py"
+    if url:
+        with open(p / "free-envio.log", "w") as lg:
+            r = subprocess.run([py, sc, p, url], stdout=lg, stderr=subprocess.STDOUT, timeout=900)
+        log("INEMA.FREE:", "postado" if not r.returncode else "⚠ falhou (free-envio.log)")
+    elif fila:
+        x3 = Path.home() / "projetos/yt-pub-x3/yt-pub-x3"
+        sh = (f'u=$("{x3}" esperar {fila[-1]} --segundos 43200 2>&1 | grep -o "https://www.youtube.com/watch?v=[A-Za-z0-9_-]*" | tail -1); '
+              f'[ -n "$u" ] && echo "${{u#*v=}}" > "{p}/youtube-{CANAL}.txt"; "{py}" "{sc}" "{p}" "$u" > "{p}/free-envio.log" 2>&1')
+        r = subprocess.run(["systemd-run", "--user", "--collect", "--unit", f"gb-free-{p.name}", "bash", "-c", sh],
+                           capture_output=True, text=True)
+        log("INEMA.FREE: posta quando o YouTube publicar" if not r.returncode else f"⚠ INEMA.FREE não agendou: {r.stderr.strip()[:200]}")
 
 
 def telegram(p, f, d, url):

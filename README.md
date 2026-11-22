@@ -54,7 +54,7 @@ Guia completo (landing + passo a passo): **https://inematds.github.io/gitbomband
 | 7 | Avatar e imagens | `gb.py fazer`: estúdio HeyGen e capa pelo Codex | ⚙️ |
 | 8 | Montagem e revisão | cena, conferência das imagens (falta = refaz ou troca pela tela vizinha), render e revisor; reprovado = capa nova e novo render, uma vez | 🤖 |
 |  | Falhou? | até 3 tentativas para qualquer erro, cada uma refaz só o que falhou (render, avatar ou envio ao HeyGen); o aviso no v3 traz a linha do erro | ⚙️ |
-| 9 | Publicar reel | `gb.py publicar`: fila do x3 e tópico no INEMA.TOOLS | ⚙️ |
+| 9 | Publicar reel | `gb.py publicar`: fila do x3, tópico no INEMA.TOOLS e grupo INEMA.FREE (links dos tops + YouTube, quando o vídeo sai) | ⚙️ |
 | 10 | Guardar | git commit + push (roteiro, dados e histórico; mídia fica fora) | ⚙️ |
 
 O projeto não fala com o Metricool: quem publica nas redes é o x3. O bot v3 só recebe erro. Os reels saem um por vez e publicam ao ficar prontos.
