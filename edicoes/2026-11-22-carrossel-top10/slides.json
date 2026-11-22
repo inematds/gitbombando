@@ -1,0 +1,374 @@
+{
+ "tipo": "top10",
+ "serie": "TOP 10 DO GITHUB",
+ "conta": "@inema.tech",
+ "data_br": "22/11/2026",
+ "capa": {
+  "linha1": "TOP 10",
+  "linha2": "DO GITHUB HOJE",
+  "numero": "+8.360",
+  "numero_rotulo": "estrelas ganhas pelos 10 em 24 horas",
+  "manchete": "HABILIDADES NOVAS PARA SEU AGENTE",
+  "destaque": "AGENTE",
+  "fundo": [
+   "prints/2.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/8.png",
+   "prints/9.png",
+   "prints/1.png",
+   "prints/3.png",
+   "prints/10.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "elementalsouls/Claude-BugHunter",
+   "repo": "Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "gancho": [
+    "CAÇAR FALHAS",
+    "COM O CLAUDE CODE?"
+   ],
+   "o_que_e": "Um pacote de habilidades para o Claude Code que o faz agir como um caçador de falhas de segurança em sites, com base em relatórios públicos.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Padrões reais",
+     "texto": "Técnicas tiradas de relatórios públicos do HackerOne, por tipo de falha."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Comandos prontos",
+     "texto": "Atalhos com barra dentro do Claude Code para cada etapa do trabalho."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "DEFINE O ALVO",
+    "IA CAÇA FALHAS"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "opengraph",
+   "stat": "+1.803",
+   "stat_rotulo": "hoje",
+   "total": "16.654",
+   "info2": "Python · desde 05/2026"
+  },
+  {
+   "pos": 2,
+   "nome": "firecrawl/firecrawl",
+   "repo": "firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "gancho": [
+    "SITES VIRAM TEXTO",
+    "PARA SUA IA LER"
+   ],
+   "o_que_e": "Uma ferramenta que visita sites e os transforma em texto limpo para agentes de IA, e ainda busca na web e em centenas de fontes de dados.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu PC",
+     "texto": "A versão Local funciona na sua máquina sem precisar de banco de dados."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Versão na nuvem",
+     "texto": "No firecrawl.dev roda sem instalar nada e inclui busca na web."
+    }
+   ],
+   "fluxo": [
+    "PASSA O SITE",
+    "ELE LÊ TUDO",
+    "TEXTO LIMPO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+1.006",
+   "stat_rotulo": "hoje",
+   "total": "206.505",
+   "info2": "TypeScript · desde 04/2024"
+  },
+  {
+   "pos": 3,
+   "nome": "obra/superpowers",
+   "repo": "superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "gancho": [
+    "SEU AGENTE PENSA",
+    "ANTES DE CODAR"
+   ],
+   "o_que_e": "Um método de trabalho para agentes de programação: antes de escrever código, a IA pergunta o que você quer e monta um plano com você.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Pergunta primeiro",
+     "texto": "A IA entende o que você quer e mostra o plano em partes curtas."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Roda em vários agentes",
+     "texto": "Funciona no Claude Code, Cursor, Codex, Gemini CLI e outros."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ DESCREVE",
+    "IA PERGUNTA",
+    "PLANO EM PARTES"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "opengraph",
+   "stat": "+883",
+   "stat_rotulo": "hoje",
+   "total": "323.981",
+   "info2": "Shell · desde 10/2025"
+  },
+  {
+   "pos": 4,
+   "nome": "XiaoYouChR/Ghost-Downloader-3",
+   "repo": "Ghost-Downloader-3",
+   "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+   "gancho": [
+    "BAIXAR ARQUIVOS",
+    "MAIS RÁPIDO?"
+   ],
+   "o_que_e": "Um gerenciador de downloads de código aberto, feito em Python, que baixa por links comuns, FTP e torrent, mesmo em conexão ruim.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Rápido em rede ruim",
+     "texto": "Divide o arquivo em partes e detecta a velocidade da sua conexão."
+    },
+    {
+     "icone": "download",
+     "titulo": "Vários tipos de link",
+     "texto": "Aceita HTTP, FTP, torrent e links magnet num só programa."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "ELE DIVIDE",
+    "ARQUIVO BAIXADO"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+779",
+   "stat_rotulo": "hoje",
+   "total": "14.712",
+   "info2": "Python · desde 08/2023"
+  },
+  {
+   "pos": 5,
+   "nome": "HKUDS/CLI-Anything",
+   "repo": "CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "gancho": [
+    "QUALQUER PROGRAMA",
+    "NAS MÃOS DA IA"
+   ],
+   "o_que_e": "Um projeto que cria programas de terminal para softwares comuns, para que agentes de IA como Claude Code e Cursor consigam usá-los.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Catálogo da comunidade",
+     "texto": "O CLI-Hub reúne versões prontas para instalar com um comando."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Resultados reais",
+     "texto": "Demonstrações com cenas 3D, diagramas, legendas e jogos feitos por IA."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O APP",
+    "INSTALA NO HUB",
+    "A IA OPERA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+769",
+   "stat_rotulo": "hoje",
+   "total": "62.339",
+   "info2": "Python · desde 03/2026"
+  },
+  {
+   "pos": 6,
+   "nome": "mjmirza/app-store-compliance",
+   "repo": "app-store-compliance",
+   "url": "https://github.com/mjmirza/app-store-compliance",
+   "gancho": [
+    "APP RECUSADO",
+    "NA LOJA? EVITE"
+   ],
+   "o_que_e": "Um guia aberto com checagem antes do envio, que aponta motivos comuns de recusa na App Store e no Google Play e como corrigir.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Causas de recusa",
+     "texto": "Padrões documentados de rejeição, cada um com a correção sugerida."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Prazos de leis",
+     "texto": "Acompanha prazos como a lei de IA da União Europeia e a COPPA."
+    }
+   ],
+   "fluxo": [
+    "RODA A CHECAGEM",
+    "VÊ OS ALERTAS",
+    "CORRIGE E ENVIA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+720",
+   "stat_rotulo": "hoje",
+   "total": "3.623",
+   "info2": "Shell · desde 06/2026"
+  },
+  {
+   "pos": 7,
+   "nome": "zhouxiaoka/autoclip",
+   "repo": "autoclip",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "gancho": [
+    "UM LINK.",
+    "VÁRIOS CORTES."
+   ],
+   "o_que_e": "Um programa de computador de código aberto que corta vídeos longos, como podcasts e aulas, em vídeos curtos com legenda, capa e texto.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Pronto para redes",
+     "texto": "Formatos para TikTok, Reels, YouTube Shorts e outras plataformas."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Edita no seu PC",
+     "texto": "Software grátis; os modelos de IA na nuvem são pagos pelo uso."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "ESCOLHE A REDE",
+    "CORTES PRONTOS"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+683",
+   "stat_rotulo": "hoje",
+   "total": "13.100",
+   "info2": "Python · desde 07/2025"
+  },
+  {
+   "pos": 8,
+   "nome": "cathrynlavery/diagram-design",
+   "repo": "diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "gancho": [
+    "DIAGRAMAS BONITOS",
+    "PEDINDO À IA"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que desenha diagramas num único arquivo HTML, com as cores e fontes da sua marca.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Pede em palavras",
+     "texto": "Você descreve o diagrama e o agente escolhe o tipo certo."
+    },
+    {
+     "icone": "image",
+     "titulo": "Com a cara da marca",
+     "texto": "Lê seu site e copia a paleta e as fontes para os diagramas."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ DESCREVE",
+    "IA DESENHA",
+    "ABRE O ARQUIVO"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "readme",
+   "stat": "+583",
+   "stat_rotulo": "hoje",
+   "total": "70.001",
+   "info2": "HTML · desde 04/2026"
+  },
+  {
+   "pos": 9,
+   "nome": "toeverything/AFFiNE",
+   "repo": "AFFiNE",
+   "url": "https://github.com/toeverything/AFFiNE",
+   "gancho": [
+    "NOTION E MIRO",
+    "NUM LUGAR SÓ"
+   ],
+   "o_que_e": "Um espaço de trabalho de código aberto que junta documentos, quadro branco e tabelas, como alternativa ao Notion e ao Miro.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Privacidade primeiro",
+     "texto": "Seus dados ficam primeiro no seu aparelho, com código aberto."
+    },
+    {
+     "icone": "brain",
+     "titulo": "IA embutida",
+     "texto": "Uma IA ajuda a escrever relatórios e transformar esboços em conteúdo."
+    }
+   ],
+   "fluxo": [
+    "CRIA A PÁGINA",
+    "MISTURA BLOCOS",
+    "TUDO ORGANIZADO"
+   ],
+   "print": "prints/9.png",
+   "print_fonte": "readme",
+   "stat": "+574",
+   "stat_rotulo": "hoje",
+   "total": "76.497",
+   "info2": "TypeScript · desde 07/2022"
+  },
+  {
+   "pos": 10,
+   "nome": "mvanhorn/last30days-skill",
+   "repo": "last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "gancho": [
+    "O QUE FALAM DE",
+    "QUALQUER ASSUNTO?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que pesquisa um tema no Reddit, X, YouTube e na web e entrega um resumo do que as pessoas dizem.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Várias fontes",
+     "texto": "Reddit, Hacker News, Polymarket e GitHub já funcionam sem configurar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga no Claude Code",
+     "texto": "Instala como plugin no Claude Code ou em Cursor, Codex e Gemini CLI."
+    }
+   ],
+   "fluxo": [
+    "DIGITA O TEMA",
+    "IA PESQUISA",
+    "RESUMO PRONTO"
+   ],
+   "print": "prints/10.png",
+   "print_fonte": "opengraph",
+   "stat": "+560",
+   "stat_rotulo": "hoje",
+   "total": "72.277",
+   "info2": "Python · desde 01/2026"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 10 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}
