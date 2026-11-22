@@ -1,0 +1,42 @@
+[
+ {
+  "id": "f1",
+  "fala": "Tem um assistente de inteligência artificial que mora no seu próprio computador. E ele ganha quase cem estrelas por dia, todo dia, há três meses.",
+  "legenda": "Tem um assistente de inteligência artificial que mora no seu próprio computador. E ele ganha quase cem estrelas por dia, todo dia, há três meses."
+ },
+ {
+  "id": "f2",
+  "fala": "Separei o Top cinco dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Juntos, somam trezentas e setenta e uma estrelas por dia desde que nasceram. Vou do quinto ao primeiro.",
+  "legenda": "Separei o Top 5 dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Juntos, somam 371 estrelas por dia desde que nasceram. Vou do quinto ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em quinto, chat on steroids. Ele dá superpoderes ao ChatGPT no seu computador: mexer em arquivos, rodar tarefas e dividir o trabalho numa equipe. Ganha cinquenta e sete estrelas por dia. Mas é beta independente, use com cuidado.",
+  "legenda": "Em quinto, chat on steroids. Ele dá superpoderes ao ChatGPT no seu computador: mexer em arquivos, rodar tarefas e dividir o trabalho numa equipe. Ganha 57 estrelas por dia. Mas é beta independente, use com cuidado."
+ },
+ {
+  "id": "f4",
+  "fala": "Número quatro, FrontierAgent. Um programa de terminal onde um agente chefe distribui tarefas para uma equipe de ajudantes de inteligência artificial e junta tudo no final. São cinquenta e nove estrelas por dia.",
+  "legenda": "Número quatro, FrontierAgent. Um programa de terminal onde um agente chefe distribui tarefas para uma equipe de ajudantes de inteligência artificial e junta tudo no final. São 59 estrelas por dia."
+ },
+ {
+  "id": "f5",
+  "fala": "E agora o pódio. Bronze pro Monid. Uma chave só que abre mais de duas mil ferramentas para os agentes: busca na internet, dados de empresas, vídeo e voz. Ele ganha setenta estrelas por dia.",
+  "legenda": "E agora o pódio. Bronze pro Monid. Uma chave só que abre mais de 2 mil ferramentas para os agentes: busca na internet, dados de empresas, vídeo e voz. Ele ganha 70 estrelas por dia."
+ },
+ {
+  "id": "f6",
+  "fala": "Prata pro Reef. É a base para agentes de inteligência artificial que aprendem sozinhos e melhoram a cada uso. Quanto mais trabalham, melhores ficam. São noventa e duas estrelas por dia desde que nasceu.",
+  "legenda": "Prata pro Reef. É a base para agentes de inteligência artificial que aprendem sozinhos e melhoram a cada uso. Quanto mais trabalham, melhores ficam. São 92 estrelas por dia desde que nasceu."
+ },
+ {
+  "id": "f7",
+  "fala": "E o primeiro lugar é o Rakazo. Colegas de inteligência artificial com memória, rotina e computador próprio, rodando na sua máquina, com a i-á que você escolher. Uma alternativa aberta aos assistentes das big techs. São noventa e três estrelas por dia. Sem folga.",
+  "legenda": "E o primeiro lugar é o Rakazo. Colegas de inteligência artificial com memória, rotina e computador próprio, rodando na sua máquina, com a i-á que você escolher. Uma alternativa aberta aos assistentes das big techs. São 93 estrelas por dia. Sem folga."
+ },
+ {
+  "id": "f8",
+  "fala": "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

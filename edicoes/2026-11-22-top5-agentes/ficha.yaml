@@ -1,0 +1,96 @@
+modo: area
+gancho:
+  tipo: contrario
+  manchete: 93 ESTRELAS POR DIA, SEM FOLGA
+  destaque: '93'
+  objeto: um robô assistente dourado saindo rachado de dentro de um notebook, com
+    faíscas amarelas explodindo pelas rachaduras
+  fontes:
+  - nome: github.com/topics
+    trecho: elie222/rakazo · 9,457 stars · criado em 2026-08-13
+abertura:
+  cena: escritório escuro à noite, mesas vazias, só a luz amarela de um computador
+    ligado no centro
+partes:
+- etapa: gancho
+  fala: Tem um assistente de inteligência artificial que mora no seu próprio computador.
+    E ele ganha quase cem estrelas por dia, todo dia, há três meses.
+- etapa: panorama
+  fala: Separei o Top cinco dos sistemas de agentes de inteligência artificial que
+    mais crescem no GitHub. Juntos, somam trezentas e setenta e uma estrelas por dia
+    desde que nasceram. Vou do quinto ao primeiro.
+  numero: '371'
+- etapa: repo
+  repo: totec448-spec/chat-on-steroids
+  desc: 'Dá superpoderes ao ChatGPT no seu computador: mexe em arquivos e divide o
+    trabalho em equipe.'
+  destaque: superpoderes
+  numero: '57'
+  fala: 'Em quinto, chat on steroids. Ele dá superpoderes ao ChatGPT no seu computador:
+    mexer em arquivos, rodar tarefas e dividir o trabalho numa equipe. Ganha cinquenta
+    e sete estrelas por dia. Mas é beta independente, use com cuidado.'
+- etapa: repo
+  repo: ApodexAI/FrontierAgent
+  desc: Um agente chefe que distribui tarefas para uma equipe de ajudantes de IA e
+    junta tudo no fim.
+  destaque: agente chefe
+  numero: '59'
+  fala: Número quatro, FrontierAgent. Um programa de terminal onde um agente chefe
+    distribui tarefas para uma equipe de ajudantes de inteligência artificial e junta
+    tudo no final. São cinquenta e nove estrelas por dia.
+- etapa: repo
+  repo: monid-ai/monid
+  desc: Uma chave só que abre mais de duas mil ferramentas para os agentes de IA usarem.
+  destaque: Uma chave só
+  numero: '70'
+  fala: 'E agora o pódio. Bronze pro Monid. Uma chave só que abre mais de duas mil
+    ferramentas para os agentes: busca na internet, dados de empresas, vídeo e voz.
+    Ele ganha setenta estrelas por dia.'
+- etapa: repo
+  repo: Human-Agent-Society/reef
+  desc: Estrutura para agentes de IA que aprendem sozinhos e melhoram a cada uso.
+  destaque: aprendem sozinhos
+  numero: '92'
+  fala: Prata pro Reef. É a base para agentes de inteligência artificial que aprendem
+    sozinhos e melhoram a cada uso. Quanto mais trabalham, melhores ficam. São noventa
+    e duas estrelas por dia desde que nasceu.
+- etapa: repo
+  repo: elie222/rakazo
+  desc: Colegas de IA com memória, rotina e computador próprio, rodando na sua máquina.
+  destaque: computador próprio
+  numero: '93'
+  fala: E o primeiro lugar é o Rakazo. Colegas de inteligência artificial com memória,
+    rotina e computador próprio, rodando na sua máquina, com a i-á que você escolher.
+    Uma alternativa aberta aos assistentes das big techs. São noventa e três estrelas
+    por dia. Sem folga.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  trezentas e setenta e uma: '371'
+  cinquenta e sete: '57'
+  cinquenta e nove: '59'
+  duas mil: 2 mil
+  setenta: '70'
+  noventa e duas: '92'
+  noventa e três: '93'
+  Top cinco: Top 5
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'Assistente de IA no seu PC ganha 93 estrelas por dia: Top 5 de agentes
+    no GitHub'
+  contexto: O Top 5 dos sistemas de agentes de IA que mais crescem no GitHub em 22/11/2026,
+    em estrelas por dia desde a criação, explicado sem jargão. O Rakazo, colegas de
+    IA com memória e computador próprio que rodam na sua máquina, lidera com 93 estrelas
+    por dia.
+  telegram: 'Top 5 dos agentes de IA que mais crescem no GitHub: o Rakazo lidera com
+    93 estrelas por dia, com colegas de IA que rodam no seu próprio computador. Logo
+    atrás vem o Reef, com agentes que aprendem sozinhos e melhoram a cada uso.'

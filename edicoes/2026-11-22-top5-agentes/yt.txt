@@ -1,0 +1,7 @@
+Assistente de IA no seu PC ganha 93 estrelas por dia: Top 5 de agentes no GitHub
+
+#1 elie222/rakazo — https://github.com/elie222/rakazo
+#2 Human-Agent-Society/reef — https://github.com/Human-Agent-Society/reef
+#3 monid-ai/monid — https://github.com/monid-ai/monid
+#4 ApodexAI/FrontierAgent — https://github.com/ApodexAI/FrontierAgent
+#5 totec448-spec/chat-on-steroids — https://github.com/totec448-spec/chat-on-steroids
