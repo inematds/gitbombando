@@ -1,0 +1,6 @@
+{
+ "veredito": "aprovado",
+ "motivo": "",
+ "slides_ruins": [],
+ "sugestao": "No slide 5 (open-code-review), trocar a tabela escura e miúda de benchmark por um print que mostre a ferramenta comentando código, ou pelo cartão do GitHub. Também vale reduzir a fonte do link no slide 3 para o endereço do modern-web-guidance-src caber sem reticências e preencher o espaço vazio do fecho."
+}
