@@ -1,0 +1,199 @@
+{
+ "tipo": "top5",
+ "serie": "TOP 5 DO GITHUB",
+ "conta": "@inema.tds",
+ "data_br": "23/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "DO GITHUB NA SEMANA",
+  "numero": "+22.241",
+  "numero_rotulo": "estrelas ganhas pelos 5 em 7 dias",
+  "manchete": "ALIBABA E META ABREM FERRAMENTAS INTERNAS",
+  "destaque": "INTERNAS",
+  "fundo": [
+   "prints/1.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/2.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "dream-num/univer",
+   "repo": "univer",
+   "url": "https://github.com/dream-num/univer",
+   "gancho": [
+    "SEU PRÓPRIO OFFICE",
+    "COM IA DENTRO?"
+   ],
+   "o_que_e": "Uma base de código aberto para criar planilhas e documentos dentro do seu próprio programa, editáveis por pessoas e por agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilhas e documentos",
+     "texto": "Começa com editores de planilha e de texto abertos, prontos para usar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes de IA",
+     "texto": "Seu aplicativo ou agente de IA edita o conteúdo, com desfazer e refazer."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A BASE",
+    "LIGA SEU APP",
+    "IA EDITA JUNTO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+6.436",
+   "stat_rotulo": "na semana",
+   "total": "31.370",
+   "info2": "TypeScript · desde 09/2022"
+  },
+  {
+   "pos": 2,
+   "nome": "mvanhorn/last30days-skill",
+   "repo": "last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "gancho": [
+    "PESQUISA QUALQUER",
+    "ASSUNTO NA REDE"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que pesquisa um tema no Reddit, X, YouTube, Polymarket e na web e entrega um resumo com base no que achou.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Várias redes de uma vez",
+     "texto": "Junta Reddit, X, YouTube, TikTok, Hacker News e Polymarket numa busca."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Funciona sem configurar",
+     "texto": "Reddit, Hacker News e GitHub já respondem logo na primeira vez."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "DIZ O TEMA",
+    "LÊ O RESUMO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+4.731",
+   "stat_rotulo": "na semana",
+   "total": "73.080",
+   "info2": "Python · desde 01/2026"
+  },
+  {
+   "pos": 3,
+   "nome": "kajisho5/ffmpeg-skill",
+   "repo": "ffmpeg-skill",
+   "url": "https://github.com/kajisho5/ffmpeg-skill",
+   "gancho": [
+    "EDITAR VÍDEO",
+    "PEDINDO À IA?"
+   ],
+   "o_que_e": "Um editor de vídeo que roda no seu computador e deixa o Claude Code, Cursor ou Codex cortar, legendar e ajustar seus vídeos.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Sem nuvem e sem chave",
+     "texto": "Tudo roda no seu computador com FFmpeg, sem enviar nada para a nuvem."
+    },
+    {
+     "icone": "video",
+     "titulo": "Legenda, corte e formato",
+     "texto": "Coloca legendas, tira silêncios e ajusta o vídeo para 9:16 do celular."
+    }
+   ],
+   "fluxo": [
+    "PEDE A EDIÇÃO",
+    "A IA EDITA",
+    "REVISA O VÍDEO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+3.748",
+   "stat_rotulo": "na semana",
+   "total": "9.974",
+   "info2": "Python · desde 09/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "alibaba/open-code-review",
+   "repo": "open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "gancho": [
+    "REVISÃO DE CÓDIGO",
+    "FEITA PELA IA"
+   ],
+   "o_que_e": "Uma ferramenta de terminal criada na Alibaba que usa um modelo de IA para revisar mudanças no código e apontar erros linha por linha.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Acha falhas de segurança",
+     "texto": "Tem regras prontas para falhas comuns, como injeção de SQL, em várias linguagens."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Usa OpenAI ou Anthropic",
+     "texto": "Você liga o modelo de IA que preferir e ele lê o projeto inteiro."
+    }
+   ],
+   "fluxo": [
+    "LIGA UM MODELO",
+    "RODA A REVISÃO",
+    "VÊ OS ERROS"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+3.700",
+   "stat_rotulo": "na semana",
+   "total": "55.556",
+   "info2": "Go · desde 05/2026"
+  },
+  {
+   "pos": 5,
+   "nome": "meta/astryx",
+   "repo": "astryx",
+   "url": "https://github.com/meta/astryx",
+   "gancho": [
+    "O VISUAL DA META",
+    "NO SEU APP"
+   ],
+   "o_que_e": "Um sistema de design aberto da Meta, com peças prontas de tela, temas e modo escuro, feito para pessoas e assistentes de IA usarem.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 componentes",
+     "texto": "Botões e peças de tela acessíveis, temas de marca e modelos prontos."
+    },
+    {
+     "icone": "code",
+     "titulo": "Feito em React",
+     "texto": "Você importa o estilo pronto, sem precisar de plugin extra para montar."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O PACOTE",
+    "ESCOLHE O TEMA",
+    "MONTA A TELA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+3.626",
+   "stat_rotulo": "na semana",
+   "total": "32.385",
+   "info2": "TypeScript · desde 01/2026"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "veredito": "aprovado",
+ "motivo": "",
+ "slides_ruins": [],
+ "sugestao": "O print do open-code-review (slide 5) é uma tabela escura e miúda que quase não se lê no celular; vale usar o cartão do GitHub ou um recorte ampliado quando o print do readme for só tabela. O fecho tem muito espaço vazio no meio, que pode receber a estrela ganha por cada projeto ao lado do nome."
+}
