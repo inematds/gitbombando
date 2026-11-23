@@ -1,0 +1,94 @@
+modo: area
+gancho:
+  tipo: estatistica
+  manchete: +276 ESTRELAS POR DIA, SEM PARAR
+  destaque: '+276'
+  objeto: uma engrenagem dourada gigante girando tão rápido que solta faíscas e começa
+    a rachar, com robôzinhos pendurados nela
+  fontes:
+  - nome: github.com/topics
+    trecho: mdiri-ai/SoduWork · 6,996 stars · criado em 29/10/2026
+abertura:
+  cena: escritório escuro à noite, mesas vazias, só a luz amarela de uma tela no centro
+partes:
+- etapa: gancho
+  fala: 'Robôs que trabalham em equipe e só entregam quando você aprova. Na automação,
+    é o projeto que mais cresce: duzentas e setenta e seis estrelas por dia.'
+- etapa: panorama
+  fala: Os cinco projetos de automação e produtividade que mais crescem somam novecentas
+    e sessenta e três estrelas por dia desde que nasceram. Vou do quinto ao primeiro.
+  numero: '963'
+- etapa: repo
+  repo: zephyr4123/snug
+  desc: Faz o Mac acessado de longe caber certinho no celular, no tablet ou em outro
+    computador.
+  destaque: caber certinho
+  numero: '134'
+  fala: Em quinto, Snug. Ele faz o Mac acessado de longe caber direitinho no celular,
+    no tablet ou em outro computador, com gestos de tela de toque. Cento e trinta
+    e quatro estrelas por dia.
+- etapa: repo
+  repo: CopilotKit/OpenBot
+  desc: Alternativa aberta aos robôs de IA fechados, que você instala na sua própria
+    máquina.
+  destaque: na sua própria máquina
+  numero: '135'
+  fala: 'Número quatro, OpenBot, da empresa CopilotKit. É uma alternativa aberta aos
+    robôs de inteligência artificial fechados: você instala na sua máquina e escolhe
+    a i-á. Cento e trinta e cinco estrelas por dia.'
+- etapa: repo
+  repo: CzzzzzzJ/mdldm-maitian
+  desc: Publica o seu vídeo em sete redes sociais de uma vez e traz os números de
+    volta.
+  destaque: sete redes sociais
+  numero: '206'
+  fala: E agora o pódio. Bronze pro Maitian, um projeto chinês. Você grava um vídeo
+    e ele preenche a publicação em sete redes sociais, do YouTube ao X, e traz os
+    números de volta. Duzentas e seis estrelas por dia.
+- etapa: repo
+  repo: w01fb0ss/PiBot
+  desc: Uma equipe de robôs de IA no seu computador que pede sua permissão antes de
+    agir.
+  destaque: pede sua permissão
+  numero: '212'
+  fala: Prata pro PiBot. Nasceu há só dois dias. É uma equipe de robôs no seu computador
+    que mexe em arquivos e navega na internet, mas pede sua permissão antes de cada
+    passo arriscado. Duzentas e doze estrelas por dia.
+- etapa: repo
+  repo: mdiri-ai/SoduWork
+  desc: Uma IA faz o trabalho, outra revisa, e só termina quando uma pessoa da equipe
+    aprova.
+  destaque: outra revisa
+  numero: '276'
+  fala: E o primeiro lugar é o SoduWork. Uma i-á faz o trabalho, outra revisa, e só
+    termina quando uma pessoa aprova. Feito para equipes. Duzentas e setenta e seis
+    estrelas por dia. Sem parar.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  duzentas e setenta e seis: '276'
+  Duzentas e setenta e seis: '276'
+  novecentas e sessenta e três: '963'
+  Cento e trinta e quatro: '134'
+  Cento e trinta e cinco: '135'
+  Duzentas e seis: '206'
+  Duzentas e doze: '212'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'Robôs que trabalham em equipe: 276 estrelas por dia no Top 5 de automação
+    do GitHub'
+  contexto: O Top 5 do GitHub em automação e produtividade, do quinto ao primeiro,
+    medido em estrelas por dia desde a criação e explicado sem jargão. O SoduWork
+    lidera com 276 estrelas por dia, e o PiBot, com só dois dias de vida, já é o segundo.
+  telegram: 'O que mais cresce no GitHub em automação: o SoduWork, onde uma IA faz
+    o trabalho, outra revisa e uma pessoa aprova, com 276 estrelas por dia. Logo atrás,
+    o PiBot, uma equipe de robôs no seu computador que nasceu há dois dias.'

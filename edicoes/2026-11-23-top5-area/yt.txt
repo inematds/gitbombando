@@ -1,0 +1,7 @@
+Robôs que trabalham em equipe: 276 estrelas por dia no Top 5 de automação do GitHub
+
+#1 mdiri-ai/SoduWork — https://github.com/mdiri-ai/SoduWork
+#2 w01fb0ss/PiBot — https://github.com/w01fb0ss/PiBot
+#3 CzzzzzzJ/mdldm-maitian — https://github.com/CzzzzzzJ/mdldm-maitian
+#4 CopilotKit/OpenBot — https://github.com/CopilotKit/OpenBot
+#5 zephyr4123/snug — https://github.com/zephyr4123/snug

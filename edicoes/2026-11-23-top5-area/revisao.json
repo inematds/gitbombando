@@ -1,0 +1,13 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Nenhum defeito encontrado. A capa traz 'TOP 5 DO GITHUB' (5 = número de projetos do top10.json) com a manchete idêntica ao gancho. O gráfico e as pílulas 🔥 batem com o top10.json (276, 212, 206, 135, 134), e as estrelas totais e as datas de criação estão corretas. O avatar está presente e o fecho tem a caixa vermelha e a pílula inema.club; os números menores no painel de baixo são o contador animado.",
+ "sugestoes": [
+  "10.6–17.19: o gráfico de barras ocupa só o topo e deixa um vazio grande antes do avatar; barras e nomes maiores ocupariam melhor a tela e ficariam legíveis no celular.",
+  "23.79–76.55: os cinco cartões são visualmente idênticos; uma cor ou um selo diferente no pódio (bronze/prata/ouro) daria mais sensação de subida até o #1.",
+  "69.95 (#1 SoduWork): vale reforçar no cartão que ele é o líder com 276/dia, por exemplo com um selo 'LÍDER' ou a palavra 'SEM PARAR' repetindo o gancho.",
+  "56.76 (#2 PiBot): o fato forte 'nasceu há 2 dias' não aparece no cartão; pô-lo em destaque aumentaria a surpresa.",
+  "83.14: o banner INEMA.CLUB tem textos miúdos ilegíveis no celular; uma chamada única e grande funcionaria melhor.",
+  "IMPACTO 7: o gancho numérico é bom, mas falta um visual forte de produto (print ou demo) nos cartões para segurar quem não conhece os projetos."
+ ]
+}
