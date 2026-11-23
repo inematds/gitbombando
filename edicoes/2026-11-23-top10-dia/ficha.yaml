@@ -1,0 +1,140 @@
+modo: dia
+gancho:
+  tipo: noticia
+  manchete: 'IA HACKER: +1.716 ESTRELAS'
+  destaque: '+1.716'
+  objeto: um escudo dourado gigante rachando ao meio, com faíscas amarelas e vermelhas
+    escapando pelas fendas
+  fontes:
+  - nome: github.com/trending
+    trecho: elementalsouls/Claude-BugHunter · 1,716 stars today
+  - nome: github.com/trending
+    trecho: mjmirza/app-store-compliance · 621 stars today
+abertura:
+  cena: corredor escuro de servidores de madrugada, luzes vermelhas piscando ao fundo
+    e um facho amarelo no centro
+partes:
+- etapa: gancho
+  fala: Uma inteligência artificial que caça falhas de segurança dominou o GitHub
+    de novo. Foram mil setecentas e dezesseis estrelas em um dia.
+- etapa: panorama
+  fala: Os dez projetos que mais cresceram hoje somaram sete mil oitocentas e nove
+    estrelas. Vou do décimo ao primeiro.
+  numero: '7.809'
+- etapa: repo
+  repo: cathrynlavery/diagram-design
+  desc: Faz a IA desenhar diagramas bonitos, com as cores da sua marca.
+  destaque: diagramas bonitos
+  numero: '518'
+  fala: Em décimo, o diagram design, que não sai do Top dez. Você pede com palavras
+    simples e a inteligência artificial desenha um diagrama bonito, com a cara da
+    sua marca. São quinhentas e dezoito estrelas.
+- etapa: repo
+  repo: toeverything/AFFiNE
+  desc: Caderno digital gratuito que junta anotações, quadro branco e tabelas.
+  destaque: gratuito
+  numero: '542'
+  fala: Nono lugar, o AFFiNE. Um caderno digital gratuito que junta anotações, quadro
+    branco e tabelas, sem entregar os seus dados pra ninguém. Ganhou quinhentas e
+    quarenta e duas estrelas.
+- etapa: repo
+  repo: mjmirza/app-store-compliance
+  desc: Evita que o seu aplicativo seja recusado pela Apple e pelo Google.
+  destaque: recusado
+  numero: '621'
+  fala: Em oitavo, um guia pra quem tem aplicativo. Ele revisa o seu app antes da
+    Apple e do Google e evita a recusa. Cresceu quase dezessete por cento hoje. São
+    seiscentas e vinte e uma estrelas.
+- etapa: repo
+  repo: zhouxiaoka/autoclip
+  desc: Corta vídeos longos em vídeos curtos com legenda e capa, sozinho.
+  destaque: sozinho
+  numero: '641'
+  fala: Sétimo, e esse assusta editor de vídeo. O AutoClip pega um vídeo longo e corta
+    sozinho em vídeos curtos pro Reels e TikTok, com legenda, capa e texto pronto.
+    Foram seiscentas e quarenta e uma estrelas.
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Pesquisa Reddit, YouTube e X sobre qualquer assunto e te entrega um resumo.
+  destaque: um resumo
+  numero: '668'
+  fala: Em sexto, o last thirty days, que não sai do Top dez. Você pergunta qualquer
+    coisa, ele vasculha Reddit, YouTube e X e te entrega um resumo do que o povo está
+    falando. São seiscentas e sessenta e oito estrelas.
+- etapa: repo
+  repo: HKUDS/CLI-Anything
+  desc: Deixa qualquer programa pronto pra ser comandado direto por uma IA.
+  destaque: qualquer programa
+  numero: '699'
+  fala: Número cinco, o CLI-Anything, outro que não sai do Top dez. Ele faz qualquer
+    programa do seu computador obedecer a inteligência artificial. Foram seiscentas
+    e noventa e nove estrelas.
+- etapa: repo
+  repo: XiaoYouChR/Ghost-Downloader-3
+  desc: Um baixador que pega vídeo, arquivo e torrent num só programa.
+  destaque: num só programa
+  numero: '701'
+  fala: Quarto lugar, o Ghost Downloader, que também não sai do Top dez. Um programa
+    só que baixa vídeo do YouTube, arquivo e torrent, e promete aposentar cinco aplicativos.
+    São setecentas e uma estrelas.
+- etapa: repo
+  repo: obra/superpowers
+  desc: Ensina a IA a perguntar e planejar antes de sair programando.
+  destaque: planejar antes
+  numero: '788'
+  fala: E agora o pódio. Terceiro, o superpowers, que não sai do Top dez. Ele obriga
+    a inteligência artificial a parar, perguntar e planejar antes de programar. São
+    setecentas e oitenta e oito estrelas.
+- etapa: repo
+  repo: firecrawl/firecrawl
+  desc: Transforma qualquer site em texto limpo pra sua IA ler e entender.
+  destaque: qualquer site
+  numero: '915'
+  fala: Em segundo, o Firecrawl, mais um que não sai do Top dez. Ele lê qualquer site
+    e entrega o conteúdo limpinho pra i-á. São os olhos dela na internet. Foram novecentas
+    e quinze estrelas.
+- etapa: repo
+  repo: elementalsouls/Claude-BugHunter
+  desc: Transforma a IA num caçador de falhas de segurança em sites e sistemas.
+  destaque: caçador de falhas
+  numero: '1.716'
+  fala: E o número um. De novo ele. O Claude BugHunter transforma a i-á num caçador
+    de falhas em sites e sistemas. Serve pra proteger, mas pode atacar. Isso é polêmico,
+    cuidado. São mil setecentas e dezesseis estrelas.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Tá tudo no inema ponto club, e lá você
+    aprende a integrar esses projetos no seu dia a dia em vez de só copiar, direto
+    na internet.
+trocas:
+  mil setecentas e dezesseis: '1.716'
+  sete mil oitocentas e nove: '7.809'
+  quinhentas e dezoito: '518'
+  quinhentas e quarenta e duas: '542'
+  dezessete por cento: 17%
+  seiscentas e vinte e uma: '621'
+  seiscentas e quarenta e uma: '641'
+  seiscentas e sessenta e oito: '668'
+  seiscentas e noventa e nove: '699'
+  setecentas e uma: '701'
+  setecentas e oitenta e oito: '788'
+  novecentas e quinze: '915'
+cores:
+  bombando: '#FACC15'
+  pódio: '#FACC15'
+  polêmico: '#ff2a1f'
+  cuidado: '#ff2a1f'
+  atacar: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: 'IA caçadora de falhas domina o GitHub de novo: +1.716 estrelas em um dia'
+  contexto: Top 10 do GitHub de 23/11/2026, do décimo ao primeiro, com os projetos
+    que mais ganharam estrelas no dia. O polêmico Claude BugHunter, que transforma
+    a IA em caçadora de falhas de segurança, segue no topo com 1.716 estrelas.
+  telegram: 'O polêmico Claude BugHunter segue em primeiro no GitHub: 1.716 estrelas
+    em um dia transformando a IA em caçadora de falhas de segurança. O Firecrawl,
+    que dá olhos pra IA na internet, ficou em segundo. E o guia que evita recusa de
+    app na Apple e no Google cresceu quase 17% hoje.'

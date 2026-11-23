@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com TOP 10 DO GITHUB e manchete idêntica ao gancho; posições, estrelas, totais e datas de todos os cartões batem com o top10.json; avatar presente; fecho com caixa vermelha e pílula inema.club.",
+ "sugestoes": [
+  "q00 (0.05s): a manchete 'IA HACKER: +1.716 ESTRELAS' fica pequena sob o TOP 10 gigante; dar mais peso ao +1.716 em amarelo prenderia mais quem rola o feed.",
+  "q15 (127.37s): o cartão do #1 polêmico não tem alerta visual; um selo vermelho 'POLÊMICO / USE COM ÉTICA' reforçaria o tom da fala.",
+  "q07 (45.12s): o crescimento de 16,6% do app-store-compliance, o maior do dia, só aparece na legenda; uma pílula '+17%' no cartão destacaria esse dado.",
+  "q04 (14.28s): o ranking é bom, mas o '7.809 estrelas' embaixo poderia ganhar mais contraste e tamanho para virar um segundo gancho.",
+  "IMPACTO 7: falta um momento visual forte entre o #9 e o #4, que seguem o mesmo layout sem variação; um corte ou zoom no meio ajudaria a reter até o #1."
+ ]
+}
