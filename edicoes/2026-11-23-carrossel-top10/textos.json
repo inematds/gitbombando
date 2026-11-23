@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "SKILLS DE IA DOMINAM O DIA",
+  "destaque": "SKILLS"
+ },
+ "repos": {
+  "elementalsouls/Claude-BugHunter": {
+   "gancho": [
+    "CLAUDE CODE CAÇANDO",
+    "FALHAS DE SEGURANÇA"
+   ],
+   "o_que_e": "Um pacote de habilidades para o Claude Code que faz a IA agir como pesquisador de segurança e procurar falhas em sites, sempre com autorização.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Relatórios reais",
+     "texto": "Usa padrões tirados de falhas já divulgadas no HackerOne."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Comandos prontos",
+     "texto": "Traz comandos de barra que você chama direto no Claude Code."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "DEFINE O ALVO",
+    "IA CAÇA FALHAS"
+   ]
+  },
+  "firecrawl/firecrawl": {
+   "gancho": [
+    "SITES VIRAM TEXTO",
+    "PARA SUA IA LER"
+   ],
+   "o_que_e": "Uma ferramenta que transforma sites em texto limpo e busca dados na internet para alimentar seus agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "A versão Local transforma sites em texto sem banco de dados."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Versão na nuvem",
+     "texto": "Use o serviço hospedado sem instalar nada, com busca na web."
+    }
+   ],
+   "fluxo": [
+    "COLA O SITE",
+    "LÊ AS PÁGINAS",
+    "TEXTO LIMPO"
+   ]
+  },
+  "obra/superpowers": {
+   "gancho": [
+    "SUA IA PLANEJA",
+    "ANTES DE CODAR"
+   ],
+   "o_que_e": "Um conjunto de habilidades e um método de trabalho que fazem seu agente de programação entender o pedido antes de escrever código.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Pergunta antes",
+     "texto": "O agente pergunta o que você quer de verdade antes de começar."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Roda em vários agentes",
+     "texto": "Funciona com Claude Code, Cursor, Codex, Gemini e outros."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ DESCREVE",
+    "IA FAZ O PLANO",
+    "VOCÊ APROVA"
+   ]
+  },
+  "XiaoYouChR/Ghost-Downloader-3": {
+   "gancho": [
+    "BAIXAR TUDO",
+    "NUM SÓ PROGRAMA?"
+   ],
+   "o_que_e": "Um gerenciador de downloads que baixa arquivos por links comuns, FTP e torrent, dividindo cada arquivo em partes para ir mais rápido.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Vários tipos de link",
+     "texto": "Baixa por HTTP, FTP, BitTorrent e links magnet."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Rápido em rede ruim",
+     "texto": "Divide em partes e detecta sozinho a velocidade da conexão."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "ELE DIVIDE",
+    "ARQUIVO SALVO"
+   ]
+  },
+  "HKUDS/CLI-Anything": {
+   "gancho": [
+    "QUALQUER PROGRAMA",
+    "NA MÃO DA SUA IA"
+   ],
+   "o_que_e": "Um projeto que cria programas de terminal para softwares comuns, para que agentes de IA como o Claude Code consigam usá-los.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Loja da comunidade",
+     "texto": "No CLI-Hub você procura e instala comandos feitos por outros."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga em vários agentes",
+     "texto": "Funciona com Claude Code, Cursor, OpenClaw, nanobot e outros."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O APP",
+    "INSTALA NO HUB",
+    "IA USA O APP"
+   ]
+  },
+  "mvanhorn/last30days-skill": {
+   "gancho": [
+    "PESQUISA QUALQUER",
+    "ASSUNTO DO MÊS"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que pesquisa um tema no Reddit, X, YouTube e na web e entrega um resumo baseado no que encontrou.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Fontes de verdade",
+     "texto": "Usa votos, curtidas e apostas do Polymarket para medir interesse."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Sem configurar",
+     "texto": "Reddit, Hacker News e GitHub já funcionam na primeira vez."
+    }
+   ],
+   "fluxo": [
+    "DIGITA O TEMA",
+    "IA VASCULHA",
+    "RESUMO PRONTO"
+   ]
+  },
+  "zhouxiaoka/autoclip": {
+   "gancho": [
+    "UM LINK.",
+    "VÁRIOS CORTES."
+   ],
+   "o_que_e": "Um programa de computador que corta vídeos longos, como podcasts e aulas, em vídeos curtos com legenda, capa e texto para postar.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Pronto para cada rede",
+     "texto": "Formatos para TikTok, Reels, YouTube Shorts e outras redes."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Edita no seu computador",
+     "texto": "O programa é grátis; os modelos de IA na nuvem são pagos por uso."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "ESCOLHE A REDE",
+    "CORTES PRONTOS"
+   ]
+  },
+  "mjmirza/app-store-compliance": {
+   "gancho": [
+    "APP APROVADO",
+    "DE PRIMEIRA?"
+   ],
+   "o_que_e": "Um guia aberto com verificação antes do envio, que aponta motivos comuns de rejeição de apps na App Store e no Google Play.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Rejeições mapeadas",
+     "texto": "Padrões de rejeição documentados, cada um com a sua correção."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Prazos de leis",
+     "texto": "Acompanha prazos como a lei de IA da Europa e leis de idade."
+    }
+   ],
+   "fluxo": [
+    "RODA O TESTE",
+    "VÊ OS ERROS",
+    "CORRIGE E ENVIA"
+   ]
+  },
+  "toeverything/AFFiNE": {
+   "gancho": [
+    "NOTION E MIRO",
+    "NUM LUGAR SÓ"
+   ],
+   "o_que_e": "Um espaço de trabalho de código aberto que junta documentos, quadro branco e tabelas, como alternativa ao Notion e ao Miro.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Privacidade primeiro",
+     "texto": "Seus dados ficam primeiro no seu aparelho, não na nuvem."
+    },
+    {
+     "icone": "brain",
+     "titulo": "IA junto",
+     "texto": "Uma IA ajuda a escrever relatórios e a transformar tópicos em texto."
+    }
+   ],
+   "fluxo": [
+    "ABRE O APP",
+    "ESCREVE E RISCA",
+    "TUDO ORGANIZADO"
+   ]
+  },
+  "cathrynlavery/diagram-design": {
+   "gancho": [
+    "DIAGRAMA BONITO",
+    "SÓ PEDINDO?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que desenha diagramas num único arquivo de página web, com as cores e fontes da sua marca.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Vários tipos",
+     "texto": "Arquitetura, quadrantes, sequências e dezenas de outros tipos."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Com a sua marca",
+     "texto": "Lê seu site e usa sua paleta e fontes nos próximos diagramas."
+    }
+   ],
+   "fluxo": [
+    "PEDE O DIAGRAMA",
+    "IA ESCOLHE TIPO",
+    "ABRE O ARQUIVO"
+   ]
+  }
+ },
+ "legenda_abertura": "Os 10 projetos que mais ganharam estrelas hoje no GitHub mostram uma coisa: habilidades prontas para agentes de IA estão em todo lugar. Arraste o carrossel e veja o que cada um faz. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 10 do dia no GitHub: de caça a falhas com o Claude Code a cortes automáticos de vídeo. Confira o carrossel no @inema.tech. No inema.club está tudo lá, e você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

@@ -1,0 +1,82 @@
+{
+ "elementalsouls/Claude-BugHunter": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "firecrawl/firecrawl": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png",
+  "tam": [
+   1400,
+   427
+  ]
+ },
+ "obra/superpowers": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/obra/superpowers",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "XiaoYouChR/Ghost-Downloader-3": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/6763c9e0-cd5d-450e-80f5-1e22adcff36e",
+  "tam": [
+   720,
+   468
+  ]
+ },
+ "HKUDS/CLI-Anything": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/teaser.png",
+  "tam": [
+   1400,
+   462
+  ]
+ },
+ "mvanhorn/last30days-skill": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/mvanhorn/last30days-skill",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "zhouxiaoka/autoclip": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/zhouxiaoka/autoclip/main/docs/images/demos/gates-ezra-01.jpg",
+  "tam": [
+   540,
+   960
+  ]
+ },
+ "mjmirza/app-store-compliance": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/apple.png",
+  "tam": [
+   512,
+   512
+  ]
+ },
+ "toeverything/AFFiNE": {
+  "fonte": "readme",
+  "url": "https://cdn.affine.pro/Github_hero_image2.png",
+  "tam": [
+   1400,
+   467
+  ]
+ },
+ "cathrynlavery/diagram-design": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/hero/hero-dark.webp",
+  "tam": [
+   1400,
+   700
+  ]
+ }
+}
