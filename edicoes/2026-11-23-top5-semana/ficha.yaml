@@ -1,0 +1,100 @@
+modo: semana
+gancho:
+  tipo: estatistica
+  manchete: OFFICE ABERTO LEVA +6.436 ESTRELAS
+  destaque: '+6.436'
+  objeto: uma planilha gigante explodindo em pedaços, com documentos e slides voando
+    entre faíscas amarelas
+  fontes:
+  - nome: github.com/trending?since=weekly
+    trecho: dream-num/univer · 6,436 stars this week
+  - nome: github.com/dream-num/univer
+    trecho: Build your own AI office with Univer Office SDK
+abertura:
+  cena: escritório escuro de madrugada, cadeiras vazias e monitores apagados, só uma
+    luz amarela forte vindo do centro
+partes:
+- etapa: gancho
+  fala: Um escritório inteiro, com planilha, documento e apresentação, aberto pra
+    inteligência artificial trabalhar junto com você. Em sete dias, mais de seis mil
+    pessoas correram pra dar estrela.
+- etapa: panorama
+  fala: Os projetos do Top cinco da semana somaram vinte e duas mil duzentas e quarenta
+    e uma estrelas. Vou do quinto ao primeiro.
+  numero: '22.241'
+- etapa: repo
+  repo: meta/astryx
+  desc: As peças de tela da Meta que montam mais de 13 mil apps, agora abertas e prontas
+    pra IA.
+  destaque: 13 mil apps
+  numero: '3.626'
+  fala: 'Começando pela Meta, dona do Instagram e do WhatsApp. Em quinto, o Astryx:
+    as peças de tela que montam mais de treze mil aplicativos da empresa. Agora estão
+    abertas pra você e pra inteligência artificial. Três mil seiscentas e vinte e
+    seis estrelas.'
+- etapa: repo
+  repo: alibaba/open-code-review
+  desc: O revisor de código com IA da Alibaba, que já achou milhões de erros lá dentro.
+  destaque: milhões de erros
+  numero: '3.700'
+  fala: Número quatro vem da gigante chinesa Alibaba. O Open Code Review usa inteligência
+    artificial pra revisar código. Lá dentro, achou milhões de erros de dezenas de
+    milhares de programadores. Agora é aberto. Três mil e setecentas estrelas.
+- etapa: repo
+  repo: kajisho5/ffmpeg-skill
+  desc: 'Você pede e a IA edita seu vídeo: corta, legenda e deixa vertical, sem nuvem.'
+  destaque: sem nuvem
+  numero: '3.748'
+  fala: 'E agora o pódio. Em terceiro, o ffmpeg skill. Você pede e a inteligência
+    artificial edita seu vídeo: corta, põe legenda, deixa vertical. Tudo no seu computador,
+    sem nuvem. Cresceu sessenta por cento. Três mil setecentas e quarenta e oito estrelas.'
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Vasculha Reddit, YouTube, X e TikTok e resume o que o povo falou de qualquer
+    assunto.
+  destaque: o que o povo falou
+  numero: '4.731'
+  fala: Prata pro Last Thirty Days. Você dá um assunto, ele vasculha Reddit, YouTube,
+    X e TikTok ao mesmo tempo e te entrega um resumo do que gente de verdade anda
+    falando. Quatro mil setecentas e trinta e uma estrelas.
+- etapa: repo
+  repo: dream-num/univer
+  desc: Um escritório aberto, com planilhas, documentos e apresentações, para pessoas
+    e IAs.
+  destaque: escritório aberto
+  numero: '6.436'
+  fala: E o campeão da semana é o Univer. Um escritório completo e aberto, que qualquer
+    empresa encaixa no próprio sistema. Você e a inteligência artificial mexendo na
+    mesma planilha. Seis mil quatrocentas e trinta e seis estrelas. Em uma semana.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  seis mil pessoas: 6 mil pessoas
+  Top cinco: Top 5
+  vinte e duas mil duzentas e quarenta e uma: '22.241'
+  treze mil: 13 mil
+  Três mil seiscentas e vinte e seis: '3.626'
+  Três mil e setecentas: '3.700'
+  sessenta por cento: 60%
+  Três mil setecentas e quarenta e oito: '3.748'
+  Quatro mil setecentas e trinta e uma: '4.731'
+  Seis mil quatrocentas e trinta e seis: '6.436'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'Office aberto pra IA leva 6.436 estrelas: o Top 5 do GitHub da semana'
+  contexto: O Top 5 do GitHub da semana de 23/11/2026, do quinto ao primeiro, explicado
+    sem jargão. O Univer, um escritório aberto para pessoas e IAs, liderou com 6.436
+    estrelas, à frente de Last30days, ffmpeg skill, Alibaba e Meta.
+  telegram: 'O que bombou na semana no GitHub: o Univer, um escritório aberto com
+    planilha, documento e apresentação feito pra trabalhar com IA, ganhou 6.436 estrelas.
+    Alibaba e Meta também estão no Top 5, e um editor de vídeo comandado por IA cresceu
+    60% em sete dias.'

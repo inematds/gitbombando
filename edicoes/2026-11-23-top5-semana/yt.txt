@@ -1,0 +1,7 @@
+Office aberto pra IA leva 6.436 estrelas: o Top 5 do GitHub da semana
+
+#1 dream-num/univer — https://github.com/dream-num/univer
+#2 mvanhorn/last30days-skill — https://github.com/mvanhorn/last30days-skill
+#3 kajisho5/ffmpeg-skill — https://github.com/kajisho5/ffmpeg-skill
+#4 alibaba/open-code-review — https://github.com/alibaba/open-code-review
+#5 meta/astryx — https://github.com/meta/astryx

@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "A capa traz 'TOP 5 DO GITHUB' e a manchete certa. Posições, estrelas da semana, totais e datas de criação dos 5 cartões batem com o top10.json. O avatar está presente e o fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "11.1s: o painel do panorama deixa um grande espaço vazio entre o ranking e o rodapé; dá para aumentar as barras e os nomes ou pôr a soma 22.241 em destaque ali.",
+  "18.2s–82.13s: os rótulos numéricos sobre as barras do gráfico de baixo são minúsculos e ilegíveis no celular; melhor mostrar só o valor do último dia ou nenhum.",
+  "60.82s: o contador do #2 aparece em '0' com barras zeradas por vários segundos; dá impressão de dado faltando e poderia começar a subir mais cedo.",
+  "46.61s: o ícone 'SW' do ffmpeg-skill é genérico; um logo do FFmpeg ou um ícone de vídeo ajudaria a reconhecer o projeto.",
+  "0.05s: o gancho é forte em número, mas falta uma imagem ou objeto visual de impacto na metade de cima da capa (a ficha prevê uma planilha explodindo); isso ajudaria a parar o scroll."
+ ]
+}
