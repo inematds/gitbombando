@@ -1,0 +1,7 @@
+Com 2 dias de vida, equipe de robôs de IA ganha 213 estrelas por dia no GitHub
+
+#1 w01fb0ss/PiBot — https://github.com/w01fb0ss/PiBot
+#2 ThreatDefence/agentic-attack-detections — https://github.com/ThreatDefence/agentic-attack-detections
+#3 miqdadbadjuber/anti-slop — https://github.com/miqdadbadjuber/anti-slop
+#4 Appllama/appllama-skills — https://github.com/Appllama/appllama-skills
+#5 tigerless-labs/agent-memory — https://github.com/tigerless-labs/agent-memory

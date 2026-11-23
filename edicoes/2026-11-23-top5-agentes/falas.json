@@ -1,0 +1,42 @@
+[
+ {
+  "id": "f1",
+  "fala": "Um projeto com só dois dias de vida já está atropelando todo mundo. Ele coloca uma equipe de robôs trabalhando dentro do seu computador.",
+  "legenda": "Um projeto com só dois dias de vida já está atropelando todo mundo. Ele coloca uma equipe de robôs trabalhando dentro do seu computador."
+ },
+ {
+  "id": "f2",
+  "fala": "Separei o Top cinco dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Juntos, somam quinhentas e cinquenta e oito estrelas por dia desde que nasceram. Vou do quinto ao primeiro.",
+  "legenda": "Separei o Top 5 dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Juntos, somam 558 estrelas por dia desde que nasceram. Vou do quinto ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em quinto, agent memory. Sabe quando a inteligência artificial esquece tudo ao fechar a conversa? Ele dá memória de longo prazo aos agentes, guardada no seu próprio computador. São cinquenta e duas estrelas por dia.",
+  "legenda": "Em quinto, agent memory. Sabe quando a inteligência artificial esquece tudo ao fechar a conversa? Ele dá memória de longo prazo aos agentes, guardada no seu próprio computador. São 52 estrelas por dia."
+ },
+ {
+  "id": "f4",
+  "fala": "Número quatro, Appllama skills. Ele ensina os agentes a criar telas de aplicativo de celular seguindo o jeito dos apps que mais faturam no mundo. Ganha cinquenta e cinco estrelas por dia.",
+  "legenda": "Número quatro, Appllama skills. Ele ensina os agentes a criar telas de aplicativo de celular seguindo o jeito dos apps que mais faturam no mundo. Ganha 55 estrelas por dia."
+ },
+ {
+  "id": "f5",
+  "fala": "E agora o pódio. Bronze pro anti-slop. Sabe aquele texto com cara de feito por robô? Ele é um livro de regras que obriga a inteligência artificial a cortar isso. São noventa e duas estrelas por dia, quase dez mil no total.",
+  "legenda": "E agora o pódio. Bronze pro anti-slop. Sabe aquele texto com cara de feito por robô? Ele é um livro de regras que obriga a inteligência artificial a cortar isso. São 92 estrelas por dia, quase 10 mil no total."
+ },
+ {
+  "id": "f6",
+  "fala": "Prata, e esse assusta. Já tem agentes de inteligência artificial invadindo sistemas sozinhos. O agentic attack detections é o escudo: regras pra equipes de segurança flagrarem esses ataques. Tema polêmico, cuidado. São cento e quarenta e seis estrelas por dia.",
+  "legenda": "Prata, e esse assusta. Já tem agentes de inteligência artificial invadindo sistemas sozinhos. O agentic attack detections é o escudo: regras pra equipes de segurança flagrarem esses ataques. Tema polêmico, cuidado. São 146 estrelas por dia."
+ },
+ {
+  "id": "f7",
+  "fala": "E o primeiro lugar, com só dois dias de vida: PiBot. Uma equipe de robôs de inteligência artificial trabalhando no seu computador, e todo passo arriscado espera a sua aprovação. Grátis e aberto. São duzentas e treze estrelas por dia.",
+  "legenda": "E o primeiro lugar, com só dois dias de vida: PiBot. Uma equipe de robôs de inteligência artificial trabalhando no seu computador, e todo passo arriscado espera a sua aprovação. Grátis e aberto. São 213 estrelas por dia."
+ },
+ {
+  "id": "f8",
+  "fala": "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

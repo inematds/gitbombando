@@ -1,0 +1,95 @@
+modo: area
+gancho:
+  tipo: estatistica
+  manchete: 213 ESTRELAS POR DIA, RECÉM-NASCIDO
+  destaque: '213'
+  objeto: um robô dourado recém-nascido saindo de um ovo rachado em cima de um notebook,
+    com faíscas amarelas explodindo pelas rachaduras
+  fontes:
+  - nome: github.com/topics
+    trecho: w01fb0ss/PiBot · 472 stars · criado em 2026-11-21
+abertura:
+  cena: quarto escuro à noite, só a luz amarela de uma tela de computador no centro
+    da mesa
+partes:
+- etapa: gancho
+  fala: Um projeto com só dois dias de vida já está atropelando todo mundo. Ele coloca
+    uma equipe de robôs trabalhando dentro do seu computador.
+- etapa: panorama
+  fala: Separei o Top cinco dos sistemas de agentes de inteligência artificial que
+    mais crescem no GitHub. Juntos, somam quinhentas e cinquenta e oito estrelas por
+    dia desde que nasceram. Vou do quinto ao primeiro.
+  numero: '558'
+- etapa: repo
+  repo: tigerless-labs/agent-memory
+  desc: Dá memória de longo prazo aos agentes de IA, guardada no seu computador.
+  destaque: memória de longo prazo
+  numero: '52'
+  fala: Em quinto, agent memory. Sabe quando a inteligência artificial esquece tudo
+    ao fechar a conversa? Ele dá memória de longo prazo aos agentes, guardada no seu
+    próprio computador. São cinquenta e duas estrelas por dia.
+- etapa: repo
+  repo: Appllama/appllama-skills
+  desc: Ensina a IA a criar telas de app no estilo dos aplicativos que mais faturam.
+  destaque: mais faturam
+  numero: '55'
+  fala: Número quatro, Appllama skills. Ele ensina os agentes a criar telas de aplicativo
+    de celular seguindo o jeito dos apps que mais faturam no mundo. Ganha cinquenta
+    e cinco estrelas por dia.
+- etapa: repo
+  repo: miqdadbadjuber/anti-slop
+  desc: Regras que obrigam a IA a cortar textos, visuais e códigos com cara de robô.
+  destaque: cara de robô
+  numero: '92'
+  fala: E agora o pódio. Bronze pro anti-slop. Sabe aquele texto com cara de feito
+    por robô? Ele é um livro de regras que obriga a inteligência artificial a cortar
+    isso. São noventa e duas estrelas por dia, quase dez mil no total.
+- etapa: repo
+  repo: ThreatDefence/agentic-attack-detections
+  desc: Regras gratuitas para equipes de segurança flagrarem ataques feitos por agentes
+    de IA.
+  destaque: ataques
+  numero: '146'
+  fala: 'Prata, e esse assusta. Já tem agentes de inteligência artificial invadindo
+    sistemas sozinhos. O agentic attack detections é o escudo: regras pra equipes
+    de segurança flagrarem esses ataques. Tema polêmico, cuidado. São cento e quarenta
+    e seis estrelas por dia.'
+- etapa: repo
+  repo: w01fb0ss/PiBot
+  desc: Uma equipe de robôs de IA no seu computador, que pede sua aprovação antes
+    de agir.
+  destaque: equipe de robôs
+  numero: '213'
+  fala: 'E o primeiro lugar, com só dois dias de vida: PiBot. Uma equipe de robôs
+    de inteligência artificial trabalhando no seu computador, e todo passo arriscado
+    espera a sua aprovação. Grátis e aberto. São duzentas e treze estrelas por dia.'
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  quinhentas e cinquenta e oito: '558'
+  cinquenta e duas: '52'
+  cinquenta e cinco: '55'
+  noventa e duas: '92'
+  dez mil: 10 mil
+  cento e quarenta e seis: '146'
+  duzentas e treze: '213'
+  Top cinco: Top 5
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: Com 2 dias de vida, equipe de robôs de IA ganha 213 estrelas por dia no
+    GitHub
+  contexto: O Top 5 dos sistemas de agentes de IA que mais crescem no GitHub em 23/11/2026,
+    em estrelas por dia desde a criação, explicado sem jargão. O PiBot, uma equipe
+    de robôs de IA que trabalha no seu computador, lidera com 213 estrelas por dia.
+  telegram: 'Top 5 dos agentes de IA que mais crescem no GitHub: o PiBot, com só dois
+    dias de vida, lidera com 213 estrelas por dia. Em segundo, um escudo contra agentes
+    de IA que invadem sistemas sozinhos.'

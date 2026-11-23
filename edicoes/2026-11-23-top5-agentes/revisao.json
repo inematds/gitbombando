@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "A capa traz TOP 5 DO GITHUB grande e a manchete correta. Todas as pílulas 🔥 e estrelas dos cartões batem com o top10.json (+52/4.319, +55/5.642, +92/9.914, +146/510, +213/472). O avatar aparece em todos os quadros e o fecho tem a caixa vermelha e a pílula inema.club; nenhum defeito visível.",
+ "sugestoes": [
+  "10.93: o gráfico CRESCENDO POR DIA ocupa só o topo e deixa um vazio grande abaixo das barras; barras e rótulos maiores ficariam mais legíveis no celular.",
+  "10.93: o painel diz '5 PROJETOS · POR DIA' mas o rótulo embaixo do número é só 'ESTRELAS'; 'ESTRELAS POR DIA' deixaria a soma de 558 mais clara.",
+  "59.47/66.4: o logo da ThreatDefence é um quadrado quase todo preto e ilegível; um fundo claro atrás do logo ajudaria.",
+  "0.05–4.0: a legenda karaokê sobre a imagem da capa fica apagada em parte ('PROJETO COM', 'ATROPELANDO TODO'); um fundo escuro atrás da legenda daria mais contraste.",
+  "87.2: a pílula inema.club só aparece no quadro seguinte (94.13); mostrá-la junto com a caixa vermelha reforçaria a chamada desde o início do fecho."
+ ]
+}
