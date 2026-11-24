@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "Capa com TOP 5 DO GITHUB grande e a manchete idêntica ao gancho; posições, estrelas totais e pílulas 🔥 batem com o top10.json; avatar presente; fecho com a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "0.05–4.0: a legenda karaokê fica colada sob a manchete da capa e disputa a atenção com ela; afastar um pouco ou dar mais contraste ajudaria.",
+  "10.71–17.42: o painel do ranking deixa um grande vazio entre a lista e o rodapé; barras mais grossas ou a lista maior ocupariam melhor a tela.",
+  "64.41: o contador para em 1.129 enquanto a pílula mostra +1.130; quem pausar pode achar que é erro, então vale fazer o contador chegar ao valor antes da troca de cena.",
+  "71.12–77.83: o cartão do #1 usa uma foto de dono genérica (bolha azul) e perde força visual; um print do projeto ou um ícone daria mais impacto ao primeiro lugar.",
+  "84.54: o cartão do INEMA.CLUB aparece sem frase própria na tela; uma chamada curta como 'aprenda a integrar' reforçaria o convite."
+ ]
+}

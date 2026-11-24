@@ -1,0 +1,97 @@
+modo: area
+gancho:
+  tipo: estatistica
+  manchete: +1.187 ESTRELAS POR DIA, RECÉM-NASCIDO
+  destaque: '+1.187'
+  objeto: um foguete dourado saindo de uma tela de notebook rachada, soltando faíscas
+    e pedaços de vidro
+  fontes:
+  - nome: github.com/topics
+    trecho: EL4CTEO/fast-anything · 3,430 stars · criado em 21/11/2026
+abertura:
+  cena: sala de servidores escura à noite, só a luz amarela de uma tela no centro
+partes:
+- etapa: gancho
+  fala: Ele nasceu há três dias e já ganha mil cento e oitenta e sete estrelas por
+    dia. E promete deixar programas lentos mais de cem vezes mais rápidos.
+- etapa: panorama
+  fala: No mundo do Claude Code, MCP e skills, os cinco projetos que mais crescem
+    somam duas mil setecentas e quarenta e quatro estrelas por dia desde que nasceram.
+    Vou do quinto ao primeiro.
+  numero: '2.744'
+- etapa: repo
+  repo: kaankiziltug/logo-design-skill
+  desc: Transforma a sua IA num designer de logotipos, com mais de 1.400 logos de
+    referência.
+  destaque: designer de logotipos
+  numero: '129'
+  fala: Em quinto, logo design skill. É um pacote que transforma a sua i-á num designer
+    de logotipos, com mais de mil e quatrocentos logos de referência. Cento e vinte
+    e nove estrelas por dia.
+- etapa: repo
+  repo: shinyobjectz/raea
+  desc: Você pede pra sua IA e ela cria vídeos, animações, cenas 3D e jogos no seu
+    computador.
+  destaque: vídeos, animações
+  numero: '133'
+  fala: Número quatro, raea. Você pede pra sua inteligência artificial e ela cria
+    vídeos, animações, cenas em três dê e até jogos, no seu próprio computador. Cento
+    e trinta e três estrelas por dia.
+- etapa: repo
+  repo: INK-Q/agy-fast
+  desc: Acelerador para o Antigravity, do Google, que corta quase um terço do gasto
+    com IA.
+  destaque: um terço
+  numero: '165'
+  fala: E agora o pódio. Bronze pro agy fast, um acelerador pro Antigravity, a ferramenta
+    de programar com i-á do Google. Corta quase um terço do gasto com a inteligência
+    artificial. Cento e sessenta e cinco estrelas por dia.
+- etapa: repo
+  repo: erkamyaman/rust-anything
+  desc: Reescreve o seu programa inteiro numa linguagem mais rápida, conferindo cada
+    pedaço.
+  destaque: programa inteiro
+  numero: '1.130'
+  fala: Prata pro rust anything. Ele reescreve o seu programa inteiro numa linguagem
+    mais rápida, pedaço por pedaço, e confere cada passo com o original. Mil cento
+    e trinta estrelas por dia.
+- etapa: repo
+  repo: EL4CTEO/fast-anything
+  desc: Acha só a parte lenta do programa, pede pra IA refazer e prova que funciona
+    igual.
+  destaque: só a parte lenta
+  numero: '1.187'
+  fala: E o primeiro lugar é o fast anything. Em vez de reescrever tudo, ele acha
+    só a parte lenta, pede pra i-á refazer e prova que funciona igual. Três dias de
+    vida. Mil cento e oitenta e sete estrelas por dia.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  mil cento e oitenta e sete: '1.187'
+  Mil cento e oitenta e sete: '1.187'
+  duas mil setecentas e quarenta e quatro: '2.744'
+  mil e quatrocentos: '1.400'
+  Cento e vinte e nove: '129'
+  Cento e trinta e três: '133'
+  Cento e sessenta e cinco: '165'
+  Mil cento e trinta: '1.130'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'Nasceu há 3 dias e já ganha 1.187 estrelas por dia: Top 5 de Claude Code
+    no GitHub'
+  contexto: 'O Top 5 do GitHub em Claude Code, MCP e skills, do quinto ao primeiro,
+    medido em estrelas por dia desde a criação e explicado sem jargão. O fast-anything
+    lidera com 1.187 estrelas por dia: acha a parte lenta do programa e a IA refaz.'
+  telegram: 'O que mais cresce no GitHub em Claude Code e MCP: o fast-anything, que
+    acha a parte lenta do seu programa e pede pra IA refazer, com 1.187 estrelas por
+    dia. Logo atrás, o rust-anything, que reescreve o programa inteiro conferindo
+    cada passo.'
