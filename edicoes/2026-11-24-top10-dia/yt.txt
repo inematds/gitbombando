@@ -1,0 +1,12 @@
+IA caçadora de falhas passa de 2 mil estrelas: +2.029 em um dia no GitHub
+
+#1 elementalsouls/Claude-BugHunter — https://github.com/elementalsouls/Claude-BugHunter
+#2 XiaoYouChR/Ghost-Downloader-3 — https://github.com/XiaoYouChR/Ghost-Downloader-3
+#3 firecrawl/firecrawl — https://github.com/firecrawl/firecrawl
+#4 zhouxiaoka/autoclip — https://github.com/zhouxiaoka/autoclip
+#5 obra/superpowers — https://github.com/obra/superpowers
+#6 jingyaogong/minimind — https://github.com/jingyaogong/minimind
+#7 mvanhorn/last30days-skill — https://github.com/mvanhorn/last30days-skill
+#8 HKUDS/CLI-Anything — https://github.com/HKUDS/CLI-Anything
+#9 mjmirza/app-store-compliance — https://github.com/mjmirza/app-store-compliance
+#10 cathrynlavery/diagram-design — https://github.com/cathrynlavery/diagram-design

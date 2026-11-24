@@ -1,0 +1,140 @@
+modo: dia
+gancho:
+  tipo: estatistica
+  manchete: 'IA HACKER: +2.029 ESTRELAS'
+  destaque: '+2.029'
+  objeto: um cadeado dourado gigante explodindo em pedaços, com faíscas amarelas e
+    vermelhas voando para todos os lados
+  fontes:
+  - nome: github.com/trending
+    trecho: elementalsouls/Claude-BugHunter · 2,029 stars today
+  - nome: github.com/trending
+    trecho: mjmirza/app-store-compliance · 761 stars today
+abertura:
+  cena: sala escura de segurança digital à noite, telas vermelhas piscando ao fundo
+    e um facho de luz amarela no centro
+partes:
+- etapa: gancho
+  fala: Uma inteligência artificial que caça falhas de segurança passou de duas mil
+    estrelas em um dia. E é o quarto dia seguido no topo do GitHub.
+- etapa: panorama
+  fala: Os dez projetos que mais cresceram hoje somaram nove mil quinhentas e oitenta
+    e três estrelas. Vou do décimo ao primeiro.
+  numero: '9.583'
+- etapa: repo
+  repo: cathrynlavery/diagram-design
+  desc: Faz a IA desenhar diagramas bonitos, com as cores da sua marca.
+  destaque: diagramas bonitos
+  numero: '620'
+  fala: Em décimo, o diagram design. Você pede com palavras simples e a inteligência
+    artificial desenha um diagrama caprichado, com a cara da sua empresa. São seiscentas
+    e vinte estrelas.
+- etapa: repo
+  repo: mjmirza/app-store-compliance
+  desc: Revisa o seu aplicativo antes da Apple e do Google pra evitar recusa.
+  destaque: evitar recusa
+  numero: '761'
+  fala: Nono lugar, e esse é pra quem tem aplicativo. Ele revisa o seu app antes da
+    Apple e do Google e evita aquela recusa chata. Cresceu quase dezessete por cento
+    hoje. Foram setecentas e sessenta e uma estrelas.
+- etapa: repo
+  repo: HKUDS/CLI-Anything
+  desc: Deixa qualquer programa pronto pra ser comandado direto por uma IA.
+  destaque: qualquer programa
+  numero: '790'
+  fala: Em oitavo, o CLI-Anything, que não sai do Top dez. Ele faz qualquer programa
+    do seu computador obedecer a inteligência artificial. São setecentas e noventa
+    estrelas.
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Pesquisa Reddit, YouTube e X sobre qualquer assunto e te entrega um resumo.
+  destaque: um resumo
+  numero: '797'
+  fala: Sétimo, o last thirty days, outro que não sai do Top dez. Você pergunta qualquer
+    coisa e ele vasculha Reddit, YouTube e X pra te dizer o que o povo está falando.
+    Ganhou setecentas e noventa e sete estrelas.
+- etapa: repo
+  repo: jingyaogong/minimind
+  desc: Ensina você a criar a sua própria IA do zero, em poucas horas e quase de graça.
+  destaque: do zero
+  numero: '828'
+  fala: Em sexto, uma surpresa. O MiniMind ensina você a criar a sua própria inteligência
+    artificial do zero, em cerca de duas horas e gastando quase nada. São oitocentas
+    e vinte e oito estrelas.
+- etapa: repo
+  repo: obra/superpowers
+  desc: Ensina a IA a perguntar e planejar antes de sair programando.
+  destaque: planejar antes
+  numero: '840'
+  fala: Número cinco, o superpowers, que não sai do Top dez. Ele obriga a inteligência
+    artificial a parar, perguntar e planejar antes de programar. Foram oitocentas
+    e quarenta estrelas.
+- etapa: repo
+  repo: zhouxiaoka/autoclip
+  desc: Corta vídeos longos em vídeos curtos com legenda e capa, sozinho.
+  destaque: sozinho
+  numero: '907'
+  fala: Quarto lugar, e esse assusta editor de vídeo. O AutoClip pega um vídeo longo
+    e corta sozinho em vídeos curtos pro Reels e TikTok, com legenda e capa. De graça.
+    São novecentas e sete estrelas.
+- etapa: repo
+  repo: firecrawl/firecrawl
+  desc: Transforma qualquer site em texto limpo pra sua IA ler e entender.
+  destaque: qualquer site
+  numero: '924'
+  fala: E agora o pódio. Terceiro, o Firecrawl, que não sai do Top dez. Ele lê qualquer
+    site e entrega o conteúdo limpinho pra i-á. São os olhos dela na internet. Foram
+    novecentas e vinte e quatro estrelas.
+- etapa: repo
+  repo: XiaoYouChR/Ghost-Downloader-3
+  desc: Um baixador que pega vídeo, arquivo e torrent num só programa.
+  destaque: num só programa
+  numero: '1.087'
+  fala: Em segundo, o Ghost Downloader, que também não sai do Top dez. Um programa
+    só que baixa vídeo do YouTube, arquivo e torrent, e promete aposentar cinco aplicativos.
+    Ganhou mil e oitenta e sete estrelas.
+- etapa: repo
+  repo: elementalsouls/Claude-BugHunter
+  desc: Transforma a IA num caçador de falhas de segurança em sites e sistemas.
+  destaque: caçador de falhas
+  numero: '2.029'
+  fala: E o número um. De novo ele. O Claude BugHunter transforma a i-á num caçador
+    de falhas em sites e sistemas. Serve pra proteger, mas pode atacar. Isso é polêmico,
+    cuidado. São duas mil e vinte e nove estrelas.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Tá tudo no inema ponto club, mas lá
+    você aprende a integrar esses projetos em vez de só copiar, e direto na internet.
+trocas:
+  nove mil quinhentas e oitenta e três: '9.583'
+  seiscentas e vinte: '620'
+  dezessete por cento: 17%
+  setecentas e sessenta e uma: '761'
+  setecentas e noventa e sete: '797'
+  setecentas e noventa: '790'
+  oitocentas e vinte e oito: '828'
+  oitocentas e quarenta: '840'
+  novecentas e sete: '907'
+  novecentas e vinte e quatro: '924'
+  mil e oitenta e sete: '1.087'
+  duas mil e vinte e nove: '2.029'
+cores:
+  bombando: '#FACC15'
+  pódio: '#FACC15'
+  polêmico: '#ff2a1f'
+  cuidado: '#ff2a1f'
+  atacar: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: 'IA caçadora de falhas passa de 2 mil estrelas: +2.029 em um dia no GitHub'
+  contexto: Top 10 do GitHub de 24/11/2026, do décimo ao primeiro, com os projetos
+    que mais ganharam estrelas no dia. O polêmico Claude BugHunter, que transforma
+    a IA em caçadora de falhas de segurança, fica no topo pelo quarto dia seguido
+    com 2.029 estrelas.
+  telegram: 'O polêmico Claude BugHunter segue em primeiro no GitHub pelo quarto dia:
+    2.029 estrelas em um dia transformando a IA em caçadora de falhas de segurança.
+    O Ghost Downloader, que baixa tudo num programa só, ficou em segundo. E o guia
+    que evita recusa de app na Apple e no Google cresceu quase 17% hoje.'

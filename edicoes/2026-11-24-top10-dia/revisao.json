@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "Capa com TOP 10 DO GITHUB grande e a manchete idêntica ao gancho; posições, estrelas, totais e datas dos cartões batem com o top10.json; avatar no padrão; fecho com caixa vermelha e pílula inema.club; o BugHunter aparece com alerta de polêmica.",
+ "sugestoes": [
+  "95.01: a transição do #4 para o #3 sobrepõe os textos de autoclip e firecrawl; um corte mais rápido ou um fade mais curto evitaria o borrão.",
+  "Painéis de baixo (34.34 a 125.34): os rótulos das barras horárias são minúsculos e ilegíveis no celular; vale aumentá-los ou mostrar só o pico do dia.",
+  "14.11: o ranking 'BOMBANDO HOJE' poderia destacar o #1 com cor ou o selo 'quarto dia seguido' para reforçar o gancho logo no início.",
+  "125.34: o cartão do #1 poderia trazer na tela o selo '4º dia no topo' e o alerta 'polêmico', que hoje só estão na fala.",
+  "135.45: a frase 'ESSES PROJETOS EM' na legenda fica solta; uma chamada fixa como 'APRENDA A INTEGRAR NO INEMA.CLUB' seria mais forte."
+ ]
+}
