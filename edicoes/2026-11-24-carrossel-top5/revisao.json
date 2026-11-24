@@ -1,0 +1,6 @@
+{
+ "veredito": "aprovado",
+ "motivo": "",
+ "slides_ruins": [],
+ "sugestao": "No slide 6 o print do open-code-review é uma tabela escura, estreita e quase ilegível; prefira o cartão do GitHub ou um print do terminal com comentários de revisão. No fecho, aproveite o espaço vazio no meio (ex.: estrelas de cada projeto ao lado do nome)."
+}

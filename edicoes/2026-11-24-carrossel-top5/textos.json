@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "META E ALIBABA ABREM FERRAMENTAS INTERNAS",
+  "destaque": "INTERNAS"
+ },
+ "repos": {
+  "mvanhorn/last30days-skill": {
+   "gancho": [
+    "PESQUISAR QUALQUER",
+    "ASSUNTO DO MÊS?"
+   ],
+   "o_que_e": "Uma habilidade extra para assistentes de IA que pesquisa um tema no Reddit, X, YouTube, Polymarket e na web e junta tudo num resumo com fontes.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Várias fontes juntas",
+     "texto": "Reddit, X, YouTube, TikTok, Hacker News e Polymarket numa busca só."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Roda no Claude Code",
+     "texto": "Também funciona no Codex, Cursor, Copilot e Gemini CLI."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "DIGITA O TEMA",
+    "RESUMO PRONTO"
+   ]
+  },
+  "dream-num/univer": {
+   "gancho": [
+    "SEU PRÓPRIO OFFICE",
+    "COM IA DENTRO"
+   ],
+   "o_que_e": "Uma base de código aberto para criar planilhas e documentos editáveis dentro do seu próprio sistema, prontos para pessoas e agentes de IA usarem.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilhas e documentos",
+     "texto": "Editor de planilhas e de textos de código aberto para começar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes de IA",
+     "texto": "Seu programa ou agente de IA consegue ler e editar o conteúdo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A BASE",
+    "MONTA O EDITOR",
+    "IA EDITA JUNTO"
+   ]
+  },
+  "kajisho5/ffmpeg-skill": {
+   "gancho": [
+    "EDITAR VÍDEO",
+    "SÓ PEDINDO?"
+   ],
+   "o_que_e": "Um editor de vídeo para assistentes de programação como o Claude Code: você pede o corte, a legenda ou o formato e ele edita no seu computador.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Tudo no seu computador",
+     "texto": "Sem nuvem e sem chaves de acesso pagas: usa o FFmpeg local."
+    },
+    {
+     "icone": "video",
+     "titulo": "Cortes, legendas, 9:16",
+     "texto": "Corta pausas, legenda, ajusta volume e reenquadra para celular."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE A EDIÇÃO",
+    "VÍDEO PRONTO"
+   ]
+  },
+  "meta/astryx": {
+   "gancho": [
+    "O VISUAL DA META",
+    "AGORA ABERTO"
+   ],
+   "o_que_e": "Um conjunto de componentes visuais da Meta, usado em milhares de apps da empresa, agora aberto para pessoas e assistentes de IA montarem telas.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 componentes",
+     "texto": "Botões, menus e telas prontos, com modo escuro e modelos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para IA também",
+     "texto": "Pessoas e assistentes de IA constroem com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE O TEMA",
+    "MONTA A TELA"
+   ]
+  },
+  "alibaba/open-code-review": {
+   "gancho": [
+    "REVISAR CÓDIGO",
+    "COMO A ALIBABA"
+   ],
+   "o_que_e": "Um programa de terminal que usa IA para revisar código e apontar erros linha por linha, usado por milhares de programadores da Alibaba.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Acha falhas de segurança",
+     "texto": "Regras prontas para injeção de SQL, XSS e erros de concorrência."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Usa o modelo que quiser",
+     "texto": "Funciona com modelos de IA compatíveis com OpenAI e Anthropic."
+    }
+   ],
+   "fluxo": [
+    "LIGA O MODELO",
+    "LÊ AS MUDANÇAS",
+    "COMENTA ERROS"
+   ]
+  }
+ },
+ "legenda_abertura": "Os 5 projetos que mais ganharam estrelas no GitHub esta semana trazem ferramentas internas da Meta e da Alibaba abertas para todo mundo. Passe o carrossel para ver o que cada um faz. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 5 da semana no GitHub, com projetos da Meta e da Alibaba e um editor de vídeo que funciona só com pedidos. Confira o carrossel no @inema.tds. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
