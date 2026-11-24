@@ -1,0 +1,7 @@
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+🔵 CARROSSEL · Top 10 do GitHub · 24/11/2026
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+Telegram INEMA.FTD: ok (tópico 1921)
+Fila do x3: ok · lives9 item 3863
+12 slides · revisor: aprovado
+🟥 SUGESTÃO: No slide do app-store-compliance (10/12) o print é só o logo da Apple, que pouco explica o projeto, e no do minimind (7/12) o print é quase todo escuro e vazio; prefira um print do README que mostre a ferramenta funcionando, como a checagem com alertas ou a conversa com o modelo.
