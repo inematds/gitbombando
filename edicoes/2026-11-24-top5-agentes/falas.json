@@ -1,0 +1,42 @@
+[
+ {
+  "id": "f1",
+  "fala": "A Microsoft e a gigante chinesa Tencent ficaram pra trás. Quem lidera os agentes de inteligência artificial no GitHub são projetos quase desconhecidos, e um deles tem só três dias de vida.",
+  "legenda": "A Microsoft e a gigante chinesa Tencent ficaram pra trás. Quem lidera os agentes de inteligência artificial no GitHub são projetos quase desconhecidos, e um deles tem só três dias de vida."
+ },
+ {
+  "id": "f2",
+  "fala": "Esse é o Top cinco dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Juntos, somam quinhentas e cinco estrelas por dia desde que nasceram. Vou do quinto ao primeiro.",
+  "legenda": "Esse é o Top 5 dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Juntos, somam 505 estrelas por dia desde que nasceram. Vou do quinto ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em quinto, um projeto da Microsoft: Skill Recorder. Você grava a tela fazendo uma tarefa uma vez, e ele transforma isso numa habilidade que o agente de inteligência artificial repete sozinho. São cinquenta estrelas por dia.",
+  "legenda": "Em quinto, um projeto da Microsoft: Skill Recorder. Você grava a tela fazendo uma tarefa uma vez, e ele transforma isso numa habilidade que o agente de inteligência artificial repete sozinho. São 50 estrelas por dia."
+ },
+ {
+  "id": "f4",
+  "fala": "Número quatro, da gigante chinesa Tencent: LoopForge. Ele coordena vários robôs programadores, com pausas pra um humano aprovar cada etapa. Quem trabalha com software devia prestar atenção. Também cinquenta estrelas por dia.",
+  "legenda": "Número quatro, da gigante chinesa Tencent: LoopForge. Ele coordena vários robôs programadores, com pausas pra um humano aprovar cada etapa. Quem trabalha com software devia prestar atenção. Também 50 estrelas por dia."
+ },
+ {
+  "id": "f5",
+  "fala": "E agora o pódio. Bronze pro agent memory. Fechou a conversa, a inteligência artificial esqueceu tudo. Esse resolve: dá memória de longo prazo aos agentes, em arquivos simples no seu computador. São cinquenta e duas estrelas por dia.",
+  "legenda": "E agora o pódio. Bronze pro agent memory. Fechou a conversa, a inteligência artificial esqueceu tudo. Esse resolve: dá memória de longo prazo aos agentes, em arquivos simples no seu computador. São 52 estrelas por dia."
+ },
+ {
+  "id": "f6",
+  "fala": "Prata, e esse assusta: o PiBot tem só três dias de vida. É uma equipe de robôs trabalhando no seu computador, mexendo em arquivos e navegando, mas pedindo sua aprovação antes de cada passo arriscado. São cento e sessenta e oito estrelas por dia.",
+  "legenda": "Prata, e esse assusta: o PiBot tem só três dias de vida. É uma equipe de robôs trabalhando no seu computador, mexendo em arquivos e navegando, mas pedindo sua aprovação antes de cada passo arriscado. São 168 estrelas por dia."
+ },
+ {
+  "id": "f7",
+  "fala": "E o campeão. DS Bot. Um time de robôs que conversam entre si, em grupo, dentro do seu computador. Construído em cima de uma ferramenta da DeepSeek, a i-á chinesa. São cento e oitenta e cinco estrelas por dia.",
+  "legenda": "E o campeão. DS Bot. Um time de robôs que conversam entre si, em grupo, dentro do seu computador. Construído em cima de uma ferramenta da DeepSeek, a i-á chinesa. São 185 estrelas por dia."
+ },
+ {
+  "id": "f8",
+  "fala": "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "A capa traz TOP 5 DO GITHUB grande e a manchete correta; posições, estrelas e a pílula 🔥 de cada cartão batem com o top10.json; o avatar está presente e o fecho tem a caixa vermelha e a pílula inema.club; nenhum defeito visível.",
+ "sugestoes": [
+  "0.05–4.0s: na capa, 'MICROSOFT PRA TRÁS' encosta nas bordas laterais; uma fonte um pouco menor daria respiro.",
+  "11.09–18.19s: o painel do ranking deixa um grande vazio escuro abaixo das barras; barras mais grossas ou o total 505 em destaque ocupariam melhor a tela.",
+  "60.74–67.84s: o cartão do PiBot não mostra o dado mais forte, 'só 3 dias de vida'; um selo '3 DIAS' reforçaria o gancho da fala.",
+  "89.11–103.3s: na caixa vermelha, o texto 'comenta o número aqui embaixo' está pequeno demais para leitura no celular.",
+  "IMPACTO 7: o gancho Microsoft/Tencent ficando para trás funciona; dá para segurar mais o público adiantando o 'três dias de vida' na capa ou no panorama."
+ ]
+}
