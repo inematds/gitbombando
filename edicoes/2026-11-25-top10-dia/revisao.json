@@ -1,0 +1,13 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com TOP 10 DO GITHUB e manchete correta; posições, estrelas e totais batem com o top10.json; avatar e fecho (caixa vermelha e pílula inema.club) estão presentes.",
+ "sugestoes": [
+  "0.05–4.0s: a legenda karaokê fica em cima do escudo e das faíscas; uma faixa escura atrás do texto deixaria a leitura mais limpa.",
+  "14.17s: no panorama o nome 'app-store-complia...' aparece cortado; vale abreviar ou reduzir a fonte só nessa linha.",
+  "95.5s: o painel do #3 ainda mostra 0 e o gráfico vazio; começar a animação um pouco antes evita a sensação de quadro sem dados.",
+  "95.5–105.67s: o cartão do CLI-Anything fica parado por uns 20s; um zoom ou um destaque extra manteria o ritmo.",
+  "126.0s: o #1 polêmico merecia um selo visual de alerta ('⚠ polêmico') no cartão, não só na fala e na legenda.",
+  "IMPACTO: gancho forte ('IA hacker' com o número), mas a parte do meio é repetitiva; um corte mais rápido entre o #9 e o #4 ajudaria a segurar até o fim."
+ ]
+}

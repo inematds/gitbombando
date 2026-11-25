@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Uma inteligência artificial que caça falhas de segurança está no topo do GitHub pelo quinto dia seguido. Só hoje ganhou mil oitocentas e vinte e seis estrelas.",
+  "legenda": "Uma inteligência artificial que caça falhas de segurança está no topo do GitHub pelo quinto dia seguido. Só hoje ganhou 1.826 estrelas."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez projetos que mais cresceram hoje somaram dez mil cento e vinte e seis estrelas. Vou do décimo ao primeiro.",
+  "legenda": "Os dez projetos que mais cresceram hoje somaram 10.126 estrelas. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, o last thirty days, que não sai do Top dez. Você pergunta sobre qualquer assunto e ele vasculha Reddit, YouTube e X pra contar o que o povo anda falando. São setecentas e três estrelas.",
+  "legenda": "Em décimo, o last thirty days, que não sai do Top dez. Você pergunta sobre qualquer assunto e ele vasculha Reddit, YouTube e X pra contar o que o povo anda falando. São 703 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Nono lugar, o MiniMind. Ele mostra como criar a sua própria inteligência artificial do zero, em cerca de duas horas e gastando quase nada. Ganhou setecentas e vinte e sete estrelas.",
+  "legenda": "Nono lugar, o MiniMind. Ele mostra como criar a sua própria inteligência artificial do zero, em cerca de duas horas e gastando quase nada. Ganhou 727 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, o diagram design, outro que não sai do Top dez. Você descreve com palavras simples e a i-á desenha um diagrama caprichado, com a cara da sua empresa. Foram oitocentas e duas estrelas.",
+  "legenda": "Em oitavo, o diagram design, outro que não sai do Top dez. Você descreve com palavras simples e a i-á desenha um diagrama caprichado, com a cara da sua empresa. Foram 802 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo, e esse é pra quem tem aplicativo. Ele revisa o seu app antes da Apple e do Google e evita aquela recusa que custa semanas. Cresceu quase dezoito por cento hoje. São novecentas e vinte e oito estrelas.",
+  "legenda": "Sétimo, e esse é pra quem tem aplicativo. Ele revisa o seu app antes da Apple e do Google e evita aquela recusa que custa semanas. Cresceu quase 18% hoje. São 928 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Em sexto, um que assusta editor de vídeo. O AutoClip pega um vídeo longo e corta sozinho em vídeos curtos pro Reels e TikTok, com legenda e capa. De graça. São novecentas e oitenta estrelas.",
+  "legenda": "Em sexto, um que assusta editor de vídeo. O AutoClip pega um vídeo longo e corta sozinho em vídeos curtos pro Reels e TikTok, com legenda e capa. De graça. São 980 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Número cinco, o Firecrawl, que não sai do Top dez. Ele lê qualquer site e entrega o conteúdo limpinho pra i-á. São os olhos dela na internet. Foram novecentas e noventa e uma estrelas.",
+  "legenda": "Número cinco, o Firecrawl, que não sai do Top dez. Ele lê qualquer site e entrega o conteúdo limpinho pra i-á. São os olhos dela na internet. Foram 991 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Quarto lugar, o superpowers, figurinha carimbada do Top dez. Ele obriga a inteligência artificial a parar, perguntar e planejar antes de programar. Passou de mil: mil e três estrelas.",
+  "legenda": "Quarto lugar, o superpowers, figurinha carimbada do Top dez. Ele obriga a inteligência artificial a parar, perguntar e planejar antes de programar. Passou de mil: 1.003 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Terceiro, o CLI-Anything, que também não sai do Top dez. Ele faz qualquer programa do seu computador obedecer a inteligência artificial. São mil e setenta e quatro estrelas.",
+  "legenda": "E agora o pódio. Terceiro, o CLI-Anything, que também não sai do Top dez. Ele faz qualquer programa do seu computador obedecer a inteligência artificial. São 1.074 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, o Ghost Downloader. Um programa só que baixa vídeo do YouTube, arquivo e torrent, e promete aposentar cinco aplicativos. Ganhou mil e noventa e duas estrelas.",
+  "legenda": "Em segundo, o Ghost Downloader. Um programa só que baixa vídeo do YouTube, arquivo e torrent, e promete aposentar cinco aplicativos. Ganhou 1.092 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um. De novo ele. O Claude BugHunter transforma a i-á num caçador de falhas em sites e sistemas. Serve pra proteger, mas pode atacar. Isso é polêmico, cuidado. São mil oitocentas e vinte e seis estrelas.",
+  "legenda": "E o número um. De novo ele. O Claude BugHunter transforma a i-á num caçador de falhas em sites e sistemas. Serve pra proteger, mas pode atacar. Isso é polêmico, cuidado. São 1.826 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

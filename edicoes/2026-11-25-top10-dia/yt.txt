@@ -1,0 +1,12 @@
+IA caçadora de falhas no topo do GitHub pelo 5º dia: +1.826 estrelas
+
+#1 elementalsouls/Claude-BugHunter — https://github.com/elementalsouls/Claude-BugHunter
+#2 XiaoYouChR/Ghost-Downloader-3 — https://github.com/XiaoYouChR/Ghost-Downloader-3
+#3 HKUDS/CLI-Anything — https://github.com/HKUDS/CLI-Anything
+#4 obra/superpowers — https://github.com/obra/superpowers
+#5 firecrawl/firecrawl — https://github.com/firecrawl/firecrawl
+#6 zhouxiaoka/autoclip — https://github.com/zhouxiaoka/autoclip
+#7 mjmirza/app-store-compliance — https://github.com/mjmirza/app-store-compliance
+#8 cathrynlavery/diagram-design — https://github.com/cathrynlavery/diagram-design
+#9 jingyaogong/minimind — https://github.com/jingyaogong/minimind
+#10 mvanhorn/last30days-skill — https://github.com/mvanhorn/last30days-skill
