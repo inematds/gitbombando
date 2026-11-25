@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com TOP 5 DO GITHUB e a manchete exata; todos os cartões (posições, estrelas da semana, totais e datas) batem com o top10.json; avatar e fecho com caixa vermelha e pílula inema.club estão corretos; os números baixos do painel são o contador animado.",
+ "sugestoes": [
+  "18.8–85.43 s: os rótulos dos valores diários em cima das barras do gráfico ficam minúsculos e ilegíveis no celular; mostrar só o valor final ou aumentar a fonte.",
+  "18.8–85.43 s: o grifo amarelo dos destaques ('milhões de falhas', '13 mil apps', 'no seu computador') passa no meio das letras e parece um texto riscado; descer o grifo para baixo da linha.",
+  "92.83 s: a pílula inema.club só aparece depois de 100 s; mostrá-la junto com a caixa vermelha deixa o fecho completo mais cedo.",
+  "0.05–4.0 s: a capa é forte, mas o gancho falado leva cerca de 4 s até chegar ao número; abrir já com '5 mil pessoas em 7 dias' prenderia mais rápido.",
+  "IMPACTO 7: o olho dourado e o +5.369 param o feed; o miolo do #5 ao #2 é morno e fica parecido entre os cartões. Faltou um momento visual ou uma demonstração do que cada projeto faz para segurar até o #1."
+ ]
+}

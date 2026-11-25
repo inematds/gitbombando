@@ -1,0 +1,105 @@
+modo: semana
+gancho:
+  tipo: estatistica
+  manchete: 'IA QUE VIGIA AS REDES: +5.369'
+  destaque: '+5.369'
+  objeto: um olho dourado gigante rachando, com logos de redes sociais e faíscas amarelas
+    explodindo pelas rachaduras
+  fontes:
+  - nome: github.com/trending?since=weekly
+    trecho: mvanhorn/last30days-skill · 5,369 stars this week
+  - nome: github.com/mvanhorn/last30days-skill
+    trecho: AI agent skill that researches any topic across Reddit, X, YouTube, HN,
+      Polymarket, and the web
+abertura:
+  cena: quarto escuro com dezenas de celulares acesos mostrando feeds, só uma luz
+    amarela forte vindo do centro
+partes:
+- etapa: gancho
+  fala: 'Tem uma inteligência artificial que fuça o Reddit, o YouTube e o TikTok por
+    você. E ela não larga o primeiro lugar: mais de cinco mil pessoas correram atrás
+    dela em sete dias.'
+- etapa: panorama
+  fala: Os projetos do Top cinco da semana somaram dezessete mil cento e sessenta
+    e oito estrelas. Vou do quinto ao primeiro.
+  numero: '17.168'
+- etapa: repo
+  repo: alibaba/open-code-review
+  desc: O revisor de código com IA da Alibaba, que já pegou milhões de falhas lá dentro.
+  destaque: milhões de falhas
+  numero: '2.638'
+  fala: 'Abrindo a contagem, a gigante chinesa Alibaba. Em quinto, o Open Code Review:
+    uma inteligência artificial que revisa código e caça erro antes de virar prejuízo.
+    Lá dentro, já achou milhões de falhas. Duas mil seiscentas e trinta e oito estrelas.'
+- etapa: repo
+  repo: meta/astryx
+  desc: O kit de peças de tela da Meta, usado em mais de 13 mil apps, agora aberto
+    e pronto pra IA.
+  destaque: 13 mil apps
+  numero: '2.890'
+  fala: Número quatro vem da Meta, dona do Instagram e do WhatsApp. O Astryx é o kit
+    de peças de tela usado em mais de treze mil aplicativos da empresa. E a inteligência
+    artificial também sabe montar com ele. Duas mil oitocentas e noventa estrelas.
+- etapa: repo
+  repo: kajisho5/ffmpeg-skill
+  desc: 'Você pede e a IA edita seu vídeo: corta, legenda e tira silêncio, tudo no
+    seu computador.'
+  destaque: no seu computador
+  numero: '2.993'
+  fala: 'E agora o pódio. Em terceiro, o ffmpeg skill. Você pede, e a inteligência
+    artificial edita seu vídeo: corta, legenda, tira o silêncio. Tudo no seu computador,
+    de graça. Cresceu quase trinta e oito por cento. Duas mil novecentas e noventa
+    e três estrelas.'
+- etapa: repo
+  repo: dream-num/univer
+  desc: Um escritório aberto, com planilha, documento e apresentação, para pessoas
+    e IAs.
+  destaque: escritório aberto
+  numero: '3.278'
+  fala: Prata pro Univer. Pensa num escritório inteiro, com planilha, documento e
+    apresentação, que qualquer empresa encaixa no próprio sistema. Feito pra gente
+    e pra inteligência artificial trabalharem juntas. Três mil duzentas e setenta
+    e oito estrelas.
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Vasculha Reddit, YouTube, X e TikTok de uma vez e resume o que o povo pensa
+    de qualquer assunto.
+  destaque: o que o povo pensa
+  numero: '5.369'
+  fala: E o número um, de novo, é o Last Thirty Days. Você dá um assunto e ele vasculha
+    Reddit, YouTube, X e TikTok ao mesmo tempo. Depois resume o que o povo realmente
+    pensa. Cinco mil trezentas e sessenta e nove estrelas. Em sete dias.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema
+    ponto club, e lá você aprende a integrar esses projetos no seu trabalho em vez
+    de só copiar, direto na internet.
+trocas:
+  cinco mil pessoas: 5 mil pessoas
+  Top cinco: Top 5
+  dezessete mil cento e sessenta e oito: '17.168'
+  Duas mil seiscentas e trinta e oito: '2.638'
+  treze mil: 13 mil
+  Duas mil oitocentas e noventa: '2.890'
+  trinta e oito por cento: 38%
+  Duas mil novecentas e noventa e três: '2.993'
+  Três mil duzentas e setenta e oito: '3.278'
+  Cinco mil trezentas e sessenta e nove: '5.369'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: 'IA que vasculha Reddit, YouTube e TikTok por você leva 5.369 estrelas:
+    Top 5 do GitHub'
+  contexto: O Top 5 do GitHub da semana de 25/11/2026, do quinto ao primeiro, explicado
+    sem jargão. O Last30days, que pesquisa qualquer assunto nas redes e resume o que
+    o povo pensa, liderou de novo com 5.369 estrelas, à frente de Univer, ffmpeg skill,
+    Meta e Alibaba.
+  telegram: 'O que bombou na semana no GitHub: o Last30days, uma IA que lê Reddit,
+    YouTube, X e TikTok e resume o que o povo pensa de qualquer assunto, segurou o
+    topo com 5.369 estrelas. Meta e Alibaba também estão no Top 5, e um editor de
+    vídeo comandado por IA cresceu quase 38%.'
