@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "IA QUE PESQUISA, EDITA E REVISA",
+  "destaque": "PESQUISA"
+ },
+ "repos": {
+  "mvanhorn/last30days-skill": {
+   "gancho": [
+    "PESQUISAR UM TEMA",
+    "EM TODA A INTERNET?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que pesquisa qualquer tema no Reddit, X, YouTube, Polymarket e na web e entrega um resumo com as fontes.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Várias fontes juntas",
+     "texto": "Busca no Reddit, Hacker News, YouTube, TikTok, X e Polymarket."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Roda no Claude Code",
+     "texto": "Instala no Claude Code, Codex, Cursor, Copilot e outros agentes."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O TEMA",
+    "A IA PESQUISA",
+    "RESUMO PRONTO"
+   ]
+  },
+  "dream-num/univer": {
+   "gancho": [
+    "PLANILHA E TEXTO",
+    "NO SEU PRODUTO"
+   ],
+   "o_que_e": "Um kit de código aberto para colocar planilhas e documentos editáveis dentro do seu aplicativo, usados por pessoas e por agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Planilhas e documentos",
+     "texto": "Traz edição, cálculo e trabalho em equipe para o seu programa."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Pronto para agentes",
+     "texto": "Agentes de IA podem ler e editar o mesmo conteúdo que as pessoas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O KIT",
+    "LIGA NO APP",
+    "EDITA JUNTO"
+   ]
+  },
+  "kajisho5/ffmpeg-skill": {
+   "gancho": [
+    "EDITAR VÍDEO",
+    "SÓ PEDINDO?"
+   ],
+   "o_que_e": "Um editor de vídeo para agentes de IA como Claude Code, Cursor e Codex: você pede cortes, legendas e formatos e ele edita no seu computador.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Cortes e legendas",
+     "texto": "Corta pausas, põe legendas, ajusta volume e muda para formato 9:16."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Tudo no seu computador",
+     "texto": "Sem nuvem e sem chave paga: usa o FFmpeg instalado na sua máquina."
+    }
+   ],
+   "fluxo": [
+    "PEDE A EDIÇÃO",
+    "A IA EDITA",
+    "VÍDEO PRONTO"
+   ]
+  },
+  "meta/astryx": {
+   "gancho": [
+    "O VISUAL DA META",
+    "NO SEU APP"
+   ],
+   "o_que_e": "Um sistema de design de código aberto da Meta: botões, telas e modelos prontos para montar aplicativos, feito para pessoas e agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 peças",
+     "texto": "Componentes acessíveis, temas de marca, modo escuro e modelos prontos."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Testado na Meta",
+     "texto": "Cresceu dentro da Meta por oito anos e roda em milhares de apps."
+    }
+   ],
+   "fluxo": [
+    "IMPORTA O KIT",
+    "MONTA A TELA",
+    "APP PRONTO"
+   ]
+  },
+  "alibaba/open-code-review": {
+   "gancho": [
+    "REVISAR CÓDIGO",
+    "COM A IA?"
+   ],
+   "o_que_e": "Um programa de terminal do Alibaba que usa um modelo de IA para revisar mudanças no código e apontar erros linha por linha.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Comentário por linha",
+     "texto": "Aponta falhas de segurança, como injeção de SQL, na linha exata."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Usa seu modelo de IA",
+     "texto": "Funciona com modelos compatíveis com OpenAI e Anthropic."
+    }
+   ],
+   "fluxo": [
+    "MUDA O CÓDIGO",
+    "A IA REVISA",
+    "ERROS MARCADOS"
+   ]
+  }
+ },
+ "legenda_abertura": "Estes são os cinco projetos que mais cresceram no GitHub nesta semana: IA que pesquisa, edita vídeo, monta planilhas e revisa código. Passe o carrossel para ver o que cada um faz. E no inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 5 da semana no GitHub, com projetos de IA para pesquisar, editar vídeo e revisar código. Veja o carrossel no @inema.tds. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
