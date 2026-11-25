@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · IA PARA VÍDEO E IMAGEM",
+ "conta": "@inema.tech",
+ "data_br": "25/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "IA PARA VÍDEO E IMAGEM",
+  "numero": "+319",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "IA EDITA SEU VÍDEO DO YOUTUBE",
+  "destaque": "YOUTUBE",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "praseesh369/youtube-ai-video-editing-system",
+   "repo": "youtube-ai-video-editing-system",
+   "url": "https://github.com/praseesh369/youtube-ai-video-editing-system",
+   "gancho": [
+    "ROTEIRO GRAVADO,",
+    "VÍDEO EDITADO?"
+   ],
+   "o_que_e": "Um sistema que organiza seu vídeo do YouTube: um teleprompter que segue sua voz, agentes de IA que sugerem o corte e animações prontas para ajustar.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Teleprompter que escuta",
+     "texto": "Acompanha sua voz enquanto você lê, grava o áudio e marca os erros."
+    },
+    {
+     "icone": "video",
+     "titulo": "Vai para o seu editor",
+     "texto": "O pacote final segue direto para o DaVinci Resolve ou para o Premiere."
+    }
+   ],
+   "fluxo": [
+    "LÊ O ROTEIRO",
+    "IA PROPÕE CORTE",
+    "LEVA AO EDITOR"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+90",
+   "stat_rotulo": "por dia",
+   "total": "339",
+   "info2": "HTML · criado há 4 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "atuizz/posewear",
+   "repo": "posewear",
+   "url": "https://github.com/atuizz/posewear",
+   "gancho": [
+    "ACHE A POSE,",
+    "GERE A FOTO."
+   ],
+   "o_que_e": "Um banco de imagens de referência com poses, roupas e retratos, com textos de comando em chinês e inglês e prova de roupa com IA no navegador.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Doze galerias",
+     "texto": "Poses, roupas, expressões e cenários com comandos em chinês e inglês."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Roda no seu computador",
+     "texto": "Liga no ComfyUI instalado e a imagem não sai da sua máquina."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A POSE",
+    "MONTA A ROUPA",
+    "IA GERA A FOTO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+81",
+   "stat_rotulo": "por dia",
+   "total": "2.089",
+   "info2": "JavaScript · criado há 26 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "fujc683/seedance-2-5-flash-free-tier",
+   "repo": "seedance-2-5-flash-free-tier",
+   "url": "https://github.com/fujc683/seedance-2-5-flash-free-tier",
+   "gancho": [
+    "CRÉDITO GRÁTIS",
+    "VIRA QUANTO VÍDEO?"
+   ],
+   "o_que_e": "Um guia que mostra quantos segundos de vídeo do modelo Seedance 2.5 Flash os créditos grátis rendem e como não gastá-los à toa.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Tabela de créditos",
+     "texto": "Mostra quantos segundos de vídeo em 720p cada valor em crédito compra."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Dicas para economizar",
+     "texto": "Faça rascunhos em 480p, finalize em 720p e baixe o vídeo logo."
+    }
+   ],
+   "fluxo": [
+    "VÊ A TABELA",
+    "TESTA EM 480P",
+    "FECHA EM 720P"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+50",
+   "stat_rotulo": "por dia",
+   "total": "456",
+   "info2": "criado há 9 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "fujc683/seedance-2-5-flash-api-proxy",
+   "repo": "seedance-2-5-flash-api-proxy",
+   "url": "https://github.com/fujc683/seedance-2-5-flash-api-proxy",
+   "gancho": [
+    "UMA CHAVE SÓ",
+    "PARA VÁRIOS MODELOS"
+   ],
+   "o_que_e": "Um guia de um serviço intermediário que dá acesso ao Seedance 2.5 Flash com uma única chave e pagamento via Alipay, sem VPN.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Uma chave para tudo",
+     "texto": "A mesma chave de acesso serve para todos os modelos de vídeo do serviço."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Pagamento local",
+     "texto": "Aceita Alipay, WeChat e cartão, sem exigir cartão estrangeiro."
+    }
+   ],
+   "fluxo": [
+    "PEGA A CHAVE",
+    "DESCREVE A CENA",
+    "RECEBE O VÍDEO"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+49",
+   "stat_rotulo": "por dia",
+   "total": "447",
+   "info2": "criado há 9 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "fujc683/seedance-2-5-flash-alternatives",
+   "repo": "seedance-2-5-flash-alternatives",
+   "url": "https://github.com/fujc683/seedance-2-5-flash-alternatives",
+   "gancho": [
+    "QUAL MODELO",
+    "DE VÍDEO USAR?"
+   ],
+   "o_que_e": "Uma comparação prática entre Seedance 2.5 Flash, Seedance 2.0, Kling 4.0 Flash e Veo 3, com preço, duração e resolução de cada um.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Lado a lado",
+     "texto": "Compara preço por segundo, duração máxima, resolução e áudio nativo."
+    },
+    {
+     "icone": "search",
+     "titulo": "Quando usar cada um",
+     "texto": "Indica Veo 3 para 1080p e áudio, e Kling para estilo anime."
+    }
+   ],
+   "fluxo": [
+    "DEFINE O USO",
+    "COMPARA OPÇÕES",
+    "TROCA O MODELO"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+49",
+   "stat_rotulo": "por dia",
+   "total": "444",
+   "info2": "criado há 9 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

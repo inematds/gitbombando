@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "IA EDITA SEU VÍDEO DO YOUTUBE",
+  "destaque": "YOUTUBE"
+ },
+ "repos": {
+  "praseesh369/youtube-ai-video-editing-system": {
+   "gancho": [
+    "ROTEIRO GRAVADO,",
+    "VÍDEO EDITADO?"
+   ],
+   "o_que_e": "Um sistema que organiza seu vídeo do YouTube: um teleprompter que segue sua voz, agentes de IA que sugerem o corte e animações prontas para ajustar.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Teleprompter que escuta",
+     "texto": "Acompanha sua voz enquanto você lê, grava o áudio e marca os erros."
+    },
+    {
+     "icone": "video",
+     "titulo": "Vai para o seu editor",
+     "texto": "O pacote final segue direto para o DaVinci Resolve ou para o Premiere."
+    }
+   ],
+   "fluxo": [
+    "LÊ O ROTEIRO",
+    "IA PROPÕE CORTE",
+    "LEVA AO EDITOR"
+   ]
+  },
+  "atuizz/posewear": {
+   "gancho": [
+    "ACHE A POSE,",
+    "GERE A FOTO."
+   ],
+   "o_que_e": "Um banco de imagens de referência com poses, roupas e retratos, com textos de comando em chinês e inglês e prova de roupa com IA no navegador.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Doze galerias",
+     "texto": "Poses, roupas, expressões e cenários com comandos em chinês e inglês."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Roda no seu computador",
+     "texto": "Liga no ComfyUI instalado e a imagem não sai da sua máquina."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A POSE",
+    "MONTA A ROUPA",
+    "IA GERA A FOTO"
+   ]
+  },
+  "fujc683/seedance-2-5-flash-free-tier": {
+   "gancho": [
+    "CRÉDITO GRÁTIS",
+    "VIRA QUANTO VÍDEO?"
+   ],
+   "o_que_e": "Um guia que mostra quantos segundos de vídeo do modelo Seedance 2.5 Flash os créditos grátis rendem e como não gastá-los à toa.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Tabela de créditos",
+     "texto": "Mostra quantos segundos de vídeo em 720p cada valor em crédito compra."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Dicas para economizar",
+     "texto": "Faça rascunhos em 480p, finalize em 720p e baixe o vídeo logo."
+    }
+   ],
+   "fluxo": [
+    "VÊ A TABELA",
+    "TESTA EM 480P",
+    "FECHA EM 720P"
+   ]
+  },
+  "fujc683/seedance-2-5-flash-api-proxy": {
+   "gancho": [
+    "UMA CHAVE SÓ",
+    "PARA VÁRIOS MODELOS"
+   ],
+   "o_que_e": "Um guia de um serviço intermediário que dá acesso ao Seedance 2.5 Flash com uma única chave e pagamento via Alipay, sem VPN.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Uma chave para tudo",
+     "texto": "A mesma chave de acesso serve para todos os modelos de vídeo do serviço."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Pagamento local",
+     "texto": "Aceita Alipay, WeChat e cartão, sem exigir cartão estrangeiro."
+    }
+   ],
+   "fluxo": [
+    "PEGA A CHAVE",
+    "DESCREVE A CENA",
+    "RECEBE O VÍDEO"
+   ]
+  },
+  "fujc683/seedance-2-5-flash-alternatives": {
+   "gancho": [
+    "QUAL MODELO",
+    "DE VÍDEO USAR?"
+   ],
+   "o_que_e": "Uma comparação prática entre Seedance 2.5 Flash, Seedance 2.0, Kling 4.0 Flash e Veo 3, com preço, duração e resolução de cada um.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Lado a lado",
+     "texto": "Compara preço por segundo, duração máxima, resolução e áudio nativo."
+    },
+    {
+     "icone": "search",
+     "titulo": "Quando usar cada um",
+     "texto": "Indica Veo 3 para 1080p e áudio, e Kling para estilo anime."
+    }
+   ],
+   "fluxo": [
+    "DEFINE O USO",
+    "COMPARA OPÇÕES",
+    "TROCA O MODELO"
+   ]
+  }
+ },
+ "legenda_abertura": "Os 5 repositórios de vídeo e imagem com IA que mais crescem no GitHub nesta semana, de um sistema que edita seu vídeo do YouTube a um banco de poses com prova de roupa. Passe o carrossel para ver o que cada um faz. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de vídeo e imagem com IA que mais crescem no GitHub. Confira o que cada um faz e escolha o que testar primeiro. Está tudo no inema.club, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
