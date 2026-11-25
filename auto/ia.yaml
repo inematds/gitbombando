@@ -92,8 +92,8 @@ etapas:
   capa:
     tipo: assinatura
     motor: codex
-    modelo: gpt-6.1-sol
-    esforco: medium
+    modelo: EXECUTOR
+    esforco: EXECUTOR
     timeout: 1800
   # VÍDEO: modelo com visão para conferir os quadros.
   revisao_video:
@@ -131,8 +131,8 @@ etapas:
   metricool_agenda:
     tipo: "assinatura"
     motor: "codex"
-    modelo: "gpt-6.1-sol"
-    esforco: "medium"
+    modelo: EXECUTOR
+    esforco: EXECUTOR
     timeout: 600
     codex_home: "/home/nmaldaner/.codex-2"
     mcp_servidor: "metricool-inematds"
@@ -140,8 +140,8 @@ etapas:
   metricool_publicacao:
     tipo: "assinatura"
     motor: "codex"
-    modelo: "gpt-6.1-sol"
-    esforco: "medium"
+    modelo: EXECUTOR
+    esforco: EXECUTOR
     timeout: 900
     codex_home: "/home/nmaldaner/.codex-2"
     mcp_servidor: "metricool-inematds"
