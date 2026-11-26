@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com TOP 5 DO GITHUB grande e a manchete idêntica ao gancho; posições, estrelas totais, pílulas 🔥 e datas de criação batem com o top10.json; avatar presente e sem deformação; fecho tem a caixa vermelha e a pílula inema.club.",
+ "sugestoes": [
+  "18.38–83.1 s: os rótulos numéricos em cima das barras dos gráficos ficam minúsculos e ilegíveis no celular; mostre só o primeiro e o último valor.",
+  "11.19 s: o ranking do panorama ocupa pouco espaço e deixa um vazio grande abaixo; barras e nomes maiores dariam mais impacto.",
+  "25.57–83.1 s: entre a descrição e o gráfico sobra uma faixa escura vazia; cabe ali um selo com o % de crescimento (ex.: +37% no ffmpeg-skill).",
+  "0.05 s: a capa poderia mostrar o logo ou o nome do #1 (last30days) para o espectador saber de qual IA se trata logo no primeiro segundo.",
+  "IMPACTO 7: o gancho é bom, mas a capa não tem um elemento visual do produto; um print do resumo gerado pelo last30days prenderia mais."
+ ]
+}

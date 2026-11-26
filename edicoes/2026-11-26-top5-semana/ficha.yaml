@@ -1,0 +1,102 @@
+modo: semana
+gancho:
+  tipo: estatistica
+  manchete: +5.302 ESTRELAS EM SETE DIAS
+  destaque: '+5.302'
+  objeto: uma lupa dourada gigante rachando, com logos de redes sociais e faíscas
+    amarelas explodindo pelas rachaduras
+  fontes:
+  - nome: github.com/trending?since=weekly
+    trecho: mvanhorn/last30days-skill · 5,302 stars this week
+  - nome: github.com/mvanhorn/last30days-skill
+    trecho: AI agent skill that researches any topic across Reddit, X, YouTube, HN,
+      Polymarket, and the web
+abertura:
+  cena: sala escura cheia de telas de celular acesas mostrando feeds, só uma luz amarela
+    forte vindo do centro
+partes:
+- etapa: gancho
+  fala: Uma inteligência artificial que lê o Reddit, o YouTube e o TikTok no seu lugar
+    ganhou mais de cinco mil estrelas em sete dias. E de novo deixou Google e Meta
+    pra trás.
+- etapa: panorama
+  fala: Juntos, os projetos do Top cinco da semana somaram quinze mil novecentas e
+    vinte estrelas. Vou do quinto ao primeiro.
+  numero: '15.920'
+- etapa: repo
+  repo: dream-num/univer
+  desc: Um escritório aberto, com planilha, documento e apresentação, para pessoas
+    e IAs.
+  destaque: escritório aberto
+  numero: '2.319'
+  fala: Abrindo a contagem, em quinto, o Univer. É um escritório completo, com planilha,
+    documento e apresentação, que qualquer empresa encaixa no próprio sistema. E a
+    inteligência artificial trabalha junto. Duas mil trezentas e dezenove estrelas.
+- etapa: repo
+  repo: google-labs-code/stitch-skills
+  desc: Habilidades do Google para a IA desenhar telas de site e aplicativo pra você.
+  destaque: desenhar telas
+  numero: '2.616'
+  fala: Número quatro vem do Google. O Stitch Skills é um pacote de habilidades pra
+    inteligência artificial desenhar telas de site e de aplicativo. Você descreve,
+    ela monta. Duas mil seiscentas e dezesseis estrelas.
+- etapa: repo
+  repo: meta/astryx
+  desc: O kit de peças de tela da Meta, usado em mais de 13 mil apps, agora aberto
+    a todos.
+  destaque: 13 mil apps
+  numero: '2.635'
+  fala: E agora o pódio. Em terceiro, a Meta, dona do Instagram e do WhatsApp. O Astryx
+    é o kit de peças de tela que roda em mais de treze mil aplicativos da empresa.
+    Agora é aberto pra todo mundo. Duas mil seiscentas e trinta e cinco estrelas.
+- etapa: repo
+  repo: kajisho5/ffmpeg-skill
+  desc: 'Você pede e a IA edita seu vídeo: corta, legenda e tira silêncio, sem nuvem.'
+  destaque: edita seu vídeo
+  numero: '3.048'
+  fala: Prata pro ffmpeg skill. Você fala o que quer, e a inteligência artificial
+    edita seu vídeo. Corta, coloca legenda, tira o silêncio. Tudo no seu computador,
+    de graça. Cresceu quase trinta e sete por cento. Três mil e quarenta e oito estrelas.
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Lê Reddit, YouTube, X e TikTok de uma vez e resume o que as pessoas dizem
+    de qualquer assunto.
+  destaque: o que as pessoas dizem
+  numero: '5.302'
+  fala: E no topo, mais uma vez, o Last Thirty Days. Você joga um assunto, ele lê
+    Reddit, YouTube, X e TikTok de uma vez só. E te entrega o que as pessoas estão
+    dizendo de verdade. Cinco mil trezentas e duas estrelas. Ninguém segura.
+- etapa: comentario
+  fala: E aí, qual desses você testa primeiro? Conta aqui embaixo. Tá tudo no inema
+    ponto club, e lá você aprende a integrar esses projetos no seu dia a dia, em vez
+    de só copiar. Direto na internet.
+trocas:
+  mais de cinco mil: mais de 5 mil
+  Top cinco: Top 5
+  quinze mil novecentas e vinte: '15.920'
+  Duas mil trezentas e dezenove: '2.319'
+  Duas mil seiscentas e dezesseis: '2.616'
+  treze mil: 13 mil
+  Duas mil seiscentas e trinta e cinco: '2.635'
+  trinta e sete por cento: 37%
+  Três mil e quarenta e oito: '3.048'
+  Cinco mil trezentas e duas: '5.302'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: 'IA que lê Reddit, YouTube e TikTok por você leva 5.302 estrelas: Top 5
+    do GitHub'
+  contexto: O Top 5 do GitHub da semana de 26/11/2026, do quinto ao primeiro, explicado
+    sem jargão. O Last30days, que pesquisa qualquer assunto nas redes e resume o que
+    as pessoas dizem, liderou de novo com 5.302 estrelas, à frente de ffmpeg skill,
+    Meta, Google e Univer.
+  telegram: 'O que bombou na semana no GitHub: o Last30days, uma IA que lê Reddit,
+    YouTube, X e TikTok e resume o que as pessoas dizem, segurou o topo com 5.302
+    estrelas. Google e Meta também estão no Top 5, e um editor de vídeo comandado
+    por IA cresceu quase 37%.'
