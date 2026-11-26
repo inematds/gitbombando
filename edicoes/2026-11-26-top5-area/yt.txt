@@ -1,0 +1,7 @@
+IA que testa invasão sozinha ganha 443 estrelas por dia: Top 5 de segurança digital
+
+#1 BaaRai/ARTEX — https://github.com/BaaRai/ARTEX
+#2 erkamyaman/safe-anything — https://github.com/erkamyaman/safe-anything
+#3 ChiefGyk3D/Clouds-Against-Humanity — https://github.com/ChiefGyk3D/Clouds-Against-Humanity
+#4 shirudo-dev/shirudo — https://github.com/shirudo-dev/shirudo
+#5 zgsfsec/Full-Chain-Sentinel-System — https://github.com/zgsfsec/Full-Chain-Sentinel-System

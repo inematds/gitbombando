@@ -1,0 +1,91 @@
+modo: area
+gancho:
+  tipo: estatistica
+  manchete: 'IA HACKER: +443 ESTRELAS POR DIA'
+  destaque: '+443'
+  objeto: um cadeado dourado gigante estourando em pedaços, com faíscas e código verde
+    vazando pelas rachaduras
+  fontes:
+  - nome: github.com/topics
+    trecho: BaaRai/ARTEX · 21.558 stars · criado em 08/10/2026 · 443 por dia
+abertura:
+  cena: sala de servidores escura à noite, só uma luz amarela pulsando no centro
+partes:
+- etapa: gancho
+  fala: Uma inteligência artificial que ataca sistemas sozinha, caçando brechas, ganha
+    quatrocentas e quarenta e três estrelas por dia. E até a OpenAI apareceu nessa
+    lista.
+- etapa: panorama
+  fala: Em segurança digital, os cinco projetos que mais crescem somam oitocentas
+    e quatro estrelas por dia desde que nasceram. Vou do quinto ao primeiro.
+  numero: '804'
+- etapa: repo
+  repo: zgsfsec/Full-Chain-Sentinel-System
+  desc: Agente chinês de IA que testa a segurança de sites e apps de celular.
+  destaque: sites e apps
+  numero: '28'
+  fala: 'Em quinto, o Full Chain Sentinel, um projeto chinês. É um agente de i-á que
+    testa a segurança de sites e aplicativos de celular. Vinte e oito estrelas por
+    dia. Só vale com autorização por escrito: isso é polêmico, cuidado.'
+- etapa: repo
+  repo: shirudo-dev/shirudo
+  desc: Escudo para computadores Linux, anunciado pela OpenAI e pela Cisco.
+  destaque: OpenAI e pela Cisco
+  numero: '51'
+  fala: 'Número quatro: shirudo, que em japonês quer dizer escudo. Ele blinda computadores
+    Linux e aplica remendos de segurança sem desligar nada. Foi anunciado pela OpenAI
+    e pela Cisco. Cinquenta e uma estrelas por dia.'
+- etapa: repo
+  repo: ChiefGyk3D/Clouds-Against-Humanity
+  desc: Curso grátis para aprender segurança na nuvem montando seu próprio laboratório.
+  destaque: Curso grátis
+  numero: '85'
+  fala: E agora o pódio. Bronze pro Clouds Against Humanity. Um curso gratuito em
+    que você aprende segurança na nuvem montando o seu próprio laboratório. Oitenta
+    e cinco estrelas por dia.
+- etapa: repo
+  repo: erkamyaman/safe-anything
+  desc: Com um comando, acha brechas e senhas vazadas no seu código antes dos outros.
+  destaque: senhas vazadas
+  numero: '197'
+  fala: Prata pro safe anything. Com um comando só, ele vasculha o seu código atrás
+    de brechas e senhas vazadas, antes que alguém faça isso por você. Nasceu há quatro
+    dias. Cento e noventa e sete estrelas por dia.
+- etapa: repo
+  repo: BaaRai/ARTEX
+  desc: Time de IAs que faz teste de invasão sozinho e guarda a prova de cada falha.
+  destaque: teste de invasão sozinho
+  numero: '443'
+  fala: E o primeiro lugar é o ARTEX. Um time de i-ás que faz teste de invasão sozinho
+    e guarda as provas de cada falha. Quatrocentas e quarenta e três estrelas por
+    dia. Use só em sistemas seus. É poderoso demais.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  quatrocentas e quarenta e três: '443'
+  Quatrocentas e quarenta e três: '443'
+  oitocentas e quatro: '804'
+  Vinte e oito: '28'
+  Cinquenta e uma: '51'
+  Oitenta e cinco: '85'
+  Cento e noventa e sete: '197'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'IA que testa invasão sozinha ganha 443 estrelas por dia: Top 5 de segurança
+    digital'
+  contexto: O Top 5 do GitHub em segurança digital, do quinto ao primeiro, medido
+    em estrelas por dia desde a criação e explicado sem jargão. Lidera o ARTEX, um
+    time de IAs que faz teste de invasão sozinho, com 443 estrelas por dia.
+  telegram: 'O que mais cresce no GitHub em segurança digital: o ARTEX, IAs que fazem
+    teste de invasão sozinhas, com 443 estrelas por dia. Em segundo, o safe-anything,
+    que acha brechas e senhas vazadas no seu código. E a OpenAI e a Cisco aparecem
+    por trás do shirudo, um escudo para Linux.'
