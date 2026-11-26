@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · SEGURANÇA",
+ "conta": "@inema.tech",
+ "data_br": "26/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "SEGURANÇA",
+  "numero": "+804",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "IA JÁ FAZ TESTE DE INVASÃO",
+  "destaque": "INVASÃO",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/5.png",
+   "prints/4.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "BaaRai/ARTEX",
+   "repo": "ARTEX",
+   "url": "https://github.com/BaaRai/ARTEX",
+   "gancho": [
+    "TESTE DE INVASÃO",
+    "FEITO PELA IA"
+   ],
+   "o_que_e": "Uma plataforma que usa IA para testar sozinha a segurança de sistemas. Roda no seu servidor e guarda a prova de cada falha encontrada.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Falhas com prova",
+     "texto": "Cada falha vem com o pedido e a resposta capturados que a comprovam."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Roda no seu servidor",
+     "texto": "Você hospeda e aprova as ações dentro de regras de alcance e limites."
+    }
+   ],
+   "fluxo": [
+    "DEFINE O ALVO",
+    "A IA EXPLORA",
+    "PROVAS PRONTAS"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+443",
+   "stat_rotulo": "por dia",
+   "total": "21.558",
+   "info2": "Go · criado há 49 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "erkamyaman/safe-anything",
+   "repo": "safe-anything",
+   "url": "https://github.com/erkamyaman/safe-anything",
+   "gancho": [
+    "ACHE AS FALHAS",
+    "ANTES DOS OUTROS"
+   ],
+   "o_que_e": "Um verificador de código aberto que procura brechas no seu código, senhas vazadas e configurações de risco com um único comando.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Linha, motivo e correção",
+     "texto": "Cada problema vem com a linha, o motivo e como corrigir."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Confere seu agente de IA",
+     "texto": "Checa as configurações do Claude Code, Cursor, Codex e Gemini."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "UM COMANDO",
+    "FALHAS LISTADAS"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+197",
+   "stat_rotulo": "por dia",
+   "total": "749",
+   "info2": "Rust · criado há 4 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "ChiefGyk3D/Clouds-Against-Humanity",
+   "repo": "Clouds-Against-Humanity",
+   "url": "https://github.com/ChiefGyk3D/Clouds-Against-Humanity",
+   "gancho": [
+    "APRENDA NUVEM",
+    "SEGURA NA PRÁTICA"
+   ],
+   "o_que_e": "Um laboratório aberto que ensina segurança na nuvem montando um ambiente real, com aulas passo a passo numa wiki para iniciantes.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Nenhuma porta aberta",
+     "texto": "Nenhum servidor tem porta de entrada pública aberta na internet."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Aulas desde o zero",
+     "texto": "A wiki explica nuvem, Terraform e confiança zero para iniciantes."
+    }
+   ],
+   "fluxo": [
+    "LÊ A WIKI",
+    "MONTA A NUVEM",
+    "APRENDE FAZENDO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+85",
+   "stat_rotulo": "por dia",
+   "total": "3.979",
+   "info2": "Python · criado há 47 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "shirudo-dev/shirudo",
+   "repo": "shirudo",
+   "url": "https://github.com/shirudo-dev/shirudo",
+   "gancho": [
+    "UM ESCUDO",
+    "DENTRO DO LINUX"
+   ],
+   "o_que_e": "Uma plataforma de segurança para Linux que trabalha no núcleo do sistema e aplica pequenas correções assinadas com o sistema rodando.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Vigia o sistema",
+     "texto": "Observa programas executados, rede e mudanças de permissão."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Correções assinadas",
+     "texto": "Só aceita correções assinadas, conferidas com chip de segurança TPM."
+    }
+   ],
+   "fluxo": [
+    "TESTA NUMA VM",
+    "ENVIA CORREÇÃO",
+    "CONFERE A PROVA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "opengraph",
+   "stat": "+51",
+   "stat_rotulo": "por dia",
+   "total": "2.257",
+   "info2": "C · criado há 44 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "zgsfsec/Full-Chain-Sentinel-System",
+   "repo": "Full-Chain-Sentinel-System",
+   "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+   "gancho": [
+    "TESTE WEB E APP",
+    "NUM SÓ AGENTE"
+   ],
+   "o_que_e": "Um agente de IA que testa a segurança de sites e apps Android e iOS por um painel web, só em alvos com autorização por escrito.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Painel web",
+     "texto": "Controla testes, aprovações e provas num painel em chinês e inglês."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Projetos isolados",
+     "texto": "Cada projeto roda num contêiner Docker próprio com Kali Linux."
+    }
+   ],
+   "fluxo": [
+    "INSTALA DOCKER",
+    "DESCREVE O ALVO",
+    "APROVA AÇÕES"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+28",
+   "stat_rotulo": "por dia",
+   "total": "1.144",
+   "info2": "TypeScript · criado há 41 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

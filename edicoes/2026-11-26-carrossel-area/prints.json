@@ -1,0 +1,42 @@
+{
+ "BaaRai/ARTEX": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/BaaRai/ARTEX/main/screenshots/tasks.png",
+  "tam": [
+   1400,
+   875
+  ]
+ },
+ "erkamyaman/safe-anything": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/erkamyaman/safe-anything/main/docs/assets/logo.png",
+  "tam": [
+   512,
+   512
+  ]
+ },
+ "ChiefGyk3D/Clouds-Against-Humanity": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/ChiefGyk3D/Clouds-Against-Humanity/main/docs/images/readme-diagram-1.png",
+  "tam": [
+   1400,
+   480
+  ]
+ },
+ "shirudo-dev/shirudo": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/shirudo-dev/shirudo",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "zgsfsec/Full-Chain-Sentinel-System": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/zgsfsec/Full-Chain-Sentinel-System/main/images/community-contact-2.png",
+  "tam": [
+   550,
+   275
+  ]
+ }
+}
