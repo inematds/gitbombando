@@ -1,0 +1,42 @@
+[
+ {
+  "id": "f1",
+  "fala": "Um projeto junta todas as assinaturas de inteligência artificial que você paga num lugar só. Acabou uma, a outra assume. E ele ganha seiscentas e cinquenta e seis estrelas por dia.",
+  "legenda": "Um projeto junta todas as assinaturas de inteligência artificial que você paga num lugar só. Acabou uma, a outra assume. E ele ganha 656 estrelas por dia."
+ },
+ {
+  "id": "f2",
+  "fala": "Esse é o Top cinco dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Somados, dão oitocentas e noventa e duas estrelas por dia desde a criação. Bora do quinto ao primeiro.",
+  "legenda": "Esse é o Top 5 dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Somados, dão 892 estrelas por dia desde a criação. Bora do quinto ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Abrindo a lista, o ReelMimic. Você mostra um vídeo que adora, e uma equipe de agentes cria uma animação nova, com o mesmo ritmo e estilo, mas original. É um estúdio de animação em casa. São trinta e seis estrelas por dia.",
+  "legenda": "Abrindo a lista, o ReelMimic. Você mostra um vídeo que adora, e uma equipe de agentes cria uma animação nova, com o mesmo ritmo e estilo, mas original. É um estúdio de animação em casa. São 36 estrelas por dia."
+ },
+ {
+  "id": "f4",
+  "fala": "Em quarto, o HarnessRouter. Ele liga vários robôs programadores, como o Claude Code e o Codex, numa única tomada. Quem cria produto com i-á troca de robô sem refazer tudo. São quarenta e duas estrelas por dia.",
+  "legenda": "Em quarto, o HarnessRouter. Ele liga vários robôs programadores, como o Claude Code e o Codex, numa única tomada. Quem cria produto com i-á troca de robô sem refazer tudo. São 42 estrelas por dia."
+ },
+ {
+  "id": "f5",
+  "fala": "E agora o pódio. Em terceiro, o Reason Network. Os robôs programadores da sua equipe passam a conversar entre si, com mensagens protegidas, direto de computador pra computador. São quarenta e cinco estrelas por dia.",
+  "legenda": "E agora o pódio. Em terceiro, o Reason Network. Os robôs programadores da sua equipe passam a conversar entre si, com mensagens protegidas, direto de computador pra computador. São 45 estrelas por dia."
+ },
+ {
+  "id": "f6",
+  "fala": "Número dois, e aqui o alerta: já existem agentes de i-á que tentam invadir sistemas sozinhos. Esse projeto, com só seis dias de vida, dá às empresas regras pra flagrar esses ataques. Tema sério, cuidado. São cento e treze estrelas por dia.",
+  "legenda": "Número dois, e aqui o alerta: já existem agentes de i-á que tentam invadir sistemas sozinhos. Esse projeto, com só seis dias de vida, dá às empresas regras pra flagrar esses ataques. Tema sério, cuidado. São 113 estrelas por dia."
+ },
+ {
+  "id": "f7",
+  "fala": "E o primeiro lugar. Magpie. Você paga ChatGPT, Claude, Copilot? Ele junta tudo num lugar só, e qualquer agente usa. Acabou a cota de um, o outro assume na hora. São seiscentas e cinquenta e seis estrelas por dia.",
+  "legenda": "E o primeiro lugar. Magpie. Você paga ChatGPT, Claude, Copilot? Ele junta tudo num lugar só, e qualquer agente usa. Acabou a cota de um, o outro assume na hora. São 656 estrelas por dia."
+ },
+ {
+  "id": "f8",
+  "fala": "Qual desses você vai testar primeiro? Escreve aqui embaixo. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Escreve aqui embaixo. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com TOP 5 DO GITHUB e manchete idêntica ao gancho; posições, estrelas totais e pílulas 🔥 (+656, +113, +45, +42, +36) batem com o top10.json; avatar e fecho com caixa vermelha e pílula inema.club estão presentes; os contadores baixos são animação.",
+ "sugestoes": [
+  "0.05s capa: o topo de 'TOP 5' encosta na borda superior; descer um pouco o título daria mais respiro.",
+  "11.23s panorama: o gráfico ocupa só a metade de cima e deixa um vazio grande abaixo; aumentar as barras e os nomes deixaria o ranking mais legível no celular.",
+  "61.85s #2: o logo da ThreatDefence é quase todo preto e some no fundo escuro; vale um contorno ou fundo claro no ícone.",
+  "61.85s #2: a descrição poderia deixar claro que é uma ferramenta de defesa (ex.: 'para se proteger de agentes de IA hackers').",
+  "IMPACTO 7: o gancho do cofre explodindo com o 656 prende; o meio (#5 a #3) é mais morno e ganharia ritmo com um exemplo visual de uso em cada cartão."
+ ]
+}

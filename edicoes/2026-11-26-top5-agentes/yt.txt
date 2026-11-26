@@ -1,0 +1,7 @@
+Magpie junta todas as suas assinaturas de IA e dispara com 656 estrelas por dia
+
+#1 yetone/magpie — https://github.com/yetone/magpie
+#2 ThreatDefence/agentic-attack-detections — https://github.com/ThreatDefence/agentic-attack-detections
+#3 reason-machines/reason-network — https://github.com/reason-machines/reason-network
+#4 HarnessRouter/harnessrouter — https://github.com/HarnessRouter/harnessrouter
+#5 edenfunf/reelmimic — https://github.com/edenfunf/reelmimic

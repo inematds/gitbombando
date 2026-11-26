@@ -1,0 +1,96 @@
+modo: area
+gancho:
+  tipo: estatistica
+  manchete: '656 ESTRELAS POR DIA: ASSINATURAS UNIDAS'
+  destaque: '656'
+  objeto: um cofre dourado explodindo, com cartões de assinatura e faíscas amarelas
+    voando para todos os lados
+  fontes:
+  - nome: github.com/topics
+    trecho: yetone/magpie · created 2026-09-23 · 656 stars/day · Pool every plan you
+      pay for
+abertura:
+  cena: escritório escuro de madrugada, só a luz amarela de um notebook aberto no
+    centro
+partes:
+- etapa: gancho
+  fala: Um projeto junta todas as assinaturas de inteligência artificial que você
+    paga num lugar só. Acabou uma, a outra assume. E ele ganha seiscentas e cinquenta
+    e seis estrelas por dia.
+- etapa: panorama
+  fala: Esse é o Top cinco dos sistemas de agentes de inteligência artificial que
+    mais crescem no GitHub. Somados, dão oitocentas e noventa e duas estrelas por
+    dia desde a criação. Bora do quinto ao primeiro.
+  numero: '892'
+- etapa: repo
+  repo: edenfunf/reelmimic
+  desc: Mostre um vídeo que você ama e os agentes de IA criam um novo, no mesmo estilo.
+  destaque: no mesmo estilo
+  numero: '36'
+  fala: Abrindo a lista, o ReelMimic. Você mostra um vídeo que adora, e uma equipe
+    de agentes cria uma animação nova, com o mesmo ritmo e estilo, mas original. É
+    um estúdio de animação em casa. São trinta e seis estrelas por dia.
+- etapa: repo
+  repo: HarnessRouter/harnessrouter
+  desc: Liga vários robôs programadores de IA numa única tomada, no seu próprio servidor.
+  destaque: numa única tomada
+  numero: '42'
+  fala: Em quarto, o HarnessRouter. Ele liga vários robôs programadores, como o Claude
+    Code e o Codex, numa única tomada. Quem cria produto com i-á troca de robô sem
+    refazer tudo. São quarenta e duas estrelas por dia.
+- etapa: repo
+  repo: reason-machines/reason-network
+  desc: Faz os robôs programadores da sua equipe conversarem entre si, com mensagens
+    protegidas.
+  destaque: conversarem entre si
+  numero: '45'
+  fala: E agora o pódio. Em terceiro, o Reason Network. Os robôs programadores da
+    sua equipe passam a conversar entre si, com mensagens protegidas, direto de computador
+    pra computador. São quarenta e cinco estrelas por dia.
+- etapa: repo
+  repo: ThreatDefence/agentic-attack-detections
+  desc: Regras para empresas detectarem ataques feitos por agentes de IA hackers.
+  destaque: agentes de IA hackers
+  numero: '113'
+  fala: 'Número dois, e aqui o alerta: já existem agentes de i-á que tentam invadir
+    sistemas sozinhos. Esse projeto, com só seis dias de vida, dá às empresas regras
+    pra flagrar esses ataques. Tema sério, cuidado. São cento e treze estrelas por
+    dia.'
+- etapa: repo
+  repo: yetone/magpie
+  desc: Junta todas as assinaturas de IA que você paga e deixa qualquer agente usar.
+  destaque: todas as assinaturas
+  numero: '656'
+  fala: E o primeiro lugar. Magpie. Você paga ChatGPT, Claude, Copilot? Ele junta
+    tudo num lugar só, e qualquer agente usa. Acabou a cota de um, o outro assume
+    na hora. São seiscentas e cinquenta e seis estrelas por dia.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Escreve aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  Top cinco: Top 5
+  seiscentas e cinquenta e seis: '656'
+  oitocentas e noventa e duas: '892'
+  cento e treze: '113'
+  quarenta e cinco: '45'
+  quarenta e duas: '42'
+  trinta e seis: '36'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: Magpie junta todas as suas assinaturas de IA e dispara com 656 estrelas
+    por dia
+  contexto: O Top 5 dos sistemas de agentes de IA que mais crescem no GitHub em 26/11/2026,
+    em estrelas por dia desde a criação, explicado sem jargão. O Magpie lidera com
+    656 estrelas por dia ao juntar todas as assinaturas de IA num lugar só.
+  telegram: 'Top 5 dos agentes de IA que mais crescem no GitHub: o Magpie lidera com
+    656 estrelas por dia, juntando ChatGPT, Claude e Copilot num lugar só. Em segundo,
+    com só seis dias de vida, um projeto que ajuda empresas a flagrar ataques feitos
+    por agentes de IA.'
