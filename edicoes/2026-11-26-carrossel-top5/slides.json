@@ -1,0 +1,199 @@
+{
+ "tipo": "top5",
+ "serie": "TOP 5 DO GITHUB",
+ "conta": "@inema.tds",
+ "data_br": "26/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "DO GITHUB NA SEMANA",
+  "numero": "+15.920",
+  "numero_rotulo": "estrelas ganhas pelos 5 em 7 dias",
+  "manchete": "AGENTES DE IA GANHAM NOVAS HABILIDADES",
+  "destaque": "HABILIDADES",
+  "fundo": [
+   "prints/2.png",
+   "prints/3.png",
+   "prints/5.png",
+   "prints/1.png",
+   "prints/4.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "mvanhorn/last30days-skill",
+   "repo": "last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "gancho": [
+    "PESQUISAR UM TEMA",
+    "NA INTERNET TODA?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que pesquisa qualquer tema no Reddit, X, YouTube, Polymarket e na web e entrega um resumo com base no que achou.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Várias fontes juntas",
+     "texto": "Busca no Reddit, X, YouTube, TikTok, Hacker News e Polymarket."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Sem configuração",
+     "texto": "Reddit, Hacker News e GitHub funcionam logo na primeira vez."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O TEMA",
+    "A IA PESQUISA",
+    "RESUMO PRONTO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "opengraph",
+   "stat": "+5.302",
+   "stat_rotulo": "na semana",
+   "total": "75.423",
+   "info2": "Python · desde 01/2026"
+  },
+  {
+   "pos": 2,
+   "nome": "kajisho5/ffmpeg-skill",
+   "repo": "ffmpeg-skill",
+   "url": "https://github.com/kajisho5/ffmpeg-skill",
+   "gancho": [
+    "EDITAR VÍDEO",
+    "SÓ PEDINDO?"
+   ],
+   "o_que_e": "Um editor de vídeo para agentes de IA como Claude Code e Cursor: você pede cortes, legendas e formatos, e ele edita no seu computador.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Legenda, corte e formato",
+     "texto": "Corta pausas, põe legendas e ajusta o vídeo para o celular."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Tudo no seu computador",
+     "texto": "Sem nuvem e sem chave de acesso paga: roda com o FFmpeg local."
+    }
+   ],
+   "fluxo": [
+    "PEDE A EDIÇÃO",
+    "A IA EDITA",
+    "VÍDEO PRONTO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+3.048",
+   "stat_rotulo": "na semana",
+   "total": "11.311",
+   "info2": "Python · desde 09/2026"
+  },
+  {
+   "pos": 3,
+   "nome": "meta/astryx",
+   "repo": "astryx",
+   "url": "https://github.com/meta/astryx",
+   "gancho": [
+    "O VISUAL DA META",
+    "NO SEU APP?"
+   ],
+   "o_que_e": "Um conjunto aberto de peças visuais da Meta para montar telas de sites e apps, usado lá dentro há oito anos e pronto para agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Peças prontas",
+     "texto": "Mais de 150 componentes acessíveis, com temas e modo escuro."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para IA também",
+     "texto": "Pessoas e assistentes de IA constroem com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE PEÇAS",
+    "AJUSTA O TEMA",
+    "TELA PRONTA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+2.635",
+   "stat_rotulo": "na semana",
+   "total": "33.237",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 4,
+   "nome": "google-labs-code/stitch-skills",
+   "repo": "stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "gancho": [
+    "DESENHAR TELAS",
+    "COM O GOOGLE?"
+   ],
+   "o_que_e": "Uma coleção de habilidades do Google que liga agentes de IA como Claude Code, Cursor e Codex ao Google Stitch, ferramenta de design de telas.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Design e construção",
+     "texto": "Pacotes separados para desenhar, construir telas e utilidades."
+    },
+    {
+     "icone": "link",
+     "titulo": "Vários agentes",
+     "texto": "Funciona com Codex, Gemini CLI, Claude Code, Cursor e Antigravity."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O PACOTE",
+    "PEDE A TELA",
+    "DESIGN PRONTO"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "opengraph",
+   "stat": "+2.616",
+   "stat_rotulo": "na semana",
+   "total": "13.127",
+   "info2": "TypeScript · desde 01/2026"
+  },
+  {
+   "pos": 5,
+   "nome": "dream-num/univer",
+   "repo": "univer",
+   "url": "https://github.com/dream-num/univer",
+   "gancho": [
+    "SEU PRÓPRIO",
+    "ESCRITÓRIO COM IA?"
+   ],
+   "o_que_e": "Uma base de código aberto para colocar planilhas e documentos editáveis dentro do seu próprio programa, para pessoas e agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Planilhas e textos",
+     "texto": "Edição, cálculo e colaboração em planilhas e documentos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes",
+     "texto": "Seu aplicativo ou agente de IA pode editar o conteúdo direto."
+    }
+   ],
+   "fluxo": [
+    "ABRE O EDITOR",
+    "LIGA O AGENTE",
+    "EDITA JUNTO"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+2.319",
+   "stat_rotulo": "na semana",
+   "total": "31.911",
+   "info2": "TypeScript · desde 09/2022"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

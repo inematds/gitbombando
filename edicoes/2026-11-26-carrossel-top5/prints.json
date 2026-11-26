@@ -1,0 +1,42 @@
+{
+ "mvanhorn/last30days-skill": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/mvanhorn/last30days-skill",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "kajisho5/ffmpeg-skill": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/brand/og.png",
+  "tam": [
+   1280,
+   640
+  ]
+ },
+ "meta/astryx": {
+  "fonte": "readme",
+  "url": "https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png",
+  "tam": [
+   1400,
+   735
+  ]
+ },
+ "google-labs-code/stitch-skills": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/google-labs-code/stitch-skills",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "dream-num/univer": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/workspace-promo.png",
+  "tam": [
+   1400,
+   700
+  ]
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "AGENTES DE IA GANHAM NOVAS HABILIDADES",
+  "destaque": "HABILIDADES"
+ },
+ "repos": {
+  "mvanhorn/last30days-skill": {
+   "gancho": [
+    "PESQUISAR UM TEMA",
+    "NA INTERNET TODA?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA que pesquisa qualquer tema no Reddit, X, YouTube, Polymarket e na web e entrega um resumo com base no que achou.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Várias fontes juntas",
+     "texto": "Busca no Reddit, X, YouTube, TikTok, Hacker News e Polymarket."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Sem configuração",
+     "texto": "Reddit, Hacker News e GitHub funcionam logo na primeira vez."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O TEMA",
+    "A IA PESQUISA",
+    "RESUMO PRONTO"
+   ]
+  },
+  "kajisho5/ffmpeg-skill": {
+   "gancho": [
+    "EDITAR VÍDEO",
+    "SÓ PEDINDO?"
+   ],
+   "o_que_e": "Um editor de vídeo para agentes de IA como Claude Code e Cursor: você pede cortes, legendas e formatos, e ele edita no seu computador.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Legenda, corte e formato",
+     "texto": "Corta pausas, põe legendas e ajusta o vídeo para o celular."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Tudo no seu computador",
+     "texto": "Sem nuvem e sem chave de acesso paga: roda com o FFmpeg local."
+    }
+   ],
+   "fluxo": [
+    "PEDE A EDIÇÃO",
+    "A IA EDITA",
+    "VÍDEO PRONTO"
+   ]
+  },
+  "meta/astryx": {
+   "gancho": [
+    "O VISUAL DA META",
+    "NO SEU APP?"
+   ],
+   "o_que_e": "Um conjunto aberto de peças visuais da Meta para montar telas de sites e apps, usado lá dentro há oito anos e pronto para agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Peças prontas",
+     "texto": "Mais de 150 componentes acessíveis, com temas e modo escuro."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Feito para IA também",
+     "texto": "Pessoas e assistentes de IA constroem com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE PEÇAS",
+    "AJUSTA O TEMA",
+    "TELA PRONTA"
+   ]
+  },
+  "google-labs-code/stitch-skills": {
+   "gancho": [
+    "DESENHAR TELAS",
+    "COM O GOOGLE?"
+   ],
+   "o_que_e": "Uma coleção de habilidades do Google que liga agentes de IA como Claude Code, Cursor e Codex ao Google Stitch, ferramenta de design de telas.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Design e construção",
+     "texto": "Pacotes separados para desenhar, construir telas e utilidades."
+    },
+    {
+     "icone": "link",
+     "titulo": "Vários agentes",
+     "texto": "Funciona com Codex, Gemini CLI, Claude Code, Cursor e Antigravity."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O PACOTE",
+    "PEDE A TELA",
+    "DESIGN PRONTO"
+   ]
+  },
+  "dream-num/univer": {
+   "gancho": [
+    "SEU PRÓPRIO",
+    "ESCRITÓRIO COM IA?"
+   ],
+   "o_que_e": "Uma base de código aberto para colocar planilhas e documentos editáveis dentro do seu próprio programa, para pessoas e agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Planilhas e textos",
+     "texto": "Edição, cálculo e colaboração em planilhas e documentos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes",
+     "texto": "Seu aplicativo ou agente de IA pode editar o conteúdo direto."
+    }
+   ],
+   "fluxo": [
+    "ABRE O EDITOR",
+    "LIGA O AGENTE",
+    "EDITA JUNTO"
+   ]
+  }
+ },
+ "legenda_abertura": "Os cinco projetos que mais cresceram no GitHub nesta semana dão novas habilidades aos agentes de IA: pesquisar, editar vídeo, desenhar telas e montar planilhas. Passe o carrossel para ver cada um. E no inema.club está tudo lá, mas você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 5 da semana no GitHub: agentes de IA que pesquisam, editam vídeo e montam telas e planilhas. Veja o carrossel no @inema.tds. No inema.club está tudo lá, e você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
