@@ -1,0 +1,10 @@
+[Unit]
+Description=gitbombando: grade semana (domingo 09:00, Top 10 da semana)
+
+[Timer]
+OnCalendar=Sun *-*-* 09:00:00
+Persistent=true
+Unit=gitbombando-grade@semana.service
+
+[Install]
+WantedBy=timers.target

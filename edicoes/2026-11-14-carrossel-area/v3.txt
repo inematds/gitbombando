@@ -1,0 +1,7 @@
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+🔵 CARROSSEL PUBLICADO DIRETO · Top 8 do GitHub · desenvolvimento web e apps · 14/11/2026
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+Telegram INEMA.DEV: ok (tópico 7597)
+Instagram/TikTok inema.tech (FTD): ok · instagram, tiktok
+10 slides · revisor: aprovado
+🟥 SUGESTÃO: Trocar 'criado há 1 dias' por 'criado há 1 dia' (singular quando for 1); o nome do repositório no slide 8/10 (github.com/AhmadHassan-BTed/Ja...) sai cortado, então vale encolher a fonte do rodapé quando o caminho for longo.

@@ -11,7 +11,7 @@ from pathlib import Path
 
 from .pecas import CHROME
 
-PERIODO = {"dia": "HOJE", "semana": "NA SEMANA", "mes": "NO MÊS"}
+PERIODO = {"dia": "HOJE", "semana": "NA SEMANA", "mes": "NO MÊS", "area": "POR DIA"}
 COR_LING = {"Python": "#3572A5", "TypeScript": "#3178c6", "JavaScript": "#f1e05a", "Rust": "#dea584", "Go": "#00ADD8",
             "Shell": "#89e051", "C++": "#f34b7d", "C": "#555555", "Java": "#b07219", "Kotlin": "#A97BFF", "Swift": "#F05138",
             "Jupyter Notebook": "#DA5B0B", "HTML": "#e34c26", "CSS": "#663399", "Dart": "#00B4AB", "Ruby": "#701516",
@@ -107,7 +107,7 @@ def cartao_repo(it, modo, desc_pt, saida, destaque=None):
     if it.get("criado_em"):
         a, m = it["criado_em"][:4], it["criado_em"][5:7]
         chips.append(f'<span class="chip">criado em {m}/{a}</span>')
-    corpo = (f'<div class="rot">TOP 10 GITHUB · {PERIODO[modo]}</div><div class="pos"><small>#</small>{it["pos"]}</div>'
+    corpo = (f'<div class="rot">TOP DO GITHUB · {PERIODO[modo]}</div><div class="pos"><small>#</small>{it["pos"]}</div>'
              f'<img class="foto" src="{_foto(None, it)}">'
              f'<div class="nome"><div class="dono">{html.escape(it["dono"])} /</div><div class="repo">{html.escape(repo)}</div></div>'
              f'<div class="desc">{d}</div><div class="chips">{"".join(chips)}</div>')
@@ -116,7 +116,7 @@ def cartao_repo(it, modo, desc_pt, saida, destaque=None):
 
 
 # título numa linha só (04/11/2026: "BOMBANDO NA SEMANA" em 92 px quebrava e cobria o #1 da lista)
-TAM_TIT = {"dia": 92, "semana": 74, "mes": 84}
+TAM_TIT = {"dia": 92, "semana": 74, "mes": 84, "area": 74}
 
 
 def cartao_ranking(top, modo, data_br, saida):
@@ -127,7 +127,8 @@ def cartao_ranking(top, modo, data_br, saida):
         linhas.append(f'<div class="r{top1}"><span class="n">{x["pos"]}</span><img src="{_foto(None, x)}">'
                       f'<span class="nm">{html.escape(x["repo"])}</span><span class="bar"><i style="width:{100 * x["estrelas_periodo"] / mx:.1f}%"></i></span>'
                       f'<span class="v">+{br(x["estrelas_periodo"])}</span></div>')
-    tit = {"dia": "BOMBANDO <b>HOJE</b>", "semana": "BOMBANDO <b>NA SEMANA</b>", "mes": "BOMBANDO <b>NO MÊS</b>"}[modo]
+    tit = {"dia": "BOMBANDO <b>HOJE</b>", "semana": "BOMBANDO <b>NA SEMANA</b>", "mes": "BOMBANDO <b>NO MÊS</b>", "area": "CRESCENDO <b>POR DIA</b>"}[modo]
+    fonte = "estrelas por dia desde a criação · fonte: github.com" if modo == "area" else f"estrelas ganhas {PERIODO[modo].lower()} · fonte: github.com/trending"
     corpo = (f'<div class="rot">TOP {len(top)} GITHUB · {data_br}</div><div class="tit" style="font-size:{TAM_TIT[modo]}px">{tit}</div>'
-             f'<div class="lista">{"".join(linhas)}</div><div class="fonte">⭐ estrelas ganhas {PERIODO[modo].lower()} · fonte: github.com/trending</div>')
+             f'<div class="lista">{"".join(linhas)}</div><div class="fonte">⭐ {fonte}</div>')
     return fotografar(BASE.replace("%CSS%", CSS_RANK).replace("%CORPO%", corpo), saida)

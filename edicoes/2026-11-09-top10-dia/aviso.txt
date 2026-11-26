@@ -1,0 +1,1 @@
+coleta do GitHub Trending falhou: o Trending trouxe só 9 projetos (página fora do ar ou mudou)

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "O campeão de ontem perdeu a coroa. E quem tomou o primeiro lugar do GitHub é um projeto que já passou de trezentas mil estrelas.",
+  "legenda": "O campeão de ontem perdeu a coroa. E quem tomou o primeiro lugar do GitHub é um projeto que já passou de 300 mil estrelas."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez que mais cresceram hoje somaram nove mil quinhentas e cinquenta e oito estrelas. Tem Google, Alibaba, Tencent e um projeto polêmico na briga. Vou do décimo ao primeiro.",
+  "legenda": "Os dez que mais cresceram hoje somaram 9.558 estrelas. Tem Google, Alibaba, Tencent e um projeto polêmico na briga. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Abrindo em décimo, o Google. O PaperOrchestra é um time de inteligências artificiais que escreve um artigo científico inteiro, com pesquisa e gráfico. Trezentas e treze estrelas.",
+  "legenda": "Abrindo em décimo, o Google. O PaperOrchestra é um time de inteligências artificiais que escreve um artigo científico inteiro, com pesquisa e gráfico. 313 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Em nono, outro do Google. Com o Stitch Skills, a sua IA vira designer e desenha as telas do seu site ou aplicativo. Trezentas e cinquenta estrelas.",
+  "legenda": "Em nono, outro do Google. Com o Stitch Skills, a sua IA vira designer e desenha as telas do seu site ou aplicativo. 350 estrelas."
+ },
+ {
+  "id": "f5",
+  "fala": "Oitavo lugar, a gigante chinesa Tencent. O LoopForge coloca várias inteligências artificiais pra programar juntas, e nada sai sem o seu ok. Quinhentas e noventa estrelas.",
+  "legenda": "Oitavo lugar, a gigante chinesa Tencent. O LoopForge coloca várias inteligências artificiais pra programar juntas, e nada sai sem o seu ok. 590 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Em sétimo, o Plannotator, que não sai do Top dez. Antes de agir, a IA te mostra o plano. Você risca, comenta e devolve. Seiscentas e noventa e uma estrelas.",
+  "legenda": "Em sétimo, o Plannotator, que não sai do Top dez. Antes de agir, a IA te mostra o plano. Você risca, comenta e devolve. 691 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Sexto, o ECC. É um pacote que dá método e memória pro seu assistente de programação. Ele planeja, testa e revisa o próprio trabalho. Setecentas e dezoito estrelas.",
+  "legenda": "Sexto, o ECC. É um pacote que dá método e memória pro seu assistente de programação. Ele planeja, testa e revisa o próprio trabalho. 718 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Quinto, a Alibaba, que também não sai do Top dez. O Open Code Review é o revisor de código com IA que a empresa usava por dentro. Agora é aberto. Setecentas e sessenta e quatro estrelas.",
+  "legenda": "Quinto, a Alibaba, que também não sai do Top dez. O Open Code Review é o revisor de código com IA que a empresa usava por dentro. Agora é aberto. 764 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Em quarto, o mais polêmico do dia. O Claude BugHunter transforma a IA num caçador de falhas de segurança. Serve pra proteger, mas pode servir pra atacar. Isso é polêmico, cuidado. Mil e sete estrelas.",
+  "legenda": "Em quarto, o mais polêmico do dia. O Claude BugHunter transforma a IA num caçador de falhas de segurança. Serve pra proteger, mas pode servir pra atacar. Isso é polêmico, cuidado. 1.007 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Terceiro, o AG-UI. É um idioma comum pra qualquer assistente de IA conversar dentro dos aplicativos que você já usa. Mil quatrocentas e quarenta e quatro estrelas.",
+  "legenda": "E agora o pódio. Terceiro, o AG-UI. É um idioma comum pra qualquer assistente de IA conversar dentro dos aplicativos que você já usa. 1.444 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, o campeão de ontem. O Univer, kit pra montar o seu próprio escritório com planilha, texto e IA, não sai do Top dez. Mas hoje caiu. Mil setecentas e setenta e seis estrelas.",
+  "legenda": "Em segundo, o campeão de ontem. O Univer, kit pra montar o seu próprio escritório com planilha, texto e IA, não sai do Top dez. Mas hoje caiu. 1.776 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o novo número um. O superpowers. Ele ensina a IA a perguntar antes, planejar e só depois programar, por horas, sozinha. Não sai do Top dez. Mil novecentas e cinco estrelas.",
+  "legenda": "E o novo número um. O superpowers. Ele ensina a IA a perguntar antes, planejar e só depois programar, por horas, sozinha. Não sai do Top dez. 1.905 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Conta aqui nos comentários. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

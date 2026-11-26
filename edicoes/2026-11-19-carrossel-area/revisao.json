@@ -1,0 +1,9 @@
+{
+ "veredito": "reprovado",
+ "motivo": "Os repositórios 01 e 02 têm sinais fortes de isca de malware: contas com nome aleatório, criados há 6 dias, exatamente 454 estrelas cada e 'Download for Windows' de executáveis portáteis.",
+ "slides_ruins": [
+  2,
+  3
+ ],
+ "sugestao": "Filtre repositórios com dono recém-criado ou de nome aleatório, estrelas idênticas entre si ou instalador .exe no lugar de código-fonte, e confira a idade da conta antes de entrar no Top. A capa e o fecho devem ser refeitos sem esses dois, e o nukerat (C2/pós-exploração) pede uma checagem extra."
+}

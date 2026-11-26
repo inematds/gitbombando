@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "AGENTES DE IA TRABALHAM SOZINHOS",
+  "destaque": "SOZINHOS"
+ },
+ "repos": {
+  "KKKKhazix/agent-autoloop": {
+   "gancho": [
+    "SEU AGENTE",
+    "TRABALHA SOZINHO"
+   ],
+   "o_que_e": "Uma central que deixa agentes de terminal, como Claude Code e Codex, pegarem tarefas sozinhos em segundo plano e só chamarem você para decidir.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Roda no seu computador",
+     "texto": "Windows, Mac ou Linux, sem servidor na nuvem nem porta aberta."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Chama só quando precisa",
+     "texto": "Manda um cartão no Slack, no Discord ou num aviso na tela."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PASSA A TAREFA",
+    "VOCÊ DECIDE"
+   ]
+  },
+  "wangzan101/Mika": {
+   "gancho": [
+    "FALA O QUE QUER",
+    "O CELULAR FAZ"
+   ],
+   "o_que_e": "Um assistente de IA para Android que mexe nos seus aplicativos e na web até terminar o que você pediu numa frase.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Tela escondida",
+     "texto": "Trabalha numa tela em segundo plano e você segue usando o celular."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Para antes de pagar",
+     "texto": "Escolhe o produto, põe no carrinho e para antes de finalizar a compra."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ PEDE",
+    "A IA MEXE",
+    "TAREFA FEITA"
+   ]
+  },
+  "HerdBuilderEstimate/roblox-studio-mcp": {
+   "gancho": [
+    "IA DENTRO DO",
+    "ROBLOX STUDIO"
+   ],
+   "o_que_e": "Uma ponte que liga assistentes de IA, como Claude e Cursor, ao Roblox Studio para ler o jogo, editar scripts e rodar testes.",
+   "beneficios": [
+    {
+     "icone": "code",
+     "titulo": "Edita scripts Lua",
+     "texto": "A IA escreve e altera os scripts Lua do seu jogo no Roblox."
+    },
+    {
+     "icone": "search",
+     "titulo": "Lê a estrutura do jogo",
+     "texto": "Mostra à IA a árvore de objetos e as propriedades de cada peça."
+    }
+   ],
+   "fluxo": [
+    "LIGA A IA",
+    "PEDE A MUDANÇA",
+    "TESTA O JOGO"
+   ]
+  },
+  "phaseboulderfetter/discord-quest-completer": {
+   "gancho": [
+    "MISSÕES DO DISCORD",
+    "SEM JOGAR?"
+   ],
+   "o_que_e": "Um programa que simula jogo, vídeo ou transmissão para concluir missões do Discord; o próprio projeto avisa que a conta pode ser restrita.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Cinco tipos de missão",
+     "texto": "Cobre jogo, vídeo, transmissão, atividade e conquista."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Risco para a conta",
+     "texto": "O Discord pune automação de missões desde abril de 2026."
+    }
+   ],
+   "fluxo": [
+    "ABRE O PROGRAMA",
+    "ESCOLHE MISSÃO",
+    "SIMULA A TAREFA"
+   ]
+  },
+  "TagPhaseArcade/tiktok-uploader": {
+   "gancho": [
+    "VÁRIOS VÍDEOS",
+    "NO TIKTOK DE UMA VEZ"
+   ],
+   "o_que_e": "Um programa que envia vários vídeos ao TikTok de uma vez, com descrição, hashtags e horário marcado, sem usar o aplicativo do celular.",
+   "beneficios": [
+    {
+     "icone": "clock",
+     "titulo": "Agenda as postagens",
+     "texto": "Marca o dia e a hora em que cada vídeo vai ao ar."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Login fica com você",
+     "texto": "A sessão fica salva no seu computador, sem servidor de terceiros."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE VÍDEOS",
+    "AGENDA",
+    "PUBLICADO"
+   ]
+  },
+  "dragonwolfshovel/youtube-uploader": {
+   "gancho": [
+    "SOBE NO YOUTUBE",
+    "SEM ABRIR O SITE"
+   ],
+   "o_que_e": "Um programa que envia vídeos ao YouTube em lote, com miniatura, descrição, tags e data de publicação, pela conexão oficial do YouTube.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Miniatura no envio",
+     "texto": "Define a capa de cada vídeo já na hora de enviar."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Publicação agendada",
+     "texto": "Marca o dia em que cada vídeo fica público no seu canal."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE VÍDEOS",
+    "PREENCHE DADOS",
+    "NO AR"
+   ]
+  },
+  "lexmount/moli": {
+   "gancho": [
+    "UM NAVEGADOR",
+    "SÓ PARA A IA"
+   ],
+   "o_que_e": "Um navegador sem janela, feito em Rust, para agentes de IA abrirem páginas, buscarem na web e lerem conteúdo gastando poucos recursos.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Leve e rápido",
+     "texto": "Só monta e desenha a página quando precisa, e pesa pouco na máquina."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Linux, Mac e Windows",
+     "texto": "Roda nos três sistemas e se instala com um único comando."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "AGENTE PEDE",
+    "PÁGINA LIDA"
+   ]
+  },
+  "KKKKhazix/AIHOT": {
+   "gancho": [
+    "NOTÍCIAS DO SETOR",
+    "NUM RESUMO DIÁRIO"
+   ],
+   "o_que_e": "Um site que junta notícias de várias fontes, usa um modelo de IA para escolher as melhores e escreve sozinho um resumo todo dia de manhã.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Ranking de assuntos",
+     "texto": "Junta a mesma notícia de vários sites e ordena pelo quanto se fala dela."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Do jeito do seu setor",
+     "texto": "Você troca as fontes e o critério de escolha pelos da sua área."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE FONTES",
+    "A IA FILTRA",
+    "RESUMO DIÁRIO"
+   ]
+  }
+ },
+ "legenda_abertura": "Os projetos de automação que mais crescem no GitHub mostram agentes de IA trabalhando sozinhos: no terminal, no celular e no navegador. Arrasta o carrossel para ver o que cada um faz e como se usa. Cursos grátis de IA no inema.club.",
+ "telegram": "Saiu o carrossel com os 8 repositórios de automação e produtividade que mais crescem no GitHub hoje. Tem agente que trabalha sozinho no terminal, assistente que mexe no celular e navegador feito só para a IA. Para aprender a usar essas ferramentas, os cursos grátis estão no inema.club."
+}

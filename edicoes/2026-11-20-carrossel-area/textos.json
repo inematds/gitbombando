@@ -1,0 +1,52 @@
+{
+  "capa": {"manchete": "IA QUE USA SEU IPHONE SOZINHA", "destaque": "IPHONE"},
+  "repos": {
+    "CzzzzzzJ/mdldm-maitian": {
+      "gancho": ["UM VÍDEO PRONTO.", "SETE REDES."],
+      "o_que_e": "Uma central que prepara a publicação do seu vídeo em várias redes, agenda os envios e acompanha visualizações e seguidores num painel.",
+      "beneficios": [
+        {"icone": "globe", "titulo": "Várias redes de uma vez", "texto": "Preenche Bilibili, Douyin, YouTube, X, Instagram e mais em lote."},
+        {"icone": "chart", "titulo": "Painel com seus números", "texto": "Coleta todo dia visualizações, interações e seguidores de cada rede."}
+      ],
+      "fluxo": ["SOBE O VÍDEO", "A IA ESCREVE", "ELE PUBLICA"]
+    },
+    "mdiri-ai/SoduWork": {
+      "gancho": ["UMA IA FAZ,", "OUTRA CONFERE."],
+      "o_que_e": "Um espaço de trabalho para equipes em que agentes de IA executam pedidos, outra IA revisa e o trabalho só fecha quando quem pediu aprova.",
+      "beneficios": [
+        {"icone": "shield", "titulo": "Revisão por outra IA", "texto": "Uma IA faz a tarefa e outra, em outro modelo, confere os critérios."},
+        {"icone": "layers", "titulo": "Roda no seu computador", "texto": "Instala no macOS, Linux ou Windows e fica no seu próprio servidor."}
+      ],
+      "fluxo": ["VOCÊ PEDE", "A IA EXECUTA", "VOCÊ APROVA"]
+    },
+    "jub0t/Concat": {
+      "gancho": ["EDITAR VÍDEO", "SEM PAGAR NADA?"],
+      "o_que_e": "Um editor de vídeo gratuito e de código aberto para computador e celular, com legenda automática, remoção de fundo e exportação em 4K.",
+      "beneficios": [
+        {"icone": "video", "titulo": "Legenda automática", "texto": "Gera legendas, isola a voz e transforma texto em fala no próprio editor."},
+        {"icone": "download", "titulo": "Sem marca d'água", "texto": "Grátis, sem conta, para macOS, Windows, Linux, Android e iOS."}
+      ],
+      "fluxo": ["ABRE O VÍDEO", "CORTA E EDITA", "EXPORTA EM 4K"]
+    },
+    "CopilotKit/OpenBot": {
+      "gancho": ["COLEGAS DE IA", "NA SUA EMPRESA."],
+      "o_que_e": "Um espaço de trabalho para assistentes de IA que usam navegador e ferramentas e esperam sua aprovação antes de enviar algo.",
+      "beneficios": [
+        {"icone": "lock", "titulo": "Você aprova antes", "texto": "O assistente espera seu aval antes de enviar e você assume quando quiser."},
+        {"icone": "cpu", "titulo": "Instala sem terminal", "texto": "Tem instalador pronto para Mac e Windows, sem ferramentas de programador."}
+      ],
+      "fluxo": ["ESCOLHE A IA", "ELA TRABALHA", "VOCÊ APROVA"]
+    },
+    "JosssphZhou/poki": {
+      "gancho": ["SEU IPHONE", "NO PILOTO AUTOMÁTICO?"],
+      "o_que_e": "Um aplicativo de código aberto que roda no iPhone, lê a tela e toca, digita e rola dentro dos seus apps usando sua conta de IA.",
+      "beneficios": [
+        {"icone": "mic", "titulo": "Pede por voz", "texto": "Aciona pelo chat, pelo botão de Ação ou pela Siri, sem tocar em vários apps."},
+        {"icone": "shield", "titulo": "Para antes de pagar", "texto": "Pagamentos, exclusões e ações da Carteira sempre pedem sua confirmação."}
+      ],
+      "fluxo": ["VOCÊ PEDE", "ELE TOCA", "TAREFA FEITA"]
+    }
+  },
+  "legenda_abertura": "Os cinco projetos de automação que mais crescem no GitHub nesta semana publicam vídeos em várias redes, editam de graça e até usam seu iPhone por você. Passa o carrossel para ver cada um.",
+  "telegram": "Separamos os cinco repositórios de automação e produtividade que mais crescem no GitHub, e o carrossel já está no ar. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

@@ -1,0 +1,4 @@
+Bombando no GitHub · Top 10 do dia · 15/11/2026 · 148s
+publicado no lives4: https://www.youtube.com/shorts/eD_hFGRsOkY
+🟥 SUGESTÃO: 24,4 s e 34,6 s: os dois quadros caem na transição e mostram nomes e descrições sobrepostos (airgorah/kuma, univer/kuma). O Uptime Kuma (#9) não aparece limpo em nenhum quadro da folha. Vale encurtar o crossfade dos cartões. | 34,6 s: o painel de baixo mostra '0 HOJE' com rótulo do univer enquanto a legenda ainda fala das 352 estrelas do #9, o que dá impressão de número errado por um instante. | Gráficos de barras do painel de baixo (44–126 s): eixos e rótulos minúsculos, ilegíveis no celular. U
+Ninguém tira o Google do topo do GitHub: +1.220 estrelas em um dia

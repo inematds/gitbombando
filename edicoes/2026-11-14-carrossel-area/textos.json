@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "SUA IA AGORA MONTA A TELA",
+  "destaque": "TELA"
+ },
+ "repos": {
+  "opencoredev/islandcn": {
+   "gancho": [
+    "ILHA DINÂMICA",
+    "NO SEU APP REACT"
+   ],
+   "o_que_e": "Um componente de código aberto que põe uma ilha no topo do seu app React, no estilo Dynamic Island, mostrando envio, timer ou música.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Modelos prontos",
+     "texto": "Envio de arquivo, timer, música, chamada, entrega e gravação já vêm prontos."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Monte no playground",
+     "texto": "Você testa cada ação, ajusta o movimento e copia o código pronto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE MODELO",
+    "ILHA NO TOPO"
+   ]
+  },
+  "vercel-labs/ui": {
+   "gancho": [
+    "SUA IA MONTA",
+    "A INTERFACE"
+   ],
+   "o_que_e": "Uma biblioteca da Vercel com comportamentos de tela, como teclado, foco e arrastar e soltar, para agentes de IA montarem interfaces.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Skill para o agente",
+     "texto": "Você instala a skill e o agente de IA escreve os componentes por você."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Acessível de fábrica",
+     "texto": "Navegação por teclado, foco e marcações de acessibilidade já vêm juntas."
+    }
+   ],
+   "fluxo": [
+    "DÁ A SKILL",
+    "A IA CRIA",
+    "TELA PRONTA"
+   ]
+  },
+  "lnkiai/m3e-canvas": {
+   "gancho": [
+    "RABISCA AS TELAS.",
+    "A IA FAZ O APP."
+   ],
+   "o_que_e": "Um bloco de rascunho no navegador para montar telas de app com peças do Material 3 e virar um pedido pronto para sua IA de código.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Roda no navegador",
+     "texto": "Sem conta, sem servidor e nada para instalar. Grátis e de código aberto."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Vira um pedido pronto",
+     "texto": "O desenho vira um texto curto para colar no Claude Code, Codex ou Cursor."
+    }
+   ],
+   "fluxo": [
+    "ESBOÇA A TELA",
+    "TESTA O FLUXO",
+    "COPIA O PEDIDO"
+   ]
+  },
+  "shader-effects-inc/shaders": {
+   "gancho": [
+    "VIDRO, METAL, LUZ",
+    "NO SEU SITE"
+   ],
+   "o_que_e": "Um pacote de efeitos visuais que rodam na placa de vídeo, como gradientes, vidro e luz, prontos para colocar no seu site.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 200 efeitos",
+     "texto": "Gradientes, ruído, vidro, metal, luz, desfoques e rastro do cursor."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Editor visual grátis",
+     "texto": "Você desenha no shaders.com e exporta o código pronto para o seu projeto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "MONTA O EFEITO",
+    "COPIA O CÓDIGO"
+   ]
+  },
+  "NiazMorshed2007/reanimate": {
+   "gancho": [
+    "VIU UMA ANIMAÇÃO?",
+    "A IA COPIA IGUAL."
+   ],
+   "o_que_e": "Uma skill do Claude Code que grava uma animação de um site ou vídeo, refaz no seu código e compara até a cópia se mexer igual.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Aceita site, vídeo e gif",
+     "texto": "Funciona com site ao vivo, gravação de tela, mp4, gif ou arquivo Lottie."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Compara rodada a rodada",
+     "texto": "Cada volta mostra o que ainda está diferente até os números baterem."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "A IA REFAZ",
+    "CÓPIA CONFERIDA"
+   ]
+  },
+  "lucasmarkes/hairline": {
+   "gancho": [
+    "DESENHOS QUE SEGUEM",
+    "O SEU MOUSE"
+   ],
+   "o_que_e": "Um pacote de figuras em linha, em perspectiva isométrica, que reagem ao ponteiro do mouse no seu site em React ou em qualquer página.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Figuras prontas",
+     "texto": "Trinta e três figuras isométricas animadas, com demonstração ao vivo."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Sem dependências",
+     "texto": "Pacote leve, sem outras bibliotecas; o React só entra se você usar."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE FIGURA",
+    "SEGUE O MOUSE"
+   ]
+  },
+  "AhmadHassan-BTed/Jantt": {
+   "gancho": [
+    "UM TEXTO VIRA",
+    "CRONOGRAMA."
+   ],
+   "o_que_e": "Um gerador de gráfico de Gantt, o cronograma em barras, que transforma um arquivo de texto JSON numa linha do tempo que você arrasta.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Feito para IA",
+     "texto": "Agentes de IA escrevem o cronograma em JSON gastando bem menos texto."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Caminho crítico",
+     "texto": "Mostra as tarefas que seguram o projeto inteiro, com arrastar e soltar."
+    }
+   ],
+   "fluxo": [
+    "ESCREVE O JSON",
+    "VIRA GANTT",
+    "AJUSTA AS DATAS"
+   ]
+  },
+  "kubai087/kubai-icons": {
+   "gancho": [
+    "ÍCONES ANIMADOS",
+    "NO MESMO ESTILO"
+   ],
+   "o_que_e": "Uma skill para Claude Code e Codex que desenha ícones animados num estilo único, com mais de 2.800 ícones abertos para usar.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "A IA desenha seus ícones",
+     "texto": "Você descreve o produto e o agente desenha os ícones de que ele precisa."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Site para buscar",
+     "texto": "Busque por nome ou forma, troque a cor e baixe em SVG ou PNG."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "DESCREVE O APP",
+    "ÍCONES PRONTOS"
+   ]
+  }
+ },
+ "legenda_abertura": "Sua IA de código agora monta tela, copia animação e desenha ícone. Arraste o carrossel e veja os projetos de desenvolvimento web e apps que mais crescem no GitHub. Cursos grátis de IA no inema.club, direto na internet.",
+ "telegram": "Os projetos de desenvolvimento web e apps que mais crescem no GitHub hoje: telas, animações e ícones feitos com a sua IA de código. Veja o carrossel e aprenda a usar ferramentas assim de graça no inema.club, direto na internet."
+}

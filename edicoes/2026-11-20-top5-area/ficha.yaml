@@ -1,0 +1,91 @@
+modo: area
+gancho:
+  tipo: noticia
+  manchete: +266 POR DIA PRA POSTAR SOZINHO
+  destaque: '+266'
+  objeto: um celular dourado gigante rachando ao meio, com ícones de redes sociais
+    e raios de luz amarela escapando pelas rachaduras
+  fontes:
+  - nome: github.com/CzzzzzzJ/mdldm-maitian
+    trecho: 1,684 stars, created 2026-11-14
+abertura:
+  cena: estúdio de criador de conteúdo escuro à noite, várias telas apagadas na parede,
+    só a luz amarela vindo do centro
+partes:
+- etapa: gancho
+  fala: Um programa que posta seu vídeo em sete redes sociais de uma vez. E ainda
+    mostra qual delas te dá dinheiro. É o projeto de automação que mais cresce no
+    GitHub.
+- etapa: panorama
+  fala: No Top cinco de automação e produtividade, os projetos somam novecentas e
+    setenta e uma estrelas por dia desde que nasceram. Vou do quinto ao primeiro.
+  numero: '971'
+- etapa: repo
+  repo: JosssphZhou/poki
+  desc: Assistente que usa o seu iPhone por você, tocando e digitando nos aplicativos.
+  destaque: usa o seu iPhone
+  numero: '113'
+  fala: Em quinto, Poki. Ele usa o seu iPhone como você usaria. Lê a tela, toca, digita
+    e rola dentro dos aplicativos. Pagamentos e exclusões sempre esperam o seu sim.
+    Cento e treze estrelas por dia.
+- etapa: repo
+  repo: CopilotKit/OpenBot
+  desc: Colegas de trabalho com IA que rodam no seu próprio computador ou empresa.
+  destaque: no seu próprio computador
+  numero: '136'
+  fala: Número quatro, OpenBot. São colegas de trabalho feitos de inteligência artificial,
+    que navegam e usam ferramentas, mas pedem sua aprovação antes de enviar. E rodam
+    na sua máquina. Cento e trinta e seis estrelas por dia.
+- etapa: repo
+  repo: jub0t/Concat
+  desc: Editor de vídeo grátis, sem marca d'água, sem conta e sem assinatura.
+  destaque: grátis
+  numero: '220'
+  fala: E agora o pódio. Bronze pro Concat. Um editor de vídeo de graça, sem marca
+    d'água, sem conta, sem assinatura. Faz legenda automática e até clona voz. Duzentas
+    e vinte estrelas por dia.
+- etapa: repo
+  repo: mdiri-ai/SoduWork
+  desc: Equipe de IAs em que uma faz o trabalho e outra confere antes de você aprovar.
+  destaque: outra confere
+  numero: '236'
+  fala: Prata pro SoduWork. Aqui uma inteligência artificial faz o trabalho e outra
+    confere. Se não ficar bom, volta. E só acaba quando uma pessoa aprova. Duzentas
+    e trinta e seis estrelas por dia.
+- etapa: repo
+  repo: CzzzzzzJ/mdldm-maitian
+  desc: Painel que publica um vídeo em sete redes e mostra qual delas dá dinheiro.
+  destaque: qual delas dá dinheiro
+  numero: '266'
+  fala: E o primeiro lugar? Maitian. Um painel que espalha seu vídeo pelo YouTube,
+    TikTok, Instagram e mais. Depois mostra qual rede trouxe seguidor e dinheiro.
+    Duzentas e sessenta e seis estrelas por dia.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  novecentas e setenta e uma: '971'
+  Cento e treze: '113'
+  Cento e trinta e seis: '136'
+  Duzentas e vinte: '220'
+  Duzentas e trinta e seis: '236'
+  Duzentas e sessenta e seis: '266'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: '266 estrelas por dia: o programa que posta seu vídeo em 7 redes lidera
+    a automação'
+  contexto: O Top 5 do GitHub em automação e produtividade, medido em estrelas por
+    dia desde a criação, explicado sem jargão. O Maitian lidera com 266 estrelas por
+    dia, publicando um vídeo em várias redes e mostrando qual dá dinheiro.
+  telegram: 'Bombando no GitHub em automação: o Maitian cresce 266 estrelas por dia
+    publicando seu vídeo em várias redes e mostrando qual delas dá dinheiro. Logo
+    atrás, o SoduWork, onde uma IA faz e outra confere. E no pódio, o Concat, editor
+    de vídeo grátis e sem marca d''água.'

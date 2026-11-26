@@ -1,0 +1,4 @@
+Bombando no GitHub · Top 5 da semana · 22/11/2026 · 100s
+⚠ NÃO publicou no lives8 (ver publicar.log)
+🟥 SUGESTÃO: 10.8s: o painel do panorama ocupa só o terço de cima e deixa muito espaço vazio; dá para aumentar as barras e os nomes. | 0.05–4.0s: a legenda karaokê ('NUM ESCRITÓRIO ABERTO', 'COM INTELIGÊNCIA') fica colada na borda inferior da capa e perde contraste sobre o fundo; subir um pouco ou escurecer o fundo ajudaria. | 17.6–78.77s: os rótulos das barras nos gráficos de baixo ficam miúdos e se sobrepõem no celular; mostrar só o primeiro e o último valor deixaria a leitura mais limpa. | 85.57s: o fecho
+Office aberto pra IA ganhou 7.240 estrelas: o Top 5 do GitHub da semana

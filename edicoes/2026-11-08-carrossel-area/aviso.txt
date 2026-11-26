@@ -1,0 +1,1 @@
+revisor/portão: reprovado — Slide 10: o nome do repo #08 é cortado no meio de uma letra na borda da caixa ('ai-engineering-interview-questic') e não tem reticências

@@ -1,0 +1,8 @@
+{
+ "veredito": "reprovado",
+ "motivo": "O print do PiBot (slide 3) está vazio: só aparece um retângulo branco, sem nada do projeto.",
+ "slides_ruins": [
+  3
+ ],
+ "sugestao": "Trocar o print do PiBot por uma tela real do README ou pelo cartão automático do GitHub. Nos próximos, rejeitar automaticamente prints quase todos brancos. No slide 2, evitar a palavra 'SI' sozinha numa linha. No slide 5, afastar o selo de estrelas para não cobrir o logo da Tencent."
+}

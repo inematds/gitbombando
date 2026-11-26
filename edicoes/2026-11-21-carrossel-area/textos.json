@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "APP DE INGLÊS LIDERA O GITHUB",
+  "destaque": "INGLÊS"
+ },
+ "repos": {
+  "designfuchen/word-atlas": {
+   "gancho": [
+    "DECORAR INGLÊS",
+    "COM DESENHOS?"
+   ],
+   "o_que_e": "Um app de código aberto para estudar o vocabulário do exame IELTS com ilustrações, áudio britânico e americano e revisões espaçadas.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Ilustração em cada termo",
+     "texto": "Cada palavra vem com desenho, significado e duas frases de exemplo."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Sem cadastro",
+     "texto": "O progresso fica salvo no seu aparelho e funciona até offline."
+    }
+   ],
+   "fluxo": [
+    "VÊ O DESENHO",
+    "OUVE A PALAVRA",
+    "REVISA NO DIA"
+   ]
+  },
+  "peach-mitao/peach": {
+   "gancho": [
+    "SEUS VÍDEOS",
+    "ORGANIZADOS."
+   ],
+   "o_que_e": "Um organizador de vídeos que roda no seu computador, busca sozinho títulos, elenco e capas e tem um player próprio.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Preenche os dados",
+     "texto": "Reconhece o vídeo e completa título, elenco, estúdio e capa."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Local e na nuvem",
+     "texto": "Junta discos locais, rede SMB e nuvens montadas numa só biblioteca."
+    }
+   ],
+   "fluxo": [
+    "APONTA A PASTA",
+    "ELE IDENTIFICA",
+    "ASSISTE JÁ"
+   ]
+  },
+  "AienTech/dossier": {
+   "gancho": [
+    "UM CURRÍCULO",
+    "PARA CADA VAGA."
+   ],
+   "o_que_e": "Um app que você instala no seu servidor, lê cada vaga e escreve currículo e carta sob medida usando só os fatos do seu perfil.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "IA local ou online",
+     "texto": "Funciona com modelo no seu PC via Ollama ou serviços como Anthropic."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Acompanha candidaturas",
+     "texto": "Segue cada vaga do rascunho até a proposta e baixa tudo em PDF."
+    }
+   ],
+   "fluxo": [
+    "COLA A VAGA",
+    "A IA ADAPTA",
+    "BAIXA O PDF"
+   ]
+  },
+  "WyrmClimberManacle/Gemini-Config-Checker-": {
+   "gancho": [
+    "ACESSAR O GEMINI",
+    "COM PROXY?"
+   ],
+   "o_que_e": "Um testador de configurações de proxy, rotas alternativas de conexão, que mostra quais conseguem abrir o Google AI Studio e o Gemini.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Testa como uma pessoa",
+     "texto": "Confere cada rota num navegador logado, do jeito que você vai usar."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Modo simples ou avançado",
+     "texto": "Testa suas configurações ou listas grátis passando pela sua."
+    }
+   ],
+   "fluxo": [
+    "COLA OS LINKS",
+    "ELE TESTA",
+    "VÊ O QUE ABRE"
+   ]
+  },
+  "WireProvostPucker/Gemini-Config-Checker-": {
+   "gancho": [
+    "QUAL PROXY",
+    "ABRE O GEMINI?"
+   ],
+   "o_que_e": "Uma ferramenta que testa configurações de proxy, rotas alternativas de conexão, para ver quais abrem o Gemini. Ainda é versão inicial.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Feito para Windows",
+     "texto": "Roda no Windows; Mac, Linux e Android ainda não foram testados."
+    },
+    {
+     "icone": "download",
+     "titulo": "Exporta o que funciona",
+     "texto": "Salva as rotas aprovadas como links, base64 ou configuração Xray."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O MODO",
+    "RODA O TESTE",
+    "EXPORTA"
+   ]
+  }
+ },
+ "legenda_abertura": "Os projetos de desenvolvimento web e apps que mais crescem no GitHub nesta semana vão de um app de inglês com desenhos a um gerador de currículo com IA. Passe o carrossel e veja o que cada um faz. No inema.club está tudo lá, mas você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de web e apps que mais crescem no GitHub, com currículo sob medida, organizador de vídeos e mais. Dá uma olhada no post. No inema.club está tudo lá, mas você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

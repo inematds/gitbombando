@@ -1,0 +1,1 @@
+revisor/portão: reprovado — O print do slide 7 (#06 android-ad-cleaner) é só o QR code de um grupo de WeChat, com a legenda 群聊:安卓无广告. É propaganda de grupo de terceiros e não mostra o projeto. Esse mesmo QR aparece no fundo da capa.

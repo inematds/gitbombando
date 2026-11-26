@@ -1,0 +1,11 @@
+{
+ "veredito": "reprovado",
+ "impacto": 6,
+ "motivo": "Os gráficos de 25,7 s a 134,5 s mostram números 'NA SEMANA' que contradizem o top10.json e o próprio cartão logo acima. Exemplos: #1 t3code aparece com 2.606 em vez de +12.542, #7 karpathy-skills com 104 em vez de +3.921, #6 taste-skill com 0 em vez de +5.972 (69,2 s), #8 thinkrail com 1.139 em vez de +3.898, #9 claude-seo com 3.184 em vez de +3.751, #4 claude-mem com 6.577 em vez de +7.995 e #3 hallmark com 6.788 em vez de +8.765. Parece que o ganho veio dos retratos de hora em hora, que cobrem só parte da semana. Além disso, a capa (0,05 s) não traz a manchete 'IA FEIA VALE +26.142 ESTRELAS', e a legenda karaokê ('A IA PROGRAMA') fica por cima de 'DO GITHUB', atrapalhando a leitura.",
+ "sugestoes": [
+  "25,7–134,5 s: no modo semana, quando o histórico não cobre os 7 dias, o rótulo do gráfico deveria usar o estrelas_periodo do Trending ou cair no modelo 'antes × agora', nunca mostrar um ganho parcial como 'NA SEMANA'.",
+  "0,05–4,0 s: pôr a manchete +26.142 abaixo do TOP 10 e subir a legenda do gancho para não cobrir 'DO GITHUB'.",
+  "69,2 s: o gráfico do taste-skill sem nenhuma barra parece quebrado; o mesmo cartão se repete em 80,1 s.",
+  "IMPACTO 6: o gancho 'IA desenha feio' é bom, mas a manchete numérica não aparece na capa e os gráficos com números baixos ou zerados tiram a credibilidade."
+ ]
+}

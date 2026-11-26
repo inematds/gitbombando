@@ -1,0 +1,61 @@
+{
+ "designfuchen/word-atlas": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/designfuchen/word-atlas/main/docs/assets/cover-v2.jpg",
+  "tam": [
+   1400,
+   700
+  ]
+ },
+ "peach-mitao/peach": {
+  "fonte": "readme",
+  "url": "https://peach.video/assets/screenshots/home-wide-20261025-2-1280.webp",
+  "tam": [
+   1280,
+   720
+  ]
+ },
+ "DuarteSantos8/openGym": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/readme/hero-dark.png",
+  "tam": [
+   1400,
+   609
+  ]
+ },
+ "D3voz/openjutsu": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/2d8d763a-1764-49a6-9116-d6d1be661ff6",
+  "tam": [
+   960,
+   540
+  ]
+ },
+ "lnkiai/m3e-canvas": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/lnkiai/m3e-canvas/main/docs/readme/demo.gif",
+  "tam": [
+   760,
+   428
+  ]
+ },
+ "shader-effects-inc/shaders": {
+  "fonte": "readme",
+  "url": "https://shaders.com/og.jpg",
+  "tam": [
+   1400,
+   700
+  ]
+ },
+ "NiazMorshed2007/reanimate": {
+  "fonte": null
+ },
+ "AienTech/dossier": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/AienTech/dossier",
+  "tam": [
+   1200,
+   600
+  ]
+ }
+}

@@ -19,19 +19,17 @@ do #10 ao #1, cartão de cada projeto, gráficos e o avatar do Nei. Explicação
   é "antes × agora" (total − ganho no período → total).
 - **Top 10 = ordenado pelas estrelas ganhas no período** entre os projetos da página do Trending (a ordem da página mistura
   outros sinais e o gráfico ficava sem sentido). `pos_trending` guarda a ordem original.
-- Rodada: timer `gitbombando.timer` 16:00 → `auto/rodar.sh <dia>` (= `dia`; no domingo também `semana`; no dia 1º também `mes`).
-  Uma por vez (trava `auto/.rodando`). Teste isolado: `ED=<pasta fora de edicoes/> AVATAR_DE=<mp4> SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_METRI=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh <dia> <modo>`
+- **Grade (Nei, 18/11/2026), `auto/grade.sh` + timers `gitbombando-grade-*`:** 07:00 Top 10 do dia (reel lives4, carrossel lives9) · 08:00 Top 5 da
+  semana (lives8, carrossel lives12) · 09:30 Top 5 da área (lives3, carrossel lives9) · 10:00 Top 5 de agentes (lives7, carrossel lives12) ·
+  domingo 09:00 Top 10 da semana (lives4). **Tudo entra pela fila do x3; o projeto não fala com o Metricool.** Carrossel também vai ao
+  Telegram INEMA.FTD. O v3 só recebe erro. lives9 tem `rs.so_imagens` no x3: nas redes (FTD) só carrossel.
+  Reels saem um por vez (trava `auto/.rodando`) e publicam ao ficar prontos. Teste isolado: `ED=<pasta fora de edicoes/> GB_TRAVA=<arquivo> AVATAR_DE=<mp4> SEM_YT=1 SEM_BOT=1 SEM_TG=1 SEM_GIT=1 GB_SEM_HISTORICO=1 auto/rodar.sh <dia> <modo>`
   (`GB_PESADO=<script>` põe o render atrás de uma trava externa). Avatar já enviado (`avatar/video_id.txt`) = retoma sem refazer roteiro.
   Pular: `AAAA-MM-DD` ou `AAAA-MM-DD semana` em `auto/pular.txt`. Edição já publicada não roda de novo (`FORCAR=1` refaz).
-- **Metritds (01/11/2026):** além do lives4, cada reel aprovado vai ao Instagram + TikTok `inema.tds` pelo Metricool da
-  conta inematds (conector MCP `metricool-inematds`, apelido "metritds") com `auto/metritds.sh` (agora + 10 min, UTC).
-  Info da conta: `~/projetos/metricool-inematds`. `SEM_METRI=1` pula. Marca feito em `<edição>/metritds.txt`; teste com `RASCUNHO=1 SEM_BOT=1`.
-- Revisor `claude -p` (`auto/revisor.md`) lê `build/folha.jpg` (18 quadros): reprovado = não publica e avisa no v3 com o
-  comando para publicar assim mesmo (`python3 gb.py publicar <pasta>`).
-- **Carrosséis (04/11/2026, pedido do Nei: "2 carrosséis e 1 vídeo diário", "publicar … inema.dev do telegram"):** vídeo gera
-  06:30 e publica 11:00; `auto/carrossel.sh <dia> top10` (timer 12:45, publica 14:00) e `… area` (16:45 → 18:00). Código em
-  `carrossel/` (ver docstring de `carrossel.py`). Publica direto: álbum no tópico fixo do INEMA.DEV (`auto/telegram-topico-carrossel.txt`),
-  Instagram carrossel + TikTok fotos via metritds, aviso azul no v3. Revisor reprovado = não publica. Áreas que já saíram:
+- Revisor (`auto/revisor.md`) lê `build/folha.jpg` (18 quadros): reprovado = capa nova e novo render, uma vez; reprovado de novo =
+  não publica e avisa no v3 com o comando para publicar assim mesmo (`python3 gb.py publicar <pasta>`). HeyGen: 3 tentativas.
+- **Carrosséis:** `auto/carrossel.sh <dia> top10|top5|area|agentes`, chamado pela grade. Código em `carrossel/` (ver docstring de
+  `carrossel.py`). Álbum no tópico fixo do INEMA.FTD (`auto/telegram-topico-carrossel-ftd.txt`) + fila do x3. Revisor reprovado = não publica. Áreas que já saíram:
   `historico/carrossel-area.jsonl` (8 semanas sem repetir). Conteúdo adulto fica fora na coleta (`IMPROPRIO`).
 - Telegram: tópico fixo no INEMA.TOOLS, id em `auto/telegram-topico.txt` (criado na 1ª rodada); cada rodada posta dentro
   dele com `postar_topico.py --topico`. **Nunca apagar mensagem/tópico sem aprovação individual do Nei.**

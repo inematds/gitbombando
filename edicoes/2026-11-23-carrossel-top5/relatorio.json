@@ -1,0 +1,283 @@
+{
+ "paginas": [
+  {
+   "nome": "01-capa.png",
+   "caixas": [
+    {
+     "classe": "grande",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "media",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "manchete",
+     "escala": 1,
+     "estourou": false
+    }
+   ],
+   "fora": [],
+   "imagens": [
+    {
+     "src": "1.png",
+     "ok": true
+    },
+    {
+     "src": "3.png",
+     "ok": true
+    },
+    {
+     "src": "4.png",
+     "ok": true
+    },
+    {
+     "src": "5.png",
+     "ok": true
+    },
+    {
+     "src": "2.png",
+     "ok": true
+    },
+    {
+     "src": "1.png",
+     "ok": true
+    },
+    {
+     "src": "3.png",
+     "ok": true
+    },
+    {
+     "src": "4.png",
+     "ok": true
+    },
+    {
+     "src": "5.png",
+     "ok": true
+    },
+    {
+     "src": "2.png",
+     "ok": true
+    },
+    {
+     "src": "1.png",
+     "ok": true
+    },
+    {
+     "src": "3.png",
+     "ok": true
+    }
+   ],
+   "altura_print": null,
+   "fontes": [
+    "Sora",
+    "Inter"
+   ]
+  },
+  {
+   "nome": "02-1.png",
+   "caixas": [
+    {
+     "classe": "gancho",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    }
+   ],
+   "fora": [],
+   "imagens": [
+    {
+     "src": "1.png",
+     "ok": true
+    },
+    {
+     "src": "1.png",
+     "ok": true
+    }
+   ],
+   "altura_print": 311,
+   "fontes": [
+    "Sora",
+    "Inter",
+    "Inter",
+    "Inter"
+   ]
+  },
+  {
+   "nome": "03-2.png",
+   "caixas": [
+    {
+     "classe": "gancho",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    }
+   ],
+   "fora": [],
+   "imagens": [
+    {
+     "src": "2.png",
+     "ok": true
+    },
+    {
+     "src": "2.png",
+     "ok": true
+    }
+   ],
+   "altura_print": 311,
+   "fontes": [
+    "Sora",
+    "Inter",
+    "Inter",
+    "Inter"
+   ]
+  },
+  {
+   "nome": "04-3.png",
+   "caixas": [
+    {
+     "classe": "gancho",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    }
+   ],
+   "fora": [],
+   "imagens": [
+    {
+     "src": "3.png",
+     "ok": true
+    },
+    {
+     "src": "3.png",
+     "ok": true
+    }
+   ],
+   "altura_print": 311,
+   "fontes": [
+    "Sora",
+    "Inter",
+    "Inter",
+    "Inter"
+   ]
+  },
+  {
+   "nome": "05-4.png",
+   "caixas": [
+    {
+     "classe": "gancho",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    }
+   ],
+   "fora": [],
+   "imagens": [
+    {
+     "src": "4.png",
+     "ok": true
+    },
+    {
+     "src": "4.png",
+     "ok": true
+    }
+   ],
+   "altura_print": 311,
+   "fontes": [
+    "Sora",
+    "Inter",
+    "Inter",
+    "Inter"
+   ]
+  },
+  {
+   "nome": "06-5.png",
+   "caixas": [
+    {
+     "classe": "gancho",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    },
+    {
+     "classe": "",
+     "escala": 1,
+     "estourou": false
+    }
+   ],
+   "fora": [],
+   "imagens": [
+    {
+     "src": "5.png",
+     "ok": true
+    },
+    {
+     "src": "5.png",
+     "ok": true
+    }
+   ],
+   "altura_print": 311,
+   "fontes": [
+    "Sora",
+    "Inter",
+    "Inter",
+    "Inter"
+   ]
+  },
+  {
+   "nome": "07-fecho.png",
+   "caixas": [],
+   "fora": [],
+   "imagens": [],
+   "altura_print": null,
+   "fontes": [
+    "Sora",
+    "Inter",
+    "Inter",
+    "Inter"
+   ]
+  }
+ ]
+}

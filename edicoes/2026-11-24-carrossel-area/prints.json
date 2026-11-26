@@ -1,0 +1,42 @@
+{
+ "EL4CTEO/fast-anything": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/EL4CTEO/fast-anything/main/docs/assets/demo.gif",
+  "tam": [
+   920,
+   606
+  ]
+ },
+ "erkamyaman/rust-anything": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/erkamyaman/rust-anything/main/docs/assets/prettier.gif",
+  "tam": [
+   1100,
+   404
+  ]
+ },
+ "INK-Q/agy-fast": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/INK-Q/agy-fast/main/assets/demo-before-after.gif",
+  "tam": [
+   1080,
+   580
+  ]
+ },
+ "shinyobjectz/raea": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/shinyobjectz/raea/main/docs/readme/goose-learns-raea.jpg",
+  "tam": [
+   1280,
+   720
+  ]
+ },
+ "kaankiziltug/logo-design-skill": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/kaankiziltug/logo-design-skill/main/docs/images/hero.png",
+  "tam": [
+   1400,
+   788
+  ]
+ }
+}

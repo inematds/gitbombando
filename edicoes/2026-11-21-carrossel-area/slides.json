@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · DEV WEB E APPS",
+ "conta": "@inema.tech",
+ "data_br": "21/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "DEV WEB E APPS",
+  "numero": "+625",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "APP DE INGLÊS LIDERA O GITHUB",
+  "destaque": "INGLÊS",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/3.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "designfuchen/word-atlas",
+   "repo": "word-atlas",
+   "url": "https://github.com/designfuchen/word-atlas",
+   "gancho": [
+    "DECORAR INGLÊS",
+    "COM DESENHOS?"
+   ],
+   "o_que_e": "Um app de código aberto para estudar o vocabulário do exame IELTS com ilustrações, áudio britânico e americano e revisões espaçadas.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Ilustração em cada termo",
+     "texto": "Cada palavra vem com desenho, significado e duas frases de exemplo."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Sem cadastro",
+     "texto": "O progresso fica salvo no seu aparelho e funciona até offline."
+    }
+   ],
+   "fluxo": [
+    "VÊ O DESENHO",
+    "OUVE A PALAVRA",
+    "REVISA NO DIA"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+190",
+   "stat_rotulo": "por dia",
+   "total": "5.156",
+   "info2": "TypeScript · criado há 27 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "peach-mitao/peach",
+   "repo": "peach",
+   "url": "https://github.com/peach-mitao/peach",
+   "gancho": [
+    "SEUS VÍDEOS",
+    "ORGANIZADOS."
+   ],
+   "o_que_e": "Um organizador de vídeos que roda no seu computador, busca sozinho títulos, elenco e capas e tem um player próprio.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Preenche os dados",
+     "texto": "Reconhece o vídeo e completa título, elenco, estúdio e capa."
+    },
+    {
+     "icone": "folder",
+     "titulo": "Local e na nuvem",
+     "texto": "Junta discos locais, rede SMB e nuvens montadas numa só biblioteca."
+    }
+   ],
+   "fluxo": [
+    "APONTA A PASTA",
+    "ELE IDENTIFICA",
+    "ASSISTE JÁ"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+163",
+   "stat_rotulo": "por dia",
+   "total": "15.226",
+   "info2": "Python · criado há 94 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "AienTech/dossier",
+   "repo": "dossier",
+   "url": "https://github.com/AienTech/dossier",
+   "gancho": [
+    "UM CURRÍCULO",
+    "PARA CADA VAGA."
+   ],
+   "o_que_e": "Um app que você instala no seu servidor, lê cada vaga e escreve currículo e carta sob medida usando só os fatos do seu perfil.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "IA local ou online",
+     "texto": "Funciona com modelo no seu PC via Ollama ou serviços como Anthropic."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Acompanha candidaturas",
+     "texto": "Segue cada vaga do rascunho até a proposta e baixa tudo em PDF."
+    }
+   ],
+   "fluxo": [
+    "COLA A VAGA",
+    "A IA ADAPTA",
+    "BAIXA O PDF"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "opengraph",
+   "stat": "+110",
+   "stat_rotulo": "por dia",
+   "total": "5.348",
+   "info2": "TypeScript · criado há 49 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "WyrmClimberManacle/Gemini-Config-Checker-",
+   "repo": "Gemini-Config-Checker-",
+   "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+   "gancho": [
+    "ACESSAR O GEMINI",
+    "COM PROXY?"
+   ],
+   "o_que_e": "Um testador de configurações de proxy, rotas alternativas de conexão, que mostra quais conseguem abrir o Google AI Studio e o Gemini.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Testa como uma pessoa",
+     "texto": "Confere cada rota num navegador logado, do jeito que você vai usar."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Modo simples ou avançado",
+     "texto": "Testa suas configurações ou listas grátis passando pela sua."
+    }
+   ],
+   "fluxo": [
+    "COLA OS LINKS",
+    "ELE TESTA",
+    "VÊ O QUE ABRE"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+81",
+   "stat_rotulo": "por dia",
+   "total": "472",
+   "info2": "Makefile · criado há 6 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "WireProvostPucker/Gemini-Config-Checker-",
+   "repo": "Gemini-Config-Checker-",
+   "url": "https://github.com/WireProvostPucker/Gemini-Config-Checker-",
+   "gancho": [
+    "QUAL PROXY",
+    "ABRE O GEMINI?"
+   ],
+   "o_que_e": "Uma ferramenta que testa configurações de proxy, rotas alternativas de conexão, para ver quais abrem o Gemini. Ainda é versão inicial.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Feito para Windows",
+     "texto": "Roda no Windows; Mac, Linux e Android ainda não foram testados."
+    },
+    {
+     "icone": "download",
+     "titulo": "Exporta o que funciona",
+     "texto": "Salva as rotas aprovadas como links, base64 ou configuração Xray."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O MODO",
+    "RODA O TESTE",
+    "EXPORTA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+81",
+   "stat_rotulo": "por dia",
+   "total": "472",
+   "info2": "Makefile · criado há 6 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

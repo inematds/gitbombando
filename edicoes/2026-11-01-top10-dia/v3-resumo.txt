@@ -1,0 +1,4 @@
+Bombando no GitHub · Top 10 do dia · 01/11/2026 · 141s
+publicado no lives4: https://www.youtube.com/shorts/xgy4QnIupUY
+🟥 SUGESTÃO: 4.0–23.38 s e 81.5 s: em vários quadros o contador do gráfico ainda está subindo (0, 88, 447, 607, 1.253, 2.006), enquanto o cartão logo acima já mostra o número final. Fazer o contador terminar antes, ou começar no valor final, evita que pareça número errado. | 13.69 s (#10) e 71.82 s (#5): o gráfico aparece com o contador em 0 e as barras vazias. Mostrar as barras já preenchidas no primeiro instante deixa o quadro mais legível. | 120.26 s (#1): a vitória do t3code com o dobro do segundo podia 
+Comande suas IAs pelo celular: T3 Code leva 3.100 estrelas e explode no GitHub hoje

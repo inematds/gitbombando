@@ -1,0 +1,8 @@
+{
+ "veredito": "reprovado",
+ "motivo": "O print do slide do 1º lugar (fast-anything) é o primeiro quadro de uma animação: um terminal quase todo preto, só com '$ fas', sem mostrar nada do projeto.",
+ "slides_ruins": [
+  2
+ ],
+ "sugestao": "Quando o print do README for GIF ou vídeo, capturar um quadro do meio da animação ou usar o cartão do GitHub. O print do rust-anything também pegou o quadro inicial (0.00 s, 0/59 arquivos), e um quadro com o resultado final mostraria melhor o ganho."
+}

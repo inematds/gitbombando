@@ -1,0 +1,4 @@
+Bombando no GitHub · Top 10 do dia · 07/11/2026 · 138s
+⚠ NÃO publicou no lives4 (ver publicar.log)
+🟥 SUGESTÃO: Quadro 2.2s: a manchete encosta na borda direita; com uma margem lateral um pouco maior fica mais limpo. | Quadros 127.81s/137.33s: a caixa vermelha diz 'QUAL VOCÊ VAI TESTAR?', mas o Nei pergunta se você deixaria uma IA caçar as falhas do seu sistema. Alinhar a pergunta da tela com a fala reforça o CTA. | Quadro 70.67s (#5 lz4): é o único projeto em que a fala não diz o número de estrelas (315), e o ícone é um placeholder genérico. Vale citar o número para manter o ritmo. | Quadros 99.24s/108.7
+Cloudflare libera o caça-falhas e derruba a NVIDIA: +2.548 estrelas em um dia no GitHub

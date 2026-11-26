@@ -1,0 +1,99 @@
+modo: semana
+gancho:
+  tipo: noticia
+  manchete: 'META ABRE SEGREDO: +8.700 ESTRELAS'
+  destaque: '+8.700'
+  objeto: um cofre dourado da Meta arrombado e explodindo, com peças de aplicativos
+    e faíscas amarelas voando para fora
+  fontes:
+  - nome: github.com/trending?since=weekly
+    trecho: meta/astryx · 8,700 stars this week
+  - nome: github.com/meta/astryx
+    trecho: powering 13,000+ apps
+abertura:
+  cena: escritório de big tech vazio à noite, mesas no escuro, só a luz amarela de
+    um cofre aberto no centro
+partes:
+- etapa: gancho
+  fala: A Meta abriu de graça o kit que monta mais de treze mil aplicativos dela.
+    Em sete dias, oito mil e setecentas estrelas.
+- etapa: panorama
+  fala: No Top cinco da semana, os projetos que mais cresceram somaram trinta e um
+    mil cento e noventa e três estrelas. Vou do quinto ao primeiro.
+  numero: '31.193'
+- etapa: repo
+  repo: we-promise/sure
+  desc: App aberto de finanças pessoais, salvo pela comunidade depois de ser abandonado.
+  destaque: salvo pela comunidade
+  numero: '4.786'
+  fala: Em quinto, Sure. Um aplicativo aberto pra cuidar das suas finanças pessoais.
+    Custou quase um milhão de dólares, foi abandonado, e a comunidade salvou. Quatro
+    mil setecentas e oitenta e seis estrelas.
+- etapa: repo
+  repo: anthropics/skills
+  desc: Habilidades prontas da Anthropic para a IA criar planilhas, documentos e apresentações.
+  destaque: Habilidades prontas
+  numero: '4.847'
+  fala: Número quatro vem da Anthropic, a dona do Claude. Skills é uma coleção de
+    habilidades prontas pra IA criar planilhas, documentos e apresentações. Ganhou
+    quatro mil oitocentas e quarenta e sete estrelas e já beira duzentas mil estrelas.
+- etapa: repo
+  repo: dream-num/univer
+  desc: Um escritório completo, com planilhas e documentos, para pessoas e IAs usarem
+    juntas.
+  destaque: escritório completo
+  numero: '5.845'
+  fala: E agora o pódio. Bronze pro Univer. É um escritório inteiro, com planilha
+    e documentos, que qualquer empresa coloca dentro do próprio sistema, pra gente
+    e pra IA usarem juntas. Cinco mil oitocentas e quarenta e cinco estrelas.
+- etapa: repo
+  repo: GoogleChrome/modern-web-guidance-src
+  desc: Guia do Google Chrome que ensina a IA a criar sites do jeito moderno, sem
+    vícios antigos.
+  destaque: sem vícios antigos
+  numero: '7.015'
+  fala: 'Prata pro Google. Junto com Microsoft e Mozilla, o time do Chrome criou um
+    guia que ensina a IA a fazer sites do jeito moderno, sem vícios antigos. Quase
+    quintuplicou: sete mil e quinze estrelas.'
+- etapa: repo
+  repo: meta/astryx
+  desc: Kit de design da Meta, usado em mais de 13 mil apps, agora aberto e pronto
+    para IA.
+  destaque: agora aberto
+  numero: '8.700'
+  fala: E o primeiro lugar é da Meta. Astryx, o kit de design que roda em mais de
+    treze mil aplicativos da empresa, agora aberto e gratuito, pronto pra você e pra
+    IA. Oito mil e setecentas estrelas. Numa semana.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  treze mil: 13 mil
+  oito mil e setecentas: '8.700'
+  Oito mil e setecentas: '8.700'
+  trinta e um mil cento e noventa e três: '31.193'
+  um milhão: 1 milhão
+  Quatro mil setecentas e oitenta e seis: '4.786'
+  quatro mil oitocentas e quarenta e sete: '4.847'
+  duzentas mil: 200 mil
+  Cinco mil oitocentas e quarenta e cinco: '5.845'
+  sete mil e quinze: '7.015'
+  Top cinco: Top 5
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'A Meta abriu o kit de 13 mil apps e ganhou 8.700 estrelas: o Top 5 do GitHub
+    na semana'
+  contexto: O Top 5 do GitHub da semana de 18/11/2026, do quinto ao primeiro, explicado
+    sem jargão. O Astryx, kit de design da Meta usado em mais de 13 mil apps, liderou
+    com 8.700 estrelas, e Google e Anthropic também estão no ranking.
+  telegram: 'O que bombou na semana no GitHub: a Meta abriu o Astryx, o kit de design
+    de mais de 13 mil apps dela, e ganhou 8.700 estrelas. Logo atrás, um guia do Google
+    que ensina a IA a fazer sites modernos quase quintuplicou de tamanho.'

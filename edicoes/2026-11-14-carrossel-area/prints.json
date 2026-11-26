@@ -1,0 +1,66 @@
+{
+ "opencoredev/islandcn": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/opencoredev/islandcn",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "vercel-labs/ui": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/vercel-labs/ui",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "lnkiai/m3e-canvas": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/lnkiai/m3e-canvas/main/docs/readme/demo.gif",
+  "tam": [
+   760,
+   428
+  ]
+ },
+ "shader-effects-inc/shaders": {
+  "fonte": "readme",
+  "url": "https://shaders.com/og.jpg",
+  "tam": [
+   1400,
+   700
+  ]
+ },
+ "NiazMorshed2007/reanimate": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/NiazMorshed2007/reanimate",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "lucasmarkes/hairline": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/lucasmarkes/hairline/main/assets/hero.gif",
+  "tam": [
+   800,
+   450
+  ]
+ },
+ "AhmadHassan-BTed/Jantt": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/AhmadHassan-BTed/Jantt/main/assets/screenshots/jantt-swiss-dark-overview.png",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "kubai087/kubai-icons": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/kubai087/kubai-icons",
+  "tam": [
+   1200,
+   600
+  ]
+ }
+}

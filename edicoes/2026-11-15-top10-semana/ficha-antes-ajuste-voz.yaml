@@ -1,0 +1,145 @@
+modo: semana
+gancho:
+  tipo: noticia
+  manchete: 'A META ABRIU O COFRE: +13.660'
+  destaque: '+13.660'
+  objeto: um cofre dourado gigante explodindo por dentro, com peças de aplicativo
+    e raios de luz amarela voando pela porta arrombada
+  fontes:
+  - nome: github.com/trending?since=weekly
+    trecho: meta/astryx · 13,660 stars this week
+abertura:
+  cena: escritório escuro de big tech à noite, mesas vazias, só a luz amarela vindo
+    do centro
+partes:
+- etapa: gancho
+  fala: A Meta abriu de graça o kit que monta mais de treze mil apps dela. E em sete
+    dias ele virou o projeto mais quente do GitHub.
+- etapa: panorama
+  fala: Os dez projetos que mais cresceram na semana somaram sessenta e três mil trezentas
+    e setenta e duas estrelas. Vou do décimo ao primeiro.
+  numero: '63.372'
+- etapa: repo
+  repo: google-deepmind/mujoco
+  desc: Simulador de física do Google DeepMind para treinar robôs num mundo virtual.
+  destaque: treinar robôs
+  numero: '1.859'
+  fala: Em décimo, MuJoCo, do Google DeepMind. É um simulador de física onde robôs
+    aprendem a andar e pegar coisas antes de existir de verdade. Ganhou mil oitocentas
+    e cinquenta e nove estrelas.
+- etapa: repo
+  repo: addyosmani/agent-skills
+  desc: Receitas de programador experiente para a IA que programa trabalhar com qualidade.
+  destaque: programador experiente
+  numero: '3.670'
+  fala: 'Número nove, agent-skills. São as manias boas de um programador sênior empacotadas
+    pra IA: planejar, testar e revisar sempre. Já passa de cem mil estrelas e somou
+    três mil seiscentas e setenta estrelas.'
+- etapa: repo
+  repo: we-promise/sure
+  desc: Aplicativo gratuito de finanças pessoais, salvo pela comunidade depois de
+    abandonado.
+  destaque: finanças pessoais
+  numero: '4.483'
+  fala: Em oitavo, Sure. Um app de finanças pessoais que custou quase um milhão de
+    dólares, foi abandonado e a comunidade ressuscitou de graça. Ganhou quatro mil
+    quatrocentas e oitenta e três estrelas.
+- etapa: repo
+  repo: ZhuLinsen/daily_stock_analysis
+  desc: IA que analisa suas ações todo dia, lê as notícias e manda um resumo no celular.
+  destaque: todo dia
+  numero: '4.526'
+  fala: 'Sétimo lugar, um analista de ações com IA. Ele lê o mercado e as notícias
+    e te manda um resumo todo dia. Mas cuidado: não é conselho de investimento. Foram
+    quatro mil quinhentas e vinte e seis estrelas.'
+- etapa: repo
+  repo: vercel-labs/agent-browser
+  desc: 'Dá um navegador para a IA: ela abre sites, clica e preenche sozinha.'
+  destaque: navegador
+  numero: '4.601'
+  fala: 'Em sexto, agent-browser, da Vercel. Ele entrega um navegador na mão da IA:
+    ela abre sites, clica e preenche formulários sozinha. Somou quatro mil seiscentas
+    e uma estrelas.'
+- etapa: repo
+  repo: google/elephant-goldfish-model
+  desc: Kit do Google em que uma IA planeja e outras, sem memória, revisam o plano.
+  destaque: revisam
+  numero: '5.539'
+  fala: 'Número cinco, do Google: o elefante e o peixinho dourado. O elefante lembra
+    de tudo e escreve o plano. O peixinho esquece e revisa com olhos novos. Ganhou
+    cinco mil quinhentas e trinta e nove estrelas.'
+- etapa: repo
+  repo: anthropics/skills
+  desc: As habilidades oficiais da Anthropic que ensinam o Claude a fazer tarefas
+    específicas.
+  destaque: oficiais
+  numero: '6.220'
+  fala: Em quarto, skills, da Anthropic, a dona do Claude. São as receitas oficiais
+    que ensinam a IA a fazer documento, planilha e apresentação. Já tem quase duzentas
+    mil estrelas e ganhou seis mil duzentas e vinte estrelas.
+- etapa: repo
+  repo: milind-soni/OpenMausBot
+  desc: Seu time de robôs de IA num aplicativo de conversa, cada um com seu próprio
+    computador.
+  destaque: time de robôs
+  numero: '6.413'
+  fala: E agora o pódio. Em terceiro, OpenMausBot. Você conversa com um time de robôs
+    de IA como se fossem contatos, e cada um tem seu próprio computador. Mais seis
+    mil quatrocentas e treze estrelas.
+- etapa: repo
+  repo: sherlock-project/sherlock
+  desc: Programa que caça em centenas de redes sociais todas as contas com um mesmo
+    nome de usuário.
+  destaque: caça
+  numero: '12.401'
+  fala: 'Em segundo, Sherlock. Você digita um nome de usuário e ele caça essa pessoa
+    em mais de quatrocentas redes sociais. Isso é polêmico, cuidado: pode virar ferramenta
+    de perseguição. Foram doze mil quatrocentas e uma estrelas.'
+- etapa: repo
+  repo: meta/astryx
+  desc: O kit de design da Meta, usado em mais de treze mil apps, agora aberto e pronto
+    para IA.
+  destaque: aberto
+  numero: '13.660'
+  fala: 'E o número um. Astryx, da Meta. O kit que monta mais de treze mil apps da
+    empresa agora é seu, de graça, feito pra pessoas e IAs criarem juntas. Quase dobrou
+    em sete dias: treze mil seiscentas e sessenta estrelas.'
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  treze mil seiscentas e sessenta: '13.660'
+  sessenta e três mil trezentas e setenta e duas: '63.372'
+  mil oitocentas e cinquenta e nove: '1.859'
+  três mil seiscentas e setenta: '3.670'
+  quatro mil quatrocentas e oitenta e três: '4.483'
+  quatro mil quinhentas e vinte e seis: '4.526'
+  quatro mil seiscentas e uma: '4.601'
+  cinco mil quinhentas e trinta e nove: '5.539'
+  seis mil duzentas e vinte: '6.220'
+  seis mil quatrocentas e treze: '6.413'
+  doze mil quatrocentas e uma: '12.401'
+  treze mil apps: 13 mil apps
+  cem mil: 100 mil
+  duzentas mil: 200 mil
+  quatrocentas redes: 400 redes
+  um milhão de dólares: US$ 1 milhão
+  sete dias: 7 dias
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: '13.660 estrelas em 7 dias: a Meta abriu o kit de 13 mil apps e lidera o
+    GitHub'
+  contexto: 'Top 10 da semana no GitHub, do décimo ao primeiro, explicado em português
+    simples. Destaque: o Astryx, kit de design da Meta usado em mais de 13 mil apps,
+    ganhou 13.660 estrelas e quase dobrou de tamanho.'
+  telegram: O Top 10 da semana no GitHub somou 63.372 estrelas. No topo, o Astryx,
+    kit de design que a Meta abriu de graça, com 13.660 estrelas em sete dias. Logo
+    atrás, o polêmico Sherlock, que caça contas em mais de 400 redes sociais.

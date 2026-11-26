@@ -1,0 +1,77 @@
+{
+ "cloudflare/security-audit-skill": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/cloudflare/security-audit-skill",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "mattpocock/skills": {
+  "fonte": "readme",
+  "url": "https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png",
+  "tam": [
+   738,
+   388
+  ]
+ },
+ "NVIDIA/auto-ontology": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/NVIDIA/auto-ontology/main/docs/assets/arch.png",
+  "tam": [
+   1400,
+   649
+  ]
+ },
+ "google/skills": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/google/skills",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "lz4/lz4": {
+  "fonte": null
+ },
+ "zed-industries/zed": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/zed-industries/zed",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "microsoft/vscode": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/56af271c-949d-454c-a3ea-16188c063414",
+  "tam": [
+   1400,
+   836
+  ]
+ },
+ "react/react": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/react/react",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "rust-lang/rust": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/rust-lang/rust",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "astral-sh/ruff": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/astral-sh/ruff",
+  "tam": [
+   1200,
+   600
+  ]
+ }
+}

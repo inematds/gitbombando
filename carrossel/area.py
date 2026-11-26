@@ -92,7 +92,7 @@ def buscar(area, dia, dias_criado):
     return achados
 
 
-def no_tema(area, itens, n=16, pasta=None):
+def no_tema(area, itens, n=16, pasta=None, minimo=QTD):
     """09/11/2026 (revisor + Nei): android-ad-cleaner (removedor de anúncios) entrou em "agentes" só porque se marcou
     ai-agent. O claude -p (assinatura) olha os n primeiros e diz quais fogem do tema. Falhou → lista intacta."""
     import os
@@ -111,7 +111,7 @@ def no_tema(area, itens, n=16, pasta=None):
     for nome in fora:
         log(f"fora do tema: {nome} — {(j.get('motivo') or {}).get(nome, '')}")
     resto = [it for it in itens if it["nome"] not in fora]
-    return resto if len(resto) >= QTD else itens
+    return resto if len(resto) >= minimo else itens
 
 
 def readme(nome):
@@ -124,20 +124,17 @@ def readme(nome):
     return re.sub(r"\n\s*\n+", "\n", txt).strip()[:2500]
 
 
-def main(a):
-    if not a:
-        sys.exit(__doc__)
-    ed = Path(a[0]); dia = dt.date.fromisoformat(a[1]) if len(a) > 1 else dt.date.today()
-    area = AREAS[dia.isoweekday()]
+def coletar(area, dia, ed, qtd=QTD):
+    """Os `qtd` repositórios que mais crescem na área; devolve o conteúdo de area.json."""
     ja = usados(area["chave"], dia)
     log(f"{dia} · {area['nome']} · tópicos {area['topicos']} · fora {len(ja)} já usados")
     achados = {}
     for dias in (120, 365):
         achados = {k: v for k, v in buscar(area, dia, dias).items() if k not in ja}
-        if len(achados) >= QTD:
+        if len(achados) >= qtd:
             break
         log(f"só {len(achados)} com {dias} dias; ampliando")
-    if len(achados) < QTD:
+    if len(achados) < qtd:
         sys.exit(f"só {len(achados)} repositórios na área {area['nome']}")
     hoje = dt.datetime.combine(dia, dt.time(12), dt.timezone.utc)
     itens = []
@@ -154,18 +151,25 @@ def main(a):
                       "url": j.get("html_url")})
     itens.sort(key=lambda x: -x["por_dia"])
     if os.environ.get("GB_SEM_FILTRO_TEMA") != "1":
-        itens = no_tema(area, itens, pasta=ed)
-    top = itens[:QTD]
+        itens = no_tema(area, itens, pasta=ed, minimo=qtd)
+    top = itens[:qtd]
     for k, it in enumerate(top, 1):
         it["pos"] = k
         it["readme"] = readme(it["nome"])
         log(f"#{k} {it['nome']} · {it['estrelas_total']} estrelas · {it['por_dia']}/dia · {it['idade_dias']} dias")
-    (ed / "pesquisa").mkdir(parents=True, exist_ok=True)
-    out = {"tipo": "area", "dia": dia.isoformat(), "area": {k: area[k] for k in ("chave", "nome", "curto", "topicos")},
-           "coletado_em": dt.datetime.now().isoformat(timespec="seconds"), "fonte": "api.github.com/search/repositories",
-           "candidatos": len(itens), "itens": top}
-    (ed / "pesquisa/area.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
     log(f"ok: {len(top)} de {len(itens)} candidatos")
+    return {"tipo": "area", "dia": dia.isoformat(), "area": {k: area[k] for k in ("chave", "nome", "curto", "topicos")},
+            "coletado_em": dt.datetime.now().isoformat(timespec="seconds"), "fonte": "api.github.com/search/repositories",
+            "candidatos": len(itens), "itens": top}
+
+
+def main(a):
+    if not a:
+        sys.exit(__doc__)
+    ed = Path(a[0]); dia = dt.date.fromisoformat(a[1]) if len(a) > 1 else dt.date.today()
+    out = coletar(AREAS[dia.isoweekday()], dia, ed)
+    (ed / "pesquisa").mkdir(parents=True, exist_ok=True)
+    (ed / "pesquisa/area.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
 
 
 if __name__ == "__main__":

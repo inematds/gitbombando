@@ -1,0 +1,1 @@
+revisor/portão: reprovado — Os slides 8 e 9 mostram delta-force-trainer-tool e aion-2-trainer-tool. São 'trainers' de jogo instalados por comando no PowerShell, criados há 7 dias por contas aleatórias, com ~1,2 mil estrelas quase iguais. É o padrão típico de malware com estrelas infladas, e o carrossel recomenda instalar.

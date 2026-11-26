@@ -1,0 +1,304 @@
+{
+ "tipo": "area",
+ "serie": "TOP 8 · IA PARA VÍDEO E IMAGEM",
+ "conta": "@inema.tech",
+ "data_br": "18/11/2026",
+ "capa": {
+  "linha1": "TOP 8",
+  "linha2": "IA PARA VÍDEO E IMAGEM",
+  "numero": "+358",
+  "numero_rotulo": "estrelas por dia, somando os 8 (criados nos últimos meses)",
+  "manchete": "VÍDEO COM IA NO SEU COMPUTADOR",
+  "destaque": "COMPUTADOR",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/8.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "neuregex/freefield",
+   "repo": "freefield",
+   "url": "https://github.com/neuregex/freefield",
+   "gancho": [
+    "ESTÚDIO DE IA",
+    "TODO ABERTO?"
+   ],
+   "o_que_e": "Um estúdio com 120 apps de imagem, vídeo, efeitos e áudio, todos com modelos de IA abertos, montados sobre o ComfyUI.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda onde você quiser",
+     "texto": "Na sua placa de vídeo, no Modal ou numa GPU alugada por hora."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Cada app é uma pasta",
+     "texto": "Você cria um app novo a partir de qualquer fluxo do ComfyUI."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O APP",
+    "PREENCHE",
+    "GERA O VÍDEO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+54",
+   "stat_rotulo": "por dia",
+   "total": "1.587",
+   "info2": "Python · criado há 29 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "FlashML-org/FreeVideo",
+   "repo": "FreeVideo",
+   "url": "https://github.com/FlashML-org/FreeVideo",
+   "gancho": [
+    "VÍDEO COM IA",
+    "NO SEU PC?"
+   ],
+   "o_que_e": "Um programa que gera vídeos com o modelo MiniMax H3 no computador que você já tem, com só 8 GB de memória de vídeo.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda em PC comum",
+     "texto": "Funciona com 8 GB de VRAM e 16 GB de RAM, no Windows, Mac e Linux."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Agentes fazem por você",
+     "texto": "Claude Code ou Codex podem gerar vídeos de mais de um minuto."
+    }
+   ],
+   "fluxo": [
+    "ESCREVE A IDEIA",
+    "VÊ A PRÉVIA",
+    "FINALIZA"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+50",
+   "stat_rotulo": "por dia",
+   "total": "3.278",
+   "info2": "Python · criado há 66 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "MiniMax-AI/MiniMax-H3-Image",
+   "repo": "MiniMax-H3-Image",
+   "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
+   "gancho": [
+    "IMAGEM GIGANTE",
+    "E EDITÁVEL"
+   ],
+   "o_que_e": "Um modelo de IA aberto que cria e edita imagens de 16 megapixels, de pôsteres a infográficos e desenhos técnicos.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Imagens de 16 MP",
+     "texto": "Cria e edita imagens grandes, com cenas cheias de detalhes."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Ajuda no pedido",
+     "texto": "Uma skill transforma sua ideia curta num pedido completo para a IA."
+    }
+   ],
+   "fluxo": [
+    "DÁ A IDEIA",
+    "A IA DETALHA",
+    "IMAGEM PRONTA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+48",
+   "stat_rotulo": "por dia",
+   "total": "419",
+   "info2": "Python · criado há 9 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "fendouai/ViralForge",
+   "repo": "ViralForge",
+   "url": "https://github.com/fendouai/ViralForge",
+   "gancho": [
+    "COPIA O VIRAL,",
+    "MUDA O PRODUTO"
+   ],
+   "o_que_e": "Um estúdio que desmonta um vídeo curto que viralizou, mostra o gancho e a estrutura e recria tudo com o seu produto.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Raio-x do vídeo",
+     "texto": "Mostra gancho, cena a cena, ritmo, legendas e curva de emoção."
+    },
+    {
+     "icone": "layers",
+     "titulo": "10 versões com custo",
+     "texto": "Gera variações com preço estimado para você testar qual vende mais."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "TROCA O ROTEIRO",
+    "10 VERSÕES"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+44",
+   "stat_rotulo": "por dia",
+   "total": "315",
+   "info2": "TypeScript · criado há 7 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "threerocks/article2media",
+   "repo": "article2media",
+   "url": "https://github.com/threerocks/article2media",
+   "gancho": [
+    "UM TEXTO.",
+    "VÁRIOS FORMATOS."
+   ],
+   "o_que_e": "Um conjunto de skills para Claude Code e Codex que transforma artigo ou vídeo em cards, imagens longas e vídeos narrados.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Vídeo com voz de IA",
+     "texto": "Cria vídeo vertical com narração e legenda palavra por palavra."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Confere sozinho",
+     "texto": "Cada resultado é checado automaticamente e avisa se algo saiu errado."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "A IA ENTENDE",
+    "POSTS PRONTOS"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+43",
+   "stat_rotulo": "por dia",
+   "total": "437",
+   "info2": "JavaScript · criado há 10 dias"
+  },
+  {
+   "pos": 6,
+   "nome": "scenario-labs/skills",
+   "repo": "skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "gancho": [
+    "SEU AGENTE",
+    "VIRA ESTÚDIO"
+   ],
+   "o_que_e": "Um pacote de skills que ensina agentes como o Claude Code a criar imagem, vídeo, áudio e 3D pela plataforma Scenario.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Preço antes de gastar",
+     "texto": "Escolhe o modelo certo e mostra o custo antes de gerar."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Comanda Blender e Unity",
+     "texto": "Equipes de skills operam Blender, Maya, ZBrush, Unreal e Unity."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE NO CHAT",
+    "ARQUIVO PRONTO"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+40",
+   "stat_rotulo": "por dia",
+   "total": "3.888",
+   "info2": "Python · criado há 98 dias"
+  },
+  {
+   "pos": 7,
+   "nome": "edenfunf/reelmimic",
+   "repo": "reelmimic",
+   "url": "https://github.com/edenfunf/reelmimic",
+   "gancho": [
+    "GOSTOU DO VÍDEO?",
+    "FAÇA UM IGUAL"
+   ],
+   "o_que_e": "Uma ferramenta em que você mostra um vídeo de referência e uma equipe de IAs cria um vídeo novo no mesmo estilo.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Estuda a referência",
+     "texto": "Analisa ritmo, cortes, transições, cores e movimentos de câmera."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Equipe de agentes",
+     "texto": "Claude Code ou Codex dividem o trabalho e revisam cada cena."
+    }
+   ],
+   "fluxo": [
+    "MANDA O VÍDEO",
+    "APROVA O PLANO",
+    "VÍDEO NOVO"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+40",
+   "stat_rotulo": "por dia",
+   "total": "2.046",
+   "info2": "JavaScript · criado há 51 dias"
+  },
+  {
+   "pos": 8,
+   "nome": "Vibha-Ramprakash/claude-video-effects",
+   "repo": "claude-video-effects",
+   "url": "https://github.com/Vibha-Ramprakash/claude-video-effects",
+   "gancho": [
+    "EFEITO NO VÍDEO",
+    "COM UM COMANDO"
+   ],
+   "o_que_e": "Um pacote de 51 efeitos de vídeo grátis para o Claude Code: você arrasta o vídeo e digita o nome do efeito.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Feito para Reels",
+     "texto": "Efeitos para Instagram Reels, TikTok e YouTube Shorts."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Texto atrás de você",
+     "texto": "Rastreia o rosto e coloca camadas atrás da sua cabeça."
+    }
+   ],
+   "fluxo": [
+    "ARRASTA O VÍDEO",
+    "DIGITA /EFFECTS",
+    "VÍDEO EDITADO"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "readme",
+   "stat": "+39",
+   "stat_rotulo": "por dia",
+   "total": "1.055",
+   "info2": "Python · criado há 27 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 8 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois. Amanhã tem outra área, sempre às 18h.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

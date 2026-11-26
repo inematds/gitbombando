@@ -1,0 +1,15 @@
+A Meta não larga o topo do GitHub: +2.842 estrelas em um dia com o Astryx
+
+#1 meta/astryx —
+#2 we-promise/sure —
+#3 ZhuLinsen/daily_stock_analysis —
+#4 addyosmani/agent-skills —
+#5 vercel-labs/agent-browser —
+#6 homeassistant-ai/ha-mcp —
+#7 shadcn/improve —
+#8 GoogleChrome/modern-web-guidance-src —
+#9 TheAlgorithms/Java —
+#10 openai/codex-security —
+
+Curso gratuito em inema.club
+#github #opensource #ia #programacao #inemaclub

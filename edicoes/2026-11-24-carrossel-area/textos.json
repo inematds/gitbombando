@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "SEU APP EM RUST, SEM REESCREVER",
+  "destaque": "RUST"
+ },
+ "repos": {
+  "EL4CTEO/fast-anything": {
+   "gancho": [
+    "SEU APP LENTO?",
+    "ACELERE SÓ O GARGALO"
+   ],
+   "o_que_e": "Uma ferramenta que acha as partes mais lentas do seu programa e pede ao seu agente de IA para reescrever só elas em Rust, conferindo o resultado.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Acha o que é lento",
+     "texto": "Mede o programa e lista as funções que mais gastam tempo."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Prova que funciona",
+     "texto": "Repete chamadas reais gravadas e confere se o resultado é igual."
+    }
+   ],
+   "fluxo": [
+    "RODA O APP",
+    "A IA REESCREVE",
+    "CONFERE E TROCA"
+   ]
+  },
+  "erkamyaman/rust-anything": {
+   "gancho": [
+    "O APP INTEIRO",
+    "EM RUST, AOS POUCOS"
+   ],
+   "o_que_e": "Uma ferramenta que grava o que seu programa faz e guia seu agente de IA a reescrevê-lo em Rust, conferindo cada parte com a gravação.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Uma parte por vez",
+     "texto": "Cada pedaço reescrito é checado antes de seguir para o próximo."
+    },
+    {
+     "icone": "code",
+     "titulo": "Várias linguagens",
+     "texto": "Aceita programas em TypeScript, Python, C, Go, Ruby e Java."
+    }
+   ],
+   "fluxo": [
+    "GRAVA O ORIGINAL",
+    "A IA REESCREVE",
+    "CONFERE CADA UM"
+   ]
+  },
+  "INK-Q/agy-fast": {
+   "gancho": [
+    "MENOS GASTO",
+    "NO ANTIGRAVITY"
+   ],
+   "o_que_e": "Um complemento para o Google Antigravity que agrupa buscas e edições do agente de IA, reduzindo idas ao modelo, consumo de cota e tempo.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Menos idas à IA",
+     "texto": "Junta buscas e edições frequentes em chamadas locais agrupadas."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Tela intacta",
+     "texto": "Não altera a interface, as diferenças nem as checagens do Antigravity."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "USA O AGENTE",
+    "GASTA MENOS"
+   ]
+  },
+  "shinyobjectz/raea": {
+   "gancho": [
+    "PEÇA UM VÍDEO",
+    "A IA CRIA"
+   ],
+   "o_que_e": "Um aplicativo em que você pede vídeos, animações, 3D e jogos numa conversa, e a sua IA escreve o código e gera tudo na sua placa de vídeo.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Vídeo, 3D e jogos",
+     "texto": "Cria animações, cenas 3D e jogos a partir do que você pede."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu PC",
+     "texto": "Gera tudo na sua placa de vídeo, no Mac, Linux ou Windows."
+    }
+   ],
+   "fluxo": [
+    "PEDE NO CHAT",
+    "A IA CRIA",
+    "VOCÊ AJUSTA"
+   ]
+  },
+  "kaankiziltug/logo-design-skill": {
+   "gancho": [
+    "SUA IA COMO",
+    "DESIGNER DE LOGO"
+   ],
+   "o_que_e": "Um pacote de habilidades que ensina o Claude e outros agentes de IA a criar logotipos, do briefing aos arquivos prontos e ao guia da marca.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Acervo de referência",
+     "texto": "Mais de mil logos reais classificados para estudar, nunca copiar."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Testes do logo",
+     "texto": "Confere o logo em tamanho mínimo, uma cor, invertido e no espelho."
+    }
+   ],
+   "fluxo": [
+    "DÁ O BRIEFING",
+    "A IA DESENHA",
+    "LOGO TESTADO"
+   ]
+  }
+ },
+ "legenda_abertura": "Os projetos de Claude Code, MCP e skills que mais crescem no GitHub nesta semana: de reescrever só a parte lenta do seu programa até criar vídeos e logos conversando com a IA. Passe o carrossel para ver cada um.",
+ "telegram": "Saiu a seleção dos repositórios de Claude Code, MCP e skills que mais crescem no GitHub, confira no carrossel. No inema.club está tudo lá, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "AGENTES DE IA VIRAM EQUIPE",
+  "destaque": "EQUIPE"
+ },
+ "repos": {
+  "w01fb0ss/PiBot": {
+   "gancho": [
+    "UMA EQUIPE DE IA",
+    "NO SEU COMPUTADOR"
+   ],
+   "o_que_e": "Um aplicativo de código aberto em que vários robôs de IA trabalham juntos no seu computador, e cada passo arriscado espera a sua aprovação.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Bate-papo em grupo",
+     "texto": "Um coordenador planeja e divide as tarefas entre os robôs."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Tudo fica com você",
+     "texto": "Conversas, arquivos, memória e chaves ficam no seu computador."
+    }
+   ],
+   "fluxo": [
+    "CRIA OS ROBÔS",
+    "DÁ A TAREFA",
+    "VOCÊ APROVA"
+   ]
+  },
+  "ThreatDefence/agentic-attack-detections": {
+   "gancho": [
+    "ATAQUE FEITO POR IA",
+    "DÁ PARA PEGAR?"
+   ],
+   "o_que_e": "Um conjunto gratuito de regras para equipes de segurança detectarem invasões conduzidas por agentes de IA que planejam e executam ataques.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Onze ferramentas",
+     "texto": "Regras para ARTEX, PentAGI, Agent Zero, Strix e outras ferramentas."
+    },
+    {
+     "icone": "search",
+     "titulo": "Sinais de ataque",
+     "texto": "Uma lista de 572 indicadores com fonte, pronta para usar."
+    }
+   ],
+   "fluxo": [
+    "BAIXA AS REGRAS",
+    "LIGA NO SISTEMA",
+    "VÊ O ALERTA"
+   ]
+  },
+  "miqdadbadjuber/anti-slop": {
+   "gancho": [
+    "CHEGA DE CARA",
+    "DE FEITO POR IA"
+   ],
+   "o_que_e": "Um livro de regras que o agente de programação lê a cada sessão para cortar telas, textos e código com cara genérica de IA.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Quarenta regras",
+     "texto": "Regras em três níveis e um relatório obrigatório de aprovado ou não."
+    },
+    {
+     "icone": "code",
+     "titulo": "Feito para Claude Code",
+     "texto": "Instala com um comando e carrega seis habilidades só quando precisa."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "PEDE A TELA",
+    "SAI SEM CLICHÊ"
+   ]
+  },
+  "Appllama/appllama-skills": {
+   "gancho": [
+    "APP COM CARA",
+    "DE APP QUE VENDE"
+   ],
+   "o_que_e": "Um pacote de habilidades que ensina agentes de IA a criar telas de celular estudando os aplicativos que mais faturam.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Telas de quem vende",
+     "texto": "Estuda telas e fluxos reais dos aplicativos que mais faturam."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Telas nativas",
+     "texto": "Gera telas em Expo e React Native com cara de app de verdade."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O TIPO",
+    "A IA PESQUISA",
+    "TELA PRONTA"
+   ]
+  },
+  "tigerless-labs/agent-memory": {
+   "gancho": [
+    "SUA IA ESQUECE",
+    "TUDO NO FIM?"
+   ],
+   "o_que_e": "Uma memória de longo prazo para agentes de IA, guardada em arquivos de texto simples, que o Claude Code e o Codex podem dividir.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Busca local",
+     "texto": "Procura as lembranças no seu computador, sem chave de serviço pago."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Arruma sozinha",
+     "texto": "Em segundo plano, junta lembranças e descarta o que não serve."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "VOCÊ CONVERSA",
+    "ELA LEMBRA"
+   ]
+  }
+ },
+ "legenda_abertura": "Os agentes de IA deixaram de trabalhar sozinhos: agora formam equipes, guardam memória e até viram alvo de defesa. Passe o carrossel e veja os 5 projetos que mais crescem no GitHub nessa área. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de agentes de IA que mais crescem no GitHub. Tem equipe de robôs no computador, memória para o agente e regras para cortar a cara de feito por IA. No inema.club está tudo, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

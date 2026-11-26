@@ -1,0 +1,15 @@
+A Meta abriu o kit de 13 mil apps e o GitHub explodiu: +3.111 estrelas em um dia
+
+#1 meta/astryx —
+#2 sherlock-project/sherlock —
+#3 anthropics/skills —
+#4 mattpocock/skills —
+#5 homeassistant-ai/ha-mcp —
+#6 vercel-labs/agent-browser —
+#7 anthropics/claude-quickstarts —
+#8 addyosmani/agent-skills —
+#9 google-deepmind/mujoco —
+#10 ranxianglei/billion-context —
+
+Curso gratuito em inema.club
+#github #opensource #ia #programacao #inemaclub

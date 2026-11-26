@@ -1,0 +1,1 @@
+revisor/portão: reprovado — Print do PiBot (slide 3) está praticamente todo branco e vazio, e o do mdldm-maitian (slide 4) é um terminal preto vazio que não mostra nada do projeto.

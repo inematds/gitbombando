@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · SEGURANÇA",
+ "conta": "@inema.tech",
+ "data_br": "19/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "SEGURANÇA",
+  "numero": "+257",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "INVESTIGAÇÃO COM DADOS PÚBLICOS EM ALTA",
+  "destaque": "INVESTIGAÇÃO",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/3.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "memoryswordsmanlaud/fieldkit-awesome-osint-list",
+   "repo": "fieldkit-awesome-osint-list",
+   "url": "https://github.com/memoryswordsmanlaud/fieldkit-awesome-osint-list",
+   "gancho": [
+    "UMA PISTA,",
+    "UMA FERRAMENTA."
+   ],
+   "o_que_e": "Uma lista de 22 ferramentas de investigação para Windows que usam só dados públicos: apelido, foto, site, carteira cripto ou empresa.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Uma para cada pista",
+     "texto": "Busca apelido, localiza foto, checa site antes de pagar e mais."
+    },
+    {
+     "icone": "download",
+     "titulo": "Sem conta, portátil",
+     "texto": "Programas portáteis para Windows 10 e 11, sem criar conta."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A PISTA",
+    "BAIXA O APP",
+    "VÊ O RESULTADO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+77",
+   "stat_rotulo": "por dia",
+   "total": "454",
+   "info2": "criado há 6 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "StormBrawlerSack/legwork-osint-ai-investigator",
+   "repo": "legwork-osint-ai-investigator",
+   "url": "https://github.com/StormBrawlerSack/legwork-osint-ai-investigator",
+   "gancho": [
+    "PERGUNTA SIMPLES,",
+    "RESPOSTA COM FONTE"
+   ],
+   "o_que_e": "Um investigador com IA para Windows: você pergunta em palavras simples e recebe uma resposta montada com fontes públicas.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Fonte em cada frase",
+     "texto": "Cada linha da resposta mostra as páginas públicas de onde veio."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Sem chute",
+     "texto": "Afirmações com uma fonte só ficam de fora e lacunas são avisadas."
+    }
+   ],
+   "fluxo": [
+    "FAZ A PERGUNTA",
+    "A IA PESQUISA",
+    "RESPOSTA CITADA"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+76",
+   "stat_rotulo": "por dia",
+   "total": "454",
+   "info2": "JavaScript · criado há 6 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "nukeratframework/nukerat",
+   "repo": "nukerat",
+   "url": "https://github.com/nukeratframework/nukerat",
+   "gancho": [
+    "SIMULAR ATAQUES",
+    "EM EQUIPE VERMELHA?"
+   ],
+   "o_que_e": "Uma plataforma para equipes de teste de invasão (Red Team) controlarem máquinas já invadidas em testes autorizados de segurança.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 550 utilitários",
+     "texto": "Arsenal pronto e integração com mais de 240 programas nativos do Windows."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Windows, Linux e macOS",
+     "texto": "Os agentes rodam nos três sistemas e há relatórios de comandos e máquinas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO KALI",
+    "CRIA O AGENTE",
+    "GERA RELATÓRIO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "opengraph",
+   "stat": "+37",
+   "stat_rotulo": "por dia",
+   "total": "479",
+   "info2": "TypeScript · criado há 13 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "arpanjot-coding/AVault",
+   "repo": "AVault",
+   "url": "https://github.com/arpanjot-coding/AVault",
+   "gancho": [
+    "GRAVAR LIGAÇÃO",
+    "SEM ROOT?"
+   ],
+   "o_que_e": "Um gravador de chamadas gratuito e de código aberto para Android que guarda os áudios num cofre criptografado.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Cofre criptografado",
+     "texto": "Gravações protegidas com criptografia AES-256 e biometria."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Sem root, via Shizuku",
+     "texto": "Usa o app Shizuku para acessar o sistema, no Android 11 ou mais novo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "ATIVA O SHIZUKU",
+    "GRAVA E GUARDA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+34",
+   "stat_rotulo": "por dia",
+   "total": "632",
+   "info2": "Kotlin · criado há 19 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "ChiefGyk3D/Clouds-Against-Humanity",
+   "repo": "Clouds-Against-Humanity",
+   "url": "https://github.com/ChiefGyk3D/Clouds-Against-Humanity",
+   "gancho": [
+    "APRENDA NUVEM",
+    "SEGURA NA PRÁTICA"
+   ],
+   "o_que_e": "Um laboratório de código aberto que ensina segurança em nuvem construindo um ambiente real, com aulas passo a passo numa wiki.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Nenhuma porta aberta",
+     "texto": "Nenhum servidor tem porta pública aberta: acesso só pelo Twingate."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Aulas do zero",
+     "texto": "A wiki explica nuvem, Terraform e confiança zero desde o começo."
+    }
+   ],
+   "fluxo": [
+    "LÊ A WIKI",
+    "SOBE O AMBIENTE",
+    "PRATICA SEGURO"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+33",
+   "stat_rotulo": "por dia",
+   "total": "1.303",
+   "info2": "Python · criado há 40 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

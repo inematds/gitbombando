@@ -1,0 +1,42 @@
+{
+ "mdiri-ai/SoduWork": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/mdiri-ai/SoduWork/main/docs/assets/product-architecture.en.png",
+  "tam": [
+   1400,
+   1711
+  ]
+ },
+ "w01fb0ss/PiBot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/w01fb0ss/PiBot/main/docs/assets/pibot-intro-15s.gif",
+  "tam": [
+   800,
+   450
+  ]
+ },
+ "CzzzzzzJ/mdldm-maitian": {
+  "fonte": "readme",
+  "url": "https://github.com/CzzzzzzJ/mdldm-maitian/releases/download/media/maitian-publish.gif",
+  "tam": [
+   720,
+   405
+  ]
+ },
+ "CopilotKit/OpenBot": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/c60f07da-8b6d-46eb-a573-17fc1e65a644",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "zephyr4123/snug": {
+  "fonte": "readme",
+  "url": "https://dl.zephyrxiang.com/snug/media/hero-architecture.0ee41447.png",
+  "tam": [
+   1400,
+   717
+  ]
+ }
+}

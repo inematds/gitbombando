@@ -1,0 +1,42 @@
+{
+ "Fei-Craft/DS-Bot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Fei-Craft/DS-Bot/main/docs/images/team.png",
+  "tam": [
+   1400,
+   860
+  ]
+ },
+ "w01fb0ss/PiBot": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/w01fb0ss/PiBot/main/docs/assets/pibot-intro-15s.gif",
+  "tam": [
+   800,
+   450
+  ]
+ },
+ "tigerless-labs/agent-memory": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/tigerless-labs/agent-memory",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "Tencent/LoopForge": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/Tencent/LoopForge",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "microsoft/skill-recorder": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/microsoft/skill-recorder/main/docs/images/recorder.png",
+  "tam": [
+   1024,
+   1292
+  ]
+ }
+}

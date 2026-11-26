@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "INVESTIGAÇÃO COM DADOS PÚBLICOS EM ALTA",
+  "destaque": "INVESTIGAÇÃO"
+ },
+ "repos": {
+  "memoryswordsmanlaud/fieldkit-awesome-osint-list": {
+   "gancho": [
+    "UMA PISTA,",
+    "UMA FERRAMENTA."
+   ],
+   "o_que_e": "Uma lista de 22 ferramentas de investigação para Windows que usam só dados públicos: apelido, foto, site, carteira cripto ou empresa.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Uma para cada pista",
+     "texto": "Busca apelido, localiza foto, checa site antes de pagar e mais."
+    },
+    {
+     "icone": "download",
+     "titulo": "Sem conta, portátil",
+     "texto": "Programas portáteis para Windows 10 e 11, sem criar conta."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE A PISTA",
+    "BAIXA O APP",
+    "VÊ O RESULTADO"
+   ]
+  },
+  "StormBrawlerSack/legwork-osint-ai-investigator": {
+   "gancho": [
+    "PERGUNTA SIMPLES,",
+    "RESPOSTA COM FONTE"
+   ],
+   "o_que_e": "Um investigador com IA para Windows: você pergunta em palavras simples e recebe uma resposta montada com fontes públicas.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Fonte em cada frase",
+     "texto": "Cada linha da resposta mostra as páginas públicas de onde veio."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Sem chute",
+     "texto": "Afirmações com uma fonte só ficam de fora e lacunas são avisadas."
+    }
+   ],
+   "fluxo": [
+    "FAZ A PERGUNTA",
+    "A IA PESQUISA",
+    "RESPOSTA CITADA"
+   ]
+  },
+  "nukeratframework/nukerat": {
+   "gancho": [
+    "SIMULAR ATAQUES",
+    "EM EQUIPE VERMELHA?"
+   ],
+   "o_que_e": "Uma plataforma para equipes de teste de invasão (Red Team) controlarem máquinas já invadidas em testes autorizados de segurança.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 550 utilitários",
+     "texto": "Arsenal pronto e integração com mais de 240 programas nativos do Windows."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Windows, Linux e macOS",
+     "texto": "Os agentes rodam nos três sistemas e há relatórios de comandos e máquinas."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO KALI",
+    "CRIA O AGENTE",
+    "GERA RELATÓRIO"
+   ]
+  },
+  "arpanjot-coding/AVault": {
+   "gancho": [
+    "GRAVAR LIGAÇÃO",
+    "SEM ROOT?"
+   ],
+   "o_que_e": "Um gravador de chamadas gratuito e de código aberto para Android que guarda os áudios num cofre criptografado.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Cofre criptografado",
+     "texto": "Gravações protegidas com criptografia AES-256 e biometria."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Sem root, via Shizuku",
+     "texto": "Usa o app Shizuku para acessar o sistema, no Android 11 ou mais novo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "ATIVA O SHIZUKU",
+    "GRAVA E GUARDA"
+   ]
+  },
+  "ChiefGyk3D/Clouds-Against-Humanity": {
+   "gancho": [
+    "APRENDA NUVEM",
+    "SEGURA NA PRÁTICA"
+   ],
+   "o_que_e": "Um laboratório de código aberto que ensina segurança em nuvem construindo um ambiente real, com aulas passo a passo numa wiki.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Nenhuma porta aberta",
+     "texto": "Nenhum servidor tem porta pública aberta: acesso só pelo Twingate."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Aulas do zero",
+     "texto": "A wiki explica nuvem, Terraform e confiança zero desde o começo."
+    }
+   ],
+   "fluxo": [
+    "LÊ A WIKI",
+    "SOBE O AMBIENTE",
+    "PRATICA SEGURO"
+   ]
+  }
+ },
+ "legenda_abertura": "Investigar com dados públicos, proteger suas gravações e aprender segurança em nuvem: esses são os projetos de segurança digital que mais crescem no GitHub agora. Arraste o carrossel e veja o que cada um faz. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de segurança digital que mais crescem no GitHub. Dá uma olhada e conta qual você testaria primeiro. Está tudo no inema.club, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

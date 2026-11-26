@@ -1,0 +1,15 @@
+Cloudflare segue no topo e um caça-apelidos invade o pódio: +2.085 estrelas no GitHub
+
+#1 cloudflare/security-audit-skill —
+#2 milind-soni/OpenMausBot —
+#3 sherlock-project/sherlock —
+#4 zed-industries/zed —
+#5 mattpocock/skills —
+#6 google/skills —
+#7 anthropics/skills —
+#8 astral-sh/ruff —
+#9 prometheus/prometheus —
+#10 ranxianglei/billion-context —
+
+Curso gratuito em inema.club
+#github #opensource #ia #programacao #inemaclub

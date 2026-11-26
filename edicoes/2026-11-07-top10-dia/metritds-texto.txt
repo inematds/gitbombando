@@ -1,0 +1,15 @@
+Cloudflare libera o caça-falhas e derruba a NVIDIA: +2.548 estrelas em um dia no GitHub
+
+#1 cloudflare/security-audit-skill —
+#2 mattpocock/skills —
+#3 NVIDIA/auto-ontology —
+#4 google/skills —
+#5 lz4/lz4 —
+#6 zed-industries/zed —
+#7 microsoft/vscode —
+#8 react/react —
+#9 rust-lang/rust —
+#10 astral-sh/ruff —
+
+Curso gratuito em inema.club
+#github #opensource #ia #programacao #inemaclub

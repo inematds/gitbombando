@@ -1,0 +1,66 @@
+{
+ "neuregex/freefield": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/neuregex/freefield/main/docs/media/ui-demo.webp",
+  "tam": [
+   880,
+   495
+  ]
+ },
+ "FlashML-org/FreeVideo": {
+  "fonte": "readme",
+  "url": "https://github.com/user-attachments/assets/7647a6f8-4306-403c-b147-45d7a393e18d",
+  "tam": [
+   1400,
+   884
+  ]
+ },
+ "MiniMax-AI/MiniMax-H3-Image": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3-Image/main/assets/minimax-h3-image.jpg",
+  "tam": [
+   1400,
+   603
+  ]
+ },
+ "fendouai/ViralForge": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/fendouai/ViralForge/main/docs/en/hero.jpg",
+  "tam": [
+   1400,
+   788
+  ]
+ },
+ "threerocks/article2media": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/threerocks/article2media/main/docs/showcase.jpg",
+  "tam": [
+   1400,
+   1587
+  ]
+ },
+ "scenario-labs/skills": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/scenario-labs/skills/main/resources/scenario-logo.png",
+  "tam": [
+   1024,
+   1024
+  ]
+ },
+ "edenfunf/reelmimic": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/edenfunf/reelmimic/main/docs/assets/home-en-dark.png",
+  "tam": [
+   1400,
+   1097
+  ]
+ },
+ "Vibha-Ramprakash/claude-video-effects": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/Vibha-Ramprakash/claude-video-effects/main/assets/preview.jpg",
+  "tam": [
+   1400,
+   1210
+  ]
+ }
+}

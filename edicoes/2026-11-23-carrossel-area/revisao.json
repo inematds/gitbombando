@@ -1,0 +1,9 @@
+{
+ "veredito": "reprovado",
+ "motivo": "Print do PiBot (slide 3) está praticamente todo branco e vazio, e o do mdldm-maitian (slide 4) é um terminal preto vazio que não mostra nada do projeto.",
+ "slides_ruins": [
+  3,
+  4
+ ],
+ "sugestao": "Detectar print quase todo de uma cor só (branco ou preto) e trocar por outra imagem do README ou pelo cartão automático do GitHub; o texto, as posições e as estrelas (soma +963) estão corretos."
+}

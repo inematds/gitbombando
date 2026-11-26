@@ -1,0 +1,2 @@
+revisor/portão: sem veredito —     raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', PosixPath('/home/nmaldaner/projetos/gitbombando/carrossel/prints.py'), PosixPath('/home/nmaldaner/projetos/gitbombando/edicoes/2026-11-05-carrossel-area')]' returned non-zero exit status 1.

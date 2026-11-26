@@ -1,0 +1,1 @@
+montagem falhou depois de 3 tentativas: RuntimeError: codex encerrou com código 1; verifique cota/login/modelo

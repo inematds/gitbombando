@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "GIGANTES ENSINAM A SUA IA",
+  "destaque": "GIGANTES"
+ },
+ "repos": {
+  "cloudflare/security-audit-skill": {
+   "gancho": [
+    "SUA IA CAÇANDO",
+    "FALHAS DE SEGURANÇA"
+   ],
+   "o_que_e": "Uma habilidade da Cloudflare que transforma o seu assistente de programação num auditor que procura falhas de segurança no código.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Auditoria em seis fases",
+     "texto": "Mapeia o sistema, caça falhas, testa cada achado e escreve o relatório."
+    },
+    {
+     "icone": "search",
+     "titulo": "Cada falha conferida",
+     "texto": "Um verificador novo tenta derrubar cada suspeita antes de confirmar."
+    }
+   ],
+   "fluxo": [
+    "MAPEIA O CÓDIGO",
+    "CAÇA AS FALHAS",
+    "SAI O RELATÓRIO"
+   ]
+  },
+  "mattpocock/skills": {
+   "gancho": [
+    "IA QUE PROGRAMA",
+    "COM CAPRICHO"
+   ],
+   "o_que_e": "Um pacote de habilidades que um programador experiente usa todo dia para a IA trabalhar com método, e não no chute.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Pequenas e adaptáveis",
+     "texto": "Cada habilidade é curta, fácil de mudar e de combinar com outras."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Serve em qualquer IA",
+     "texto": "Funciona com qualquer modelo e instala no Claude Code ou no Codex."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "CHAMA A SKILL",
+    "IA COM MÉTODO"
+   ]
+  },
+  "NVIDIA/auto-ontology": {
+   "gancho": [
+    "IA QUE NÃO",
+    "INVENTA NÚMEROS"
+   ],
+   "o_que_e": "Um kit aberto da NVIDIA que monta um mapa do significado dos dados da empresa, para a IA consultar os números certos.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Mapa a partir dos dados",
+     "texto": "Monta um mapa de conhecimento a partir das descrições dos dados."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Confere cada consulta",
+     "texto": "Checa as consultas contra definições aprovadas e mostra de onde veio."
+    }
+   ],
+   "fluxo": [
+    "LÊ OS DADOS",
+    "MONTA O MAPA",
+    "RESPOSTA CERTA"
+   ]
+  },
+  "google/skills": {
+   "gancho": [
+    "SUA IA NA",
+    "NUVEM DO GOOGLE"
+   ],
+   "o_que_e": "Um pacote oficial do Google que ensina o seu assistente de IA a usar os produtos do Google, como o Google Cloud.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Instala com um comando",
+     "texto": "Um comando no terminal instala e outro atualiza as habilidades."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Receitas de nuvem",
+     "texto": "Guias para entrar no Google Cloud, liberar acessos e montar a base."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE O QUE",
+    "IA NO GOOGLE"
+   ]
+  },
+  "lz4/lz4": {
+   "gancho": [
+    "COMPACTA ARQUIVOS",
+    "NA VELOCIDADE MÁXIMA"
+   ],
+   "o_que_e": "Um método de compactar arquivos sem perder nada e muito rápido, que fica escondido por dentro de muitos programas.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Mais de 500 MB/s",
+     "texto": "Compacta mais de 500 MB por segundo em cada núcleo do processador."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Abre ainda mais rápido",
+     "texto": "Descompacta a vários GB por segundo, perto do limite da memória."
+    }
+   ],
+   "fluxo": [
+    "PEGA O ARQUIVO",
+    "COMPACTA",
+    "ABRE NA HORA"
+   ]
+  },
+  "zed-industries/zed": {
+   "gancho": [
+    "UM EDITOR VELOZ",
+    "PARA CODAR EM TIME"
+   ],
+   "o_que_e": "Um editor de código muito rápido, dos criadores do Atom, em que várias pessoas podem programar juntas ao mesmo tempo.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Feito para ser rápido",
+     "texto": "Um editor de alto desempenho, escrito na linguagem Rust."
+    },
+    {
+     "icone": "download",
+     "titulo": "Mac, Linux e Windows",
+     "texto": "Baixa direto do site ou pelo instalador de programas do sistema."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O ZED",
+    "ABRE O PROJETO",
+    "PROGRAMA JUNTO"
+   ]
+  },
+  "microsoft/vscode": {
+   "gancho": [
+    "O CÓDIGO DO VS CODE",
+    "ABERTO A TODOS"
+   ],
+   "o_que_e": "Um repositório onde a Microsoft desenvolve o Visual Studio Code, o editor de código gratuito, junto com a comunidade.",
+   "beneficios": [
+    {
+     "icone": "code",
+     "titulo": "Código aberto MIT",
+     "texto": "O código-fonte é livre para qualquer pessoa usar, sob a licença MIT."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Planos à vista",
+     "texto": "A Microsoft publica ali o roteiro e os planos de trabalho de cada mês."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O VS CODE",
+    "ABRE O PROJETO",
+    "PROGRAMA"
+   ]
+  },
+  "react/react": {
+   "gancho": [
+    "MONTE TELAS",
+    "EM BLOCOS"
+   ],
+   "o_que_e": "Um kit em JavaScript para criar as telas de sites e aplicativos, montadas com blocos que você reaproveita.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Telas em blocos",
+     "texto": "Cada pedaço da tela é um bloco que cuida das próprias informações."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Web e celular",
+     "texto": "Aprende uma vez e cria telas tanto para sites quanto para apps."
+    }
+   ],
+   "fluxo": [
+    "CRIA OS BLOCOS",
+    "JUNTA AS PEÇAS",
+    "TELA PRONTA"
+   ]
+  },
+  "rust-lang/rust": {
+   "gancho": [
+    "PROGRAMAS RÁPIDOS",
+    "QUE NÃO TRAVAM"
+   ],
+   "o_que_e": "Uma linguagem de programação para criar programas rápidos e confiáveis. Aqui fica o código oficial dela.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Rápido e econômico",
+     "texto": "Gasta pouca memória e serve até para aparelhos pequenos."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Menos erros escondidos",
+     "texto": "Pega erros de memória antes mesmo de o programa rodar."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O RUST",
+    "ESCREVE",
+    "PROGRAMA RODA"
+   ]
+  },
+  "astral-sh/ruff": {
+   "gancho": [
+    "CÓDIGO PYTHON",
+    "ARRUMADO NA HORA"
+   ],
+   "o_que_e": "Um revisor de código Python, feito em Rust, que acha erros e arruma o jeito do código bem mais rápido que os rivais.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "De 10 a 100x mais rápido",
+     "texto": "Mais veloz que ferramentas conhecidas, como Flake8 e Black."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Corrige sozinho",
+     "texto": "Mais de 900 regras e conserto automático de vários erros comuns."
+    }
+   ],
+   "fluxo": [
+    "INSTALA COM PIP",
+    "RODA NO CÓDIGO",
+    "CÓDIGO ARRUMADO"
+   ]
+  }
+ },
+ "legenda_abertura": "Cloudflare, NVIDIA, Google e Microsoft dominaram o GitHub hoje, com projetos que ensinam a sua IA a trabalhar melhor. Passa o carrossel e veja o que cada projeto faz. Para aprender a usar IA de graça, o caminho é o inema.club.",
+ "telegram": "Saiu o Top 10 do dia no GitHub: Cloudflare, NVIDIA, Google e Microsoft no topo, com habilidades que deixam a sua IA mais esperta. O carrossel explica cada projeto em poucos toques. Os cursos grátis de IA estão no inema.club."
+}

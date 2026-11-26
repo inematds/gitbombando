@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
-"""Carrosséis diários do Bombando no GitHub (Instagram/TikTok inema.tech, marca FTD do lives3 + tópico no INEMA.DEV; Nei 09/11/2026: "carrossel no lives3, os outros no lives4").
+"""Carrosséis do Bombando no GitHub (grade do Nei, 18/11/2026): Telegram INEMA.FTD + fila do x3.
 
-Dois tipos (Nei, 04/11/2026: "2 carrosséis e 1 vídeo diário"):
-  top10  — os 10 do GitHub Trending do dia (reusa a coleta do vídeo da manhã), sai às 14h
-  area   — o Top 8 de uma área por dia da semana (carrossel/area.py), sai às 18h
+Tipos: top10 (dia) · top5 (semana) · area (área do dia) · agentes. Reusam a coleta do reel do mesmo horário.
 
-  python3 carrossel/carrossel.py dados    <pasta> top10|area [AAAA-MM-DD]   → dados.json
-  python3 carrossel/carrossel.py textos   <pasta>      claude -p (carrossel/textos.md) → textos.json + portão
+  python3 carrossel/carrossel.py dados    <pasta> <tipo> [AAAA-MM-DD]   → dados.json
+  python3 carrossel/carrossel.py textos   <pasta>      carrossel/textos.md → textos.json + portão
   python3 carrossel/carrossel.py montar   <pasta>      prints do README → slides.json → slides/*.png + portão + folha.jpg
-  python3 carrossel/carrossel.py revisar  <pasta>      claude -p olha a folha (carrossel/revisor.md) → revisao.json
-  python3 carrossel/carrossel.py fazer    <pasta> top10|area [dia]   tudo acima, na ordem
-  python3 carrossel/carrossel.py publicar <pasta>      Telegram INEMA.DEV → metritds (Instagram + TikTok) → aviso azul no v3
+  python3 carrossel/carrossel.py revisar  <pasta>      revisor olha a folha → revisao.json
+  python3 carrossel/carrossel.py fazer    <pasta> <tipo> [dia]   tudo acima, na ordem
+  python3 carrossel/carrossel.py publicar <pasta>      Telegram INEMA.FTD → fila do x3 (GB_CANAL_CARROSSEL); v3 só se falhar
 
-Desligar partes: SEM_TG=1 SEM_METRI=1 SEM_BOT=1. RASCUNHO=1 agenda no Metricool como rascunho.
+Desligar partes: SEM_TG=1 SEM_X3=1 SEM_BOT=1. GB_CONTA = @ que aparece nos slides.
 """
 import datetime as dt
 import json
@@ -21,7 +19,6 @@ import re
 import shutil
 import subprocess
 import sys
-import tempfile
 import time
 from pathlib import Path
 
@@ -32,16 +29,17 @@ AQUI = Path(__file__).resolve().parent
 R = AQUI.parent
 sys.path.insert(0, str(R))
 from auto.ia import executar as executar_ia
-from auto.metricool_lock import serializar
-CONTA = "@inema.tech"
-GRUPO_TG = "INEMA.DEV"
-TOPICO_TG = R / "auto/telegram-topico-carrossel.txt"
+CONTA = os.environ.get("GB_CONTA", "@inema.tech")
+CANAL_X3 = os.environ.get("GB_CANAL_CARROSSEL", "lives9")   # grade do Nei, 18/11/2026: tudo entra pela fila do x3
+X3 = Path.home() / "projetos/yt-pub-x3/yt-pub-x3"
+GRUPO_TG = "INEMA.FTD"
+TOPICO_TG = R / "auto/telegram-topico-carrossel-ftd.txt"
 HIST = R / "historico/carrossel-area.jsonl"
-AGENDA = "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+AGENDA = "Todo dia tem <b>Top do GitHub</b> novo"
+FONTES = {"top10": "top10-dia", "top5": "top5-semana", "area": "top5-area", "agentes": "top5-agentes"}
 ICONES = {"zap", "video", "image", "mic", "code", "terminal", "bot", "brain", "shield", "lock", "search", "globe", "layers",
           "clock", "cpu", "database", "wand", "chart", "folder", "link", "chat", "download"}
 PROIBIDO = re.compile(r"revolucion|incrível|inacreditável|insano|mude sua vida|!!|\bmort[eoa]s?\b|\btu\b|\bteu\b", re.I)
-TRAVA = R / "auto/intervalo.py"
 
 
 def log(*a):
@@ -68,39 +66,49 @@ def data_br(d):
 def tema(d):
     if d["tipo"] == "top10":
         return f"os {len(d['itens'])} projetos que mais ganharam estrelas hoje no GitHub (Top {len(d['itens'])} do dia)"
+    if d["tipo"] == "top5":
+        return f"os {len(d['itens'])} projetos que mais ganharam estrelas na semana no GitHub (Top {len(d['itens'])} da semana)"
     return f"os {len(d['itens'])} repositórios que mais crescem no GitHub na área {d['area']['curto']}"
 
 
 # ------------------------------------------------------------------ dados
+def coletar(tipo, cd, dia):
+    """Sem a coleta do reel do mesmo horário, coleta aqui mesmo (carrossel não espera: 08/11/2026)."""
+    env = {**os.environ, "GB_ESPERA_TRENDING": "0"}
+    if tipo == "top10":
+        cmd = [sys.executable, R / "coleta/trending.py", cd, "dia"]
+    elif tipo == "top5":
+        cmd = [sys.executable, R / "coleta/trending.py", cd, "semana"]
+        env |= {"GB_TOP": "5", "GB_SEM_HISTORICO": "1"}
+    else:
+        cmd = [sys.executable, R / "coleta/area_top.py", cd, tipo, dia]
+    subprocess.run(cmd, check=True, timeout=1800, env=env)
+
+
 def cmd_dados(cd, tipo, dia=None):
     cd = Path(cd).resolve(); dia = dia or dt.date.today().isoformat()
     (cd / "pesquisa").mkdir(parents=True, exist_ok=True)
-    if tipo == "top10":
-        ed = R / f"edicoes/{dia}-top10-dia"
-        fonte = ed / "pesquisa/top10.json"
-        if not fonte.exists():   # o vídeo da manhã não coletou: coleta aqui mesmo
-            log("sem a coleta do vídeo; coletando o Trending agora")
-            subprocess.run([sys.executable, R / "coleta/trending.py", cd, "dia"], check=True, timeout=900,
-                           env={**os.environ, "GB_ESPERA_TRENDING": "0"})  # carrossel não espera (08/11/2026)
-            fonte = cd / "pesquisa/top10.json"
-        top = json.loads(fonte.read_text())
-        desc = {}
-        if (ed / "ficha.yaml").exists():
-            for x in yaml.safe_load((ed / "ficha.yaml").read_text()).get("partes", []):
-                if x.get("repo"):
-                    desc[x["repo"]] = x.get("desc", "")
-        itens = []
-        for it in sorted(top["top10"], key=lambda x: int(x["pos"])):
-            itens.append({k: it.get(k) for k in ("pos", "nome", "dono", "repo", "descricao_en", "linguagem", "estrelas_periodo",
-                                                  "estrelas_total", "criado_em", "url", "topicos")}
-                         | {"readme": (it.get("readme") or "")[:1500], "desc_pt": desc.get(it["nome"], "")})
-        d = {"tipo": "top10", "dia": dia, "itens": itens, "soma": sum(int(x["estrelas_periodo"]) for x in itens),
+    ed = R / f"edicoes/{dia}-{FONTES[tipo]}"
+    fonte = ed / "pesquisa/top10.json"
+    if not fonte.exists():
+        log("sem a coleta do vídeo; coletando agora")
+        coletar(tipo, cd, dia)
+        fonte = cd / "pesquisa/top10.json"
+    top = json.loads(fonte.read_text())
+    desc = {}
+    if (ed / "ficha.yaml").exists():
+        for x in yaml.safe_load((ed / "ficha.yaml").read_text()).get("partes", []):
+            if x.get("repo"):
+                desc[x["repo"]] = x.get("desc", "")
+    ordem = sorted(top["top10"], key=lambda x: int(x["pos"]))
+    extra = lambda it: {"readme": (it.get("readme") or "")[:1500], "desc_pt": desc.get(it["nome"], "")}
+    if tipo in ("top10", "top5"):
+        itens = [{k: it.get(k) for k in ("pos", "nome", "dono", "repo", "descricao_en", "linguagem", "estrelas_periodo",
+                                         "estrelas_total", "criado_em", "url", "topicos")} | extra(it) for it in ordem]
+        d = {"tipo": tipo, "dia": dia, "itens": itens, "soma": sum(int(x["estrelas_periodo"]) for x in itens),
              "fonte": "github.com/trending"}
     else:
-        subprocess.run([sys.executable, AQUI / "area.py", cd, dia], check=True, timeout=1800)
-        a = json.loads((cd / "pesquisa/area.json").read_text())
-        itens = [it | {"readme": (it.get("readme") or "")[:1500], "desc_pt": ""} for it in a["itens"]]
-        d = {"tipo": "area", "dia": dia, "area": a["area"], "itens": itens, "fonte": a["fonte"]}
+        d = {"tipo": "area", "dia": dia, "area": top["area"], "itens": [it | extra(it) for it in ordem], "fonte": top["fonte"]}
     (cd / "dados.json").write_text(json.dumps(d, ensure_ascii=False, indent=1))
     log(f"dados: {d['tipo']} · {len(d['itens'])} repositórios")
 
@@ -154,7 +162,7 @@ def checar_textos(d, t):
 def cmd_textos(cd):
     cd, d = ler(cd)
     pedido = ((AQUI / "textos.md").read_text().replace("{CD}", str(cd)).replace("{TEMA}", tema(d))
-              .replace("{DATA_BR}", data_br(d)))
+              .replace("{DATA_BR}", data_br(d)).replace("{CONTA}", CONTA))
     for tent in (1, 2):
         (cd / "textos.json").unlink(missing_ok=True); (cd / "ERRO.txt").unlink(missing_ok=True)
         extra = ""
@@ -187,8 +195,8 @@ def cmd_montar(cd):
     slides = []
     for it in d["itens"]:
         x = t["repos"][it["nome"]]
-        if d["tipo"] == "top10":
-            stat, rot = f"+{br(it['estrelas_periodo'])}", "hoje"
+        if d["tipo"] in ("top10", "top5"):
+            stat, rot = f"+{br(it['estrelas_periodo'])}", "hoje" if d["tipo"] == "top10" else "na semana"
             criado = dt.date.fromisoformat(it["criado_em"][:10]) if it.get("criado_em") else None
             info2 = (it.get("linguagem") or "") + (f" · desde {criado.strftime('%m/%Y')}" if criado else "")
         else:
@@ -202,9 +210,10 @@ def cmd_montar(cd):
     fundo = [s["print"] for s in slides if s["print_fonte"] == "readme"][:12]
     fundo += [s["print"] for s in slides if s["print"] not in fundo][: 12 - len(fundo)]
     n = len(slides)
-    if d["tipo"] == "top10":
-        capa = {"linha1": f"TOP {n}", "linha2": "DO GITHUB HOJE", "numero": f"+{br(d['soma'])}",
-                "numero_rotulo": f"estrelas ganhas pelos {n} em 24 horas"}
+    if d["tipo"] in ("top10", "top5"):
+        hoje = d["tipo"] == "top10"
+        capa = {"linha1": f"TOP {n}", "linha2": "DO GITHUB HOJE" if hoje else "DO GITHUB NA SEMANA", "numero": f"+{br(d['soma'])}",
+                "numero_rotulo": f"estrelas ganhas pelos {n} em {'24 horas' if hoje else '7 dias'}"}
         serie = f"TOP {n} DO GITHUB"
         fecho = {"titulo_a": f"Os {n} nomes estão", "titulo_b": "na legenda.",
                  "texto": "Busque o nome no GitHub. Salve este post para testar com calma e mande para quem vive de tecnologia."}
@@ -214,7 +223,7 @@ def cmd_montar(cd):
                 "numero_rotulo": f"estrelas por dia, somando os {n} (criados nos últimos meses)"}
         serie = f"TOP {n} · {d['area']['nome']}"
         fecho = {"titulo_a": f"Os {n} nomes estão", "titulo_b": "na legenda.",
-                 "texto": f"Busque o nome no GitHub. Salve para testar depois. Amanhã tem outra área, sempre às 18h."}
+                 "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia."}
     capa |= {"manchete": t["capa"]["manchete"].upper(), "destaque": (t["capa"].get("destaque") or "").upper(), "fundo": fundo}
     fecho["agenda"] = AGENDA
     S = {"tipo": d["tipo"], "serie": serie, "conta": CONTA, "data_br": data_br(d), "capa": capa, "slides": slides, "fecho": fecho}
@@ -265,7 +274,7 @@ def folha(cd, pngs):
 def cmd_revisar(cd):
     cd, d = ler(cd)
     pedido = ((AQUI / "revisor.md").read_text().replace("{CD}", str(cd)).replace("{TEMA}", tema(d))
-              .replace("{DATA_BR}", data_br(d)))
+              .replace("{DATA_BR}", data_br(d)).replace("{CONTA}", CONTA))
     try:
         arquivos = [cd / "slides.json"]
         if (cd / "avisos.txt").exists(): arquivos.append(cd / "avisos.txt")
@@ -324,7 +333,8 @@ def nova_tentativa_prints(cd, v):
 def textos_pub(cd, d, S, t):
     """legenda do Instagram/TikTok (Metricool): só os nomes, SEM link (regra do Nei 05/11/2026; os links ficam no Telegram)"""
     links = "\n".join(f"{s['pos']}. {s['nome']}" for s in S["slides"])
-    titulo = (f"Top {len(S['slides'])} do GitHub · {S['data_br']}" if d["tipo"] == "top10"
+    assunto = {"top10": "", "top5": " na semana"}.get(d["tipo"])
+    titulo = (f"Top {len(S['slides'])} do GitHub{assunto} · {S['data_br']}" if assunto is not None
               else f"Top {len(S['slides'])} do GitHub · {d['area']['curto']} · {S['data_br']}")
     leg = (f"{titulo}\n\n{t['legenda_abertura'].strip()}\n\n{links}\n\nTá tudo no inema.club: lá você aprende a integrar estes projetos em vez de só copiar, direto na internet\n"
            f"#github #opensource #ia #programacao #inemaclub")
@@ -348,7 +358,7 @@ def telegram(cd, d, S, t, titulo):
         cmd += ["--topico", TOPICO_TG.read_text().strip(), "--titulo", titulo]
     else:
         cmd += ["--titulo", "BOMBANDO NO GITHUB - Carrosséis diários", "--capa", str(pngs[0]),
-                "--fonte", "📟 Gerado todo dia pelo gitbombando: 14h Top 10 do GitHub · 18h Top da área"]
+                "--fonte", "📟 Gerado todo dia pelo gitbombando: Top do GitHub e tops por área"]
     livre = 0
     for _ in range(90):   # sessão compartilhada: só posta com 15 s seguidos livre (LESSONS 15/10/2026)
         ocupado = subprocess.run(["lsof", str(tg / "telegram_session.session")], capture_output=True).returncode == 0
@@ -364,70 +374,28 @@ def telegram(cd, d, S, t, titulo):
         for ln in reversed((tg / "logs/postagens.jsonl").read_text().strip().splitlines()[-20:]):
             ev = json.loads(ln)
             if ev.get("etapa") == "criar_topico" and ev.get("titulo", "").startswith("BOMBANDO NO GITHUB - Carross"):
-                TOPICO_TG.write_text(f"{ev['topico']}\n"); log("tópico do INEMA.DEV criado:", ev["topico"]); break
+                TOPICO_TG.write_text(f"{ev['topico']}\n"); log(f"tópico do {GRUPO_TG} criado:", ev["topico"]); break
     return True
 
 
-@serializar("FTD")
-def metritds(cd, d, S, leg, titulo):
-    """carrossel no Instagram + TikTok (modo foto) inema.tech (marca FTD) pelo Metricool da conta inematds (claude -p, assinatura)"""
-    marca = cd / "metritds.txt"
-    if marca.exists() and not os.environ.get("RASCUNHO") and not os.environ.get("FORCAR"):
-        log("metritds: já agendado"); return {"ok": True, "redes": marca.read_text().splitlines()[1:2]}
-    rel = "social"
-    if subprocess.run(["gh", "release", "view", rel, "-R", "inematds/gitbombando"], capture_output=True).returncode:
-        subprocess.run(["gh", "release", "create", rel, "-R", "inematds/gitbombando", "--title", "Vídeos para redes sociais",
-                        "--notes", "Cópias das peças do Bombando no GitHub usadas pelo Metricool (Instagram/TikTok inema.tds)."],
-                       capture_output=True)
-    urls = []
-    with tempfile.TemporaryDirectory() as tmp:
-        arqs = []
-        for k, p in enumerate(sorted((cd / "slides").glob("*.png")), 1):
-            j = Path(tmp) / f"gitbombando-{cd.name}-{k:02d}.jpg"
-            Image.open(p).convert("RGB").save(j, quality=92)
-            arqs.append(j)
-            urls.append(f"https://github.com/inematds/gitbombando/releases/download/{rel}/{j.name}")
-        r = subprocess.run(["gh", "release", "upload", rel, *map(str, arqs), "-R", "inematds/gitbombando", "--clobber"],
-                           capture_output=True, text=True, timeout=900)
-        if r.returncode:
-            return {"ok": False, "erro": "upload na release: " + r.stderr[:200]}
-    (cd / "metritds-texto.txt").write_text(leg)
-    alvo = time.time() + 600
-    if not os.environ.get("RASCUNHO"):   # trava de 1 h entre posts da marca (Nei, 12/11/2026); INTERVALO_LIVRE=1 libera
-        t = subprocess.run(["python3", str(TRAVA), "--conector", "metricool-inematds", "--marca", "FTD", "--alvo", str(int(alvo)), "--cwd", str(cd)],
-                           capture_output=True, text=True)
-        log("metritds:", t.stderr.strip()[-200:])
-        if t.returncode:
-            return {"ok": False, "erro": "trava de 1 h: não consegui ler a agenda da marca, não agendei"}
-        alvo = int(t.stdout.split()[-1])
-    quando = time.strftime("%Y-%m-%dT%H:%M:00", time.gmtime(alvo))   # UTC (lição do metricool-pub2)
-    rascunho = "true" if os.environ.get("RASCUNHO") else "false"
-    pedido = f"""Use só as ferramentas do servidor MCP metricool-inematds.
-1) getBrandSettings: use a marca FTD (blogId 7908265, Instagram + TikTok inema.tech) e veja em networksData se instagram e tiktok estão conectados.
-2) Consulte getScheduledPosts da marca no dia alvo. Se a MESMA mídia já estiver agendada, retorne ok=true com as redes/planner existentes e não duplique. Caso contrário, createScheduledPost UMA vez com as redes conectadas (das duas) em providers. É um CARROSSEL DE IMAGENS (não vídeo):
-   date = {quando}Z ; publicationDate = {{dateTime: "{quando}", timezone: "UTC"}}
-   media = {json.dumps(urls)} (nesta ordem, todas)
-   text = conteúdo exato do arquivo {cd}/metritds-texto.txt (conteúdo anexado pelo executor, sem shell)
-   draft = {rascunho} ; autoPublish = true
-   instagramData = {{type: "POST", isAiGenerated: true}}
-   tiktokData = {{privacyOption: "PUBLIC_TO_EVERYONE", title: "{titulo[:88]}", photoCoverIndex: 0, autoAddMusic: true}}
-   Se der erro por causa do TikTok (fotos), tente de novo SÓ com instagram e diga isso no campo erro.
-3) Responda APENAS uma linha JSON, sem crase: {{"ok":true|false,"redes":[...],"faltam":[...],"planner":[...],"erro":"texto ou vazio"}}"""
-    try:
-        resposta = executar_ia("metricool_publicacao", pedido, cd, agente=True, arquivos=[cd / "metritds-texto.txt"],
-                    ferramentas="mcp__metricool-inematds__getBrandSettings mcp__metricool-inematds__getScheduledPosts mcp__metricool-inematds__createScheduledPost Read")
-    except Exception as e:
-        return {"ok": False, "erro": str(e)}
-    (cd / "metritds.log").write_text(resposta)
-    m = re.findall(r'\{[^{}]*"ok"[^{}]*\}', resposta)
-    try:
-        res = json.loads(m[-1])
-    except Exception:  # noqa: BLE001
-        res = {"ok": False, "erro": resposta[-300:]}
-    if res.get("ok") and not os.environ.get("RASCUNHO"):
-        subprocess.run(["python3", str(TRAVA), "--registrar", "--marca", "FTD", "--alvo", str(int(alvo))])
-        marca.write_text(time.strftime("%d/%m %H:%M", time.localtime(alvo)) + "\n" + ", ".join(res.get("redes", [])) + "\n")
-    return res
+def entregar_x3(cd, S, leg, titulo):
+    """Põe o carrossel na fila do x3; quem publica nas redes é o x3 (Nei, 18/11/2026: "tudo direto no x3")."""
+    marca = cd / "x3.txt"
+    if marca.exists() and not os.environ.get("FORCAR"):
+        log("x3: já entregue"); return {"ok": True, "item": marca.read_text().strip()}
+    pasta = cd / "x3"
+    shutil.rmtree(pasta, ignore_errors=True); pasta.mkdir()
+    for k, p in enumerate(sorted((cd / "slides").glob("*.png")), 1):
+        Image.open(p).convert("RGB").save(pasta / f"{k:02d}.jpg", quality=92)
+    (pasta / "post.json").write_text(json.dumps({"tipo": "carrossel", "titulo": titulo, "texto_rs": leg, "quando": "agora"}, ensure_ascii=False))
+    r = subprocess.run([str(X3), "enviar", str(pasta), "--canal", CANAL_X3], capture_output=True, text=True, timeout=600)
+    saida = r.stdout + r.stderr
+    m = re.search(r"item (\d+)", saida)
+    shutil.rmtree(pasta, ignore_errors=True)
+    if r.returncode or not m:
+        return {"ok": False, "erro": saida[-300:]}
+    marca.write_text(f"{CANAL_X3} item {m.group(1)}\n")
+    return {"ok": True, "item": f"{CANAL_X3} item {m.group(1)}"}
 
 
 def cmd_publicar(cd):
@@ -435,8 +403,8 @@ def cmd_publicar(cd):
     S = json.loads((cd / "slides.json").read_text()); t = json.loads((cd / "textos.json").read_text())
     titulo, leg = textos_pub(cd, d, S, t)
     ok_tg = None if os.environ.get("SEM_TG") else telegram(cd, d, S, t, titulo)
-    res = {"ok": None} if os.environ.get("SEM_METRI") else metritds(cd, d, S, leg, titulo)
-    if d["tipo"] == "area" and not os.environ.get("RASCUNHO") and (ok_tg or res.get("ok")):
+    res = {"ok": None} if os.environ.get("SEM_X3") else entregar_x3(cd, S, leg, titulo)
+    if d["tipo"] == "area" and (ok_tg or res.get("ok")):
         HIST.parent.mkdir(exist_ok=True)
         with HIST.open("a") as h:
             h.write(json.dumps({"dia": d["dia"], "area": d["area"]["chave"], "repos": [s["nome"] for s in S["slides"]]},
@@ -444,12 +412,8 @@ def cmd_publicar(cd):
     rev = json.loads((cd / "revisao.json").read_text()) if (cd / "revisao.json").exists() else {}
     faixa = "🟦" * 12
     tg_txt = {None: "pulado", True: f"ok (tópico {TOPICO_TG.read_text().strip() if TOPICO_TG.exists() else '?'})", False: "⚠ FALHOU"}[ok_tg]
-    mt_txt = ("pulado" if res.get("ok") is None else
-              f"ok · {', '.join(res.get('redes', []))}" + (" (RASCUNHO)" if os.environ.get("RASCUNHO") else "") if res.get("ok")
-              else f"⚠ NÃO AGENDOU: {res.get('erro', '')[:200]}")
-    msg = (f"{faixa}\n🔵 CARROSSEL PUBLICADO DIRETO · {titulo}\n{faixa}\n"
-           f"Telegram {GRUPO_TG}: {tg_txt}\nInstagram/TikTok inema.tech (FTD): {mt_txt}"
-           + (f"\nAinda não conectadas: {', '.join(res['faltam'])}" if res.get("faltam") else "")
+    x3_txt = ("pulado" if res.get("ok") is None else f"ok · {res.get('item')}" if res.get("ok") else f"⚠ NÃO ENTROU: {res.get('erro', '')[:200]}")
+    msg = (f"{faixa}\n🔵 CARROSSEL · {titulo}\n{faixa}\nTelegram {GRUPO_TG}: {tg_txt}\nFila do x3: {x3_txt}"
            + f"\n{len(S['slides']) + 2} slides · revisor: {rev.get('veredito', '?')}"
            + (f"\n🟥 SUGESTÃO: {rev['sugestao'][:300]}" if rev.get("sugestao") else ""))
     (cd / "v3.txt").write_text(msg + "\n")

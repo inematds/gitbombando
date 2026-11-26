@@ -1,0 +1,4 @@
+Bombando no GitHub · Top 10 do dia · 21/11/2026 · 133s
+⚠ NÃO publicou no lives4 (ver publicar.log)
+🟥 SUGESTÃO: 13.16 (panorama): o nome 'app-store-complia...' aparece cortado; abreviar para 'app-store' deixaria a lista mais limpa. | 113.97 (#1 Claude-BugHunter): a fala alerta que o projeto é polêmico, mas o cartão não tem selo visual de 'POLÊMICO/CUIDADO'; um selo vermelho reforçaria o alerta e o gancho. | 49.82 (#7 minimind): a foto do dono é um círculo azul genérico que diz pouco; um ícone do projeto chamaria mais atenção. | 0.05–4.0 (capa): o cadeado estilhaçado fica escondido atrás do texto; subir um
+A IA que vira caçadora de falhas ganhou +1.622 estrelas em um dia no GitHub

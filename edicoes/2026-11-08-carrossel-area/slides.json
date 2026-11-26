@@ -1,0 +1,304 @@
+{
+ "tipo": "area",
+ "serie": "TOP 8 · IA NO SEU PC",
+ "conta": "@inema.tds",
+ "data_br": "08/11/2026",
+ "capa": {
+  "linha1": "TOP 8",
+  "linha2": "IA NO SEU PC",
+  "numero": "+745",
+  "numero_rotulo": "estrelas por dia, somando os 8 (criados nos últimos meses)",
+  "manchete": "IA GIGANTE RODANDO NO SEU PC",
+  "destaque": "GIGANTE",
+  "fundo": [
+   "prints/1.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png",
+   "prints/6.png",
+   "prints/8.png",
+   "prints/2.png",
+   "prints/7.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "ARahim3/DigUp",
+   "repo": "DigUp",
+   "url": "https://github.com/ARahim3/DigUp",
+   "gancho": [
+    "DESCREVA O ARQUIVO.",
+    "ELE ACHA PRA VOCÊ."
+   ],
+   "o_que_e": "Um programa grátis que procura nos arquivos do seu computador pelo que eles mostram: fotos, PDFs, documentos, gravações e vídeos.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Busca pelo conteúdo",
+     "texto": "Peça \"zebra num vídeo\" e ele abre o clipe no momento em que ela aparece."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Tudo no seu computador",
+     "texto": "Roda no Mac, no Windows e no Linux, de graça e com código aberto."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE PASTAS",
+    "DESCREVE",
+    "ACHA O ARQUIVO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+206",
+   "stat_rotulo": "por dia",
+   "total": "6.323",
+   "info2": "Swift · criado há 31 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "AienTech/dossier",
+   "repo": "dossier",
+   "url": "https://github.com/AienTech/dossier",
+   "gancho": [
+    "UM CURRÍCULO",
+    "PARA CADA VAGA."
+   ],
+   "o_que_e": "Um app para sua busca de emprego que monta currículo e carta de apresentação sob medida para cada vaga, usando só fatos do seu perfil.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "IA no seu computador",
+     "texto": "Funciona com um modelo de IA local pelo Ollama ou LM Studio, ou na nuvem."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Acompanha cada vaga",
+     "texto": "Registra cada candidatura, do rascunho até a proposta, e baixa em PDF."
+    }
+   ],
+   "fluxo": [
+    "MONTA O PERFIL",
+    "COLA A VAGA",
+    "BAIXA O PDF"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+136",
+   "stat_rotulo": "por dia",
+   "total": "4.846",
+   "info2": "TypeScript · criado há 36 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "zeekk0/OpenAmika",
+   "repo": "OpenAmika",
+   "url": "https://github.com/zeekk0/OpenAmika",
+   "gancho": [
+    "UMA COMPANHEIRA",
+    "QUE LEMBRA DE VOCÊ."
+   ],
+   "o_que_e": "Uma companheira virtual de anime em Live2D que conversa com você por voz e texto em tempo real e guarda memória das conversas.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Conversa por voz",
+     "texto": "Fala e escuta em tempo real, e também responde por texto."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu PC",
+     "texto": "Funciona no Windows com placa NVIDIA, inteiramente local pelo Ollama."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO PC",
+    "FALA COM ELA",
+    "ELA LEMBRA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+113",
+   "stat_rotulo": "por dia",
+   "total": "537",
+   "info2": "Python · criado há 5 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "mw00/project-maya",
+   "repo": "project-maya",
+   "url": "https://github.com/mw00/project-maya",
+   "gancho": [
+    "IA DE DATACENTER",
+    "NA SUA PLACA?"
+   ],
+   "o_que_e": "Um programa que roda três modelos de IA gigantes, como o DeepSeek, nas placas de vídeo que você já tem, sem nada sair da sua máquina.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Usa placa, RAM e disco",
+     "texto": "Deixa o mais usado na placa de vídeo e o resto na memória e no disco."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Chat e imagens",
+     "texto": "Tem painel de conversa, entende imagens e atende vários pedidos de uma vez."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE MODELO",
+    "CONVERSA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+83",
+   "stat_rotulo": "por dia",
+   "total": "2.688",
+   "info2": "Cuda · criado há 33 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "drumih/turbo-fieldfare",
+   "repo": "turbo-fieldfare",
+   "url": "https://github.com/drumih/turbo-fieldfare",
+   "gancho": [
+    "IA GRANDE NUM MAC",
+    "DE 8 GB?"
+   ],
+   "o_que_e": "Um programa para Macs com chip Apple que roda o modelo de IA Gemma 4 usando cerca de 2 GB de memória, até em Macs de 8 GB.",
+   "beneficios": [
+    {
+     "icone": "database",
+     "titulo": "Lê o modelo do disco",
+     "texto": "Carrega só as partes que precisa a cada palavra, sem lotar a memória."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "App nativo para Mac",
+     "texto": "Feito em Swift e Metal, com app de Mac, programa de terminal e servidor local."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O CÓDIGO",
+    "BAIXA O MODELO",
+    "CONVERSA NO MAC"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+64",
+   "stat_rotulo": "por dia",
+   "total": "7.318",
+   "info2": "Swift · criado há 114 dias"
+  },
+  {
+   "pos": 6,
+   "nome": "eagle-hq/EAGLE-4",
+   "repo": "EAGLE-4",
+   "url": "https://github.com/eagle-hq/EAGLE-4",
+   "gancho": [
+    "MESMA RESPOSTA,",
+    "MAIS RÁPIDA."
+   ],
+   "o_que_e": "Um sistema que acelera modelos de IA: um modelo menor adianta um rascunho do texto e o principal confere, sem mudar a resposta final.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Até 3,4× mais rápido",
+     "texto": "No Qwen3.8-27B, gera o texto mais rápido com as mesmas respostas."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Se ajusta à máquina",
+     "texto": "Mede os custos na sua placa e decide quanto adiantar em cada caso."
+    }
+   ],
+   "fluxo": [
+    "IA RASCUNHA",
+    "IA CONFERE",
+    "RESPOSTA RÁPIDA"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+61",
+   "stat_rotulo": "por dia",
+   "total": "1.151",
+   "info2": "Python · criado há 19 dias"
+  },
+  {
+   "pos": 7,
+   "nome": "incoai/splash",
+   "repo": "splash",
+   "url": "https://github.com/incoai/splash",
+   "gancho": [
+    "IA DE PROGRAMAR",
+    "RODANDO NO MAC."
+   ],
+   "o_que_e": "Um motor para rodar modelos de IA num Mac com chip Apple, feito para agentes de programação, com uma página de chat embutida.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "App pronto para Mac",
+     "texto": "Baixe o app ou instale pelo Homebrew; o modelo vem na primeira vez."
+    },
+    {
+     "icone": "image",
+     "titulo": "Visão e ferramentas",
+     "texto": "Entende imagens, aciona ferramentas e atende vários pedidos ao mesmo tempo."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "ESCOLHE MODELO",
+    "PROGRAMA NO MAC"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "opengraph",
+   "stat": "+42",
+   "stat_rotulo": "por dia",
+   "total": "2.148",
+   "info2": "C++ · criado há 51 dias"
+  },
+  {
+   "pos": 8,
+   "nome": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+   "repo": "ai-engineering-interview-questions-company-wise",
+   "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+   "gancho": [
+    "VAGA EM IA?",
+    "TREINE AS PERGUNTAS."
+   ],
+   "o_que_e": "Uma coleção de perguntas reais de entrevistas de engenharia de IA em 35 empresas, organizadas por empresa e com respostas quando há.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Separado por empresa",
+     "texto": "Perguntas reais, empresa por empresa, com link para a resposta quando existe."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Temas mais cobrados",
+     "texto": "Reúne perguntas comuns sobre modelos de IA, busca em documentos e agentes."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE EMPRESA",
+    "LÊ AS PERGUNTAS",
+    "TREINA"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "readme",
+   "stat": "+40",
+   "stat_rotulo": "por dia",
+   "total": "2.034",
+   "info2": "Markdown · criado há 50 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 8 links estão",
+  "titulo_b": "na legenda.",
+  "texto": "Salve para testar depois. Amanhã tem outra área, sempre às 18h.",
+  "agenda": "Todo dia no <b>@inema.tds</b>: <b>11h</b> vídeo · <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

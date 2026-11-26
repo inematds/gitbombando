@@ -1,0 +1,2 @@
+revisor/portão: sem veredito — pronto: 12 slides em /home/nmaldaner/projetos/gitbombando/edicoes/2026-11-09-carrossel-top10/slides
+[carrossel] REPROVOU: 09-8.png: passou do fim da página (['repo', 'gh', '', 't', ''])

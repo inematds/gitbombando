@@ -1,0 +1,1 @@
+coleta do GitHub Trending falhou: não baixou https://github.com/trending?since=daily

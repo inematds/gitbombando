@@ -1,0 +1,8 @@
+{
+ "veredito": "reprovado",
+ "motivo": "O print do PiBot (slide 2) saiu vazio, só um retângulo branco sem nenhum conteúdo do projeto.",
+ "slides_ruins": [
+  2
+ ],
+ "sugestao": "Quando o print do README vier em branco ou quase todo de uma cor só, trocar automaticamente pelo cartão opengraph do GitHub. Também vale avisar que os números dos cartões (485, 6k, 4k) podem divergir do total atual nos slides."
+}

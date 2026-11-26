@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "APPS QUE RODAM NA SUA MÁQUINA",
+  "destaque": "MÁQUINA"
+ },
+ "repos": {
+  "designfuchen/word-atlas": {
+   "gancho": [
+    "DECORAR INGLÊS",
+    "COM DESENHOS?"
+   ],
+   "o_que_e": "Um aplicativo de vocabulário de inglês para a prova IELTS, com ilustração, áudio britânico e americano e revisão na hora certa.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Uma imagem por palavra",
+     "texto": "Cada palavra vem com ilustração, significado e dois exemplos de frase."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Sem cadastro",
+     "texto": "Seu progresso fica salvo no próprio aparelho e funciona sem internet."
+    }
+   ],
+   "fluxo": [
+    "VÊ A IMAGEM",
+    "OUVE A PALAVRA",
+    "REVISA DEPOIS"
+   ]
+  },
+  "peach-mitao/peach": {
+   "gancho": [
+    "SEUS VÍDEOS",
+    "ORGANIZADOS."
+   ],
+   "o_que_e": "Um organizador de vídeos que roda no seu computador e preenche sozinho título, capa e elenco de cada arquivo da sua coleção.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Tudo num lugar só",
+     "texto": "Junta vídeos do HD, da rede de casa e de nuvens ligadas ao computador."
+    },
+    {
+     "icone": "video",
+     "titulo": "Player completo",
+     "texto": "Legenda, velocidade, continuar de onde parou e prévia na linha do tempo."
+    }
+   ],
+   "fluxo": [
+    "APONTA A PASTA",
+    "ELE IDENTIFICA",
+    "VOCÊ ASSISTE"
+   ]
+  },
+  "DuarteSantos8/openGym": {
+   "gancho": [
+    "SEU TREINO",
+    "SEM ASSINATURA."
+   ],
+   "o_que_e": "Um app de academia de código aberto para planejar treinos, anotar séries e ver quais músculos você trabalhou, no iPhone ou Android.",
+   "beneficios": [
+    {
+     "icone": "chart",
+     "titulo": "Mais de 5.600 exercícios",
+     "texto": "Com demonstração animada e mapa do corpo para buscar por músculo."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Seus dados com você",
+     "texto": "Sem anúncio e sem rastreio; roda no seu servidor com um comando Docker."
+    }
+   ],
+   "fluxo": [
+    "MONTA A ROTINA",
+    "ANOTA O TREINO",
+    "VÊ OS MÚSCULOS"
+   ]
+  },
+  "D3voz/openjutsu": {
+   "gancho": [
+    "TROCAR A PESSOA",
+    "DE UM VÍDEO?"
+   ],
+   "o_que_e": "Um programa de código aberto que troca a pessoa de um vídeo pelo personagem de uma foto, mantendo a câmera, os cortes e o som.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda na sua placa",
+     "texto": "Tudo funciona com modelos de IA abertos na sua própria placa de vídeo."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Muda roupa e cenário",
+     "texto": "Também troca cabelo e roupa, apaga objetos ou leva a pessoa a outro lugar."
+    }
+   ],
+   "fluxo": [
+    "SOBE O VÍDEO",
+    "ESCOLHE A FOTO",
+    "CLICA EM GERAR"
+   ]
+  },
+  "lnkiai/m3e-canvas": {
+   "gancho": [
+    "DESENHA A TELA.",
+    "A IA FAZ O APP."
+   ],
+   "o_que_e": "Um rascunho de telas de aplicativo no navegador que transforma o seu desenho num pedido pronto para a IA programar o app.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Tudo no navegador",
+     "texto": "Grátis, sem conta, sem servidor e sem nada para instalar."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Pedido pronto para a IA",
+     "texto": "Gera um texto que Claude Code, Codex ou Cursor transformam no app."
+    }
+   ],
+   "fluxo": [
+    "ARRASTA PEÇAS",
+    "TESTA O FLUXO",
+    "COPIA O PEDIDO"
+   ]
+  },
+  "shader-effects-inc/shaders": {
+   "gancho": [
+    "EFEITOS DE LUZ",
+    "NO SEU SITE."
+   ],
+   "o_que_e": "Um pacote com mais de 200 efeitos visuais, como vidro, metal e gradientes, que você coloca em sites feitos em React, Vue ou Svelte.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "Editor visual grátis",
+     "texto": "Você monta o efeito no site shaders.com e exporta o código pronto."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Efeitos em camadas",
+     "texto": "Junta, mistura e recorta efeitos, desenhados pela placa de vídeo."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE EFEITO",
+    "JOGA NO SITE"
+   ]
+  },
+  "NiazMorshed2007/reanimate": {
+   "gancho": [
+    "GOSTOU DA ANIMAÇÃO?",
+    "COPIA NO SEU SITE."
+   ],
+   "o_que_e": "Uma habilidade para o Claude Code que estuda uma animação quadro a quadro, recria no seu código e compara até as duas baterem.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Aceita várias fontes",
+     "texto": "Site ao vivo, gravação de tela, vídeo mp4, gif ou arquivo Lottie."
+    },
+    {
+     "icone": "search",
+     "titulo": "Compara e corrige",
+     "texto": "Grava a cópia do mesmo jeito e mostra o que ainda está diferente."
+    }
+   ],
+   "fluxo": [
+    "PASSA O LINK",
+    "A IA RECRIA",
+    "COMPARA AS DUAS"
+   ]
+  },
+  "AienTech/dossier": {
+   "gancho": [
+    "CURRÍCULO SOB",
+    "MEDIDA PRA VAGA."
+   ],
+   "o_que_e": "Um app que guarda sua carreira num perfil e escreve currículo e carta de apresentação sob medida para cada vaga, só com fatos seus.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "IA no seu computador",
+     "texto": "Pode usar um modelo de IA local pelo Ollama, e seus dados ficam com você."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Vagas acompanhadas",
+     "texto": "Segue cada candidatura do rascunho até a proposta, com PDF para baixar."
+    }
+   ],
+   "fluxo": [
+    "CRIA O PERFIL",
+    "COLA A VAGA",
+    "BAIXA O PDF"
+   ]
+  }
+ },
+ "legenda_abertura": "Os projetos de web e apps que mais crescem no GitHub rodam no seu computador, sem assinatura. Passe o carrossel e veja o que cada um faz. Quer aprender a usar IA de verdade? Os cursos são grátis no inema.club.",
+ "telegram": "Saiu o carrossel com os projetos de desenvolvimento web e apps que mais crescem no GitHub: treino, currículo, vídeo e telas de app, quase tudo rodando na sua máquina. Veja cada um e aprenda IA de graça no inema.club."
+}

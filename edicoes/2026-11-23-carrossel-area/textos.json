@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "SUA EQUIPE DE AGENTES DE IA",
+  "destaque": "AGENTES"
+ },
+ "repos": {
+  "mdiri-ai/SoduWork": {
+   "gancho": [
+    "UMA IA FAZ,",
+    "OUTRA REVISA."
+   ],
+   "o_que_e": "Um sistema de trabalho para equipes e seus agentes de IA, em que um pedido só termina quando a pessoa que pediu aprova o resultado.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Uma faz, outra revisa",
+     "texto": "Um agente de IA executa a tarefa e outro confere o trabalho antes da entrega."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Roda no seu servidor",
+     "texto": "Você instala na sua máquina, com app para Windows e código aberto."
+    }
+   ],
+   "fluxo": [
+    "FAZ O PEDIDO",
+    "A IA EXECUTA",
+    "VOCÊ APROVA"
+   ]
+  },
+  "w01fb0ss/PiBot": {
+   "gancho": [
+    "UMA EQUIPE DE IA",
+    "NO SEU PC?"
+   ],
+   "o_que_e": "Um aplicativo de código aberto em que vários robôs de IA trabalham no seu computador: planejam, editam arquivos e navegam na internet.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Grupo de robôs",
+     "texto": "Você junta vários robôs num chat e um coordenador divide as tarefas."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Você aprova o risco",
+     "texto": "Todo passo arriscado espera sua aprovação, e seus arquivos ficam no PC."
+    }
+   ],
+   "fluxo": [
+    "CRIA OS ROBÔS",
+    "DÁ A TAREFA",
+    "APROVA PASSOS"
+   ]
+  },
+  "CzzzzzzJ/mdldm-maitian": {
+   "gancho": [
+    "UM VÍDEO,",
+    "SETE REDES."
+   ],
+   "o_que_e": "Uma central para quem cria conteúdo: a IA prepara o mesmo vídeo para várias redes e os números de cada post voltam todo dia.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Posta em várias redes",
+     "texto": "Preenche YouTube, X, Instagram, TikTok chinês e outras com hora marcada."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Painel de resultados",
+     "texto": "Coleta visualizações e seguidores todo dia e mostra num painel no celular."
+    }
+   ],
+   "fluxo": [
+    "VÍDEO PRONTO",
+    "A IA ESCREVE",
+    "POSTA E MEDE"
+   ]
+  },
+  "CopilotKit/OpenBot": {
+   "gancho": [
+    "COLEGAS DE IA",
+    "SÓ SEUS."
+   ],
+   "o_que_e": "Um espaço de trabalho aberto para colegas de IA que você instala na sua estrutura, escolhendo os modelos e agentes que quiser usar.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "App para Mac e Windows",
+     "texto": "Instalador pronto para o notebook, sem precisar de terminal nem programar."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Usa navegador sozinho",
+     "texto": "O robô navega, usa ferramentas e espera sua aprovação antes de enviar."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "ESCOLHE A IA",
+    "APROVA O ENVIO"
+   ]
+  },
+  "zephyr4123/snug": {
+   "gancho": [
+    "SEU MAC NO CELULAR",
+    "SEM TARJA PRETA."
+   ],
+   "o_que_e": "Um aplicativo para Mac que cria uma tela do tamanho certo para cada celular, tablet ou computador que acessa o Mac pelo UU Remote.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Tela sob medida",
+     "texto": "Cada aparelho ganha uma tela própria, que preenche tudo sem bordas pretas."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Gestos de toque",
+     "texto": "Você usa gestos de tela touch no Mac remoto e tem uma biblioteca de apps."
+    }
+   ],
+   "fluxo": [
+    "INSTALA NO MAC",
+    "CONECTA REMOTO",
+    "TELA CHEIA"
+   ]
+  }
+ },
+ "legenda_abertura": "Os projetos de automação que mais crescem no GitHub agora colocam equipes de IA para trabalhar por você, mas com você aprovando cada passo. Passe o carrossel e veja os cinco. Está tudo no inema.club, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os cinco repositórios de automação e produtividade que mais crescem no GitHub. Vale ver os agentes de IA que trabalham em equipe e pedem sua aprovação. No inema.club está tudo lá, e você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

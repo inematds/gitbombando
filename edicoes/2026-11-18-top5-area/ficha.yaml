@@ -1,0 +1,95 @@
+modo: area
+gancho:
+  tipo: noticia
+  manchete: 'HUAWEI: +45 ESTRELAS POR DIA'
+  destaque: '+45'
+  objeto: um chip de computador dourado rachando ao meio, com raios de luz amarela
+    e faíscas escapando pelas rachaduras
+  fontes:
+  - nome: github.com/huawei-csl/MACaQ
+    trecho: 366 stars, created 2026-11-10
+abertura:
+  cena: estúdio de edição de vídeo escuro à noite, monitores apagados, só a luz amarela
+    vindo do centro
+partes:
+- etapa: gancho
+  fala: A Huawei entrou na briga da inteligência artificial que roda no seu computador.
+    E o projeto dela cresce quarenta e cinco estrelas por dia.
+- etapa: panorama
+  fala: No Top cinco de vídeo e imagem com inteligência artificial, os projetos somam
+    cento e sessenta e oito estrelas por dia desde que nasceram. Vou do quinto ao
+    primeiro.
+  numero: '168'
+- etapa: repo
+  repo: wquguru/shisei
+  desc: Biblioteca grátis de bonecos em centenas de poses para guiar a IA que cria
+    imagens.
+  destaque: centenas de poses
+  numero: '27'
+  fala: 'Em quinto, Shisei. Uma biblioteca grátis de bonecos de desenho em mais de
+    duzentas e cinquenta poses, pra você mostrar à i-á a posição exata do personagem.
+    Vinte e sete estrelas por dia. Atenção: tem uma parte de poses adultas, cuidado.'
+- etapa: repo
+  repo: ersinkoc/AI-Video-Factory
+  desc: Você dá um tema e ele entrega um vídeo narrado e animado, pronto para o YouTube.
+  destaque: pronto para o YouTube
+  numero: '27'
+  fala: Número quatro, AI Video Factory. Você dá um tema e ele entrega um vídeo pronto
+    pro YouTube, narrado e animado, em vários idiomas. E quem aprova cada etapa é
+    você. Também vinte e sete estrelas por dia.
+- etapa: repo
+  repo: LearnPrompt/awesome-seedance
+  desc: Mais de mil receitas de vídeo com IA que viralizaram, testadas de novo para
+    ver se funcionam.
+  destaque: testadas de novo
+  numero: '31'
+  fala: 'E agora o pódio. Bronze pro Awesome Seedance: mais de mil receitas de vídeo
+    com inteligência artificial que viralizaram, testadas de novo em outra i-á pra
+    ver se funcionam mesmo. Trinta e uma estrelas por dia.'
+- etapa: repo
+  repo: DozenTwelve/Papermorph
+  desc: Transforma livros em aulas animadas, narradas e interativas, ou em filmes
+    de bonecos.
+  destaque: aulas animadas
+  numero: '38'
+  fala: Prata pro Papermorph. Ele pega um livro e transforma em aula animada, narrada
+    e interativa, ou num filminho com bonecos de papel. Trinta e oito estrelas por
+    dia.
+- etapa: repo
+  repo: huawei-csl/MACaQ
+  desc: Kit da Huawei que encolhe IAs de imagem, vídeo e som para rodarem no seu computador.
+  destaque: no seu computador
+  numero: '45'
+  fala: E o primeiro lugar é da Huawei. O MACaQ encolhe inteligências artificiais
+    de imagem, vídeo e som pra rodarem no seu próprio computador, sem nuvem. Quarenta
+    e cinco estrelas por dia. Com pouco mais de uma semana de vida.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  quarenta e cinco: '45'
+  Quarenta e cinco: '45'
+  cento e sessenta e oito: '168'
+  duzentas e cinquenta: '250'
+  vinte e sete: '27'
+  Vinte e sete: '27'
+  Trinta e uma: '31'
+  Trinta e oito: '38'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'Huawei lidera: 45 estrelas por dia no Top 5 do GitHub de vídeo e imagem
+    com IA'
+  contexto: O Top 5 do GitHub em vídeo e imagem com IA, medido em estrelas por dia
+    desde a criação, explicado sem jargão. O MACaQ, da Huawei, lidera com 45 estrelas
+    por dia ao fazer IAs de imagem, vídeo e som rodarem no seu computador.
+  telegram: 'Bombando no GitHub em vídeo e imagem com IA: o MACaQ, da Huawei, cresce
+    45 estrelas por dia e faz IAs de imagem, vídeo e som rodarem no seu computador.
+    Logo atrás, o Papermorph transforma livros em aulas animadas e narradas.'

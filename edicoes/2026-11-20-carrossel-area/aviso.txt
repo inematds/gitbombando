@@ -1,0 +1,2 @@
+revisor/portão: sem veredito — [carrossel] portão dos textos: ["JosssphZhou/poki: gancho = 2 linhas de até 20 caracteres (['SEU IPHONE', 'NO PILOTO AUTOMÁTICO?'])"]
+[carrossel] REPROVOU: textos reprovados no portão: JosssphZhou/poki: gancho = 2 linhas de até 20 caracteres (['SEU IPHONE', 'NO PILOTO AUTOMÁTICO?'])

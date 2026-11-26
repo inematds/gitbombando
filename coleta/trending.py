@@ -222,7 +222,7 @@ def main(a):
     # e o gráfico ficava sem sentido: o 1º com 1.068 e o 4º com 2.371, 28/10/2026)
     for it in lista:
         it["pos_trending"] = it["pos"]
-    top = sorted(lista, key=lambda x: -x["estrelas_periodo"])[:10]
+    top = sorted(lista, key=lambda x: -x["estrelas_periodo"])[:int(os.environ.get("GB_TOP", "10"))]   # GB_TOP=5: Top 5 (grade de 18/11/2026)
     for k, it in enumerate(top, 1):
         it["pos"] = k
     for it in top:

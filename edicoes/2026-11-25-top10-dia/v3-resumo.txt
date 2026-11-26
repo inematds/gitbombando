@@ -1,0 +1,4 @@
+Bombando no GitHub · Top 10 do dia · 25/11/2026 · 147s
+na fila do x3 no lives4 (item 3884): sai no próximo horário do canal
+🟥 SUGESTÃO: 0.05–4.0s: a legenda karaokê fica em cima do escudo e das faíscas; uma faixa escura atrás do texto deixaria a leitura mais limpa. | 14.17s: no panorama o nome 'app-store-complia...' aparece cortado; vale abreviar ou reduzir a fonte só nessa linha. | 95.5s: o painel do #3 ainda mostra 0 e o gráfico vazio; começar a animação um pouco antes evita a sensação de quadro sem dados. | 95.5–105.67s: o cartão do CLI-Anything fica parado por uns 20s; um zoom ou um destaque extra manteria o ritmo. | 126.0s:
+IA caçadora de falhas no topo do GitHub pelo 5º dia: +1.826 estrelas

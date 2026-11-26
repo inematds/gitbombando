@@ -23,3 +23,7 @@ auto/logs/
 
 edicoes/*/antes-correcao-*/
 edicoes/*/avatar-antes-*/
+
+# 26/11/2026: vídeo dentro de subpasta de edição e backups de antes de mudança
+edicoes/**/*.mp4
+*.antes-*

@@ -1,0 +1,304 @@
+{
+ "tipo": "area",
+ "serie": "TOP 8 · DEV WEB E APPS",
+ "conta": "@inema.tech",
+ "data_br": "14/11/2026",
+ "capa": {
+  "linha1": "TOP 8",
+  "linha2": "DEV WEB E APPS",
+  "numero": "+1.493",
+  "numero_rotulo": "estrelas por dia, somando os 8 (criados nos últimos meses)",
+  "manchete": "SUA IA AGORA MONTA A TELA",
+  "destaque": "TELA",
+  "fundo": [
+   "prints/3.png",
+   "prints/4.png",
+   "prints/6.png",
+   "prints/7.png",
+   "prints/1.png",
+   "prints/2.png",
+   "prints/5.png",
+   "prints/8.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "opencoredev/islandcn",
+   "repo": "islandcn",
+   "url": "https://github.com/opencoredev/islandcn",
+   "gancho": [
+    "ILHA DINÂMICA",
+    "NO SEU APP REACT"
+   ],
+   "o_que_e": "Um componente de código aberto que põe uma ilha no topo do seu app React, no estilo Dynamic Island, mostrando envio, timer ou música.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Modelos prontos",
+     "texto": "Envio de arquivo, timer, música, chamada, entrega e gravação já vêm prontos."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Monte no playground",
+     "texto": "Você testa cada ação, ajusta o movimento e copia o código pronto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE MODELO",
+    "ILHA NO TOPO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "opengraph",
+   "stat": "+641",
+   "stat_rotulo": "por dia",
+   "total": "645",
+   "info2": "TypeScript · criado há 1 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "vercel-labs/ui",
+   "repo": "ui",
+   "url": "https://github.com/vercel-labs/ui",
+   "gancho": [
+    "SUA IA MONTA",
+    "A INTERFACE"
+   ],
+   "o_que_e": "Uma biblioteca da Vercel com comportamentos de tela, como teclado, foco e arrastar e soltar, para agentes de IA montarem interfaces.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Skill para o agente",
+     "texto": "Você instala a skill e o agente de IA escreve os componentes por você."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Acessível de fábrica",
+     "texto": "Navegação por teclado, foco e marcações de acessibilidade já vêm juntas."
+    }
+   ],
+   "fluxo": [
+    "DÁ A SKILL",
+    "A IA CRIA",
+    "TELA PRONTA"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+238",
+   "stat_rotulo": "por dia",
+   "total": "4.462",
+   "info2": "TypeScript · criado há 19 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "lnkiai/m3e-canvas",
+   "repo": "m3e-canvas",
+   "url": "https://github.com/lnkiai/m3e-canvas",
+   "gancho": [
+    "RABISCA AS TELAS.",
+    "A IA FAZ O APP."
+   ],
+   "o_que_e": "Um bloco de rascunho no navegador para montar telas de app com peças do Material 3 e virar um pedido pronto para sua IA de código.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Roda no navegador",
+     "texto": "Sem conta, sem servidor e nada para instalar. Grátis e de código aberto."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Vira um pedido pronto",
+     "texto": "O desenho vira um texto curto para colar no Claude Code, Codex ou Cursor."
+    }
+   ],
+   "fluxo": [
+    "ESBOÇA A TELA",
+    "TESTA O FLUXO",
+    "COPIA O PEDIDO"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+141",
+   "stat_rotulo": "por dia",
+   "total": "10.345",
+   "info2": "TypeScript · criado há 73 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "shader-effects-inc/shaders",
+   "repo": "shaders",
+   "url": "https://github.com/shader-effects-inc/shaders",
+   "gancho": [
+    "VIDRO, METAL, LUZ",
+    "NO SEU SITE"
+   ],
+   "o_que_e": "Um pacote de efeitos visuais que rodam na placa de vídeo, como gradientes, vidro e luz, prontos para colocar no seu site.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 200 efeitos",
+     "texto": "Gradientes, ruído, vidro, metal, luz, desfoques e rastro do cursor."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Editor visual grátis",
+     "texto": "Você desenha no shaders.com e exporta o código pronto para o seu projeto."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "MONTA O EFEITO",
+    "COPIA O CÓDIGO"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+130",
+   "stat_rotulo": "por dia",
+   "total": "5.940",
+   "info2": "TypeScript · criado há 46 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "NiazMorshed2007/reanimate",
+   "repo": "reanimate",
+   "url": "https://github.com/NiazMorshed2007/reanimate",
+   "gancho": [
+    "VIU UMA ANIMAÇÃO?",
+    "A IA COPIA IGUAL."
+   ],
+   "o_que_e": "Uma skill do Claude Code que grava uma animação de um site ou vídeo, refaz no seu código e compara até a cópia se mexer igual.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Aceita site, vídeo e gif",
+     "texto": "Funciona com site ao vivo, gravação de tela, mp4, gif ou arquivo Lottie."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Compara rodada a rodada",
+     "texto": "Cada volta mostra o que ainda está diferente até os números baterem."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "A IA REFAZ",
+    "CÓPIA CONFERIDA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "opengraph",
+   "stat": "+102",
+   "stat_rotulo": "por dia",
+   "total": "1.658",
+   "info2": "JavaScript · criado há 16 dias"
+  },
+  {
+   "pos": 6,
+   "nome": "lucasmarkes/hairline",
+   "repo": "hairline",
+   "url": "https://github.com/lucasmarkes/hairline",
+   "gancho": [
+    "DESENHOS QUE SEGUEM",
+    "O SEU MOUSE"
+   ],
+   "o_que_e": "Um pacote de figuras em linha, em perspectiva isométrica, que reagem ao ponteiro do mouse no seu site em React ou em qualquer página.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Figuras prontas",
+     "texto": "Trinta e três figuras isométricas animadas, com demonstração ao vivo."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Sem dependências",
+     "texto": "Pacote leve, sem outras bibliotecas; o React só entra se você usar."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE FIGURA",
+    "SEGUE O MOUSE"
+   ],
+   "print": "prints/6.png",
+   "print_fonte": "readme",
+   "stat": "+87",
+   "stat_rotulo": "por dia",
+   "total": "3.841",
+   "info2": "TypeScript · criado há 44 dias"
+  },
+  {
+   "pos": 7,
+   "nome": "AhmadHassan-BTed/Jantt",
+   "repo": "Jantt",
+   "url": "https://github.com/AhmadHassan-BTed/Jantt",
+   "gancho": [
+    "UM TEXTO VIRA",
+    "CRONOGRAMA."
+   ],
+   "o_que_e": "Um gerador de gráfico de Gantt, o cronograma em barras, que transforma um arquivo de texto JSON numa linha do tempo que você arrasta.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Feito para IA",
+     "texto": "Agentes de IA escrevem o cronograma em JSON gastando bem menos texto."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Caminho crítico",
+     "texto": "Mostra as tarefas que seguram o projeto inteiro, com arrastar e soltar."
+    }
+   ],
+   "fluxo": [
+    "ESCREVE O JSON",
+    "VIRA GANTT",
+    "AJUSTA AS DATAS"
+   ],
+   "print": "prints/7.png",
+   "print_fonte": "readme",
+   "stat": "+80",
+   "stat_rotulo": "por dia",
+   "total": "6.225",
+   "info2": "TypeScript · criado há 78 dias"
+  },
+  {
+   "pos": 8,
+   "nome": "kubai087/kubai-icons",
+   "repo": "kubai-icons",
+   "url": "https://github.com/kubai087/kubai-icons",
+   "gancho": [
+    "ÍCONES ANIMADOS",
+    "NO MESMO ESTILO"
+   ],
+   "o_que_e": "Uma skill para Claude Code e Codex que desenha ícones animados num estilo único, com mais de 2.800 ícones abertos para usar.",
+   "beneficios": [
+    {
+     "icone": "wand",
+     "titulo": "A IA desenha seus ícones",
+     "texto": "Você descreve o produto e o agente desenha os ícones de que ele precisa."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Site para buscar",
+     "texto": "Busque por nome ou forma, troque a cor e baixe em SVG ou PNG."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "DESCREVE O APP",
+    "ÍCONES PRONTOS"
+   ],
+   "print": "prints/8.png",
+   "print_fonte": "opengraph",
+   "stat": "+74",
+   "stat_rotulo": "por dia",
+   "total": "826",
+   "info2": "JavaScript · criado há 11 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 8 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois. Amanhã tem outra área, sempre às 18h.",
+  "agenda": "Todo dia no <b>@inema.tech</b>: <b>14h</b> Top 10 do GitHub · <b>18h</b> Top da área"
+ }
+}

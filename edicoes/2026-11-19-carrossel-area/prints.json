@@ -1,0 +1,42 @@
+{
+ "memoryswordsmanlaud/fieldkit-awesome-osint-list": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/memoryswordsmanlaud/fieldkit-awesome-osint-list/main/assets/acid-test.png",
+  "tam": [
+   1400,
+   875
+  ]
+ },
+ "StormBrawlerSack/legwork-osint-ai-investigator": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/StormBrawlerSack/legwork-osint-ai-investigator/main/docs/hero.png",
+  "tam": [
+   1400,
+   875
+  ]
+ },
+ "nukeratframework/nukerat": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/nukeratframework/nukerat",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "arpanjot-coding/AVault": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/arpanjot-coding/AVault/main/docs/assets/social-card.jpg",
+  "tam": [
+   1199,
+   630
+  ]
+ },
+ "ChiefGyk3D/Clouds-Against-Humanity": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/ChiefGyk3D/Clouds-Against-Humanity/main/docs/images/readme-diagram-1.png",
+  "tam": [
+   1400,
+   480
+  ]
+ }
+}

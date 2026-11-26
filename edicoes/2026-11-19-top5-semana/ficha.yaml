@@ -1,0 +1,103 @@
+modo: semana
+gancho:
+  tipo: noticia
+  manchete: 'GOOGLE: +7.257 ESTRELAS EM 7 DIAS'
+  destaque: '+7.257'
+  objeto: um navegador gigante rachando ao meio, com um foguete dourado saindo pela
+    tela e faíscas amarelas voando
+  fontes:
+  - nome: github.com/trending?since=weekly
+    trecho: GoogleChrome/modern-web-guidance-src · 7,257 stars this week
+  - nome: github.com/GoogleChrome/modern-web-guidance-src
+    trecho: Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN
+      teams
+abertura:
+  cena: sala escura de desenvolvedores à noite, telas apagadas, só a luz amarela de
+    um navegador aberto no centro
+partes:
+- etapa: gancho
+  fala: Google, Microsoft e Mozilla se juntaram pra ensinar a inteligência artificial
+    a fazer sites. Em sete dias, o projeto ficou mais de cinco vezes maior.
+- etapa: panorama
+  fala: No Top cinco da semana, os projetos que mais cresceram somaram vinte e nove
+    mil cento e onze estrelas. Vou do quinto ao primeiro.
+  numero: '29.111'
+- etapa: repo
+  repo: anthropics/skills
+  desc: Habilidades prontas da Anthropic para a IA criar planilhas, documentos e apresentações.
+  destaque: Habilidades prontas
+  numero: '4.381'
+  fala: Em quinto, Skills, da Anthropic, a dona do Claude. Uma coleção de habilidades
+    prontas pra IA criar planilhas, documentos e apresentações. Ganhou quatro mil
+    trezentas e oitenta e uma estrelas e já passa de cento e noventa e sete mil estrelas.
+- etapa: repo
+  repo: alibaba/open-code-review
+  desc: Revisor de código com IA da Alibaba, que já achou milhões de erros dentro
+    da empresa.
+  destaque: milhões de erros
+  numero: '4.383'
+  fala: Número quatro vem da Alibaba, a gigante chinesa. Open Code Review é um revisor
+    de código com inteligência artificial que caça erros antes de virarem problema.
+    Lá dentro, já achou milhões de defeitos. Quatro mil trezentas e oitenta e três
+    estrelas.
+- etapa: repo
+  repo: meta/astryx
+  desc: Kit de design da Meta, usado em mais de 13 mil apps, aberto e pronto para
+    IA.
+  destaque: aberto
+  numero: '6.250'
+  fala: E agora o pódio. Bronze pra Meta. Astryx é o kit de design por trás de mais
+    de treze mil aplicativos da empresa, agora aberto e de graça. Seis mil duzentas
+    e cinquenta estrelas.
+- etapa: repo
+  repo: dream-num/univer
+  desc: Um escritório completo, com planilhas e documentos, para pessoas e IAs usarem
+    juntas.
+  destaque: escritório completo
+  numero: '6.840'
+  fala: Prata pro Univer. Imagina um escritório inteiro, com planilha, documento e
+    apresentação, que qualquer empresa coloca dentro do próprio sistema, pra gente
+    e pra IA trabalharem juntas. Seis mil oitocentas e quarenta estrelas.
+- etapa: repo
+  repo: GoogleChrome/modern-web-guidance-src
+  desc: Guia do Google Chrome que ensina a IA a criar sites do jeito moderno, sem
+    vícios antigos.
+  destaque: sem vícios antigos
+  numero: '7.257'
+  fala: E o primeiro lugar é do Google. O time do Chrome, com Microsoft e Mozilla,
+    criou um guia que impede a IA de fazer sites com vícios antigos. Cresceu mais
+    de quatrocentos por cento. Sete mil duzentas e cinquenta e sete estrelas. Numa
+    semana.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  Top cinco: Top 5
+  vinte e nove mil cento e onze: '29.111'
+  quatro mil trezentas e oitenta e uma: '4.381'
+  cento e noventa e sete mil: 197 mil
+  Quatro mil trezentas e oitenta e três: '4.383'
+  treze mil: 13 mil
+  Seis mil duzentas e cinquenta: '6.250'
+  Seis mil oitocentas e quarenta: '6.840'
+  quatrocentos por cento: 400%
+  Sete mil duzentas e cinquenta e sete: '7.257'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'Google, Microsoft e Mozilla ensinam a IA a fazer sites: 7.257 estrelas
+    no Top 5 da semana'
+  contexto: O Top 5 do GitHub da semana de 19/11/2026, do quinto ao primeiro, explicado
+    sem jargão. Um guia do Google Chrome que ensina a IA a fazer sites modernos liderou
+    com 7.257 estrelas, à frente de Univer, Meta, Alibaba e Anthropic.
+  telegram: 'O que bombou na semana no GitHub: o Google, junto com Microsoft e Mozilla,
+    lançou um guia que ensina a IA a fazer sites do jeito moderno e ganhou 7.257 estrelas.
+    O projeto cresceu mais de 400% em sete dias. Meta, Alibaba e Anthropic também
+    entraram no Top 5.'

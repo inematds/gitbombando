@@ -1,0 +1,15 @@
+Google não larga o topo do GitHub: +1.225 estrelas e mais um projeto no Top 10
+
+#1 GoogleChrome/modern-web-guidance-src —
+#2 alibaba/open-code-review —
+#3 ZhuLinsen/daily_stock_analysis —
+#4 ChromeDevTools/chrome-devtools-mcp —
+#5 we-promise/sure —
+#6 openai/codex-security —
+#7 tradermonty/claude-trading-skills —
+#8 tailscale/tailcat —
+#9 louislam/uptime-kuma —
+#10 Likely7/Veyra-NRVideo —
+
+Curso gratuito em inema.club
+#github #opensource #ia #programacao #inemaclub

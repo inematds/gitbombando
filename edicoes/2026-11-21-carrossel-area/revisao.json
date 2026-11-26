@@ -1,0 +1,9 @@
+{
+ "veredito": "reprovado",
+ "motivo": "Posições 4 e 5 são o mesmo 'Gemini-Config-Checker-' em contas com nomes aleatórios, com estrelas e datas idênticas e linguagem Makefile para uma ferramenta de Windows: padrão típico de repositório clonado para espalhar malware e inflar estrelas, além de repetir o projeto no Top 5.",
+ "slides_ruins": [
+  5,
+  6
+ ],
+ "sugestao": "Descartar repositórios duplicados de contas recém-criadas com nomes aleatórios e estrelas iguais e puxar os próximos do ranking. Também vale conferir se o peach, com elenco, estúdio e códigos de filme, não é um organizador voltado a conteúdo adulto."
+}

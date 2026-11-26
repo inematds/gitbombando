@@ -1,0 +1,92 @@
+modo: area
+gancho:
+  tipo: perda
+  manchete: +77 POR DIA PRA TE INVESTIGAR
+  destaque: '+77'
+  objeto: uma lupa dourada gigante rachando ao meio sobre uma foto de rosto, com raios
+    de luz amarela escapando pelas rachaduras
+  fontes:
+  - nome: github.com/memoryswordsmanlaud/fieldkit-awesome-osint-list
+    trecho: 454 stars, created 2026-11-13
+abertura:
+  cena: sala de investigação escura à noite, mural de fotos e fios vermelhos na parede,
+    só a luz amarela vindo do centro
+partes:
+- etapa: gancho
+  fala: Um apelido. Uma foto sua. É disso que o projeto de segurança que mais cresce
+    no GitHub precisa pra começar a te investigar.
+- etapa: panorama
+  fala: No Top cinco de segurança digital, os projetos somam duzentas e cinquenta
+    e sete estrelas por dia desde que nasceram. Vou do quinto ao primeiro.
+  numero: '257'
+- etapa: repo
+  repo: ChiefGyk3D/Clouds-Against-Humanity
+  desc: Curso grátis que ensina a proteger servidores na nuvem montando tudo do zero.
+  destaque: Curso grátis
+  numero: '33'
+  fala: Em quinto, Clouds Against Humanity. Um curso grátis que ensina a proteger
+    servidores na nuvem, montando tudo com as próprias mãos, do zero. Trinta e três
+    estrelas por dia.
+- etapa: repo
+  repo: arpanjot-coding/AVault
+  desc: Grava ligações no Android e guarda tudo num cofre com senha e biometria.
+  destaque: cofre
+  numero: '34'
+  fala: 'Número quatro, AVault. Ele grava suas ligações no Android e guarda tudo num
+    cofre com senha e biometria. Trinta e quatro estrelas por dia. Mas atenção: gravar
+    alguém sem permissão pode dar problema, cuidado.'
+- etapa: repo
+  repo: nukeratframework/nukerat
+  desc: Kit usado por equipes que simulam ataques hacker para achar falhas em empresas.
+  destaque: simulam ataques
+  numero: '37'
+  fala: E agora o pódio. Bronze pro NukeRat, e esse é polêmico. É um kit de equipes
+    que simulam ataques hacker em empresas, pra achar falhas antes dos criminosos.
+    Nas mãos erradas vira arma. Trinta e sete estrelas por dia.
+- etapa: repo
+  repo: StormBrawlerSack/legwork-osint-ai-investigator
+  desc: Investigador com IA que responde suas perguntas com a fonte em cada frase.
+  destaque: fonte em cada frase
+  numero: '76'
+  fala: Prata pro Legwork. Você faz uma pergunta em palavras simples e uma inteligência
+    artificial vasculha páginas públicas e responde com a fonte em cada frase. Setenta
+    e seis estrelas por dia.
+- etapa: repo
+  repo: memoryswordsmanlaud/fieldkit-awesome-osint-list
+  desc: Lista de 22 ferramentas que investigam um apelido, uma foto, um site ou uma
+    empresa.
+  destaque: investigam
+  numero: '77'
+  fala: E o primeiro lugar? Fieldkit. Uma lista de vinte e duas ferramentas pra investigar
+    um apelido, uma foto, um site, uma empresa. Setenta e sete estrelas por dia. Tem
+    até uma que mostra o que a internet sabe sobre você.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  duzentas e cinquenta e sete: '257'
+  Trinta e três: '33'
+  Trinta e quatro: '34'
+  Trinta e sete: '37'
+  Setenta e seis: '76'
+  Setenta e sete: '77'
+  vinte e duas: '22'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: '77 estrelas por dia: as ferramentas que investigam você lideram o Top 5
+    de segurança'
+  contexto: O Top 5 do GitHub em segurança digital, medido em estrelas por dia desde
+    a criação, explicado sem jargão. O Fieldkit lidera com 77 estrelas por dia, uma
+    lista de ferramentas que investigam apelidos, fotos e sites.
+  telegram: 'Bombando no GitHub em segurança digital: o Fieldkit cresce 77 estrelas
+    por dia com 22 ferramentas que investigam um apelido, uma foto ou uma empresa.
+    Logo atrás, o Legwork, uma IA investigadora que mostra a fonte de cada frase.
+    E no pódio, o polêmico NukeRat, kit de ataque simulado.'

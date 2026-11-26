@@ -1,0 +1,15 @@
+O Google perdeu o topo do GitHub: Univer dispara com +1.878 estrelas em um dia
+
+#1 dream-num/univer —
+#2 GoogleChrome/modern-web-guidance-src —
+#3 Tencent/LoopForge —
+#4 alibaba/open-code-review —
+#5 tradermonty/claude-trading-skills —
+#6 ChromeDevTools/chrome-devtools-mcp —
+#7 ag-ui-protocol/ag-ui —
+#8 backnotprop/plannotator —
+#9 google-labs-code/stitch-skills —
+#10 NVIDIA/SkillEvaluator —
+
+Curso gratuito em inema.club
+#github #opensource #ia #programacao #inemaclub

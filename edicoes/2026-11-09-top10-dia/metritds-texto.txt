@@ -1,0 +1,15 @@
+Caça-apelidos dispara ao topo do GitHub com +4.294 estrelas em um dia
+
+#1 sherlock-project/sherlock —
+#2 meta/astryx —
+#3 milind-soni/OpenMausBot —
+#4 anthropics/skills —
+#5 vercel-labs/agent-browser —
+#6 google-deepmind/mujoco —
+#7 anthropics/claude-quickstarts —
+#8 ZhuLinsen/daily_stock_analysis —
+#9 ruvnet/RuView —
+#10 garrytan/gbrain —
+
+Curso gratuito em inema.club
+#github #opensource #ia #programacao #inemaclub

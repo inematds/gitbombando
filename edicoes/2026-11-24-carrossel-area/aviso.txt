@@ -1,0 +1,1 @@
+revisor/portão: reprovado — O print do slide do 1º lugar (fast-anything) é o primeiro quadro de uma animação: um terminal quase todo preto, só com '$ fas', sem mostrar nada do projeto.

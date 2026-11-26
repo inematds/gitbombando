@@ -1,0 +1,4 @@
+Bombando no GitHub · Top 10 do dia · 22/11/2026 · 133s
+⚠ NÃO publicou no lives4 (ver publicar.log)
+🟥 SUGESTÃO: 13.15s: no ranking do panorama, 'app-store-complia…' aparece cortado; vale abreviar o nome ou reduzir um pouco a fonte. | 86.37s: no gráfico do superpowers, o pico das 07h (198) achata todas as outras barras; uma escala com teto ou um destaque no pico deixaria a curva mais legível. | 0.05–4.0s: a capa é forte, mas a legenda karaokê sobre a imagem do cadeado perde contraste nas palavras ainda não faladas (cinza sobre fundo dourado). | 113.83s: no cartão do #1, a descrição poderia trazer o alerta 
+IA caçadora de falhas volta ao topo do GitHub com +1.803 estrelas em um dia

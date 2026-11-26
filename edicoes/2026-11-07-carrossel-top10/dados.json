@@ -1,0 +1,200 @@
+{
+ "tipo": "top10",
+ "dia": "2026-11-07",
+ "itens": [
+  {
+   "pos": 1,
+   "nome": "cloudflare/security-audit-skill",
+   "dono": "cloudflare",
+   "repo": "security-audit-skill",
+   "descricao_en": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "linguagem": "JavaScript",
+   "estrelas_periodo": 2548,
+   "estrelas_total": 64600,
+   "criado_em": "2026-06-18T14:08:44Z",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "topicos": [],
+   "readme": "# security-audit\nA coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting.\nThis is the skill that seeded Cloudflare's vulnerability discovery harness, described in [Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness). The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from.\n## What it does\nThe skill runs a structured audit in six phases:\n1. **Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.\n2. **Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.\n3. **Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.\n4. **Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `report-schema.json`.\n5. **Independent record verification** -- fresh agents verify final source claims. Material replacements receive another independent verifier.\n6. **Target-neutral reporting** -- derive `REPORT.md`, `FINDINGS-DETAIL.md`, and `NEEDS-VALIDATION.md` from the verified records and coverage ledg",
+   "desc_pt": "Da Cloudflare: a sua IA vira um auditor que caça falhas de segurança antes dos hackers."
+  },
+  {
+   "pos": 2,
+   "nome": "mattpocock/skills",
+   "dono": "mattpocock",
+   "repo": "skills",
+   "descricao_en": "Skills for Real Engineers. Straight from my .agents directory.",
+   "linguagem": "Shell",
+   "estrelas_periodo": 2070,
+   "estrelas_total": 317057,
+   "criado_em": "2026-02-03T11:15:53Z",
+   "url": "https://github.com/mattpocock/skills",
+   "topicos": [],
+   "readme": "# Skills For Real Engineers\n[ ](https://skills.sh/mattpocock/skills)\nMy agent skills that I use every day to do real engineering - not vibe coding.\nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.\nThese skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.\nIf you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter:\n[Sign Up To The Newsletter](https://www.aihero.dev/s/skills-newsletter)\n## Installation (30-second setup)\nA plugin updates itself. [skills.sh](https://skills.sh/mattpocock/skills) copies editable files into your project, and you update them by hand. Pick one per agent, because installing both gives you every skill twice.\n### 1. Get the skills\n  Claude Code  \n```bash\nclaude plugin install mattpocock-skills@claude-plugins-official\n```\nUpdates itself by default.\n  Codex  \n```bash\ncodex plugin marketplace add mattpocock/skills\ncodex plugin add mattpocock-skills@mattpocock\n```\nUpdates itself at startup.\n  GitHub Copilot  (CLI and VS Code) \n```bash\ncopilot plugin marketplace add mattpocock/skills\ncopilot plugin install mattpocock-skills@mattpocock\n```\nThen, once, add to `~/.copilot/settings.json`:\n```json\n{\n  \"e",
+   "desc_pt": "As receitas de um programador veterano para a IA trabalhar com capricho, não no chute."
+  },
+  {
+   "pos": 3,
+   "nome": "NVIDIA/auto-ontology",
+   "dono": "NVIDIA",
+   "repo": "auto-ontology",
+   "descricao_en": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "linguagem": "Python",
+   "estrelas_periodo": 2015,
+   "estrelas_total": 9498,
+   "criado_em": "2026-04-27T21:45:56Z",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "topicos": [],
+   "readme": "# Auto Ontology\nAgents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic models customers already own.\nIt enables developers to:\n- Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.\n- Ground: give agents trusted business meaning for metrics, entities, and relationships; reconcile inconsistent definitions across systems.\n- Validate: check generated queries against certified definitions and lineage; return provenance with every answer.\n- Expose: serve context to any agent harness through MCP, CLI, and API.\nLearn: fold certified corrections and usage back into the ontology, so shared context improves with every question.\n## Benchmarks\nTo run a text-to-SQL benchmark such as BIRD, refer to the\n[ontology SQL evaluation repository](https://github.com/NVIDIA/ontology-sql-eval/).\n> **Licensing & contributions.** Auto Ontology is distributed under the\n> [Apache License 2.0](./LICENSE). Third-party open-source components\n> bundled",
+   "desc_pt": "Da NVIDIA: um mapa dos dados da empresa para a IA parar de inventar números."
+  },
+  {
+   "pos": 4,
+   "nome": "google/skills",
+   "dono": "google",
+   "repo": "skills",
+   "descricao_en": "Agent Skills for Google products and technologies",
+   "linguagem": "Python",
+   "estrelas_periodo": 534,
+   "estrelas_total": 23011,
+   "criado_em": "2026-03-31T19:02:20Z",
+   "url": "https://github.com/google/skills",
+   "topicos": [
+    "google",
+    "googlecloud",
+    "skills"
+   ],
+   "readme": "# Agent Skills\n[ ](https://skills.sh/google/skills)\nThis repository contains [Agent Skills](https://agentskills.io/home) for Google\nproducts and technologies, including [Google Cloud](https://cloud.google.com).\n## Installation\n```bash\nnpx skills add google/skills\n```\nWhen prompted, select specific skills or all skills, the target agents to\nconfigure, and the installation scope (project or global).\nIf `npx` is not available in your environment, install\n[Node.js](https://nodejs.org/en/download), which includes `npm` and `npx`.\n## Updating Skills\nTo update previously installed skills to the latest versions, run the following\ncommand.\n```bash\nnpx skills update\n```\nThis command gives you an option to also remove obsolete skills.\n## Available Skills\n- **Getting started with Google Cloud**\n  - [**Authenticating and Authorizing to Google Cloud (IAM)**](./skills/cloud/google-cloud-recipe-auth)\n  - [**Google Cloud Recipe: Foundation Builder**](./skills/cloud/google-cloud-recipe-foundation-builder)\n  - [**Onboarding to Google Cloud**](./skills/cloud/google-cloud-recipe-onboarding)\n- **Multi-product solution skills**\n  - [**Google Cloud solution-architecture workflow**](./skills/cloud/google-cloud-solution-architecture)\n  - [**Agent Gateway multi-agent security**](./skills/cloud/google-cloud-solution-multi-agent-security)\n  - [**Agentic analytics across cloud providers and data types**](./skills/cloud/google-cloud-solution-agentic-analytics-spark-knowledge-catalog)\n  - [**Borderless open",
+   "desc_pt": "Do Google: ensina a sua IA a usar os produtos e a nuvem do Google sozinha."
+  },
+  {
+   "pos": 5,
+   "nome": "lz4/lz4",
+   "dono": "lz4",
+   "repo": "lz4",
+   "descricao_en": "Extremely Fast Compression algorithm",
+   "linguagem": "C",
+   "estrelas_periodo": 315,
+   "estrelas_total": 12671,
+   "criado_em": "2014-03-25T15:52:21Z",
+   "url": "https://github.com/lz4/lz4",
+   "topicos": [
+    "c",
+    "compression",
+    "lz4"
+   ],
+   "readme": "LZ4 - Extremely fast compression\n================================\nLZ4 is a lossless compression algorithm,\nproviding compression speed > 500 MB/s per core,\nscalable with multi-core CPUs.\nIt features an extremely fast decoder,\nwith speed in multiple GB/s per core,\ntypically reaching RAM speed limits on multi-core systems.\nCompression speed can be tuned dynamically, by selecting an \"acceleration\" factor\nwhich trades compression ratio for faster speed.\nOn the other end, a high compression derivative, LZ4_HC, is also provided,\ntrading CPU time for improved compression ratio.\nAll versions feature the same decompression speed.\nLZ4 is also compatible with [dictionary compression](https://github.com/facebook/zstd#the-case-for-small-data-compression),\nboth at [API](lib/lz4frame.h) and [CLI](programs/lz4.1.md#operation-modifiers) (`-D`) levels.\nIt can ingest any input file as dictionary, though only the final 64 KB are used.\nThis capability can be combined with the [Zstandard Dictionary Builder](https://github.com/facebook/zstd/blob/dev/programs/zstd.1.md#dictionary-builder),\nin order to drastically improve compression performance on small files.\nThe LZ4 library is provided as open-source software using the BSD 2-Clause license.\nThe `lz4` command line utility is provided under the GPL-2.0-or-later license.\nBenchmarks\n-------------------------\nThe benchmark uses [lzbench] v2.4.1, from @inikep\ncompiled with GCC v13.3.0 on Linux 64-bits (Ubuntu 24.04).\nThe reference system uses a Core i7-",
+   "desc_pt": "Compacta arquivos a mais de quinhentos megas por segundo, escondido em muito programa."
+  },
+  {
+   "pos": 6,
+   "nome": "zed-industries/zed",
+   "dono": "zed-industries",
+   "repo": "zed",
+   "descricao_en": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "linguagem": "Rust",
+   "estrelas_periodo": 306,
+   "estrelas_total": 93950,
+   "criado_em": "2021-02-20T03:01:06Z",
+   "url": "https://github.com/zed-industries/zed",
+   "topicos": [
+    "gpui",
+    "rust-lang",
+    "text-editor",
+    "zed"
+   ],
+   "readme": "# Zed\n[ ](https://zed.dev)\n[ ](https://github.com/zed-industries/zed/actions/workflows/run_tests.yml)\nWelcome to Zed, a high-performance, multiplayer code editor from the creators of [Atom](https://github.com/atom/atom) and [Tree-sitter](https://github.com/tree-sitter/tree-sitter).\n---\n### Installation\nOn macOS, Linux, and Windows you can [download Zed directly](https://zed.dev/download) or install Zed via your local package manager ([macOS](https://zed.dev/docs/installation#macos)/[Linux](https://zed.dev/docs/linux#installing-via-a-package-manager)/[Windows](https://zed.dev/docs/windows#package-managers)).\nOther platforms are not yet available:\n- Web ([tracking discussion](https://github.com/zed-industries/zed/discussions/26195))\n### Developing Zed\n- [Building Zed for macOS](./docs/src/development/macos.md)\n- [Building Zed for Linux](./docs/src/development/linux.md)\n- [Building Zed for Windows](./docs/src/development/windows.md)\n### Contributing\nSee [CONTRIBUTING.md](./CONTRIBUTING.md) for ways you can contribute to Zed.\nAlso... we're hiring! Check out our [jobs](https://zed.dev/jobs) page for open roles.\n### Licensing\nZed source code is licensed primarily under GPL-3.0-or-later, with Apache-2.0 components where marked.\nLicense information for third party dependencies must be correctly provided for CI to pass.\nWe use [`cargo-about`](https://github.com/EmbarkStudios/cargo-about) to automatically comply with open source licenses. If CI is failing, check the following:\n- Is it ",
+   "desc_pt": "O rival do VS Code: editor super rápido, feito pra várias pessoas e a IA juntas."
+  },
+  {
+   "pos": 7,
+   "nome": "microsoft/vscode",
+   "dono": "microsoft",
+   "repo": "vscode",
+   "descricao_en": "Visual Studio Code",
+   "linguagem": "TypeScript",
+   "estrelas_periodo": 301,
+   "estrelas_total": 195108,
+   "criado_em": "2015-09-03T20:23:38Z",
+   "url": "https://github.com/microsoft/vscode",
+   "topicos": [
+    "editor",
+    "electron",
+    "microsoft",
+    "typescript",
+    "visual-studio-code"
+   ],
+   "readme": "# Visual Studio Code - Open Source (\"Code - OSS\")\n[ ](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)\n[ ](https://github.com/microsoft/vscode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)\n## The Repository\nThis repository (\"`Code - OSS`\") is where we (Microsoft) develop the [Visual Studio Code](https://code.visualstudio.com) product together with the community. Not only do we work on code and issues here, but we also publish our [roadmap](https://github.com/microsoft/vscode/wiki/Roadmap), [monthly iteration plans](https://github.com/microsoft/vscode/wiki/Iteration-Plans), and our [endgame plans](https://github.com/microsoft/vscode/wiki/Running-the-Endgame). This source code is available to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).\n## Visual Studio Code\n[Visual Studio Code](https://code.visualstudio.com) is a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional [Microsoft product license](https://code.visualstudio.com/License/).\n[Visual Studio Code](https://code.visualstudio.com) combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools.\nVisual Studio Code",
+   "desc_pt": "Da Microsoft: o editor de programação mais usado do planeta, e de graça."
+  },
+  {
+   "pos": 8,
+   "nome": "react/react",
+   "dono": "react",
+   "repo": "react",
+   "descricao_en": "The library for web and native user interfaces.",
+   "linguagem": "JavaScript",
+   "estrelas_periodo": 248,
+   "estrelas_total": 252332,
+   "criado_em": "2013-05-24T16:15:54Z",
+   "url": "https://github.com/react/react",
+   "topicos": [
+    "declarative",
+    "frontend",
+    "javascript",
+    "library",
+    "react",
+    "ui"
+   ],
+   "readme": "# [React](https://react.dev/) &middot; [ ](https://github.com/react/react/blob/main/LICENSE) [ ](https://www.npmjs.com/package/react) [ ](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml) [ ](https://github.com/react/react/actions/workflows/compiler_typescript.yml) [ ](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)\nReact is a JavaScript library for building user interfaces.\n* **Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.\n* **Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM.\n* **Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using [Node](https://nodejs.org/en) and power mobile apps using [React Native](https://reactnative.dev/).\n[Learn how to use React in your project](https://react.dev/learn).\n## Installation\nReact has been designed for gradual adoption from the start, and **you can ",
+   "desc_pt": "Criado no Facebook: o kit que monta boa parte dos sites e aplicativos que você usa."
+  },
+  {
+   "pos": 9,
+   "nome": "rust-lang/rust",
+   "dono": "rust-lang",
+   "repo": "rust",
+   "descricao_en": "Empowering everyone to build reliable and efficient software.",
+   "linguagem": "Rust",
+   "estrelas_periodo": 192,
+   "estrelas_total": 121560,
+   "criado_em": "2010-06-16T20:39:03Z",
+   "url": "https://github.com/rust-lang/rust",
+   "topicos": [
+    "compiler",
+    "language",
+    "rust"
+   ],
+   "readme": "[Website][Rust] | [Getting started] | [Learn] | [Documentation] | [Contributing]\nThis is the main source code repository for [Rust]. It contains the compiler,\nstandard library, and documentation.\n[Rust]: https://www.rust-lang.org/\n[Getting Started]: https://www.rust-lang.org/learn/get-started\n[Learn]: https://www.rust-lang.org/learn\n[Documentation]: https://www.rust-lang.org/learn#learn-use\n[Contributing]: CONTRIBUTING.md\n## Why Rust?\n- **Performance:** Fast and memory-efficient, suitable for critical services, embedded devices, and easily integrated with other languages.\n- **Reliability:** Our rich type system and ownership model ensure memory and thread safety, reducing bugs at compile-time.\n- **Productivity:** Comprehensive documentation, a compiler committed to providing great diagnostics, and advanced tooling including package manager and build tool ([Cargo]), auto-formatter ([rustfmt]), linter ([Clippy]) and editor support ([rust-analyzer]).\n[Cargo]: https://github.com/rust-lang/cargo\n[rustfmt]: https://github.com/rust-lang/rustfmt\n[Clippy]: https://github.com/rust-lang/rust-clippy\n[rust-analyzer]: https://github.com/rust-lang/rust-analyzer\n## Quick Start\nRead [\"Installation\"] from [The Book].\n[\"Installation\"]: https://doc.rust-lang.org/book/ch01-01-installation.html\n[The Book]: https://doc.rust-lang.org/book/index.html\n## Installing from Source\nIf you really want to install from source (though this is not recommended), see\n[INSTALL.md](INSTALL.md).\n## Getting Help\nSee ",
+   "desc_pt": "A linguagem de programação preferida de quem quer programa rápido e que não trava."
+  },
+  {
+   "pos": 10,
+   "nome": "astral-sh/ruff",
+   "dono": "astral-sh",
+   "repo": "ruff",
+   "descricao_en": "An extremely fast Python linter and code formatter, written in Rust.",
+   "linguagem": "Rust",
+   "estrelas_periodo": 169,
+   "estrelas_total": 50781,
+   "criado_em": "2022-08-09T17:17:44Z",
+   "url": "https://github.com/astral-sh/ruff",
+   "topicos": [
+    "linter",
+    "pep8",
+    "python",
+    "python3",
+    "ruff",
+    "rust",
+    "rustpython",
+    "static-analysis",
+    "static-code-analysis",
+    "style-guide",
+    "styleguide"
+   ],
+   "readme": "# Ruff\n[ ](https://github.com/astral-sh/ruff)\n[ ](https://pypi.python.org/pypi/ruff)\n[ ](https://github.com/astral-sh/ruff/blob/main/LICENSE)\n[ ](https://pypi.python.org/pypi/ruff)\n[ ](https://github.com/astral-sh/ruff/actions)\n[ ](https://discord.com/invite/astral-sh)\n[**Docs**](https://docs.astral.sh/ruff/) | [**Playground**](https://play.ruff.rs/)\nAn extremely fast Python linter and code formatter, written in Rust.\n   Linting the CPython codebase from scratch. \n- ⚡️ 10-100x faster than existing linters (like Flake8) and formatters (like Black)\n- 🐍 Installable via `pip`\n- 🛠️ `pyproject.toml` support\n- 🤝 Python 3.15 compatibility\n- ⚖️ Drop-in parity with [Flake8](https://docs.astral.sh/ruff/faq/#how-does-ruffs-linter-compare-to-flake8), [isort](https://docs.astral.sh/ruff/faq/#how-does-ruffs-import-sorting-compare-to-isort), and [Black](https://docs.astral.sh/ruff/faq/#how-does-ruffs-formatter-compare-to-black)\n- 📦 Built-in caching, to avoid re-analyzing unchanged files\n- 🔧 Fix support, for automatic error correction (e.g., automatically remove unused imports)\n- 📏 Over [900 built-in rules](https://docs.astral.sh/ruff/rules/), with native re-implementations\n    of popular Flake8 plugins, like flake8-bugbear\n- ⌨️ First-party [editor integrations](https://docs.astral.sh/ruff/editors) for [VS Code](https://github.com/astral-sh/ruff-vscode) and [more](https://docs.astral.sh/ruff/editors/setup)\n- 🌎 Monorepo-friendly, with [hierarchical and cascading configuration](https://docs.ast",
+   "desc_pt": "Revisa e arruma programas em Python num piscar de olhos, bem mais rápido que os rivais."
+  }
+ ],
+ "soma": 8698,
+ "fonte": "github.com/trending"
+}

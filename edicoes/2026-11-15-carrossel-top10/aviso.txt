@@ -1,0 +1,2 @@
+revisor/portão: sem veredito — [carrossel] dados: top10 · 10 repositórios
+[carrossel] REPROVOU: textos reprovados no portão: textos.json ilegível ([Errno 2] No such file or directory: '/home/nmaldaner/projetos/gitbombando/edicoes/2026-11-15-carrossel-top10/textos.json')

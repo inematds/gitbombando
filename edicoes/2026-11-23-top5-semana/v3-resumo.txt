@@ -1,0 +1,4 @@
+Bombando no GitHub · Top 5 da semana · 23/11/2026 · 104s
+na fila do x3 no lives8 (item 3825): sai no próximo horário do canal
+🟥 SUGESTÃO: 11.1s: o painel do panorama deixa um grande espaço vazio entre o ranking e o rodapé; dá para aumentar as barras e os nomes ou pôr a soma 22.241 em destaque ali. | 18.2s–82.13s: os rótulos numéricos sobre as barras do gráfico de baixo são minúsculos e ilegíveis no celular; melhor mostrar só o valor do último dia ou nenhum. | 60.82s: o contador do #2 aparece em '0' com barras zeradas por vários segundos; dá impressão de dado faltando e poderia começar a subir mais cedo. | 46.61s: o ícone 'SW' do f
+Office aberto pra IA leva 6.436 estrelas: o Top 5 do GitHub da semana

@@ -1,0 +1,93 @@
+modo: area
+gancho:
+  tipo: noticia
+  manchete: +190 POR DIA ENSINANDO INGLÊS
+  destaque: '+190'
+  objeto: um livro de inglês dourado gigante explodindo em luz, com palavras e desenhos
+    voando pelas rachaduras da capa
+  fontes:
+  - nome: github.com/designfuchen/word-atlas
+    trecho: 5,156 stars, created 2026-10-25
+abertura:
+  cena: quarto de estudo escuro à noite, estante de livros nas sombras, só a luz amarela
+    vindo do centro
+partes:
+- etapa: gancho
+  fala: Um aplicativo de graça que ensina inglês com desenhos lidera o GitHub em apps.
+    E dois projetos gêmeos, idênticos, invadiram o Top cinco. Isso é estranho.
+- etapa: panorama
+  fala: No Top cinco de desenvolvimento web e apps, os projetos somam seiscentas e
+    vinte e cinco estrelas por dia desde que nasceram. Vou do quinto ao primeiro.
+  numero: '625'
+- etapa: repo
+  repo: WireProvostPucker/Gemini-Config-Checker-
+  desc: Testa caminhos alternativos de internet para entrar no Gemini do Google onde
+    ele é bloqueado.
+  destaque: onde ele é bloqueado
+  numero: '81'
+  fala: Em quinto, Gemini Config Checker. Ele testa caminhos alternativos de internet
+    pra entrar no Gemini, a inteligência artificial do Google, em países onde ela
+    é bloqueada. Isso é polêmico, cuidado. Oitenta e uma estrelas por dia.
+- etapa: repo
+  repo: WyrmClimberManacle/Gemini-Config-Checker-
+  desc: Cópia idêntica do quinto lugar, de outro dono, criada segundos depois. Desconfie.
+  destaque: Desconfie
+  numero: '81'
+  fala: Número quatro. É o mesmo projeto! Uma cópia idêntica, de outro dono, criada
+    três segundos depois. Gêmeos assim podem ser armadilha. Antes de baixar qualquer
+    um, desconfie. Também oitenta e uma estrelas por dia.
+- etapa: repo
+  repo: AienTech/dossier
+  desc: Escreve currículo e carta sob medida para cada vaga e acompanha suas candidaturas.
+  destaque: sob medida
+  numero: '110'
+  fala: E agora o pódio. Bronze pro Dossier. Você mostra a vaga de emprego, e a inteligência
+    artificial escreve um currículo e uma carta sob medida, só com fatos seus. E tudo
+    pode ficar no seu computador. Cento e dez estrelas por dia.
+- etapa: repo
+  repo: peach-mitao/peach
+  desc: Organiza sua coleção de vídeos sozinho, com capas, títulos e elenco, tudo
+    no seu computador.
+  destaque: sozinho
+  numero: '163'
+  fala: 'Prata pro Peach. Ele organiza sua coleção de vídeos, busca capa, título e
+    elenco sozinho, e guarda tudo no seu computador. Mas atenção: muita gente usa
+    pra conteúdo adulto. Polêmico. Cento e sessenta e três estrelas por dia.'
+- etapa: repo
+  repo: designfuchen/word-atlas
+  desc: Aplicativo grátis que ensina mais de sete mil palavras em inglês com desenhos
+    e áudio.
+  destaque: grátis
+  numero: '190'
+  fala: E o primeiro lugar? Word Atlas. Um aplicativo grátis que ensina mais de sete
+    mil palavras em inglês com desenhos, pronúncia britânica e americana, e revisão
+    na hora certa. Sem cadastro. Cento e noventa estrelas por dia.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  seiscentas e vinte e cinco: '625'
+  Oitenta e uma: '81'
+  oitenta e uma: '81'
+  Cento e dez: '110'
+  Cento e sessenta e três: '163'
+  Cento e noventa: '190'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: '190 estrelas por dia: app grátis que ensina inglês com desenhos lidera
+    web e apps'
+  contexto: O Top 5 do GitHub em desenvolvimento web e apps, medido em estrelas por
+    dia desde a criação, explicado sem jargão. O Word Atlas lidera com 190 estrelas
+    por dia, ensinando mais de 7 mil palavras em inglês com desenhos.
+  telegram: 'Bombando no GitHub em web e apps: o Word Atlas cresce 190 estrelas por
+    dia ensinando inglês com desenhos, de graça. Logo atrás, o Peach organiza coleções
+    de vídeo e o Dossier escreve currículos sob medida. E atenção: dois projetos gêmeos
+    e polêmicos entraram no Top 5.'

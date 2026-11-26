@@ -1,0 +1,2 @@
+roteirista falhou: Roteiro reprovado após duas tentativas: [gb] REPROVOU: 
+  - gancho.manchete: até 6 palavras, em CAIXA ALTA

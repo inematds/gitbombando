@@ -1,0 +1,12 @@
+[Unit]
+Description=gitbombando: grade %i (reel e carrossel pela fila do x3)
+After=network-online.target stack99.service
+
+[Service]
+Type=oneshot
+Environment=PATH=%h/.local/bin:%h/.npm-global/bin:/usr/local/bin:/usr/bin:/bin
+Environment=DISPLAY=:99
+ExecStart=/bin/bash %h/projetos/gitbombando/auto/grade.sh %i
+TimeoutStartSec=14h
+MemoryMax=40G
+Nice=5

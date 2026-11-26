@@ -1,0 +1,42 @@
+{
+ "designfuchen/word-atlas": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/designfuchen/word-atlas/main/docs/assets/cover-v2.jpg",
+  "tam": [
+   1400,
+   700
+  ]
+ },
+ "peach-mitao/peach": {
+  "fonte": "readme",
+  "url": "https://peach.video/assets/screenshots/home-wide-20261118-2-en-1280.webp",
+  "tam": [
+   1280,
+   720
+  ]
+ },
+ "AienTech/dossier": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/AienTech/dossier",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "WyrmClimberManacle/Gemini-Config-Checker-": {
+  "fonte": "readme",
+  "url": "https://github.com/MatinSenPai/Gemini-Config-Checker/raw/main/assets/banner.png",
+  "tam": [
+   1400,
+   700
+  ]
+ },
+ "WireProvostPucker/Gemini-Config-Checker-": {
+  "fonte": "readme",
+  "url": "https://github.com/MatinSenPai/Gemini-Config-Checker/raw/main/assets/banner.png",
+  "tam": [
+   1400,
+   700
+  ]
+ }
+}

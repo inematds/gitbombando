@@ -1,0 +1,66 @@
+{
+ "ARahim3/DigUp": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/ARahim3/DigUp/main/docs/demo.gif",
+  "tam": [
+   1200,
+   800
+  ]
+ },
+ "AienTech/dossier": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/AienTech/dossier",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "zeekk0/OpenAmika": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/zeekk0/OpenAmika/main/docs/images/mekahime-logo-card.png",
+  "tam": [
+   1180,
+   469
+  ]
+ },
+ "mw00/project-maya": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/mw00/project-maya/main/assets/maya-logo.png",
+  "tam": [
+   512,
+   512
+  ]
+ },
+ "drumih/turbo-fieldfare": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/drumih/turbo-fieldfare/main/docs/assets/turbofieldfare-app.webp",
+  "tam": [
+   1400,
+   864
+  ]
+ },
+ "eagle-hq/EAGLE-4": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/eagle-hq/EAGLE-4/main/docs/assets/paper_results.png",
+  "tam": [
+   1400,
+   933
+  ]
+ },
+ "incoai/splash": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/incoai/splash",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "pallavi-shekhar/ai-engineering-interview-questions-company-wise": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/main/assets/banner.png",
+  "tam": [
+   1280,
+   640
+  ]
+ }
+}

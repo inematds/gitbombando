@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · CLAUDE CODE E MCP",
+ "conta": "@inema.tech",
+ "data_br": "24/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "CLAUDE CODE E MCP",
+  "numero": "+2.744",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "SEU APP EM RUST, SEM REESCREVER",
+  "destaque": "RUST",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "EL4CTEO/fast-anything",
+   "repo": "fast-anything",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "gancho": [
+    "SEU APP LENTO?",
+    "ACELERE SÓ O GARGALO"
+   ],
+   "o_que_e": "Uma ferramenta que acha as partes mais lentas do seu programa e pede ao seu agente de IA para reescrever só elas em Rust, conferindo o resultado.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Acha o que é lento",
+     "texto": "Mede o programa e lista as funções que mais gastam tempo."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Prova que funciona",
+     "texto": "Repete chamadas reais gravadas e confere se o resultado é igual."
+    }
+   ],
+   "fluxo": [
+    "RODA O APP",
+    "A IA REESCREVE",
+    "CONFERE E TROCA"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+1.187",
+   "stat_rotulo": "por dia",
+   "total": "3.430",
+   "info2": "Rust · criado há 3 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "erkamyaman/rust-anything",
+   "repo": "rust-anything",
+   "url": "https://github.com/erkamyaman/rust-anything",
+   "gancho": [
+    "O APP INTEIRO",
+    "EM RUST, AOS POUCOS"
+   ],
+   "o_que_e": "Uma ferramenta que grava o que seu programa faz e guia seu agente de IA a reescrevê-lo em Rust, conferindo cada parte com a gravação.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Uma parte por vez",
+     "texto": "Cada pedaço reescrito é checado antes de seguir para o próximo."
+    },
+    {
+     "icone": "code",
+     "titulo": "Várias linguagens",
+     "texto": "Aceita programas em TypeScript, Python, C, Go, Ruby e Java."
+    }
+   ],
+   "fluxo": [
+    "GRAVA O ORIGINAL",
+    "A IA REESCREVE",
+    "CONFERE CADA UM"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+1.130",
+   "stat_rotulo": "por dia",
+   "total": "9.031",
+   "info2": "Rust · criado há 8 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "INK-Q/agy-fast",
+   "repo": "agy-fast",
+   "url": "https://github.com/INK-Q/agy-fast",
+   "gancho": [
+    "MENOS GASTO",
+    "NO ANTIGRAVITY"
+   ],
+   "o_que_e": "Um complemento para o Google Antigravity que agrupa buscas e edições do agente de IA, reduzindo idas ao modelo, consumo de cota e tempo.",
+   "beneficios": [
+    {
+     "icone": "zap",
+     "titulo": "Menos idas à IA",
+     "texto": "Junta buscas e edições frequentes em chamadas locais agrupadas."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Tela intacta",
+     "texto": "Não altera a interface, as diferenças nem as checagens do Antigravity."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "USA O AGENTE",
+    "GASTA MENOS"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+165",
+   "stat_rotulo": "por dia",
+   "total": "872",
+   "info2": "TypeScript · criado há 5 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "shinyobjectz/raea",
+   "repo": "raea",
+   "url": "https://github.com/shinyobjectz/raea",
+   "gancho": [
+    "PEÇA UM VÍDEO",
+    "A IA CRIA"
+   ],
+   "o_que_e": "Um aplicativo em que você pede vídeos, animações, 3D e jogos numa conversa, e a sua IA escreve o código e gera tudo na sua placa de vídeo.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Vídeo, 3D e jogos",
+     "texto": "Cria animações, cenas 3D e jogos a partir do que você pede."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu PC",
+     "texto": "Gera tudo na sua placa de vídeo, no Mac, Linux ou Windows."
+    }
+   ],
+   "fluxo": [
+    "PEDE NO CHAT",
+    "A IA CRIA",
+    "VOCÊ AJUSTA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+133",
+   "stat_rotulo": "por dia",
+   "total": "4.869",
+   "info2": "TypeScript · criado há 37 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "kaankiziltug/logo-design-skill",
+   "repo": "logo-design-skill",
+   "url": "https://github.com/kaankiziltug/logo-design-skill",
+   "gancho": [
+    "SUA IA COMO",
+    "DESIGNER DE LOGO"
+   ],
+   "o_que_e": "Um pacote de habilidades que ensina o Claude e outros agentes de IA a criar logotipos, do briefing aos arquivos prontos e ao guia da marca.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Acervo de referência",
+     "texto": "Mais de mil logos reais classificados para estudar, nunca copiar."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Testes do logo",
+     "texto": "Confere o logo em tamanho mínimo, uma cor, invertido e no espelho."
+    }
+   ],
+   "fluxo": [
+    "DÁ O BRIEFING",
+    "A IA DESENHA",
+    "LOGO TESTADO"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+129",
+   "stat_rotulo": "por dia",
+   "total": "7.617",
+   "info2": "HTML · criado há 59 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

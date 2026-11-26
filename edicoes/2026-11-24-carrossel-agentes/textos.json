@@ -1,0 +1,52 @@
+{
+  "capa": {"manchete": "SUA EQUIPE DE AGENTES NO COMPUTADOR", "destaque": "EQUIPE"},
+  "repos": {
+    "Fei-Craft/DS-Bot": {
+      "gancho": ["UM TIME DE BOTS", "QUE CONVERSA ENTRE SI"],
+      "o_que_e": "Um programa de código aberto que transforma o DeepSeek Harness em bots que você cria, com quem conversa e que trocam mensagens em grupo.",
+      "beneficios": [
+        {"icone": "chat", "titulo": "Bots em grupo", "texto": "Bots principais, mensagens entre bots e conversas em grupo."},
+        {"icone": "download", "titulo": "App de computador", "texto": "Instalador para Windows, macOS e Linux, já com o DSH incluído."}
+      ],
+      "fluxo": ["BAIXA O APP", "ESCOLHE O MODELO", "CRIA OS BOTS"]
+    },
+    "w01fb0ss/PiBot": {
+      "gancho": ["AGENTES NO SEU PC", "COM SUA APROVAÇÃO"],
+      "o_que_e": "Um aplicativo de computador em que um time de bots de IA planeja, edita arquivos e navega na web, pedindo sua aprovação nos passos de risco.",
+      "beneficios": [
+        {"icone": "lock", "titulo": "Tudo fica local", "texto": "Conversas, arquivos, memória e chaves ficam na sua máquina."},
+        {"icone": "globe", "titulo": "Roda em todo lugar", "texto": "Funciona em macOS, Windows e Linux, com app para Android."}
+      ],
+      "fluxo": ["CRIA OS BOTS", "MONTA O GRUPO", "VOCÊ APROVA"]
+    },
+    "tigerless-labs/agent-memory": {
+      "gancho": ["SEU AGENTE", "NÃO ESQUECE MAIS"],
+      "o_que_e": "Uma memória de longo prazo para agentes de IA, guardada em arquivos de texto simples, que Claude Code e Codex podem usar juntos.",
+      "beneficios": [
+        {"icone": "database", "titulo": "Memória em texto", "texto": "Tudo fica em arquivos Markdown que você mesmo pode ler e abrir."},
+        {"icone": "shield", "titulo": "Sem chave paga", "texto": "A busca roda no seu computador e não precisa de chave de acesso."}
+      ],
+      "fluxo": ["INSTALA", "O AGENTE GRAVA", "ELE LEMBRA"]
+    },
+    "Tencent/LoopForge": {
+      "gancho": ["PEÇA NO CHAT.", "RECEBA O CÓDIGO."],
+      "o_que_e": "Um espaço de trabalho que roda no seu servidor, onde agentes de programação como Claude Code e Codex entregam código com etapas de aprovação.",
+      "beneficios": [
+        {"icone": "layers", "titulo": "Fluxos repetíveis", "texto": "Salva um jeito de trabalhar que deu certo para repetir depois."},
+        {"icone": "shield", "titulo": "Caixa de areia", "texto": "Cada tarefa roda isolada num ambiente Docker com seus projetos."}
+      ],
+      "fluxo": ["DESCREVE", "AGENTES FAZEM", "VOCÊ APROVA"]
+    },
+    "microsoft/skill-recorder": {
+      "gancho": ["FAÇA UMA VEZ.", "A IA REPETE."],
+      "o_que_e": "Um aplicativo da Microsoft que grava você fazendo uma tarefa na tela e transforma isso numa habilidade que seu agente de IA repete.",
+      "beneficios": [
+        {"icone": "video", "titulo": "Grava sua tela", "texto": "Captura cliques, janelas, páginas visitadas e até sua narração."},
+        {"icone": "clock", "titulo": "Vira automação", "texto": "A tarefa gravada pode rodar sozinha com horário ou gatilho."}
+      ],
+      "fluxo": ["GRAVA A TAREFA", "A IA ENTENDE", "VIRA HABILIDADE"]
+    }
+  },
+  "legenda_abertura": "Os agentes de IA agora trabalham em equipe, lembram do que fizeram e aprendem vendo você trabalhar. Arraste o carrossel e conheça os 5 projetos que mais crescem no GitHub nessa área. No inema.club está tudo lá, mas você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+  "telegram": "Saiu o carrossel com os 5 repositórios de sistemas de agentes de IA que mais crescem no GitHub. Confira no Instagram do @inema.tds. E no inema.club está tudo lá, mas você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

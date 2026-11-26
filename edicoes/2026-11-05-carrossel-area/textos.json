@@ -1,0 +1,202 @@
+{
+ "capa": {
+  "manchete": "SUA FOTO DIZ ONDE VOCÊ ESTAVA",
+  "destaque": "FOTO"
+ },
+ "repos": {
+  "PatchBuilderAmplify/stolen-crypto-tracer": {
+   "gancho": [
+    "CRIPTO ROUBADA?",
+    "SIGA O DINHEIRO."
+   ],
+   "o_que_e": "Um programa grátis para Windows que segue a cripto roubada, passo a passo, até a corretora que pode bloquear a conta.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Rastreia em 5 redes",
+     "texto": "Funciona em Bitcoin, Ethereum, TRON, BNB Chain e Solana."
+    },
+    {
+     "icone": "download",
+     "titulo": "Relatório num clique",
+     "texto": "Gera o relatório que a polícia pede, pronto para você levar."
+    }
+   ],
+   "fluxo": [
+    "COLA A CARTEIRA",
+    "SIGA O DINHEIRO",
+    "LEVA À POLÍCIA"
+   ]
+  },
+  "arpanjot-coding/AVault": {
+   "gancho": [
+    "GRAVA LIGAÇÕES",
+    "COM CADEADO."
+   ],
+   "o_que_e": "Um aplicativo Android grátis e de código aberto que grava ligações e guarda os áudios num cofre protegido por criptografia.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Cofre com AES-256",
+     "texto": "Os áudios ficam cifrados e você abre o cofre com a biometria."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Sem root no celular",
+     "texto": "Usa o app Shizuku para gravar sem desbloquear o sistema do Android."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "LIGA O SHIZUKU",
+    "GRAVA E TRANCA"
+   ]
+  },
+  "Oldcircle/geo-sleuth": {
+   "gancho": [
+    "UMA FOTO SÓ.",
+    "ONDE FOI TIRADA?"
+   ],
+   "o_que_e": "Uma habilidade para agentes de IA, como o Claude Code, que descobre onde uma foto foi tirada e mostra as provas.",
+   "beneficios": [
+    {
+     "icone": "globe",
+     "titulo": "Sem placa nem letreiro",
+     "texto": "Usa mapas, relevo, satélite e street view quando nada está escrito."
+    },
+    {
+     "icone": "image",
+     "titulo": "Mostra o caminho",
+     "texto": "Devolve a posição da câmera, a direção e uma imagem de satélite."
+    }
+   ],
+   "fluxo": [
+    "MANDA A FOTO",
+    "A IA INVESTIGA",
+    "LOCAL NO MAPA"
+   ]
+  },
+  "1337isnot1337/DOPPLERGEIST": {
+   "gancho": [
+    "UM ÁUDIO GRAVADO.",
+    "ONDE ELE FOI FEITO?"
+   ],
+   "o_que_e": "Uma ferramenta em Python que usa o som dos aviões numa gravação e dados de voos antigos para estimar onde o áudio foi gravado.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Acha o som dos aviões",
+     "texto": "Varre a gravação inteira atrás do ronco de aviões passando."
+    },
+    {
+     "icone": "chart",
+     "titulo": "Ranking de locais",
+     "texto": "Compara com rotas de voos reais e lista os lugares mais prováveis."
+    }
+   ],
+   "fluxo": [
+    "MANDA O ÁUDIO",
+    "CRUZA OS VOOS",
+    "LISTA OS LOCAIS"
+   ]
+  },
+  "openai/codex-security": {
+   "gancho": [
+    "ACHE AS FALHAS",
+    "ANTES DO HACKER."
+   ],
+   "o_que_e": "Uma ferramenta da OpenAI que procura falhas de segurança no seu código, confere se são reais e sugere a correção.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Varre o projeto",
+     "texto": "Analisa o projeto inteiro, só algumas pastas ou só as mudanças."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Gera a correção",
+     "texto": "Confirma se a falha é real, cria o remendo e confere o conserto."
+    }
+   ],
+   "fluxo": [
+    "ABRE O PROJETO",
+    "A IA VARRE TUDO",
+    "FALHA CORRIGIDA"
+   ]
+  },
+  "morluto/awesome-reverse-engineering": {
+   "gancho": [
+    "DESMONTAR UM APP?",
+    "COMECE POR AQUI."
+   ],
+   "o_que_e": "Uma lista organizada de ferramentas e materiais para estudar por dentro programas, aplicativos, firmware e protocolos.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Busca pela tarefa",
+     "texto": "Você acha a ferramenta pelo que precisa fazer, sem se perder."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Trilha para aprender",
+     "texto": "Tem uma parte para estudar assembly e os fundamentos do assunto."
+    }
+   ],
+   "fluxo": [
+    "ABRE A LISTA",
+    "VÊ SUA TAREFA",
+    "USA A INDICADA"
+   ]
+  },
+  "hevnsnt/CVEngine": {
+   "gancho": [
+    "DIGITE SEU DOMÍNIO",
+    "VEJA O QUE EXPÕE."
+   ],
+   "o_que_e": "Uma plataforma grátis e de código aberto que acha tudo o que seu domínio expõe na internet e mostra quais falhas podem te atingir.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Prova, não alarme",
+     "texto": "Testes só de leitura confirmam a falha e registram o comando usado."
+    },
+    {
+     "icone": "database",
+     "titulo": "Roda no seu servidor",
+     "texto": "Sobe com Docker Compose e usa sua chave de IA ou um modelo local."
+    }
+   ],
+   "fluxo": [
+    "PÕE O DOMÍNIO",
+    "ELE MAPEIA TUDO",
+    "RISCO COM PROVA"
+   ]
+  },
+  "jmanico/grim-prompter": {
+   "gancho": [
+    "ONDE SEU APP",
+    "PODE SER ATACADO?"
+   ],
+   "o_que_e": "Um conjunto de roteiros para o Claude Code ou o Codex estudarem seu projeto e mostrarem onde ele pode ser atacado.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Roteiros prontos",
+     "texto": "Traz modelos para vários tipos de sistema e métodos de análise."
+    },
+    {
+     "icone": "code",
+     "titulo": "Prova ligada ao código",
+     "texto": "Cada ameaça aponta para o trecho do seu código que a sustenta."
+    }
+   ],
+   "fluxo": [
+    "LIGA NO AGENTE",
+    "ABRE O PROJETO",
+    "MAPA DE AMEAÇAS"
+   ]
+  }
+ },
+ "legenda_abertura": "Uma foto ou um áudio já basta para descobrir onde você estava, e o código aberto de segurança digital está crescendo rápido no GitHub. Arrasta o carrossel e vê os 8 projetos que mais subiram hoje. Para aprender a usar IA de graça, o caminho é o inema.club.",
+ "telegram": "Segurança digital em alta no GitHub: tem ferramenta que acha onde uma foto foi tirada e outra que segue cripto roubada até a corretora. Veja os 8 projetos que mais cresceram no carrossel. Cursos grátis de IA no inema.club."
+}

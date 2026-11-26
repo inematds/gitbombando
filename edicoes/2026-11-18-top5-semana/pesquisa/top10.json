@@ -1,0 +1,297 @@
+{
+ "modo": "semana",
+ "periodo": "this week",
+ "coletado_em": "2026-11-18T20:53:54.180701+00:00",
+ "dia": "2026-11-18",
+ "fonte": "https://github.com/trending?since=weekly",
+ "top10": [
+  {
+   "pos": 1,
+   "nome": "meta/astryx",
+   "dono": "meta",
+   "repo": "astryx",
+   "descricao_en": "An open source design system that's fully customizable and agent ready",
+   "linguagem": "TypeScript",
+   "estrelas_total_trending": 30532,
+   "forks_trending": 2393,
+   "estrelas_periodo": 8700,
+   "pos_trending": 4,
+   "estrelas_total": 30532,
+   "forks": 2393,
+   "criado_em": "2026-01-09T16:20:32Z",
+   "atualizado_em": "2026-11-18T20:53:13Z",
+   "topicos": [],
+   "site": "http://astryx.atmeta.com",
+   "licenca": "MIT",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/69631?v=4",
+   "url": "https://github.com/meta/astryx",
+   "readme": "# Astryx\nAn open source design system that's fully customizable and built for how we build now:   by people and the agents working alongside them.\n**Currently in Beta** · Built on [React 19+](https://react.dev) and [StyleX](https://stylexjs.com)\n[ ](https://www.npmjs.com/package/@astryxdesign/core)\n[ ](LICENSE)\n[ ](https://github.com/meta/astryx/wiki/Contributing)\n[ ](https://astryx.atmeta.com)\n[ ](https://astryx.atmeta.com/storybook/)\n[ ](https://astryx.atmeta.com/sandbox/)\n**[Docs](https://astryx.atmeta.com)** · **[Storybook](https://astryx.atmeta.com/storybook/)** · **[Sandbox](https://astryx.atmeta.com/sandbox/)** · **[Contributing](https://github.com/meta/astryx/wiki/Contributing)** · **[Discord](https://discord.com/invite/XnsUcFykEP)**\n## Overview\nAstryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day.\nIt ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library to adopt — and both people and AI assistants build with the same tooling.\n**What makes Astryx different:**\n- **Open internals.** Components are built to be composed at any level, not locked behind a closed top-level API. The building blocks you'd reach for are exported directly, and when you need to go deeper, swizzle ejects a component's full source into your project to own.\n- **No styling lock-in.** Astryx authors its styles with StyleX, but that's invisible to consumers. Override with `className` using Tailwind, CSS modules, or plain CSS — whatever your project already uses.\n- **Customize without wrapping.** A theme is a set of CSS custom property overrides, so a designer can make Astryx unmistakably theirs without forking or wrapping component source.\n- **Built for people and agents.** The API, docs, and CLI are designed together so a person and an AI assistant build the same way, from the same reference.\n## Getting Started\nAstryx requires **React 19** or later (`react` and `react-dom` are peer dependencies of `@astryxdesign/core`).\nInstall Astryx, a theme, and its peer dependencies:\n```bash\n# npm\nnpm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex\nnpm install -D @astryxdesign/cli\n# pnpm\npnpm add @",
+   "crescimento": {
+    "antes": 21832,
+    "agora": 30532,
+    "ganho": 8700,
+    "pct": 39.8
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11",
+     "16/11",
+     "17/11",
+     "18/11"
+    ],
+    "v": [
+     25102,
+     26615,
+     27431,
+     28188,
+     28928,
+     29646,
+     30184,
+     30528
+    ],
+    "tipo": "total",
+    "pontos": 161
+   }
+  },
+  {
+   "pos": 2,
+   "nome": "GoogleChrome/modern-web-guidance-src",
+   "dono": "GoogleChrome",
+   "repo": "modern-web-guidance-src",
+   "descricao_en": "Keep your coding agent up to date with the latest web best practices",
+   "linguagem": "TypeScript",
+   "estrelas_total_trending": 8795,
+   "forks_trending": 736,
+   "estrelas_periodo": 7015,
+   "pos_trending": 1,
+   "estrelas_total": 8795,
+   "forks": 736,
+   "criado_em": "2026-01-27T20:22:24Z",
+   "atualizado_em": "2026-11-18T20:42:28Z",
+   "topicos": [],
+   "site": "https://goo.gle/modern-web-guidance",
+   "licenca": "Apache-2.0",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/1778935?v=4",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "readme": "#   Modern Web Guidance (Source)\nThis repo is the source repository for [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) and includes the code and documentation for authoring, calibrating, and evaluating its contents.\n[**Modern Web Guidance**](https://developer.chrome.com/docs/modern-web-guidance) is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform.\nSee [CONTRIBUTING.md](./CONTRIBUTING.md) and [GOVERNANCE.md](./GOVERNANCE.md) for how we work on the project and orientation of the codebase.\n---\n*Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community.*\n[Documentation](https://developer.chrome.com/docs/modern-web-guidance) · [Eval Dashboard](https://googlechrome.github.io/modern-web-guidance-src/) · [Source Code](https://github.com/GoogleChrome/modern-web-guidance-src) · [Report an Issue](https://github.com/GoogleChrome/modern-web-guidance-src/issues)\n##   Quickstart\n```shell\nnpx modern-web-guidance@latest install\n```\nThis command runs an interactive wizard to install Modern Web Guidance. See [Alternative Installation Methods](#-alternative-installation-methods) below.\n#### Try it out (without installing)\n```shell\n# Search for relevant guides\nnpx modern-web-guidance@latest search \"animate a dialog modal backdrop\"\n# Retrieve a guide by ID\nnpx modern-web-guidance@latest retrieve \"animate-to-from-top-layer\"\n# Scan a codebase for legacy patterns to modernize\nnpx modern-web-guidance@latest legacy-scan .\n```\n##   Why?\nCoding agents often default to older patterns because LLM training data contains vast amounts of legacy code. This often leads them to generate bloated JavaScript for tasks that now have native, high-performance web platform solutions.\nEven if a model knows an API exists, it often lacks the density of real-world, modern implementation patterns required for production-ready code.\n**Modern Web Guidance bridges this gap.** Our skill's CLI returns targeted, expert-curated guidelines directly into your agent's context window, focusing on:\n* **Modern Browser APIs**: Helping models correctly structure APIs they frequently misuse.\n* **Performance & Accessibility**: Preferring platform-level APIs that can be optimized by",
+   "crescimento": {
+    "antes": 1780,
+    "agora": 8795,
+    "ganho": 7015,
+    "pct": 394.1
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11",
+     "16/11",
+     "17/11",
+     "18/11"
+    ],
+    "v": [
+     1813,
+     3106,
+     4909,
+     6100,
+     7248,
+     8024,
+     8467,
+     8786
+    ],
+    "tipo": "total",
+    "pontos": 162
+   }
+  },
+  {
+   "pos": 3,
+   "nome": "dream-num/univer",
+   "dono": "dream-num",
+   "repo": "univer",
+   "descricao_en": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "linguagem": "TypeScript",
+   "estrelas_total_trending": 29863,
+   "forks_trending": 2703,
+   "estrelas_periodo": 5845,
+   "pos_trending": 16,
+   "estrelas_total": 29863,
+   "forks": 2703,
+   "criado_em": "2022-09-29T12:09:14Z",
+   "atualizado_em": "2026-11-18T20:19:06Z",
+   "topicos": [
+    "board",
+    "collaboration",
+    "doc",
+    "docx",
+    "excel",
+    "offce365",
+    "office",
+    "pdf",
+    "ppt",
+    "pptx",
+    "presentation",
+    "sdk",
+    "sheet",
+    "slides",
+    "spreadsheet",
+    "univer",
+    "word",
+    "wordprocessor",
+    "workspace",
+    "xlsx"
+   ],
+   "site": "https://univer.ai",
+   "licenca": "Apache-2.0",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/61444807?v=4",
+   "url": "https://github.com/dream-num/univer",
+   "readme": "Build your own AI office with Univer Office SDK. \n Start with open-source Sheets and Docs, then connect your own application or agent. \n  🚀 Quick start  ·  💼 Workspace  ·  📚 Documentation  ·  ⚖️ Feature comparison  ·  🌐 Website  ·  🎮 Showcase  ·  🔧 API Reference  ·  📝 Blog  \n  English  ·  Français  ·  Deutsch  ·  Español  ·  简体中文  ·  繁體中文  ·  日本語  ·  한국어  \n Table of contents \n- [💡 What is Univer?](#what-is-univer)\n  - [Open-source capabilities](#open-source-capabilities)\n- [🚀 Build on the open-source foundation](#what-you-can-build)\n  - [Quick start: an open-source spreadsheet editor](#quick-start)\n  - [Connect your application to editable content](#connect-your-application-to-editable-content)\n- [🏗️ Explore the open-source architecture](#open-source-architecture)\n  - [Give custom features clear boundaries](#give-custom-features-clear-boundaries)\n  - [Compose cross-feature edits and undo/redo](#compose-cross-feature-edits-and-undoredo)\n  - [Connect applications and agents through Facade APIs and events](#connect-applications-and-agents-through-facade-apis-and-events)\n- [🧩 Extend your application with Univer Office SDK](#open-source-and-commercial-extensions)\n  - [Scope and licensing](#scope-and-licensing)\n- [🌐 Application patterns and ecosystem](#application-patterns-and-ecosystem)\n  - [Univer Workspace: an Office SDK reference application](#univer-workspace-an-office-sdk-reference-application)\n  - [CLI, agent integrations, and developer skills](#cli-agent-integrations-and-developer-skills)\n- [📚 Documentation and contributing](#documentation-and-contributing)\n  - [Runtime compatibility](#runtime-compatibility)\n- [💬 Community](#community)\n- [🔒 Security](#security)\n- [❤️ Sponsors](#sponsors)\n- [📄 License](#license)\n## 💡 What is Univer?\n**Univer** is an Office SDK for building Office applications inside your own product. It provides Office editing, calculation, collaboration, and file processing for people and existing agents, using your data and permissions. The product family covers spreadsheets, documents, presentations, relational tables, canvases, and PDFs.\nUniver Office SDK has three parts:\n- **Web SDK** is the foundation: content models, editing, rendering, formula calculation, and Facade APIs (application-facing APIs). Compose its plugins into an embedded editor or your own Office application, and reuse the content models, commands, and calculation for Headless processing without an interactive editor.\n- **Server SDK** adds backend services for real-t",
+   "crescimento": {
+    "antes": 24018,
+    "agora": 29863,
+    "ganho": 5845,
+    "pct": 24.3
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "14/11",
+     "15/11",
+     "16/11",
+     "17/11",
+     "18/11"
+    ],
+    "v": [
+     24525,
+     26081,
+     27832,
+     28928,
+     29860
+    ],
+    "tipo": "total",
+    "pontos": 98
+   }
+  },
+  {
+   "pos": 4,
+   "nome": "anthropics/skills",
+   "dono": "anthropics",
+   "repo": "skills",
+   "descricao_en": "Public repository for Agent Skills",
+   "linguagem": "Python",
+   "estrelas_total_trending": 197152,
+   "forks_trending": 23095,
+   "estrelas_periodo": 4847,
+   "pos_trending": 10,
+   "estrelas_total": 197152,
+   "forks": 23095,
+   "criado_em": "2025-09-22T15:53:31Z",
+   "atualizado_em": "2026-11-16T14:22:50Z",
+   "topicos": [
+    "agent-skills"
+   ],
+   "site": null,
+   "licenca": null,
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/76263028?v=4",
+   "url": "https://github.com/anthropics/skills",
+   "readme": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).\n[ ](https://skills.sh/anthropics/skills)\n# Skills\nSkills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.\nFor more information, check out:\n- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)\n- [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)\n- [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)\n- [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)\n# About This Repository\nThis repository contains skills that demonstrate what's possible with Claude's skills system. These skills range from creative applications (art, music, design) to technical tasks (testing web apps, MCP server generation) to enterprise workflows (communications, branding, etc.).\nEach skill is self-contained in its own folder with a `SKILL.md` file containing the instructions and metadata that Claude uses. Browse through these skills to get inspiration for your own skills or to understand different patterns and approaches.\nMany skills in this repo are open source (Apache 2.0). We've also included the document creation & editing skills that power [Claude's document capabilities](https://www.anthropic.com/news/create-files) under the hood in the [`skills/docx`](./skills/docx), [`skills/pdf`](./skills/pdf), [`skills/pptx`](./skills/pptx), and [`skills/xlsx`](./skills/xlsx) subfolders. These are also open source (Apache 2.0), and we wanted to share them with developers as a reference for more complex skills that are actively used in a production AI application.\n## Disclaimer\n**These skills are provided for demonstration and educational purposes only.** While some of these capabilities may be available in Claude, the implementations and behaviors you receive from Claude may differ from what is shown in these skills. These skills are meant to illustrate patterns and possibilities. Always test",
+   "crescimento": {
+    "antes": 192305,
+    "agora": 197152,
+    "ganho": 4847,
+    "pct": 2.5
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11",
+     "16/11",
+     "17/11",
+     "18/11"
+    ],
+    "v": [
+     193183,
+     193722,
+     194161,
+     194648,
+     195400,
+     196086,
+     196766,
+     197141
+    ],
+    "tipo": "total",
+    "pontos": 162
+   }
+  },
+  {
+   "pos": 5,
+   "nome": "we-promise/sure",
+   "dono": "we-promise",
+   "repo": "sure",
+   "descricao_en": "The personal finance app for everyone (by everyone)",
+   "linguagem": "Ruby",
+   "estrelas_total_trending": 16476,
+   "forks_trending": 1443,
+   "estrelas_periodo": 4786,
+   "pos_trending": 5,
+   "estrelas_total": 16476,
+   "forks": 1443,
+   "criado_em": "2025-07-23T04:13:55Z",
+   "atualizado_em": "2026-11-18T20:32:49Z",
+   "topicos": [],
+   "site": "https://sure.am",
+   "licenca": "AGPL-3.0",
+   "dono_tipo": "Organization",
+   "dono_foto": "https://avatars.githubusercontent.com/u/222344567?v=4",
+   "url": "https://github.com/we-promise/sure",
+   "readme": "[ ](https://deepwiki.com/we-promise/sure)\n[ ](https://oss.skylight.io/app/applications/s6PEZSKwcklL)\n[ ](https://app.dosu.dev/a72bdcfd-15f5-4edc-bd85-ea0daa6c3adc/ask)\n[ ](https://github.com/we-promise/sure/actions/workflows/pipelock.yml)\n   Deutsch  | \n   Español  | \n   Français  | \n   日本語  | \n   한국어  | \n   Português  | \n   Русский  | \n   中文 \n# Sure: The personal finance app for everyone\n Get\ninvolved: [Discord](https://discord.gg/36ZGBsxYEK) • [Website](https://sure.am) • [Issues](https://github.com/we-promise/sure/issues) \n> [!IMPORTANT]\n> This repository is a community fork of the now-abandoned Maybe Finance project.  \n> Learn more in their [final release](https://github.com/maybe-finance/maybe/releases/tag/v0.6.0) doc.\n## Backstory\nThe [Maybe Finance](https://github.com/maybe-finance/maybe) (archived/abandoned repo) team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription.\nThe business end of things didn't work out, and so they stopped developing the app in mid-2023.\nAfter spending nearly $1 million on development (employees, contractors, data providers, infra, etc.), the team open-sourced the app. Their goal was to let users self-host it for free — and eventually launch a hosted version for a small fee.\nThey actually did launch that hosted version … briefly.\nThat also didn’t work out — at least not as a sustainable B2C business — so now here we are: hosting a community-maintained fork to keep the codebase alive and see where this can go next.\nJoin us!\n## Hosting Sure\nSure is a fully working personal finance app that can be [self hosted with Docker](docs/hosting/docker.md).\nSure can be accessed from a browser, the macOS desktop app, the mobile app, API\nclients, and LLM agents. See [Sure Clients](docs/clients.md) for an overview.\n## Forking and Attribution\nThis repo is a community fork of the archived Maybe Finance repo.\nYou’re free to fork it under the AGPLv3 license — but we’d love it if you stuck around and contributed here instead.\nTo stay compliant and avoid trademark issues:\n- Be sure to include the original [AGPLv3 license](https://github.com/maybe-finance/maybe/blob/main/LICENSE) and clearly state in your README that your fork is based on Maybe Finance but is **not affiliated with or endorsed by** Maybe Finance Inc.\n- \"Maybe\" is a trademark of Maybe Finance Inc. and therefore, use o",
+   "crescimento": {
+    "antes": 11690,
+    "agora": 16476,
+    "ganho": 4786,
+    "pct": 40.9
+   },
+   "curva": {
+    "unidade": "dia",
+    "rotulos": [
+     "11/11",
+     "12/11",
+     "13/11",
+     "14/11",
+     "15/11",
+     "16/11",
+     "17/11",
+     "18/11"
+    ],
+    "v": [
+     13008,
+     13961,
+     14777,
+     15345,
+     15731,
+     16022,
+     16279,
+     16472
+    ],
+    "tipo": "total",
+    "pontos": 162
+   }
+  }
+ ],
+ "soma_periodo": 31193
+}
