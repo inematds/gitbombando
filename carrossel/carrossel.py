@@ -290,7 +290,34 @@ def cmd_fazer(cd, tipo, dia=None):
     v = cmd_revisar(cd)
     if v["veredito"] == "erro":
         v = cmd_revisar(cd)
+    if v["veredito"] == "reprovado" and nova_tentativa_prints(cd, v):
+        cmd_montar(cd)
+        v = cmd_revisar(cd)
+        if v["veredito"] == "erro":
+            v = cmd_revisar(cd)
     return v
+
+
+def nova_tentativa_prints(cd, v):
+    """Revisor reprovou print (Nei, 26/11/2026: "faz a nova tentativa automática"): troca só esses prints pelo próximo
+    da escada (README → cartão do GitHub → cartão INEMA) e revisa de novo. Uma vez só; o resto da reprovação continua parando."""
+    cd = Path(cd)
+    marca = cd / "prints-trocar.json"
+    if marca.exists():
+        return False   # já foi a nova tentativa
+    S = json.loads((cd / "slides.json").read_text())
+    nomes = {s["nome"] for s in S["slides"]}
+    ruins = [n for n in (v.get("prints_ruins") or []) if n in nomes]
+    if not ruins and "print" in (v.get("motivo") or "").lower():   # revisor sem o campo novo: slide k = posição k-1 (1 é a capa)
+        por_pos = {s["pos"]: s["nome"] for s in S["slides"]}
+        ruins = [por_pos[k - 1] for k in (v.get("slides_ruins") or []) if isinstance(k, int) and k - 1 in por_pos]
+    if not ruins:
+        return False
+    fonte = {s["nome"]: s.get("print_fonte") for s in S["slides"]}
+    trocar = {n: "cartao" if fonte.get(n) in ("opengraph", "cartao-inema") else "opengraph" for n in ruins}
+    marca.write_text(json.dumps(trocar, ensure_ascii=False, indent=1))
+    log("revisor reprovou print; nova tentativa com", json.dumps(trocar, ensure_ascii=False))
+    return True
 
 
 # ------------------------------------------------------------------ publicar

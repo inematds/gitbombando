@@ -132,17 +132,19 @@ def para_png(bruto, tipo, saida):
     return im.size
 
 
-def print_de(it, pasta):
+def print_de(it, pasta, so_cartao_github=False):
     nome = it["nome"]
     saida = pasta / f"{it['pos']}.png"
     branch = it.get("default_branch")
+    if so_cartao_github:
+        branch = "-"
     if not branch:
         try:
             branch = json.loads(gh(f"repos/{nome}")).get("default_branch") or "main"
         except RuntimeError:
             branch = "main"
     try:
-        lista = candidatos(nome, branch)
+        lista = [] if so_cartao_github else candidatos(nome, branch)
     except Exception as e:  # noqa: BLE001
         log(f"{nome}: sem README ({e})"); lista = []
     with tempfile.TemporaryDirectory() as tmp:
@@ -176,10 +178,22 @@ def main(a):
     dados = json.loads((cd / "dados.json").read_text())
     pasta = cd / "prints"; pasta.mkdir(exist_ok=True)
     res = {}
+    antes = json.loads((cd / "prints.json").read_text()) if (cd / "prints.json").exists() else {}
+    # 26/11/2026: o revisor reprovou o print → troca pelo próximo da escada (README → cartão do GitHub → cartão INEMA)
+    trocar = json.loads((cd / "prints-trocar.json").read_text()) if (cd / "prints-trocar.json").exists() else {}
     for it in dados["itens"]:
-        if (pasta / f"{it['pos']}.png").exists() and "--refazer" not in a:
-            res[it["nome"]] = {"fonte": "existente"}; continue
-        res[it["nome"]] = print_de(it, pasta)
+        nome, png = it["nome"], pasta / f"{it['pos']}.png"
+        if nome in trocar:
+            if trocar[nome] == "opengraph":
+                r = print_de(it, pasta, so_cartao_github=True)
+                if r.get("fonte"):
+                    res[nome] = r; continue
+            res[nome] = {"fonte": None}   # cai no cartão INEMA abaixo
+            continue
+        if png.exists() and "--refazer" not in a:
+            res[nome] = {**(antes.get(nome) or {}), "existente": True}
+            res[nome].setdefault("fonte", "existente"); continue
+        res[nome] = print_de(it, pasta)
     (cd / "prints.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
     faltam = [n for n, r in res.items() if r.get("fonte") is None]
     for it in dados["itens"]:  # 1 repo sem imagem não trava o carrossel: cartão INEMA no lugar (08/11/2026)

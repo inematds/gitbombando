@@ -4,6 +4,7 @@ Uma linha por falha, mais recente no topo.
 
 | data | o que quebrou | menor correção | prompt \| infra |
 |---|---|---|---|
+| 2026-11-26 | Revisor reprovou print vazio e o carrossel só parava e avisava: repetir dava o mesmo print (rodada determinística), e o fazer só repetia quando o revisor dava "erro" | revisor devolve prints_ruins; fazer troca só esses prints (README → cartão do GitHub → cartão INEMA) e revisa 1× de novo | infra |
 | 2026-11-25 | Carrossel reprovado pelo revisor 5× em 23–25/11 (agentes e área): o 1º quadro do GIF do README (PiBot quase branco, fast-anything quase preto) passava no teste de "muitas cores" por causa do ruído | carrossel/prints.py recusa imagem de baixo contraste (desvio < 12 na escala de cinza) e cai no cartão do GitHub | infra |
 | 2026-11-22 | Reel top5 (semana/área) não renderiza desde 21/11: "The source image cannot be decoded" — gb.py grava o fecho como prints/p13-c.png fixo (top10 tem 13 partes) e o cena.js do top5 (8 partes) pede p8-c.png, que não existe | nome do fecho = p{nº de partes}-c.png; + conferir imagens antes do render e 3 tentativas consertando só a falha (v1.10.1) | infra |
 | 2026-11-18 | Reel do dia parou: card do estúdio HeyGen ficou Draft depois do Enviar e a rodada não tentou de novo | reenviar o avatar antes de desistir; refeito à mão às 17:15 | infra |

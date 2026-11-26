@@ -18,4 +18,4 @@ NÃO reprove (vira sugestão): nome comprido cortado no fim (com ou sem reticên
 letra encostando na borda; print pequeno ou estreito; espaço vazio sobrando; projeto que combina pouco com o tema da área.
 
 Responda APENAS uma linha JSON, sem crase e sem nada antes ou depois:
-{"veredito": "aprovado" | "reprovado", "motivo": "frase curta (vazio se aprovado)", "slides_ruins": [números], "sugestao": "uma melhoria para os próximos"}
+{"veredito": "aprovado" | "reprovado", "motivo": "frase curta (vazio se aprovado)", "slides_ruins": [números], "sugestao": "uma melhoria para os próximos", "prints_ruins": ["dono/repo" de cada print vazio, preto, quebrado ou sem nada a ver com o projeto; [] se nenhum]}
