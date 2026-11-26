@@ -1,0 +1,42 @@
+[
+ {
+  "id": "f1",
+  "fala": "Um projeto com só quatro dias de vida já cresce mais rápido que a Microsoft e a Tencent. Nos agentes de inteligência artificial, quem manda agora são os novatos.",
+  "legenda": "Um projeto com só quatro dias de vida já cresce mais rápido que a Microsoft e a Tencent. Nos agentes de inteligência artificial, quem manda agora são os novatos."
+ },
+ {
+  "id": "f2",
+  "fala": "Esse é o Top cinco dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Somados, dão quatrocentas e setenta e duas estrelas por dia desde a criação. Bora do quinto ao primeiro.",
+  "legenda": "Esse é o Top 5 dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Somados, dão 472 estrelas por dia desde a criação. Bora do quinto ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Abrindo a lista, a Microsoft com o Skill Recorder. Você faz uma tarefa na tela uma única vez, ele grava e ensina o agente a repetir. Aquele trabalho chato de todo dia pode virar automático. São cinquenta estrelas por dia.",
+  "legenda": "Abrindo a lista, a Microsoft com o Skill Recorder. Você faz uma tarefa na tela uma única vez, ele grava e ensina o agente a repetir. Aquele trabalho chato de todo dia pode virar automático. São 50 estrelas por dia."
+ },
+ {
+  "id": "f4",
+  "fala": "Em quarto, a gigante chinesa Tencent traz o LoopForge. Ele põe vários robôs programadores pra trabalhar em equipe, mas quem dá o sinal verde em cada etapa é uma pessoa. Também cinquenta estrelas por dia.",
+  "legenda": "Em quarto, a gigante chinesa Tencent traz o LoopForge. Ele põe vários robôs programadores pra trabalhar em equipe, mas quem dá o sinal verde em cada etapa é uma pessoa. Também 50 estrelas por dia."
+ },
+ {
+  "id": "f5",
+  "fala": "E agora o pódio. Em terceiro, o agent memory. Sabe quando a inteligência artificial esquece tudo ao fechar a conversa? Ele guarda essa memória em arquivos simples, no seu próprio computador. São cinquenta e uma estrelas por dia.",
+  "legenda": "E agora o pódio. Em terceiro, o agent memory. Sabe quando a inteligência artificial esquece tudo ao fechar a conversa? Ele guarda essa memória em arquivos simples, no seu próprio computador. São 51 estrelas por dia."
+ },
+ {
+  "id": "f6",
+  "fala": "Número dois, e aqui o susto: o PiBot nasceu há quatro dias. É uma equipe de robôs que mexe em arquivos, navega e usa o seu computador, sempre pedindo sua licença antes de qualquer passo arriscado. São cento e trinta e oito estrelas por dia.",
+  "legenda": "Número dois, e aqui o susto: o PiBot nasceu há quatro dias. É uma equipe de robôs que mexe em arquivos, navega e usa o seu computador, sempre pedindo sua licença antes de qualquer passo arriscado. São 138 estrelas por dia."
+ },
+ {
+  "id": "f7",
+  "fala": "E o primeiro lugar. DS Bot. Robôs que vivem no seu computador, trocam mensagens entre si e trabalham em grupo, feito um escritório inteiro. Roda em cima de uma ferramenta da DeepSeek, a i-á chinesa. São cento e oitenta e três estrelas por dia.",
+  "legenda": "E o primeiro lugar. DS Bot. Robôs que vivem no seu computador, trocam mensagens entre si e trabalham em grupo, feito um escritório inteiro. Roda em cima de uma ferramenta da DeepSeek, a i-á chinesa. São 183 estrelas por dia."
+ },
+ {
+  "id": "f8",
+  "fala": "Qual desses você vai testar primeiro? Escreve aqui embaixo. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Escreve aqui embaixo. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

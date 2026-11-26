@@ -1,0 +1,94 @@
+modo: area
+gancho:
+  tipo: noticia
+  manchete: 4 DIAS E JÁ BATE MICROSOFT
+  destaque: '4'
+  objeto: um foguete dourado minúsculo rompendo um logotipo gigante de big tech, com
+    estilhaços e faíscas amarelas explodindo para todos os lados
+  fontes:
+  - nome: github.com/topics
+    trecho: w01fb0ss/PiBot · created 2026-11-21 · 138 stars/day · microsoft/skill-recorder
+      · 50 stars/day
+abertura:
+  cena: quarto escuro de madrugada, só a luz amarela de um monitor brilhando no centro
+partes:
+- etapa: gancho
+  fala: Um projeto com só quatro dias de vida já cresce mais rápido que a Microsoft
+    e a Tencent. Nos agentes de inteligência artificial, quem manda agora são os novatos.
+- etapa: panorama
+  fala: Esse é o Top cinco dos sistemas de agentes de inteligência artificial que
+    mais crescem no GitHub. Somados, dão quatrocentas e setenta e duas estrelas por
+    dia desde a criação. Bora do quinto ao primeiro.
+  numero: '472'
+- etapa: repo
+  repo: microsoft/skill-recorder
+  desc: Grava você fazendo uma tarefa na tela e ensina a IA a repetir sozinha.
+  destaque: repetir sozinha
+  numero: '50'
+  fala: Abrindo a lista, a Microsoft com o Skill Recorder. Você faz uma tarefa na
+    tela uma única vez, ele grava e ensina o agente a repetir. Aquele trabalho chato
+    de todo dia pode virar automático. São cinquenta estrelas por dia.
+- etapa: repo
+  repo: Tencent/LoopForge
+  desc: Põe robôs programadores em equipe, com uma pessoa aprovando cada etapa.
+  destaque: uma pessoa aprovando
+  numero: '50'
+  fala: Em quarto, a gigante chinesa Tencent traz o LoopForge. Ele põe vários robôs
+    programadores pra trabalhar em equipe, mas quem dá o sinal verde em cada etapa
+    é uma pessoa. Também cinquenta estrelas por dia.
+- etapa: repo
+  repo: tigerless-labs/agent-memory
+  desc: Memória de longo prazo pros agentes de IA, em arquivos simples no seu computador.
+  destaque: Memória de longo prazo
+  numero: '51'
+  fala: E agora o pódio. Em terceiro, o agent memory. Sabe quando a inteligência artificial
+    esquece tudo ao fechar a conversa? Ele guarda essa memória em arquivos simples,
+    no seu próprio computador. São cinquenta e uma estrelas por dia.
+- etapa: repo
+  repo: w01fb0ss/PiBot
+  desc: Uma equipe de robôs de IA que usa seu computador, mas pede licença antes de
+    arriscar.
+  destaque: pede licença
+  numero: '138'
+  fala: 'Número dois, e aqui o susto: o PiBot nasceu há quatro dias. É uma equipe
+    de robôs que mexe em arquivos, navega e usa o seu computador, sempre pedindo sua
+    licença antes de qualquer passo arriscado. São cento e trinta e oito estrelas
+    por dia.'
+- etapa: repo
+  repo: Fei-Craft/DS-Bot
+  desc: Robôs de IA que moram no seu computador e trabalham em grupo, trocando mensagens.
+  destaque: trabalham em grupo
+  numero: '183'
+  fala: E o primeiro lugar. DS Bot. Robôs que vivem no seu computador, trocam mensagens
+    entre si e trabalham em grupo, feito um escritório inteiro. Roda em cima de uma
+    ferramenta da DeepSeek, a i-á chinesa. São cento e oitenta e três estrelas por
+    dia.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Escreve aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  Top cinco: Top 5
+  quatrocentas e setenta e duas: '472'
+  cento e oitenta e três: '183'
+  cento e trinta e oito: '138'
+  cinquenta e uma: '51'
+  cinquenta: '50'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: Projeto de 4 dias passa a Microsoft, e o DS Bot lidera com 183 estrelas
+    por dia
+  contexto: O Top 5 dos sistemas de agentes de IA que mais crescem no GitHub em 25/11/2026,
+    em estrelas por dia desde a criação, explicado sem jargão. O DS Bot lidera com
+    183 estrelas por dia, e o PiBot, com só quatro dias de vida, já passa Microsoft
+    e Tencent.
+  telegram: 'Top 5 dos agentes de IA que mais crescem no GitHub: o DS Bot lidera com
+    183 estrelas por dia. O PiBot, com só quatro dias de vida, vem em segundo com
+    138. Microsoft e Tencent ficaram em quinto e quarto.'

@@ -1,0 +1,7 @@
+Projeto de 4 dias passa a Microsoft, e o DS Bot lidera com 183 estrelas por dia
+
+#1 Fei-Craft/DS-Bot — https://github.com/Fei-Craft/DS-Bot
+#2 w01fb0ss/PiBot — https://github.com/w01fb0ss/PiBot
+#3 tigerless-labs/agent-memory — https://github.com/tigerless-labs/agent-memory
+#4 Tencent/LoopForge — https://github.com/Tencent/LoopForge
+#5 microsoft/skill-recorder — https://github.com/microsoft/skill-recorder
