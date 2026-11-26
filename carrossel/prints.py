@@ -120,6 +120,10 @@ def para_png(bruto, tipo, saida):
     pequena = im.resize((48, 48))
     if len(set(pequena.getdata())) < 40:
         return None
+    # 25/11/2026: imagem quase branca com ruído passa no teste de cores (PiBot: média 246, desvio 5) — revisor reprovou 2×
+    from PIL import ImageStat
+    if ImageStat.Stat(im.convert("L")).stddev[0] < 12:
+        return None
     if tem_qr(im):   # 09/11/2026: README trouxe só o QR de um grupo de WeChat (revisor reprovou o carrossel da área)
         return None
     if w > 1400:
