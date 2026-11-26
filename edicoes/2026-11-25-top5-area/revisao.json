@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Sem defeitos: a capa traz TOP 5 DO GITHUB e a manchete igual à da ficha, as pílulas 🔥 e as estrelas de cada cartão batem com o top10.json, o avatar está presente e o fecho tem a caixa vermelha e a pílula inema.club; os números baixos do painel são o contador animado.",
+ "sugestoes": [
+  "10.62s: no gráfico do panorama, os itens 3, 4 e 5 aparecem truncados como 'seedance-2-5-flas…' e não dá para distinguir; vale encurtar para 'free-tier', 'api-proxy' e 'alternatives'.",
+  "17.25s–50.37s: os cartões #5, #4 e #3 não mostram nenhum alerta visual de serviço pago ou de mesmo autor; um selo vermelho 'atenção: link pago' reforçaria a pegadinha prometida no gancho.",
+  "0.05s–4.0s: a legenda karaokê fica sobre a claquete brilhante e perde contraste; um fundo escuro atrás da legenda ajudaria.",
+  "23.87s–76.86s: os cartões têm muito espaço vazio entre a descrição e o painel de baixo; caberia um print ou uma prévia do projeto.",
+  "Impacto: o gancho '+90 por dia, recém-nascido' é bom, mas o pódio dominado por três clones do mesmo autor enfraquece o meio; destacar visualmente a 'pegadinha' prenderia mais."
+ ]
+}

@@ -1,0 +1,93 @@
+modo: area
+gancho:
+  tipo: estatistica
+  manchete: +90 ESTRELAS POR DIA, RECÉM-NASCIDO
+  destaque: '+90'
+  objeto: uma claquete de cinema dourada explodindo em faíscas, com pedaços de filme
+    voando para todos os lados
+  fontes:
+  - nome: github.com/topics
+    trecho: praseesh369/youtube-ai-video-editing-system · 339 stars · criado em 21/11/2026
+abertura:
+  cena: estúdio de edição escuro à noite, só a luz amarela de um monitor no centro
+partes:
+- etapa: gancho
+  fala: Um editor de vídeo com inteligência artificial nasceu há quatro dias e já
+    ganha noventa estrelas por dia. E o resto do pódio esconde uma pegadinha.
+- etapa: panorama
+  fala: Em vídeo e imagem com i-á, os cinco projetos que mais crescem somam trezentas
+    e dezenove estrelas por dia desde que nasceram. Vou do quinto ao primeiro.
+  numero: '319'
+- etapa: repo
+  repo: fujc683/seedance-2-5-flash-alternatives
+  desc: 'Compara geradores de vídeo com IA: Seedance, Kling e o Veo, do Google.'
+  destaque: geradores de vídeo
+  numero: '49'
+  fala: 'Em quinto, seedance alternatives. É um comparativo de inteligências artificiais
+    que criam vídeo, como o Seedance e o Veo, do Google. Quarenta e nove estrelas
+    por dia. Mas atenção: os links levam pra um serviço pago.'
+- etapa: repo
+  repo: fujc683/seedance-2-5-flash-api-proxy
+  desc: Porta de entrada paga para usar IAs de vídeo sem cartão estrangeiro.
+  destaque: sem cartão estrangeiro
+  numero: '49'
+  fala: 'Número quatro, do mesmo autor: seedance api proxy. É uma porta de entrada
+    pra usar essas i-ás de vídeo pagando sem cartão estrangeiro. De novo, quarenta
+    e nove estrelas por dia.'
+- etapa: repo
+  repo: fujc683/seedance-2-5-flash-free-tier
+  desc: Calcula quantos segundos de vídeo os créditos grátis do Seedance rendem.
+  destaque: créditos grátis
+  numero: '50'
+  fala: 'E agora o pódio. Bronze pro terceiro projeto do mesmo dono, seedance free
+    tier. Ele calcula quantos segundos de vídeo os créditos grátis rendem. Cinquenta
+    estrelas por dia. Três projetos parecidos, criados no mesmo dia: isso é estranho,
+    cuidado.'
+- etapa: repo
+  repo: atuizz/posewear
+  desc: Álbum grátis de poses, roupas e rostos para criar imagens com IA e provar
+    roupas.
+  destaque: provar roupas
+  numero: '81'
+  fala: Prata pro posewear. Um álbum gratuito de poses, roupas e rostos pra quem desenha
+    ou cria imagens com i-á. E você ainda prova roupas virtualmente, direto no navegador.
+    Oitenta e uma estrelas por dia.
+- etapa: repo
+  repo: praseesh369/youtube-ai-video-editing-system
+  desc: 'Kit de edição para YouTube com IA: teleprompter que segue sua voz, cortes
+    e animações.'
+  destaque: segue sua voz
+  numero: '90'
+  fala: E o primeiro lugar é o youtube ai video editing system. Um teleprompter que
+    segue a sua voz, i-á que sugere os cortes e animações no ritmo da fala. Quatro
+    dias de vida. Noventa estrelas por dia.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  noventa: '90'
+  Noventa: '90'
+  trezentas e dezenove: '319'
+  Quarenta e nove: '49'
+  quarenta e nove: '49'
+  Cinquenta: '50'
+  Oitenta e uma: '81'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'Nasceu há 4 dias e já ganha 90 estrelas por dia: Top 5 de vídeo e imagem
+    com IA'
+  contexto: O Top 5 do GitHub em vídeo e imagem com IA, do quinto ao primeiro, medido
+    em estrelas por dia desde a criação e explicado sem jargão. Um kit de edição para
+    YouTube com teleprompter que segue a voz lidera com 90 estrelas por dia.
+  telegram: 'O que mais cresce no GitHub em vídeo e imagem com IA: um kit de edição
+    para YouTube com teleprompter que segue a sua voz, com 90 estrelas por dia. Em
+    segundo, o posewear, álbum grátis de poses e roupas com prova virtual. Atenção:
+    três projetos do Top 5 são do mesmo autor e levam a um serviço pago.'
