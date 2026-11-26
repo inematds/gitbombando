@@ -1,0 +1,42 @@
+{
+ "yetone/magpie": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/yetone/magpie/main/site/public/img/agents-dark.png",
+  "tam": [
+   1400,
+   845
+  ]
+ },
+ "ThreatDefence/agentic-attack-detections": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/ThreatDefence/agentic-attack-detections/main/docs/images/exposure-status-2026-11-26.png",
+  "tam": [
+   1400,
+   1750
+  ]
+ },
+ "reason-machines/reason-network": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/reason-machines/reason-network/main/assets/reason-network-banner.png",
+  "tam": [
+   1400,
+   602
+  ]
+ },
+ "HarnessRouter/harnessrouter": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/docs/images/2026-09-13-harnessrouter-integration-comparison-cropped-v5.gif",
+  "tam": [
+   1276,
+   512
+  ]
+ },
+ "edenfunf/reelmimic": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/edenfunf/reelmimic/main/docs/assets/home-en-dark.png",
+  "tam": [
+   1400,
+   1097
+  ]
+ }
+}

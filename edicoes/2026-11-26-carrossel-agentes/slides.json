@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · SISTEMAS DE AGENTES",
+ "conta": "@inema.tds",
+ "data_br": "26/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "SISTEMAS DE AGENTES",
+  "numero": "+892",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "TODAS AS SUAS ASSINATURAS DE IA",
+  "destaque": "ASSINATURAS",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "yetone/magpie",
+   "repo": "magpie",
+   "url": "https://github.com/yetone/magpie",
+   "gancho": [
+    "JUNTE SEUS PLANOS",
+    "DE IA NUM LUGAR SÓ"
+   ],
+   "o_que_e": "Um aplicativo que junta todos os planos de IA que você paga e deixa qualquer agente usar todos. Quando um acaba, o próximo assume.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Um plano, vários agentes",
+     "texto": "Use o Claude Code com seu ChatGPT Pro ou o Codex com seu Claude Max."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Tem versão para Windows, macOS e Linux e aceita modelos locais."
+    }
+   ],
+   "fluxo": [
+    "ADICIONA PLANOS",
+    "ESCOLHE AGENTE",
+    "USA SEM PARAR"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "readme",
+   "stat": "+656",
+   "stat_rotulo": "por dia",
+   "total": "41.880",
+   "info2": "Go · criado há 64 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "ThreatDefence/agentic-attack-detections",
+   "repo": "agentic-attack-detections",
+   "url": "https://github.com/ThreatDefence/agentic-attack-detections",
+   "gancho": [
+    "DETECTE ATAQUES",
+    "FEITOS POR IA"
+   ],
+   "o_que_e": "Uma coleção gratuita de regras para equipes de segurança detectarem invasões conduzidas por agentes de IA que atacam sozinhos.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Dezenas de ferramentas",
+     "texto": "Cobre ARTEX, PentAGI, HexStrike, Agent Zero e muitas outras."
+    },
+    {
+     "icone": "search",
+     "titulo": "Pronto para seu sistema",
+     "texto": "Regras para Microsoft Sentinel, Splunk, Elastic, Suricata e YARA."
+    }
+   ],
+   "fluxo": [
+    "BAIXA AS REGRAS",
+    "LIGA NO SISTEMA",
+    "ACHA O ATAQUE"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "readme",
+   "stat": "+113",
+   "stat_rotulo": "por dia",
+   "total": "731",
+   "info2": "Python · criado há 6 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "reason-machines/reason-network",
+   "repo": "reason-network",
+   "url": "https://github.com/reason-machines/reason-network",
+   "gancho": [
+    "SEUS AGENTES",
+    "CONVERSANDO?"
+   ],
+   "o_que_e": "Uma rede que faz os agentes de programação do seu time trocarem mensagens entre si, direto de computador para computador e com criptografia.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Mensagens protegidas",
+     "texto": "Criptografia de ponta a ponta: nenhum servidor consegue ler nada."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Vários agentes juntos",
+     "texto": "Funciona com Claude Code, Codex, Cursor, Gemini CLI e outros."
+    }
+   ],
+   "fluxo": [
+    "COLA A LINHA",
+    "FAZ O LOGIN",
+    "CONVIDA O TIME"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+45",
+   "stat_rotulo": "por dia",
+   "total": "1.819",
+   "info2": "Rust · criado há 41 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "HarnessRouter/harnessrouter",
+   "repo": "harnessrouter",
+   "url": "https://github.com/HarnessRouter/harnessrouter",
+   "gancho": [
+    "TROQUE DE AGENTE",
+    "SEM REFAZER NADA"
+   ],
+   "o_que_e": "Uma camada que liga agentes como Codex e Claude Code ao seu produto por um único ponto de conexão, e você troca de agente quando quiser.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Mais de 30 agentes",
+     "texto": "Codex, Claude Code, Gemini CLI, Aider, OpenHands e muitos outros."
+    },
+    {
+     "icone": "database",
+     "titulo": "Na sua própria máquina",
+     "texto": "Você instala no seu servidor e usa suas próprias chaves de acesso."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE AGENTE",
+    "RECEBE O PRONTO"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "readme",
+   "stat": "+42",
+   "stat_rotulo": "por dia",
+   "total": "4.538",
+   "info2": "Python · criado há 109 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "edenfunf/reelmimic",
+   "repo": "reelmimic",
+   "url": "https://github.com/edenfunf/reelmimic",
+   "gancho": [
+    "GOSTOU DO VÍDEO?",
+    "CRIE NO MESMO ESTILO"
+   ],
+   "o_que_e": "Um projeto aberto que estuda um vídeo de referência e usa agentes de IA para criar uma animação 2D nova e original no mesmo estilo.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Aceita link do YouTube",
+     "texto": "Mande um arquivo, uma gravação do celular ou um link do YouTube."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Vários agentes juntos",
+     "texto": "Claude Code ou Codex dividem o trabalho e fazem as partes ao mesmo tempo."
+    }
+   ],
+   "fluxo": [
+    "MANDA O VÍDEO",
+    "APROVA O PLANO",
+    "VÍDEO NOVO"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+36",
+   "stat_rotulo": "por dia",
+   "total": "2.099",
+   "info2": "JavaScript · criado há 59 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

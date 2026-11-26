@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "TODAS AS SUAS ASSINATURAS DE IA",
+  "destaque": "ASSINATURAS"
+ },
+ "repos": {
+  "yetone/magpie": {
+   "gancho": [
+    "JUNTE SEUS PLANOS",
+    "DE IA NUM LUGAR SÓ"
+   ],
+   "o_que_e": "Um aplicativo que junta todos os planos de IA que você paga e deixa qualquer agente usar todos. Quando um acaba, o próximo assume.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Um plano, vários agentes",
+     "texto": "Use o Claude Code com seu ChatGPT Pro ou o Codex com seu Claude Max."
+    },
+    {
+     "icone": "cpu",
+     "titulo": "Roda no seu computador",
+     "texto": "Tem versão para Windows, macOS e Linux e aceita modelos locais."
+    }
+   ],
+   "fluxo": [
+    "ADICIONA PLANOS",
+    "ESCOLHE AGENTE",
+    "USA SEM PARAR"
+   ]
+  },
+  "ThreatDefence/agentic-attack-detections": {
+   "gancho": [
+    "DETECTE ATAQUES",
+    "FEITOS POR IA"
+   ],
+   "o_que_e": "Uma coleção gratuita de regras para equipes de segurança detectarem invasões conduzidas por agentes de IA que atacam sozinhos.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Dezenas de ferramentas",
+     "texto": "Cobre ARTEX, PentAGI, HexStrike, Agent Zero e muitas outras."
+    },
+    {
+     "icone": "search",
+     "titulo": "Pronto para seu sistema",
+     "texto": "Regras para Microsoft Sentinel, Splunk, Elastic, Suricata e YARA."
+    }
+   ],
+   "fluxo": [
+    "BAIXA AS REGRAS",
+    "LIGA NO SISTEMA",
+    "ACHA O ATAQUE"
+   ]
+  },
+  "reason-machines/reason-network": {
+   "gancho": [
+    "SEUS AGENTES",
+    "CONVERSANDO?"
+   ],
+   "o_que_e": "Uma rede que faz os agentes de programação do seu time trocarem mensagens entre si, direto de computador para computador e com criptografia.",
+   "beneficios": [
+    {
+     "icone": "lock",
+     "titulo": "Mensagens protegidas",
+     "texto": "Criptografia de ponta a ponta: nenhum servidor consegue ler nada."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Vários agentes juntos",
+     "texto": "Funciona com Claude Code, Codex, Cursor, Gemini CLI e outros."
+    }
+   ],
+   "fluxo": [
+    "COLA A LINHA",
+    "FAZ O LOGIN",
+    "CONVIDA O TIME"
+   ]
+  },
+  "HarnessRouter/harnessrouter": {
+   "gancho": [
+    "TROQUE DE AGENTE",
+    "SEM REFAZER NADA"
+   ],
+   "o_que_e": "Uma camada que liga agentes como Codex e Claude Code ao seu produto por um único ponto de conexão, e você troca de agente quando quiser.",
+   "beneficios": [
+    {
+     "icone": "link",
+     "titulo": "Mais de 30 agentes",
+     "texto": "Codex, Claude Code, Gemini CLI, Aider, OpenHands e muitos outros."
+    },
+    {
+     "icone": "database",
+     "titulo": "Na sua própria máquina",
+     "texto": "Você instala no seu servidor e usa suas próprias chaves de acesso."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "ESCOLHE AGENTE",
+    "RECEBE O PRONTO"
+   ]
+  },
+  "edenfunf/reelmimic": {
+   "gancho": [
+    "GOSTOU DO VÍDEO?",
+    "CRIE NO MESMO ESTILO"
+   ],
+   "o_que_e": "Um projeto aberto que estuda um vídeo de referência e usa agentes de IA para criar uma animação 2D nova e original no mesmo estilo.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Aceita link do YouTube",
+     "texto": "Mande um arquivo, uma gravação do celular ou um link do YouTube."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Vários agentes juntos",
+     "texto": "Claude Code ou Codex dividem o trabalho e fazem as partes ao mesmo tempo."
+    }
+   ],
+   "fluxo": [
+    "MANDA O VÍDEO",
+    "APROVA O PLANO",
+    "VÍDEO NOVO"
+   ]
+  }
+ },
+ "legenda_abertura": "Os agentes de IA estão aprendendo a dividir assinaturas, conversar entre si e até criar vídeos. Arraste para o lado e veja os 5 projetos que mais crescem no GitHub nessa área.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de agentes de IA que mais crescem no GitHub. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
