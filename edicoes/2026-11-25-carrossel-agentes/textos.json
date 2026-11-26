@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "AGENTES DE IA VIRANDO EQUIPE",
+  "destaque": "EQUIPE"
+ },
+ "repos": {
+  "Fei-Craft/DS-Bot": {
+   "gancho": [
+    "UMA EQUIPE DE BOTS",
+    "NO SEU COMPUTADOR?"
+   ],
+   "o_que_e": "Um aplicativo de código aberto que transforma o DeepSeek Harness em bots que você cria, conversa e põe para trabalhar juntos.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "App para desktop",
+     "texto": "Roda no Windows, macOS e Linux e já traz o DeepSeek Harness junto."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Bots que conversam",
+     "texto": "Os bots trocam mensagens entre si e participam de chats em grupo."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "ESCOLHE MODELO",
+    "CRIA OS BOTS"
+   ]
+  },
+  "w01fb0ss/PiBot": {
+   "gancho": [
+    "BOTS QUE USAM",
+    "SEU COMPUTADOR."
+   ],
+   "o_que_e": "Um app de código aberto com uma equipe de bots de IA que planejam, editam arquivos e navegam na web no seu computador, com sua aprovação.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Você aprova cada passo",
+     "texto": "Todo passo arriscado espera sua aprovação antes de rodar."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Tudo fica na sua máquina",
+     "texto": "Conversas, arquivos, memória e chaves ficam guardados no seu computador."
+    }
+   ],
+   "fluxo": [
+    "CRIA OS BOTS",
+    "DÁ UMA PASTA",
+    "APROVA O PLANO"
+   ]
+  },
+  "tigerless-labs/agent-memory": {
+   "gancho": [
+    "SEU AGENTE",
+    "SEM ESQUECER NADA"
+   ],
+   "o_que_e": "Uma memória de longo prazo para agentes de IA, guardada em arquivos de texto simples, que o Claude Code e o Codex podem dividir.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Memória em texto simples",
+     "texto": "As memórias ficam em arquivos Markdown que você mesmo pode abrir e ler."
+    },
+    {
+     "icone": "search",
+     "titulo": "Sem chave de acesso",
+     "texto": "A busca roda no seu computador e nenhuma parte precisa de chave de acesso."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ CONVERSA",
+    "A IA ANOTA",
+    "LEMBRA DEPOIS"
+   ]
+  },
+  "Tencent/LoopForge": {
+   "gancho": [
+    "PEDE NO CHAT,",
+    "RECEBE O CÓDIGO."
+   ],
+   "o_que_e": "Um espaço de trabalho no seu próprio servidor em que agentes de programação, como Claude Code e Codex, entregam software com sua aprovação.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Vários agentes juntos",
+     "texto": "Coordena CodeBuddy, Codex, Claude Code, Cursor e outros agentes de código."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Ambiente isolado",
+     "texto": "Cada tarefa roda num contêiner Docker com seus repositórios."
+    }
+   ],
+   "fluxo": [
+    "FAZ O PEDIDO",
+    "AGENTES CODAM",
+    "VOCÊ APROVA"
+   ]
+  },
+  "microsoft/skill-recorder": {
+   "gancho": [
+    "GRAVE UMA VEZ.",
+    "A IA REPETE."
+   ],
+   "o_que_e": "Um app que grava você fazendo uma tarefa na tela e transforma isso num passo a passo que um agente de IA consegue repetir sozinho.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Grava tela e voz",
+     "texto": "Captura cliques, janelas, páginas visitadas e, se quiser, sua narração."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Roda em horário marcado",
+     "texto": "Vira uma automação que o agente executa por agenda ou gatilho."
+    }
+   ],
+   "fluxo": [
+    "APERTA GRAVAR",
+    "FAZ A TAREFA",
+    "SKILL PRONTA"
+   ]
+  }
+ },
+ "legenda_abertura": "Os agentes de IA estão deixando de trabalhar sozinhos e virando equipes. Passe o carrossel para ver os 5 projetos de sistemas de agentes que mais crescem no GitHub. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de sistemas de agentes de IA que mais crescem no GitHub, de equipes de bots a memória para agentes. Está tudo no inema.club, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}

@@ -1,0 +1,22 @@
+{
+ "Fei-Craft/DS-Bot": {
+  "fonte": "existente"
+ },
+ "w01fb0ss/PiBot": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/w01fb0ss/PiBot",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "tigerless-labs/agent-memory": {
+  "fonte": "existente"
+ },
+ "Tencent/LoopForge": {
+  "fonte": "existente"
+ },
+ "microsoft/skill-recorder": {
+  "fonte": "existente"
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · SISTEMAS DE AGENTES",
+ "conta": "@inema.tds",
+ "data_br": "25/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "SISTEMAS DE AGENTES",
+  "numero": "+472",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "AGENTES DE IA VIRANDO EQUIPE",
+  "destaque": "EQUIPE",
+  "fundo": [
+   "prints/1.png",
+   "prints/2.png",
+   "prints/3.png",
+   "prints/4.png",
+   "prints/5.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "Fei-Craft/DS-Bot",
+   "repo": "DS-Bot",
+   "url": "https://github.com/Fei-Craft/DS-Bot",
+   "gancho": [
+    "UMA EQUIPE DE BOTS",
+    "NO SEU COMPUTADOR?"
+   ],
+   "o_que_e": "Um aplicativo de código aberto que transforma o DeepSeek Harness em bots que você cria, conversa e põe para trabalhar juntos.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "App para desktop",
+     "texto": "Roda no Windows, macOS e Linux e já traz o DeepSeek Harness junto."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Bots que conversam",
+     "texto": "Os bots trocam mensagens entre si e participam de chats em grupo."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O APP",
+    "ESCOLHE MODELO",
+    "CRIA OS BOTS"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "existente",
+   "stat": "+183",
+   "stat_rotulo": "por dia",
+   "total": "8.919",
+   "info2": "JavaScript · criado há 49 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "w01fb0ss/PiBot",
+   "repo": "PiBot",
+   "url": "https://github.com/w01fb0ss/PiBot",
+   "gancho": [
+    "BOTS QUE USAM",
+    "SEU COMPUTADOR."
+   ],
+   "o_que_e": "Um app de código aberto com uma equipe de bots de IA que planejam, editam arquivos e navegam na web no seu computador, com sua aprovação.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Você aprova cada passo",
+     "texto": "Todo passo arriscado espera sua aprovação antes de rodar."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Tudo fica na sua máquina",
+     "texto": "Conversas, arquivos, memória e chaves ficam guardados no seu computador."
+    }
+   ],
+   "fluxo": [
+    "CRIA OS BOTS",
+    "DÁ UMA PASTA",
+    "APROVA O PLANO"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+138",
+   "stat_rotulo": "por dia",
+   "total": "581",
+   "info2": "TypeScript · criado há 4 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "tigerless-labs/agent-memory",
+   "repo": "agent-memory",
+   "url": "https://github.com/tigerless-labs/agent-memory",
+   "gancho": [
+    "SEU AGENTE",
+    "SEM ESQUECER NADA"
+   ],
+   "o_que_e": "Uma memória de longo prazo para agentes de IA, guardada em arquivos de texto simples, que o Claude Code e o Codex podem dividir.",
+   "beneficios": [
+    {
+     "icone": "folder",
+     "titulo": "Memória em texto simples",
+     "texto": "As memórias ficam em arquivos Markdown que você mesmo pode abrir e ler."
+    },
+    {
+     "icone": "search",
+     "titulo": "Sem chave de acesso",
+     "texto": "A busca roda no seu computador e nenhuma parte precisa de chave de acesso."
+    }
+   ],
+   "fluxo": [
+    "VOCÊ CONVERSA",
+    "A IA ANOTA",
+    "LEMBRA DEPOIS"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "existente",
+   "stat": "+51",
+   "stat_rotulo": "por dia",
+   "total": "4.320",
+   "info2": "Python · criado há 85 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "Tencent/LoopForge",
+   "repo": "LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "gancho": [
+    "PEDE NO CHAT,",
+    "RECEBE O CÓDIGO."
+   ],
+   "o_que_e": "Um espaço de trabalho no seu próprio servidor em que agentes de programação, como Claude Code e Codex, entregam software com sua aprovação.",
+   "beneficios": [
+    {
+     "icone": "bot",
+     "titulo": "Vários agentes juntos",
+     "texto": "Coordena CodeBuddy, Codex, Claude Code, Cursor e outros agentes de código."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Ambiente isolado",
+     "texto": "Cada tarefa roda num contêiner Docker com seus repositórios."
+    }
+   ],
+   "fluxo": [
+    "FAZ O PEDIDO",
+    "AGENTES CODAM",
+    "VOCÊ APROVA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "existente",
+   "stat": "+50",
+   "stat_rotulo": "por dia",
+   "total": "6.074",
+   "info2": "Go · criado há 120 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "microsoft/skill-recorder",
+   "repo": "skill-recorder",
+   "url": "https://github.com/microsoft/skill-recorder",
+   "gancho": [
+    "GRAVE UMA VEZ.",
+    "A IA REPETE."
+   ],
+   "o_que_e": "Um app que grava você fazendo uma tarefa na tela e transforma isso num passo a passo que um agente de IA consegue repetir sozinho.",
+   "beneficios": [
+    {
+     "icone": "mic",
+     "titulo": "Grava tela e voz",
+     "texto": "Captura cliques, janelas, páginas visitadas e, se quiser, sua narração."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Roda em horário marcado",
+     "texto": "Vira uma automação que o agente executa por agenda ou gatilho."
+    }
+   ],
+   "fluxo": [
+    "APERTA GRAVAR",
+    "FAZ A TAREFA",
+    "SKILL PRONTA"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "existente",
+   "stat": "+50",
+   "stat_rotulo": "por dia",
+   "total": "5.914",
+   "info2": "TypeScript · criado há 119 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}
