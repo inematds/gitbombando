@@ -1,0 +1,7 @@
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+🔵 CARROSSEL · Top 10 do GitHub · 27/11/2026
+🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦
+Telegram INEMA.FTD: ok (tópico 1921)
+Fila do x3: ok · lives9 item 4005
+12 slides · revisor: aprovado
+🟥 SUGESTÃO: Nos slides 06 (autoclip) e 09 (minimind), o print é escuro e pequeno e quase não se lê; no slide 10, o logo da Apple sozinho diz pouco sobre o projeto. Para os próximos, prefira um trecho mais claro do README ou o cartão do GitHub quando o print vier escuro ou genérico.
