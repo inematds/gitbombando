@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com TOP 5 DO GITHUB e a manchete 'COPIAR E COLAR: +352 POR DIA' idênticas à ficha, números das pílulas e do ranking (352/291/188/173/134, estrelas totais e datas) batem com o top10.json, avatar presente e fecho com caixa vermelha e pílula inema.club.",
+ "sugestoes": [
+  "11.05–18.1: o painel do ranking ocupa só o terço de cima e deixa um grande vazio abaixo das barras; ampliar as barras e os nomes deixaria o gráfico mais legível no celular.",
+  "46.31–53.37 (#3 steam-game-idler): o alerta de polêmica só aparece na fala; um selo vermelho 'POLÊMICO: pode ferir as regras da Steam' no cartão reforçaria o aviso para quem assiste sem som.",
+  "74.52–81.58 (#1): a foto do dono é um identicon genérico; um print do app ou um ícone de área de transferência daria mais força visual ao campeão.",
+  "74.52: o rótulo do painel de baixo corta em 'CLIPBOARD-HISTORY-MANAGER-WINDO'; encurtar para 'clipboard-history-manager' ficaria mais limpo.",
+  "0.05–4.0: o gancho contrário é bom, mas o clipe rachado não remete a copiar e colar de imediato; um 'Ctrl+C' gigante ou um contador '+352' animado prenderia mais nos primeiros 2 s."
+ ]
+}

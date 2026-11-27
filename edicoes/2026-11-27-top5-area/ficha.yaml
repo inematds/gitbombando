@@ -1,0 +1,92 @@
+modo: area
+gancho:
+  tipo: contrario
+  manchete: 'COPIAR E COLAR: +352 POR DIA'
+  destaque: '+352'
+  objeto: um clipe de papel dourado gigante rachando ao meio, com faíscas amarelas
+    e folhas de papel voando em volta
+  fontes:
+  - nome: github.com/topics
+    trecho: Umbra9179/clipboard-history-manager-windows · 1.266 stars · criado em
+      23/11/2026 · 352 por dia
+abertura:
+  cena: escritório escuro à noite, só a luz amarela de um monitor no centro
+partes:
+- etapa: gancho
+  fala: O projeto que mais cresce em automação não é uma inteligência artificial.
+    É um programinha que guarda tudo o que você copia. Nasceu há quatro dias e já
+    ganha trezentas e cinquenta e duas estrelas por dia.
+- etapa: panorama
+  fala: Em automação e produtividade, os cinco projetos que mais crescem somam mil
+    cento e trinta e oito estrelas por dia desde que nasceram. Vou do quinto ao primeiro.
+  numero: '1.138'
+- etapa: repo
+  repo: CopilotKit/OpenBot
+  desc: Colegas de trabalho de IA que rodam no seu computador e pedem sua aprovação.
+  destaque: pedem sua aprovação
+  numero: '134'
+  fala: Em quinto, o OpenBot. São colegas de trabalho de i-á que mexem no navegador
+    por você, mas esperam a sua aprovação antes de enviar qualquer coisa. E roda no
+    seu computador. Cento e trinta e quatro estrelas por dia.
+- etapa: repo
+  repo: CzzzzzzJ/mdldm-maitian
+  desc: Central chinesa que prepara seu vídeo para sete redes sociais e mede os resultados.
+  destaque: sete redes sociais
+  numero: '173'
+  fala: 'Número quatro: Maitian, um projeto chinês. Você diz uma frase pra i-á e ela
+    prepara o mesmo vídeo para sete redes, do YouTube ao Instagram. Depois traz os
+    números todo dia. Cento e setenta e três estrelas por dia.'
+- etapa: repo
+  repo: Basil0879/steam-game-idler
+  desc: Programa que deixa jogos da Steam rodando sozinhos para juntar cartas e horas.
+  destaque: rodando sozinhos
+  numero: '188'
+  fala: 'E agora o pódio. Bronze pro Steam Game Idler. Ele deixa seus jogos da Steam
+    ligados sozinhos pra ganhar cartas e horas jogadas. Cento e oitenta e oito estrelas
+    por dia. Isso é polêmico, cuidado: pode ferir as regras da Steam.'
+- etapa: repo
+  repo: mdiri-ai/SoduWork
+  desc: Time de agentes de IA em que um faz o trabalho, outro revisa e uma pessoa
+    aprova.
+  destaque: outro revisa
+  numero: '291'
+  fala: Prata pro SoduWork. Aqui uma i-á faz o trabalho, outra i-á confere, e só termina
+    quando uma pessoa aprova. É a sua equipe ganhando ajudantes. Duzentas e noventa
+    e uma estrelas por dia.
+- etapa: repo
+  repo: Umbra9179/clipboard-history-manager-windows
+  desc: 'Guarda tudo o que você copia no Windows: textos, imagens e links, com busca.'
+  destaque: tudo o que você copia
+  numero: '352'
+  fala: E o primeiro lugar é um gerenciador de área de transferência para Windows.
+    Guarda tudo o que você copia, com busca, etiquetas e cópia de segurança. Trezentas
+    e cinquenta e duas estrelas por dia. Nunca mais perca um texto copiado.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Me conta aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  trezentas e cinquenta e duas: '352'
+  Trezentas e cinquenta e duas: '352'
+  mil cento e trinta e oito: '1.138'
+  Cento e trinta e quatro: '134'
+  Cento e setenta e três: '173'
+  Cento e oitenta e oito: '188'
+  Duzentas e noventa e uma: '291'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'Programa que guarda tudo que você copia ganha 352 estrelas por dia: Top
+    5 de automação'
+  contexto: O Top 5 do GitHub em automação e produtividade, do quinto ao primeiro,
+    medido em estrelas por dia desde a criação e explicado sem jargão. Lidera um gerenciador
+    de área de transferência para Windows, com 352 estrelas por dia.
+  telegram: 'O que mais cresce no GitHub em automação: um programa grátis para Windows
+    que guarda tudo o que você copia, com 352 estrelas por dia. Em segundo, o SoduWork,
+    onde uma IA faz o trabalho, outra revisa e uma pessoa aprova.'
