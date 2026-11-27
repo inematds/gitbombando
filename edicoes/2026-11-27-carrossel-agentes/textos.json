@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "IA QUE CONTROLA SEU CELULAR",
+  "destaque": "CELULAR"
+ },
+ "repos": {
+  "lennney/stop-that-shit": {
+   "gancho": [
+    "IA FAZENDO SÓ",
+    "O QUE VOCÊ PEDIU"
+   ],
+   "o_que_e": "Um guarda para agentes de IA que programam, como Codex e Claude Code: ele corta o trabalho extra que você não pediu e mantém a tarefa no foco.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Corta o que sobra",
+     "texto": "Barra verificações que ninguém lê e mudanças fora do que você pediu."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Vários agentes",
+     "texto": "Funciona com Codex, Claude Code, OpenCode, Hermes Agent e Pi."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "VOCÊ PEDE",
+    "SÓ O PEDIDO"
+   ]
+  },
+  "reacher-z/Awesome-CUA": {
+   "gancho": [
+    "IA QUE USA",
+    "O COMPUTADOR?"
+   ],
+   "o_que_e": "Um catálogo aberto sobre agentes de IA que usam o computador sozinhos, com estudos, modelos, dados e testes conferidos na fonte.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Busca no site",
+     "texto": "Você pesquisa estudos, temas e dados direto no site awesomecua.com."
+    },
+    {
+     "icone": "database",
+     "titulo": "Dados prontos",
+     "texto": "Baixe a coleção em arquivos JSONL e SQLite para reaproveitar."
+    }
+   ],
+   "fluxo": [
+    "ABRE O SITE",
+    "BUSCA O TEMA",
+    "LÊ A FONTE"
+   ]
+  },
+  "relatedb/relate": {
+   "gancho": [
+    "MEMÓRIA PRA IA",
+    "NUM ARQUIVO SÓ"
+   ],
+   "o_que_e": "Um banco de dados em grafo, que guarda coisas e as ligações entre elas, rodando dentro do seu programa, sem servidor, pensado para agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Instala num comando",
+     "texto": "Roda em macOS, Linux e Windows, sem servidor para cuidar."
+    },
+    {
+     "icone": "code",
+     "titulo": "Liga com seu código",
+     "texto": "Tem pacotes para Python, Node.js, Rust e até para o navegador."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "GUARDA DADOS",
+    "A IA CONSULTA"
+   ]
+  },
+  "hridaya423/phonedriver": {
+   "gancho": [
+    "DÊ UM CELULAR",
+    "PARA SUA IA"
+   ],
+   "o_que_e": "Um programa que deixa agentes como Claude Code, Codex e Cursor verem a tela e mexerem em celulares Android e iPhone, reais ou virtuais.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Pergunta antes de pagar",
+     "texto": "Antes de tocar no botão de pagar, ele pede a sua aprovação."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Gasta menos",
+     "texto": "Lê a tela como texto e gasta menos que o mobile-mcp nos testes."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "LIGA O CELULAR",
+    "PEDE A TAREFA"
+   ]
+  },
+  "alexsergivan/kwant": {
+   "gancho": [
+    "SEU TIME DE BOTS",
+    "QUE SE CONFERE"
+   ],
+   "o_que_e": "Um time de bots de IA que você hospeda: eles dividem tarefas, passam trabalho entre si e conferem tudo antes de dizer que está pronto.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Tarefa conferida",
+     "texto": "Só marca como verificada quando o próprio kwant roda a checagem."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Roda onde você quiser",
+     "texto": "App para Mac e Linux, servidor com Docker ou atalho no celular."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "MONTA O TIME",
+    "BOTS TRABALHAM"
+   ]
+  }
+ },
+ "legenda_abertura": "Os 5 projetos de agentes de IA que mais crescem no GitHub nesta semana estão no carrossel: tem IA mexendo no celular, time de bots que confere o próprio trabalho e guarda que segura agente fazendo coisa a mais. No inema.club está tudo isso, e lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o carrossel com os 5 repositórios de agentes de IA que mais crescem no GitHub. Passa lá no post para ver cada um. E no inema.club você encontra tudo e aprende a integrar esses projetos, em vez de só copiar os repositórios, direto na internet."
+}

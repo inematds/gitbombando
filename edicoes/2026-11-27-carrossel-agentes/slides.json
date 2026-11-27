@@ -1,0 +1,199 @@
+{
+ "tipo": "area",
+ "serie": "TOP 5 · SISTEMAS DE AGENTES",
+ "conta": "@inema.tds",
+ "data_br": "27/11/2026",
+ "capa": {
+  "linha1": "TOP 5",
+  "linha2": "SISTEMAS DE AGENTES",
+  "numero": "+134",
+  "numero_rotulo": "estrelas por dia, somando os 5 (criados nos últimos meses)",
+  "manchete": "IA QUE CONTROLA SEU CELULAR",
+  "destaque": "CELULAR",
+  "fundo": [
+   "prints/3.png",
+   "prints/5.png",
+   "prints/1.png",
+   "prints/2.png",
+   "prints/4.png"
+  ]
+ },
+ "slides": [
+  {
+   "pos": 1,
+   "nome": "lennney/stop-that-shit",
+   "repo": "stop-that-shit",
+   "url": "https://github.com/lennney/stop-that-shit",
+   "gancho": [
+    "IA FAZENDO SÓ",
+    "O QUE VOCÊ PEDIU"
+   ],
+   "o_que_e": "Um guarda para agentes de IA que programam, como Codex e Claude Code: ele corta o trabalho extra que você não pediu e mantém a tarefa no foco.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Corta o que sobra",
+     "texto": "Barra verificações que ninguém lê e mudanças fora do que você pediu."
+    },
+    {
+     "icone": "terminal",
+     "titulo": "Vários agentes",
+     "texto": "Funciona com Codex, Claude Code, OpenCode, Hermes Agent e Pi."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "VOCÊ PEDE",
+    "SÓ O PEDIDO"
+   ],
+   "print": "prints/1.png",
+   "print_fonte": "opengraph",
+   "stat": "+38",
+   "stat_rotulo": "por dia",
+   "total": "4.113",
+   "info2": "JavaScript · criado há 108 dias"
+  },
+  {
+   "pos": 2,
+   "nome": "reacher-z/Awesome-CUA",
+   "repo": "Awesome-CUA",
+   "url": "https://github.com/reacher-z/Awesome-CUA",
+   "gancho": [
+    "IA QUE USA",
+    "O COMPUTADOR?"
+   ],
+   "o_que_e": "Um catálogo aberto sobre agentes de IA que usam o computador sozinhos, com estudos, modelos, dados e testes conferidos na fonte.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Busca no site",
+     "texto": "Você pesquisa estudos, temas e dados direto no site awesomecua.com."
+    },
+    {
+     "icone": "database",
+     "titulo": "Dados prontos",
+     "texto": "Baixe a coleção em arquivos JSONL e SQLite para reaproveitar."
+    }
+   ],
+   "fluxo": [
+    "ABRE O SITE",
+    "BUSCA O TEMA",
+    "LÊ A FONTE"
+   ],
+   "print": "prints/2.png",
+   "print_fonte": "opengraph",
+   "stat": "+32",
+   "stat_rotulo": "por dia",
+   "total": "1.356",
+   "info2": "Python · criado há 42 dias"
+  },
+  {
+   "pos": 3,
+   "nome": "relatedb/relate",
+   "repo": "relate",
+   "url": "https://github.com/relatedb/relate",
+   "gancho": [
+    "MEMÓRIA PRA IA",
+    "NUM ARQUIVO SÓ"
+   ],
+   "o_que_e": "Um banco de dados em grafo, que guarda coisas e as ligações entre elas, rodando dentro do seu programa, sem servidor, pensado para agentes de IA.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Instala num comando",
+     "texto": "Roda em macOS, Linux e Windows, sem servidor para cuidar."
+    },
+    {
+     "icone": "code",
+     "titulo": "Liga com seu código",
+     "texto": "Tem pacotes para Python, Node.js, Rust e até para o navegador."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "GUARDA DADOS",
+    "A IA CONSULTA"
+   ],
+   "print": "prints/3.png",
+   "print_fonte": "readme",
+   "stat": "+22",
+   "stat_rotulo": "por dia",
+   "total": "504",
+   "info2": "Rust · criado há 23 dias"
+  },
+  {
+   "pos": 4,
+   "nome": "hridaya423/phonedriver",
+   "repo": "phonedriver",
+   "url": "https://github.com/hridaya423/phonedriver",
+   "gancho": [
+    "DÊ UM CELULAR",
+    "PARA SUA IA"
+   ],
+   "o_que_e": "Um programa que deixa agentes como Claude Code, Codex e Cursor verem a tela e mexerem em celulares Android e iPhone, reais ou virtuais.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Pergunta antes de pagar",
+     "texto": "Antes de tocar no botão de pagar, ele pede a sua aprovação."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Gasta menos",
+     "texto": "Lê a tela como texto e gasta menos que o mobile-mcp nos testes."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "LIGA O CELULAR",
+    "PEDE A TAREFA"
+   ],
+   "print": "prints/4.png",
+   "print_fonte": "opengraph",
+   "stat": "+22",
+   "stat_rotulo": "por dia",
+   "total": "410",
+   "info2": "Rust · criado há 19 dias"
+  },
+  {
+   "pos": 5,
+   "nome": "alexsergivan/kwant",
+   "repo": "kwant",
+   "url": "https://github.com/alexsergivan/kwant",
+   "gancho": [
+    "SEU TIME DE BOTS",
+    "QUE SE CONFERE"
+   ],
+   "o_que_e": "Um time de bots de IA que você hospeda: eles dividem tarefas, passam trabalho entre si e conferem tudo antes de dizer que está pronto.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Tarefa conferida",
+     "texto": "Só marca como verificada quando o próprio kwant roda a checagem."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Roda onde você quiser",
+     "texto": "App para Mac e Linux, servidor com Docker ou atalho no celular."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O APP",
+    "MONTA O TIME",
+    "BOTS TRABALHAM"
+   ],
+   "print": "prints/5.png",
+   "print_fonte": "readme",
+   "stat": "+20",
+   "stat_rotulo": "por dia",
+   "total": "721",
+   "info2": "Rust · criado há 36 dias"
+  }
+ ],
+ "fecho": {
+  "titulo_a": "Os 5 nomes estão",
+  "titulo_b": "na legenda.",
+  "texto": "Busque o nome no GitHub. Salve para testar depois e mande para quem vive de tecnologia.",
+  "agenda": "Todo dia tem <b>Top do GitHub</b> novo"
+ }
+}

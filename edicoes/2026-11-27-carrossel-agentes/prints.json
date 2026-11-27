@@ -1,0 +1,42 @@
+{
+ "lennney/stop-that-shit": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/lennney/stop-that-shit",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "reacher-z/Awesome-CUA": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/reacher-z/Awesome-CUA",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "relatedb/relate": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/relatedb/relate/main/img/relate-header.png",
+  "tam": [
+   1400,
+   467
+  ]
+ },
+ "hridaya423/phonedriver": {
+  "fonte": "opengraph",
+  "url": "https://opengraph.githubassets.com/1/hridaya423/phonedriver",
+  "tam": [
+   1200,
+   600
+  ]
+ },
+ "alexsergivan/kwant": {
+  "fonte": "readme",
+  "url": "https://raw.githubusercontent.com/alexsergivan/kwant/main/docs/media/readme-hero.png",
+  "tam": [
+   1400,
+   438
+  ]
+ }
+}
