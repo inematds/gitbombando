@@ -1,0 +1,13 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com TOP 10 DO GITHUB e manchete corretos; posições e estrelas (pílulas 🔥 e totais) batem com o top10.json; avatar presente e fecho com caixa vermelha e inema.club; os contadores baixos são da animação.",
+ "sugestoes": [
+  "0.05–4.0: a capa poderia mostrar o número 1.597 ou o nome Claude-BugHunter para dar uma prova concreta logo no primeiro segundo.",
+  "14.32: no painel, o nome do #10 sai cortado ('app-store-complia...'); dá para encurtar a fonte ou abreviar o nome.",
+  "96.91: o contador do #3 ainda está em 0 com o gráfico vazio no início da parte; vale começar a animação já com as barras visíveis para não parecer quadro vazio.",
+  "127.89: o cartão do #1 polêmico poderia ter um selo visual de alerta (ex.: 'USE SÓ COM AUTORIZAÇÃO') além da fala 'mas pode atacar'.",
+  "34.97: a descrição do minimind poderia citar o gancho forte do projeto ('em 2 horas, por menos de R$ 3') em vez de 'gastando quase nada'.",
+  "IMPACTO 7: o gancho da IA hacker é bom, mas o miolo (#9 a #4) tem ritmo uniforme; uma virada visual no meio ajudaria a segurar até o fim."
+ ]
+}
