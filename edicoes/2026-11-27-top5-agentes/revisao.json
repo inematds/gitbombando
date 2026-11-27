@@ -1,0 +1,13 @@
+{
+ "veredito": "aprovado",
+ "impacto": 7,
+ "motivo": "Capa com 'TOP 5 DO GITHUB' e a manchete idêntica a gancho.manchete; ranking, estrelas (+38/+32/+22/+22/+20), totais (4.113/1.356/504/410/721) e datas de criação batem com o top10.json; avatar presente e fecho com caixa vermelha e pílula inema.club.",
+ "sugestoes": [
+  "0.05–4.0: a legenda branca do karaokê fica sobre o robô dourado e brilhante e perde contraste; uma faixa escura atrás dela ajudaria.",
+  "11.23/18.45: o painel do ranking ocupa só a metade de cima e deixa um grande vazio preto abaixo das barras; dá para aumentar as barras e os nomes.",
+  "54.58: a legenda solta 'QUÊ,' no cartão do relate fica sem sentido isolada; vale quebrar a frase em outro ponto.",
+  "90.71: o cartão do inema.club aparece antes da pílula e do campo de comentário; dá para entrar com o CTA mais cedo para segurar quem está saindo.",
+  "Geral: o nome 'stop-that-shit' na tela e no título pode reduzir a distribuição no YouTube; vale considerar 'Stop That S***' no título de publicação.",
+  "IMPACTO: o gancho do palavrão é forte, mas números de 20 a 38 estrelas por dia soam pequenos para um leigo; comparar com algo concreto (ex.: 4 mil estrelas em 3 meses) daria mais peso."
+ ]
+}

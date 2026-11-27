@@ -1,0 +1,42 @@
+[
+ {
+  "id": "f1",
+  "fala": "Tem um projeto com nome de palavrão em inglês subindo no GitHub. A missão dele? Mandar a inteligência artificial parar de fazer o que você não pediu.",
+  "legenda": "Tem um projeto com nome de palavrão em inglês subindo no GitHub. A missão dele? Mandar a inteligência artificial parar de fazer o que você não pediu."
+ },
+ {
+  "id": "f2",
+  "fala": "Esse é o Top cinco dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Juntos, somam cento e trinta e quatro estrelas por dia desde a criação. Vou do quinto ao primeiro.",
+  "legenda": "Esse é o Top 5 dos sistemas de agentes de inteligência artificial que mais crescem no GitHub. Juntos, somam 134 estrelas por dia desde a criação. Vou do quinto ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Abrindo a lista, o kwant. É uma equipe de robôs de i-á só sua, no seu computador. Um passa tarefa pro outro, e um confere o trabalho do outro antes de dizer pronto. Gratuito, no lugar de serviços pagos. São vinte estrelas por dia.",
+  "legenda": "Abrindo a lista, o kwant. É uma equipe de robôs de i-á só sua, no seu computador. Um passa tarefa pro outro, e um confere o trabalho do outro antes de dizer pronto. Gratuito, no lugar de serviços pagos. São 20 estrelas por dia."
+ },
+ {
+  "id": "f4",
+  "fala": "Em quarto, o phonedriver. Ele dá um celular pra sua i-á. Ela lê a tela, toca nos botões e testa aplicativos sozinha. Na hora de pagar, ela para e pede sua permissão. São vinte e duas estrelas por dia.",
+  "legenda": "Em quarto, o phonedriver. Ele dá um celular pra sua i-á. Ela lê a tela, toca nos botões e testa aplicativos sozinha. Na hora de pagar, ela para e pede sua permissão. São 22 estrelas por dia."
+ },
+ {
+  "id": "f5",
+  "fala": "E agora o pódio. Em terceiro, o Relate. É uma memória pros agentes: guarda quem conhece quem e o que liga a quê, num arquivo só, sem servidor. Com só vinte e três dias de vida, já faz vinte e duas estrelas por dia.",
+  "legenda": "E agora o pódio. Em terceiro, o Relate. É uma memória pros agentes: guarda quem conhece quem e o que liga a quê, num arquivo só, sem servidor. Com só 23 dias de vida, já faz 22 estrelas por dia."
+ },
+ {
+  "id": "f6",
+  "fala": "Número dois, o Awesome CUA. É um catálogo aberto de agentes que usam o computador sozinhos, clicando e digitando como gente. Pesquisas, modelos e testes num lugar só. São trinta e duas estrelas por dia.",
+  "legenda": "Número dois, o Awesome CUA. É um catálogo aberto de agentes que usam o computador sozinhos, clicando e digitando como gente. Pesquisas, modelos e testes num lugar só. São 32 estrelas por dia."
+ },
+ {
+  "id": "f7",
+  "fala": "E o primeiro lugar. Stop That Shit. Sabe quando a i-á mexe no que você não pediu e gasta à toa? Ele trava esse exagero. Faz o serviço e para. São trinta e oito estrelas por dia.",
+  "legenda": "E o primeiro lugar. Stop That Shit. Sabe quando a i-á mexe no que você não pediu e gasta à toa? Ele trava esse exagero. Faz o serviço e para. São 38 estrelas por dia."
+ },
+ {
+  "id": "f8",
+  "fala": "Qual desses você vai testar primeiro? Escreve aqui embaixo. Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "Qual desses você vai testar primeiro? Escreve aqui embaixo. Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]

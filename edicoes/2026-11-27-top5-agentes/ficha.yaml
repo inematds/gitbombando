@@ -1,0 +1,91 @@
+modo: area
+gancho:
+  tipo: contrario
+  manchete: 38 ESTRELAS POR DIA CONTRA EXAGERO
+  destaque: '38'
+  objeto: um robô dourado com um enorme sinal de pare vermelho rachando na frente
+    dele, faíscas amarelas voando
+  fontes:
+  - nome: github.com/topics
+    trecho: lennney/stop-that-shit · created 2026-08-11 · 38 stars/day · stop unrequested
+      hashes, checksums, and task-scope creep
+abertura:
+  cena: escritório escuro de madrugada, só a luz amarela de um monitor no centro
+partes:
+- etapa: gancho
+  fala: Tem um projeto com nome de palavrão em inglês subindo no GitHub. A missão
+    dele? Mandar a inteligência artificial parar de fazer o que você não pediu.
+- etapa: panorama
+  fala: Esse é o Top cinco dos sistemas de agentes de inteligência artificial que
+    mais crescem no GitHub. Juntos, somam cento e trinta e quatro estrelas por dia
+    desde a criação. Vou do quinto ao primeiro.
+  numero: '134'
+- etapa: repo
+  repo: alexsergivan/kwant
+  desc: Sua própria equipe de robôs de IA, que confere o trabalho um do outro.
+  destaque: confere o trabalho
+  numero: '20'
+  fala: Abrindo a lista, o kwant. É uma equipe de robôs de i-á só sua, no seu computador.
+    Um passa tarefa pro outro, e um confere o trabalho do outro antes de dizer pronto.
+    Gratuito, no lugar de serviços pagos. São vinte estrelas por dia.
+- etapa: repo
+  repo: hridaya423/phonedriver
+  desc: Dá um celular para a sua IA usar, e ela pede permissão antes de pagar.
+  destaque: pede permissão
+  numero: '22'
+  fala: Em quarto, o phonedriver. Ele dá um celular pra sua i-á. Ela lê a tela, toca
+    nos botões e testa aplicativos sozinha. Na hora de pagar, ela para e pede sua
+    permissão. São vinte e duas estrelas por dia.
+- etapa: repo
+  repo: relatedb/relate
+  desc: Uma memória para agentes de IA, que guarda tudo num arquivo só, sem servidor.
+  destaque: num arquivo só
+  numero: '22'
+  fala: 'E agora o pódio. Em terceiro, o Relate. É uma memória pros agentes: guarda
+    quem conhece quem e o que liga a quê, num arquivo só, sem servidor. Com só vinte
+    e três dias de vida, já faz vinte e duas estrelas por dia.'
+- etapa: repo
+  repo: reacher-z/Awesome-CUA
+  desc: Catálogo aberto de agentes de IA que usam o computador sozinhos, como gente.
+  destaque: usam o computador sozinhos
+  numero: '32'
+  fala: Número dois, o Awesome CUA. É um catálogo aberto de agentes que usam o computador
+    sozinhos, clicando e digitando como gente. Pesquisas, modelos e testes num lugar
+    só. São trinta e duas estrelas por dia.
+- etapa: repo
+  repo: lennney/stop-that-shit
+  desc: Trava a IA programadora quando ela inventa trabalho que você não pediu.
+  destaque: não pediu
+  numero: '38'
+  fala: E o primeiro lugar. Stop That Shit. Sabe quando a i-á mexe no que você não
+    pediu e gasta à toa? Ele trava esse exagero. Faz o serviço e para. São trinta
+    e oito estrelas por dia.
+- etapa: comentario
+  fala: Qual desses você vai testar primeiro? Escreve aqui embaixo. Tá tudo no inema
+    ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar,
+    e direto na internet.
+trocas:
+  Top cinco: Top 5
+  cento e trinta e quatro: '134'
+  trinta e oito: '38'
+  trinta e duas: '32'
+  vinte e três: '23'
+  vinte e duas: '22'
+  vinte: '20'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a usar essas IAs de verdade
+publicar:
+  titulo: 'O projeto que manda a IA parar de exagerar: 38 estrelas por dia no GitHub'
+  contexto: O Top 5 dos sistemas de agentes de IA que mais crescem no GitHub em 27/11/2026,
+    em estrelas por dia desde a criação, explicado sem jargão. O Stop That Shit lidera
+    com 38 estrelas por dia ao impedir que a IA faça trabalho que ninguém pediu.
+  telegram: 'Top 5 dos agentes de IA que mais crescem no GitHub: o Stop That Shit
+    lidera com 38 estrelas por dia, travando a IA quando ela inventa serviço. No pódio
+    ainda tem um catálogo de agentes que usam o computador sozinhos e uma memória
+    para agentes num arquivo só.'
