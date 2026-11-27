@@ -1,0 +1,12 @@
+{
+ "veredito": "aprovado",
+ "impacto": 8,
+ "motivo": "A capa traz 'TOP 5 DO GITHUB' e a manchete '+5.090 ESTRELAS EM SETE DIAS' igual à ficha. Posições, estrelas da semana, totais e datas dos cartões e do ranking batem com o top10.json. O avatar aparece em todo o vídeo, e o fecho tem a caixa vermelha de pergunta e a pílula inema.club.",
+ "sugestoes": [
+  "10.86s: o ranking 'Bombando na semana' deixa uma faixa grande vazia entre a lista e o painel de baixo; dava para aumentar a lista ou repetir a soma 15.741 ali.",
+  "24.59s–79.51s: as barras do gráfico do painel de baixo usam o total acumulado e ficam quase da mesma altura, com rótulos minúsculos e ilegíveis no celular; mostrar o ganho por dia ou destacar só o primeiro e o último valor deixaria o crescimento visível.",
+  "58.91s/65.78s: o ícone 'SW' do ffmpeg-skill não diz nada ao espectador; um selo '+38%' no cartão reforçaria o dado que o Nei fala.",
+  "0.05s: a capa poderia sugerir o gancho 'Google, Meta e Alibaba perderam para uma pessoa só', que é mais forte que a estatística sozinha.",
+  "86.37s: a pílula inema.club só entra depois da caixa de pergunta; entrar junto, quando o Nei diz 'inema ponto club', amarraria melhor a fala à tela."
+ ]
+}

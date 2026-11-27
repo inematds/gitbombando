@@ -1,0 +1,100 @@
+modo: semana
+gancho:
+  tipo: estatistica
+  manchete: +5.090 ESTRELAS EM SETE DIAS
+  destaque: '+5.090'
+  objeto: uma lupa dourada gigante rachando, com ícones de redes sociais e faíscas
+    amarelas explodindo pelas rachaduras
+  fontes:
+  - nome: github.com/trending?since=weekly
+    trecho: mvanhorn/last30days-skill · 5,090 stars this week
+  - nome: github.com/mvanhorn/last30days-skill
+    trecho: AI agent skill that researches any topic across Reddit, X, YouTube, HN,
+      Polymarket, and the web
+abertura:
+  cena: sala escura com dezenas de telas de celular acesas, só uma luz amarela forte
+    vindo do centro
+partes:
+- etapa: gancho
+  fala: Google, Meta e Alibaba entraram no Top cinco da semana. E nenhuma delas chegou
+    perto do primeiro lugar. Quem ganhou foi um projeto feito por uma pessoa só.
+- etapa: panorama
+  fala: Juntos, os cinco projetos que mais cresceram na semana somaram quinze mil
+    setecentas e quarenta e uma estrelas. Vou do quinto ao primeiro.
+  numero: '15.741'
+- etapa: repo
+  repo: alibaba/open-code-review
+  desc: O revisor de código com IA da Alibaba, que já achou milhões de erros, agora
+    aberto.
+  destaque: milhões de erros
+  numero: '2.284'
+  fala: Em quinto, a gigante chinesa Alibaba. O Open Code Review é uma inteligência
+    artificial que revisa programas e aponta erros linha por linha. Lá dentro, achou
+    milhões de falhas. Duas mil duzentas e oitenta e quatro estrelas.
+- etapa: repo
+  repo: meta/astryx
+  desc: O kit de peças de tela da Meta, usado em mais de 13 mil apps, agora aberto
+    a todos.
+  destaque: 13 mil apps
+  numero: '2.519'
+  fala: Número quatro é da Meta, dona do Instagram e do WhatsApp. O Astryx é o kit
+    de botões e telas por trás de mais de treze mil aplicativos dela. Agora é de graça
+    pra todo mundo. Duas mil quinhentas e dezenove estrelas.
+- etapa: repo
+  repo: google-labs-code/stitch-skills
+  desc: Habilidades do Google para a IA desenhar telas de site e aplicativo pra você.
+  destaque: desenhar telas
+  numero: '2.619'
+  fala: E agora o pódio. Em terceiro, o Google. O Stitch Skills ensina a inteligência
+    artificial a desenhar telas de site e de aplicativo. Você descreve, ela monta.
+    Duas mil seiscentas e dezenove estrelas.
+- etapa: repo
+  repo: kajisho5/ffmpeg-skill
+  desc: 'Você pede e a IA edita seu vídeo: corta, legenda e tira silêncio, sem nuvem.'
+  destaque: edita seu vídeo
+  numero: '3.229'
+  fala: Prata pro ffmpeg skill, que não sai do topo. Você pede, e a inteligência artificial
+    edita seu vídeo no seu computador. Corta, legenda, tira silêncio. Cresceu trinta
+    e oito por cento. Três mil duzentas e vinte e nove estrelas.
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Lê Reddit, YouTube, X e TikTok de uma vez e resume o que as pessoas dizem
+    de qualquer assunto.
+  destaque: o que as pessoas dizem
+  numero: '5.090'
+  fala: E no topo, de novo, o Last Thirty Days. Você joga um assunto, ele lê Reddit,
+    YouTube, X e TikTok de uma vez. E te conta o que as pessoas dizem de verdade.
+    Cinco mil e noventa estrelas. Imbatível.
+- etapa: comentario
+  fala: E aí, qual desses você vai testar primeiro? Comenta aqui embaixo. Tá tudo
+    no inema ponto club, e lá você aprende a integrar esses projetos no seu trabalho,
+    em vez de só copiar. Direto na internet.
+trocas:
+  Top cinco: Top 5
+  quinze mil setecentas e quarenta e uma: '15.741'
+  Duas mil duzentas e oitenta e quatro: '2.284'
+  treze mil: 13 mil
+  Duas mil quinhentas e dezenove: '2.519'
+  Duas mil seiscentas e dezenove: '2.619'
+  trinta e oito por cento: 38%
+  Três mil duzentas e vinte e nove: '3.229'
+  Cinco mil e noventa: '5.090'
+cores:
+  bombando: '#FACC15'
+  polemico: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: 'Google, Meta e Alibaba perderam: IA que lê as redes por você leva 5.090
+    estrelas'
+  contexto: O Top 5 do GitHub da semana de 27/11/2026, do quinto ao primeiro, explicado
+    sem jargão. O Last30days, que pesquisa qualquer assunto nas redes e resume o que
+    as pessoas dizem, liderou com 5.090 estrelas, à frente de ffmpeg skill, Google,
+    Meta e Alibaba.
+  telegram: 'O que bombou na semana no GitHub: o Last30days, uma IA que lê Reddit,
+    YouTube, X e TikTok e resume o que as pessoas dizem, ficou no topo com 5.090 estrelas.
+    Google, Meta e Alibaba também entraram no Top 5, e um editor de vídeo comandado
+    por IA cresceu 38%.'

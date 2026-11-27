@@ -1,0 +1,7 @@
+Google, Meta e Alibaba perderam: IA que lê as redes por você leva 5.090 estrelas
+
+#1 mvanhorn/last30days-skill — https://github.com/mvanhorn/last30days-skill
+#2 kajisho5/ffmpeg-skill — https://github.com/kajisho5/ffmpeg-skill
+#3 google-labs-code/stitch-skills — https://github.com/google-labs-code/stitch-skills
+#4 meta/astryx — https://github.com/meta/astryx
+#5 alibaba/open-code-review — https://github.com/alibaba/open-code-review
