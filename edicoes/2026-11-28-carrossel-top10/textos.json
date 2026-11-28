@@ -1,0 +1,250 @@
+{
+ "capa": {
+  "manchete": "SKILLS DE IA DOMINAM O DIA",
+  "destaque": "SKILLS"
+ },
+ "repos": {
+  "elementalsouls/Claude-BugHunter": {
+   "gancho": [
+    "CAÇAR FALHAS",
+    "COM O CLAUDE?"
+   ],
+   "o_que_e": "Um pacote de habilidades para o Claude Code que faz a IA trabalhar como um pesquisador de segurança na caça autorizada a falhas em sites.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Padrões de relatórios",
+     "texto": "Usa padrões tirados de relatórios públicos de falhas no HackerOne."
+    },
+    {
+     "icone": "shield",
+     "titulo": "Fica no escopo",
+     "texto": "Segue método de trabalho e respeita os limites do teste autorizado."
+    }
+   ],
+   "fluxo": [
+    "INSTALA A SKILL",
+    "DEFINE O ALVO",
+    "A IA INVESTIGA"
+   ]
+  },
+  "obra/superpowers": {
+   "gancho": [
+    "SUA IA PROGRAMA",
+    "COM MÉTODO."
+   ],
+   "o_que_e": "Um conjunto de habilidades e instruções que faz o seu assistente de programação com IA entender o pedido antes de sair escrevendo código.",
+   "beneficios": [
+    {
+     "icone": "chat",
+     "titulo": "Pergunta antes",
+     "texto": "A IA conversa com você para entender o que você quer construir."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Claude Code, Cursor, Codex, Gemini CLI e outros."
+    }
+   ],
+   "fluxo": [
+    "INSTALA",
+    "DESCREVE A IDEIA",
+    "IA PLANEJA"
+   ]
+  },
+  "XiaoYouChR/Ghost-Downloader-3": {
+   "gancho": [
+    "UM SÓ PROGRAMA",
+    "PARA BAIXAR TUDO."
+   ],
+   "o_que_e": "Um gerenciador de downloads gratuito, com janela bonita, que baixa arquivos por link direto, FTP, torrent e links magnet.",
+   "beneficios": [
+    {
+     "icone": "download",
+     "titulo": "Vários tipos de link",
+     "texto": "Aceita HTTP, FTP, torrent e magnet no mesmo programa."
+    },
+    {
+     "icone": "globe",
+     "titulo": "Roda em vários sistemas",
+     "texto": "Feito para funcionar em mais de um sistema operacional."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "ESCOLHE A PASTA",
+    "ARQUIVO BAIXADO"
+   ]
+  },
+  "firecrawl/firecrawl": {
+   "gancho": [
+    "SITES VIRAM TEXTO",
+    "PARA A SUA IA."
+   ],
+   "o_que_e": "Uma ferramenta que lê sites e transforma as páginas em texto limpo, pronto para agentes de IA pesquisarem e usarem.",
+   "beneficios": [
+    {
+     "icone": "cpu",
+     "titulo": "Roda na sua máquina",
+     "texto": "A versão Local funciona no seu computador, sem banco de dados."
+    },
+    {
+     "icone": "database",
+     "titulo": "Muitas fontes de dados",
+     "texto": "Na nuvem, busca na web e acessa centenas de provedores de dados."
+    }
+   ],
+   "fluxo": [
+    "PASSA O SITE",
+    "ELE LÊ TUDO",
+    "TEXTO LIMPO"
+   ]
+  },
+  "cathrynlavery/diagram-design": {
+   "gancho": [
+    "DIAGRAMAS PRONTOS",
+    "SÓ PEDINDO."
+   ],
+   "o_que_e": "Uma habilidade para assistentes de IA que desenha diagramas num único arquivo de página web, com as cores e fontes da sua marca.",
+   "beneficios": [
+    {
+     "icone": "image",
+     "titulo": "Dezenas de tipos",
+     "texto": "Faz arquitetura, quadrantes, sequências e muitos outros diagramas."
+    },
+    {
+     "icone": "wand",
+     "titulo": "Com a sua marca",
+     "texto": "Puxa cores e fontes do seu site para todos os diagramas."
+    }
+   ],
+   "fluxo": [
+    "PEDE O DIAGRAMA",
+    "A IA DESENHA",
+    "ABRE O ARQUIVO"
+   ]
+  },
+  "zhouxiaoka/autoclip": {
+   "gancho": [
+    "UM VÍDEO LONGO.",
+    "VÁRIOS CORTES."
+   ],
+   "o_que_e": "Um programa gratuito que pega vídeos longos, como podcasts e lives, e gera cortes curtos com legenda e capa para as redes sociais.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Cortes com legenda",
+     "texto": "Acha os melhores trechos, segue quem fala e grava a legenda."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Sem assinatura",
+     "texto": "Gratuito e processa tudo no seu próprio computador."
+    }
+   ],
+   "fluxo": [
+    "COLA O LINK",
+    "A IA ESCOLHE",
+    "CORTES PRONTOS"
+   ]
+  },
+  "mvanhorn/last30days-skill": {
+   "gancho": [
+    "O QUE FALAM DE",
+    "QUALQUER ASSUNTO?"
+   ],
+   "o_que_e": "Uma habilidade para assistentes de IA que pesquisa um tema no Reddit, X, YouTube e na web e entrega um resumo com base no que achou.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Várias redes juntas",
+     "texto": "Junta Reddit, X, YouTube, Polymarket e a web numa só busca."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Funciona na hora",
+     "texto": "Reddit, HN e GitHub já funcionam sem nenhuma configuração."
+    }
+   ],
+   "fluxo": [
+    "DIZ O TEMA",
+    "A IA PESQUISA",
+    "RESUMO PRONTO"
+   ]
+  },
+  "HKUDS/CLI-Anything": {
+   "gancho": [
+    "SUA IA USANDO",
+    "QUALQUER PROGRAMA."
+   ],
+   "o_que_e": "Um projeto que cria comandos de terminal para programas comuns, para que agentes de IA consigam operar esses programas sozinhos.",
+   "beneficios": [
+    {
+     "icone": "terminal",
+     "titulo": "Loja de comandos",
+     "texto": "Um catálogo da comunidade para buscar e instalar os comandos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Liga com agentes",
+     "texto": "Funciona com Claude Code, Cursor e outros assistentes de IA."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE O APP",
+    "INSTALA O HUB",
+    "A IA OPERA"
+   ]
+  },
+  "jingyaogong/minimind": {
+   "gancho": [
+    "SEU PRÓPRIO",
+    "MODELO DE IA."
+   ],
+   "o_que_e": "Um projeto que ensina a treinar do zero um modelo de linguagem pequeno, em cerca de duas horas, com o código de todas as etapas.",
+   "beneficios": [
+    {
+     "icone": "brain",
+     "titulo": "Treino barato",
+     "texto": "Feito para treinar numa placa de vídeo comum, a custo baixo."
+    },
+    {
+     "icone": "layers",
+     "titulo": "Todas as etapas",
+     "texto": "Mostra preparo de dados, pré-treino, ajuste fino e mais."
+    }
+   ],
+   "fluxo": [
+    "BAIXA O CÓDIGO",
+    "TREINA",
+    "CONVERSA"
+   ]
+  },
+  "mjmirza/app-store-compliance": {
+   "gancho": [
+    "SEU APP APROVADO",
+    "DE PRIMEIRA?"
+   ],
+   "o_que_e": "Um guia aberto e um verificador que apontam os motivos comuns de recusa na App Store e no Google Play antes de você enviar o app.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Recusas documentadas",
+     "texto": "Lista padrões de recusa conhecidos e como corrigir cada um."
+    },
+    {
+     "icone": "clock",
+     "titulo": "Prazos de leis",
+     "texto": "Acompanha prazos de regras como a lei de IA da União Europeia."
+    }
+   ],
+   "fluxo": [
+    "RODA A CHECAGEM",
+    "VÊ OS ALERTAS",
+    "CORRIGE E ENVIA"
+   ]
+  }
+ },
+ "legenda_abertura": "Os dez projetos que mais ganharam estrelas hoje no GitHub, e as habilidades para assistentes de IA dominaram a lista. Passe o carrossel para ver o que cada um faz. Está tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 10 do dia no GitHub: caça a falhas com o Claude, cortes de vídeo automáticos, diagramas pedindo para a IA e mais. Veja o carrossel no @inema.tech. No inema.club está tudo, mas lá você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
