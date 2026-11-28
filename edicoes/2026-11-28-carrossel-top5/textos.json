@@ -1,0 +1,130 @@
+{
+ "capa": {
+  "manchete": "SUA IA AGORA EDITA VÍDEO",
+  "destaque": "VÍDEO"
+ },
+ "repos": {
+  "mvanhorn/last30days-skill": {
+   "gancho": [
+    "PESQUISAR UM TEMA",
+    "EM TODA A INTERNET?"
+   ],
+   "o_que_e": "Uma habilidade para assistentes de IA que pesquisa qualquer tema no Reddit, X, YouTube e na web e entrega um resumo baseado no que achou.",
+   "beneficios": [
+    {
+     "icone": "search",
+     "titulo": "Várias fontes juntas",
+     "texto": "Busca em Reddit, X, YouTube, TikTok, Hacker News e Polymarket."
+    },
+    {
+     "icone": "zap",
+     "titulo": "Funciona na hora",
+     "texto": "Reddit, Hacker News e GitHub rodam sem nenhuma configuração."
+    }
+   ],
+   "fluxo": [
+    "DIGA O TEMA",
+    "A IA PESQUISA",
+    "RESUMO PRONTO"
+   ]
+  },
+  "kajisho5/ffmpeg-skill": {
+   "gancho": [
+    "EDITAR VÍDEO",
+    "SÓ PEDINDO?"
+   ],
+   "o_que_e": "Um editor de vídeo para assistentes de IA como Claude Code e Cursor: você pede cortes, legendas e formatos, e ele edita no seu computador.",
+   "beneficios": [
+    {
+     "icone": "video",
+     "titulo": "Cortes e legendas",
+     "texto": "Corta pausas, põe legenda animada e ajusta o vídeo para vertical."
+    },
+    {
+     "icone": "lock",
+     "titulo": "Tudo no seu computador",
+     "texto": "Roda sem nuvem e sem chave de acesso paga, só com o FFmpeg local."
+    }
+   ],
+   "fluxo": [
+    "ABRE O VÍDEO",
+    "PEDE A EDIÇÃO",
+    "VÍDEO PRONTO"
+   ]
+  },
+  "google-labs-code/stitch-skills": {
+   "gancho": [
+    "DESIGN DO GOOGLE",
+    "NA SUA IA"
+   ],
+   "o_que_e": "Uma coleção de habilidades do Google que liga o Stitch, ferramenta de design de telas, a assistentes de IA como Claude Code, Cursor e Codex.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Três pacotes",
+     "texto": "Habilidades de design, de construção de telas e de utilidades."
+    },
+    {
+     "icone": "link",
+     "titulo": "Vários assistentes",
+     "texto": "Funciona com Codex, Gemini, Claude Code, Cursor e Antigravity."
+    }
+   ],
+   "fluxo": [
+    "INSTALA O PACOTE",
+    "PEDE A TELA",
+    "DESIGN PRONTO"
+   ]
+  },
+  "alibaba/open-code-review": {
+   "gancho": [
+    "REVISAR CÓDIGO",
+    "COM IA DA ALIBABA"
+   ],
+   "o_que_e": "Um programa de terminal da Alibaba que usa um modelo de IA para revisar código e comentar os problemas linha por linha.",
+   "beneficios": [
+    {
+     "icone": "shield",
+     "titulo": "Acha falhas de segurança",
+     "texto": "Tem regras prontas para erros comuns, como injeção de SQL e XSS."
+    },
+    {
+     "icone": "brain",
+     "titulo": "Usado em larga escala",
+     "texto": "Era a ferramenta interna da Alibaba usada por milhares de pessoas."
+    }
+   ],
+   "fluxo": [
+    "MUDA O CÓDIGO",
+    "A IA REVISA",
+    "COMENTÁRIOS"
+   ]
+  },
+  "meta/astryx": {
+   "gancho": [
+    "MONTAR APLICATIVO",
+    "COM PEÇAS DA META"
+   ],
+   "o_que_e": "Um sistema de design aberto da Meta, com peças prontas de tela para montar aplicativos, feito para pessoas e assistentes de IA usarem.",
+   "beneficios": [
+    {
+     "icone": "layers",
+     "titulo": "Mais de 150 peças",
+     "texto": "Botões e telas acessíveis, com modo escuro e modelos prontos."
+    },
+    {
+     "icone": "bot",
+     "titulo": "Pronto para IA",
+     "texto": "Pessoas e assistentes de IA constroem com as mesmas ferramentas."
+    }
+   ],
+   "fluxo": [
+    "ESCOLHE AS PEÇAS",
+    "AJUSTA O TEMA",
+    "APP MONTADO"
+   ]
+  }
+ },
+ "legenda_abertura": "Os cinco projetos que mais cresceram no GitHub nesta semana dão novas habilidades ao seu assistente de IA: pesquisar, editar vídeo, desenhar telas e revisar código. Passe o carrossel para ver cada um. E no inema.club está tudo lá, mas você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet.",
+ "telegram": "Saiu o Top 5 da semana no GitHub: IA que pesquisa a internet, edita vídeo, desenha telas e revisa código. Veja o carrossel no @inema.tds. No inema.club está tudo lá, mas você aprende a integrar esses projetos em vez de só copiar os repositórios, direto na internet."
+}
