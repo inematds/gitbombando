@@ -1,0 +1,137 @@
+modo: dia
+gancho:
+  tipo: estatistica
+  manchete: 'IA HACKER: 8 DIAS NO TOPO'
+  destaque: '8'
+  objeto: um cadeado dourado gigante estourando em pedaços, com faíscas vermelhas
+    e uma coroa rachada em cima
+  fontes:
+  - nome: github.com/trending
+    trecho: elementalsouls/Claude-BugHunter · 1,608 stars today
+  - nome: github.com/trending
+    trecho: mjmirza/app-store-compliance · 530 stars today
+abertura:
+  cena: sala de servidores escura de madrugada, telas com código vermelho e um facho
+    de luz amarela no centro
+partes:
+- etapa: gancho
+  fala: Uma inteligência artificial que caça brechas de segurança não larga o primeiro
+    lugar do GitHub. Já é o oitavo dia seguido. E hoje ela cresceu ainda mais.
+- etapa: panorama
+  fala: Os dez projetos que mais cresceram hoje somaram oito mil cento e sessenta
+    e duas estrelas. Vou do décimo ao primeiro.
+  numero: '8.162'
+- etapa: repo
+  repo: mjmirza/app-store-compliance
+  desc: Revisa o seu aplicativo antes da Apple e do Google pra ele não ser recusado.
+  destaque: não ser recusado
+  numero: '530'
+  fala: Em décimo, um guia pra quem tem aplicativo. Ele confere o seu app antes da
+    Apple e do Google e avisa o que daria recusa. Cresceu sete por cento em um dia.
+    Foram quinhentas e trinta estrelas.
+- etapa: repo
+  repo: jingyaogong/minimind
+  desc: Ensina passo a passo a criar a sua própria IA do zero, gastando quase nada.
+  destaque: do zero
+  fala: Nono lugar, o MiniMind. Ele mostra como montar a sua própria inteligência
+    artificial do zero, em umas duas horas e gastando quase nada. Uma aula aberta
+    sobre como a i-á funciona por dentro.
+- etapa: repo
+  repo: HKUDS/CLI-Anything
+  desc: Deixa os programas do seu computador prontos pra receber ordens de uma IA.
+  destaque: receber ordens
+  numero: '666'
+  fala: Em oitavo, o CLI-Anything, que não sai do Top dez. Ele faz qualquer programa
+    do computador obedecer a i-á. Você pede, ela opera. São seiscentas e sessenta
+    e seis estrelas.
+- etapa: repo
+  repo: mvanhorn/last30days-skill
+  desc: Pesquisa Reddit, YouTube e X sobre qualquer assunto e entrega um resumo.
+  destaque: um resumo
+  numero: '675'
+  fala: Sétimo, o last thirty days, outro veterano. Você dá um assunto e ele vasculha
+    Reddit, YouTube e X pra contar o que as pessoas estão dizendo de verdade. Foram
+    seiscentas e setenta e cinco estrelas.
+- etapa: repo
+  repo: zhouxiaoka/autoclip
+  desc: Corta vídeos longos em vídeos curtos, com legenda e capa, sem mensalidade.
+  destaque: sem mensalidade
+  numero: '718'
+  fala: Número seis, o AutoClip. Ele pega uma live ou um vídeo longo e corta sozinho
+    em vídeos curtos, com legenda e capa. Faz de graça o que muita gente paga caro.
+    Ganhou setecentas e dezoito estrelas.
+- etapa: repo
+  repo: cathrynlavery/diagram-design
+  desc: Você descreve em palavras e a IA desenha um diagrama com a cara da sua marca.
+  destaque: cara da sua marca
+  numero: '725'
+  fala: Em quinto, o diagram design. Você explica em palavras simples e a i-á desenha
+    um diagrama caprichado, com as cores da sua empresa. Somou setecentas e vinte
+    e cinco estrelas.
+- etapa: repo
+  repo: firecrawl/firecrawl
+  desc: Transforma qualquer site em texto limpo pra sua IA ler e entender.
+  destaque: qualquer site
+  numero: '822'
+  fala: Quarto lugar, o Firecrawl, presença fixa no Top dez. Ele lê qualquer site
+    e entrega o conteúdo limpinho pra i-á. São os olhos dela na internet. Foram oitocentas
+    e vinte e duas estrelas.
+- etapa: repo
+  repo: XiaoYouChR/Ghost-Downloader-3
+  desc: Um só programa que baixa vídeo, arquivo e torrent, até em internet ruim.
+  destaque: Um só programa
+  numero: '836'
+  fala: E agora o pódio. Terceiro, o Ghost Downloader. Um programa só que baixa vídeo,
+    arquivo e torrent, mesmo com internet ruim, e promete aposentar cinco aplicativos.
+    São oitocentas e trinta e seis estrelas.
+- etapa: repo
+  repo: obra/superpowers
+  desc: Faz a IA perguntar e planejar antes de sair programando.
+  destaque: planejar antes
+  numero: '922'
+  fala: Em segundo, o superpowers, que não sai do Top dez. Ele obriga a i-á a parar,
+    entender o que você quer e planejar antes de programar. Ganhou novecentas e vinte
+    e duas estrelas.
+- etapa: repo
+  repo: elementalsouls/Claude-BugHunter
+  desc: Transforma a IA num caçador de falhas de segurança em sites e sistemas.
+  destaque: caçador de falhas
+  numero: '1.608'
+  fala: E o número um. Ele de novo. O Claude BugHunter transforma a i-á num caçador
+    de falhas em sites e sistemas. Serve pra proteger, mas pode atacar. Isso é polêmico,
+    cuidado. Foram mil seiscentas e oito estrelas.
+- etapa: comentario
+  fala: E você, qual desses vai testar primeiro? Tá tudo no inema ponto club, mas
+    lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.
+trocas:
+  oito mil cento e sessenta e duas: '8.162'
+  quinhentas e trinta: '530'
+  sete por cento: 7%
+  seiscentas e sessenta e seis: '666'
+  seiscentas e setenta e cinco: '675'
+  setecentas e dezoito: '718'
+  setecentas e vinte e cinco: '725'
+  oitocentas e vinte e duas: '822'
+  oitocentas e trinta e seis: '836'
+  novecentas e vinte e duas: '922'
+  mil seiscentas e oito: '1.608'
+cores:
+  bombando: '#FACC15'
+  pódio: '#FACC15'
+  polêmico: '#ff2a1f'
+  cuidado: '#ff2a1f'
+  atacar: '#ff2a1f'
+cta:
+  a: QUAL VOCÊ VAI TESTAR? 👇
+  b: comenta o número aqui embaixo
+  comentario: 'vou testar o #1 🚀'
+club: aprenda a integrar essas IAs de verdade
+publicar:
+  titulo: 'IA caçadora de falhas domina o GitHub pelo 8º dia seguido: +1.608 estrelas'
+  contexto: Top 10 do GitHub de 28/11/2026, do décimo ao primeiro, com os projetos
+    que mais ganharam estrelas no dia. O polêmico Claude BugHunter segue no topo pelo
+    oitavo dia seguido, com 1.608 estrelas.
+  telegram: 'O polêmico Claude BugHunter, que transforma a IA em caçadora de falhas
+    de segurança, está em primeiro no GitHub pelo oitavo dia seguido: 1.608 estrelas
+    hoje. O superpowers, que faz a IA planejar antes de programar, ficou em segundo.
+    E o guia que evita recusa de app na Apple e no Google cresceu 7% em um dia.'

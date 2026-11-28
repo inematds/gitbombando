@@ -1,0 +1,67 @@
+[
+ {
+  "id": "f1",
+  "fala": "Uma inteligência artificial que caça brechas de segurança não larga o primeiro lugar do GitHub. Já é o oitavo dia seguido. E hoje ela cresceu ainda mais.",
+  "legenda": "Uma inteligência artificial que caça brechas de segurança não larga o primeiro lugar do GitHub. Já é o oitavo dia seguido. E hoje ela cresceu ainda mais."
+ },
+ {
+  "id": "f2",
+  "fala": "Os dez projetos que mais cresceram hoje somaram oito mil cento e sessenta e duas estrelas. Vou do décimo ao primeiro.",
+  "legenda": "Os dez projetos que mais cresceram hoje somaram 8.162 estrelas. Vou do décimo ao primeiro."
+ },
+ {
+  "id": "f3",
+  "fala": "Em décimo, um guia pra quem tem aplicativo. Ele confere o seu app antes da Apple e do Google e avisa o que daria recusa. Cresceu sete por cento em um dia. Foram quinhentas e trinta estrelas.",
+  "legenda": "Em décimo, um guia pra quem tem aplicativo. Ele confere o seu app antes da Apple e do Google e avisa o que daria recusa. Cresceu 7% em um dia. Foram 530 estrelas."
+ },
+ {
+  "id": "f4",
+  "fala": "Nono lugar, o MiniMind. Ele mostra como montar a sua própria inteligência artificial do zero, em umas duas horas e gastando quase nada. Uma aula aberta sobre como a i-á funciona por dentro.",
+  "legenda": "Nono lugar, o MiniMind. Ele mostra como montar a sua própria inteligência artificial do zero, em umas duas horas e gastando quase nada. Uma aula aberta sobre como a i-á funciona por dentro."
+ },
+ {
+  "id": "f5",
+  "fala": "Em oitavo, o CLI-Anything, que não sai do Top dez. Ele faz qualquer programa do computador obedecer a i-á. Você pede, ela opera. São seiscentas e sessenta e seis estrelas.",
+  "legenda": "Em oitavo, o CLI-Anything, que não sai do Top dez. Ele faz qualquer programa do computador obedecer a i-á. Você pede, ela opera. São 666 estrelas."
+ },
+ {
+  "id": "f6",
+  "fala": "Sétimo, o last thirty days, outro veterano. Você dá um assunto e ele vasculha Reddit, YouTube e X pra contar o que as pessoas estão dizendo de verdade. Foram seiscentas e setenta e cinco estrelas.",
+  "legenda": "Sétimo, o last thirty days, outro veterano. Você dá um assunto e ele vasculha Reddit, YouTube e X pra contar o que as pessoas estão dizendo de verdade. Foram 675 estrelas."
+ },
+ {
+  "id": "f7",
+  "fala": "Número seis, o AutoClip. Ele pega uma live ou um vídeo longo e corta sozinho em vídeos curtos, com legenda e capa. Faz de graça o que muita gente paga caro. Ganhou setecentas e dezoito estrelas.",
+  "legenda": "Número seis, o AutoClip. Ele pega uma live ou um vídeo longo e corta sozinho em vídeos curtos, com legenda e capa. Faz de graça o que muita gente paga caro. Ganhou 718 estrelas."
+ },
+ {
+  "id": "f8",
+  "fala": "Em quinto, o diagram design. Você explica em palavras simples e a i-á desenha um diagrama caprichado, com as cores da sua empresa. Somou setecentas e vinte e cinco estrelas.",
+  "legenda": "Em quinto, o diagram design. Você explica em palavras simples e a i-á desenha um diagrama caprichado, com as cores da sua empresa. Somou 725 estrelas."
+ },
+ {
+  "id": "f9",
+  "fala": "Quarto lugar, o Firecrawl, presença fixa no Top dez. Ele lê qualquer site e entrega o conteúdo limpinho pra i-á. São os olhos dela na internet. Foram oitocentas e vinte e duas estrelas.",
+  "legenda": "Quarto lugar, o Firecrawl, presença fixa no Top dez. Ele lê qualquer site e entrega o conteúdo limpinho pra i-á. São os olhos dela na internet. Foram 822 estrelas."
+ },
+ {
+  "id": "f10",
+  "fala": "E agora o pódio. Terceiro, o Ghost Downloader. Um programa só que baixa vídeo, arquivo e torrent, mesmo com internet ruim, e promete aposentar cinco aplicativos. São oitocentas e trinta e seis estrelas.",
+  "legenda": "E agora o pódio. Terceiro, o Ghost Downloader. Um programa só que baixa vídeo, arquivo e torrent, mesmo com internet ruim, e promete aposentar cinco aplicativos. São 836 estrelas."
+ },
+ {
+  "id": "f11",
+  "fala": "Em segundo, o superpowers, que não sai do Top dez. Ele obriga a i-á a parar, entender o que você quer e planejar antes de programar. Ganhou novecentas e vinte e duas estrelas.",
+  "legenda": "Em segundo, o superpowers, que não sai do Top dez. Ele obriga a i-á a parar, entender o que você quer e planejar antes de programar. Ganhou 922 estrelas."
+ },
+ {
+  "id": "f12",
+  "fala": "E o número um. Ele de novo. O Claude BugHunter transforma a i-á num caçador de falhas em sites e sistemas. Serve pra proteger, mas pode atacar. Isso é polêmico, cuidado. Foram mil seiscentas e oito estrelas.",
+  "legenda": "E o número um. Ele de novo. O Claude BugHunter transforma a i-á num caçador de falhas em sites e sistemas. Serve pra proteger, mas pode atacar. Isso é polêmico, cuidado. Foram 1.608 estrelas."
+ },
+ {
+  "id": "f13",
+  "fala": "E você, qual desses vai testar primeiro? Tá tudo no inema ponto club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet.",
+  "legenda": "E você, qual desses vai testar primeiro? Tá tudo no inema.club, mas lá você aprende a integrar esses projetos em vez de só copiar, e direto na internet."
+ }
+]
